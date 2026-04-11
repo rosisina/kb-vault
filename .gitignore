@@ -1,0 +1,52 @@
+# ── Source material (immutable; may contain real names; must never enter git)
+raw/
+
+# ── Generated reports (rebuilt on demand; not part of permanent wiki)
+# Use output/* (not output/) so git still descends into the directory and
+# negation patterns can re-include specific files.
+output/*
+# Exception: Aurora v2 strategy artifacts (proposal, decisions, preflight) are
+# durable governance documents and SHOULD be tracked. Other output/ files remain
+# excluded.
+!output/aurora-v2-*.md
+!output/aurora-v2-*.docx
+
+# ── Converted/cached intermediate files (see CLAUDE.md PDF conversion section)
+*.converted.md
+
+# ── OS artifacts
+.DS_Store
+Thumbs.db
+
+# ── Python runtime artifacts (from communicative-interaction/ scripts etc.)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+.venv/
+venv/
+
+# ── Obsidian workspace state (personal; other users' workspace differs)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/graph.json
+# Note: the rest of .obsidian/ (plugins, snippets, themes) IS tracked.
+
+# ── Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Node artifacts (if anything ever adds them)
+node_modules/
+
+# ── Secrets & credentials (defensive)
+*.key
+*.pem
+.env
+.env.local
+credentials.json
