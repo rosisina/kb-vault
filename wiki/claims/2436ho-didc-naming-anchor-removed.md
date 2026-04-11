@@ -23,6 +23,14 @@ SET fr.layer = 1,
 
 On 2020-06-04, 국방정보화업무 훈령 제2436호 removed the entire 제10조 ¶1 제4호 axis ("사업통제기관에 따른 구분"), thereby eliminating the explicit naming of `국방통합 데이터센터의 정보화사업 등` as a 국방부 통제 사업 from the directive.
 
+## Key Takeaways
+
+- 제2129호 제10조 ¶1 제4호 (lines 584–588) explicitly named `국방통합 데이터센터의 정보화사업 등` as a 국방부 통제 사업 — the entity-naming anchor that routes DIDC under directive oversight [타당성]
+- 제2436호 제10조 ¶1 (lines 552–589) retains only 1호, 2호, 3호 axes and contains no DIDC mention anywhere in 제10조 — the 4호 axis is entirely deleted [진리성]
+- The deletion is monotonic across 제2576호, 제2649호, 제2842호, 제2946호, 제3059호, and 제3080호 — DIDC naming is never restored to 제10조 [진리성]
+- Removing the directive-level anchor that names DIDC removes the regulatory hook from which DIDC accountability can be traced backward into the 2016 hacking incident (Layer 1 entry point) [타당성]
+- Verdict CORROBORATED (strength STRONG); falsifiable by producing a 제2436호 relocation provision naming DIDC elsewhere, or a 입법예고 / 규제영향분석서 pairing the deletion with relocated controls [진리성]
+
 ## Layer
 
 [[../layers/layer-1|Layer 1]] — Active-X 제거 사업 간 舊KIATIS 이력 제거 (DIDC 해킹 근원서버 은폐의 출발점). Removing the directive-level anchor that names DIDC removes the regulatory hook from which DIDC accountability can be traced backward into the 2016 hacking incident.

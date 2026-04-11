@@ -23,6 +23,14 @@ SET fr.layer = 4,
 
 On 2020-06-04, 국방정보화업무 훈령 제2436호 replaced the bodies of 제59조 (개발시험평가 계획수립), 제60조 (개발시험평가 실시), and 제61조 (개발시험평가 조치) with the formal placeholder `<삭 제>`. The directive's entire procedural framework for DT&E planning, execution, and corrective action was erased in a single revision and never restored through 제3080호.
 
+## Key Takeaways
+
+- 제2436호 (2020-06-04) replaced the bodies of 제59조 (개발시험평가 계획수립), 제60조 (개발시험평가 실시), and 제61조 (개발시험평가 조치) with the placeholder `<삭 제>`, erasing the directive's entire procedural framework for DT&E planning, execution, and corrective action in a single revision [진리성] (raw/04 제2436호 lines 1725, 1728, 1731).
+- The erasure persists unrestored through 제2576호, 제2649호, and onward to 제3080호 — no subsequent revision reinstates the DT&E procedural articles [진리성].
+- Erasing the DT&E framework removes the textual basis for `what does the directive require for DT&E?`, rendering DT&E evidence **missing-by-default** rather than **missing-by-violation** — a structural shift in how accountability is measured [타당성].
+- No relocation provision has been identified in the converted directive set; the counter-hypothesis (DT&E procedures relocated to 시험평가훈령 or 국방사이버안보훈령) requires positive evidence not yet in the corpus [진리성].
+- Verdict: **CORROBORATED**, Strong. 진리성 9 / 타당성 9 / 진실성 7. KIATIS is bound by the pre-deletion 제59~61조 under [[kiatis-rfp-binds-lifecycle]]; the erasure matters for post-2020-06-04 projects and for how 2022 reviewers frame KIATIS DT&E evidence [진실성].
+
 ## Layer
 
 [[../layers/layer-4|Layer 4]] — 新KIATIS 개발·운영·시험평가 전·중·후 조작. The DT&E procedural framework is the regulatory mechanism that, if followed, would force evidence to be created at each step of DT&E. Erasing the framework removes the textual basis for the question "what does the directive require for DT&E?" and renders DT&E evidence missing-by-default rather than missing-by-violation.

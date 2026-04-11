@@ -55,3 +55,5 @@ Article 63 defines the **nine mandatory OT&E evaluation items** and the correcti
 - [[defense-it-2129-article-62|제62조 (운용시험평가 계획수립)]]
 - [[defense-it-2129-article-64|제64조 (운용시험평가 결과조치)]]
 - [[../layers/layer-4|Layer 4]]
+- [[../claims/2436ho-dtne-articles-erased|A10: 제2436호 DT&E article body deletion (OT&E counterpart)]]
+- [[../topics/test-evaluation-manipulation|Test Evaluation Manipulation]]

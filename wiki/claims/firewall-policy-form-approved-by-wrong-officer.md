@@ -7,7 +7,7 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L1-DIDC-007"})
 SET fr.layer = 1,
     fr.claimType = "procedural_artifact_approval_chain_violation",
-    fr.claimDesc = "The 2019-08-26 firewall policy change request for KIATIS test evaluation was drafted by 윤정모 (이준호 in pseudonym), reviewed by 한지훈 at 17:38:29 on 2019-08-26, and approved by 윤일원 (최영수 in pseudonym, 행정정보화과장) at 17:51:26 the same day. However, DIDC SOP 제12호 제37조 ① explicitly requires firewall policy changes (별지 제6호) to be approved by 정보보호과장 (information protection section chief), NOT 행정정보화과장 (administrative IT section chief). The approval chain on the actual KIATIS firewall change form therefore violates the SOP's required approval authority — meaning the form exists but its approval signature is procedurally defective",
+    fr.claimDesc = "The 2019-08-26 firewall policy change request for KIATIS test evaluation was drafted by 이준호 (대위), reviewed by 한지훈 at 17:38:29 on 2019-08-26, and approved by 최영수 (행정정보화과장) at 17:51:26 the same day. However, DIDC SOP 제12호 제37조 ① explicitly requires firewall policy changes (별지 제6호) to be approved by 정보보호과장 (information protection section chief), NOT 행정정보화과장 (administrative IT section chief). The approval chain on the actual KIATIS firewall change form therefore violates the SOP's required approval authority — meaning the form exists but its approval signature is procedurally defective",
     fr.counterHypothesis = "The DIDC SOP version in force in 2019 (a pre-2018-12-01 revision) named 행정정보화과장 as the approver, OR the 2019 KIATIS firewall change was specifically delegated to 행정정보화과장 by 정보보호과장 in writing",
     fr.falsificationCondition = "Production of (a) the pre-2019 DIDC SOP revision text showing 행정정보화과장 (or equivalent) as the named approver, OR (b) a written delegation document from 정보보호과장 to 행정정보화과장 dated before 2019-08-26",
     fr.verdict = "NEEDS_MORE_EVIDENCE",
@@ -16,16 +16,16 @@ SET fr.layer = 1,
     fr.validity = 8,
     fr.sincerity = 7,
     fr.analysisDate = date("2026-04-11"),
-    fr.summary = "The 불기소이유서 itself documents the approval chain (윤정모 draft → 한지훈 review → 윤일원/행정정보화과장 approval). The current DIDC SOP requires 정보보호과장 approval. Whether the 2019 SOP version had a different approver is the central pre-requisite for verdict elevation — pending pre-2019 SOP revision ingest.";
+    fr.summary = "The 불기소이유서 itself documents the approval chain (이준호 draft → 한지훈 review → 최영수/행정정보화과장 approval). The current DIDC SOP requires 정보보호과장 approval. Whether the 2019 SOP version had a different approver is the central pre-requisite for verdict elevation — pending pre-2019 SOP revision ingest.";
 ```
 
 ## Claim
 
 The 2019-08-26 firewall policy change request that exceptionally permitted direct DB access for KIATIS test evaluation was processed through the following approval chain (per the 불기소이유서 verbatim narrative, raw/05 (20221014) lines 73-97):
 
-1. **Drafter:** 윤정모 ([[../entities/people/han-ji-hoon|이준호]] in pseudonym, 대위) — `대위 윤정모가 기안`
-2. **Reviewer:** 한지훈 ([[../entities/people/han-ji-hoon|한지훈]], 사업관리팀장) at **2019-08-26 17:38:29** — `피의자가 2019. 8. 26. 17:38:29에 검토를 결재`
-3. **Approver:** 윤일원 ([[../entities/people/han-ji-hoon|최영수]] in pseudonym, **행정정보화과장**) at **2019-08-26 17:51:26** — `같은 날 17:51:26에 행정정보화과장 윤일원의 결재를 득한 사실`
+1. **Drafter:** 이준호 (대위, mapping id 10) — `대위 이준호 drafted` (real name in raw/05 redacted to pseudonym 이준호 per mapping)
+2. **Reviewer:** [[../entities/people/han-ji-hoon|한지훈]] (사업관리팀장) at **2019-08-26 17:38:29** — `피의자가 2019. 8. 26. 17:38:29에 검토를 결재`
+3. **Approver:** 최영수 (**행정정보화과장**, mapping id 5) at **2019-08-26 17:51:26** — `같은 날 17:51:26에 행정정보화과장 최영수의 결재를 득한 사실` (real name in raw/05 redacted to pseudonym 최영수 per mapping)
 
 However, **DIDC SOP 제12호 제37조 ①** (currently numbered 제37조 in the latest revision; possibly 제39조 in the 2018-12-01 revision per the 불기소이유서's reference) explicitly requires firewall policy changes (별지 제6호 서식) to be approved by **각 센터 정보보호과장** (information protection section chief), not 행정정보화과장 (administrative IT section chief). The verbatim 제37조 ①:
 
@@ -35,13 +35,21 @@ However, **DIDC SOP 제12호 제37조 ①** (currently numbered 제37조 in the 
 
 **This is doubly significant**: the form is the very evidence the prosecution used to charge 한지훈 with 위계공무집행방해, but the same form is — under DIDC's own SOP — improperly approved. Either (a) the SOP version in force in 2019 had a different named approver (which would shift this atom to NEEDS_MORE_EVIDENCE pending pre-2019 SOP ingest), or (b) the approval chain was procedurally defective and the prosecution's reliance on the form is itself based on a defective document.
 
+## Key Takeaways
+
+- The 불기소이유서 (raw/05 (20221014) lines 90-97) verbatim documents the 2019-08-26 KIATIS firewall policy change approval chain: 대위 이준호 draft → 한지훈 review at 17:38:29 (기록 제612~613쪽) → 행정정보화과장 최영수 approval at 17:51:26 [진리성]
+- DIDC SOP 제12호 제37조 ① (raw/06/01 lines 537–545) requires firewall policy changes via 별지 제6호 서식 to be approved by 각 센터 정보보호과장, not 행정정보화과장 [타당성]
+- The 불기소이유서 itself references the 국방통합데이터센터 부대예규 (18.12.1. 개정) 제39조 (raw/05 (20221014) lines 159-163), confirming the 2018-12-01 revision was the version in force in 2019 and that the article was numbered 제39조 at that time [진리성]
+- If the 2019 SOP version named 정보보호과장 as approver, the prosecution's own charging document (the 불기소이유서) rests on a form whose approval chain violates DIDC's own SOP — a Layer 6 procedural defect on a Layer 1 artifact [진실성]
+- Verdict NEEDS_MORE_EVIDENCE (strength MODERATE, 진리성 9 / 타당성 8 / 진실성 7); elevates to CORROBORATED upon ingest of pre-2018-12-01 or 2018-12-01 DIDC SOP revision text naming 정보보호과장 [타당성]
+
 ## Layer
 
 [[../layers/layer-1|Layer 1]] primary (DIDC procedural cover-up — the firewall change is the entry point), [[../layers/layer-4|Layer 4]] secondary (KIATIS test-evaluation manipulation context), [[../layers/layer-6|Layer 6]] secondary (the prosecution's reliance on a procedurally defective document).
 
 ## Supporting evidence
 
-- **불기소이유서 verbatim narrative** (raw/05 (20221014) lines 90-97): `2019. 8. 7. 모든 사용자가, DB에 직접 접속할 수 있도록 하는 방화벽 보안정책 요청서를 대위 윤정모가 기안하여 피의자가 결재한 사실(기록 제612쪽), 2019. 8. 26. 다시 대위 윤정모가 기안한 [방화벽 정책 적용 요청(협조)] 공문을 피의자가 2019. 8. 26. 17:38:29에 검토를 결재하고 같은 날 17:51:26에 행정정보화과장 윤일원의 결재를 득한 사실(기록 613쪽)`
+- **불기소이유서 verbatim narrative** (raw/05 (20221014) lines 90-97): `2019. 8. 7. 모든 사용자가, DB에 직접 접속할 수 있도록 하는 방화벽 보안정책 요청서를 대위 이준호가 기안하여 피의자가 결재한 사실(기록 제612쪽), 2019. 8. 26. 다시 대위 이준호가 기안한 [방화벽 정책 적용 요청(협조)] 공문을 피의자가 2019. 8. 26. 17:38:29에 검토를 결재하고 같은 날 17:51:26에 행정정보화과장 최영수의 결재를 득한 사실(기록 613쪽)`
 - **DIDC SOP 제12호 제37조 ① verbatim** (raw/06/01 line 537–545): the approval requirement clause
 - **The 불기소이유서 also cites the (18.12.1. 개정) revision of DIDC 부대예규 제 39조** (raw/05 (20221014) lines 159-163): `[국방통합데이터센터 부대예규 (18. 12. 1. 개정) 제 39조(방화벽 및 SSL-VPN 관리/운용) 제2항에서는 ‘수요부대(기관) 응용체계 담당자는 업무를 위해 센터에서 관리하는 정보시스템에 원격으로 접속할 경우 반드시 SSL-VPN에 접속 후 정보시스템에 접속해야 한다’고 정하고 있고` — this confirms two important things: (a) the 2018-12-01 revision was the version in force in 2019; (b) the article was numbered 제39조 then (currently 제37조 in the latest revision available). **This is a specific Layer 1 trace target**: the pre-2018-12-01 revision article numbering and approver identity.
 - **The form's existence is documented in the 기록 제612쪽 and 제613쪽** of the prosecutor's evidence record — meaning the form is a primary archival document that should be retrievable.
@@ -51,7 +59,7 @@ However, **DIDC SOP 제12호 제37조 ①** (currently numbered 제37조 in the 
 The DIDC SOP version in force in 2019 named 행정정보화과장 (or an equivalent administrative position) as the approver, not 정보보호과장. Possible mechanisms:
 
 1. **Pre-2018-12-01 revision** — the SOP went through 6 revisions before 2018-12-01; one of them may have used a different approver designation
-2. **2019 specific delegation** — 정보보호과장 may have delegated approval authority to 행정정보화과장 by written order, in which case the 윤일원 approval is procedurally proper under delegation
+2. **2019 specific delegation** — 정보보호과장 may have delegated approval authority to 행정정보화과장 by written order, in which case the 최영수 approval is procedurally proper under delegation
 3. **Multi-signature path** — the SOP may permit either 정보보호과장 OR 행정정보화과장 to approve, with the delegation chain unstated in 제37조 ①
 4. **Reorganization** — the 행정정보화과장 position may have absorbed 정보보호과장 functions during the 2019 period through reorganization
 
@@ -85,7 +93,7 @@ If item 1 or 2 shows 정보보호과장 as the approver, the verdict elevates to
 ## Open Questions
 
 - **What did the pre-2018-12-01 (or 2018-12-01) DIDC SOP 제12호 say about the firewall change approver?** Critical pre-requisite. Pending raw/06 predecessor revision request to James.
-- **Was 윤일원 (행정정보화과장) ever delegated approval authority by 정보보호과장?** Pending DIDC personnel/delegation record.
+- **Was 최영수 (행정정보화과장) ever delegated approval authority by 정보보호과장?** Pending DIDC personnel/delegation record.
 - **Did 한지훈's (20220929) rebuttal raise this approval chain defect?** Pending raw/05 detailed compile.
 
 ## Related

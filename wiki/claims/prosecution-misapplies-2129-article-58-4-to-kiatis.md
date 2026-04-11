@@ -38,6 +38,14 @@ Therefore, **제58조 ¶4 cannot apply to KIATIS**. The prosecution's citation o
 
 **This legal misapplication is the foundation on which the entire 위계공무집행방해 기소유예 stigma stands.** If 제58조 ¶4 does not apply, the prosecution's argument that the integrated execution was permitted by directive collapses, and the underlying conduct (per the warrant's narrative) should have been treated as either (a) a 제58조 ¶2 exception requiring written 사업통제기관 approval (which would shift the inquiry to whether such approval exists), or (b) a directive violation by whoever authorized the integrated execution.
 
+## Key Takeaways
+
+- The 2022-10-07 불기소이유서 (Case 2022 형제66호) verbatim cites **제2129호 제58조 ¶4** (기록 제1253쪽) as legal basis legitimating integrated DT&E/OT&E execution in KIATIS [진리성].
+- 제58조 ¶4 is structurally a sub-provision of 제58조 ¶3: its verbatim full text reads `제3항의 사업은 개발시험평가와 운용시험평가를 운용시험평가 환경에서 동시에 실시할 수 있다` — the 불기소이유서 **omits the `제3항의 사업` qualifier** in its quotation [타당성].
+- KIATIS at 6.25억 KRW does not qualify under any 제58조 ¶3 path: 5억-미만 (foreclosed), 기관-위임 (국전원 is regulation-designated 사업관리기관 per 제11조 ¶4), 제46조 위임 (no document produced) [타당성].
+- The prosecution cited the exception as if it were the main regime — a textual misapplication on the prosecution's own page, in their own quotation of the directive. Only 위계공무집행방해 received 기소유예 while 5 of 6 charges were dismissed for insufficient evidence [진실성].
+- Verdict: **CORROBORATED**, Strong. 진리성 10 / 타당성 10 / 진실성 9. This atom is structurally one of the most powerful Layer 6 atoms because the error is detectable by any reader holding both the 불기소이유서 and the directive [진리성].
+
 ## Layer
 
 [[../layers/layer-6|Layer 6]] — 군 검찰단의 사기 수사와 범죄자 낙인. This atom identifies the **specific legal error in the prosecutor's own written reasoning**. Unlike [[han-ji-hoon-prosecution-violates-2129-role-separation]] which addresses the role-tier mismatch, this atom addresses the regime-clause mismatch (which paragraph of 제58조 applies). Together they identify two distinct directive-level errors in the same prosecution.

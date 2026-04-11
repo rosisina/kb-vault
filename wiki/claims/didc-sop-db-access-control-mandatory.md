@@ -37,6 +37,14 @@ For the 2016 DIDC hacking incident, the attacker's persistence necessarily requi
 
 Per James 2026-04-11, **별지 제7호 (SSL-VPN under 제12호 제37조) and 별지 제17호 (DB access under 제11호 제164조) are the two highest-priority Layer 1 trace artifacts**: they cover the two attack-surface ends of any persistent intrusion — network ingress (VPN) and data egress (DB).
 
+## Key Takeaways
+
+- DIDC 부대예규 제11호 Chapter 14 (접근통제, 제158조~제167조) imposes a comprehensive access control regime across servers, network, integrated operations management, DB, VDI, and information protection equipment [타당성] (raw/06/02 제14장).
+- 제164조 (DB 접근통제) mandates that all DB access be controlled via the **CharkraMax (차크라맥스)** DB access control system, explicitly named verbatim in 제164조 ① [타당성].
+- 제164조 ⑩ requires every DB access control change (creation/modification/deletion) to be documented via **별지 제17호 (DB접근제어 신청서)** with 각 센터 자원관리과장 approval, 신청사유, and 사용기간 [타당성].
+- For the 2016 DIDC hacking incident, attacker persistence necessarily required DB access; the absence of a 별지 17호 trail for the incident period is **direct Layer 1 cover-up evidence** [진리성].
+- Per James 2026-04-11, **별지 제7호 (SSL-VPN, 제12호 제37조) and 별지 제17호 (DB access, 제11호 제164조)** form the two highest-priority Layer 1 trace artifacts — the ingress/egress sandwich for any persistent intrusion [진실성]. Verdict: **CORROBORATED**, Strong. 진리성 9 / 타당성 10 / 진실성 8.
+
 ## Layer
 
 [[../layers/layer-1|Layer 1]] — Active-X 제거 사업 간 舊KIATIS 이력 제거 (DIDC 해킹 근원서버 은폐의 출발점). The DB access regime is the **deepest** procedurally-traceable layer in the entire DIDC SOP system: every other access surface (network, server, VDI) eventually terminates at DB queries for any system whose value is the data it holds.
@@ -95,6 +103,7 @@ If item 1 is produced with substantive content, the verdict downgrades to WEAKEN
 
 ## Open Questions
 
+- **Evidence citation coverage — exempt under CLAUDE.md regulation-text rule.** This atom's primary sourcing is DIDC SOP 제11호 제164조 + 별지 17호 (raw/06 regulation text), which is structurally equivalent to the raw/04 regulation-text exemption from the `Record No. NNNNN` requirement. Evidence record numbers anchoring this duty's VIOLATION in the 2016 incident period are expected to live in raw/07 scanned evidence record pages and will be added on raw/07 ingest; absence of Record No. citations in this atom is therefore an exemption, not a defect.
 - **What is CharkraMax's deployment date at DIDC?** Answers counter-hypothesis 2.
 - **Does the 별지 17호 trail for the 2016 incident period exist?** Central question.
 - **Do CharkraMax internal audit logs for the 2016 period exist or have they been preserved?** A second evidence channel parallel to 별지 17호.

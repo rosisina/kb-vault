@@ -36,7 +36,7 @@ The common thread is that each body treated the matter as within MND's jurisdict
 ### 3. Individual protection
 
 - **Strengthened whistleblower protection laws** — improve the effectiveness of current legislation, which was shown to be insufficient in this case.
-- **Immediate protection systems** — protection mechanisms triggered **immediately** upon filing a report, not after an investigation concludes (by which point the retaliation has already occurred, as in Layers 5 and 6).
+- **Immediate protection systems** — protection mechanisms triggered **immediately** upon filing a report, not after an investigation concludes (by which point the retaliation has already occurred, as in Layers 5 and 6). **Pre-planned retaliation finding (book §3.5.1.5):** In the Layer 5 case, the isolation office to which 한지훈 was assigned was prepared **before** the 2022-02-10 false 갑질 report was filed; 김민수's recorded statement `준비 다 됐다` on 2022-02-21 (atomized at [[../claims/layer5-isolation-office-premeditated|L5 premeditation atom]], anchored to 기록 제3,900 / 제10,033 / 제10,082) demonstrates that the retaliation was not a reactive administrative response but a pre-planned operational sequence. This is the load-bearing fact for "protection triggered at filing time is too late": the retaliation window is not at filing time, it is at the moment the target becomes a threat to concealment.
 - **Class action lawsuits** — collective remedies for systematic organizational harm, on the theory that a distributed-agency attack is a collective offense requiring collective remedy.
 
 ### 4. Special prosecutor system
@@ -61,6 +61,17 @@ These limitations are themselves evidence for the reform proposals: a working wh
 - [타당성] The blockchain-based document tracking proposal has direct technical standing: it would prevent the time-reversal manipulation documented in Layer 4 by making backdating detectable at hash-verification time. It is implementable with current technology.
 - [진리성] The research limitations acknowledged in the conclusion are themselves evidence for the reform argument — a working whistleblower-protection system would have prevented these limitations.
 - [진실성] The book frames reform not as a response to this specific case but as a structural necessity: the 7-layer attack geometry is replicable under current institutional conditions, and without reform other whistleblowers will experience equivalent failures.
+
+## Layer 5 claim atoms
+
+The six foundational Layer 5 atoms documenting the false 갑질 complaint and fabricated audit are now available:
+
+- [[../claims/layer5-48hr-retaliation-causal-link|48hr retaliation causal link]] — false complaint filed within 48 hours of 舊KIATIS security exposure
+- [[../claims/layer5-six-month-isolation-human-rights|six-month isolation human rights]] — 6-month solitary confinement across 4 successive offices
+- [[../claims/layer5-predetermined-audit-conclusion|predetermined audit conclusion]] — disciplinary outcome declared before 29-question interrogation
+- [[../claims/layer5-fabricated-warning-letter|fabricated warning letter]] — 경고장 lists non-existent job title
+- [[../claims/layer5-park-seojun-nominal-complainant|park seojun nominal complainant]] — 박서준's grievances entirely absent from 경고장
+- [[../claims/layer5-isolation-office-premeditated|isolation office premeditated]] — isolation office prepared before complaint filed; 김민수 `준비 다 됐다`
 
 ## Related
 

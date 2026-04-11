@@ -26,10 +26,47 @@ Article 57 of MND Directive No. 2129 (2018-02-05) defines the two categories of 
 
 *(Source: `국방 정보화업무 훈령(국방부훈령)(제2129호)(20180205).converted.md` lines 1817–1831)*
 
+## Revision trajectory (2017-10-10 → 2025-09-17, per P6 blind re-measurement 2026-04-11)
+
+The P6 blind re-measurement (Sonnet Explore subagent, strict measurement-stage isolation, no wiki/book/CLAUDE.md access) read Article 57 verbatim across 제2129호, 제2263호, 제2398호, 제2436호, and 제2842호. The trajectory is:
+
+| Revision | Date | ¶1 modal | ¶1 제1호 DT&E role binding | ¶1 제1호 DT&E result-judgment | ¶1 제2호 OT&E role binding | ¶1 제2호 OT&E environment hedge | ¶2 AT&E |
+|---|---|---|---|---|---|---|---|
+| 제2129호 | 2018-02-05 | `구분한다` (mandatory) | `사업관리기관 주관 하에` (present) | `합격 또는 불합격으로 결과를 판정할 것` (present) | `사업주관기관 주관 하에` (present) | bare `환경에서` (no hedge) | present |
+| 제2263호 | 2019-02-26 | IDENTICAL to 제2129호 | IDENTICAL | IDENTICAL | IDENTICAL | IDENTICAL | IDENTICAL |
+| **제2398호** | **2020-02-13** | IDENTICAL | IDENTICAL | IDENTICAL | IDENTICAL | **ADDED** `또는 이와 유사한 환경에서` | IDENTICAL |
+| **제2436호** | **2020-06-04** | **`구분할 수 있다`** (permissive) | **REMOVED** (no replacement) | **REMOVED** (no replacement) | **REMOVED** (no replacement) | **REVERTED** to bare | IDENTICAL |
+| **제2842호** | **2023-09-20** | IDENTICAL to 제2436호 | IDENTICAL (remains removed) | IDENTICAL (remains removed) | IDENTICAL (remains removed) | **RE-ADDED** `또는 이와 유사한 환경에서` | IDENTICAL |
+
+### Five simultaneous structural movements at 제2436호
+
+제2436호 is a single-revision rebuild of 제57조 moving five distinct elements of the article:
+
+1. **Modal verb weakening** ¶1 opening: `구분한다` (mandatory partition) → `구분할 수 있다` (permissive/discretionary). Weakens the mandatory character of the 시험평가 regime. (Non-anchor per current framework, below diagnostic threshold.)
+2. **A11 — DT&E role binding erasure** ¶1 제1호: `사업관리기관 주관 하에` removed with no replacement. DT&E execution becomes textually unbound from any named role-tier within this article.
+3. **A12 — DT&E result-judgment clause erasure** ¶1 제1호: `합격 또는 불합격으로 결과를 판정할 것` removed with no replacement. The DT&E sub-clause is reduced from a bound-and-judged definition to a bare descriptive phrase. (Asymmetric: the parallel OT&E `군사용 적합/부적합으로 판정할 것` clause in 제2호 is retained.)
+4. **A8b — OT&E role binding erasure** ¶1 제2호: `사업주관기관 주관 하에` removed with no replacement. Mirrors A11.
+5. **A8a — OT&E environment hedge reversal** ¶1 제2호: `또는 이와 유사한 환경에서` (added 4 months earlier at 제2398호) removed, returning to bare `환경에서`.
+
+Three of the five (A11, A12, A8b) combine to strip the DT&E definition of both role binding and result-judgment while stripping the OT&E definition of only role binding. The asymmetry — DT&E loses more than OT&E — is itself a diagnostic observation pending further analysis.
+
+A11 and A12 were discovered on 2026-04-11 during A.6 P6 blind re-measurement; the original A8b atom (OT&E-only) did not capture the DT&E-side symmetry.
+
+**Note on the book's Article 57 comparative table:** Book §3.4.4.2.3 / Main text record—Layer 4—010 presents an Article 57 comparative table that appears to omit the 제2398호 environment hedge insertion (showing 제2129호 / 제2263호 / 제2398호 as identical). The pilot L4 subagent flagged this as UNCLEAR; the P6 blind re-measurement resolved it in favor of the wiki's raw/04-based reading. See [[../claims/2398-2842ho-otne-environment-hedge-flipflop]] Book-side audit note and [[../_contradictions|_contradictions.md]] C-L4-01 for the full audit trail.
+
+## Related claim atoms
+
+- [[../claims/2398-2842ho-otne-environment-hedge-flipflop]] — A8a OT&E environment hedge flip-flop
+- [[../claims/2436ho-otne-sponsor-binding-erased]] — A8b OT&E sponsor binding erasure
+- [[../claims/2436ho-dtne-sponsor-binding-erased]] — A11 DT&E sponsor binding erasure (symmetric to A8b; added 2026-04-11 after P6)
+- [[../claims/2436ho-cluster-six-anchors]] — 제2436호 eight-anchor cluster (article body title retained "six-anchors" for filename stability but cluster count is now 8)
+
 ## Open Questions
 
-- Does this article's text match the 2017-10-10 (제2075호) predecessor verbatim? Unknown until 제2075호 is ingested.
-- Which specific revision (if any) between 2018 and 2025 modifies the two-category structure? Article-level diff to be computed on subsequent ingests.
+- Does A12 (DT&E result-judgment erasure) have a replacement location elsewhere in 제2436호? Cross-check required against 제60조 — but note 제60조 was also deleted at 제2436호 per A10, so the candidate replacement location may itself be absent.
+- The A11/A8b asymmetry with A12: why was the DT&E result-judgment deleted while the OT&E result-judgment was retained? Is this a drafting oversight, a deliberate asymmetry, or a signal about which judgment was procedurally inconvenient to preserve?
+- Does 제2075호 (2017-10-10) predecessor match 제2129호 verbatim on 제57조? Pending 제2075호 read.
+- Does this article change again in 제2946호 (2024-07-17), 제3059호 (2025-07-09), or 제3080호 (2025-09-17)? Not yet measured by P6 (scope was 제2129~제2842).
 
 ## Related
 

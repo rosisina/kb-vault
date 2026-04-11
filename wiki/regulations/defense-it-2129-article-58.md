@@ -43,3 +43,4 @@ Article 58 establishes the **six procedural principles** under which T&E is cond
 - [[defense-it-2129-article-59|제59조 (개발시험평가 계획수립)]]
 - [[defense-it-2129-article-60|제60조 (개발시험평가 실시)]]
 - [[../layers/layer-4|Layer 4]]
+- [[../claims/kiatis-2129ho-main-regime-applies|KIATIS 2129호 main regime atom — resolves the 6.25억 question in Open Questions]]

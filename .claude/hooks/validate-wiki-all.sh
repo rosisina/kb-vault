@@ -16,7 +16,7 @@ total=0
 while IFS= read -r -d '' f; do
   base="$(basename "$f")"
   case "$base" in
-    _index.md|_master-index.md|log.md|_contradictions.md|timeline.md) continue ;;
+    _index.md|_master-index.md|log.md|_contradictions.md|timeline.md|_record-index.md) continue ;;
   esac
   case "$f" in
     */_examples/*) continue ;;
@@ -29,6 +29,14 @@ while IFS= read -r -d '' f; do
   grep -q '^## Key Takeaways' "$f" || missing+=("Key Takeaways")
   grep -q '^## Related'      "$f" || missing+=("Related")
 
+  # Extra contract for claim atoms (A.6 Re-verify)
+  case "$f" in
+    */wiki/claims/*)
+      grep -q '^## Supporting evidence' "$f" || missing+=("Supporting evidence")
+      grep -q '^## Spot-check'          "$f" || missing+=("Spot-check")
+      ;;
+  esac
+
   if [ ${#missing[@]} -gt 0 ]; then
     rel="${f#"$WIKI_DIR"/}"
     violations+=("- wiki/$rel — missing: ${missing[*]}")
@@ -38,7 +46,7 @@ done < <(find "$WIKI_DIR" -type f -name '*.md' -print0)
 if [ ${#violations[@]} -gt 0 ]; then
   printf 'WIKI CONTRACT DRIFT (%d/%d files violating, likely from manual edits):\n' "${#violations[@]}" "$total"
   printf '%s\n' "${violations[@]}"
-  printf '\nFix these before further ingest. Each must have **Source:**, **Layer:**, ## Key Takeaways, ## Related.\n'
+  printf '\nFix these before further ingest. Each must have **Source:**, **Layer:**, ## Key Takeaways, ## Related. Claim atoms additionally need ## Supporting evidence and ## Spot-check.\n'
 fi
 
 exit 0

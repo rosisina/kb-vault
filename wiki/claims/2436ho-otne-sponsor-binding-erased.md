@@ -23,6 +23,14 @@ SET fr.layer = 4,
 
 On 2020-06-04, 국방정보화업무 훈령 제2436호 removed the phrase `사업주관기관 주관 하에` from the OT&E definition in 제57조 ¶1 제2호. After the deletion, the OT&E definition no longer textually binds OT&E execution to any named role-tier within that article. The deletion is permanent through 제3080호 (2025-09-17).
 
+## Key Takeaways
+
+- 제2129호 제57조 ¶1 제2호 bound OT&E execution with `사업주관기관 주관 하에 실제 조성된…`; 제2436호 제57조 ¶1 제2호 (line 1685) removes `사업주관기관 주관 하에` with no replacement [진리성]
+- The deletion persists through 제2576호 (line 1693), 제2649호 (line 1702), 제2842호 (line 1705), and 제3080호 (line 1663) — a monotonic, non-reverted erasure [진리성]
+- Post-deletion, the OT&E definition no longer textually binds OT&E execution to the user agency that has operational stake in correctness (for KIATIS, the DMA) [타당성]
+- The candidate replacement 제2436호 제11조 ¶3 제4호 `시험평가 주관 및 결과 판정` is substantively weaker than `주관 하에` — it covers supervision and result judgment but not the integrated execution binding [타당성]
+- Verdict CORROBORATED (strength MODERATE); downgrades to NEEDS_MORE_EVIDENCE if Korean administrative-law reading judges `주관 및 판정` equivalent to `주관 하에` [타당성]
+
 ## Layer
 
 [[../layers/layer-4|Layer 4]] — 新KIATIS 개발·운영·시험평가 전·중·후 조작. The 사업주관기관 was, under 제2129호, the user agency responsible for sponsoring the system being built (for KIATIS, this was the DMA — 국방 유해발굴사업단). Erasing the user-agency binding from the OT&E definition removes the textual hook that would force OT&E execution to be led by the entity that has operational stake in correctness.

@@ -7,7 +7,7 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L1-CARTEL-001"})
 SET fr.layer = 1,
     fr.claimType = "operational_definition",
-    fr.claimDesc = "한지훈's 2022-09-29 rebuttal document explicitly names and defines the 'Defense Information Cartel' (국방정보화카르텔) as a coordinated 5-organization grouping: (1) 국방부 검찰단, (2) 국방부 정보화조직, (3) 국군방첩사령부 (formerly 안보지원사 / 안지사), (4) 국방연구원 (KIDA), (5) 기타 국방부 제조직. The cartel's alleged motive: to conceal the root server of the 2016 DIDC North Korean hacking incident and destroy evidence of the 15+-year violation of 국방사이버안보훈령 by directly accessing databases without VPN due to failure to remove vulnerable Active-X components",
+    fr.claimDesc = "한지훈's 2022-09-25 rebuttal document explicitly names and defines the 'Defense Information Cartel' (국방정보화카르텔) as a coordinated 5-organization grouping: (1) 국방부 검찰단, (2) 국방부 정보화조직, (3) 국군방첩사령부 (formerly 안보지원사 / 안지사), (4) 국방연구원 (KIDA), (5) 기타 국방부 제조직. The cartel's alleged motive: to conceal the root server of the 2016 DIDC North Korean hacking incident and destroy evidence of the 15+-year violation of 국방사이버안보훈령 by directly accessing databases without VPN due to failure to remove vulnerable Active-X components",
     fr.counterHypothesis = "The 'cartel' framing is a rhetorical construct by the rebuttal author and does not correspond to any actual coordinated organizational entity; the 5 named organizations operated independently and any apparent coordination is post-hoc pattern recognition",
     fr.falsificationCondition = "Production of (a) evidence that any of the 5 named organizations operated independently of the others on the matters at issue, OR (b) demonstration that the 한지훈's framing is rhetorical without corresponding to verifiable inter-organizational coordination",
     fr.verdict = "NEEDS_MORE_EVIDENCE",
@@ -21,7 +21,7 @@ SET fr.layer = 1,
 
 ## Claim
 
-한지훈's 2022-09-29 rebuttal document (`raw/05/(20220929)`) explicitly names and defines the term **`국방정보화카르텔` (Defense Information Cartel)** as a coordinated grouping of **5 organizations**, providing the operational definition that the case's narrative uses thereafter. The verbatim definition (raw/05 (20220929) lines 105-109):
+한지훈's 2022-09-25 rebuttal document (`raw/05/(20220929)`) explicitly names and defines the term **`국방정보화카르텔` (Defense Information Cartel)** as a coordinated grouping of **5 organizations**, providing the operational definition that the case's narrative uses thereafter. The verbatim definition (raw/05 (20220929) lines 105-109):
 
 > `본 논고는 2016년 국방통합데이터센터(DIDC) 북한 해킹 사건(이하 DIDC 해킹사건) 발생 후 국방부 검찰단, 국방부 정보화조직, 국군방첩사령부(이전 안지사), 국방연구원(KIDA) 등 국방부 제조직들에(이하 국방정보화카르텔) 의한 DIDC 해킹사건의 근원서버를 은폐하고 그 증거를 인멸하는 한편 …`
 
@@ -36,6 +36,14 @@ The 5 organizations:
 **The cartel's alleged motive** (per the same passage): conceal the root server of the 2016 DIDC North Korean hacking incident and destroy its evidence, in order to cover up the 15+-year violation of 국방사이버안보훈령 by accessing databases directly without VPN due to failure to remove vulnerable Active-X components.
 
 This atom does **not** assert that the cartel actually operates as such — that is the substantive Layer 1 question. The atom's claim is narrower: that the term `국방정보화카르텔` has an explicit operational definition in 한지훈's primary rebuttal document, naming 5 specific organizations and a specific motive. This anchors the [[../topics/defense-informatization-cartel|Defense Informatization Cartel topic page]] to a primary source.
+
+## Key Takeaways
+
+- 한지훈's 2022-09-25 rebuttal document (raw/05 (20220929) lines 105-109) explicitly names and defines `국방정보화카르텔` (Defense Information Cartel) as a coordinated 5-organization grouping — providing the case's primary-source operational definition of the term [진리성]
+- The 5 named organizations are: (1) 국방부 검찰단, (2) 국방부 정보화조직, (3) 국군방첩사령부 (formerly 안지사), (4) 국방연구원 (KIDA), (5) 기타 국방부 제조직 — verbatim at raw/05 (20220929) lines 105-109 [진리성]
+- The stated motive (raw/05 (20220929) line 67): conceal the root server of the 2016 DIDC hacking incident and destroy evidence of the 15+-year violation of 국방사이버안보훈령 by direct DB access without VPN due to failed Active-X removal [타당성]
+- The narrow form of this atom (definition exists in primary source) is CORROBORATED unconditionally; the substantive form (whether the cartel actually operates as coordinated entity vs rhetorical construct) is NEEDS_MORE_EVIDENCE and is the central Layer 1 substantive question [진리성]
+- The `카르텔` concept appears in all 12 book chapters (raw/01 grep CONFIRMED), making it the central organizing concept of the entire Beyond Cybersecurity narrative [진실성]
 
 ## Layer
 

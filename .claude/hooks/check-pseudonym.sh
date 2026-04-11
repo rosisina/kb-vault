@@ -1,78 +1,70 @@
 #!/usr/bin/env bash
 # PreToolUse hook for Write|Edit on wiki/ files.
-# Reads the proposed file content from the tool input and rejects it if any
-# real name from defense-kg-platform/kg/pseudonym_mapping.json appears.
+# Rejects any proposed write whose content contains a real name from
+# ../defense-kg-platform/kg/pseudonym_mapping.json.
 # Exits 2 with a message on violation (Claude must fix and retry).
 
 set -euo pipefail
 
-INPUT="$(cat || true)"
-
-# Extract file_path and content from the tool input. Both Write and Edit
-# use a JSON envelope under tool_input. Write uses `content`; Edit uses
-# `new_string`. We check whichever is present.
-read -r FILE_PATH BODY < <(printf '%s' "$INPUT" | python3 -c '
-import json, sys
-try:
-    d = json.loads(sys.stdin.read())
-    ti = d.get("tool_input", {}) or {}
-    fp = ti.get("file_path", "") or ""
-    body = ti.get("content", "") or ti.get("new_string", "") or ""
-    # Single-line escape: replace newlines with \x1f so we can pass via read
-    body = body.replace("\n", "\x1f")
-    print(fp, body)
-except Exception:
-    print("", "")
-' 2>/dev/null || echo "")
-
-# Nothing to check if no file path or no body
-[ -z "${FILE_PATH:-}" ] && exit 0
-[ -z "${BODY:-}" ] && exit 0
-
-# Only enforce on wiki/ writes
-case "$FILE_PATH" in
-  */wiki/*) ;;
-  *) exit 0 ;;
-esac
-
-# Locate the pseudonym mapping (sister project)
 REPO_ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
 MAPPING="$REPO_ROOT/../defense-kg-platform/kg/pseudonym_mapping.json"
 
-# If the mapping is not present, fail open with a warning to stderr
-# (developers without the sister project should not be blocked, but should be told)
-if [ ! -f "$MAPPING" ]; then
-  printf 'check-pseudonym: mapping file not found at %s — skipping enforcement\n' "$MAPPING" >&2
-  exit 0
-fi
+# Capture the PreToolUse JSON envelope from the hook's stdin into an
+# environment variable so the python heredoc can read it without
+# colliding with its own heredoc stdin.
+PRETOOL_PAYLOAD="$(cat || true)"
+export PRETOOL_PAYLOAD
+export PRETOOL_MAPPING="$MAPPING"
 
-# Restore newlines, then run the Python checker
-printf '%s' "$BODY" | tr '\x1f' '\n' | python3 - "$MAPPING" "$FILE_PATH" <<'PY'
-import json, re, sys
+python3 <<'PY'
+import json, os, re, sys
 
-mapping_path = sys.argv[1]
-file_path = sys.argv[2]
-body = sys.stdin.read()
+payload_raw = os.environ.get("PRETOOL_PAYLOAD", "")
+mapping_path = os.environ.get("PRETOOL_MAPPING", "")
+
+# 1. Parse the PreToolUse JSON envelope
+try:
+    payload = json.loads(payload_raw) if payload_raw else {}
+except Exception:
+    # Fail open on parse error — do not block on malformed input
+    sys.exit(0)
+
+ti = payload.get("tool_input", {}) or {}
+file_path = ti.get("file_path", "") or ""
+body = ti.get("content", "") or ti.get("new_string", "") or ""
+
+# 2. Scope: only wiki/ writes with non-empty body
+if not file_path or not body:
+    sys.exit(0)
+if "/wiki/" not in file_path:
+    sys.exit(0)
+
+# 3. Load mapping (fail open if absent)
+if not mapping_path or not os.path.isfile(mapping_path):
+    print(
+        f"check-pseudonym: mapping not found at {mapping_path} — skipping enforcement",
+        file=sys.stderr,
+    )
+    sys.exit(0)
 
 try:
     with open(mapping_path, "r", encoding="utf-8") as f:
         mapping = json.load(f)
 except Exception as e:
-    # Fail open on mapping read error — log to stderr but do not block
-    print(f"check-pseudonym: failed to read mapping ({e}) — skipping", file=sys.stderr)
+    print(f"check-pseudonym: mapping read failed ({e}) — skipping", file=sys.stderr)
     sys.exit(0)
 
-# Mapping shape: list of dicts with origin_name_kr / origin_name_en /
-# pseudo_name_kr / pseudo_name_en (per evidence-linker SKILL.md).
-# Some projects wrap it as {"mappings": [...]}; tolerate both.
+# Tolerate both list-shaped and dict-wrapped mappings
 if isinstance(mapping, dict):
-    entries = mapping.get("mappings") or mapping.get("entries") or list(mapping.values())
+    entries = mapping.get("mappings") or mapping.get("entries") or []
 elif isinstance(mapping, list):
     entries = mapping
 else:
     entries = []
 
+# 4. Scan body for any origin (real) name
 violations = []
+seen = set()
 for entry in entries:
     if not isinstance(entry, dict):
         continue
@@ -81,25 +73,47 @@ for entry in entries:
         if not real or not isinstance(real, str):
             continue
         real = real.strip()
-        if len(real) < 2:
+        if len(real) < 2 or real in seen:
             continue
         # Word-boundary match for ASCII; substring match for Hangul
         if re.search(r"[A-Za-z]", real):
             pattern = r"\b" + re.escape(real) + r"\b"
-            if re.search(pattern, body):
-                violations.append((real, entry.get("pseudo_name_kr") or entry.get("pseudo_name_en") or "?"))
+            hit = re.search(pattern, body) is not None
         else:
-            if real in body:
-                violations.append((real, entry.get("pseudo_name_kr") or entry.get("pseudo_name_en") or "?"))
+            hit = real in body
+        if hit:
+            pseudo = (
+                entry.get("pseudo_name_kr")
+                or entry.get("pseudo_name_en")
+                or "?"
+            )
+            violations.append((real, pseudo, entry.get("id", "?")))
+            seen.add(real)
 
+# 5. Report and reject
 if violations:
-    print(f"check-pseudonym: REAL NAME(S) DETECTED in proposed write to {file_path}", file=sys.stderr)
-    for real, pseudo in violations:
-        print(f"  - '{real}' must be redacted to pseudonym '{pseudo}'", file=sys.stderr)
+    print(
+        f"check-pseudonym: REAL NAME(S) DETECTED in proposed write to {file_path}",
+        file=sys.stderr,
+    )
+    for real, pseudo, rid in violations:
+        print(
+            f"  - '{real}' (mapping id {rid}) must be redacted to pseudonym '{pseudo}'",
+            file=sys.stderr,
+        )
     print("", file=sys.stderr)
-    print("This is a critical vault rule. Substitute every occurrence with the listed", file=sys.stderr)
-    print("pseudonym before retrying the write. See CLAUDE.md §Conventions and", file=sys.stderr)
-    print("../defense-kg-platform/kg/pseudonym_mapping.json.", file=sys.stderr)
+    print(
+        "This is a critical vault rule. Substitute every occurrence with the listed",
+        file=sys.stderr,
+    )
+    print(
+        "pseudonym before retrying the write. See CLAUDE.md §Conventions and",
+        file=sys.stderr,
+    )
+    print(
+        "../defense-kg-platform/kg/pseudonym_mapping.json.",
+        file=sys.stderr,
+    )
     sys.exit(2)
 
 sys.exit(0)

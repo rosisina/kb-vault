@@ -4,9 +4,25 @@ argument-hint: <topic-or-question>
 allowed-tools: Read Write Glob Grep Bash(date *) Bash(ls *)
 ---
 
-Run the **Research** operation as defined in `CLAUDE.md` §Research.
+Run the **Research** operation. This file is the canonical procedure — CLAUDE.md no longer duplicates the Research section as of 2026-04-11 split.
 
 Topic / question: $ARGUMENTS
+
+## Core principle: one source, one file
+
+Each URL becomes its own immutable markdown file in `ai-research/` with this exact frontmatter:
+
+```
+---
+url: https://example.com/article
+fetched: YYYY-MM-DD
+summary: One-line description of what this source covers
+---
+
+[Full article content in markdown, cleaned, not summarized]
+```
+
+File names are descriptive lowercase-hyphenated, ASCII only, no Korean characters. Examples: `kiatis-removal-2017-mnd-press.md`, `dod-otne-guidelines-2010-discussion.md`. Files are immutable once written; on slug collision, append `-2`, `-3`, etc.
 
 ## Architecture
 
@@ -16,8 +32,7 @@ Research is a **parallel fan-out** by URL, not a sequential fetch loop. The main
 
 ### Stage 1 — Search and rank (main agent, single message)
 
-1. Re-read `CLAUDE.md` §Research to refresh the file-naming and frontmatter conventions.
-2. Run `WebSearch` for the topic. Aim for 4–8 high-quality sources. Prioritize:
+1. Run `WebSearch` for the topic. Aim for 4–8 high-quality sources. Prioritize:
    - Primary sources (court documents, official statements, regulation text) over commentary
    - Sources whose date is verifiable
    - Sources in the language the wiki article will be written in (Korean for Korean topics, English for English topics)
@@ -29,16 +44,7 @@ Research is a **parallel fan-out** by URL, not a sequential fetch loop. The main
 For each URL, dispatch a `general-purpose` subagent with these instructions:
 
 - `WebFetch` the URL with a prompt like *"Return the full article body as clean markdown. Strip nav, footers, ads, and cookie banners. Preserve headings, lists, blockquotes, dates, and any cited document references. Do not summarize."*
-- Construct the file with the exact frontmatter from CLAUDE.md §Research:
-  ```
-  ---
-  url: <url>
-  fetched: <today's date in ISO YYYY-MM-DD>
-  summary: <one-line description of what the source covers>
-  ---
-
-  <full cleaned content>
-  ```
+- Construct the file with the exact frontmatter shown above (one-source-one-file section)
 - `Write` the file to the supplied target path under `ai-research/`
 - Return: `{slug, target_path, byte_count, summary, fetch_status}`
 

@@ -23,6 +23,29 @@ SET fr.layer = 4,
 
 The OT&E environment exclusivity clause in 제57조 ¶1 제2호 of 국방정보화업무 훈령 underwent a three-step flip-flop movement: added at 제2398호 (2020-02-13), reverted at 제2436호 (2020-06-04), and re-introduced at 제2842호 (2023-09-20), where it persists through 제3080호 (2025-09-17). The clause loosens the OT&E environment requirement from "the actual operating environment" to "the actual operating environment **or a similar environment**" — directly weakening one of the core conditions of the OT&E definition.
 
+## Blind re-measurement verification (2026-04-11)
+
+This claim was flagged UNCLEAR in the A.6 Re-verify Path-C pilot because the L4 pilot subagent's reading of a book comparative table suggested 제2129호/제2263호/제2398호 held identical 제57조 text. A blind-measurement subagent re-read the raw/04 text directly without book or wiki context (per CLAUDE.md §Measurement vs interpretation) and produced a byte-level comparative table for 제57조 ¶1 제2호 across four revisions:
+
+| Revision | `또는 이와 유사한 환경에서` hedge | `사업주관기관 주관 하에` | Verbatim outcome |
+|---|---|---|---|
+| 제2129호 (2018-02-05) | **N** | Y | no-hedge baseline |
+| 제2398호 (2020-02-13) | **Y — added** | Y | hedge introduced |
+| 제2436호 (2020-06-04) | **N — reverted** | **N — also removed** | hedge removed + sponsor binding erased |
+| 제2842호 (2023-09-20) | **Y — re-added** | N | hedge restored after 3-year gap; sponsor binding not restored |
+
+The flip-flop pattern is **directly confirmed at the verbatim text level**. The apparent conflict with the book's comparative table is most likely a granularity mismatch (the book's table compared the article as a whole or a different paragraph, while the wiki claim operates at ¶1 제2호 granularity where the hedge clause lives). The wiki A8a anchor and the [[2436ho-otne-sponsor-binding-erased|A8b sponsor binding atom]] are both verified by the same blind read.
+
+The L4-UNCLEAR-1 verdict is resolved: **wiki is correct at raw/04 text level**. Any book-side apparent contradiction requires a targeted book re-read at matching granularity before being treated as a real conflict.
+
+## Key Takeaways
+
+- The OT&E environment exclusivity clause in 제57조 ¶1 제2호 underwent a **three-step flip-flop**: hedge added at 제2398호 (2020-02-13), reverted at 제2436호 (2020-06-04), re-introduced at 제2842호 (2023-09-20) where it persists through 제3080호 (2025-09-17) [진리성].
+- The hedge loosens the OT&E environment requirement from `실제 조성된 기반운영 환경에서` to `실제 조성된 기반운영 환경 또는 이와 유사한 환경에서`, directly weakening a core OT&E definitional condition [타당성].
+- The text-level facts across all 11 revisions are verified by direct read; 제2075호, 제2129호, 제2263호, 제2436호, 제2576호, 제2649호 hold the no-hedge form [진리성].
+- A single edit normally does not toggle a clause twice in 4 years — the flip-flop pattern is suggestive of substantive intent but the clerical counter-hypothesis cannot be foreclosed without MND internal drafting records [진리성].
+- Verdict: **NEEDS_MORE_EVIDENCE**, Moderate. 진리성 8 / 타당성 8 / 진실성 7. Comparator check against US DOD OT&E standard would either upgrade to CORROBORATED (if US standard requires exclusively-actual environment) or produce a WEAKENED downgrade path [진실성].
+
 ## Layer
 
 [[../layers/layer-4|Layer 4]] — 新KIATIS 개발·운영·시험평가 전·중·후 조작. The OT&E environment requirement is one of the substantive criteria distinguishing OT&E from DT&E. Loosening it to "or a similar environment" reduces the procedural barrier for treating non-operational environment tests as compliant OT&E.
@@ -68,6 +91,24 @@ If item 1 produces drafting records showing clerical handling, the verdict downg
 
 - Is there an MND 입법예고 page or 국방부 정책자료 archive containing the rationale notes for any of the three relevant revisions?
 - Does the US DOD OT&E for Information and Business Systems regulation (per James, in `raw/04. law & regulation/`) contain language that would clarify the comparator?
+
+## Book-side audit note (2026-04-11 A.6 Path-C pilot → P6 blind re-measurement)
+
+The A.6 Path-C pilot L4 subagent flagged this atom as **UNCLEAR** on the grounds that the book's Article 57 comparative table at §3.4.4.2.3 (Main text record—Layer 4—010) appears to show 제2129호 / 제2263호 / 제2398호 holding identical Article 57 text (no hedge in any of the three), directly contradicting the wiki's claim that the hedge was added at 제2398호.
+
+A **P6 focused blind re-measurement** was dispatched to resolve the contradiction. A Sonnet Explore subagent was instructed to read Article 57 verbatim from raw/04 in all five relevant directives (제2129, 제2263, 제2398, 제2436, 제2842) with no access to wiki content, book content, or CLAUDE.md — strict measurement-stage isolation. The blind re-measurement returned:
+
+- 제2129호 line 1817–1831: `실제 조성된 기반운영 환경에서` (no hedge)
+- 제2263호 line 1826–1840: byte-equal to 제2129호 (no hedge)
+- **제2398호 line 1663–1679:** `실제 조성된 기반운영 환경 또는 이와 유사한 환경에서` — **hedge PRESENT (added)**
+- 제2436호 line 1677–1691: `실제 조성된 기반운영 환경에서` (hedge reverted; also removes `사업주관기관 주관 하에` binding and modal `구분한다 → 구분할 수 있다`)
+- 제2842호 line 1697–1711: `실제 조성된 기반운영 환경 또는 이와 유사한 환경에서` (hedge re-added)
+
+**Resolution:** The wiki's three-step flip-flop claim is fully corroborated by direct verbatim text in raw/04. The book's Article 57 comparative table §3.4.4.2.3 **omits the 제2398호 hedge insertion** — the summary table column grouping does not capture the hedge-phrase diff at that revision. This is a book-side gap, not a wiki error.
+
+**Verdict transition: UNCLEAR → BOOK_NEEDS_FOLLOWUP** (the wiki is grounded in primary-evidence verbatim text that contradicts the book's summary table — this is the authority-principle exception defined in `.claude/commands/reverify.md`: "a propositional disagreement where the book conflicts with directly-cited primary evidence (e.g., directive verbatim text) — that exception becomes a `_contradictions.md` entry escalated to a dedicated claim atom"). The underlying NEEDS_MORE_EVIDENCE verdict on the atom's substantive-intent question is unchanged — P6 did not address the clerical counter-hypothesis.
+
+This atom has been logged in [[../_contradictions|_contradictions.md]] as entry C-L4-01.
 
 ## Spot-check (raw/01 book)
 

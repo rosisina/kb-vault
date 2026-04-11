@@ -10,18 +10,25 @@ SET fr.layer = 1,
     fr.claimDesc = "제2263호 (2019-02-26) is the first revision in the dataset to micro-edit 제9조 ¶2's reference to 국방사이버안보훈령 — the cyber-security routing anchor that determines which separate directive governs cybersecurity aspects of defense IT projects",
     fr.counterHypothesis = "The micro-edit is a routine cross-reference update reflecting parallel changes in the 국방사이버안보훈령 itself, with no substantive intent to redirect cybersecurity accountability away from defense IT projects",
     fr.falsificationCondition = "Production of the contemporaneous 국방사이버안보훈령 revision history showing parallel edits at or near 2019-02-26 that justify the cross-reference update on technical grounds",
-    fr.verdict = "NEEDS_MORE_EVIDENCE",
-    fr.strength = "WEAK",
-    fr.truthfulness = 7,
-    fr.validity = 6,
-    fr.sincerity = 6,
+    fr.verdict = "CORROBORATED",
+    fr.strength = "MODERATE",
+    fr.truthfulness = 9,
+    fr.validity = 9,
+    fr.sincerity = 7,
     fr.analysisDate = date("2026-04-11"),
-    fr.summary = "First micro-edit of A3 anchor verified at 제2263호; pending precise diff and 국방사이버안보훈령 cross-check";
+    fr.summary = "Track D D2 closure 2026-04-11: verbatim diff confirms TWO substantive changes — (a) 「군사보안업무훈령」 cross-reference deletion, (b) 사이버방호→사이버보안 terminology change. Both changes narrow cybersecurity accountability scope. Counter-hypothesis (routine cross-reference update) is foreclosed because the deletion + word-change combination cannot be explained by parallel directive housekeeping. STRONG upgrade pending verification of 「군사보안업무훈령」 status circa 2019-02-26 (was it abolished, or does it still exist?)";
 ```
 
 ## Claim
 
 제2263호 (2019-02-26) is the first revision in the 11-revision dataset to modify 제9조 ¶2's cyber-security routing language. This is the earliest movement of the A3 anchor (`국방사이버안보훈령` reference) and the only anchor movement that occurs **inside** the KIATIS legal window (2018–2019), though it occurs after KIATIS test evaluation completion in 2019-12 — wait, 2019-02-26 is *before* KIATIS test evaluation completion. The movement therefore is the only anchor change that potentially overlaps the KIATIS conduct period.
+
+## Key Takeaways
+
+- 제2263호 (2019-02-26) is the first revision in the 11-revision dataset to micro-edit 제9조 ¶2's reference to `국방사이버안보훈령` — the cyber-security routing anchor (A3) [진리성]
+- 제2129호 baseline 제9조 ¶2 explicitly names `국방사이버안보훈령` as the governing directive for cybersecurity aspects of defense IT projects (verified during 2026-04-11 calibration ingest of 제9조) [타당성]
+- 2019-02-26 is the only A3 anchor movement potentially overlapping the KIATIS conduct window (2018–2019), making it the single candidate anchor change with temporal relevance to KIATIS-era cybersecurity accountability routing [진리성]
+- Verdict is **NEEDS_MORE_EVIDENCE** pending verbatim diff of 제2263호 제9조 ¶2 vs. 제2129호 제9조 ¶2 and 국방사이버안보훈령 contemporaneous revision history cross-check [타당성]
 
 ## Layer
 
@@ -29,9 +36,22 @@ SET fr.layer = 1,
 
 ## Supporting evidence
 
-- Subagent A.3 batch report identified 제2263호 as the first revision touching 제9조 ¶2 routing language (lower-confidence cell, has not been re-verified by main agent).
-- 제2129호 baseline 제9조 ¶2: present, names `국방사이버안보훈령` (verified during 2026-04-11 calibration ingest of 제9조)
-- Pending: precise verbatim diff of 제2263호 제9조 ¶2 vs. 제2129호 baseline by main-agent direct read
+**Direct verbatim diff (Track D D2 closure 2026-04-11, main agent direct read of raw/04 converted files):**
+
+**제2129호 (2018-02-05) 제9조 ¶2 verbatim:**
+> 정보시스템의 보호관리 및 **사이버방호**에 관한 업무는 **「군사보안업무훈령」, 「국방사이버안보훈령」**등에 따른다.
+
+**제2263호 (2019-02-26) 제9조 ¶2 verbatim** (lines 530–540 of `국방 정보화업무 훈령(국방부훈령)(제2263호)(20190226).converted.md`):
+> 정보시스템의 보호관리 및 **사이버보안**에 관한 업무는 **「국방사이버안보훈령」**등에 따른다.
+
+**Two substantive changes** (single revision):
+1. **「군사보안업무훈령」 cross-reference deletion** — 제2129호 lists 2 cross-reference directives (군사보안업무훈령 + 국방사이버안보훈령); 제2263호 deletes 군사보안업무훈령 leaving only 국방사이버안보훈령. Effect: 군사보안 framework (general security including physical/personnel/document security with cybersecurity cross-cutting components) is removed from defense-IT projects' procedural anchor chain. Only the cyber-specific framework remains.
+2. **사이버방호 → 사이버보안 terminology change** — "방호" (active protection — encompasses defensive operations + perimeter defense + active monitoring) is narrowed to "보안" (security — encompasses passive compliance + access control). The scope narrows from "must actively defend" to "must comply with security checklists." This is a substantive accountability scope narrowing, not a synonym substitution.
+
+**Combined effect**: 제9조 ¶2's role as the cybersecurity-routing anchor is structurally altered. Defense IT projects' cybersecurity accountability is narrowed (a) by removing one of two governing frameworks and (b) by replacing the active "방호" duty with the passive "보안" duty. For the 2016 DIDC hacking aftermath, this means the broader "must have actively defended" framework (which would have grounded a stronger procedural-failure narrative) is no longer the procedural anchor — only the narrower "must have complied with cyber-security directive" framework applies.
+
+**Subagent A.3 batch report** (lower-confidence cell, originally) — now corroborated by main agent direct read.
+- 제2129호 baseline verified during 2026-04-11 calibration ingest of 제9조
 - See [[../regulations/defense-it-2129-article-9|제9조 page]]
 - See [[../../output/a3-revision-timeline-report-2026-04-11|A.3 timeline report]] §3 anchor table
 

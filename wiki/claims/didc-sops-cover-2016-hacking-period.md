@@ -23,6 +23,14 @@ SET fr.layer = 1,
 
 DIDC 부대예규 제12호 (사이버방호 예규) and 부대예규 제11호 (정보시스템 운영관리 예규) were both enacted on 2016-02-01 and apply universally to `DIDC 본부 및 각 센터` and to `DIDC 소관의 국방컴퓨터체계` (all DIDC computer systems), with no carve-outs. Together they constitute the **procedural duty floor** for DIDC operations from 2016-02-01 forward. The 2016 North Korean hacking incident at DIDC, on which the entire 7-layer proof structure rests, occurred under this duty floor. Therefore every cyber protection and operational management procedure required by these SOPs was a legal duty for DIDC personnel during the hacking incident, and the absence of any SOP-required documentary artifact (별지 서식, approval signature, audit trail entry) for the incident period is a procedural-trace anomaly that supports the Layer 1 cover-up thesis.
 
+## Key Takeaways
+
+- DIDC 부대예규 제12호 (사이버방호) and 제11호 (정보시스템 운영관리) both carry 제정일 2016-02-01, establishing a **paired procedural duty floor** for all DIDC operations from that date forward [타당성] (raw/06/01 lines 5–13, raw/06/02 lines 5–11).
+- 제12호 제2조 explicitly binds the SOPs to `DIDC 본부 및 각 센터` and to `DIDC 소관의 국방컴퓨터체계` with no carve-outs — universal applicability across all DIDC-operated systems [타당성] (raw/06/01 제2조 verbatim).
+- Any SOP-required artifact (별지 서식, approval signature, audit trail entry) that is absent for the 2016 hacking incident period is a **procedural-trace anomaly** directly supporting the Layer 1 cover-up thesis [진리성].
+- The central falsification gate is the precise date of the 2016 DIDC hacking incident: if it predates 2016-02-01, the duty floor does not cover the incident and the verdict downgrades to NEEDS_MORE_EVIDENCE [진리성].
+- Verdict: **CORROBORATED**, Strong. 진리성 9 / 타당성 10 / 진실성 7 — 타당성 is maximum because the SOPs are primary regulatory sources with explicit dates and explicit scopes [진실성].
+
 ## Layer
 
 [[../layers/layer-1|Layer 1]] — Active-X 제거 사업 간 舊KIATIS 이력 제거 (DIDC 해킹 근원서버 은폐의 출발점). This atom establishes the **regulatory baseline** against which all Layer 1 cover-up evidence must be measured. Without this baseline, the Layer 1 narrative depends on intuitive notions of "what should have happened"; with it, the Layer 1 narrative becomes textually anchored to specific SOP article numbers and 별지 서식 numbers.
@@ -82,6 +90,7 @@ If item 1 produces a pre-2016-02-01 hacking date, the verdict downgrades to NEED
 
 ## Open Questions
 
+- **Evidence citation coverage — exempt under CLAUDE.md regulation-text rule.** This atom's primary sourcing is DIDC SOP 제12호 + 제11호 전체 SOP 시행일 (raw/06 regulation text), which is structurally equivalent to the raw/04 regulation-text exemption from the `Record No. NNNNN` requirement. Evidence record numbers anchoring this duty's VIOLATION in the 2016 incident period are expected to live in raw/07 scanned evidence record pages and will be added on raw/07 ingest; absence of Record No. citations in this atom is therefore an exemption, not a defect.
 - **What is the exact date of the 2016 DIDC hacking incident?** Pending raw/01 detailed compile or direct James input.
 - **Did the predecessor regulation (pre-2016-02-01) impose equivalent SOP duties?** Pending research target.
 - **Are the predecessor revisions of 제11호 and 제12호 (the 2016-02-01 originals) available?** Currently raw/06 contains only the latest revisions. Targeted ingestion request queued.

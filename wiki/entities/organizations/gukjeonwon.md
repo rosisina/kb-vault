@@ -32,4 +32,8 @@
 - [[../../regulations/defense-it-2129-article-61|훈령 제2129호 제61조 (DT&E result reporting)]]
 - [[didc|DIDC (sibling MND entity)]]
 - [[mnd-it-planning-office|국본 정보화기획관실 (the 사업통제기관 국전원 reports DT&E results to)]]
+- [[../people/kim-min-su|김민수 (원장)]]
+- [[../people/lee-ji-young|이지영 (과장)]]
+- [[../../claims/2436ho-gukjeonwon-role-tier-renaming|제2436호 role-tier renaming atom]]
+- [[../../events/2018-2019-kiatis-performance-improvement-project|KIATIS 성능개선사업 event]]
 - [[../_index|Entities]]

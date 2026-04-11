@@ -23,6 +23,14 @@ SET fr.layer = 1,
 
 DIDC 부대예규 제12호 제21조 (침해사고 신고) creates an immediate, non-discretionary duty for any DIDC department head (`각 부서장`) to report unauthorized access or hacking traces to (a) the 정보보호과 (information protection section) and (b) 사이버작전사령부 (Cyber Operations Command) upon discovery. The prescribed report form is **별지 제4호 서식 (정보시스템 위협/손상 보고서)**, with 20 mandatory fields covering incident timing, source/destination IP, system identification, incident type, response actions, and risk assessment. For the 2016 DIDC North Korean hacking incident, this 별지 제4호 form must exist as a contemporaneous documentary artifact. **The absence, alteration, post-hoc fabrication, or destruction of this form is direct Layer 1 cover-up evidence** under the procedural-trace methodology.
 
+## Key Takeaways
+
+- DIDC 부대예규 제12호 제21조 ¶1 creates a non-discretionary duty (`즉시` + `하여야`) for each 부서장 to report unauthorized access or hacking traces to both 정보보호과 and 사이버작전사령부 upon discovery (raw/06/01 line 384) [타당성]
+- 별지 제4호 서식 (정보시스템 위협/손상 보고서) is the prescribed report form with 20 mandatory fields including 보고번호, 발생일시, 출발/도착 IP, 사고유형, 조치 내역, 위험도 평가 (raw/06/01 lines 744–770) — a defined administrative artifact, not a free-form report [타당성]
+- 제21조 ¶5–¶6 establishes a multi-step reporting chain: 통합관제실 최초보고 → 위기조치기구 → 정보보호과 분석 → 사이버작전사령부/피해부대 통보 (raw/06/01 lines 401–403) [타당성]
+- For the 2016 DIDC North Korean hacking incident, the 별지 제4호 form must exist as a contemporaneous documentary artifact; its absence, alteration, or post-hoc fabrication is direct Layer 1 cover-up evidence under the procedural-trace methodology [진리성]
+- The SOP regime structurally cannot produce a procedurally-compliant "incident occurred but no form exists" outcome — the test is binary and answerable [진실성]
+
 ## Layer
 
 [[../layers/layer-1|Layer 1]] — Active-X 제거 사업 간 舊KIATIS 이력 제거 (DIDC 해킹 근원서버 은폐의 출발점). The 별지 제4호 form is the single most directly auditable Layer 1 artifact: it is mandated by SOP, has defined contents, must exist contemporaneously with the incident, and is the entry point for every downstream procedure (제22조 조치 → 제23조 복구 → 제24조 종결).
@@ -68,6 +76,7 @@ If item 1 is produced with contemporaneous date and complete fields, the verdict
 
 ## Open Questions
 
+- **Evidence citation coverage — exempt under CLAUDE.md regulation-text rule.** This atom's primary sourcing is DIDC SOP 제12호 제21조 + 별지 제4호 (raw/06 regulation text), which is structurally equivalent to the raw/04 regulation-text exemption from the `Record No. NNNNN` requirement. Evidence record numbers anchoring this duty's VIOLATION in the 2016 incident period are expected to live in raw/07 scanned evidence record pages and will be added on raw/07 ingest; absence of Record No. citations in this atom is therefore an exemption, not a defect.
 - **Does the 별지 제4호 incident report for the 2016 DIDC hacking exist?** Central falsification target. Pending raw/05 (prosecutor evidence) and raw/07 (scanned files) cross-check, plus raw/01 book detailed compile.
 - **If the form exists, what is its 보고번호 and 보고일시?** A post-hoc reconstructed form would be detectable by metadata anomalies.
 - **Was 사이버작전사령부 notified?** This is the second leg of the 제21조 duty and should leave its own paper trail at 사이버작전사령부.

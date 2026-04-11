@@ -9,8 +9,8 @@ The director (원장) of 국전원 (국방전산정보원) during the KIATIS con
 ## Key Takeaways
 
 - [진리성] **Position.** 국방전산정보원 원장 (국전원 director). The directorship is the apex of 국전원's institutional accountability for the KIATIS 사업관리기관 role.
-- [진리성] **Direct conversations with 한지훈 in 2022.** raw/02 contains four labeled 박현규-tagged recordings: `[7층위-녹취005-박현규-20220221142318]`, `[녹취008-박현규-20220223094012]`, `[녹취009-박현규-20220223130748]`, `[녹취013-박현규-20221013143115]`. (All real-name appearances in raw/02 are redacted to 김민수 in this wiki.) The 2022-02 cluster (Feb 21–23) and the 2022-10-13 single recording bracket the prosecution timeline.
-- [진실성] **One recorded statement on the prosecution outcome.** raw/02 line 2134: `(박현규) (나의 기소유예가) 내가 보기에는 가...` — partial transcript suggesting 김민수 expressed a view on 한지훈's 기소유예 outcome. The full sentence is cut in the visible excerpt and pending detailed extraction in A.6 Re-verify.
+- [진리성] **Direct conversations with 한지훈 in 2022.** raw/02 contains four labeled recordings tagged with the real name mapped to 김민수 (mapping id 1): `[7층위-녹취005-{real}-20220221142318]`, `[녹취008-{real}-20220223094012]`, `[녹취009-{real}-20220223130748]`, `[녹취013-{real}-20221013143115]`. (All real-name appearances in raw/02 are redacted to 김민수 in this wiki — `{real}` stands in for the unredacted persona tag.) The 2022-02 cluster (Feb 21–23) and the 2022-10-13 single recording bracket the prosecution timeline.
+- [진실성] **One recorded statement on the prosecution outcome.** raw/02 line 2134: `(김민수) (나의 기소유예가) 내가 보기에는 가...` — partial transcript suggesting 김민수 expressed a view on 한지훈's 기소유예 outcome. The full sentence is cut in the visible excerpt and pending detailed extraction in A.6 Re-verify.
 - [타당성] **Layer 3 anchor.** Per the [[../../regulations/defense-it-2129-article-11|제11조 explicit naming]], 국전원 is the regulation-designated 사업관리기관 for KIATIS. As 원장, 김민수 is the regulatory chain-of-responsibility apex.
 
 ## Open Questions

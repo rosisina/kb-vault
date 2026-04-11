@@ -40,7 +40,7 @@ All wiki articles must belong to at least one layer. The canonical layer definit
 2. 新KIATIS 사업 추진체계 및 장교 개인 자력 조작
 3. 국전원 전속 후 SW개발사업관리 착수·종결 (국방정보화카르텔 공모 구조)
 4. 新KIATIS 개발·운영·시험평가 전·중·후 조작 (표적수사 설계의 기반)
-5. 허위 갑질 신고와 조사본부의 조작 감사 (이영주 중령 인권침해·고립화)
+5. 허위 갑질 신고와 조사본부의 조작 감사 (한지훈 중령 인권침해·고립화)
 6. 군 검찰단의 사기 수사와 범죄자 낙인 (증거 인멸·문서 조작)
 7. 진정서 제출·수사 촉구 후 기소유예 (국방부의 지속적 범죄 정당화)
 
@@ -104,16 +104,16 @@ The corpus is bilingual Korean / English. Apply these rules:
 
 ## Trigger phrases
 
-| Human says | Operation | Section |
+| Human says | Operation | Procedure file |
 |---|---|---|
-| `compile`, `컴파일`, or drops files in `raw/` | Ingest | below |
-| `research {topic}`, `조사해줘` | Research | below |
-| `lint`, `audit the wiki`, `감사` | Lint | below |
-| Any question about wiki content | Query | below |
-| `fix {item}` after a lint report | Fix (logged as `fix`) | Log |
-| `reverify`, `재검증`, `book-anchored verification` | Re-verify | below |
+| `compile`, `컴파일`, drops files in `raw/`, `/compile` | Ingest | `.claude/commands/compile.md` |
+| `research {topic}`, `조사해줘`, `/research` | Research | `.claude/commands/research.md` |
+| `lint`, `audit the wiki`, `감사`, `/lint` | Lint | `.claude/commands/lint.md` |
+| `reverify`, `재검증`, `book-anchored verification`, `/reverify` | Re-verify | `.claude/commands/reverify.md` |
+| Any question about wiki content | Query | inline below (Operations § Query) |
+| `fix {item}` after a lint report | Fix (logged as `fix` in `wiki/log.md`) | apply directly |
 
-If the human's phrasing is ambiguous, ask which operation they mean rather than guessing.
+If the human's phrasing is ambiguous, ask which operation they mean rather than guessing. When invoking a slash command file, load it as the canonical procedure — CLAUDE.md no longer duplicates the operation procedures (extracted 2026-04-11 to save startup tokens).
 
 ## PDF and scanned source conversion
 
@@ -136,6 +136,10 @@ Rationale for placing legacy wiki content under `raw/` rather than `ai-research/
 
 **A.6 implication.** When compiling the book (`raw/01. book-beyond-cybersecurity/`), prefer the `vault-converted-*` files over re-converting the PDFs. Use the `vault-legacy-wiki-*` files as a **skeleton for topic selection** — they indicate which topics the prior project judged worth writing about — but **always rewrite under the current schema**, never transclude.
 
+**Korean-original-first rule (added 2026-04-11 after Layer 2 conversion-quality discovery).** When compiling from `vault-converted-{english,korean}/`, **always read the Korean version first as the canonical source**. The English conversions are second-class — they have measurable degradation including (a) loss of role-anchor identifiers like `이지영 (공문결재자-1)` and `이준호 (공모자-1)` that the Korean book uses to encode institutional role observations beside pseudonyms, (b) lost record citations (e.g., 1,042 / 11,098 / 11,107 / 11,354 dropped from §3.2 English), (c) lost document author attributions (e.g., 이지영 + 김수진 as authors of record 5,853 work-simplification document), (d) lost cross-layer connection footnotes (e.g., 핸디소프트 2024 온-나라 contract continuity link from §3.2 to Layer 7), (e) lost counter-narrative material (e.g., 한지훈's 3 적극적 방어 메커니즘 in §3.2 footnote 113), (f) duplicated/scrambled translations of the same Q&A passage, and (g) inline footnote-number contamination (`cannot be6667`). The English conversion lost approximately 30–40% of diagnostically relevant information in the Layer 2 chapter compared to the Korean original. **Use English conversions only as reading aids; never as the sole source for atom drafting.**
+
+**Role-anchor identifier convention.** The Korean book uses a `pseudonym (역할-N)` format throughout to encode institutional role observations beside pseudonyms — e.g., `박성호 (2016해킹당시원장-1)`, `이지영 (공문결재자-1)`, `이준호 (공모자-1)`, `장우진 (사업실무자-1)`, `이태호 (평가위원장-1)`. These role-anchors are MORE diagnostic than the bare pseudonym because they preserve the role observation the book is making. **When drafting atoms, preserve the role-anchor identifier exactly as it appears in the Korean book.** When the same person appears in multiple chapters with multiple role-anchors, list all of them — the multiplicity itself is evidence of cross-layer continuity.
+
 ## Layers
 
 - `raw/` is the inbox. The human drops source material here (articles, papers, transcripts, pasted notes, images). You read from `raw/` and its subfolders. You never write to `raw/`. Raw files are immutable. Those are a bilingual (Korean / English) publishing pipeline for the book *Beyond Cybersecurity* (사이버보안을 넘어). 
@@ -153,62 +157,19 @@ Rationale for placing legacy wiki content under `raw/` rather than `ai-research/
 
 ## Operations
 
-### Ingest
+The detailed procedure for each operation lives in its own slash command file under `.claude/commands/`. CLAUDE.md only retains Query (the always-on default) and Log (the format every operation appends). To save startup tokens, the long Ingest / Research / Lint / Re-verify procedures were extracted on 2026-04-11; load the matching slash command file when an operation is triggered.
 
-Triggered when the human says "compile" , "컴파일", or drops new files in `raw/`.
+| Operation | Trigger phrases | Procedure file |
+|---|---|---|
+| Ingest | `compile`, `컴파일`, files dropped in `raw/`, `/compile` | `.claude/commands/compile.md` |
+| Research | `research {topic}`, `조사해줘`, `/research` | `.claude/commands/research.md` |
+| Lint | `lint`, `audit the wiki`, `감사`, `/lint` | `.claude/commands/lint.md` |
+| Re-verify | `reverify`, `재검증`, `book-anchored verification`, `/reverify` | `.claude/commands/reverify.md` |
+| Query | any natural-language question about wiki content | (always-on, defined inline below) |
 
-For each new raw file:
+Each slash command file is now self-contained — it does not reference back to CLAUDE.md for procedural detail. The `Conventions`, `Measurement vs interpretation`, `Zettelkasten atomicity`, `Aurora integration`, `Language`, and `Layers` sections of this file are still authoritative cross-cutting rules that every operation respects.
 
-1. Read the raw file in full.
-2. Identify the core topic or topics the file covers.
-3. Check `wiki/_master-index.md` to see if a matching topic folder already exists.
-4. If the topic exists, read the topic's `_index.md` and any related articles, then write or update a wiki article covering the new source. Add backlinks from any articles it touches.
-5. If the topic does not exist, create a new folder under `wiki/` with a lowercase hyphenated name. Create an `_index.md` inside it. Write the first wiki article for this topic.
-6. Before writing the first article in a new topic folder, skim `wiki/_examples/` (`example-entity-page.md`, `example-concept-page.md`, `example-source-summary.md`) for shape. Match the closest template.
-7. Every wiki article must include:
-   - A top-level `# Title` (bilingual format where applicable: `# English (한국어)`).
-   - A `**Source:** path/to/raw/file.md` line immediately under the title. Multiple sources are listed comma-separated.
-   - A `**Layer:** [[../layers/layer-N|Layer N]]` line immediately after `**Source:**`. If the article spans layers, list all of them.
-   - (Optional but encouraged) An `**Aurora node:**` line giving the corresponding Cypher `MERGE` shape, e.g. `:Evidence {evidenceId: "E-L4-0127", docPage: 2891}`. This makes serialization to Aurora trivial.
-   - A short intro paragraph (2 to 4 sentences) summarizing the article.
-   - A `## Key Takeaways` section with bullet points. Tag claims with `[진리성]` / `[타당성]` / `[진실성]` where relevant. Every takeaway should cite at least one `Record No. NNNNN`.
-   - (Event, claim, and contested-fact pages only) A `## Verbatim` section with exact Korean (or English) quotes and `Record No.` citations. No paraphrase.
-   - A `## Related` section with `[[wikilinks]]` to 3 to 8 related pages elsewhere in the wiki.
-   - (Where applicable) `## Open Questions` flagging gaps, OCR uncertainty, or contradictions with other articles.
-8. Update the topic's `_index.md` to list the new article.
-9. Update `wiki/_master-index.md` if a new topic was created or an existing topic changed meaningfully.
-10. Append one line to `wiki/log.md` in this format:
-    ```
-    ## [YYYY-MM-DD HH:MM] ingest | Source title | topic/article.md
-    ```
-11. If the source spans multiple topics, create articles in both topics and cross-link them.
-
-Raw files are typically PDFs that must first be converted to markdown per the "PDF and scanned source conversion" section above. A single ingest pass may touch 10 to 15 wiki files, which is expected. Do all related updates in one run rather than spreading them across sessions.
-
-### Research
-
-Triggered when the human asks you to research a topic, or when a query reveals gaps the wiki cannot answer from existing sources.
-
-1. Search the web for relevant, high-quality sources on the topic.
-2. **One source, one file.** For EACH URL or source you find, save it as its OWN separate markdown file in `ai-research/`. Do NOT combine multiple sources into one file. If you found 4 URLs, that is 4 files. Use this format for each:
-   ```
-   ---
-   url: https://example.com/article
-   fetched: YYYY-MM-DD
-   summary: One-line description of what this source covers
-   ---
-
-   [Full article content in markdown, cleaned, not summarized]
-   ```
-3. File names should be descriptive and lowercase hyphenated: `ai-research/qmd-github-readme.md`, `ai-research/qmd-hackernews-discussion.md`.
-4. Save the FULL cleaned content from each source, not a summary. The wiki article is where summarization happens, not here. These files are the source of truth for citation verification.
-5. Do NOT overwrite existing files in `ai-research/`. Always create new files.
-6. After saving ALL sources, run the standard Ingest procedure to compile them into `wiki/`. A single wiki article can cite multiple `ai-research/` files in its `**Source:**` line.
-7. In the wiki article's `**Source:**` line, list every `ai-research/` file used so the lint pass can verify each claim back to its original source.
-
-The human can review `ai-research/` at any time to see what you found. These files are immutable once saved.
-
-### Query
+### Query (always-on default)
 
 Triggered when the human asks a question about the wiki.
 
@@ -217,53 +178,9 @@ Triggered when the human asks a question about the wiki.
 3. Read 1 to 3 specific articles in full.
 4. If the question spans multiple topics, repeat steps 1 to 3 for each topic.
 5. Synthesize the answer. Cite every claim with the wiki article it came from using `[[wikilinks]]` and include the raw source file path each article cites.
-6. If the answer is substantial and would be useful later, ask the human whether to file it as a new wiki article. If yes, write it in the appropriate topic folder and cross-link.
+6. If the answer is substantial and would be useful later, ask the human whether to file it as a new wiki article. If yes, hand off to `/compile` to write it in the appropriate topic folder and cross-link.
 
-Default to 3 to 4 file reads. Do not grep the entire vault. The index files are your retrieval layer.
-
-### Lint
-
-Triggered when the human says "lint" or "audit the wiki".
-
-Read every file in `wiki/` and produce a report covering:
-
-1. **Contradictions.** Pages that make conflicting claims. Include the file paths and the conflicting statements.
-2. **Stale claims.** Statements in older articles that newer raw sources have updated or superseded.
-3. **Orphan pages.** Articles with zero inbound wikilinks from other articles.
-4. **Missing concepts.** Concepts mentioned in 3 or more articles that do not have their own page yet.
-5. **Missing cross-links.** Pairs of articles that reference related ideas but do not link to each other.
-6. **Unsourced claims.** Statements in wiki articles that do not trace back to a `**Source:**` raw file, or claims that do not appear in the cited source.
-7. **Suggested new articles.** 3 to 5 concrete article ideas that would strengthen the wiki based on gaps you found.
-
-Output the report to `output/lint-report-YYYY-MM-DD.md`. Do not make changes during the lint pass. Wait for the human to approve fixes.
-
-When the human approves specific fixes, apply them one at a time and log each one in `wiki/log.md`.
-
-### Re-verify (재검증)
-
-Triggered when the human says "reverify", "재검증", or "book-anchored verification". Adopted as a formal operation 2026-04-11 per James's approval following the A.5 framing-correction incident, which demonstrated that comparator-side measurement without book-anchored cross-check can produce framing errors that propagate into atom verdicts.
-
-The Re-verify operation treats `raw/01. book-beyond-cybersecurity/` (the book *Beyond Cybersecurity*, authored by James) as the **authoritative narrative source** against which every wiki file must be checked for consistency. The book is the integrated 1~13,000+ Record No. proof structure; the wiki is the analytical decomposition of that structure into atomic claims and hub pages. **When the wiki diverges from the book on a propositional matter, the wiki is patched to conform to the book.** The only exception is a propositional disagreement where the book conflicts with directly-cited primary evidence (e.g., directive verbatim text) — that exception becomes a `_contradictions.md` entry escalated to a dedicated claim atom.
-
-**When to run:** the formal Re-verify pass runs after milestone ingest events (currently scheduled: after raw/02 + raw/06 compile completes, projected ~30 atoms). Outside the formal pass, every newly-written claim atom must pass a **spot-check** (see below).
-
-**Spot-check rule (continuous, lightweight, applies to every new atom):** Immediately after writing a new claim atom or substantively-propositional hub edit, perform a 1-minute `rg --no-ignore` query against `raw/01. book-beyond-cybersecurity/vault-converted-{english,korean}/` for the atom's central keywords. If the book contains substantive content on the same topic, record the chapter file reference in the atom's `## Open Questions` section as a deferred Re-verify target. If the book contains *no* mention, also record that — a wiki claim that the book ignores is itself a finding.
-
-**Formal Re-verify pass procedure:**
-
-1. Dispatch one Explore subagent per layer (1 through 7), partitioned by `wiki/layers/layer-N` membership. Each subagent receives:
-   - The list of all wiki files tagged with that layer (atoms, events, entities, regulations)
-   - The corresponding book chapter(s): `raw/01. book-beyond-cybersecurity/vault-converted-korean/0{N+6}-3-{layer}-…-제{layer}층위-…md` (or English equivalents)
-   - Instructions to produce a per-file consistency table: file ↔ book chapter section ↔ Record No. trace ↔ verdict (CONSISTENT / WIKI_NEEDS_PATCH / BOOK_NEEDS_FOLLOWUP / NEW_ATOM_NEEDED)
-2. Main agent merges the seven subagent reports into `output/a6-reverification-report-YYYY-MM-DD.md`.
-3. For each `WIKI_NEEDS_PATCH` finding, main agent applies the patch (book is authoritative), logging each patch as `fix` in `wiki/log.md`.
-4. For each `NEW_ATOM_NEEDED` finding, main agent writes the atom and links it from the relevant hub.
-5. For each `BOOK_NEEDS_FOLLOWUP` finding (rare — book disagrees with directly-cited primary evidence), main agent escalates to `wiki/_contradictions.md` and a dedicated claim atom under `wiki/claims/`.
-6. The Re-verify report is the single artifact summarizing the entire pass; it is preserved in `output/` as a permanent audit trail.
-
-**Pseudonym caution:** the legacy vault wiki (`raw/01. … vault-legacy-wiki-{english,korean}/`) contains real names. The book itself (`vault-converted-{english,korean}/`) is bilingual narrative — it should be checked for real names too during the Re-verify pass. Any real name encountered must be redacted to its pseudonym before being copied into wiki content. New names not in `../defense-kg-platform/kg/pseudonym_mapping.json` halt the pass and require James's mapping addition.
-
-**Token budget guidance:** the formal Re-verify pass with 7 parallel subagents and ~30 atoms is estimated at 80~120k tokens end-to-end. The continuous spot-check rule is ~1k tokens per new atom and adds negligible overhead.
+**Cardinal rule:** Default to 3 to 4 file reads. Do not grep the entire vault. The index files are your retrieval layer. If 3-4 reads cannot answer the question, surface the gap to the human and propose `/compile` (if a known raw source exists) or `/research` (if not) — do not brute-force by reading many files.
 
 ### Log
 

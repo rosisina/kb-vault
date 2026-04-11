@@ -4,9 +4,35 @@ argument-hint: [path-or-subfolder-or-empty]
 allowed-tools: Read Write Edit Grep Glob Bash(pdftotext *) Bash(markitdown *) Bash(python *) Bash(python3 *) Bash(jq *) Bash(cat *) Bash(ls *)
 ---
 
-Run the **Ingest** operation as defined in `CLAUDE.md`.
+Run the **Ingest** operation. This file is the canonical procedure — CLAUDE.md no longer duplicates the Ingest section as of 2026-04-11 split.
 
 Target: $ARGUMENTS (if empty, scan all of `raw/` and `ai-research/` for files newer than the last `ingest` entry in `wiki/log.md`).
+
+## Wiki article contract (mandatory for every article written by this operation)
+
+- **# Title** at top — bilingual format where applicable: `# English (한국어)`
+- **`**Source:** path/to/raw/file.md`** line immediately under the title (multiple sources comma-separated)
+- **`**Layer:** [[../layers/layer-N|Layer N]]`** line immediately after Source (multi-layer articles list all)
+- **`**Aurora node:**`** line giving the corresponding Cypher `MERGE` shape (encouraged, e.g., `:Evidence {evidenceId: "E-L4-0127", docPage: 2891}`)
+- **Intro paragraph** (2 to 4 sentences) summarizing the article
+- **`## Key Takeaways`** with bullet points; tag claims with `[진리성]` / `[타당성]` / `[진실성]` where relevant; every takeaway should cite at least one `Record No. NNNNN` or directive citation
+- **`## Verbatim`** (event, claim, contested-fact pages only) with exact Korean/English quotes and `Record No.` citations — no paraphrase
+- **`## Related`** with `[[wikilinks]]` to 3–8 related pages
+- **`## Open Questions`** (where applicable) flagging gaps, OCR uncertainty, contradictions
+- **`## Spot-check (raw/01 book)`** (claim atoms) — book chapter references from the spot-check rule; see `/reverify` for the rule
+
+## Index updates after each article
+
+1. Update the topic's `_index.md` to list the new article
+2. Update `wiki/_master-index.md` if a new topic was created or an existing topic changed meaningfully
+3. Append one line to `wiki/log.md` in this format:
+   ```
+   ## [YYYY-MM-DD HH:MM] ingest | Source title | topic/article.md
+   ```
+
+## Multi-topic sources
+
+If the source spans multiple topics, create articles in both topics and cross-link them.
 
 ## Scope decision (single-file vs fan-out)
 
@@ -23,7 +49,7 @@ Before doing any work, decide which mode to use:
 
 ## Procedure (single-file mode)
 
-1. Re-read `CLAUDE.md` — **Project Purpose**, **Language**, **PDF and scanned source conversion**, **Ingest** sections.
+1. Re-read `CLAUDE.md` — **Project Purpose**, **Language**, **PDF and scanned source conversion** sections (Ingest section is now in this file, not CLAUDE.md).
 2. **Use the `evidence-linker` skill** for every Person reference and every `Record No. NNNNN` mention. Do not grep the mapping JSONs directly. The skill returns `(ok|redact|unknown)` for names and `(layer, source PDF)` for record numbers. On `unknown`, halt and ask James to update Aurora.
 3. Convert the source per the PDF section (cache as `*.converted.md` next to the original; never re-convert).
 4. For every cited fact, include a `Record No. NNNNN` citation in `## Verbatim` or `## Key Takeaways`. File-level citations alone are not acceptable.

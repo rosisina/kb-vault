@@ -23,6 +23,14 @@ SET fr.layer = 4,
 
 On 2020-06-04, 국방정보화업무 훈령 제2436호 inverted the test-evaluation principle in 제58조 from `개발시험평가와 운용시험평가를 분리하는 것을 원칙으로 하되` (separation as principle, integration as exception) to `시험평가는 통합하여 실시하는 것을 원칙으로 한다` (integration as principle, separation as exception). This is a semantic reversal of the regulatory default in the same article of the same directive, not a clarification or restatement.
 
+## Key Takeaways
+
+- 제2129호 제58조 ¶2 read `개발시험평가와 운용시험평가를 분리하는 것을 원칙으로 하되, 필요시 사업통제기관의 승인을 받아 동시에 실시할 수 있다` — separation as principle, integration as sanctioned exception [타당성]
+- 제2436호 제58조 ¶1 (line 1700) inverts to `시험평가는 통합하여 실시하는 것을 원칙으로 한다. 다만, 사업의 특성이 있는 경우 분리하여 수행할 수 있으며…` — integration as principle, separation as exception, with decision delegated to 집행기관 + 소요제기기관 협의 [타당성]
+- 제2649호 (2022-05-06) 제58조 ¶1 (line 1718) carries the identical inversion text, confirming the change is a persistent structural rewrite, not a paragraph reordering [진리성]
+- Under 행위시법주의, any post-2020-06-04 review of pre-2020-06-04 KIATIS test-evaluation conduct must apply the older separation-principle default, not the inverted integration default [타당성]
+- Verdict CORROBORATED (strength STRONG, 진리성 9 / 타당성 10 / 진실성 8); falsification requires MND audit / approval records showing integrated execution was the de facto 2018–2020 norm with sanctioned exception approvals [진실성]
+
 ## Layer
 
 [[../layers/layer-4|Layer 4]] — 新KIATIS 개발·운영·시험평가 전·중·후 조작. The inversion converts the regulatory default for test-evaluation execution. Any post-2020-06-04 review of pre-2020-06-04 conduct must apply the older default (separation principle) to be lawful under 행위시법주의.

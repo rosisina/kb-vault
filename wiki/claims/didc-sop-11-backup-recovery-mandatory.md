@@ -37,6 +37,14 @@ For the 2016 DIDC hacking incident period, the regime above means backups create
 
 The absence of either preserved backups OR documented destruction is direct Layer 1 cover-up evidence: the DIDC SOP regime structurally cannot produce a "backups simply don't exist" outcome that is procedurally compliant.
 
+## Key Takeaways
+
+- DIDC 부대예규 제11호 Chapter 8 (백업/복구관리, 제70~94조) imposes a 25-article backup management regime — the largest chapter in the entire DIDC SOP system (raw/06/02 lines 107–134) [타당성]
+- Key mandatory requirements: 제79조 백업정책 수립, 제81조 백업수행, 제84조 백업매체 소산 (off-site storage), 제85조 백업결과 확인 및 통보, 제93조 모니터링 결과 확인 — backups must physically exist at off-site storage under documented retention policy [타당성]
+- The 6-step disposal chain (제77조 → 제90조 → 제91조 → 제92조) ensures any backup medium destruction generates four sequential approval/verification artifacts, making silent destruction structurally non-compliant [타당성]
+- For the 2016 DIDC incident period, the SOP produces a binary testable state: either (a) backups exist at off-site storage and contain forensically valuable pre-tampering data, OR (b) backups were disposed of under complete 제77조/90조/91조/92조 authorization chain documentation [진리성]
+- The absence of both preserved backups AND documented destruction is direct Layer 1 cover-up evidence — the SOP regime structurally cannot produce a procedurally-compliant "backups simply don't exist" outcome [진실성]
+
 ## Layer
 
 [[../layers/layer-1|Layer 1]] — Active-X 제거 사업 간 舊KIATIS 이력 제거 (DIDC 해킹 근원서버 은폐의 출발점). Backups are the most evidentiarily valuable Layer 1 artifact category because they preserve the **state** of the systems at known dates, allowing forensic comparison of pre-incident vs post-incident vs current state.
@@ -105,6 +113,7 @@ If item 1 is produced, the verdict downgrades to WEAKENED (the backup-cover-up t
 
 ## Open Questions
 
+- **Evidence citation coverage — exempt under CLAUDE.md regulation-text rule.** This atom's primary sourcing is DIDC SOP 제11호 Chapter 8 25-article backup regime (제70~94조) (raw/06 regulation text), which is structurally equivalent to the raw/04 regulation-text exemption from the `Record No. NNNNN` requirement. Evidence record numbers anchoring this duty's VIOLATION in the 2016 incident period are expected to live in raw/07 scanned evidence record pages and will be added on raw/07 ingest; absence of Record No. citations in this atom is therefore an exemption, not a defect.
 - **Were 2016 incident-period backups preserved at off-site storage?** Central question for Layer 1.
 - **What is DIDC's documented backup retention period for 2016-era systems?** Determines whether retention-expiration disposal is a plausible counter-hypothesis.
 - **Has any 제77조/90조/91조/92조 disposal documentation for 2016-era backups been produced or sought during the 2022 prosecution?** Pending raw/05 cross-check.

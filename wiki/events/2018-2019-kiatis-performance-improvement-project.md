@@ -77,3 +77,5 @@ Any 2022 investigation claim that KIATIS DT&E/OT&E were legitimately integrated 
 - [[../entities/organizations/dma-defense-pow-mia-accounting-agency|국방 유해발굴사업단 (OT&E 수행자)]]
 - [[../entities/organizations/mnd-it-planning-office|국본 정보화기획관실 (8개 승인 게이트 보유)]]
 - [[../entities/organizations/kida|KIDA (US OT&E 규정 허위 인용)]]
+- [[../claims/prosecution-misapplies-2129-article-58-4-to-kiatis|Layer 6: 불기소이유서 제58조 ¶4 misapplication]]
+- [[../topics/test-evaluation-manipulation|Test Evaluation Manipulation]]

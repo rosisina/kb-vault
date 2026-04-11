@@ -1,4 +1,4 @@
-# 제2436호 (2020-06-04) is a six-anchor cluster — single-revision rebuild of the test-evaluation regime
+# 제2436호 (2020-06-04) is an eight-anchor cluster — single-revision rebuild of the test-evaluation regime (expanded from six on 2026-04-11 after P6 blind re-measurement)
 
 **Source:** raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2129호)(20180205).converted.md, raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2398호)(20200213).converted.md, raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2436호)(20200604).converted.md
 **Layer:** [[../layers/layer-1|Layer 1]], [[../layers/layer-4|Layer 4]]
@@ -7,21 +7,35 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L4-CLUSTER-2436"})
 SET fr.layer = 4,
     fr.claimType = "regulatory_revision_cluster",
-    fr.claimDesc = "국방정보화업무 훈령 제2436호 (2020-06-04) is a single-revision cluster of six simultaneous anchor movements that collectively rebuild the directive's test-evaluation regime, with no other revision in 2017–2025 matching its magnitude",
-    fr.counterHypothesis = "The six co-occurring movements at 제2436호 are statistically expected for a major revision and reflect periodic restructuring rather than coordinated rebuild",
-    fr.falsificationCondition = "Demonstration that any of the eight other revisions in the dataset (제2263호, 제2398호, 제2576호, 제2649호, 제2842호, 제2946호, 제3059호, 제3080호) contains six or more simultaneous anchor movements",
+    fr.claimDesc = "국방정보화업무 훈령 제2436호 (2020-06-04) is a single-revision cluster of eight simultaneous anchor movements that collectively rebuild the directive's test-evaluation regime, with no other revision in 2017–2025 matching its magnitude. Six of the eight anchors (A8a, A8b, A11, A12, A9, A10) concentrate on 제57조~제61조 alone — the 시험평가 regime was the specific target. Originally framed as a six-anchor cluster in the 2026-04-11 calibration ingest; expanded to eight anchors later the same day after P6 blind re-measurement of 제57조 full text surfaced the DT&E-side symmetry (A11: 사업관리기관 binding erasure) and the DT&E result-judgment deletion (A12: 합격/불합격 clause erasure) that the original A8b atom (OT&E only) did not capture",
+    fr.counterHypothesis = "The eight co-occurring movements at 제2436호 are statistically expected for a major revision and reflect periodic restructuring rather than coordinated rebuild",
+    fr.falsificationCondition = "Demonstration that any of the eight other revisions in the dataset (제2263호, 제2398호, 제2576호, 제2649호, 제2842호, 제2946호, 제3059호, 제3080호) contains eight or more simultaneous anchor movements, or that the A11/A12 additions are reclassification rather than genuine new findings",
     fr.verdict = "CORROBORATED",
     fr.strength = "STRONG",
     fr.truthfulness = 9,
     fr.validity = 8,
     fr.sincerity = 8,
     fr.analysisDate = date("2026-04-11"),
-    fr.summary = "제2436호 single-revision movement count is 6/11 anchors; the next-largest revision (제2842호) moves 1 anchor; cluster ratio is at least 6:1";
+    fr.summary = "제2436호 single-revision movement count is 8/13 anchors (expanded from 6/11 after P6 blind re-measurement); the next-largest revision (제2842호) moves 1 anchor; cluster ratio is at least 8:1. Six of eight cluster anchors fall within 제57조~제61조";
 ```
+
+## Filename note
+
+**The filename `2436ho-cluster-six-anchors.md` is preserved for URL stability** even though the current framing is eight anchors. The atom was originally created with the six-anchor framing during the 2026-04-11 morning A.4 calibration ingest; P6 blind re-measurement later the same day expanded the count to eight. By that time multiple hub pages and claim atoms had already wikilinked to `2436ho-cluster-six-anchors`, so renaming would require a coordinated update of ~15 inbound references. The title and body were updated in-place; the filename slug remains the permanent URL. Per Luhmann's *Zettelkasten* "names are traces of the archive's history" principle, leaving the filename visible is itself documentary.
 
 ## Claim
 
-The 제2436호 revision (2020-06-04) of 국방정보화업무 훈령 is a coordinated single-revision cluster moving six of the eleven baseline anchors simultaneously: A1 (DIDC naming), A2 (role-tier renaming), A8a (OT&E environment hedge), A8b (OT&E sponsor binding), A9 (separation-principle inversion), and A10 (DT&E article deletion). No other revision in the 2017–2025 dataset moves more than one anchor at a time. The 제2436호 cluster reconstructs the directive's test-evaluation regime in a single edit.
+The 제2436호 revision (2020-06-04) of 국방정보화업무 훈령 is a coordinated single-revision cluster moving **eight** of the thirteen baseline anchors simultaneously: A1 (DIDC naming), A2 (role-tier renaming), A8a (OT&E environment hedge), A8b (OT&E sponsor binding), **A11 (DT&E sponsor binding — symmetric to A8b)**, **A12 (DT&E `합격/불합격` result-judgment clause)**, A9 (separation-principle inversion), and A10 (DT&E article body deletion). No other revision in the 2017–2025 dataset moves more than one anchor at a time. The 제2436호 cluster reconstructs the directive's test-evaluation regime in a single edit, with six of the eight movements concentrated on 제57조~제61조 (the 시험평가 regime itself).
+
+## Key Takeaways
+
+- 제2436호 (2020-06-04) moves **eight of thirteen** baseline anchors simultaneously (A1, A2, A8a, A8b, A11, A12, A9, A10) in a single revision of 국방정보화업무 훈령 [진리성]
+- **Six of the eight anchors (A8a, A8b, A11, A12, A9, A10) fall within 제57조~제61조 alone** — the 시험평가 regime was the specific target of the revision, not the directive as a whole [타당성]
+- No other revision in the 2017–2025 dataset (제2263호 / 제2398호 / 제2576호 / 제2649호 / 제2842호 / 제2946호 / 제3059호 / 제3080호) moves more than one anchor at a time; the cluster ratio is at least 8:1 against the next-largest single-revision change [진리성]
+- The eight movements span four distinct articles (제10조, 제11조, 제57조, 제58조, 제59~61조 group), structurally coupling the DIDC entity-naming erasure to the test-evaluation regime rebuild [타당성]
+- The same revision that erases the DIDC accountability hook (A1, Layer 1) also removes the procedural framework constraining DIDC-related test evaluation (A8a/A8b/**A11/A12**/A9/A10, Layer 4) — a regulatory pivot linking Layer 1 and Layer 4 [타당성]
+- A11 and A12 were discovered on 2026-04-11 during A.6 P6 blind re-measurement of 제57조 full text; the original 6-anchor framing (A8b OT&E-only) missed the DT&E-side symmetry (사업관리기관 binding) and the DT&E result-judgment deletion. Both additions strengthen the cluster's "test-evaluation regime rebuild" framing [진리성]
+- Verdict CORROBORATED (strength STRONG); falsification requires producing any other revision moving ≥8 anchors simultaneously or a 제·개정 이유서 showing scheduling-convenience bundling [진리성]
 
 ## Layer
 
@@ -33,6 +47,8 @@ The 제2436호 revision (2020-06-04) of 국방정보화업무 훈령 is a coordi
 - A2 — 제2129호 제11조 ¶1 (lines 602–606) names `사업통제기관·사업주관기관·사업관리기관`; 제2436호 제11조 ¶1 (line 591) renames to `정보화기획관실, 소요제기기관, 집행기관`.
 - A8a — 제2398호 제57조 ¶1 제2호 (line 1671) introduced `또는 이와 유사한 환경에서`; 제2436호 (line 1685) removes it. Net 4-month flip.
 - A8b — 제2129호 제57조 ¶1 제2호 begins `사업주관기관 주관 하에 실제 조성된…`; 제2436호 (line 1685) begins `실제 조성된…` — `사업주관기관 주관 하에` clause removed with no replacement.
+- **A11 — 제2129호 제57조 ¶1 제1호 begins `사업관리기관 주관 하에 체계규격서…`; 제2436호 (line 1683) begins `체계규격서…` — `사업관리기관 주관 하에` clause removed with no replacement. Symmetric to A8b on the DT&E side. Discovered 2026-04-11 via P6 blind re-measurement.**
+- **A12 — 제2129호 제57조 ¶1 제1호 ends `…평가로서 합격 또는 불합격으로 결과를 판정할 것`; 제2436호 (line 1683) ends `…실시하는 평가` — the `합격 또는 불합격으로 결과를 판정할 것` result-judgment clause removed with no replacement. DT&E definition reduced from bound-and-judged definition to bare descriptive phrase. Note that the parallel OT&E result-judgment clause (`군사용 적합 또는 부적합으로 판정할 것`) is retained in 제2호, making the DT&E erasure asymmetric. Discovered 2026-04-11 via P6 blind re-measurement.**
 - A9 — 제2129호 제58조 ¶2 has `개발시험평가와 운용시험평가를 분리하는 것을 원칙으로 하되`; 제2436호 제58조 ¶1 (line 1700) inverts to `시험평가는 통합하여 실시하는 것을 원칙으로 한다`. Principle reversal in the same article.
 - A10 — 제2129호 제59·60·61조 contain full DT&E procedural text; 제2436호 (lines 1725, 1728, 1731) replaces all three article bodies with `<삭 제>` placeholder.
 - Negative cluster comparator: search of all eight other revisions yields zero with multiple simultaneous movements. The next-largest single-revision change is 제2842호 (re-addition of A8a hedge after 3-year absence), a single-anchor movement.

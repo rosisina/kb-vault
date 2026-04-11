@@ -48,3 +48,4 @@ Article 60 defines the **seven mandatory DT&E evaluation items** that the develo
 - [[defense-it-2129-article-58|제58조 (시험평가 수행원칙)]]
 - [[defense-it-2129-article-59|제59조 (개발시험평가 계획수립)]]
 - [[../layers/layer-4|Layer 4]]
+- [[../claims/2436ho-dtne-articles-erased|A10: 제2436호 DT&E article body deletion]]

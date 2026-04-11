@@ -28,7 +28,7 @@ esac
 # Skip non-articles
 base="$(basename "$FILE_PATH")"
 case "$base" in
-  _index.md|_master-index.md|log.md|_contradictions.md|timeline.md) exit 0 ;;
+  _index.md|_master-index.md|log.md|_contradictions.md|timeline.md|_record-index.md) exit 0 ;;
 esac
 case "$FILE_PATH" in
   */_examples/*) exit 0 ;;
@@ -42,6 +42,14 @@ grep -q '^\*\*Source:\*\*' "$FILE_PATH" || missing+=("**Source:** line")
 grep -q '^\*\*Layer:\*\*'  "$FILE_PATH" || missing+=("**Layer:** line")
 grep -q '^## Key Takeaways' "$FILE_PATH" || missing+=("## Key Takeaways section")
 grep -q '^## Related'      "$FILE_PATH" || missing+=("## Related section")
+
+# Extra contract for claim atoms under wiki/claims/ (A.6 Re-verify requirements)
+case "$FILE_PATH" in
+  */wiki/claims/*)
+    grep -q '^## Supporting evidence' "$FILE_PATH" || missing+=("## Supporting evidence section (required for claim atoms)")
+    grep -q '^## Spot-check'          "$FILE_PATH" || missing+=("## Spot-check (raw/01 book) section (required for claim atoms per A.6 spot-check rule)")
+    ;;
+esac
 
 if [ ${#missing[@]} -gt 0 ]; then
   printf 'wiki article contract violation in %s: missing %s\n' "$FILE_PATH" "${missing[*]}" >&2

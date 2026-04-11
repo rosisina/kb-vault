@@ -23,6 +23,14 @@ SET fr.layer = 1,
 
 DIDC 부대예규 제12호 제37조 (방화벽 및 SSL-VPN 관리/운용) requires that **every** firewall policy change (신규, 변경, 삭제) must be documented via 별지 제6호 서식 (방화벽 보안정책 요청서), **every** SSL-VPN account creation/change/deletion must be documented via 별지 제7호 서식 (SSL-VPN 계정 신청서), and **every** NAC policy change or exception must be documented via 별지 제8호 서식 (NAC 예외처리 요청서). Each form requires 각 센터 정보보호과장 (information protection section chief) approval. These three forms are the most security-critical auditable artifacts in the entire DIDC SOP because firewall, VPN, and NAC are the primary network-level defense mechanisms that any persistent attacker must navigate. **For the 2016 DIDC hacking incident, the attacker's persistence in the DIDC environment necessarily required either pre-existing firewall/VPN/NAC exceptions or post-incident exception removals, both of which should leave a paper trail under 제37조. The absence of such trails for the 2016 incident period is direct Layer 1 cover-up evidence.**
 
+## Key Takeaways
+
+- DIDC 부대예규 제12호 제37조 ① requires every firewall policy change (신규/변경/삭제) to be filed via 별지 제6호 서식 and approved by 각 센터 정보보호과장 (raw/06/01 line 537) [타당성]
+- 제37조 ③ imposes the same requirement on SSL-VPN account creation/change/deletion via 별지 제7호 서식 (line 549); 제37조 ④ imposes it on NAC exceptions via 별지 제8호 서식 (line 555) — all three requiring 정보보호과장 approval [타당성]
+- 제37조 ② mandates that all remote access to DIDC-managed systems must route through SSL-VPN (line 547), making VPN logs the structural chokepoint for ingress analysis [타당성]
+- Any persistent attacker presence in DIDC during 2016 necessarily required pre-existing or post-incident firewall/VPN/NAC exceptions; the absence of corresponding 별지 6/7/8호 forms for the incident period is structurally anomalous and constitutes Layer 1 procedural-trace cover-up evidence [진리성]
+- Verdict CORROBORATED (strength STRONG, 진리성 9 / 타당성 10 / 진실성 8); paired with 별지 제17호 DB-access atom to form the ingress/egress sandwich for persistent-intrusion detection [진실성]
+
 ## Layer
 
 [[../layers/layer-1|Layer 1]] — Active-X 제거 사업 간 舊KIATIS 이력 제거 (DIDC 해킹 근원서버 은폐의 출발점). The 별지 제6/7/8호 forms are the most directly auditable network-level artifacts in the DIDC procedural ecosystem. Unlike 별지 제4호 (incident report — single artifact for the incident itself), the 6/7/8호 forms are *structural* artifacts that exist in continuous administrative use and must show *changes* during the incident period. Their absence is detectable by gap analysis, not just by document missing.
@@ -72,6 +80,7 @@ If items 1 or 2 are produced with substantive content, the verdict downgrades to
 
 ## Open Questions
 
+- **Evidence citation coverage — exempt under CLAUDE.md regulation-text rule.** This atom's primary sourcing is DIDC SOP 제12호 제37조 ¶1 (raw/06 regulation text), which is structurally equivalent to the raw/04 regulation-text exemption from the `Record No. NNNNN` requirement. Evidence record numbers anchoring this duty's VIOLATION in the 2016 incident period are expected to live in raw/07 scanned evidence record pages and will be added on raw/07 ingest; absence of Record No. citations in this atom is therefore an exemption, not a defect.
 - **What was the 2016 DIDC hacking technical vector?** Central question. The atom's specific form-chain falsification depends on whether the attack involved network policy changes vs zero-day vs insider credential.
 - **Do the 별지 6/7/8호 forms for the 2016 incident period exist?** Pending raw/05 / raw/07 cross-check.
 - **Did DIDC have an emergency-procedure bypass in 2016?** Pending DIDC internal documentation request.

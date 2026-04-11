@@ -27,6 +27,9 @@ Conceptual / narrative synthesis pages — the reading layer of the wiki. 8 page
 ### [[_contradictions|Contradictions]]
 Flat index of flagged contradictions awaiting adjudication by a claim page.
 
+### [[_record-index|Record Number Reverse Index]]
+Auto-generated reverse index: `Record No. NNNNN → [atoms citing it]` plus layer coverage rollup and layer-assignment mismatch report. Built by `scripts/build-record-index.py`. Rerun the script after any ingest to refresh.
+
 ## Topics
 
 *Additional topic folders beyond the backbone will be listed here as they are created during ingest.*

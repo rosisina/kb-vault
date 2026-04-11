@@ -1,4 +1,4 @@
-# 제2842호 consolidates 13-stage software development sequence into 5 phases (A7 time-reversal anchor)
+# 제2842호 modifies 제76조 Article 76 software development terminology and phase grouping — the book frames this as responsibility-shifting rename (item 12: Software Installation → System Installation, grouped under new Delivery phase); the wiki "13→5 stage consolidation" reading is a secondary interpretation pending direct raw/04 re-verification
 
 **Source:** raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2129호)(20180205).converted.md, raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2842호)(20230920).converted.md
 **Layer:** [[../layers/layer-4|Layer 4]]
@@ -7,7 +7,7 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L4-A7-001"})
 SET fr.layer = 4,
     fr.claimType = "regulatory_sequence_consolidation",
-    fr.claimDesc = "제2842호 (2023-09-20) replaced 제76조 ¶1's 13-stage strict-sequence software development model with a 5-phase model that permits flexible sequencing within each phase, removing the procedural basis for time-reversal detection",
+    fr.claimDesc = "제2842호 (2023-09-20) modified 제76조 Article 76's software development lifecycle terminology and phase grouping — specifically, item 12 was renamed from 'Software Installation' to 'System Installation' and grouped under a newly introduced 'Delivery' phase category. Book §3.4.7.3.5 frames this as a responsibility-shifting rename (substantive work reassigned by nomenclature without changing operational reality). Secondary framing (wiki-side interpretation pending direct raw/04 re-verification): the terminology+grouping change may correspond to a broader 13-stage-to-5-phase consolidation that would weaken time-reversal anomaly detection by allowing out-of-order completion dates within phase boundaries — but the book does NOT directly attribute time-reversal-detection erosion to the Article 76 change; that linkage is a wiki-side synthesis",
     fr.counterHypothesis = "The 13→5 consolidation reflects industry-standard agile/iterative methodology adoption and is independent of any post-hoc evidence-tampering motive; phase-based models are mainstream in 2023 government IT directives",
     fr.falsificationCondition = "Production of (a) the 13-stage model in any other Korean government IT directive in force in 2023, OR (b) academic / industry literature establishing that 5-phase models do or do not preserve time-reversal detection capability",
     fr.verdict = "NEEDS_MORE_EVIDENCE",
@@ -16,12 +16,22 @@ SET fr.layer = 4,
     fr.validity = 7,
     fr.sincerity = 7,
     fr.analysisDate = date("2026-04-11"),
-    fr.summary = "Direct text comparison shows the 13-stage sequence consolidated into 5 phases at 제2842호; substantive significance for time-reversal detection requires methodological grounding";
+    fr.summary = "Book §3.4.7.3.5 frames 제2842호 제76조 change as terminology+grouping shift (item 12 rename + Delivery phase category); 13→5 stage consolidation reading is wiki-side secondary interpretation pending direct raw/04 re-verification; time-reversal-detection erosion linkage requires independent book quotation";
 ```
 
 ## Claim
 
-On 2023-09-20, 국방정보화업무 훈령 제2842호 replaced the 13-stage strict-sequence software development model in 제76조 ¶1 with a 5-phase model. Under the 13-stage model, each stage had a defined predecessor and successor and time-reversal anomalies (out-of-order completion dates between stages) were detectable on the document trail. Under the 5-phase model, sequencing within each phase is flexible, and time-reversal anomalies that occur within a phase boundary are no longer regulatory anomalies.
+**Primary framing (book-anchored, per §3.4.7.3.5 of `raw/01. book-beyond-cybersecurity/vault-converted-english/14-3-4-34-Fourth-Layer.md` line 511):** On 2023-09-20, 국방정보화업무 훈령 제2842호 modified 제76조 Article 76's software development lifecycle terminology and phase grouping. Specifically, item 12 was renamed from `Software Installation` to `System Installation` and grouped under a newly introduced `Delivery` phase category. James characterizes this as a **responsibility-shifting rename** — the substantive work covered by item 12 is reassigned by nomenclature without changing the operational reality.
+
+**Secondary framing (wiki interpretation, pending direct raw/04 re-verification):** The book's description of terminology + grouping change may correspond to a broader 13-stage-to-5-phase consolidation at the text level of 제2842호 제76조 ¶1. Under the 13-stage reading, each stage had a defined predecessor and successor and time-reversal anomalies (out-of-order completion dates between stages) were detectable on the document trail. Under the 5-phase reading, sequencing within each phase would be flexible, weakening the time-reversal detection signal. **The 13→5 phrasing is a wiki-side interpretive step not directly stated in the book**; it requires direct re-measurement of the 제2129호 and 제2842호 제76조 ¶1 raw text before being promoted to primary framing.
+
+## Key Takeaways
+
+- Book §3.4.7.3.5 (Fourth Layer chapter, line 511) frames the 제2842호 제76조 modification as a **terminology + grouping shift**: item 12 renamed `Software Installation` → `System Installation` and grouped under a new `Delivery` phase category — a responsibility-shifting rename [진리성]
+- The wiki secondary reading (13-stage-to-5-phase consolidation of 제76조 ¶1) is a wiki-side interpretive step not directly stated in the book; it requires direct raw/04 re-measurement before promotion to primary framing [진리성]
+- If the 13→5 reading is textually verified in raw/04, out-of-order completion dates between stages that had been detectable regulatory anomalies would become undetectable where they occur within a phase boundary — but this downstream consequence is **not asserted by the book for 제76조**; any time-reversal-detection erosion claim requires independent methodological grounding [타당성]
+- James's Layer 4 "시간 역전현상" narrative exists in the book (§3.4.7 context), but the book does NOT specifically attribute time-reversal-detection erosion to the 제76조 terminology/grouping change; linking the two is a wiki-side synthesis pending direct book quotation [진실성]
+- Verdict NEEDS_MORE_EVIDENCE (strength MODERATE); resolution depends on (a) direct raw/04 verbatim re-read to confirm the 13→5 reading, and (b) book quotation directly linking the Article 76 change to time-reversal-detection capability [진리성]
 
 ## Layer
 

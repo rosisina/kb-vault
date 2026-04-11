@@ -23,6 +23,14 @@ SET fr.layer = 3,
 
 On 2020-06-04, 국방정보화업무 훈령 제2436호 renamed the three-tier role nomenclature in 제11조 ¶1 from `사업통제기관·사업주관기관·사업관리기관` to `정보화기획관실, 소요제기기관, 집행기관`. The rename is structural, not cosmetic — the new vocabulary reorganizes accountability around an organizational name (정보화기획관실) rather than around a project-control function (사업통제기관), which makes accountability tracing dependent on which office holds a name at a given moment rather than on which office holds a regulatory function.
 
+## Key Takeaways
+
+- 제2436호 (2020-06-04) 제11조 ¶1 renamed the three-tier role nomenclature from `사업통제기관·사업주관기관·사업관리기관` to `정보화기획관실, 소요제기기관, 집행기관` [진리성] (verified by direct text read of raw/04 제2129호 vs 제2436호).
+- The rename is **structural, not cosmetic** — the new vocabulary reorganizes accountability around an organizational name (정보화기획관실) rather than a project-control function (사업통제기관), making accountability tracing depend on office-name assignment rather than regulatory function [타당성].
+- The rename persists into 제2576호 with no reversal (verified §9.2), indicating the change was not a transient drafting error [진리성].
+- The rename works in tension with the retained explicit `국전원` naming in 제11조 ¶4 — two changes operating in opposite directions whose net effect on 국전원 accountability requires careful layer analysis [진리성].
+- Verdict: **NEEDS_MORE_EVIDENCE**, Moderate. 진리성 7 / 타당성 7 / 진실성 6. The harmonization counter-hypothesis (parent-law 국방정보화법 alignment) cannot be foreclosed without external comparator search — this is the model atom for "directive change verified, intent ambiguous" [진실성].
+
 ## Layer
 
 [[../layers/layer-3|Layer 3]] — 국전원 전속 후 SW개발사업관리 착수·종결 (국방정보화카르텔 공모 구조). The role-tier vocabulary is the regulatory mechanism through which 국전원's role is identified; renaming the tier vocabulary changes how 국전원's role is described in the directive without removing the explicit `국전원` mention. The two changes (vocabulary rename + retained explicit naming) work in opposite directions and the net effect on accountability requires careful analysis.

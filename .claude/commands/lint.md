@@ -4,9 +4,21 @@ allowed-tools: Read Grep Glob Write Bash(jq *) Bash(date *)
 argument-hint: [layer-numbers-or-empty]
 ---
 
-Run the **Lint** operation as defined in `CLAUDE.md` §Lint, using a **fan-out architecture** so the main agent never holds the whole vault in context.
+Run the **Lint** operation. This file is the canonical procedure — CLAUDE.md no longer duplicates the Lint section as of 2026-04-11 split. Uses a **fan-out architecture** so the main agent never holds the whole vault in context.
 
 Target: $ARGUMENTS (if empty, lint all 7 layers in parallel; if a layer subset is given, only those).
+
+## The 7 standard checks (run by every layer subagent)
+
+1. **Contradictions.** Pages that make conflicting claims. Include the file paths and the conflicting statements.
+2. **Stale claims.** Statements in older articles that newer raw sources have updated or superseded.
+3. **Orphan pages.** Articles with zero inbound wikilinks from other articles.
+4. **Missing concepts.** Concepts mentioned in 3 or more articles that do not have their own page yet.
+5. **Missing cross-links.** Pairs of articles that reference related ideas but do not link to each other.
+6. **Unsourced claims.** Statements in wiki articles that do not trace back to a `**Source:**` raw file, or claims that do not appear in the cited source.
+7. **Suggested new articles.** 3 to 5 concrete article ideas that would strengthen the wiki based on gaps you found.
+
+These run alongside the 5 augmented checks below. Together = 12 checks per layer subagent.
 
 ## Architecture
 

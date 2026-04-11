@@ -8,7 +8,11 @@
 
 ## Definition
 
-> **Fraud Investigation** — an act in which state power agencies use their investigative authority to conduct organized and deceptive investigations, thereby stigmatizing a specific individual as a criminal.
+Per the book's formal definition at `raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md` line 26:
+
+> **Fraud Investigation (사기수사)** — an act in which state power agencies abuse their investigative authority **to promote organizational interest (조직의 이익을 도모하고)** and to conduct organized and deceptive investigations, thereby stigmatizing a specific individual as a criminal and inflicting **irrecoverable harm (회복 불가능한 손해)** on the victim.
+
+The book's definition has **four constitutive elements**, all of which must be present for the concept to apply: (1) abuse of investigative authority, (2) the purpose is to promote organizational interest, (3) the investigation is organized and deceptive, and (4) the harm inflicted is irrecoverable. Earlier wiki drafts omitted elements (2) and (4); patched on 2026-04-11 A.6 Re-verify to restore the full definitional structure per book line 26.
 
 The concept bridges two legal domains: **criminal fraud** (a private-law concept about deception for property gain) and **investigative authority abuse** (a public-law concept about misuse of state power). The book argues that in the distributed-agency configuration of the Defense Informatization Cartel, these two domains converge.
 
@@ -27,7 +31,7 @@ The book argues the MPO's investigation satisfies both the elements of criminal 
 - **Anonymity** — individual actors hidden behind organizational structures; no single prosecutor personally signs the entire chain of decisions.
 - **Non-contact nature** — indirect attacks through documents and procedures, not face-to-face accusation.
 - **Breadth** — simultaneous manipulation across multiple agencies (see [[defense-informatization-cartel|Defense Informatization Cartel]]).
-- **Speed** — false report → administrative isolation → formal investigation chain executed within 48 hours of the 2022-02-08 meeting that exposed the old KIATIS Internet exposure.
+- **Speed** — false report → administrative isolation → formal investigation chain executed rapidly after the 2022-02-08 meeting that exposed the old KIATIS Internet exposure. *(Note: the specific "within 48 hours" window is a Layer 5 temporal-forensics claim anchored to 기록 제11,334 / 제3,965 under the proposed atom `layer5-48hr-retaliation-causal-link.md`; the Layer 6 chapter treats the retaliation timing at a higher level of abstraction. This hub's 48-hour framing previously asserted it at Layer 6 — corrected on 2026-04-11 A.6 Re-verify to route the specific window to the Layer 5 atom.)*
 
 ## DIDC Center 1 vs Center 2
 
@@ -54,7 +58,7 @@ This theoretical application is part of the book's claim that fraud investigatio
 
 - [진리성] Layer 6 argues that the MPO investigation was constructed on a factually false premise — the identity of four distinct KIATIS environments — and that the investigators knew or should have known this.
 - [타당성] The concept "fraud investigation" formally bridges criminal-fraud elements (deception for harm) and public-law abuse-of-authority concepts, creating a novel legal category for state-power-driven institutional attack on an individual.
-- [진리성] The 48-hour timeline from the 2022-02-08 meeting (where old KIATIS's Internet exposure was exposed) to the filing of the false power-abuse report is a direct temporal-forensics data point supporting intentionality.
+- [진리성] Rapid retaliation after the 2022-02-08 meeting (where old KIATIS's Internet exposure was discussed) is a temporal-forensics data point supporting intentionality; the specific "within 48 hours" window is a Layer 5 finding anchored to 기록 제11,334 / 제3,965, atomized at [[../claims/layer5-48hr-retaliation-causal-link|L5 48-hour causal link atom]].
 - [진리성] The DIDC Center 1 vs Center 2 factual dispute is independently verifiable against the 2016 hacking investigation records and is the **single most decisive factual question** in the entire proof system — if Center 1 is confirmed as the hacking origin, the motive for the entire cover-up is empirically grounded.
 - [타당성] The application of Routine Activities Theory to state crime is one of the book's principal academic contributions and generalizes beyond this specific case to any institutional configuration with motivated offenders, suitable targets, and oversight failure.
 

@@ -1,13 +1,13 @@
-# 한지훈의 증거 기반 반박 문서(2022-09-29)는 군 검찰단부터 국가권익위원회까지 8개 기관에서 모두 거절됨 — Layer 7 institutional rejection chain
+# 한지훈의 증거 기반 반박 문서(2022-09-25)는 군 검찰단부터 국가권익위원회까지 8개 기관에서 모두 거절됨 — Layer 7 institutional rejection chain
 
-**Source:** raw/05. Investigation by the Military Prosecutor's Office/Bilingual(English, Korean)/(20220929) Explanation and Proof Search, Seizure, and Verification Warrants Search(English, Korean).converted.md (한지훈 본인 작성 반박 문서, 2022-09-29) • James 2026-04-11 contextual input on 8-step distribution chain
+**Source:** raw/05. Investigation by the Military Prosecutor's Office/Bilingual(English, Korean)/(20220929) Explanation and Proof Search, Seizure, and Verification Warrants Search(English, Korean).converted.md (한지훈 본인 작성 반박 문서, composition date **2022-09-25** per book §3.7.1.1 and raw/05 interior read 2026-04-11; the `(20220929)` in filename is James's own filename-metadata convention with no primary-source status — see [[han-ji-hoon-rebuttal-document-date-2022-09-25]]) • James 2026-04-11 contextual input on 8-step distribution chain
 **Layer:** [[../layers/layer-7|Layer 7]] (primary), [[../layers/layer-6|Layer 6]] (secondary)
 **Aurora node:**
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L7-001"})
 SET fr.layer = 7,
     fr.claimType = "institutional_rejection_chain",
-    fr.claimDesc = "한지훈 (이영주) authored an evidence-based rebuttal document on 2022-09-29 (raw/05 (20220929) file) refuting the prosecution's warrant + search/seizure + suspect interrogation. He submitted the document to 8 institutions in sequence: (1) 국방부 국방장관, (2) 군사보좌관, (3) 군검찰단장, (4) 담당 검사, (5) 담당 수사관, (6) 군검찰단 인권담당, then after the 기소유예 stigma decision: (7) 국가인권위원회, (8) 국가권익위원회. ALL EIGHT institutions rejected or refused to act on the rebuttal. This is the empirical core of the Layer 7 narrative — institutional accountability mechanisms failed at every level from internal MND to civilian human rights bodies",
+    fr.claimDesc = "한지훈 authored an evidence-based rebuttal document on 2022-09-25 (raw/05 (20220929) filename metadata; composition date per book §3.7.1.1; interior carries no printed date) refuting the prosecution's warrant + search/seizure + suspect interrogation. He submitted the document to 8 institutions in sequence: (1) 국방부 국방장관, (2) 군사보좌관, (3) 군검찰단장, (4) 담당 검사, (5) 담당 수사관, (6) 군검찰단 인권담당, then after the 기소유예 stigma decision: (7) 국가인권위원회, (8) 국가권익위원회. ALL EIGHT institutions rejected or refused to act on the rebuttal. This is the empirical core of the Layer 7 narrative — institutional accountability mechanisms failed at every level from internal MND to civilian human rights bodies",
     fr.counterHypothesis = "Some of the 8 institutions performed substantive review and rejected the rebuttal on the merits, in which case the rejection is not a Layer 7 institutional failure but a normal adversarial outcome",
     fr.falsificationCondition = "Production of (a) any of the 8 institutions' written rejection rationale showing substantive engagement with the rebuttal's specific evidence and legal arguments, OR (b) demonstration that any of the 8 institutions altered any aspect of the prosecution or its consequences in response to the rebuttal",
     fr.verdict = "CORROBORATED",
@@ -21,15 +21,15 @@ SET fr.layer = 7,
 
 ## Claim
 
-한지훈 (이영주) authored an evidence-based rebuttal document on 2022-09-29 (the file `raw/05/Bilingual(English, Korean)/(20220929) Explanation and Proof Search, Seizure, and Verification Warrants Search(English, Korean).pdf`) refuting the MND Military Prosecutor's Office's 압수수색 영장, 압수수색 실행, and 피의자 조사. The document is **not a prosecutor work product** — it is **한지훈's own evidence-based rebuttal**, refuting the targeted/fraudulent investigation point by point with primary evidence drawn from directives, official documents, and operational records.
+한지훈 authored an evidence-based rebuttal document on 2022-09-25 (composition date per book §3.7.1.1; the file at `raw/05/Bilingual(English, Korean)/(20220929) Explanation and Proof Search, Seizure, and Verification Warrants Search(English, Korean).pdf` uses `(20220929)` as filename metadata only — the interior has no printed date per raw/05 interior read 2026-04-11) refuting the MND Military Prosecutor's Office's 압수수색 영장, 압수수색 실행, and 피의자 조사. The document is **not a prosecutor work product** — it is **한지훈's own evidence-based rebuttal**, refuting the targeted/fraudulent investigation point by point with primary evidence drawn from directives, official documents, and operational records.
 
 Per James 2026-04-11, 한지훈 submitted the document to **8 institutions in sequence**:
 
-1. **국방부 국방장관** (이종섭 → [[../entities/people/han-ji-hoon|최우진]] in pseudonym)
-2. **국방부장관 군사보좌관** ([[../entities/people/han-ji-hoon|박진희 → 홍성민]])
+1. **국방부 국방장관** (최우진)
+2. **국방부장관 군사보좌관** (홍성민)
 3. **군 검찰단장** ([[../entities/people/ahn-se-jun|안세준]])
 4. **담당 검사** ([[../entities/people/im-hyung-gyu|임형규]])
-5. **담당 수사관** ([[../entities/people/im-hyung-gyu|진상호]])
+5. **담당 수사관** ([[../entities/people/jin-sang-ho|진상호]])
 6. **군 검찰단 인권담당** (raw/02 [013-2] — 준위 및 대령, names pending)
 
 After the 군 검찰단 issued the 기소유예 stigma decision on 2022-10-07 (per [[han-ji-hoon-kiso-yuye-is-criminal-stigma]]), 한지훈 escalated the rebuttal to civilian human rights and anti-corruption bodies:
@@ -38,6 +38,14 @@ After the 군 검찰단 issued the 기소유예 stigma decision on 2022-10-07 (p
 8. **국가권익위원회** (Anti-Corruption and Civil Rights Commission)
 
 **ALL EIGHT institutions rejected or refused to act on the rebuttal.** This is the empirical core of Layer 7's `진정서 제출·수사 촉구 후 기소유예` thesis — institutional accountability mechanisms failed at every level, from the internal MND chain (steps 1–6) to the civilian human rights bodies (steps 7–8).
+
+## Key Takeaways
+
+- 한지훈 authored an evidence-based rebuttal document on 2022-09-25 refuting the Military Prosecutor's Office's 압수수색 영장 + 실행 + 피의자 조사; the document is 한지훈's own work product, not a prosecutor artifact (raw/05 `(20220929)` filename is metadata only — the interior carries no printed date) [진리성]
+- The rebuttal was submitted to 8 institutions in sequence: 국방장관 → 군사보좌관 → 군검찰단장 → 담당 검사 → 담당 수사관 → 군검찰단 인권담당 → 국가인권위원회 → 국가권익위원회 (James 2026-04-11 contextual confirmation) [진리성]
+- ALL EIGHT institutions rejected or refused to act on the rebuttal, exhausting all four functional categories of Korean institutional accountability (military internal, military political oversight, civilian human rights, civilian anti-corruption) [진실성]
+- The document itself records that the prosecution had already internally recognized 한지훈's lack of criminal liability (raw/05 (20220929) lines 163-167) yet failed to terminate the investigation — demonstrating institutional failure on the merits, not procedural disagreement [타당성]
+- The 8-step rejection chain is the operational definition of Layer 7's `진정서 제출·수사 촉구 후 기소유예` thesis and constitutes the empirical core of the institutional-failure claim [진실성]
 
 ## Layer
 
@@ -48,7 +56,7 @@ After the 군 검찰단 issued the 기소유예 stigma decision on 2022-10-07 (p
 - **The (20220929) document itself** as primary evidence of 한지훈's rebuttal effort:
   - Title: "압수, 수색, 검증 영장에 대한 해명과 증명" (Explanation and Proof of Warrants for Seizure, Search, and Verification)
   - Author: 한지훈 (자칭 본인) — explicitly self-identified as Army Lieutenant Colonel and the suspect
-  - Date: 2022-09-29
+  - Date: 2022-09-25 (composition date per book §3.7.1.1; raw/05 interior has no printed date; `(20220929)` filename is metadata only)
   - Length: 3,811 lines (English-Korean bilingual)
   - Content: refutes each of the 6 charges (업무상 배임, 허위공문서작성, 허위작성공문서행사, 위계공무집행방해, 허위보고, 허위통보) with primary evidence
 - **The document explicitly identifies the Defense Information Cartel** (raw/05 (20220929) lines 90-103): `2016년 국방통합데이터센터(DIDC) 북한 해킹 사건 발생 후 국방부 검찰단, 국방부 정보화조직, 국군방첩사령부(이전 안지사), 국방연구원(KIDA) 등 국방부 제조직들에(이하 국방정보화카르텔) 의한 DIDC 해킹사건의 근원서버를 은폐하고 그 증거를 인멸하는 한편 …` — explicit naming of the 5-organization cartel that the rebuttal accuses
@@ -105,3 +113,8 @@ If item 1 is produced for any institution, that specific rejection is downgraded
 - [[../layers/layer-7|Layer 7]]
 - [[../topics/whistleblower-protection-and-reform|Whistleblower Protection and Reform]]
 - [[../topics/fraud-investigation|Fraud Investigation]]
+- [[han-ji-hoon-rebuttal-document-date-2022-09-25|L7: rebuttal date adjudicated 2022-09-25 (CORROBORATED)]]
+- [[kwonikkwi-evidence-transfer-attempt-to-mnd|L7: 권익위 evidence transfer attempt]]
+- [[inkkwonwi-rejected-without-witness-review|L7: 인권위 rejection without witness review]]
+- [[on-nara-2024-upgrade-evidence-destruction-risk|L7: 온-나라 2024 upgrade evidence destruction risk]]
+- [[han-ji-hoon-dan-jang-phone-call-2022-09-28|L7: 단장 phone call 2022-09-28]]

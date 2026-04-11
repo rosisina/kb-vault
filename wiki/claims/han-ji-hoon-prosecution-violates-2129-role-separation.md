@@ -23,6 +23,14 @@ SET fr.layer = 6,
 
 The 2022 군 검찰단 investigation of 한지훈 — which proceeded through unlawful warrant + 압수수색 + 피의자 조사 and culminated in a **기소유예 (deferred prosecution) disposition** — charged him with `시험평가환경을 속였다` (lying about the test-evaluation environment) for KIATIS, in his capacity as 사업관리팀장 (Project Management Team Leader). 한지훈's defense — verbatim in raw/02 recording 142 — was that the 사업관리팀장 role under 제2129호 is institutionally barred from participating in test-evaluation execution because the directive's 제11조 separates project management duties (사업관리기관 = 국전원) from project sponsor / user agency duties (사업주관기관 = 국유단), and test-evaluation execution belongs to the latter. **If 한지훈's role-separation defense is a correct reading of 제2129호 제11조, the charge structurally cannot apply to anyone holding the 사업관리팀장 title — the alleged conduct (executing or controlling test evaluation) is directive-prohibited for that role, meaning the prosecution either misread the directive or applied a non-제2129호 framework retroactively to KIATIS conduct. The 기소유예 outcome is not exoneration — under Korean criminal procedure 기소유예 means the prosecutor acknowledges criminal facts exist but defers formal indictment, which constitutes a criminal stigma on a 32-year career officer who acted lawfully.** See [[han-ji-hoon-kiso-yuye-is-criminal-stigma]] for the harm-structure atom.
 
+## Key Takeaways
+
+- The 2022 군 검찰단 charged 한지훈 with `시험평가환경을 속였다` in his capacity as **사업관리팀장**, but 제2129호 제11조 ¶3/¶4 separates 사업주관기관 (OT&E execution + 군사용 적합/부적합 판정) from 사업관리기관 (DT&E 주관 + 사업관리) — OT&E execution belongs exclusively to 사업주관기관 [타당성].
+- 한지훈's verbatim defense (raw/02 recording 142, 2022-09-28): `사업관리팀장은 절대 평가에 들어가면 안되는 거예요. 담당이 나뉘어져 있어요. 그거는 기술이 아니고 법이에요 법. 훈령에도 나와있고` — a verifiable directive-text claim [진실성].
+- 제57조 ¶1 제2호 OT&E definition binds OT&E to `사업주관기관 주관 하에` — the A8b anchor that 제2436호 later erased, confirming the 2018 baseline's explicit role-tier binding [타당성].
+- The 압수수색 produced no contractor collusion evidence — the prosecutor admitted this verbatim to 한지훈 (`업체와 관련 있다 거나 그런 거는 없다는 것`), removing the standard concrete predicate for the charge [진리성].
+- The **기소유예 outcome is not exoneration** — under Korean criminal procedure it acknowledges criminal facts exist but defers indictment, constituting a criminal stigma on a 32-year career officer who acted lawfully. Verdict: **CORROBORATED**, Strong. 진리성 9 / 타당성 10 / 진실성 9 [진실성].
+
 ## Layer
 
 [[../layers/layer-6|Layer 6]] — 군 검찰단의 사기 수사와 범죄자 낙인. This is the foundational Layer 6 atom: it identifies the structural defect in the prosecution's charge, located in the relationship between 한지훈's actual directive role and the conduct attributed to him. [[../layers/layer-4|Layer 4]] is the secondary layer because the underlying allegation (test-evaluation environment falsification) is Layer 4 substance.

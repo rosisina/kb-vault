@@ -58,12 +58,16 @@ Article 76 of MND Directive No. 2129 (2018-02-05) defines the **13-stage standar
 
 **Observation:** The temporal sequence (¶1) — the anchor for time-reversal detection — is unchanged between 2017 and 2018. Only the appendix reference (¶2) changed. This is consistent with the directive-wide A-prefix-removal pattern recorded in the hub's predecessor diff section.
 
+## Subsequent revision note — 제2842호 (2023-09-20)
+
+Per book `raw/01. book-beyond-cybersecurity/vault-converted-english/14-3-4-34-Fourth-Layer.md` §3.4.7.3.5 (line 511), 제2842호 modifies this article's item 12 by renaming `소프트웨어 설치 / Software Installation` to `시스템 설치 / System Installation` and groups items under a newly introduced `Delivery` phase category. James's book characterizes this as a **responsibility-shifting rename** — item 12 is reassigned by nomenclature. The 13-stage list as a whole does **not** appear to be eliminated by 제2842호 in the book's treatment; whether the text of 제76조 ¶1 in 제2842호 also consolidates the 13 items into a smaller set of phases (the [[../claims/2842ho-software-development-13-to-5-stage|wiki secondary reading]]) is a distinct question pending direct raw/04 verification.
+
 ## Open Questions
 
-- **Time-reversal forensic check for 新KIATIS.** Are any 新KIATIS development deliverables signed/registered with dates that are temporally inconsistent with their position in the 13-stage sequence (e.g., a stage 5 deliverable dated later than a stage 8 deliverable)? This is the core Layer 4 time-reversal question. Resolution requires ingest of 新KIATIS deliverables from `raw/01. book-beyond-cybersecurity/` Chapter 3.4 (A.6).
+- **Time-reversal forensic check for 新KIATIS.** Are any 新KIATIS development deliverables signed/registered with dates that are temporally inconsistent with their position in the 13-stage sequence (e.g., a stage 5 deliverable dated later than a stage 8 deliverable)? This is the core Layer 4 time-reversal question. Resolution requires ingest of 新KIATIS deliverables from `raw/01. book-beyond-cybersecurity/` Chapter 3.4.
 - **Appendix 14 contents.** What specific format specifications exist for each of the 13 stages? Pending Appendix 14 ingest.
-- **Subsequent revision tracking for the 13-stage list.** Does any revision (2019–2025) modify the list — reorder stages, merge stages, remove stages? If yes, at which revision? This is the A.3 batch's primary question for 제76조.
-- **Appendix number stability for 별표 14.** Does the appendix number remain 별표 14 across 2019–2025, or does it drift further? A.3 batch should track this.
+- **Direct raw/04 re-measurement of 제2842호 제76조 ¶1 full text** to confirm or refute the wiki secondary reading (13-stage → 5-phase consolidation). Book covers item 12 rename only; a broader consolidation may or may not be present.
+- **Appendix number stability for 별표 14.** Does the appendix number remain 별표 14 across 2019–2025, or does it drift further?
 
 ## Related
 

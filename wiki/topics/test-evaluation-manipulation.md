@@ -12,7 +12,7 @@
 
 - [[../entities/organizations/kida|Korea Institute for Defense Analyses (KIDA)]] allegedly produced a fabricated research report to justify DT&E/OT&E integration.
 - Used as academic basis for subsequent MND directive revisions (see [[../regulations/defense-it-operations-directive-2129|제2129호 forward diff]] showing the evolution of the DT&E/OT&E separation regime across revisions 제2263호 → 제2436호 → 제2842호).
-- The book argues that KIDA's citation of the US **DOD Operational Test and Evaluation (OT&E) for Information and Business Systems** regulation as justification for integration is **false**, because the actual US regulation requires strict organizational and substantive separation of DT&E and OT&E. *Pending US regulation ingest for direct textual verification.*
+- The book argues that KIDA's citation of the US **DOD Operational Test and Evaluation (OT&E) for Information and Business Systems** (Gilmore memo, 2010-09-14) as justification for integration is **category confusion**: the US memo is an OT&E-side authority document permitting OT&E to reuse DT&E data within a risk-stratified framework, NOT permission to merge DT&E and OT&E into a single test activity executed by a single body. The Korean 제2129호 제58조 ¶2 separation principle IS the Korean implementation of the US framework; 제2436호's inversion overshoots the US standard rather than aligning with it. US regulation ingested 2026-04-11 — see [[../regulations/us-dod-otne-info-business-systems-2010|US DoD OT&E guidelines]] and [[../claims/kida-otne-citation-misrepresents-us-standard|KIDA claim atom]] for the full falsification structure.
 
 ### 2. Retroactive regulation revision (lex temporis violation)
 
@@ -88,3 +88,5 @@ Layer 4 propositional content is now distilled into atomic claim Zettels. This t
 - [[../entities/organizations/gukjeonwon|국전원 (DT&E)]]
 - [[../entities/organizations/dma-defense-pow-mia-accounting-agency|DMA (OT&E)]]
 - [[../layers/layer-4|Layer 4 hub]]
+- [[../claims/2436ho-dtne-sponsor-binding-erased|A11: DT&E sponsor binding erased (제2436호)]]
+- [[../events/2018-2019-kiatis-performance-improvement-project|KIATIS 성능개선사업 event]]

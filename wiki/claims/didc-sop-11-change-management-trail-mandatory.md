@@ -23,6 +23,14 @@ SET fr.layer = 1,
 
 DIDC 부대예규 제11호 Chapter 4 (변경관리) imposes an **11-gate procedural chain** on any change to a DIDC-hosted information system: (1) 변경 요청 접수 → (2) 변경 요청 검토 및 반려 → (3) 변경 요청 접수 및 유형 분류 → (4) 변경 계획 수립 → (5) 변경 계획 승인 → (6) 변경 작업 → (7) **보안성 검토 요청** (제30조) → (8) 변경 적용 결과 검토 → (9) 변경 적용 결과 검토 확인. Each gate generates documentary artifacts (request forms, review forms, approval signatures, security review records, result verifications). KIATIS, as the central system in this case's narrative, was hosted at DIDC during the 2018–2019 development and test evaluation period (subject to verification — see Open Questions). Any KIATIS-era system change must therefore have produced the 11-gate trail artifacts. **The absence, alteration, or post-hoc reconstruction of these artifacts for KIATIS-related changes is direct Layer 1 (DIDC procedural cover-up) + Layer 4 (KIATIS test-evaluation manipulation) evidence.**
 
+## Key Takeaways
+
+- DIDC 부대예규 제11호 Chapter 4 제21~32조 (raw/06/02 lines 46–60) imposes a procedural chain on any change to a DIDC-hosted information system, with each gate generating documentary artifacts [타당성]
+- 제30조 (보안성 검토 요청) is the explicit textual bridge to 예규 제12호: every operational change triggers a parallel security review, so KIATIS-era changes should have produced artifacts under both SOPs [타당성]
+- The 제22조 application scope covers all DIDC-hosted system changes, confirmed by 제12호 제2조's universal DIDC system coverage [타당성]
+- The absence, alteration, or post-hoc reconstruction of 11-gate trail artifacts for KIATIS-related changes would be direct Layer 1 + Layer 4 cover-up evidence, contingent on KIATIS DIDC-hosting status during 2018–2019 [진리성]
+- Verdict NEEDS_MORE_EVIDENCE (strength MODERATE, 진리성 7 / 타당성 10 / 진실성 7); verdict elevates once the KIATIS DIDC-hosting pre-requisite is resolved via raw/01 + raw/06 compile [진실성]
+
 ## Layer
 
 [[../layers/layer-1|Layer 1]] primary — DIDC procedural cover-up. [[../layers/layer-4|Layer 4]] secondary — KIATIS-specific test-evaluation manipulation. The 11-gate trail is the bridge between the two layers because KIATIS-era system changes at DIDC are simultaneously DIDC-procedural (Layer 1) and KIATIS-procedural (Layer 4). Both layers should have evidence in the same trail.
@@ -78,6 +86,7 @@ If item 1 confirms DIDC hosting and item 2 produces the trail with complete cont
 
 ## Open Questions
 
+- **Evidence citation coverage — exempt under CLAUDE.md regulation-text rule.** This atom's primary sourcing is DIDC SOP 제11호 Chapter 4 11-gate change management (제21~32조) (raw/06 regulation text), which is structurally equivalent to the raw/04 regulation-text exemption from the `Record No. NNNNN` requirement. Evidence record numbers anchoring this duty's VIOLATION in the 2016 incident period are expected to live in raw/07 scanned evidence record pages and will be added on raw/07 ingest; absence of Record No. citations in this atom is therefore an exemption, not a defect.
 - **Was KIATIS hosted at DIDC during 2018–2019?** Critical pre-requisite. Pending raw/01 + raw/06 + KIATIS event page detailed update.
 - **If yes, what was the relationship between DIDC's 변경관리 regime (제11호 Chapter 4) and 국전원's KIATIS-specific change management?** Were they parallel, sequential, or one-or-the-other?
 - **Did 국전원 have its own change-management SOP that pre-empted DIDC's?** Pending Layer 3 detailed compile.

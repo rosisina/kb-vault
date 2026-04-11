@@ -23,6 +23,14 @@ SET fr.layer = 4,
 
 KIATIS 성능개선사업 (6.25억 KRW, 2018–2019) is governed by 국방정보화업무 훈령 제2129호 제58조 ¶2 main regime. Under that regime, DT&E and OT&E must be conducted separately as the regulatory default, with integration permitted **only** by explicit written approval from the 사업통제기관 (here 국본 정보화기획관실). The project does not qualify for the 제58조 ¶3 5억-미만 exception, and therefore the 제58조 ¶4 simultaneous-execution permission does not apply.
 
+## Key Takeaways
+
+- KIATIS 성능개선사업 contract value is 6.25억 KRW, above the 5억 threshold of 제2129호 제58조 ¶3 — foreclosing the 5억-미만 exception path [진리성]
+- 제2129호 제58조 ¶2 mandates DT&E/OT&E separation as the regulatory default: `개발시험평가와 운용시험평가를 분리하는 것을 원칙으로 하되, 필요시 사업통제기관의 승인을 받아 동시에 실시할 수 있다` — integration requires explicit written approval from the 사업통제기관 (here 국본 정보화기획관실) [타당성]
+- 국전원 is KIATIS's 사업관리기관 under 제2129호 제11조 ¶4 (explicit naming for 국본 systems) — foreclosing the 기관 위임사업 counter-hypothesis path [타당성]
+- The only counter-hypothesis path not foreclosed by current evidence is production of a KIATIS 사업계획서 showing a 제46조 test-evaluation 위임 decision; absent that, 제58조 ¶2 main regime separation is the binding legal framework [타당성]
+- This atom is the foundational Layer 4 regulatory premise — any test-evaluation conduct during KIATIS that integrated DT&E/OT&E without explicit 사업통제기관 written approval is, by the directive's own terms, a procedural violation [진실성]
+
 ## Layer
 
 [[../layers/layer-4|Layer 4]] — 新KIATIS 개발·운영·시험평가 전·중·후 조작. This is the foundational regulatory premise for the entire Layer 4 case: any test-evaluation conduct during KIATIS that integrated DT&E and OT&E without an explicit 사업통제기관 written approval is, by the directive's own terms, a procedural violation. Whether such an approval exists is a separable factual question; the legal premise that one was *required* is what this atom establishes.

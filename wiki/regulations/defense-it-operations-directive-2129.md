@@ -50,7 +50,7 @@ Articles 제66조–제68조 (인수·확인, 검수, 전력화) and Appendices 
 
 Neutral measurement of 12 articles (제9, 10, 11, 57–65조) between the 2017-10-10 predecessor and the 2018-02-05 baseline. Measurement protocol: identical text line-by-line, flagging substantive changes only. Whitespace, page headers, and formatting do not count as changes.
 
-### 11-anchor status (baseline measurement)
+### 13-anchor status (baseline measurement; expanded from 11 on 2026-04-11 after P6 blind re-measurement)
 
 | # | Anchor | 제2075호 status | 제2129호 status | Change |
 |---|---|---|---|---|
@@ -65,25 +65,31 @@ Neutral measurement of 12 articles (제9, 10, 11, 57–65조) between the 2017-1
 | 8b | 제57조 ¶1 제2호 OT&E "**사업주관기관 주관 하에**" — sponsor-agency binding clause | Present | Present | None |
 | 9 | 제58조 ¶2 "**개발시험평가와 운용시험평가를 분리하는 것을 원칙으로 하되**" — DT&E/OT&E separation as principle | Present (in ¶2) | Present (in ¶2) | None |
 | 10 | 제59조·제60조·제61조 — DT&E planning / execution / corrective-action article bodies | Present (full text) | Present (full text) | None |
+| **11** | **제57조 ¶1 제1호 DT&E "사업관리기관 주관 하에" — management-agency binding clause (symmetric to A8b on the DT&E side)** | **Pending (not re-read in P6 scope)** | **Present** (confirmed P6 2026-04-11 against 제2129호 line 1817–1831) | **Status undetermined in 제2075호; see note below** |
+| **12** | **제57조 ¶1 제1호 DT&E "합격 또는 불합격으로 결과를 판정할 것" — DT&E result-judgment clause** | **Pending (not re-read in P6 scope)** | **Present** (confirmed P6 2026-04-11 against 제2129호 line 1817–1831) | **Status undetermined in 제2075호; see note below** |
 
-**All 11 anchors already exist in 제2075호.** Anchors predate the 2018 baseline and are therefore not a 2018 innovation. The 11-anchor framework (expanded from the original 6 anchors by addition of 제76조 per James 2026-04-11, then to 9 by A.3.5 §9.1 follow-up which discovered A8a/A8b, then to 11 by A.4-prep follow-up which discovered A9 separation-principle inversion and A10 DT&E article deletion both clustering at 제2436호) governs the A.4 claim atom phase. All anchors except A4 first move on or after 2020-06-04 (제2436호) — i.e., **outside** the KIATIS legal window (2018–2019, governed by 제2129호) and therefore irrelevant to KIATIS adjudication on a strict 행위시법주의 view, but central to the broader directive-revision narrative and to any analysis of why the 2022 군 검찰 investigation could plausibly have applied the post-제2436호 framework to KIATIS conduct.
+**All 11 original anchors already exist in 제2075호.** Anchors A11 and A12 were discovered on 2026-04-11 during A.6 P6 blind re-measurement of 제57조 full text. The P6 scope covered 제2129호 / 제2263호 / 제2398호 / 제2436호 / 제2842호 (not 제2075호), so the 제2075호 baseline for A11 and A12 is pending a supplementary read. If 제2075호 also contains both clauses (likely, since the 제2129호 predecessor diff for 제57조 showed no change), the framework is retroactively 13 anchors, all present in the 2017 baseline. Anchors predate the 2018 baseline and are therefore not a 2018 innovation. The 13-anchor framework (expanded from the original 6 anchors by addition of 제76조 per James 2026-04-11, then to 9 by A.3.5 §9.1 follow-up which discovered A8a/A8b, then to 11 by A.4-prep follow-up which discovered A9 separation-principle inversion and A10 DT&E article deletion both clustering at 제2436호, then to 13 by A.6 P6 blind re-measurement which discovered A11 DT&E sponsor binding symmetric erasure and A12 DT&E result-judgment clause erasure) governs the A.4 claim atom phase. All anchors except A4 first move on or after 2020-06-04 (제2436호) — i.e., **outside** the KIATIS legal window (2018–2019, governed by 제2129호) and therefore irrelevant to KIATIS adjudication on a strict 행위시법주의 view, but central to the broader directive-revision narrative and to any analysis of why the 2022 군 검찰 investigation could plausibly have applied the post-제2436호 framework to KIATIS conduct.
 
-### 제2436호 cluster — six anchors moving on 2020-06-04
+### 제2436호 cluster — eight anchors moving on 2020-06-04 (expanded from 6 → 8 on 2026-04-11 after P6 blind re-measurement)
 
-Single revision, six simultaneous anchor movements (the largest single-revision change in the 2017–2025 dataset):
+Single revision, eight simultaneous anchor movements (the largest single-revision change in the 2017–2025 dataset):
 
 | Anchor | Movement at 제2436호 |
 |---|---|
 | A1 | 제10조 ¶1 제4호 entirely removed → DIDC entity-naming gone |
 | A2 | 제11조 role-tier renaming (사업통제기관/사업주관기관/사업관리기관 → 정보화기획관실/소요제기기관/집행기관); 국전원 explicit naming retained but in new role-tier |
 | A8a | 제57조 ¶1 제2호 OT&E environment hedge removed (added 4 months earlier in 제2398호, then immediately reverted) |
-| A8b | 제57조 ¶1 제2호 `사업주관기관 주관 하에` clause removed (no replacement; OT&E execution becomes unbound to a named role) |
+| A8b | 제57조 ¶1 제2호 OT&E `사업주관기관 주관 하에` clause removed (no replacement; OT&E execution becomes unbound to a named role) |
+| **A11** | **제57조 ¶1 제1호 DT&E `사업관리기관 주관 하에` clause removed (symmetric to A8b; DT&E execution also becomes unbound to a named role). Added 2026-04-11 after P6 blind re-measurement.** |
+| **A12** | **제57조 ¶1 제1호 DT&E `합격 또는 불합격으로 결과를 판정할 것` result-judgment clause removed; the DT&E sub-clause is reduced from a bound-and-judged definition to a bare descriptive phrase. Added 2026-04-11 after P6 blind re-measurement.** |
 | A9 | 제58조 principle inversion: ¶2 separation-principle clause moved to ¶1 and reversed to `시험평가는 통합하여 실시하는 것을 원칙으로 한다` |
 | A10 | 제59조·제60조·제61조 bodies replaced with `<삭 제>` placeholder; DT&E procedural articles erased from the directive entirely |
 
 A4 (제63조 ¶1 제1호 `개발시험평가 결과 조치사항 이행여부`) is logically related but lives inside 제63조, which structurally survives 제2436호 with content edits (the anti-laundering item itself was the subagent-flagged removal — pending re-verification per §7 #1 follow-up).
 
-The temporal cluster is the diagnostic finding: six anchors, six distinct articles, one revision, 4 months after the 제2398호 toggle, 6 months after KIATIS test evaluation completion. No subsequent revision matches this magnitude — the directive's test-evaluation regime was effectively rebuilt in a single edit on 2020-06-04.
+**Non-anchor structural change at 제2436호 (not counted but recorded for completeness):** 제57조 ¶1 opening modal verb changed `구분한다` (mandatory) → `구분할 수 있다` (permissive/discretionary). This weakens the mandatory character of the 시험평가 regime but is below the diagnostic threshold for a standalone anchor per current framework.
+
+The temporal cluster is the diagnostic finding: **eight anchors**, six distinct articles, one revision, 4 months after the 제2398호 toggle, 6 months after KIATIS test evaluation completion. No subsequent revision matches this magnitude — the directive's test-evaluation regime was effectively rebuilt in a single edit on 2020-06-04. Note that six of the eight 제2436호 anchors (A8a, A8b, A11, A12, A9, A10) concentrate on 제57조–제61조 alone — the 시험평가 regime was the specific target.
 
 ### Substantive non-anchor changes
 
@@ -142,6 +148,7 @@ A.4 first batch (2026-04-11) — 10 claim atoms anchored on this directive:
 - [[../claims/2436ho-otne-sponsor-binding-erased]] — A8b
 - [[../claims/2436ho-test-evaluation-principle-inverted]] — A9
 - [[../claims/2436ho-dtne-articles-erased]] — A10
+- [[../claims/2436ho-dtne-sponsor-binding-erased]] — A11 (DT&E role binding erasure, added 2026-04-11 after P6 blind re-measurement)
 - [[../claims/2842ho-software-development-13-to-5-stage]] — A7
 - [[../claims/kiatis-2129ho-main-regime-applies]] — KIATIS legal classification
 - [[../claims/kiatis-rfp-binds-lifecycle]] — KIATIS temporal binding (행위시법주의)

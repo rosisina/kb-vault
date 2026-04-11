@@ -1,6 +1,6 @@
 # 안세준 (Ahn Se-jun)
 
-**Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[013-1]` (persona list line 82) — `군검찰단장 준장 최광혁` • Identified as decisional approver per `[011]` recording 142 verbatim
+**Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[013-1]` (persona list line 82) — `군검찰단장 준장` (real name redacted to pseudonym 안세준 per mapping id 54) • Identified as decisional approver per `[011]` recording 142 verbatim
 **Layer:** [[../../layers/layer-6|L6]] (primary, decisional locus)
 **Aurora node:** `:Person {pseudoNameKr: "안세준", pseudoNameEn: "Ahn Se-jun", role: "국방부 군검찰단장 (Head of MND Military Prosecutor's Office)", organization: "국방부 군검찰단", rank: "준장 (Brigadier General)"}`
 
@@ -27,3 +27,6 @@ The Brigadier General serving as 군검찰단장 (Head of the MND Military Prose
 - [[han-ji-hoon|한지훈 (subject of investigation)]]
 - [[../../layers/layer-6|Layer 6]]
 - [[../../topics/fraud-investigation|Fraud Investigation]]
+- [[../../claims/han-ji-hoon-kiso-yuye-is-criminal-stigma|기소유예 criminal stigma atom]]
+- [[../../claims/prosecution-misapplies-2129-article-58-4-to-kiatis|제58조 ¶4 misapplication atom]]
+- [[../../claims/han-ji-hoon-prosecution-violates-2129-role-separation|role-separation defense atom]]
