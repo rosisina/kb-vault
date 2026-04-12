@@ -60,5 +60,6 @@ SET fr.layer = 7,
 
 ## Related
 
+- [[han-ji-hoon-dan-jang-phone-call-2022-09-28|2 shared records — 2022-09-28 단장 통화]]
 - [[prosecution-non-prosecution-internal-contradiction]] — L6 불기소 이유서 모순
 - [[../layers/layer-7|Layer 7]]

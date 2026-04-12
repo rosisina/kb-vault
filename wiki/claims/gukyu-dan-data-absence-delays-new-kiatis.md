@@ -72,6 +72,7 @@ SET fr.layer = 6,
 
 ## Related
 
+- [[cross-atom-99-7-plus-80items-plus-data-absence|2 shared records — 99.7점 + 80건 + 데이터 부재 복합]]
 - [[cartel-requirement-inflation-80-items-delay|FR-L6-007 — 80건 불법 의결에 의한 전력화 지연 (자매 원자)]]
 - [[layer4-evaluation-committee-80-items-violation|FR-L4-EVAL-80-001 — 99.7점과 80건 동시 의결의 절차적 모순 (L4 자매 원자)]]
 - [[../layers/layer-6|Layer 6 — 군 검찰단의 사기 수사와 범죄자 낙인]]

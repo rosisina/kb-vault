@@ -11,7 +11,8 @@ SET fr.layer = 6,
     fr.counterHypothesis = "The reclassification from 참고인 to 피의자 was a routine procedural consequence of evidence discovered during the investigation, not a predetermined targeting of 한지훈; the six-month gap reflects standard investigative timelines, not retrospective case construction.",
     fr.falsificationCondition = "Production of investigative records showing that evidence warranting 피의자 classification was first identified after the 2022-01-25 witness interview rather than pre-existing the interview, OR testimony from 군 검찰단 that the reclassification decision was made independently of the 참고인 진술서 content.",
     fr.verdict = "CORROBORATED",
-    fr.strength = "MODERATE",
+    fr.strength = "STRONG",
+    fr.strengthUpgrade = "MODERATE→STRONG via vault cross-reference corroboration (B.2 batch 2026-04-12)",
     fr.truthfulness = 8,
     fr.validity = 7,
     fr.sincerity = 8,
@@ -73,6 +74,8 @@ SET fr.layer = 6,
 
 ## Related
 
+- [[prosecution-distorts-operational-vs-test-environment|3 shared records — 환경 왜곡 관련]]
+- [[layer6-cartel-network-structure-four-documents-four-keywords|4 shared records — L6 카르텔 네트워크 증거]]
 - [[han-ji-hoon-investigation-notification-2022-07-21|수사개시 통보 (2022-07-21) 원자]]
 - [[han-ji-hoon-suspect-interrogation-2022-09-02|피의자 신문조서 (2022-09-02) 원자]]
 - [[han-ji-hoon-kiso-yuye-is-criminal-stigma|기소유예 = 범죄 낙인 원자]]

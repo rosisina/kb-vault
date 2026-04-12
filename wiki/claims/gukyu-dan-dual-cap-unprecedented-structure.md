@@ -62,6 +62,7 @@ SET fr.layer = 2,
 
 ## Related
 
+- [[kiatis-mkia-multi-cap-inscription|3 shared records — 국유단 이중역할 자매 atom]]
 - [[new-kiatis-is-mnd-controlled-not-delegated-project]] — L2 통제사업 확인
 - [[directive-article-11-control-functions-stripped]] — L4 제11조 기능 삭제
 - [[../layers/layer-2|Layer 2]]

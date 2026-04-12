@@ -81,6 +81,7 @@ SET fr.layer = 5,
 
 ## Related
 
+- [[layer5-audit-result-falsity-and-collusion-proof|3 shared records — 감사결과 허위 입증]]
 - [[layer5-predetermined-audit-conclusion]] — 사전 결론 결정 atom (최영수 증언은 이 결론을 집행하는 조서 조작의 기법적 증거)
 - [[layer5-fabricated-warning-letter]] — 경고장 조작 atom (조서 조작이 경고장 조작의 기반)
 - [[han-ji-hoon-prosecution-violates-2129-role-separation]] — 검찰 역할 분리 위반 atom (조서 조작이 이 위반의 수사 단계 메커니즘)

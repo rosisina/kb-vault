@@ -67,5 +67,6 @@ SET fr.layer = 2,
 
 ## Related
 
+- [[kiatis-mkia-multi-cap-inscription|3 shared records — 국유단 다중 cap inscription]]
 - [[kiatis-mnd-controlled-not-delegated]] — 기존 L2 관련 atom
 - [[../layers/layer-2|Layer 2]]

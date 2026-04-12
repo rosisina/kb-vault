@@ -79,6 +79,8 @@ SET fr.layer = 6,
 
 ## Related
 
+- [[han-ji-hoon-witness-statement-2022-01-25|3 shared records — 참고인 진술 원본]]
+- [[layer6-cartel-network-structure-four-documents-four-keywords|4 shared records — 카르텔 네트워크 구조]]
 - [[han-ji-hoon-suspect-interrogation-2022-09-02|피의자 신문조서 (2022.9.2.) — 4개 문서 중 하나의 상세 분석]]
 - [[han-ji-hoon-investigation-notification-2022-07-21|수사 개시 통보 (2022.7.21.) — 4개 문서 중 하나]]
 - [[han-ji-hoon-kiso-yuye-is-criminal-stigma|기소유예 = 범죄 낙인 — 4개 문서가 만든 최종 결과]]

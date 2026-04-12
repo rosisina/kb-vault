@@ -1,6 +1,7 @@
 # Evidence File Catalog (증거 파일 목록)
 
-Source: `raw/07. Scanned files/.../7층위 계층별 파일 폴더/(251105) 7층위체계 폴더 내 파일 목록화 자료 (ver 2.3).pdf`
+**Source:** `raw/07. Scanned files/.../7층위 계층별 파일 폴더/(251105) 7층위체계 폴더 내 파일 목록화 자료 (ver 2.3).pdf`
+**Layer:** 1, 2, 3, 4, 5, 6, 7 (cross-layer navigation reference)
 
 This is a **navigation reference** parsed from the evidence catalog. It maps layer → file count → document categories. It does NOT contain Record No. → specific document mappings (those require cross-referencing with the actual scanned PDFs). Real names in file titles have been redacted.
 
@@ -63,6 +64,13 @@ This is a **navigation reference** parsed from the evidence catalog. It maps lay
 - **Navigation aid** — find which document types exist per layer
 - **NOT for direct wiki citation** — file titles contain real names, must not be copied
 - Cross-reference with merged layer PDFs for specific Record No. mapping
+
+## Key Takeaways
+
+- 459 evidence files span 7 layers (L1: 32, L2: 30, L3: 46, L4: 119, L5: 56, L6: 51, L7: 72)
+- L4 is the largest layer (119 files) — consistent with its role as the test/evaluation manipulation foundation
+- File categories reveal document types available per layer for future Record No. → document cross-referencing
+- This catalog is a navigation aid only — file titles contain real names and must never be copied into wiki articles
 
 ## Related
 

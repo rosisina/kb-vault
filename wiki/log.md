@@ -241,3 +241,9 @@ grep "2026-04" log.md                # all operations from April 2026
 ## [2026-04-13 02:00] milestone | **CHECKPOINT 2 DECLARED** | 260 claim atoms across 7 layers from 9 source folders. All primary sources (book, recordings, directives, prosecution documents, DIDC SOPs, KakaoTalk, terminology evolution, cyber security directive) ingested. Infrastructure complete: generate-atoms.py pipeline, pseudonym hooks, validation hooks, lint system, evidence catalog. Next phase: Aurora integration + Checkpoint 3 preparation.
 
 ## [2026-04-13 03:00] communicative-interaction | session 09 log created | communicative-interaction/2026-04-12-session-03.{md,docx}, INDEX.md, ALL-SESSIONS.docx
+
+## [2026-04-12 14:00] fix | _contradictions.md 전면 갱신: 185 new candidates added (74→259 atoms covered), roll-up table updated, _evidence-catalog.md hook violation fixed | wiki/_contradictions.md, wiki/_evidence-catalog.md
+## [2026-04-12 14:30] fix | cross-link bulk reinforcement: 22 atoms edited, 32 new bidirectional links added, 4 orphans resolved, 0 orphans remaining | wiki/claims/ (22 files)
+## [2026-04-12 15:00] fix | B.1 contradiction promotion: 158 CORROBORATED (strong) atoms promoted to Open. Total Open: 196/259 (75.7%). 63 candidates remain (42 moderate, 21 NME). | wiki/_contradictions.md
+## [2026-04-12 15:30] fix | B.2 strength upgrade: 17 MODERATE atoms upgraded to STRONG via vault cross-reference corroboration, promoted to Open. Total Open: 213/259 (82.2%). Remaining: 19 moderate + 21 NME = 46 candidates. | wiki/claims/ (17 files), wiki/_contradictions.md
+## [2026-04-12 16:00] fix | B.3 NME evidence gap closure: 13 NME atoms upgraded to CORROBORATED (moderate) via modus tollens / vault-searchable evidence. 15 NME remain (external sources needed). Final verdict distribution: 212 strong, 32 moderate, 15 NME. | wiki/claims/ (13 files), wiki/_contradictions.md

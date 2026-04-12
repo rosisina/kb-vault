@@ -82,6 +82,7 @@ SET fr.layer = 6,
 
 ## Related
 
+- [[prosecutor-shifted-charge-vpn-to-firewall|2 shared records — 검찰 혐의 전환]]
 - [[../layers/layer-6|Layer 6]]
 - [[han-ji-hoon-prosecution-violates-2129-role-separation]] — 훈령 제2129호 역할 분리 위반
 - [[prosecution-misapplies-2129-article-58-4-to-kiatis]] — 제58조 ¶4 오적용

@@ -57,6 +57,7 @@ SET fr.layer = 6,
 
 ## Related
 
+- [[layer6-prosecutor-violated-anti-corruption-five-principles|2 shared records — 반부패 5원칙 위반]]
 - [[firewall-port-opening-standard-it-procedure]] — L6 방화벽 표준 절차
 - [[prosecution-identity-fallacy-deception-technique]] — L6 동일성 오류
 - [[../layers/layer-6|Layer 6]]

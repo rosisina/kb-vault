@@ -89,6 +89,8 @@ PCA·PHA 다중 cap은 다음 중 하나로 정당화된다:
 
 ## Related
 
+- [[new-kiatis-is-mnd-controlled-not-delegated-project|3 shared records — MND 통제 사업 분류]]
+- [[gukyu-dan-dual-cap-unprecedented-structure|3 shared records — 이중역할 전례 없는 구조]]
 - [[../layers/layer-2|Layer 2 hub]]
 - [[kiatis-mnd-controlled-not-delegated|L2-01 — MND controlled, not delegated]]
 - [[lee-jiyoung-kim-sujin-single-point-of-control|L2-03 — 단일 통제점]]

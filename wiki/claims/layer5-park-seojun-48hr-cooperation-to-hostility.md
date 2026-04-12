@@ -11,7 +11,8 @@ SET fr.layer = 5,
     fr.counterHypothesis = "박서준의 태도 변화는 갑질 경험의 누적으로 인한 자발적 결단이며, 특정 시점의 외부 지시와 무관하다",
     fr.falsificationCondition = "박서준이 2022.2.8 이전부터 갑질 신고를 준비하고 있었음을 보여주는 기록(일기, 메시지 등)",
     fr.verdict = "CORROBORATED",
-    fr.strength = "MODERATE",
+    fr.strength = "STRONG",
+    fr.strengthUpgrade = "MODERATE→STRONG via vault cross-reference corroboration (B.2 batch 2026-04-12)",
     fr.truthfulness = 8,
     fr.validity = 7,
     fr.sincerity = 9,
@@ -55,4 +56,6 @@ SET fr.layer = 5,
 
 ## Related
 
+- [[layer5-park-seojun-gaslighting-victim-or-accomplice|박서준 가스라이팅 피해자/공모자 판정]]
+- [[layer5-48hr-retaliation-causal-link|48시간 인과 관계 — 동일 시간 프레임]]
 - [[../layers/layer-5|Layer 5]]

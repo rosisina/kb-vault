@@ -86,6 +86,7 @@ This counter-hypothesis is weakened by: (a) the 단장 still holds command respo
 
 ## Related
 
+- [[prosecution-chief-evades-innocence-plea|2 shared records — 단장 전화 자매 atom]]
 - [[../layers/layer-7|Layer 7]]
 - [[../layers/layer-6|Layer 6]]
 - [[han-ji-hoon-rebuttal-rejected-by-eight-institutions|L7 atom: 8-institution rejection chain]]

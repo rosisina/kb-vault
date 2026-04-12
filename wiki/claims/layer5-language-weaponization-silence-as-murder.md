@@ -62,4 +62,6 @@ SET fr.layer = 5,
 
 ## Related
 
+- [[layer5-six-month-isolation-human-rights|격리 인권침해 — 침묵 무기화의 물리적 토대]]
+- [[layer5-six-month-witness-destruction-tactics|6개월 증인 파괴 전술 — 언어 무기화의 물리적 실행]]
 - [[../layers/layer-5|Layer 5]]

@@ -73,6 +73,8 @@ KIATIS 논란 이전(2019년 이전)에 개발·운용시험평가 통합을 권
 
 ## Related
 
+- [[xsyn-directive-2436-retroactive-legal-basis|2 shared records — 제2436호 소급 법적 근거]]
+- [[contradiction-article-58-five-year-stability-then-reversal|2 shared records — 제58조 5년 안정성→역전]]
 - [[2436ho-test-evaluation-principle-inverted]] — 제2436호 단위 앵커 분석 (동일 사안의 다른 시각)
 - [[2436ho-cluster-six-anchors]] — 제2436호 6대 앵커 동시 조작 메타 원자
 - [[kiatis-2129ho-main-regime-applies]] — KIATIS가 제58조 분리 원칙의 적용 대상이었음을 증명

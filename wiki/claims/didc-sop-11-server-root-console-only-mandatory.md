@@ -10,7 +10,7 @@ SET fr.layer = 1,
     fr.claimDesc = "Root 콘솔 전용+유지보수 단독 불허. 원격 Root 접근=SOP 위반. 증인 트레일 의무.",
     fr.counterHypothesis = "유지보수 업체에 모니터링된 원격 세션을 통해 감독된 접근이 제공되어 콘솔 전용 제한의 취지를 준수했다",
     fr.falsificationCondition = "2016 기간 서버 접근 로그에서 Root 접근이 모두 콘솔 전용이었음을 보여주는 기록",
-    fr.verdict = "NEEDS_MORE_EVIDENCE",
+    fr.verdict = "CORROBORATED",
     fr.strength = "MODERATE",
     fr.truthfulness = 8,
     fr.validity = 10,
@@ -51,5 +51,6 @@ DIDC 부대예규 제11호 제161조②는 병사·유지보수업체 직원의 
 
 ## Related
 
+- [[didc-sop-db-access-control-mandatory|DB/서버 접근제어 SOP 자매 atom]]
 - [[didc-sop-12-admin-account-isolation-mandatory]]
 - [[../layers/layer-1|Layer 1]]

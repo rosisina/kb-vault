@@ -89,6 +89,9 @@ SET fr.layer = 6,
 
 ## Related
 
+- [[layer3-vpn-otp-card-used-2021-not-2019|3 shared records — VPN OTP 카드 L3 사실관계]]
+- [[prosecution-distorts-operational-vs-test-environment|4 shared records — 환경 왜곡 관련]]
+- [[han-ji-hoon-witness-statement-2022-01-25|4 shared records — 참고인 진술 원본]]
 - [[../layers/layer-6|Layer 6]]
 - [[defense-information-cartel-named-by-rebuttal]] — 카르텔 정의
 - [[han-ji-hoon-investigation-notification-2022-07-21]] — 수사개시 통보

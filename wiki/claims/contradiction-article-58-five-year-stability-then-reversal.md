@@ -51,6 +51,7 @@ SET fr.layer = 4,
 
 ## Related
 
+- [[article-58-separation-to-integration-2020-directive-manipulation|2 shared records — 분리→통합 원칙 역전]]
 - [[2436ho-test-evaluation-principle-inverted]]
 - [[2436ho-cluster-six-anchors]]
 - [[../layers/layer-4|Layer 4]]

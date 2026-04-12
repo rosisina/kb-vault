@@ -126,6 +126,7 @@ If items 1–5 are all answered "yes" with substantive treatment, the verdict do
 
 ## Related
 
+- [[kida-research-legitimizes-pre-existing-manipulation|3 shared records — KIDA 연구 자매 atom]]
 - [[../regulations/us-dod-otne-info-business-systems-2010|US DoD OT&E guidelines (comparator regulation hub)]]
 - [[../entities/organizations/kida|KIDA hub]]
 - [[2436ho-test-evaluation-principle-inverted|paired claim: 제2436호 inverted the Korean principle the KIDA citation legitimized]]

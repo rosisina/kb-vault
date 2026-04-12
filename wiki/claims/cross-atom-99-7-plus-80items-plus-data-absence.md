@@ -52,6 +52,7 @@ SET fr.layer = 4,
 
 ## Related
 
+- [[gukyu-dan-data-absence-delays-new-kiatis|2 shared records — 데이터 부재 + 80건]]
 - [[layer4-evaluation-committee-80-items-violation]]
 - [[cartel-requirement-inflation-80-items-delay]]
 - [[../layers/layer-4|Layer 4]]

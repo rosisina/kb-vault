@@ -52,6 +52,7 @@ SET fr.layer = 4,
 
 ## Related
 
+- [[article-58-separation-to-integration-2020-directive-manipulation|2 shared records — 제58조 분리→통합 역전]]
 - [[2436ho-cluster-six-anchors]]
 - [[2436ho-test-evaluation-principle-inverted]]
 - [[prosecution-misapplies-2129-article-58-4-to-kiatis]]
