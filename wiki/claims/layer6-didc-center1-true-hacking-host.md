@@ -1,0 +1,57 @@
+# DIDC 1센터(용인)가 2016 해킹의 실제 거점 — 2센터(계룡대) 아닌 1센터
+
+**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.1 (lines 6-13)
+**Layer:** [[../layers/layer-6|Layer 6]], [[../layers/layer-1|Layer 1]] (secondary)
+**Aurora node:**
+```cypher
+MERGE (fr:FalsificationResult {resultId: "FR-L6-DIDC-CENTER1-TRUE-HOST"})
+SET fr.layer = 6,
+    fr.claimType = "factual_concealment",
+    fr.claimDesc = "정리01: DIDC 1센터=진짜 해킹 거점. 정리02: 군검찰단=전범기관. Records 6,620/6,609에서 확인.",
+    fr.counterHypothesis = "DIDC 2센터(계룡대)가 실제 해킹 거점이며, 1센터(용인)의 연루는 2차적이다",
+    fr.falsificationCondition = "2016년 해킹 합동조사 결과에서 DIDC 1센터(용인)가 해킹 거점이 아님을 명시한 공식 기록",
+    fr.verdict = "CORROBORATED",
+    fr.strength = "STRONG",
+    fr.truthfulness = 9,
+    fr.validity = 9,
+    fr.sincerity = 10,
+    fr.analysisDate = date("2026-04-12"),
+    fr.summary = "정리01: DIDC 1센터=진짜 해킹 거점. 정리02: 군검찰단=전범기관. Records 6,620/6,609에서 확인.";
+```
+
+## Claim
+
+제6층위 정리01에 따르면, 2016년 북한 해킹의 실제 최대 숙주(最大 宿主)는 공개적으로 발표된 DIDC 2센터(계룡대)가 아닌 DIDC 1센터(용인)이다. 舊KIATIS가 인터넷 홈페이지 서버 내에서 15년간 VPN 없이 운용되었고, 이 서버가 DIDC 1센터에 위치하였기 때문이다. 군검찰단은 이 사실의 은폐를 위해 사기수사를 자행한 '전범기관'(정리02)이다.
+
+## Key Takeaways
+
+- Layer 6 Theorem 01: DIDC Center 1 (Yongin), not Center 2 (Gyeryongdae), was the true maximum host of the 2016 North Korean hacking [진리성]
+- Layer 6 Theorem 02: The military prosecution is a 'war criminal institution' (전범기관) that conducted judicial murder to conceal this fact [진리성]
+- The public narrative naming Center 2 was itself part of the cover-up [진리성]
+
+## Supporting evidence
+
+- **Record No. 6,620**
+- **Record No. 6,609**
+
+## Counter-hypothesis
+
+DIDC 2센터(계룡대)가 실제 해킹 거점이며, 1센터(용인)의 연루는 2차적이다
+
+## Falsification condition
+
+2016년 해킹 합동조사 결과에서 DIDC 1센터(용인)가 해킹 거점이 아님을 명시한 공식 기록
+
+## Verdict
+
+**CORROBORATED.** STRONG. 진리성 9 / 타당성 9 / 진실성 10.
+
+## Spot-check
+
+- `vault-converted-korean/12-3-6-36-제6층위-군.md` lines 6-13
+
+## Related
+
+- [[prosecution-principal-actor-in-cartel]]
+- [[../layers/layer-6|Layer 6]]
+- [[../layers/layer-1|Layer 1]]
