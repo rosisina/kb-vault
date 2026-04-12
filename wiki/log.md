@@ -229,3 +229,7 @@ grep "2026-04" log.md                # all operations from April 2026
 ## [2026-04-12 22:00] ingest | claims/_index.md 전체 갱신: 88개 신규 atom 인덱싱. 전체 234 atoms 인덱싱 완료. Session grand total: 112→234 (+122 atoms, 15 commits). Checkpoint 2 평가: 234/300 = 78%. 모든 raw/01~08 소스 커버리지 완료. | wiki/claims/_index.md (updated), wiki/log.md
 
 ## [2026-04-12 23:00] ingest | Final sprint: +9 atoms (KakaoTalk 3 + atom splitting 6). KakaoTalk: 박서준 WiSC 학술대회 참석(억압 서사 모순), 이지영 정상 관리 활동(기능장애 서사 반박), 시험평가+부재 동시 공지. Splits: 순환적 예산 착취, 김민수 허위 무지, 조직적 지원 차단, 공모 붕괴→확대, 5분 3회 번복, 3단계 시간 전개. Pseudonym auto-fix: 3건. Total atoms: 239→248. Session grand total: 112→248 (+136 atoms, 17 commits). | 9 new files, wiki/log.md
+
+## [2026-04-12 18:00] communicative-interaction | session 08 log created — Aurora v2 architecture track 후반 (Claude.ai 차용, 다국어, 개방형 웹) | communicative-interaction/2026-04-12-session-02.{md,docx}, INDEX.md, ALL-SESSIONS.docx
+
+## [2026-04-12 24:00] ingest | raw/09 국방사이버안보 훈령: 6 new atoms. KIATIS=사이버자산(제3조), DIDC=통합보안관제2차(제54조), 연간취약점평가의무(제40조), 2016해킹→긴급점검(제44조), 검찰선별인용(별표vs제3장), 사이버자산현황catch-all(제45조). All raw/01~09 sources now covered. Total atoms: 248→254. Session grand total: 112→254 (+142 atoms, 18 commits). | 6 new files under wiki/claims/, wiki/log.md
