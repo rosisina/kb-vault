@@ -445,6 +445,46 @@ Six initial atoms closing the Layer 2 gap (previously 0 atoms). Compiled from `v
 - [[seven-layer-organic-crime-system-proven]] — 7층위 증명체계는 12,495쪽 증거로 입증된 단일 유기적 범죄 시스템이다. NME
 - [[whistleblower-protection-purely-formal]] — 공익신고자 보호법은 형식적 수준 — 32년 군간부도 조직적 공격에 무력. NME
 
+## Final session additions (26 atoms — 2026-04-12/13)
+
+### Layer 1
+
+- [[contradiction-intranet-link-attack-surface]] — C-L1-11: 舊KIATIS 인터넷+인트라넷 이중 연동 = 2016 해킹 브릿지 공격면. CORR
+- [[csr-2016-hacking-should-trigger-emergency-vuln-check]] — 2016 해킹은 제44조 긴급 취약점 점검 조건 2개를 동시 충족 — KIATIS 점검 필수였다. NME
+- [[csr-annual-vulnerability-assessment-duty-violated]] — DIDC의 연간 취약점 평가 의무(제40조) — 15년간 미수행으로 舊KIATIS VPN 부재 미탐지. CORR
+- [[csr-cyber-asset-registry-catch-all-art45]] — 제45조 사이버자산 현황 관리 — 미등록이면 네트워크 차단, 등록이면 취약점 탐지 필수. CORR
+- [[csr-didc-is-2nd-tier-security-ops-center]] — DIDC는 국방사이버안보 훈령 제54조에 의한 '통합보안관제(2차)' 책임 부대 — 한지훈 아님. CORR
+- [[csr-kiatis-is-cyber-asset-under-directive]] — KIATIS는 국방사이버안보 훈령 제3조 제7호의 '사이버자산'에 해당 — 제3장 전체 의무 적용. CORR
+
+### Layer 4
+
+- [[contradiction-article-58-five-year-stability-then-reversal]] — C-L4-19: 제58조 분리 원칙 5년 안정(2015~2020.2) → 제2436호 4개월 만에 역전(2020.6). CORR
+- [[contradiction-evaluation-post-completion-temporal-impossibility]] — C-L4-13: 시험평가 종료(9.11) 후 평가항목 변경 승인(9.19) — 시간적 불가능. CORR
+- [[kakaotalk-eval-and-absence-same-day-announced]] — 카카오톡: 시험평가 시작과 송민석 교육 부재가 동일 채널에서 동시 공유 — 조직 전체 인지. CORR
+- [[split-article-11-vocabulary-erasure]] — 훈령 제2436호의 3대 용어 교체로 불법 위임을 지칭 불가능하게 만든 어휘 조작. CORR
+- [[split-kim-min-su-false-ignorance-vs-career]] — 김민수의 '어떻게 아니' 허위 진술 — 경력 기록과 직접 모순. CORR
+- [[split-spec-review-blocked-data-transfer]] — 규격 재심의에서 舊KIATIS 데이터·SW의 新서버 이전 완전 차단 (기록 제3,324쪽). CORR
+- [[split-temporal-reversal-2019-09-02-forgery]] — 2019-09-02 생산 문서의 09-03 보고 날짜 — 디지털 시간 역전 문서 조작. CORR
+
+### Layer 5
+
+- [[contradiction-fabricated-warning-wrong-title]] — C-L5-04 확장: 경고장의 존재하지 않는 직위 기재 — 행정정보계획팀장(미존재) vs 자원정보화과 국방정보화사업담당(공식). CORR
+- [[kakaotalk-han-ji-hoon-pre-complaint-silence-digital]] — 카카오톡: 2022.2.3~14 한지훈 메시지 부재 — 공식 신고(2.10) 이전부터 디지털 격리 시작. NME
+- [[kakaotalk-han-ji-hoon-professional-engagement-during-eval]] — 카카오톡: 한지훈이 시험평가 기간 중 전문 콘텐츠에 능동 참여 — 채팅 미사용이 아닌 보고할 이상 부재. CORR
+- [[kakaotalk-lee-jiyoung-normal-management-pre-complaint]] — 카카오톡: 이지영의 갑질 신고 직전 주간 정상적 관리자 활동 — 직장 기능장애 서사 반박. CORR
+- [[kakaotalk-park-seojun-wisc-conference-during-eval]] — 박서준이 시험평가 기간 중 WiSC 학술대회 참석 — 억압 서사와 모순. NME
+- [[split-kim-min-su-organizational-support-cutoff]] — 김민수 '원에서 안 도와준다 네가 책임져라' — 조직적 지원 차단·개인 책임 전가. CORR
+- [[split-lee-jiyoung-5min-triple-reversal]] — 이지영의 5분 3회 번복 — 조직→직권→개인 신고 변경 = 실시간 김민수 조율. CORR
+- [[split-post-collapse-escalation-to-prosecution]] — 공모 붕괴 후 축소 대신 확대 — 경고장 유지 + 군검찰 표적수사 전환. CORR
+
+### Layer 6
+
+- [[contradiction-selective-criminalization-approval-chain]] — C-L6-16: 방화벽 결재 3인 중 중간 검토자만 피의자 — 최종 결재자·기안자 배제. CORR
+- [[csr-prosecution-cited-appendix-not-institutional-duties]] — 검찰이 별표(기술요건)만 인용하고 제3장(기관 의무)은 무시 — 개인→기관 책임 전환의 선별적 인용. NME
+- [[split-cartel-three-phase-2016-2025]] — 카르텔 3단계 시간 전개: 은폐기반(2016~18) → 조작가동(2018~22) → 범죄완성(2022~25). CORR
+- [[split-delay-cyclical-budget-embezzlement]] — 新KIATIS 전력화 지연을 통한 순환적 예산 착취 (6.25→4→3.9억). CORR
+- [[split-delay-team-leader-elimination-framing]] — 新KIATIS 지연을 통한 한지훈 제거 — 2022.2.8 진실 발견 후 '개발 부실' 프레이밍. CORR
+
 ## Pending atoms (not in this batch)
 
 - **A4** (제63조 ¶1 제1호 `개발시험평가 결과 조치사항 이행여부`) — pending re-verification per A.3.5 §7 #1; will be added once subagent claim is independently confirmed/refuted by main-agent direct read

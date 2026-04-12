@@ -235,3 +235,7 @@ grep "2026-04" log.md                # all operations from April 2026
 ## [2026-04-12 24:00] ingest | raw/09 국방사이버안보 훈령: 6 new atoms. KIATIS=사이버자산(제3조), DIDC=통합보안관제2차(제54조), 연간취약점평가의무(제40조), 2016해킹→긴급점검(제44조), 검찰선별인용(별표vs제3장), 사이버자산현황catch-all(제45조). All raw/01~09 sources now covered. Total atoms: 248→254. Session grand total: 112→254 (+142 atoms, 18 commits). | 6 new files under wiki/claims/, wiki/log.md
 
 ## [2026-04-13 01:00] ingest | Final remaining batch: +6 atoms (splits 4 + KakaoTalk 2). Splits: 한지훈 제거 프레이밍, 3대 용어 교체 어휘 조작, 시간역전 문서 조작, 데이터 이전 차단. KakaoTalk: 전문 콘텐츠 참여(채팅 사용 확인), 공식신고 전 디지털 격리 시작. Pseudonym auto-fix: 2건. Total atoms: 254→260. Session grand total: 112→260 (+148 atoms, 19 commits). | 6 new files, wiki/log.md
+
+## [2026-04-13 02:00] ingest | claims/_index.md 최종 갱신: 26개 잔여 atom 인덱싱. 전체 260 atoms 인덱싱 완료. Checkpoint 2 선언: 260 atoms, 9개 raw 소스 폴더 전체 커버, 99.1% section coverage, 933 unique Record No., 19 commits. Session grand total: 112→260 (+148 atoms). | wiki/claims/_index.md (updated), wiki/log.md
+
+## [2026-04-13 02:00] milestone | **CHECKPOINT 2 DECLARED** | 260 claim atoms across 7 layers from 9 source folders. All primary sources (book, recordings, directives, prosecution documents, DIDC SOPs, KakaoTalk, terminology evolution, cyber security directive) ingested. Infrastructure complete: generate-atoms.py pipeline, pseudonym hooks, validation hooks, lint system, evidence catalog. Next phase: Aurora integration + Checkpoint 3 preparation.
