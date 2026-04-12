@@ -239,3 +239,5 @@ grep "2026-04" log.md                # all operations from April 2026
 ## [2026-04-13 02:00] ingest | claims/_index.md 최종 갱신: 26개 잔여 atom 인덱싱. 전체 260 atoms 인덱싱 완료. Checkpoint 2 선언: 260 atoms, 9개 raw 소스 폴더 전체 커버, 99.1% section coverage, 933 unique Record No., 19 commits. Session grand total: 112→260 (+148 atoms). | wiki/claims/_index.md (updated), wiki/log.md
 
 ## [2026-04-13 02:00] milestone | **CHECKPOINT 2 DECLARED** | 260 claim atoms across 7 layers from 9 source folders. All primary sources (book, recordings, directives, prosecution documents, DIDC SOPs, KakaoTalk, terminology evolution, cyber security directive) ingested. Infrastructure complete: generate-atoms.py pipeline, pseudonym hooks, validation hooks, lint system, evidence catalog. Next phase: Aurora integration + Checkpoint 3 preparation.
+
+## [2026-04-13 03:00] communicative-interaction | session 09 log created | communicative-interaction/2026-04-12-session-03.{md,docx}, INDEX.md, ALL-SESSIONS.docx
