@@ -221,3 +221,5 @@ grep "2026-04" log.md                # all operations from April 2026
 ## [2026-04-12 18:00] ingest | raw/02 remaining recordings (녹취119 외): 3 new atoms. PM 샤크라맥스 미사용 확인(조직 간 합의 미달), 군검사 부패 부재 인정+기소유예 유지, 수사관 영장 유령참조(phantom reference) 인정. 녹취187-2 agent failed on permissions (최동욱 변호사 대화 — already covered). Total atoms: 211→214. | 3 new files under wiki/claims/, wiki/log.md
 
 ## [2026-04-12 19:00] ingest | raw/06 DIDC SOP 추가: 4 new atoms. 제12호: 현장보존·합동분석팀·탐지대응기록 의무(제21-23조), 긴급대응반 2종 일지 의무(제17조), 7대 보안체계 적용절차(제40조+별지10호). 제11호: Root 콘솔전용·유지보수 단독불허(제161조). Total atoms: 214→218. All raw/ source folders (01-07) now covered. | 4 new files under wiki/claims/, wiki/log.md
+
+## [2026-04-12 20:00] ingest | Checkpoint 2 sprint: +10 atoms (lawyer conversations + cross-source synthesis). Lawyer(4): 최동욱 사임위협·기술적무지·검찰프레이밍·감경전략충돌. Cross-source(6): VPN공개논의확인, 80건삼각확인, 제2436호소급근거, SOP선별인용, 검사영장후부임, 침묵=은폐증명. 3 agents still running (용어변천사, contradiction L1-4, L5-7). Total atoms: 218→228. | 10 new files under wiki/claims/, wiki/log.md
