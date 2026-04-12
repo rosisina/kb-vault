@@ -1,0 +1,56 @@
+# 군검사가 업체 비리·금품수수 없음 인정하면서도 기소유예 유지
+
+**Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md 녹취142+146 (lines 6032-6326)
+**Layer:** [[../layers/layer-6|Layer 6]], [[../layers/layer-4|Layer 4]] (secondary), [[../layers/layer-7|Layer 7]] (secondary)
+**Aurora node:**
+```cypher
+MERGE (fr:FalsificationResult {resultId: "FR-L6-NO-CORRUPTION-STILL-CHARGED"})
+SET fr.layer = 6,
+    fr.claimType = "prosecution_admission",
+    fr.claimDesc = "검사 녹음: 부패 없음 인정+기소유예 유지+규정 논거 일축+'정의롭게 했다' 자평.",
+    fr.counterHypothesis = "기소유예는 시험평가 환경 문제에 기반한 정당한 처분이며 부패 부재와 무관하다",
+    fr.falsificationCondition = "불기소이유서에서 사업관리팀장 vs 평가인원 구분을 규정 근거로 분석한 기록",
+    fr.verdict = "CORROBORATED",
+    fr.strength = "STRONG",
+    fr.truthfulness = 9,
+    fr.validity = 9,
+    fr.sincerity = 10,
+    fr.analysisDate = date("2026-04-12"),
+    fr.summary = "검사 녹음: 부패 없음 인정+기소유예 유지+규정 논거 일축+'정의롭게 했다' 자평.";
+```
+
+## Claim
+
+군검사 임형규가 2022-09-28/10-11 통화에서: (1) '압수수색 결과 업체와 관련 있다거나 그런 것은 없다는 것을 저희도 알고 있다'고 인정, (2) 시험평가 환경 문제가 인정된다는 취지로 기소유예 유지, (3) 한지훈의 '대상이 아니다'는 주장을 '한지훈 중령님의 주장'으로 반복 일축, (4) '정의롭게 했다고 생각한다'고 자평. 지문등록(범죄자 기록)이 남았으며 한지훈이 취업 영향을 질문.
+
+## Key Takeaways
+
+- Prosecutor explicitly acknowledges no vendor corruption/financial misconduct found during search & seizure [진리성]
+- Despite no corruption, maintained 기소유예 leaving permanent criminal stigma [타당성]
+- Repeatedly dismissed regulatory defense as 'your opinion' without substantive engagement [타당성]
+
+## Supporting evidence
+
+- *(regulation-text claim — Record No. exempt per CLAUDE.md)*
+
+## Counter-hypothesis
+
+기소유예는 시험평가 환경 문제에 기반한 정당한 처분이며 부패 부재와 무관하다
+
+## Falsification condition
+
+불기소이유서에서 사업관리팀장 vs 평가인원 구분을 규정 근거로 분석한 기록
+
+## Verdict
+
+**CORROBORATED.** STRONG. 진리성 9 / 타당성 9 / 진실성 10.
+
+## Spot-check
+
+- `vault-converted-korean/(Korean) individual_recording_logs_beyond_cybersecurity.md` lines 6032-6326
+
+## Related
+
+- [[prosecution-non-prosecution-internal-contradiction]]
+- [[prosecution-knew-innocence-continued-case]]
+- [[../layers/layer-6|Layer 6]]
