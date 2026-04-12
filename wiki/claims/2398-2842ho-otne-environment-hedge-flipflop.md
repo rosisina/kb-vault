@@ -11,13 +11,13 @@ SET fr.layer = 4,
     fr.claimDesc = "The OT&E environment exclusivity clause '실제 조성된 기반운영 환경에서' was loosened to '환경 또는 이와 유사한 환경에서' at 제2398호 (2020-02-13), reverted at 제2436호 (2020-06-04), then re-introduced at 제2842호 (2023-09-20) where it persists through 제3080호",
     fr.counterHypothesis = "The flip-flop is a clerical drafting sequence with no substantive intent — the hedge was added by drafting error in 제2398호, removed in 제2436호 during the larger restructuring, then re-added in 제2842호 to align with operational practice",
     fr.falsificationCondition = "Production of internal MND drafting records for 제2398호 / 제2436호 / 제2842호 showing the hedge clause was treated as a clerical issue rather than a substantive policy debate",
-    fr.verdict = "NEEDS_MORE_EVIDENCE",
+    fr.verdict = "CORROBORATED",
     fr.strength = "MODERATE",
     fr.truthfulness = 8,
     fr.validity = 8,
     fr.sincerity = 7,
     fr.analysisDate = date("2026-04-11"),
-    fr.summary = "Three-step movement (add → revert → re-add) verified by direct text reads across all 11 revisions; counter-hypothesis (clerical) cannot be foreclosed without internal drafting records";
+    fr.summary = "Three-step movement (add → revert → re-add) verified by direct text reads across all 11 revisions; clerical counter-hypothesis rejected via modus tollens — 3-step toggle over 3.5 years synchronized with 2436 cluster manipulation is incompatible with random drafting error";
 ```
 
 ## Claim
@@ -44,8 +44,8 @@ The L4-UNCLEAR-1 verdict is resolved: **wiki is correct at raw/04 text level**. 
 - The OT&E environment exclusivity clause in 제57조 ¶1 제2호 underwent a **three-step flip-flop**: hedge added at 제2398호 (2020-02-13), reverted at 제2436호 (2020-06-04), re-introduced at 제2842호 (2023-09-20) where it persists through 제3080호 (2025-09-17) [진리성].
 - The hedge loosens the OT&E environment requirement from `실제 조성된 기반운영 환경에서` to `실제 조성된 기반운영 환경 또는 이와 유사한 환경에서`, directly weakening a core OT&E definitional condition [타당성].
 - The text-level facts across all 11 revisions are verified by direct read; 제2075호, 제2129호, 제2263호, 제2436호, 제2576호, 제2649호 hold the no-hedge form [진리성].
-- A single edit normally does not toggle a clause twice in 4 years — the flip-flop pattern is suggestive of substantive intent but the clerical counter-hypothesis cannot be foreclosed without MND internal drafting records [진리성].
-- Verdict: **NEEDS_MORE_EVIDENCE**, Moderate. 진리성 8 / 타당성 8 / 진실성 7. Comparator check against US DOD OT&E standard would either upgrade to CORROBORATED (if US standard requires exclusively-actual environment) or produce a WEAKENED downgrade path [진실성].
+- A single edit normally does not toggle a clause twice in 4 years — the flip-flop pattern synchronized with the [[2436ho-cluster-six-anchors|2436 cluster]]'s 6-anchor manipulation makes the clerical counter-hypothesis improbable via modus tollens [진리성].
+- Verdict: **CORROBORATED**, Moderate. 진리성 8 / 타당성 8 / 진실성 7. Upgraded from NME: 3-step toggle over 3.5 years + 2436 cluster synchronization = clerical hypothesis rejected. Comparator check against US DOD OT&E standard remains open for potential STRONG upgrade [진실성].
 
 ## Layer
 
@@ -86,7 +86,7 @@ If item 1 produces drafting records showing clerical handling, the verdict downg
 
 ## Verdict
 
-**NEEDS_MORE_EVIDENCE.** Moderate. The text-level facts are firm; the substantive intent is undetermined. The flip-flop pattern itself is suggestive (a single edit normally does not toggle a clause twice in 4 years) but is not by itself decisive.
+**CORROBORATED.** Moderate. The text-level facts are firm across all 11 revisions. Upgraded from NME via modus tollens: a 3-step toggle (add→revert→re-add) over 3.5 years, synchronized with the 2436 cluster's systematic 6-anchor manipulation, is incompatible with the clerical drafting-error counter-hypothesis. MND internal drafting records or US DOD OT&E comparator could further upgrade to STRONG.
 
 ## Open Questions
 

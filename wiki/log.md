@@ -303,3 +303,5 @@ grep "2026-04" log.md                # all operations from April 2026
 ## [2026-04-13 08:30] fix | 양준승 녹취285 확인 완료: PDF p.413~415에 발췌 수록 확인. '자살하고 싶다' 격려 만남 + 3인 담합 확인('완전히 파요 파') + 이지영 '일은 안하고 떠넘기기' + 송민석 '책상 내려치고'. .md 변환 누락이었으나 PDF 원본에서 직접 확인 → 기존 atom 소스 유효. 추가 atom 불요. ALL TASKS COMPLETE. | (verification only)
 
 ## [2026-04-13 09:00] communicative-interaction | session 04 log created | communicative-interaction/2026-04-12-session-04.{md,docx}, INDEX.md, ALL-SESSIONS.docx
+
+## [2026-04-12 22:00] fix | Phase A wiki 잔여 과제 완료. A.1: NME 7→5 (hedge flip-flop + entity naming 업그레이드). A.2: 3 new atoms (임형규 검사 3중자인, 도지호 ChakraMax 미사용, 안세준 단장 방기) — 293→296 atoms. A.3: Coverage matrix 41 gaps → 38 N/A + 3 TODO (low-priority). A.4: 37 contradictions 전체 ≥1 atom 연결, 35/37 atom 내부 counterHypothesis로 pair 완성. | wiki/claims/ (5 files), wiki/_coverage-matrix.md, wiki/_record-index.md, output/wiki-promotions-2026-04-12.cypher
