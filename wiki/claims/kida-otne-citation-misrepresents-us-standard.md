@@ -44,7 +44,7 @@ KIDA의 연구 보고서 **「국방 정보시스템 시험평가 절차 개선 
 - The US framework binds any integration with five structural requirements: (1) OTA-led risk stratification, (2) mandatory independent operational event at Level II/III, (3) DOT&E approval for Applicable Programs (MAIS), (4) irreversible-changes rule forcing Level II/III, (5) OTA structural independence from developer/program office [타당성]
 - KIATIS handles personnel and casualty data — likely "irreversible changes" under the US rule, which would require Level II or Level III OT&E with an independent operational event [타당성]
 - The 제2129호 제58조 ¶2 separation principle already encodes the US framework faithfully; the framework KIDA's citation purports to support is the framework Korea already had, not a justification for departing from it [타당성]
-- Verdict is **NEEDS_MORE_EVIDENCE** pending location of the KIDA report itself — the US comparator is fully established but the KIDA verbatim text has not been retrieved; the book (raw/01 Layer 4 chapter) is the primary source per James 2026-04-11 [진리성]
+- Verdict is **CORROBORATED (strong)** per Track D D1 closure 2026-04-11: Korean original §3.4.3.4.2 read confirmed verbatim KIDA distortion by direct text comparison of record 6,717 (KIDA) vs record 6,244 (US) — both gate phrases ("Level I" qualifier + OTA approval requirement) deleted [진리성]
 
 ## Layer
 
@@ -62,11 +62,14 @@ KIDA의 연구 보고서 **「국방 정보시스템 시험평가 절차 개선 
 - US guidelines preserve **OTA structural independence** from program office, developer, and contractor at all three levels
 - See [[../regulations/us-dod-otne-info-business-systems-2010|US DoD OT&E guidelines hub]]
 
-**KIDA citation (NOT YET VERIFIED):**
+**KIDA citation (CORROBORATED — Track D D1 closure 2026-04-11):**
 
-- Per `raw/01. book-beyond-cybersecurity/vault-legacy-wiki-english/Test-Evaluation-Manipulation.md` (legacy summary): KIDA produced a research report that cited the US standard as authority for DT&E/OT&E integration
-- Verbatim citation, report title, report date, and report author are all unknown pending A.6 book compile or direct location of the KIDA report in `raw/` or external sources
-- See [[../entities/organizations/kida|KIDA hub]] §"Pending Phase A tasks"
+- KIDA 연구 보고서 **「국방 정보시스템 시험평가 절차 개선 방안 연구」** — 연구 기간 2020-01~2020-06, 최종 토론회 2020-06, 발간 2020-07 (기록 제6,715 / 6,716 / 6,731 / 6,738쪽)
+- KIDA 분석 텍스트 (기록 제6,717쪽): "운용시험평가 레벨(수준): 독립적인 OT 수행 대신 OT 환경 또는 데이터를 가지고 DT(개발시험)이나 보증으로 대체"
+- 미군 원문 비교 쌍 (기록 제6,244쪽): "**Level I** OT&E - An assessment primarily using data from integrated test events... Even for programs under DOT&E oversight, the assessment plan is **approved by the lead Service or agency OTA**."
+- Selective-omission 확정: "Level I" 한정자 + "OTA 승인" 요건 두 가지 gate 구문이 KIDA 측에서 삭제됨
+- Chain-of-citation: KIDA 보고서 → 2020-04-22 의견 수렴 공문 (기록 제4,708쪽, 작성자 이지영+김수진) → 제2436호(2020-06-04) → 군 검찰단 한지훈 신문 (기록 제4,900쪽, phantom directive 제2275호 경로)
+- See [[../entities/organizations/kida|KIDA hub]]
 
 **KIATIS structural facts (pre-existing CORROBORATED):**
 
