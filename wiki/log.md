@@ -219,3 +219,5 @@ grep "2026-04" log.md                # all operations from April 2026
 ## [2026-04-12 17:00] ingest | raw/05 prosecution documents: 6 new atoms from 3 prosecution documents (영장, 피의자신문조서, 불기소결정서). Key findings: 영장이 15년 VPN 미사용을 판사에게 은닉(false novelty), 불기소결정서가 환경 미준수 인정하면서 한지훈에게만 적용(selective prosecution), 참작사유가 정상적 업무 기술(범죄의도 부재 자인), 아들 조현병 공식 인지 후 5주 수사 계속, 영장 vs 불기소의 동일 문서 진실성 역전, 14개 사업 중 VPN 측정 0건(차별적 적용). Total atoms: 205→211. | 6 new files under wiki/claims/, wiki/log.md
 
 ## [2026-04-12 18:00] ingest | raw/02 remaining recordings (녹취119 외): 3 new atoms. PM 샤크라맥스 미사용 확인(조직 간 합의 미달), 군검사 부패 부재 인정+기소유예 유지, 수사관 영장 유령참조(phantom reference) 인정. 녹취187-2 agent failed on permissions (최동욱 변호사 대화 — already covered). Total atoms: 211→214. | 3 new files under wiki/claims/, wiki/log.md
+
+## [2026-04-12 19:00] ingest | raw/06 DIDC SOP 추가: 4 new atoms. 제12호: 현장보존·합동분석팀·탐지대응기록 의무(제21-23조), 긴급대응반 2종 일지 의무(제17조), 7대 보안체계 적용절차(제40조+별지10호). 제11호: Root 콘솔전용·유지보수 단독불허(제161조). Total atoms: 214→218. All raw/ source folders (01-07) now covered. | 4 new files under wiki/claims/, wiki/log.md
