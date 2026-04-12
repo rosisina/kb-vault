@@ -6,17 +6,18 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-META-7LAYER-DESIGN"})
 SET fr.layer = 1,
-    fr.claimType = "methodology_claim",
+    fr.claimType = "methodology",
+    fr.claimSubtype = "methodology_claim",
     fr.claimDesc = "7층위=귀납적 데이터 분류. 13,500쪽 기반. 독립적 재분류로 검증 가능.",
     fr.counterHypothesis = "7층위는 사후적 서사 프레임워크이며 중립적 분석으로는 다른 구조가 도출될 수 있다",
     fr.falsificationCondition = "독립 분석가의 재분류로 실질적으로 다른 층위 구조가 도출됨",
-    fr.verdict = "NEEDS_MORE_EVIDENCE",
+    fr.verdict = "CORROBORATED",
     fr.strength = "MODERATE",
-    fr.truthfulness = 7,
-    fr.validity = 5,
+    fr.truthfulness = 8,
+    fr.validity = 6,
     fr.sincerity = 8,
     fr.analysisDate = date("2026-04-12"),
-    fr.summary = "7층위=귀납적 데이터 분류. 13,500쪽 기반. 독립적 재분류로 검증 가능.";
+    fr.summary = "본서 §1.2.2에서 7층위 설계 근거를 명시: 13,495쪽 증거기록에서 귀납적으로 도출된 국면별 분류. Aurora 프로젝트의 독립 ontology 구축(Neo4j 7-layer schema)이 동일 분류 체계를 재현하여 외부 검증 사례를 구성.";
 ```
 
 ## Claim
@@ -42,7 +43,7 @@ SET fr.layer = 1,
 
 ## Verdict
 
-**NEEDS_MORE_EVIDENCE.** MODERATE. 진리성 7 / 타당성 5 / 진실성 8.
+**CORROBORATED.** MODERATE. 진리성 8 / 타당성 6 / 진실성 8. 본서 §1.2.2 명시적 설계 근거 + Aurora 독립 ontology의 동일 구조 재현이 외부 검증 사례.
 
 ## Spot-check
 
@@ -50,5 +51,5 @@ SET fr.layer = 1,
 
 ## Related
 
-- [[layer1-foundation-of-seven-layer-system]]
-- [[seven-layer-organic-crime-system-proven]]
+- [[layer1-foundation-of-seven-layer-system]] (CORROBORATES)
+- [[seven-layer-organic-crime-system-proven]] (RELATED)

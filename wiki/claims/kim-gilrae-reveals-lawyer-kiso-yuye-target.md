@@ -6,17 +6,18 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-LAWYER-KISO-YUYE-TARGET"})
 SET fr.layer = 6,
-    fr.claimType = "third_party_disclosure",
+    fr.claimType = "testimony_evidence",
+    fr.claimSubtype = "third_party_disclosure",
     fr.claimDesc = "이근태: 최동욱 변호사가 기소유예를 '문제 없다'로 설정. 한지훈에게 미전달된 방어 전략 폭로.",
     fr.counterHypothesis = "기소유예가 증거 상황에서 현실적으로 최선의 결과였다",
     fr.falsificationCondition = "검찰 증거가 완전 무혐의가 비현실적일 만큼 강력했음을 보여주는 법적 평가",
-    fr.verdict = "NEEDS_MORE_EVIDENCE",
-    fr.strength = "MODERATE",
-    fr.truthfulness = 7,
-    fr.validity = 6,
-    fr.sincerity = 8,
+    fr.verdict = "CORROBORATED",
+    fr.strength = "STRONG",
+    fr.truthfulness = 9,
+    fr.validity = 7,
+    fr.sincerity = 9,
     fr.analysisDate = date("2026-04-12"),
-    fr.summary = "이근태: 최동욱 변호사가 기소유예를 '문제 없다'로 설정. 한지훈에게 미전달된 방어 전략 폭로.";
+    fr.summary = "녹취264-1 1차 음성증거: 이근태 '기소유예만 되도 문제는 없는 거니까' — 변호사 최동욱의 방어 전략 상한을 명시적으로 폭로. 피의자 한지훈에게 미전달된 전략으로 정보 비대칭 입증.";
 ```
 
 ## Claim
@@ -43,7 +44,7 @@ SET fr.layer = 6,
 
 ## Verdict
 
-**NEEDS_MORE_EVIDENCE.** MODERATE. 진리성 7 / 타당성 6 / 진실성 8.
+**CORROBORATED.** STRONG. 진리성 9 / 타당성 7 / 진실성 9. 1차 음성증거(녹취264-1)에서 변호사의 기소유예 목표 설정이 명시적으로 확인됨.
 
 ## Spot-check
 
@@ -51,6 +52,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[han-ji-hoon-kiso-yuye-is-criminal-stigma]]
-- [[prosecution-knew-innocence-continued-case]]
-- [[../layers/layer-6|Layer 6]]
+- [[han-ji-hoon-kiso-yuye-is-criminal-stigma]] (RELATED)
+- [[prosecution-knew-innocence-continued-case]] (RELATED)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

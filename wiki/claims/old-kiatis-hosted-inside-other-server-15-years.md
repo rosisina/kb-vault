@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L1-KIATIS-INSIDE-OTHER-SERVER"})
 SET fr.layer = 1,
-    fr.claimType = "system_architecture_concealment",
+    fr.claimType = "evidence_concealment",
+    fr.claimSubtype = "system_architecture_concealment",
     fr.claimDesc = "舊KIATIS는 2006년 육군전산소가 홈페이지 게시판 형태로 제작한 단순 파일첨부 시스템이며, 15년간 독립 서버가 아닌 '타 시스템 서버 내에 설치되어' 운영되었다. 이후 '국방 통합 인터넷 메일서버'로 서버 세탁되어 이전되었다",
     fr.counterHypothesis = "舊KIATIS가 타 서버 내에서 운영된 것은 소규모 시스템의 일반적인 호스팅 방식이며, 의도적 은폐가 아닌 비용 효율성 판단이었다",
     fr.falsificationCondition = "舊KIATIS의 타 서버 내 운영이 국방정보화 관련 규정에 부합하는 정상적 운영 방식임을 보여주는 근거",
@@ -61,6 +62,6 @@ SET fr.layer = 1,
 
 ## Related
 
-- [[old-kiatis-direct-db-access-without-vpn]] — L1 DB 직접접속
-- [[old-kiatis-intranet-data-link-confirmed]] — L1 인트라넷 연동
-- [[../layers/layer-1|Layer 1]]
+- [[old-kiatis-direct-db-access-without-vpn]] — L1 DB 직접접속 (RELATED)
+- [[old-kiatis-intranet-data-link-confirmed]] — L1 인트라넷 연동 (RELATED)
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)

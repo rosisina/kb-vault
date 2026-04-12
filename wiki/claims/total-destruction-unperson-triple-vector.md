@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-TOTAL-DESTRUCTION-UNPERSON"})
 SET fr.layer = 5,
-    fr.claimType = "cross_layer_synthesis",
+    fr.claimType = "cross_layer_analysis",
+    fr.claimSubtype = "cross_layer_synthesis",
     fr.claimDesc = "삼중 벡터(사회적+법적+경제적) 완전 파괴 구조. 오웰의 '언퍼슨'과 유사한 진실 말하는 자의 존재 말살.",
     fr.counterHypothesis = "세 가지 결과는 별개 기관의 독립적 과정에 의한 것이며 완전 파괴라는 단일 목표로 조율되지 않았다",
     fr.falsificationCondition = "L5 괴롭힘, L6 기소, 제대 절차 중 하나라도 다른 둘과 무관한 행위자가 개시한 기록",
@@ -52,6 +53,6 @@ L5 괴롭힘, L6 기소, 제대 절차 중 하나라도 다른 둘과 무관한 
 
 ## Related
 
-- [[han-ji-hoon-kiso-yuye-is-criminal-stigma]]
-- [[layer5-language-weaponization-silence-as-murder]]
-- [[../layers/layer-5|Layer 5]]
+- [[han-ji-hoon-kiso-yuye-is-criminal-stigma]] (CORROBORATES)
+- [[layer5-language-weaponization-silence-as-murder]] (CORROBORATES)
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

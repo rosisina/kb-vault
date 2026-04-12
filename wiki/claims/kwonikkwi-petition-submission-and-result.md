@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L7-KWONIKKWI-PETITION"})
 SET fr.layer = 7,
-    fr.claimType = "institutional_rejection_detail",
+    fr.claimType = "institutional_obstruction",
+    fr.claimSubtype = "institutional_rejection_detail",
     fr.claimDesc = "한지훈 submitted a formal petition (진정서) to the 국가권익위원회 on 2022-09-25 (Record No. 5,314–5,326) documenting: (a) the 국방정보화카르텔's organized cover-up of the 2016 DIDC hacking, (b) APT-style human targeting of 한지훈 by 국전원 공무원 집단, (c) 군 검찰단's 6-charge fraud investigation (업무상 배임, 허위공문서 작성, 허위작성공문서 작성, 위계공무집행방해, 허위보고, 허위통보), (d) 패륜적 인권침해 including 5-month solitary confinement, denial of desk/PC, and family harm (son's medical condition, daughter's university leave). The 권익위 failed to call any witnesses ('참고인으로 조차 부르지 않았으며') and attempted to transfer 한지훈's evidence to MND",
     fr.counterHypothesis = "The 권익위 followed standard procedural protocol for the type of complaint received; the lack of witness interviews reflects jurisdictional limitations rather than institutional capture",
     fr.falsificationCondition = "Production of 권익위 internal case review records showing substantive analysis of 한지훈's evidence was conducted but concluded the complaint fell outside jurisdiction on legitimate procedural grounds",
@@ -79,9 +80,9 @@ This claim is **CORROBORATED** unless:
 
 ## Related
 
-- [[han-ji-hoon-rebuttal-rejected-by-eight-institutions]] — foundational L7 atom: the 8-institution rejection chain
-- [[kwonikkwi-evidence-transfer-attempt-to-mnd]] — companion atom: 권익위 실무자's evidence transfer attempt
-- [[inkkwonwi-rejected-without-witness-review]] — companion atom: 인권위's rejection without witness review
-- [[han-ji-hoon-kiso-yuye-is-criminal-stigma]] — the 기소유예 harm structure this petition contests
-- [[layer5-false-gapjil-report-organizational-conspiracy-structure]] — the 3-actor conspiracy (김민수·이지영·김수진) named in the petition
-- [[../layers/layer-7|Layer 7]] — 진정서 제출·수사 촉구 후 기소유예
+- [[han-ji-hoon-rebuttal-rejected-by-eight-institutions]] — foundational L7 atom: the 8-institution rejection chain (OPPOSES)
+- [[kwonikkwi-evidence-transfer-attempt-to-mnd]] — companion atom: 권익위 실무자's evidence transfer attempt (CORROBORATES)
+- [[inkkwonwi-rejected-without-witness-review]] — companion atom: 인권위's rejection without witness review (CORROBORATES)
+- [[han-ji-hoon-kiso-yuye-is-criminal-stigma]] — the 기소유예 harm structure this petition contests (RELATED)
+- [[layer5-false-gapjil-report-organizational-conspiracy-structure]] — the 3-actor conspiracy (김민수·이지영·김수진) named in the petition (OPPOSES)
+- [[../layers/layer-7|Layer 7]] — 진정서 제출·수사 촉구 후 기소유예 (PART_OF_LAYER)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L7-ONNARA-2024"})
 SET fr.layer = 7,
-    fr.claimType = "evidence_destruction_risk_systemic",
+    fr.claimType = "evidence_concealment",
+    fr.claimSubtype = "evidence_destruction_risk_systemic",
     fr.claimDesc = "The book (§3.7.1.1) flags that the 2024 on-nara (온-나라 행정업무 시스템) upgrade project, budgeted at approximately 40억원 (KRW ~4 billion), creates a concrete risk of destroying the memo-report and email trail that 한지훈 generated as a contemporaneous evidence record of his Layer 7 petition efforts. The book notes that memo-reports on 온-나라 are permanent records that cannot be deleted — making the 2024 upgrade the only mechanism by which they could be erased.",
     fr.counterHypothesis = "The 2024 온-나라 upgrade is a routine IT modernization project unrelated to the DIDC investigation; standard government IT procurement requirements mandate data migration and historical record preservation; no evidence of selective data deletion.",
     fr.falsificationCondition = "Audit of the 온-나라 2024 upgrade contract and scope of work, confirming that historical memo-report and email records from 2022 were fully migrated and are queryable by date/author in the upgraded system, would falsify the evidence-destruction risk claim.",
@@ -75,9 +76,9 @@ This counter-hypothesis is the **most likely** outcome statistically — governm
 
 ## Related
 
-- [[../layers/layer-7|Layer 7]]
-- [[../layers/layer-1|Layer 1]]
-- [[han-ji-hoon-rebuttal-rejected-by-eight-institutions|L7 atom: 8-institution rejection chain]]
-- [[han-ji-hoon-rebuttal-document-date-2022-09-25|L7 atom: rebuttal document date discrepancy]]
-- [[../entities/people/han-ji-hoon|한지훈 entity hub]]
-- [[../entities/organizations/didc|DIDC (primary L1 evidence subject)]]
+- [[../layers/layer-7|Layer 7]] (PART_OF_LAYER)
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)
+- [[han-ji-hoon-rebuttal-rejected-by-eight-institutions|L7 atom: 8-institution rejection chain]] (OPPOSES)
+- [[han-ji-hoon-rebuttal-document-date-2022-09-25|L7 atom: rebuttal document date discrepancy]] (OPPOSES)
+- [[../entities/people/han-ji-hoon|한지훈 entity hub]] (ABOUT)
+- [[../entities/organizations/didc|DIDC (primary L1 evidence subject)]] (ABOUT)

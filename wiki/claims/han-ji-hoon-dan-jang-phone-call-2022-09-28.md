@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L7-DANJANG-CALL"})
 SET fr.layer = 7,
-    fr.claimType = "decisional_awareness_primary_evidence",
+    fr.claimType = "testimony_evidence",
+    fr.claimSubtype = "decisional_awareness_primary_evidence",
     fr.claimDesc = "A recorded phone call on 2022-09-28 between 한지훈 and the 군검찰단장 (안세준) is primary evidence that the 단장 was personally aware of the defective prosecution and of 한지훈's claim of innocence, and proceeded with the 기소유예 disposition on 2022-10-07 regardless. The recording forecloses any 'did not know' defense for the Layer 6/7 institutional failure.",
     fr.counterHypothesis = "The 단장 was constitutionally unable to interfere with an active prosecution under the separation-of-investigative-and-decisional roles within the 군검찰단; awareness of the accused's claim does not obligate the 단장 to halt the investigation, and the disposition decision rested with the assigned prosecutor (임형규).",
     fr.falsificationCondition = "Evidence showing that the 단장 had no authority to order a 무혐의 disposition and that the 기소유예 decision was solely the assigned prosecutor's determination would weaken this atom by removing 단장 decisional responsibility.",
@@ -86,11 +87,11 @@ This counter-hypothesis is weakened by: (a) the 단장 still holds command respo
 
 ## Related
 
-- [[prosecution-chief-evades-innocence-plea|2 shared records — 단장 전화 자매 atom]]
-- [[../layers/layer-7|Layer 7]]
-- [[../layers/layer-6|Layer 6]]
-- [[han-ji-hoon-rebuttal-rejected-by-eight-institutions|L7 atom: 8-institution rejection chain]]
-- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|Layer 6: 기소유예 criminal stigma]]
-- [[han-ji-hoon-prosecution-violates-2129-role-separation|Layer 6: prosecution role-tier misattribution]]
-- [[../entities/people/ahn-se-jun|안세준 (군검찰단장)]]
-- [[../entities/people/han-ji-hoon|한지훈 entity hub]]
+- [[prosecution-chief-evades-innocence-plea|2 shared records — 단장 전화 자매 atom]] (RELATED)
+- [[../layers/layer-7|Layer 7]] (PART_OF_LAYER)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)
+- [[han-ji-hoon-rebuttal-rejected-by-eight-institutions|L7 atom: 8-institution rejection chain]] (OPPOSES)
+- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|Layer 6: 기소유예 criminal stigma]] (RELATED)
+- [[han-ji-hoon-prosecution-violates-2129-role-separation|Layer 6: prosecution role-tier misattribution]] (RELATED)
+- [[../entities/people/ahn-se-jun|안세준 (군검찰단장)]] (ABOUT)
+- [[../entities/people/han-ji-hoon|한지훈 entity hub]] (ABOUT)

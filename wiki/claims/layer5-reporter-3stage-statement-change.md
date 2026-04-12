@@ -7,6 +7,7 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L5-REPORTER-3STAGE-SHIFT"})
 SET fr.layer = 5,
     fr.claimType = "witness_manipulation",
+    fr.claimSubtype = "three_stage_narrative_shift",
     fr.claimDesc = "갑질 신고의 명목상 신고자 박서준의 진술이 3단계로 변화하였다: 1단계 '박서준이 신고'→2단계 '국전원이 신고'→3단계 '다시 박서준이 신고'. 이 변화는 국전원(김민수·이지영·김수진)이 갑질 신고를 기획·조작한 후, 책임 주체를 개인과 기관 사이에서 전환하며 추적을 회피한 증거이다. 최영수의 독립적 진술이 박서준이 진짜 신고자가 아님을 확인한다",
     fr.counterHypothesis = "진술 변화는 기억의 불확실성이나 조사 과정의 혼선에 의한 것이며, 조작의 증거가 아니다",
     fr.falsificationCondition = "박서준이 자발적으로 갑질 신고를 결심한 과정을 보여주는 독립적 기록(메시지, 일기 등)",
@@ -59,5 +60,5 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[layer5-park-seojun-48hr-cooperation-to-hostility]] — L5 박서준 48시간 변화
-- [[../layers/layer-5|Layer 5]]
+- [[layer5-park-seojun-48hr-cooperation-to-hostility]] — L5 박서준 48시간 변화 (RELATED)
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-BAEIM-SELF-CONTRADICTION"})
 SET fr.layer = 6,
-    fr.claimType = "prosecution_logical_contradiction",
+    fr.claimType = "prosecution_misconduct",
+    fr.claimSubtype = "prosecution_logical_contradiction",
     fr.claimDesc = "군검찰단은 업무상배임으로 1억7천만원 국가 손해를 주장하며 준공금 지급을 문제 삼았으나(Record 714/717), 동시에 99.73점 군사용 적합 판정(Record 394)과 압수수색에서 개발업체와의 금전 관계 부재(Record 1,150)를 인정하여 자기모순에 빠졌다. 최종적으로 '증거 불충분 혐의없음'으로 처리하여 애초 혐의 자체가 근거 없었음을 자인하였다",
     fr.counterHypothesis = "배임 혐의와 99.73점은 별개의 법적 쟁점이며, 준공금 지급 절차의 하자가 결과와 무관하게 배임이 될 수 있다",
     fr.falsificationCondition = "준공금 지급 절차에 구체적 위법 사항이 있었음을 보여주는 감사 기록",
@@ -64,6 +65,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[prosecution-non-prosecution-internal-contradiction]] — L6 불기소 모순
-- [[layer6-997-reframed-as-deficient-development]] — L6 부실개발 재프레이밍
-- [[../layers/layer-6|Layer 6]]
+- [[prosecution-non-prosecution-internal-contradiction]] — L6 불기소 모순 (CORROBORATES)
+- [[layer6-997-reframed-as-deficient-development]] — L6 부실개발 재프레이밍 (RELATED)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

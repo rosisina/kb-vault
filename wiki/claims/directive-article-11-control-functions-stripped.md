@@ -7,6 +7,7 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L4-ARTICLE-11-STRIPPED"})
 SET fr.layer = 4,
     fr.claimType = "regulatory_manipulation",
+    fr.claimSubtype = "control_function_deletion",
     fr.claimDesc = "사업통제기관의 4대 핵심 기능이 훈령 개정을 통해 체계적으로 삭제됨: 제2398호(2020.2.13)에서 '시험평가 계획·결과 승인' 삭제(Record 8,168), 제2436호(2020.6.4)에서 '사업계획 승인' 삭제(Record 8,272). 또한 제2436호에서 '사업통제기관'이라는 용어 자체를 '정보화기획관실(각 군)'로 교체하여 新KIATIS 불법 위임을 노출할 수 있는 어휘를 제거하였다",
     fr.counterHypothesis = "훈령 개정은 국방 행정 효율화를 위한 정상적 규정 정비이며, 특정 사건과 무관하다",
     fr.falsificationCondition = "훈령 개정이 新KIATIS 사건 이전에 기획되었음을 보여주는 사전 정책검토 문서",
@@ -67,6 +68,6 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[2436ho-cluster-six-anchors]] — 2436호 조작 클러스터
-- [[mnd-test-eval-simplification-timed-to-evaluation-day]] — 시험평가 간소화
-- [[../layers/layer-4|Layer 4]]
+- [[2436ho-cluster-six-anchors]] — 2436호 조작 클러스터 (RELATED)
+- [[mnd-test-eval-simplification-timed-to-evaluation-day]] — 시험평가 간소화 (RELATED)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

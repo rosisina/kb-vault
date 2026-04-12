@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-001"})
 SET fr.layer = 6,
-    fr.claimType = "prosecution_role_misattribution",
+    fr.claimType = "prosecution_misconduct",
+    fr.claimSubtype = "prosecution_role_misattribution",
     fr.claimDesc = "The 2022 군 검찰단 prosecution of 한지훈 charged him with 시험평가환경을 속였다 (lying about the test-evaluation environment) in his role as 사업관리팀장 (Project Management Team Leader), but 제2129호 제11조 ¶3 and ¶4 separate the 사업주관기관 (test-evaluation execution agency, KIATIS = DMA / 국유단) from the 사업관리기관 (project management agency, KIATIS = 국전원), assigning test-evaluation execution responsibility to the former — meaning the charged conduct is directive-prohibited for any 사업관리팀장 to perform in the first place",
     fr.counterHypothesis = "The 사업관리팀장 position is administratively defined within 국전원 such that it includes test-evaluation execution authority despite the 제11조 separation, OR 한지훈 was named on documents that operationally placed him in a 사업주관기관 role even if his title was 사업관리팀장",
     fr.falsificationCondition = "Production of (a) the 사업관리팀장 position description showing it includes test-evaluation execution duties, OR (b) any KIATIS document signed by 한지훈 that operationally constitutes test-evaluation execution by the 사업주관기관",
@@ -83,17 +84,17 @@ This atom is the **foundational Layer 6 atom**: it identifies the structural pro
 
 ## Related
 
-- [[han-ji-hoon|한지훈 (subject)]]
-- [[im-hyung-gyu|임형규 (검사)]]
-- [[ahn-se-jun|안세준 (군검찰단장, decisional approver)]]
-- [[../entities/organizations/gukjeonwon|국전원 (사업관리기관)]]
-- [[../entities/organizations/dma-defense-pow-mia-accounting-agency|DMA / 국유단 (사업주관기관)]]
-- [[../regulations/defense-it-2129-article-11|제11조 (role tiers)]]
-- [[../regulations/defense-it-2129-article-57|제57조 (OT&E definition)]]
-- [[2436ho-otne-sponsor-binding-erased|A8b atom]]
-- [[2436ho-gukjeonwon-role-tier-renaming|A2 atom]]
-- [[kiatis-2129ho-main-regime-applies|KIATIS main regime applies]]
-- [[kiatis-rfp-binds-lifecycle|KIATIS RFP binds lifecycle]]
-- [[../events/2018-2019-kiatis-performance-improvement-project|KIATIS event]]
-- [[../layers/layer-6|Layer 6]]
-- [[../topics/fraud-investigation|Fraud Investigation]]
+- [[han-ji-hoon|한지훈 (subject)]] (RELATED)
+- [[im-hyung-gyu|임형규 (검사)]] (RELATED)
+- [[ahn-se-jun|안세준 (군검찰단장, decisional approver)]] (RELATED)
+- [[../entities/organizations/gukjeonwon|국전원 (사업관리기관)]] (ABOUT)
+- [[../entities/organizations/dma-defense-pow-mia-accounting-agency|DMA / 국유단 (사업주관기관)]] (ABOUT)
+- [[../regulations/defense-it-2129-article-11|제11조 (role tiers)]] (ABOUT)
+- [[../regulations/defense-it-2129-article-57|제57조 (OT&E definition)]] (ABOUT)
+- [[2436ho-otne-sponsor-binding-erased|A8b atom]] (RELATED)
+- [[2436ho-gukjeonwon-role-tier-renaming|A2 atom]] (RELATED)
+- [[kiatis-2129ho-main-regime-applies|KIATIS main regime applies]] (RELATED)
+- [[kiatis-rfp-binds-lifecycle|KIATIS RFP binds lifecycle]] (RELATED)
+- [[../events/2018-2019-kiatis-performance-improvement-project|KIATIS event]] (ABOUT)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)
+- [[../topics/fraud-investigation|Fraud Investigation]] (ABOUT)

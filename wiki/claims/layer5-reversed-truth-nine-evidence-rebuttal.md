@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-REVERSED-TRUTH-9PROOFS"})
 SET fr.layer = 5,
-    fr.claimType = "evidence_rebuttal",
+    fr.claimType = "evidence_concealment",
+    fr.claimSubtype = "evidence_rebuttal",
     fr.claimDesc = "9개 증거 범주의 통합 반박 — 업무 불균형(7/14 사업), 책임전가(팀장 책임져라), 인권침해(6개월 독방), 심리적 학대(증거인멸 협박), 사회적 고립(동료 침묵 유도)",
     fr.counterHypothesis = "한지훈의 반박문서는 일방적 자기변호이며, 조사본부의 독립적 조사가 더 객관적이다",
     fr.falsificationCondition = "조사본부의 독립적 조사가 한지훈의 9개 증거를 각각 검토하고 반박한 기록",
@@ -50,6 +51,6 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[layer5-six-month-isolation-human-rights]]
-- [[layer5-false-gapjil-report-organizational-conspiracy-structure]]
-- [[../layers/layer-5|Layer 5]]
+- [[layer5-six-month-isolation-human-rights]] (OPPOSES)
+- [[layer5-false-gapjil-report-organizational-conspiracy-structure]] (OPPOSES)
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

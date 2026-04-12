@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-005"})
 SET fr.layer = 5,
-    fr.claimType = "nominal_complainant_structural_proof",
+    fr.claimType = "witness_manipulation",
+    fr.claimSubtype = "nominal_complainant_structural_proof",
     fr.claimDesc = "박서준's stated grievances were entirely absent from the 2022-05-23 경고장, while 이지영's single false claim was immediately incorporated. This selective incorporation proves 박서준 was a nominal front complainant, not an actual aggrieved party — the real complainant organization was 이지영 and 김민수, using 박서준's name as cover.",
     fr.counterHypothesis = "The 경고장 addressed only the most legally actionable grievance and excluded 박서준's less-specific complaints for procedural reasons, not because 박서준 was nominal.",
     fr.falsificationCondition = "Production of a separate legal document or follow-up communication from the 법무관리관실 explicitly addressing 박서준's stated grievances and providing procedural justification for their exclusion from the warning letter.",
@@ -71,11 +72,11 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[../layers/layer-5|Layer 5]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[../entities/people/park-seo-jun|박서준]]
-- [[../entities/people/lee-ji-young|이지영]]
-- [[../entities/people/kim-min-su|김민수]]
-- [[layer5-fabricated-warning-letter|layer5-fabricated-warning-letter — 허위 경고장]]
-- [[layer5-predetermined-audit-conclusion|layer5-predetermined-audit-conclusion — 조사본부 결론 사전 결정]]
-- [[../topics/whistleblower-protection-and-reform|Whistleblower Protection and Reform]]
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[../entities/people/park-seo-jun|박서준]] (ABOUT)
+- [[../entities/people/lee-ji-young|이지영]] (ABOUT)
+- [[../entities/people/kim-min-su|김민수]] (ABOUT)
+- [[layer5-fabricated-warning-letter|layer5-fabricated-warning-letter — 허위 경고장]] (OPPOSES)
+- [[layer5-predetermined-audit-conclusion|layer5-predetermined-audit-conclusion — 조사본부 결론 사전 결정]] (RELATED)
+- [[../topics/whistleblower-protection-and-reform|Whistleblower Protection and Reform]] (ABOUT)

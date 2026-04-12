@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-KKT-EVAL-ABSENCE-SAME-DAY"})
 SET fr.layer = 4,
-    fr.claimType = "organizational_awareness",
+    fr.claimType = "conspiracy_structure",
+    fr.claimSubtype = "organizational_awareness",
     fr.claimDesc = "카카오톡에서 시험평가 시작+팀장 부재 동시 공지. 조직 전체 인지의 실시간 기록.",
     fr.counterHypothesis = "교육 일정은 사전 배정이므로 동시 공지가 의도성을 증명하지 않는다",
     fr.falsificationCondition = "국방대 교육 일정이 시험평가 확정 이전에 배정된 기록",
@@ -49,5 +50,5 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[deliberate-absence-key-personnel-during-evaluation]]
-- [[../layers/layer-4|Layer 4]]
+- [[deliberate-absence-key-personnel-during-evaluation]] (CORROBORATES)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

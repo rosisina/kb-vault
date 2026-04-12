@@ -8,7 +8,8 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L2-3BRAKES-005"})
 SET fr.layer = 2,
     fr.crossLayer = [6],
-    fr.claimType = "exculpatory_active_defense",
+    fr.claimType = "methodology",
+    fr.claimSubtype = "exculpatory_active_defense",
     fr.claimDesc = "한지훈은 新KIATIS 사업의 본 사업 구조에 문제가 있음을 인식하고 사업 착수 직후 3가지 능동적 방어 메커니즘을 설치했다: ① 장우진 (사업실무자-1)의 국전원 1주일 1회 상주 요구 (감시 메커니즘) — 개발 관리 기간 2018-12 ~ 2019-09-01, ② 모든 이해관계자 (특히 국유단)를 정식 공문으로 소집하여 요구사항 검토 회의 주관, 모든 요구사항을 하나씩 개발 용역업체와 상호 승인 (record 1,551부터), ③ 제안요청서의 사업 조직 임무·역할을 강조하여 국유단 실무자가 직접 국전원에 방문하여 분석·설계에 참여하게 함 (국전원 출입통제 system 기록). 더불어 한지훈은 장우진의 사업 감리(audit) 요청을 거절 — 국유단이 자기 감리하는 구조적 모순을 회피. 이 3가지 방어 메커니즘 + 1가지 거절은 한지훈이 사기 의도를 가지지 않았으며 오히려 적극적으로 무결성을 보장하려 했음을 직접 증명하는 exculpatory evidence이다. Layer 6 군 검찰단의 기소 (사업관리팀장이 시험평가환경을 속였다)가 침묵하는 결정적 반대 서사이다.",
     fr.counterHypothesis = "3가지 행위는 단순히 routine 사업 관리 활동이며 한지훈의 형사책임을 면제하지 못한다",
     fr.falsificationCondition = "3가지 행위 중 어느 하나가 사실관계상 routine 사업 관리 절차에 해당하며 한지훈의 individual initiative가 아니었음을 보이는 직접 증거",
@@ -89,14 +90,14 @@ SET fr.layer = 2,
 
 ## Related
 
-- [[../layers/layer-2|Layer 2 hub]]
-- [[../layers/layer-6|Layer 6 — 군 검찰단 prosecution]]
-- [[han-ji-hoon-prosecution-violates-2129-role-separation|L6-01 — sister atom (역할 분리 위반)]]
-- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|L6-02 — 기소유예 stigma]]
-- [[prosecution-misapplies-2129-article-58-4-to-kiatis|L6-03 — 제58조 ¶4 오인적용]]
-- [[kiatis-mnd-controlled-not-delegated|L2-01]]
-- [[kiatis-mkia-multi-cap-inscription|L2-02]]
-- [[lee-jiyoung-kim-sujin-single-point-of-control|L2-03]]
-- [[kiatis-server-laundering-dcia-to-didc1|L2-04 — server laundering (장우진 정보의 통로)]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[../entities/people/jang-woo-jin|장우진 (사업실무자-1)]]
+- [[../layers/layer-2|Layer 2 hub]] (PART_OF_LAYER)
+- [[../layers/layer-6|Layer 6 — 군 검찰단 prosecution]] (PART_OF_LAYER)
+- [[han-ji-hoon-prosecution-violates-2129-role-separation|L6-01 — sister atom (역할 분리 위반)]] (RELATED)
+- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|L6-02 — 기소유예 stigma]] (RELATED)
+- [[prosecution-misapplies-2129-article-58-4-to-kiatis|L6-03 — 제58조 ¶4 오인적용]] (RELATED)
+- [[kiatis-mnd-controlled-not-delegated|L2-01]] (RELATED)
+- [[kiatis-mkia-multi-cap-inscription|L2-02]] (RELATED)
+- [[lee-jiyoung-kim-sujin-single-point-of-control|L2-03]] (RELATED)
+- [[kiatis-server-laundering-dcia-to-didc1|L2-04 — server laundering (장우진 정보의 통로)]] (RELATED)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[../entities/people/jang-woo-jin|장우진 (사업실무자-1)]] (ABOUT)

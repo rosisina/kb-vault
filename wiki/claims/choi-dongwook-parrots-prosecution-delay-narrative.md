@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-LAWYER-PROSECUTION-FRAMING"})
 SET fr.layer = 6,
-    fr.claimType = "attorney_prosecution_alignment",
+    fr.claimType = "attorney_misconduct",
+    fr.claimSubtype = "attorney_prosecution_alignment",
     fr.claimDesc = "일정 3일 앞당기기 요청→변호사가 '지연' 프레이밍 반복. 검찰 내러티브 의뢰인 전달.",
     fr.counterHypothesis = "최동욱은 검찰과의 관계 관리 차원에서 협조적 태도의 중요성을 설명한 것이다",
     fr.falsificationCondition = "최동욱이 검찰에 한지훈의 일정 앞당기기 요청을 전달하고 옹호한 기록",
@@ -51,6 +52,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[choi-dongwook-resignation-threat-coercive-control]]
-- [[prosecution-knew-innocence-continued-case]]
-- [[../layers/layer-6|Layer 6]]
+- [[choi-dongwook-resignation-threat-coercive-control]] (CORROBORATES)
+- [[prosecution-knew-innocence-continued-case]] (RELATED)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

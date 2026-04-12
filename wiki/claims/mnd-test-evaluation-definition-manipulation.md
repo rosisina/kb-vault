@@ -7,7 +7,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-EVAL-DEF-001"})
 SET fr.layer = 4,
-    fr.claimType = "definition_manipulation",
+    fr.claimType = "terminology_manipulation",
+    fr.claimSubtype = "definition_manipulation",
     fr.claimDesc = "국방정보화업무훈령 별표1의 '시험평가' 정의는 2016.6.16.(제1931호)부터 2025.7.9.(제3059호)까지 개정 없이 유지되었으나(기록 제9,003쪽~), 2020.8.20. 국방부 조작공문에서 이 정의를 '정보시스템 전력화 여부를 판단하기 위해 개발된 정보시스템이 군 요구품질을 만족시키는지 검증/확인하는 업무절차'(기록 제4,759쪽)로 변질시켰다. 이는 운영시험평가를 희석하고 개발시험평가에만 방점을 찍은 개념 왜곡이다.",
     fr.counterHypothesis = "공문의 시험평가 정의 변경은 운영 현실을 반영한 실무적 재정의이며, 훈령 별표1의 공식 정의를 변경한 것이 아니라 실무 해설 수준의 부연이다.",
     fr.falsificationCondition = "공문의 시험평가 정의가 훈령 별표1과 양립 가능한 해석임을 보여주는 법률 해석 의견서, 또는 공문이 별표1 정의를 대체하지 않고 보충한다는 취지의 공식 해명이 제시되면 '조작'에서 '해석 차이'로 재평가된다.",
@@ -77,7 +78,7 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[mnd-test-evaluation-improvement-retroactive-justification|FR-L4-EVAL-IMPROVE-001 — 2020.8월 공문 전체의 소급 정당화 분석]]
-- [[kida-otne-citation-misrepresents-us-standard|KIDA의 미국 표준 왜곡 — 동일 공문의 학술적 위장 메커니즘]]
-- [[2436ho-test-evaluation-principle-inverted|시험평가 원칙 역전 (분리→통합)]]
-- [[../layers/layer-4|Layer 4 — 新KIATIS 개발·운영·시험평가 전·중·후 조작]]
+- [[mnd-test-evaluation-improvement-retroactive-justification|FR-L4-EVAL-IMPROVE-001 — 2020.8월 공문 전체의 소급 정당화 분석]] (RELATED)
+- [[kida-otne-citation-misrepresents-us-standard|KIDA의 미국 표준 왜곡 — 동일 공문의 학술적 위장 메커니즘]] (RELATED)
+- [[2436ho-test-evaluation-principle-inverted|시험평가 원칙 역전 (분리→통합)]] (RELATED)
+- [[../layers/layer-4|Layer 4 — 新KIATIS 개발·운영·시험평가 전·중·후 조작]] (PART_OF_LAYER)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-LANGUAGE-WEAPONIZATION"})
 SET fr.layer = 5,
-    fr.claimType = "human_rights_violation_linguistic",
+    fr.claimType = "terminology_manipulation",
+    fr.claimSubtype = "human_rights_violation_linguistic",
     fr.claimDesc = "국방정보화카르텔은 언어를 무기로 사용하여 한지훈을 조직적으로 파괴하였다. Austin의 화행이론(Speech Act Theory)에 따르면: 발화수반행위(illocutionary)로 '갑질자' 낙인 부여, 발화효과행위(perlocutionary)로 조직 내 고립 달성, 침묵 강요(forced silence)를 통한 사회적 살인(social murder) 실행. 14개의 Record No.가 이를 뒷받침한다",
     fr.counterHypothesis = "언어 사용은 일반적 조직 갈등의 표현이며, '사회적 살인'은 과도한 해석이다",
     fr.falsificationCondition = "한지훈이 갑질 혐의에 대해 공정한 청문 기회를 부여받았고, 조직 내 소통 채널이 차단되지 않았음을 보여주는 기록",
@@ -62,6 +63,6 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[layer5-six-month-isolation-human-rights|격리 인권침해 — 침묵 무기화의 물리적 토대]]
-- [[layer5-six-month-witness-destruction-tactics|6개월 증인 파괴 전술 — 언어 무기화의 물리적 실행]]
-- [[../layers/layer-5|Layer 5]]
+- [[layer5-six-month-isolation-human-rights|격리 인권침해 — 침묵 무기화의 물리적 토대]] (RELATED)
+- [[layer5-six-month-witness-destruction-tactics|6개월 증인 파괴 전술 — 언어 무기화의 물리적 실행]] (RELATED)
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-051"})
 SET fr.layer = 4,
-    fr.claimType = "operational_vs_test_environment_separation",
+    fr.claimType = "technical_proof",
+    fr.claimSubtype = "operational_vs_test_environment_separation",
     fr.claimDesc = "舊KIATIS operated on the internet (민간/공공 cyberspace) while 新KIATIS testing was conducted on a separated defense network (국방망). Per 훈령 제57조/제58조/제62조, operational test-evaluation (운용시험평가) must be performed in the actual operational environment. Since 舊KIATIS and 新KIATIS occupied fundamentally different cyber-domains, any test-evaluation that conflated the two violated the separation-of-environment principle.",
     fr.counterHypothesis = "The network environment difference was a routine infrastructure migration and both old and new systems shared sufficient operational continuity that environment separation was not practically relevant to test validity.",
     fr.falsificationCondition = "Documentation showing that 新KIATIS testing was conducted in the same internet-based environment where 舊KIATIS actually operated, or that the defense-network test environment faithfully replicated the internet-based operational conditions of 舊KIATIS.",
@@ -64,8 +65,8 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[../layers/layer-4|Layer 4]]
-- [[2436ho-test-evaluation-principle-inverted|훈령 제2436호 시험평가 분리→통합 원칙 변경]]
-- [[prosecution-distorts-operational-vs-test-environment|검찰의 운용환경 vs 시험환경 왜곡]]
-- [[kiatis-rfp-tech-table-proves-sw-only-internet-structure|KIATIS RFP 기술표 — 순수 SW 인터넷 구조 증명]]
-- [[../entities/people/han-ji-hoon|한지훈]]
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)
+- [[2436ho-test-evaluation-principle-inverted|훈령 제2436호 시험평가 분리→통합 원칙 변경]] (RELATED)
+- [[prosecution-distorts-operational-vs-test-environment|검찰의 운용환경 vs 시험환경 왜곡]] (RELATED)
+- [[kiatis-rfp-tech-table-proves-sw-only-internet-structure|KIATIS RFP 기술표 — 순수 SW 인터넷 구조 증명]] (RELATED)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)

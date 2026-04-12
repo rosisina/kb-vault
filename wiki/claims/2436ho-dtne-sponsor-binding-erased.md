@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-A8b-sym-001"})
 SET fr.layer = 4,
-    fr.claimType = "regulatory_role_binding_erasure",
+    fr.claimType = "regulatory_manipulation",
+    fr.claimSubtype = "regulatory_role_binding_erasure",
     fr.claimDesc = "제2436호 (2020-06-04) removed the clause '사업관리기관 주관 하에' from the DT&E definition in 제57조 ¶1 제1호 with no replacement, mirroring the simultaneous removal of '사업주관기관 주관 하에' from 제57조 ¶1 제2호 (the paired A8b atom). In the same revision, the DT&E result-judgment clause '합격 또는 불합격으로 결과를 판정할 것' was also deleted from 제1호 — the DT&E sub-clause was reduced from a bound-and-judged definition to a bare descriptive phrase",
     fr.counterHypothesis = "The 사업관리기관 binding was redundant given 제11조 assigns DT&E execution to the 사업관리기관 role; the deletion is a non-substantive de-duplication. The result-judgment clause deletion is a separate administrative simplification that moves result-judgment specification from 제57조 to 제60조 (DT&E execution)",
     fr.falsificationCondition = "Production of (a) any 제2436호-or-later directive provision explicitly binding DT&E execution to a named role-tier with force comparable to 'X 주관 하에', AND (b) any 제2436호-or-later directive provision restating the '합격 또는 불합격' result-judgment requirement for DT&E at the same normative level as the deleted 제57조 clause",
@@ -85,10 +86,10 @@ If item 1 is produced, the verdict downgrades to WEAKENED. If item 2 confirms th
 
 ## Related
 
-- [[2436ho-otne-sponsor-binding-erased|A8b: OT&E sponsor binding erasure (parent / paired atom)]]
-- [[2436ho-cluster-six-anchors|2436호 cluster (should expand to 7 anchors to include A8b-sym)]]
-- [[2436ho-test-evaluation-principle-inverted|A9: separation → integration principle inversion]]
-- [[2436ho-dtne-articles-erased|A10: 제59·60·61조 article body erasure]]
-- [[2398-2842ho-otne-environment-hedge-flipflop|A8a: environment hedge flip-flop]]
-- [[../regulations/defense-it-2129-article-57|제57조]]
-- [[../layers/layer-4|Layer 4]]
+- [[2436ho-otne-sponsor-binding-erased|A8b: OT&E sponsor binding erasure (parent / paired atom)]] (CORROBORATES)
+- [[2436ho-cluster-six-anchors|2436호 cluster (should expand to 7 anchors to include A8b-sym)]] (SUPERSEDES)
+- [[2436ho-test-evaluation-principle-inverted|A9: separation → integration principle inversion]] (CORROBORATES)
+- [[2436ho-dtne-articles-erased|A10: 제59·60·61조 article body erasure]] (CORROBORATES)
+- [[2398-2842ho-otne-environment-hedge-flipflop|A8a: environment hedge flip-flop]] (CORROBORATES)
+- [[../regulations/defense-it-2129-article-57|제57조]] (ABOUT)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

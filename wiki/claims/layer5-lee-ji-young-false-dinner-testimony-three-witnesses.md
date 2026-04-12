@@ -7,7 +7,8 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L5-B3-001"})
 SET fr.layer = 5,
     fr.secondaryLayer = 7,
-    fr.claimType = "false_testimony_dinner_report_three_witnesses",
+    fr.claimType = "witness_manipulation",
+    fr.claimSubtype = "false_testimony_dinner_report_three_witnesses",
     fr.claimDesc = "Lee Ji-young (공문결재자-1) falsely testified to MND investigators that Han Ji-hoon 'left at 5:30 PM without reporting to her.' Investigator Lee Seung-woo immediately ruled this a 'disciplinary offense.' Kim Min-su confirmed 'this is serious — disciplinary action.' This three-person coordinated false testimony collapsed when two contractor employees provided written confirmations (Record No. 4,053) that Han Ji-hoon reported to the section chief 'dozens of times' before leaving for dinner, and team member Sergeant Kim Min-ji independently testified to the same (Record No. 11,112–11,113). Lee Ji-young then retreated to 'I don't remember,' which the workspace layout evidence (Record No. 3,893) further disproves.",
     fr.counterHypothesis = "Lee Ji-young genuinely did not hear or notice Han Ji-hoon's dinner report due to work distraction, and her 'I don't remember' was honest uncertainty rather than a tactical retreat from a false statement.",
     fr.falsificationCondition = "Production of evidence showing that Lee Ji-young's workspace was physically separated from Han Ji-hoon's desk such that she could not have heard his report, or evidence that the two contractor employees were coached or incentivized to provide their confirmations.",
@@ -74,9 +75,9 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[../layers/layer-5|Layer 5]]
-- [[layer5-predetermined-audit-conclusion]] — 동일 절(§3.5.1.2)의 결론-먼저 구조
-- [[layer5-triangular-collusion-speech-act-timeline]] — 삼각 공모 시간 조율
-- [[layer5-fabricated-warning-letter]] — 허위 경고장에 이 조작이 반영됨
-- [[../entities/people/lee-ji-young|이지영]]
-- [[../entities/people/han-ji-hoon|한지훈]]
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)
+- [[layer5-predetermined-audit-conclusion]] — 동일 절(§3.5.1.2)의 결론-먼저 구조 (OPPOSES)
+- [[layer5-triangular-collusion-speech-act-timeline]] — 삼각 공모 시간 조율 (OPPOSES)
+- [[layer5-fabricated-warning-letter]] — 허위 경고장에 이 조작이 반영됨 (OPPOSES)
+- [[../entities/people/lee-ji-young|이지영]] (ABOUT)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)

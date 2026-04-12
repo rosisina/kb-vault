@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-C-L4-13"})
 SET fr.layer = 4,
-    fr.claimType = "contradiction_pair",
+    fr.claimType = "cross_layer_analysis",
+    fr.claimSubtype = "contradiction_pair",
     fr.claimDesc = "시험평가 종료 8일 후 항목변경 승인. 시간적 불가능 + 사업통제기관 불법자임.",
     fr.counterHypothesis = "2019.9.19 승인은 구두 합의의 사후 행정 공식화이다",
     fr.falsificationCondition = "평가항목 변경이 2019.9.11 이전에 실질적으로 합의·적용되었음을 보여주는 기록",
@@ -52,6 +53,6 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[layer4-evaluation-committee-80-items-violation]]
-- [[mnd-test-eval-simplification-timed-to-evaluation-day]]
-- [[../layers/layer-4|Layer 4]]
+- [[layer4-evaluation-committee-80-items-violation]] (RELATED)
+- [[mnd-test-eval-simplification-timed-to-evaluation-day]] (RELATED)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

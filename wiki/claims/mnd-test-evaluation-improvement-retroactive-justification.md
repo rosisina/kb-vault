@@ -7,7 +7,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-EVAL-IMPROVE-001"})
 SET fr.layer = 4,
-    fr.claimType = "retroactive_justification",
+    fr.claimType = "temporal_manipulation",
+    fr.claimSubtype = "retroactive_justification",
     fr.claimDesc = "2020년 8월 20일 '국방정보시스템 시험평가 개선방안 의견수렴' 공문(기록 제4,757쪽)은 2019년 新KIATIS 시험평가에서 저지른 조작을 2020년 제도 개선으로 포장하여 소급 정당화하려는 문서이다. 시험평가 계획·결과 승인 절차 생략, 사업계획 승인 제거, 개발·운영 시험평가 통합 원칙화 등 모두 新KIATIS의 과거 조작을 합법화하기 위한 맞춤형 개정이다.",
     fr.counterHypothesis = "2020년 8월 공문은 국방 정보시스템 시험평가의 효율화를 위한 순수한 제도 개선 검토이며, 新KIATIS 사건과 무관한 일반적 정책 연구의 결과물이다.",
     fr.falsificationCondition = "공문에 제시된 개선안이 新KIATIS 이외의 다수 사업에서 동일하게 발생한 구조적 문제를 해결하기 위한 것임을 보여주는 다른 사업 사례 문서가 제시되면, '맞춤형 조작'에서 '일반적 제도 개선'으로 재해석된다.",
@@ -76,7 +77,7 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[kida-otne-citation-misrepresents-us-standard|KIDA 운용시험평가 인용이 미국 표준을 왜곡]]
-- [[2436ho-test-evaluation-principle-inverted|FR-L4-A9-001 — 시험평가 원칙 역전 (분리→통합)]]
-- [[cartel-requirement-inflation-80-items-delay|FR-L6-007 — 80건 추가 의결에 의한 전력화 지연]]
-- [[../layers/layer-4|Layer 4 — 新KIATIS 개발·운영·시험평가 전·중·후 조작]]
+- [[kida-otne-citation-misrepresents-us-standard|KIDA 운용시험평가 인용이 미국 표준을 왜곡]] (RELATED)
+- [[2436ho-test-evaluation-principle-inverted|FR-L4-A9-001 — 시험평가 원칙 역전 (분리→통합)]] (RELATED)
+- [[cartel-requirement-inflation-80-items-delay|FR-L6-007 — 80건 추가 의결에 의한 전력화 지연]] (RELATED)
+- [[../layers/layer-4|Layer 4 — 新KIATIS 개발·운영·시험평가 전·중·후 조작]] (PART_OF_LAYER)

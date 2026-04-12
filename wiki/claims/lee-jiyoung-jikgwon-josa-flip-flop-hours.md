@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-JIKGWON-FLIP-FLOP"})
 SET fr.layer = 5,
-    fr.claimType = "institutional_cover_up",
+    fr.claimType = "institutional_obstruction",
+    fr.claimSubtype = "institutional_cover_up",
     fr.claimDesc = "녹취019→020: 직권조사 권고→수시간 내 철회→'없었던 걸로'. 상위 의사결정의 은폐 경로 차단.",
     fr.counterHypothesis = "번복은 절차적 요건 확인 후 정상적 재검토이다",
     fr.falsificationCondition = "직권조사가 법적 사유로 거부된 기록",
@@ -51,5 +52,5 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[layer5-false-gapjil-report-organizational-conspiracy-structure]]
-- [[../layers/layer-5|Layer 5]]
+- [[layer5-false-gapjil-report-organizational-conspiracy-structure]] (OPPOSES)
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-KKT-NORMAL-MGMT"})
 SET fr.layer = 5,
-    fr.claimType = "behavioral_evidence",
+    fr.claimType = "methodology",
+    fr.claimSubtype = "behavioral_evidence",
     fr.claimDesc = "갑질 신고 직전 주간 카카오톡에서 이지영의 정상적 관리 활동 확인. 직장 기능장애 서사 반박.",
     fr.counterHypothesis = "정상적 관리 활동과 동시에 특정 개인에 대한 갑질이 존재할 수 있다",
     fr.falsificationCondition = "동일 기간 카카오톡에서 한지훈 관련 불만이나 직장 기능장애를 시사하는 메시지",
@@ -50,5 +51,5 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[lee-jiyoung-covert-sabotage-confirmed-by-kim-minsu]]
-- [[../layers/layer-5|Layer 5]]
+- [[lee-jiyoung-covert-sabotage-confirmed-by-kim-minsu]] (RELATED)
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

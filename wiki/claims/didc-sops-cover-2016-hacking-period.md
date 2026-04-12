@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L1-DIDC-001"})
 SET fr.layer = 1,
-    fr.claimType = "procedural_duty_floor_establishment",
+    fr.claimType = "procedural_violation",
+    fr.claimSubtype = "procedural_duty_floor_establishment",
     fr.claimDesc = "DIDC 부대예규 제12호 (사이버방호) and 제11호 (정보시스템 운영관리) were both enacted on 2016-02-01 and were in force on the date of the 2016 North Korean hacking incident at DIDC. Both SOPs apply universally to all DIDC-operated systems with no carve-outs. Therefore every cyber protection and operational management procedure required by these SOPs was a legal duty for DIDC personnel from 2016-02-01 forward, and any failure to produce SOP-required documentary artifacts for the hacking incident period constitutes a procedural-trace anomaly that supports the Layer 1 cover-up thesis",
     fr.counterHypothesis = "The 2016-02-01 enactment date was nominal and the SOPs were not operationally enforced until a later date, OR the hacking incident occurred before 2016-02-01 (i.e., during the SOP gap period when no DIDC SOP was in force)",
     fr.falsificationCondition = "Production of (a) the precise date of the 2016 DIDC hacking incident, demonstrating it predated 2016-02-01, OR (b) DIDC internal documentation establishing that the SOPs were not operationally enforced from 2016-02-01",
@@ -97,11 +98,11 @@ If item 1 produces a pre-2016-02-01 hacking date, the verdict downgrades to NEED
 
 ## Related
 
-- [[../regulations/didc-cyber-protection-sop-12|DIDC SOP 제12호]]
-- [[../regulations/didc-info-system-operation-sop-11|DIDC SOP 제11호]]
-- [[didc-sop-incident-report-mandatory|sister atom: incident report procedural duty]]
-- [[didc-sop-firewall-vpn-trail-mandatory|sister atom: firewall/VPN paper trail]]
-- [[didc-sop-11-change-management-trail-mandatory|sister atom: change management trail]]
-- [[../entities/organizations/didc|DIDC]]
-- [[../layers/layer-1|Layer 1]]
-- [[../topics/defense-informatization-cartel|Defense Informatization Cartel]]
+- [[../regulations/didc-cyber-protection-sop-12|DIDC SOP 제12호]] (ABOUT)
+- [[../regulations/didc-info-system-operation-sop-11|DIDC SOP 제11호]] (ABOUT)
+- [[didc-sop-incident-report-mandatory|sister atom: incident report procedural duty]] (CORROBORATES)
+- [[didc-sop-firewall-vpn-trail-mandatory|sister atom: firewall/VPN paper trail]] (CORROBORATES)
+- [[didc-sop-11-change-management-trail-mandatory|sister atom: change management trail]] (CORROBORATES)
+- [[../entities/organizations/didc|DIDC]] (ABOUT)
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)
+- [[../topics/defense-informatization-cartel|Defense Informatization Cartel]] (ABOUT)

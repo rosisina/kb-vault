@@ -7,6 +7,7 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L4-DIDC-WITHHELD-DIAGRAM"})
 SET fr.layer = 4,
     fr.claimType = "evidence_concealment",
+    fr.claimSubtype = "network_diagram_withheld",
     fr.claimDesc = "DIDC는 '통합데이터센터 1센터 내 장비 비공개' 정책(Record 2,311)으로 新KIATIS 시험평가 계획 수립에 필요한 네트워크 구성도와 보안장비 정보를 제공하지 않았다. 국전원의 대부분의 다른 사업에서도 네트워크 구성도가 부재(Records 3,354 등). 따라서 한지훈이 시험평가 환경을 '통제'할 수 있었다는 검찰단의 전제는 물리적으로 불가능하다",
     fr.counterHypothesis = "네트워크 구성도 비공개는 보안 정책에 따른 정상적 조치이며, 시험평가 환경은 구성도 없이도 구축 가능하다",
     fr.falsificationCondition = "한지훈이 DIDC의 네트워크 구성과 보안장비 현황을 파악할 수 있는 다른 경로가 있었음을 보여주는 기록",
@@ -55,5 +56,5 @@ DIDC는 "통합데이터센터 1센터 내 장비 비공개" 정책(기록 제2,
 
 ## Related
 
-- [[gukjeonwon-pre-evaluation-team-leader-exclusion]] — L4 팀장 배제
-- [[../layers/layer-4|Layer 4]]
+- [[gukjeonwon-pre-evaluation-team-leader-exclusion]] — L4 팀장 배제 (RELATED)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

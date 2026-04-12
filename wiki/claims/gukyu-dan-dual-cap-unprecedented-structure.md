@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L2-DUAL-CAP-UNPRECEDENTED"})
 SET fr.layer = 2,
-    fr.claimType = "regulatory_structural_violation",
+    fr.claimType = "regulatory_manipulation",
+    fr.claimSubtype = "regulatory_structural_violation",
     fr.claimDesc = "新KIATIS 사업에서 국유단이 사업통제기관과 사업주관기관을 동시에 담당하는 이중역할(Dual Cap) 구조는 국방정보화사업 역사상 전례가 없다. 동일 과(행정정보화과)에서 동일 시기에 진행된 '국방 조직정원 정보체계 고도화 사업'(2017.4~2019.1)은 훈령을 정상 준수(사업통제기관=국방부, 사업주관기관=국방부 조직총괄과)하여 대조 사례를 제공한다",
     fr.counterHypothesis = "국유단의 이중역할은 국방부의 묵시적 위임 하에 이루어진 것이며, 소규모 사업에서는 관행적으로 허용되는 구조이다",
     fr.falsificationCondition = "국유단 또는 유사 기관이 사업통제+주관기관을 동시 수행한 다른 국방정보화사업 사례의 제시",
@@ -62,7 +63,7 @@ SET fr.layer = 2,
 
 ## Related
 
-- [[kiatis-mkia-multi-cap-inscription|3 shared records — 국유단 이중역할 자매 atom]]
-- [[new-kiatis-is-mnd-controlled-not-delegated-project]] — L2 통제사업 확인
-- [[directive-article-11-control-functions-stripped]] — L4 제11조 기능 삭제
-- [[../layers/layer-2|Layer 2]]
+- [[kiatis-mkia-multi-cap-inscription|3 shared records — 국유단 이중역할 자매 atom]] (RELATED)
+- [[new-kiatis-is-mnd-controlled-not-delegated-project]] — L2 통제사업 확인 (RELATED)
+- [[directive-article-11-control-functions-stripped]] — L4 제11조 기능 삭제 (RELATED)
+- [[../layers/layer-2|Layer 2]] (PART_OF_LAYER)

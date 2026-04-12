@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-A10-001"})
 SET fr.layer = 4,
-    fr.claimType = "regulatory_article_erasure",
+    fr.claimType = "regulatory_manipulation",
+    fr.claimSubtype = "regulatory_article_erasure",
     fr.claimDesc = "제2436호 (2020-06-04) replaced the bodies of 제59조 (개발시험평가 계획수립), 제60조 (개발시험평가 실시), and 제61조 (개발시험평가 조치) with the placeholder '<삭 제>', removing the directive's procedural framework for DT&E execution",
     fr.counterHypothesis = "The DT&E procedural framework was relocated to a separate directive (e.g., 시험평가훈령 or 국방사이버안보훈령) that took effect on or before 2020-06-04, leaving 훈령 제2436호's deletion as a re-routing rather than an erasure",
     fr.falsificationCondition = "Production of a separate directive in force on 2020-06-04 that contains DT&E planning, execution, and corrective-action procedures equivalent to the deleted 제59·60·61조 content",
@@ -78,9 +79,9 @@ If items 1–3 are produced (all three or for the substantive content), the verd
 
 ## Related
 
-- [[2436ho-cluster-six-anchors|2436호 cluster meta-claim]]
-- [[2436ho-test-evaluation-principle-inverted|A9: separation principle inverted (paired)]]
-- [[kiatis-2129ho-main-regime-applies|KIATIS bound by pre-deletion 제59~61조]]
-- [[../regulations/defense-it-2129-article-58|제58조 (still references 제59~64조 as procedural backbone in baseline)]]
-- [[../topics/test-evaluation-manipulation|Test Evaluation Manipulation]]
-- [[../layers/layer-4|Layer 4]]
+- [[2436ho-cluster-six-anchors|2436호 cluster meta-claim]] (SUPERSEDES)
+- [[2436ho-test-evaluation-principle-inverted|A9: separation principle inverted (paired)]] (CORROBORATES)
+- [[kiatis-2129ho-main-regime-applies|KIATIS bound by pre-deletion 제59~61조]] (CORROBORATES)
+- [[../regulations/defense-it-2129-article-58|제58조 (still references 제59~64조 as procedural backbone in baseline)]] (ABOUT)
+- [[../topics/test-evaluation-manipulation|Test Evaluation Manipulation]] (ABOUT)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

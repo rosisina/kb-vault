@@ -7,6 +7,7 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L7-PROSECUTION-CHIEF-EVASION"})
 SET fr.layer = 7,
     fr.claimType = "institutional_obstruction",
+    fr.claimSubtype = "innocence_plea_deflection",
     fr.claimDesc = "검찰단장 안세준(준장)은 한지훈의 무혐의 촉구 전화(2022.9.28, Record 11,202~11,204)에서 '아직 보고 받지 못했다', '수사팀에서 결론을 내야 한다'며 직접 개입을 회피하였다. 진정서(2022.10.4, Record 5,671~5,675) 제출에도 불구하고 기소유예 결정이 유지되었다",
     fr.counterHypothesis = "검찰단장은 수사 독립성을 존중하여 개별 사건에 개입하지 않는 것이 정상적 절차이며, 회피가 아닌 원칙 준수이다",
     fr.falsificationCondition = "검찰단장이 피의자의 무혐의 주장을 검토하고 수사팀에 재검토를 지시한 기록의 제시",
@@ -60,6 +61,6 @@ SET fr.layer = 7,
 
 ## Related
 
-- [[han-ji-hoon-dan-jang-phone-call-2022-09-28|2 shared records — 2022-09-28 단장 통화]]
-- [[prosecution-non-prosecution-internal-contradiction]] — L6 불기소 이유서 모순
-- [[../layers/layer-7|Layer 7]]
+- [[han-ji-hoon-dan-jang-phone-call-2022-09-28|2 shared records — 2022-09-28 단장 통화]] (RELATED)
+- [[prosecution-non-prosecution-internal-contradiction]] — L6 불기소 이유서 모순 (RELATED)
+- [[../layers/layer-7|Layer 7]] (PART_OF_LAYER)

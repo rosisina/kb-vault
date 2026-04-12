@@ -7,7 +7,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-009"})
 SET fr.layer = 5,
-    fr.claimType = "interrogation_record_fabrication",
+    fr.claimType = "document_fabrication",
+    fr.claimSubtype = "interrogation_record_fabrication",
     fr.claimDesc = "전임 행정정보화과장 최영수 서기관의 증언은 군검찰 조사 시 조서 조작의 세 가지 체계적 기법(진술서 미제공, 반박 무시 및 질문화, 예스/노 축소)을 폭로한다. 최영수는 5시간 동안 반박했으나 군검찰은 전혀 반영하지 않았다.",
     fr.counterHypothesis = "군검찰의 조서 작성은 표준적인 수사 절차를 따른 것이며, 최영수의 반박이 기록되지 않은 것은 해당 반박이 사안과 무관했기 때문이다.",
     fr.falsificationCondition = "군검찰이 최영수의 진술서 사본을 본인에게 제공했다는 기록, 또는 조서에 최영수의 반박이 실질적으로 기재되어 있다는 조서 원본 확인 시 약화된다.",
@@ -81,8 +82,8 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[layer5-audit-result-falsity-and-collusion-proof|3 shared records — 감사결과 허위 입증]]
-- [[layer5-predetermined-audit-conclusion]] — 사전 결론 결정 atom (최영수 증언은 이 결론을 집행하는 조서 조작의 기법적 증거)
-- [[layer5-fabricated-warning-letter]] — 경고장 조작 atom (조서 조작이 경고장 조작의 기반)
-- [[han-ji-hoon-prosecution-violates-2129-role-separation]] — 검찰 역할 분리 위반 atom (조서 조작이 이 위반의 수사 단계 메커니즘)
-- [[han-ji-hoon-suspect-interrogation-2022-09-02]] — 피의자 심문 atom (최영수의 참고인 조서 조작은 피의자 심문의 선행 패턴)
+- [[layer5-audit-result-falsity-and-collusion-proof|3 shared records — 감사결과 허위 입증]] (OPPOSES)
+- [[layer5-predetermined-audit-conclusion]] — 사전 결론 결정 atom (최영수 증언은 이 결론을 집행하는 조서 조작의 기법적 증거) (OPPOSES)
+- [[layer5-fabricated-warning-letter]] — 경고장 조작 atom (조서 조작이 경고장 조작의 기반) (OPPOSES)
+- [[han-ji-hoon-prosecution-violates-2129-role-separation]] — 검찰 역할 분리 위반 atom (조서 조작이 이 위반의 수사 단계 메커니즘) (OPPOSES)
+- [[han-ji-hoon-suspect-interrogation-2022-09-02]] — 피의자 심문 atom (최영수의 참고인 조서 조작은 피의자 심문의 선행 패턴) (OPPOSES)

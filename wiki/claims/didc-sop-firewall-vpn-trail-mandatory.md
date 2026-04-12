@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L1-DIDC-003"})
 SET fr.layer = 1,
-    fr.claimType = "procedural_artifact_mandatory",
+    fr.claimType = "procedural_violation",
+    fr.claimSubtype = "procedural_artifact_mandatory",
     fr.claimDesc = "DIDC 부대예규 제12호 제37조 (방화벽 및 SSL-VPN 관리/운용) requires every firewall policy change, every SSL-VPN account creation, and every NAC exception to be documented via 별지 제6호 (방화벽 보안정책 요청서), 별지 제7호 (SSL-VPN 계정 신청서), 별지 제8호 (NAC 예외처리 요청서) respectively, with each requiring 각 센터 정보보호과장 approval. The absence of these forms for the 2016 hacking incident period is direct Layer 1 cover-up evidence — the attacker's persistence in the DIDC environment necessarily required either pre-existing firewall/VPN exceptions or post-incident exception removals, both of which should leave a paper trail",
     fr.counterHypothesis = "The 2016 incident's network access vector did not involve firewall policy changes, SSL-VPN account creation, or NAC exceptions; OR the incident-related changes were made under emergency procedures that bypassed the 별지 form chain",
     fr.falsificationCondition = "Production of (a) the firewall/VPN/NAC paper trail for the 2016 incident period showing complete 별지 6/7/8호 forms, OR (b) authoritative analysis of the hacking vector demonstrating it did not involve any firewall/VPN/NAC change, OR (c) DIDC emergency-procedure documentation establishing bypass of the form chain",
@@ -87,12 +88,12 @@ If items 1 or 2 are produced with substantive content, the verdict downgrades to
 
 ## Related
 
-- [[../regulations/didc-cyber-protection-sop-12|DIDC SOP 제12호]]
-- [[didc-sops-cover-2016-hacking-period|sister atom: SOP duty floor 2016-02-01]]
-- [[didc-sop-incident-report-mandatory|sister atom: incident report 별지 제4호]]
-- [[didc-sop-db-access-control-mandatory|**paired atom: 별지 제17호 DB access egress trail (제11호 제164조)**]]
-- [[didc-sop-11-change-management-trail-mandatory|sister atom: change management trail]]
-- [[../entities/organizations/didc|DIDC]]
-- [[../layers/layer-1|Layer 1]]
+- [[../regulations/didc-cyber-protection-sop-12|DIDC SOP 제12호]] (ABOUT)
+- [[didc-sops-cover-2016-hacking-period|sister atom: SOP duty floor 2016-02-01]] (CORROBORATES)
+- [[didc-sop-incident-report-mandatory|sister atom: incident report 별지 제4호]] (CORROBORATES)
+- [[didc-sop-db-access-control-mandatory|**paired atom: 별지 제17호 DB access egress trail (제11호 제164조)**]] (CORROBORATES)
+- [[didc-sop-11-change-management-trail-mandatory|sister atom: change management trail]] (CORROBORATES)
+- [[../entities/organizations/didc|DIDC]] (ABOUT)
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)
 
 **Per James 2026-04-11:** This atom (focusing on 별지 제7호 SSL-VPN) is **paired** with [[didc-sop-db-access-control-mandatory]] (focusing on 별지 제17호 DB access) as the two highest-priority Layer 1 procedural-trace anchors. Together they form the **ingress/egress sandwich**: any persistent intrusion must leave evidence at network ingress (VPN/firewall — 별지 7호) and at data egress (DB access — 별지 17호). The absence of either trail is partial cover-up evidence; the absence of both is structural cover-up evidence.

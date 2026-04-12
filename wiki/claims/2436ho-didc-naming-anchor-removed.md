@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L1-001"})
 SET fr.layer = 1,
-    fr.claimType = "regulatory_anchor_removal",
+    fr.claimType = "regulatory_manipulation",
+    fr.claimSubtype = "regulatory_anchor_removal",
     fr.claimDesc = "제2436호 (2020-06-04) removed the explicit naming of 국방통합 데이터센터의 정보화사업 from 제10조 ¶1 제4호 by deleting the entire 4호 axis",
     fr.counterHypothesis = "제10조 ¶1 4호 was removed as part of a routine restructuring of project-classification axes, with no intent to remove DIDC accountability — the DIDC accountability framework was relocated to a separate provision or to 국방사이버안보훈령",
     fr.falsificationCondition = "Production of the relocation provision (in 제2436호 itself or in a contemporaneous separate directive) that names DIDC as a controlled scope, OR a regulatory impact statement / explanatory note from MND showing the 4호 deletion was paired with relocated DIDC controls",
@@ -68,9 +69,9 @@ If any of items 1–3 are produced, the verdict downgrades to WEAKENED. If item 
 
 ## Related
 
-- [[2436ho-cluster-six-anchors|2436호 cluster: six anchors moving on 2020-06-04]]
-- [[2436ho-gukjeonwon-role-tier-renaming|2436호 retiers 사업통제/주관/관리 → 정보화기획관실/소요제기/집행]]
-- [[../regulations/defense-it-2129-article-10|제2129호 제10조]]
-- [[../entities/organizations/didc|DIDC]]
-- [[../layers/layer-1|Layer 1]]
-- [[../topics/defense-informatization-cartel|Defense Informatization Cartel]]
+- [[2436ho-cluster-six-anchors|2436호 cluster: six anchors moving on 2020-06-04]] (CORROBORATES)
+- [[2436ho-gukjeonwon-role-tier-renaming|2436호 retiers 사업통제/주관/관리 → 정보화기획관실/소요제기/집행]] (SUPERSEDES)
+- [[../regulations/defense-it-2129-article-10|제2129호 제10조]] (ABOUT)
+- [[../entities/organizations/didc|DIDC]] (ABOUT)
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)
+- [[../topics/defense-informatization-cartel|Defense Informatization Cartel]] (ABOUT)

@@ -7,7 +7,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-ENV-DISTORT-001"})
 SET fr.layer = 6,
-    fr.claimType = "investigative_fraud",
+    fr.claimType = "prosecution_misconduct",
+    fr.claimSubtype = "investigative_fraud",
     fr.claimDesc = "군 검찰단의 압수·수색·검증 영장(기록 제4,842쪽), 군인·공무원 범죄 수사 개시 통보(기록 제4,854쪽), 피의자 신문조서(기록 제4,874쪽), 불기소 이유 통지(기록 제5,167쪽)에서 공통으로 나타난 '실제 운영 대 시험평가 환경'의 동일성과 차이에 대한 의미 왜곡은 취사 선별적 훈령 적용, 동일성의 오류, 시간 역전, 주어 은닉 등의 기법을 사용한 사기수사의 전형이다.",
     fr.counterHypothesis = "검찰단의 4개 문서는 시험평가 환경과 운영 환경의 차이를 객관적으로 기술한 것이며, 환경 차이 자체가 수사의 정당한 근거이다.",
     fr.falsificationCondition = "4개 문서의 환경 차이 기술이 훈령 별표1의 시험평가 정의 및 관련 조항과 일관되고, 취사선택적 적용이 아님을 보여주는 법률 분석이 제시되면 '사기수사'에서 '정상 수사'로 재평가된다.",
@@ -79,10 +80,10 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[han-ji-hoon-witness-statement-2022-01-25|3 shared records — 참고인 진술 원본]]
-- [[layer6-cartel-network-structure-four-documents-four-keywords|4 shared records — 카르텔 네트워크 구조]]
-- [[han-ji-hoon-suspect-interrogation-2022-09-02|피의자 신문조서 (2022.9.2.) — 4개 문서 중 하나의 상세 분석]]
-- [[han-ji-hoon-investigation-notification-2022-07-21|수사 개시 통보 (2022.7.21.) — 4개 문서 중 하나]]
-- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|기소유예 = 범죄 낙인 — 4개 문서가 만든 최종 결과]]
-- [[mnd-test-evaluation-definition-manipulation|시험평가 정의 조작 — L4에서 공급된 조작 도구]]
-- [[../layers/layer-6|Layer 6 — 군 검찰단의 사기 수사와 범죄자 낙인]]
+- [[han-ji-hoon-witness-statement-2022-01-25|3 shared records — 참고인 진술 원본]] (RELATED)
+- [[layer6-cartel-network-structure-four-documents-four-keywords|4 shared records — 카르텔 네트워크 구조]] (RELATED)
+- [[han-ji-hoon-suspect-interrogation-2022-09-02|피의자 신문조서 (2022.9.2.) — 4개 문서 중 하나의 상세 분석]] (RELATED)
+- [[han-ji-hoon-investigation-notification-2022-07-21|수사 개시 통보 (2022.7.21.) — 4개 문서 중 하나]] (RELATED)
+- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|기소유예 = 범죄 낙인 — 4개 문서가 만든 최종 결과]] (RELATED)
+- [[mnd-test-evaluation-definition-manipulation|시험평가 정의 조작 — L4에서 공급된 조작 도구]] (RELATED)
+- [[../layers/layer-6|Layer 6 — 군 검찰단의 사기 수사와 범죄자 낙인]] (PART_OF_LAYER)

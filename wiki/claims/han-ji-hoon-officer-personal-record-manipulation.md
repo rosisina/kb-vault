@@ -8,7 +8,8 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L2-OFFICERMANIP-006"})
 SET fr.layer = 2,
     fr.crossLayer = [5, 6],
-    fr.claimType = "personnel_record_manipulation",
+    fr.claimType = "document_fabrication",
+    fr.claimSubtype = "personnel_record_manipulation",
     fr.claimDesc = "한지훈의 보직이 국전원 재임 동안 본인 부지불식간에 2회 변경되었다. 이는 단순한 인사 조작이 아니라 (a) 2016년 DIDC 1센터 북한 해킹의 희생자로 한지훈을 타겟팅하는 메커니즘이며, (b) 보직 이력 조작을 통한 책임 전가 메커니즘으로 장기간 지속적으로 관리한 시스템적 증거이다. 본 atom은 §3.2.3의 main thesis이자 Layer 2의 '장교 개인 자력 조작' 부분의 토대 atom이다. 동반 관찰: 新KIATIS 핵심 실무자가 모두 해군 장교 — 이태호 (평가위원장-1) 해군 중령, 오현수 (실무자-5) 대위, 이준호 (공모자-1) 대위 — 의도적 actor 선택의 패턴.",
     fr.counterHypothesis = "보직 변경 2회는 routine 인사 절차이며 본인 통보가 행정 누락된 것에 불과하다. 해군 장교 집중도 작은 표본의 우연한 분포다",
     fr.falsificationCondition = "한지훈의 2회 보직 변경 각각에 대해 (a) 한지훈에게 사전 통보가 이루어졌음을 보이는 인사 명령서, (b) 한지훈의 본인 확인 서명, (c) 동일 시기 동일 부서의 다른 장교에 대해서도 동일한 routine 패턴이 적용된 사례 일체. 해군 집중에 대해서는 동일 시기 MND/DCIA cross-service 사업의 직급별 인력 분포 통계.",
@@ -89,14 +90,14 @@ SET fr.layer = 2,
 
 ## Related
 
-- [[../layers/layer-2|Layer 2 hub]]
-- [[../layers/layer-5|Layer 5 — 격리와 fabricated 경고장]]
-- [[../layers/layer-6|Layer 6 — 검찰 기소 시 직책 불일치]]
-- [[layer5-fabricated-warning-letter|L5-04 — fabricated warning letter (sister atom)]]
-- [[layer5-six-month-isolation-human-rights|L5-02 — 6개월 격리 (sister mechanism)]]
-- [[kiatis-mnd-controlled-not-delegated|L2-01]]
-- [[kiatis-mkia-multi-cap-inscription|L2-02]]
-- [[lee-jiyoung-kim-sujin-single-point-of-control|L2-03 — sister actor pattern]]
-- [[han-ji-hoon-three-braking-devices-active-defense|L2-05 — sister exculpatory atom]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[../entities/people/lee-tae-ho|이태호 (평가위원장-1)]]
+- [[../layers/layer-2|Layer 2 hub]] (PART_OF_LAYER)
+- [[../layers/layer-5|Layer 5 — 격리와 fabricated 경고장]] (PART_OF_LAYER)
+- [[../layers/layer-6|Layer 6 — 검찰 기소 시 직책 불일치]] (PART_OF_LAYER)
+- [[layer5-fabricated-warning-letter|L5-04 — fabricated warning letter (sister atom)]] (OPPOSES)
+- [[layer5-six-month-isolation-human-rights|L5-02 — 6개월 격리 (sister mechanism)]] (RELATED)
+- [[kiatis-mnd-controlled-not-delegated|L2-01]] (RELATED)
+- [[kiatis-mkia-multi-cap-inscription|L2-02]] (RELATED)
+- [[lee-jiyoung-kim-sujin-single-point-of-control|L2-03 — sister actor pattern]] (RELATED)
+- [[han-ji-hoon-three-braking-devices-active-defense|L2-05 — sister exculpatory atom]] (RELATED)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[../entities/people/lee-tae-ho|이태호 (평가위원장-1)]] (ABOUT)

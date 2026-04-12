@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-004"})
 SET fr.layer = 6,
-    fr.claimType = "procedural_inversion",
+    fr.claimType = "procedural_violation",
+    fr.claimSubtype = "procedural_inversion",
     fr.claimDesc = "한지훈 was interviewed as a 참고인 (witness) on 2022-01-25 (기록 제4,776쪽~제4,796쪽), six months before being reclassified as a 피의자 (suspect) via the 2022-07-18 warrant. The witness-to-suspect reclassification demonstrates that 군 검찰단 built its case retrospectively — using the cooperating witness's own statements as the evidentiary substrate before formally targeting that same witness.",
     fr.counterHypothesis = "The reclassification from 참고인 to 피의자 was a routine procedural consequence of evidence discovered during the investigation, not a predetermined targeting of 한지훈; the six-month gap reflects standard investigative timelines, not retrospective case construction.",
     fr.falsificationCondition = "Production of investigative records showing that evidence warranting 피의자 classification was first identified after the 2022-01-25 witness interview rather than pre-existing the interview, OR testimony from 군 검찰단 that the reclassification decision was made independently of the 참고인 진술서 content.",
@@ -74,11 +75,11 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[prosecution-distorts-operational-vs-test-environment|3 shared records — 환경 왜곡 관련]]
-- [[layer6-cartel-network-structure-four-documents-four-keywords|4 shared records — L6 카르텔 네트워크 증거]]
-- [[han-ji-hoon-investigation-notification-2022-07-21|수사개시 통보 (2022-07-21) 원자]]
-- [[han-ji-hoon-suspect-interrogation-2022-09-02|피의자 신문조서 (2022-09-02) 원자]]
-- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|기소유예 = 범죄 낙인 원자]]
-- [[han-ji-hoon-prosecution-violates-2129-role-separation|훈령 제2129호 역할 분리 위반 원자]]
-- [[../layers/layer-6|Layer 6]]
-- [[../layers/layer-5|Layer 5]]
+- [[prosecution-distorts-operational-vs-test-environment|3 shared records — 환경 왜곡 관련]] (RELATED)
+- [[layer6-cartel-network-structure-four-documents-four-keywords|4 shared records — L6 카르텔 네트워크 증거]] (RELATED)
+- [[han-ji-hoon-investigation-notification-2022-07-21|수사개시 통보 (2022-07-21) 원자]] (CORROBORATES)
+- [[han-ji-hoon-suspect-interrogation-2022-09-02|피의자 신문조서 (2022-09-02) 원자]] (RELATED)
+- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|기소유예 = 범죄 낙인 원자]] (RELATED)
+- [[han-ji-hoon-prosecution-violates-2129-role-separation|훈령 제2129호 역할 분리 위반 원자]] (RELATED)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

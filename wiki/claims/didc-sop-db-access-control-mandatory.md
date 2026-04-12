@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L1-DIDC-006"})
 SET fr.layer = 1,
-    fr.claimType = "procedural_artifact_mandatory",
+    fr.claimType = "procedural_violation",
+    fr.claimSubtype = "procedural_artifact_mandatory",
     fr.claimDesc = "DIDC 부대예규 제11호 Chapter 14 (접근통제, 제158조~제167조) imposes a comprehensive access control regime across servers, network, integrated operations management, DB, VDI, and information protection equipment. Article 164 (DB 접근통제) specifically mandates that all DB access must be controlled via the CharkraMax (차크라맥스) DB access control system, with every account creation/modification/deletion documented via 별지 제17호 (DB접근제어 신청서) requiring 각 센터 자원관리과장 approval. For the 2016 DIDC hacking incident, the attacker's persistence necessarily required either pre-existing DB credentials documented under 별지 17호 or post-incident credential changes equally documented; the absence of either is direct Layer 1 cover-up evidence. Per James 2026-04-11, this is one of the two highest-priority Layer 1 procedural anchors (paired with 별지 제7호 SSL-VPN trail under 제12호 제37조)",
     fr.counterHypothesis = "The 2016 incident did not involve DB access (e.g., the attacker was contained at network or application layer and never reached the DB), OR the CharkraMax system was not yet deployed at the time of the incident, OR DB access logs are maintained outside the 별지 17호 system in a parallel mechanism",
     fr.falsificationCondition = "Production of (a) the 별지 17호 DB access control trail for the 2016 incident period, OR (b) authoritative technical analysis showing the hacking vector did not involve DB access, OR (c) CharkraMax deployment date evidence showing the system was not operational at the time of the incident",
@@ -111,11 +112,11 @@ If item 1 is produced with substantive content, the verdict downgrades to WEAKEN
 
 ## Related
 
-- [[../regulations/didc-info-system-operation-sop-11|DIDC SOP 제11호 (Chapter 14)]]
-- [[didc-sops-cover-2016-hacking-period|sister atom: SOP duty floor]]
-- [[didc-sop-incident-report-mandatory|sister atom: 별지 제4호 incident report]]
-- [[didc-sop-firewall-vpn-trail-mandatory|**paired atom: 별지 제7호 SSL-VPN ingress trail**]]
-- [[didc-sop-11-change-management-trail-mandatory|sister atom: change management trail]]
-- [[didc-sop-11-backup-recovery-mandatory|sister atom: backup recovery trail]]
-- [[../entities/organizations/didc|DIDC]]
-- [[../layers/layer-1|Layer 1]]
+- [[../regulations/didc-info-system-operation-sop-11|DIDC SOP 제11호 (Chapter 14)]] (ABOUT)
+- [[didc-sops-cover-2016-hacking-period|sister atom: SOP duty floor]] (CORROBORATES)
+- [[didc-sop-incident-report-mandatory|sister atom: 별지 제4호 incident report]] (CORROBORATES)
+- [[didc-sop-firewall-vpn-trail-mandatory|**paired atom: 별지 제7호 SSL-VPN ingress trail**]] (CORROBORATES)
+- [[didc-sop-11-change-management-trail-mandatory|sister atom: change management trail]] (CORROBORATES)
+- [[didc-sop-11-backup-recovery-mandatory|sister atom: backup recovery trail]] (CORROBORATES)
+- [[../entities/organizations/didc|DIDC]] (ABOUT)
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)

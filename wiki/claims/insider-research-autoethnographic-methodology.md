@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-META-INSIDER-RESEARCH"})
 SET fr.layer = 7,
-    fr.claimType = "methodology_claim",
+    fr.claimType = "methodology",
+    fr.claimSubtype = "methodology_claim",
     fr.claimDesc = "당사자 연구. 4년 13,528쪽. 접근 역설: 표적만이 내부 프로세스 기록 가능.",
     fr.counterHypothesis = "피해자-조사자 이중 역할은 객관성이 결여되며 확인 편향을 완화할 수 없다",
     fr.falsificationCondition = "독립 외부 검토자가 동일 13,528쪽 분석으로 실질적으로 다른 결론 도달",
@@ -51,5 +52,5 @@ SET fr.layer = 7,
 
 ## Related
 
-- [[seven-layer-proof-system-design-rationale]]
-- [[../layers/layer-7|Layer 7]]
+- [[seven-layer-proof-system-design-rationale]] (RELATED)
+- [[../layers/layer-7|Layer 7]] (PART_OF_LAYER)

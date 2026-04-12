@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L7-001"})
 SET fr.layer = 7,
-    fr.claimType = "institutional_rejection_chain",
+    fr.claimType = "institutional_obstruction",
+    fr.claimSubtype = "institutional_rejection_chain",
     fr.claimDesc = "한지훈 authored an evidence-based rebuttal document on 2022-09-25 (raw/05 (20220929) filename metadata; composition date per book §3.7.1.1; interior carries no printed date) refuting the prosecution's warrant + search/seizure + suspect interrogation. He submitted the document to 8 institutions in sequence: (1) 국방부 국방장관, (2) 군사보좌관, (3) 군검찰단장, (4) 담당 검사, (5) 담당 수사관, (6) 군검찰단 인권담당, then after the 기소유예 stigma decision: (7) 국가인권위원회, (8) 국가권익위원회. ALL EIGHT institutions rejected or refused to act on the rebuttal. This is the empirical core of the Layer 7 narrative — institutional accountability mechanisms failed at every level from internal MND to civilian human rights bodies",
     fr.counterHypothesis = "Some of the 8 institutions performed substantive review and rejected the rebuttal on the merits, in which case the rejection is not a Layer 7 institutional failure but a normal adversarial outcome",
     fr.falsificationCondition = "Production of (a) any of the 8 institutions' written rejection rationale showing substantive engagement with the rebuttal's specific evidence and legal arguments, OR (b) demonstration that any of the 8 institutions altered any aspect of the prosecution or its consequences in response to the rebuttal",
@@ -102,19 +103,19 @@ If item 1 is produced for any institution, that specific rejection is downgraded
 
 ## Related
 
-- [[han-ji-hoon|한지훈 entity hub]]
-- [[han-ji-hoon-prosecution-violates-2129-role-separation|Layer 6: prosecution role-tier misattribution]]
-- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|Layer 6: 기소유예 criminal stigma]]
-- [[prosecution-misapplies-2129-article-58-4-to-kiatis|Layer 6: prosecution legal misapplication of 제58조 ¶4]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[../entities/people/ahn-se-jun|안세준 (단장)]]
-- [[../entities/people/im-hyung-gyu|임형규 (검사)]]
-- [[../layers/layer-6|Layer 6]]
-- [[../layers/layer-7|Layer 7]]
-- [[../topics/whistleblower-protection-and-reform|Whistleblower Protection and Reform]]
-- [[../topics/fraud-investigation|Fraud Investigation]]
-- [[han-ji-hoon-rebuttal-document-date-2022-09-25|L7: rebuttal date adjudicated 2022-09-25 (CORROBORATED)]]
-- [[kwonikkwi-evidence-transfer-attempt-to-mnd|L7: 권익위 evidence transfer attempt]]
-- [[inkkwonwi-rejected-without-witness-review|L7: 인권위 rejection without witness review]]
-- [[on-nara-2024-upgrade-evidence-destruction-risk|L7: 온-나라 2024 upgrade evidence destruction risk]]
-- [[han-ji-hoon-dan-jang-phone-call-2022-09-28|L7: 단장 phone call 2022-09-28]]
+- [[han-ji-hoon|한지훈 entity hub]] (OPPOSES)
+- [[han-ji-hoon-prosecution-violates-2129-role-separation|Layer 6: prosecution role-tier misattribution]] (OPPOSES)
+- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|Layer 6: 기소유예 criminal stigma]] (OPPOSES)
+- [[prosecution-misapplies-2129-article-58-4-to-kiatis|Layer 6: prosecution legal misapplication of 제58조 ¶4]] (OPPOSES)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[../entities/people/ahn-se-jun|안세준 (단장)]] (ABOUT)
+- [[../entities/people/im-hyung-gyu|임형규 (검사)]] (ABOUT)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)
+- [[../layers/layer-7|Layer 7]] (PART_OF_LAYER)
+- [[../topics/whistleblower-protection-and-reform|Whistleblower Protection and Reform]] (ABOUT)
+- [[../topics/fraud-investigation|Fraud Investigation]] (ABOUT)
+- [[han-ji-hoon-rebuttal-document-date-2022-09-25|L7: rebuttal date adjudicated 2022-09-25 (CORROBORATED)]] (OPPOSES)
+- [[kwonikkwi-evidence-transfer-attempt-to-mnd|L7: 권익위 evidence transfer attempt]] (OPPOSES)
+- [[inkkwonwi-rejected-without-witness-review|L7: 인권위 rejection without witness review]] (OPPOSES)
+- [[on-nara-2024-upgrade-evidence-destruction-risk|L7: 온-나라 2024 upgrade evidence destruction risk]] (OPPOSES)
+- [[han-ji-hoon-dan-jang-phone-call-2022-09-28|L7: 단장 phone call 2022-09-28]] (OPPOSES)

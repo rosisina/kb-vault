@@ -6,7 +6,8 @@
 **Aurora node:**
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-053"})
-SET fr.layer = 5, fr.claimType = "action",
+SET fr.layer = 5, fr.claimType = "methodology",
+    fr.claimSubtype = "action",
     fr.claimDesc = "이지영은 박서준에게 '개인이 신청하는 걸로 해라'라고 신고를 유도하면서, 한지훈에게는 '양측에 애기 말라'며 정보를 차단하는 이중 플레이를 구사했다",
     fr.counterHypothesis = "이지영은 과장으로서 양측 모두에게 동일한 절차적 안내를 한 것이며 의도적 이중 플레이가 아니었다",
     fr.falsificationCondition = "이지영이 한지훈에게도 동일한 신고 절차 정보를 제공했거나, 박서준에게도 동일한 정보 차단을 적용했음을 증명하면 약화된다",
@@ -64,8 +65,8 @@ SET fr.layer = 5, fr.claimType = "action",
 
 ## Related
 
-- [[../layers/layer-5|Layer 5 — 허위 갑질 신고와 조사본부의 조작 감사]]
-- [[../entities/people/lee-ji-young|이지영]]
-- [[../entities/people/park-seo-jun|박서준]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[investigation-bureau-fake-harassment-7-phase-process|조사본부 허위 갑질 7단계 프로세스]]
+- [[../layers/layer-5|Layer 5 — 허위 갑질 신고와 조사본부의 조작 감사]] (PART_OF_LAYER)
+- [[../entities/people/lee-ji-young|이지영]] (ABOUT)
+- [[../entities/people/park-seo-jun|박서준]] (ABOUT)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[investigation-bureau-fake-harassment-7-phase-process|조사본부 허위 갑질 7단계 프로세스]] (CORROBORATES)

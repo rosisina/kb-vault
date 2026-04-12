@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-TEMPORAL-REVERSAL-090203"})
 SET fr.layer = 4,
-    fr.claimType = "document_forgery",
+    fr.claimType = "document_fabrication",
+    fr.claimSubtype = "document_forgery",
     fr.claimDesc = "Record 2,858: 09-02 생산→09-03 보고. 물리적 불가능. 소급 조작 가능성.",
     fr.counterHypothesis = "발송→접수 1일 차이는 전자문서 시스템의 표준 처리 시간차",
     fr.falsificationCondition = "국방부 전자문서시스템에서 발송-보고 1일 차이가 정상임을 보여주는 시스템 로그",
@@ -50,6 +51,6 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[mnd-test-eval-simplification-timed-to-evaluation-day]]
-- [[fabricated-document-2020-produced-in-2022]]
-- [[../layers/layer-4|Layer 4]]
+- [[mnd-test-eval-simplification-timed-to-evaluation-day]] (CORROBORATES)
+- [[fabricated-document-2020-produced-in-2022]] (OPPOSES)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-KIDA-001"})
 SET fr.layer = 4,
-    fr.claimType = "academic_misrepresentation",
+    fr.claimType = "methodology",
+    fr.claimSubtype = "academic_misrepresentation",
     fr.claimDesc = "KIDA's research report 「국방 정보시스템 시험평가 절차 개선 방안 연구」 (research period 2020-01–2020-06, published 2020-07; records 6,715/6,716/6,738/6,731) cited the 2010 US DoD DOT&E memo Operational Test and Evaluation for Information and Business Systems (Gilmore memo, records 6,240/6,258) as the primary academic foundation for replacing the DT&E/OT&E separation principle with an integration principle in the Korean defense informationization regime. KIDA's analysis text (record 6,717) reads: '운용시험평가 레벨(수준): 독립적인 OT 수행 대신 OT 환경 또는 데이터를 가지고 DT(개발시험)이나 보증으로 대체' (OT&E level: instead of independent OT execution, replace with DT or verification using OT environment or data). The US source text (record 6,244) reads: 'Level I OT&E - An assessment primarily using data from integrated test events other than a dedicated independent operational test event... Even for programs under DOT&E oversight, the assessment plan is approved by the lead Service or agency OTA.' KIDA's distortion: (a) deletes the 'Level I' qualifier — what the US text frames as a permitted approach for low-risk Level I only, KIDA presents as a general OT&E-replacement option; (b) deletes the OTA approval requirement — what the US text mandates as gate-kept by the operational test agency, KIDA omits entirely. Primary mechanism: selective-omission deletion of two specific words/phrases that gate the entire framework. Secondary mechanism: omission of Level II/III independent operational event mandate, DOT&E approval requirement for Applicable Programs, irreversible-changes rule (KIATIS handles personnel/casualty data → irreversible), and OTA structural independence from developer.",
     fr.counterHypothesis = "KIDA's report cited the integration permission within its full risk-based context, including all five structural requirements (Level I/II/III stratification, OTA approval, DOT&E approval for MAIS, irreversible-changes rule, OTA independence), and the integration justification was specific to genuinely Level I (low-risk) capabilities only — the citation is faithful and the application to KIATIS specifically is a separate question",
     fr.falsificationCondition = "Production of pages of KIDA's report immediately surrounding record 6,717 showing the Level I qualifier and OTA approval requirement are present in adjacent text. Falsified by direct verbatim comparison: KIDA text at record 6,717 omits both, with the omissions being conspicuous (US-text Level I phrase is the opening qualifier of the sentence KIDA paraphrases)",
@@ -126,11 +127,11 @@ If items 1–5 are all answered "yes" with substantive treatment, the verdict do
 
 ## Related
 
-- [[kida-research-legitimizes-pre-existing-manipulation|3 shared records — KIDA 연구 자매 atom]]
-- [[../regulations/us-dod-otne-info-business-systems-2010|US DoD OT&E guidelines (comparator regulation hub)]]
-- [[../entities/organizations/kida|KIDA hub]]
-- [[2436ho-test-evaluation-principle-inverted|paired claim: 제2436호 inverted the Korean principle the KIDA citation legitimized]]
-- [[2436ho-cluster-six-anchors|2436호 cluster (the directive event KIDA's citation justifies)]]
-- [[kiatis-2129ho-main-regime-applies|KIATIS regulatory classification (the Korean side)]]
-- [[../topics/test-evaluation-manipulation|Test Evaluation Manipulation]]
-- [[../layers/layer-4|Layer 4]]
+- [[kida-research-legitimizes-pre-existing-manipulation|3 shared records — KIDA 연구 자매 atom]] (CORROBORATES)
+- [[../regulations/us-dod-otne-info-business-systems-2010|US DoD OT&E guidelines (comparator regulation hub)]] (ABOUT)
+- [[../entities/organizations/kida|KIDA hub]] (ABOUT)
+- [[2436ho-test-evaluation-principle-inverted|paired claim: 제2436호 inverted the Korean principle the KIDA citation legitimized]] (RELATED)
+- [[2436ho-cluster-six-anchors|2436호 cluster (the directive event KIDA's citation justifies)]] (RELATED)
+- [[kiatis-2129ho-main-regime-applies|KIATIS regulatory classification (the Korean side)]] (RELATED)
+- [[../topics/test-evaluation-manipulation|Test Evaluation Manipulation]] (ABOUT)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

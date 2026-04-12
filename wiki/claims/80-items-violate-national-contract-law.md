@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-80-ITEMS-CONTRACT-LAW-VIOLATION"})
 SET fr.layer = 4,
-    fr.claimType = "regulatory_violation",
+    fr.claimType = "procedural_violation",
+    fr.claimSubtype = "regulatory_violation",
     fr.claimDesc = "시험평가 기간 중 의결된 80건 추가 요구사항(사업 예산의 50%)은 국가계약법 제10조·제11조·제19조·제26조와 훈령 제57조·제60조를 위반한다. 평가위원회는 기능 충족 여부를 판정하는 기관이지 신규 요구사항을 추가하는 권한이 없다. 계약 변경 없는 추가 요구는 개발업체에 대한 강제노동에 해당한다",
     fr.counterHypothesis = "추가 요구사항은 시험평가 과정에서 발견된 개선 필요사항을 반영한 정상적 절차이다",
     fr.falsificationCondition = "시험평가위원회가 추가 요구사항을 의결할 법적 권한이 있었음을 보여주는 규정, 또는 계약 변경 절차가 적법하게 이행되었음을 보여주는 기록",
@@ -54,5 +55,5 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[layer4-evaluation-committee-80-items-violation]] — L4 기존 관련 atom
-- [[../layers/layer-4|Layer 4]]
+- [[layer4-evaluation-committee-80-items-violation]] — L4 기존 관련 atom (CORROBORATES)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

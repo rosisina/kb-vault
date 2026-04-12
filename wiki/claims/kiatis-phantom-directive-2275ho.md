@@ -8,7 +8,8 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L1-PHANTOM-2275HO-001"})
 SET fr.layer = 1,
     fr.secondaryLayers = [6],
-    fr.claimType = "phantom_directive_time_reversal",
+    fr.claimType = "temporal_manipulation",
+    fr.claimSubtype = "phantom_directive_time_reversal",
     fr.claimDesc = "훈령 제2275호(2019-05-09)는 국가법령센터에 등재되지 않은 phantom directive이며, 그 내용은 공식 개정 타임라인상 1년 이상 후에 등장한 제2436호(2020-06-04)와 동일하다. 시간 역전 anomaly는 (a) 공식 개정 순열(제2129호 2018-02-05 → 제2263호 2019-02-26 → 제2398호 2020-02-13 → 제2436호 2020-06-04)과 충돌하며, (b) KIDA가 자신의 시험평가 절차 개선 연구 (2020-01~06, 최종 발간 2020-07)에서 인용한 훈령이 제2275호라는 사실은 KIDA가 제2436호 직전 개정 내용을 사전에 인지하거나 사전 입수한 상태로 연구를 진행했음을 시사하며, (c) 군 검찰단이 한지훈 신문(기록 제4,900쪽)에서 제2275호를 직접 사용한 사실은 제2275호가 공식 등재 여부와 무관하게 실효적 문서로 활용되었음을 보인다. 본 atom은 제2275호의 공식 출처를 확정하거나 phantom 판정을 완결하는 연구 후속을 요구한다.",
     fr.counterHypothesis = "제2275호는 2019-05-09에 정상 발령된 훈령이며 국가법령센터 미등재는 단순 등재 누락에 불과하다",
     fr.falsificationCondition = "(a) 2019-05-09자 제2275호 원본 공문(관보 게재·장관 결재)이 확보되어 발령 사실이 확인되고, (b) 해당 원본의 텍스트가 제2436호(2020-06-04)와 실질적으로 상이함이 직접 diff로 확인되면 약화 또는 무효. 두 조건이 모두 충족되면 WEAKENED, 하나만 충족되면 NEEDS_MORE_EVIDENCE 재진입.",
@@ -83,11 +84,11 @@ SET fr.layer = 1,
 
 ## Related
 
-- [[../layers/layer-1|Layer 1 hub]]
-- [[../layers/layer-6|Layer 6 hub]]
-- [[kida-otne-citation-misrepresents-us-standard|KIDA OT&E 인용 왜곡 (L4, D1 closure)]]
-- [[2436ho-cluster-six-anchors|2436호 8-anchor cluster]]
-- [[2398-2842ho-otne-environment-hedge-flipflop|2398/2842호 OT&E 환경 flip-flop]]
-- [[lee-jiyoung-kim-sujin-single-point-of-control|이지영/김수진 단일 통제점 (L2-03)]]
-- [[../regulations/defense-it-operations-directive-2129|훈령 제2129호 hub]]
-- [[han-ji-hoon-suspect-interrogation-2022-09-02|한지훈 피의자 신문조서 2022-09-02]]
+- [[../layers/layer-1|Layer 1 hub]] (PART_OF_LAYER)
+- [[../layers/layer-6|Layer 6 hub]] (PART_OF_LAYER)
+- [[kida-otne-citation-misrepresents-us-standard|KIDA OT&E 인용 왜곡 (L4, D1 closure)]] (RELATED)
+- [[2436ho-cluster-six-anchors|2436호 8-anchor cluster]] (RELATED)
+- [[2398-2842ho-otne-environment-hedge-flipflop|2398/2842호 OT&E 환경 flip-flop]] (RELATED)
+- [[lee-jiyoung-kim-sujin-single-point-of-control|이지영/김수진 단일 통제점 (L2-03)]] (RELATED)
+- [[../regulations/defense-it-operations-directive-2129|훈령 제2129호 hub]] (ABOUT)
+- [[han-ji-hoon-suspect-interrogation-2022-09-02|한지훈 피의자 신문조서 2022-09-02]] (RELATED)

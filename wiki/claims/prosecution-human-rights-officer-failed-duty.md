@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L7-HUMAN-RIGHTS-OFFICER-FAILED"})
 SET fr.layer = 7,
-    fr.claimType = "institutional_rejection",
+    fr.claimType = "institutional_obstruction",
+    fr.claimSubtype = "institutional_rejection",
     fr.claimDesc = "군검찰단 인권담당감독관에게 진정서를 제출하였으나(Record 5,603/5,628), 실질적 보호 조치가 이루어지지 않았다. 인권담당감독관은 한지훈의 진정을 검찰단장에게 보고하였다고 알려왔으나, 기소유예 결정(2022-10-07)은 변경되지 않았다. 이는 8개 기관 거부 체인의 6번째 고리이다",
     fr.counterHypothesis = "인권담당감독관은 진정 내용을 검찰단장에게 보고하는 것이 직무 범위의 전부이며, 수사 결과에 직접 개입할 권한이 없다",
     fr.falsificationCondition = "인권담당감독관이 한지훈의 진정에 대해 실질적 조사를 실시하고 결과를 통보한 기록",
@@ -60,6 +61,6 @@ SET fr.layer = 7,
 
 ## Related
 
-- [[prosecution-chief-evades-innocence-plea]] — L7 검찰단장 회피
-- [[han-ji-hoon-rebuttal-rejected-by-eight-institutions]] — L7 8기관 거부 체인
-- [[../layers/layer-7|Layer 7]]
+- [[prosecution-chief-evades-innocence-plea]] — L7 검찰단장 회피 (CORROBORATES)
+- [[han-ji-hoon-rebuttal-rejected-by-eight-institutions]] — L7 8기관 거부 체인 (OPPOSES)
+- [[../layers/layer-7|Layer 7]] (PART_OF_LAYER)

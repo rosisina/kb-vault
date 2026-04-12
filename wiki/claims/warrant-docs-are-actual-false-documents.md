@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-WARRANT-IS-FALSE-DOCUMENT"})
 SET fr.layer = 6,
-    fr.claimType = "prosecution_document_fraud",
+    fr.claimType = "prosecution_misconduct",
+    fr.claimSubtype = "prosecution_document_fraud",
     fr.claimDesc = "군검찰단이 한지훈에게 부과한 '허위공문서 작성 및 동행사' 혐의는 역설적으로 군검찰단 자신의 문서(압수수색 영장, 수사개시 통보, 불기소 이유서)에 해당한다. 이 문서들은 동일성 오류, 시간역전, 선별적 증거 인용 등 허위 내용을 담고 있으며, 한지훈은 이를 '증명 문서'(Record 5,008)에서 입증하여 국방부장관·군검찰단장에게 제출하였다",
     fr.counterHypothesis = "검찰 문서는 수사상 판단과 법리적 해석을 반영한 것이며, 판단의 오류가 있더라도 '허위공문서'에 해당하지 않는다",
     fr.falsificationCondition = "검찰 문서의 내용이 당시 알려진 사실에 기반한 선의의 판단이었음을 보여주는 내부 검토 기록",
@@ -59,6 +60,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[prosecution-false-document-charge-self-contradiction]] — L6 허위공문서 자기모순
-- [[prosecution-non-prosecution-internal-contradiction]] — L6 불기소 모순
-- [[../layers/layer-6|Layer 6]]
+- [[prosecution-false-document-charge-self-contradiction]] — L6 허위공문서 자기모순 (OPPOSES)
+- [[prosecution-non-prosecution-internal-contradiction]] — L6 불기소 모순 (OPPOSES)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

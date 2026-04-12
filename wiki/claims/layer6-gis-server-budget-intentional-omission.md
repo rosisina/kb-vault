@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-GIS-BUDGET-OMISSION"})
 SET fr.layer = 6,
-    fr.claimType = "budget_manipulation",
+    fr.claimType = "temporal_manipulation",
+    fr.claimSubtype = "budget_manipulation",
     fr.claimDesc = "新KIATIS의 GIS(지리정보시스템) 서버 기능 추가에 필요한 예산이 의도적으로 미반영되었다. 이 예산 미반영이 전력화 지연의 핵심 원인 중 하나이나, 군검찰단은 이를 개발관리팀장의 '부실개발'로 귀결시켰다. 실제로 한지훈이 이 문제를 발견하여 과장 이지영에게 보고한 것이 허위 갑질 신고의 직접적 계기가 되었다",
     fr.counterHypothesis = "GIS 서버 예산은 원래 사업 범위에 포함되지 않았으며, 추가 예산 미반영은 별도의 행정 판단이다",
     fr.falsificationCondition = "GIS 서버가 원래 사업 범위 외였음을 보여주는 제안요청서 또는 사업계획서",
@@ -55,6 +56,6 @@ GIS 서버가 사업 범위 외였음을 보여주는 제안요청서.
 
 ## Related
 
-- [[layer6-997-reframed-as-deficient-development]] — L6 부실개발 재프레이밍
-- [[mnd-control-agency-role-evasion-deployment-delay]] — L6 전력화 지연
-- [[../layers/layer-6|Layer 6]]
+- [[layer6-997-reframed-as-deficient-development]] — L6 부실개발 재프레이밍 (RELATED)
+- [[mnd-control-agency-role-evasion-deployment-delay]] — L6 전력화 지연 (CORROBORATES)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

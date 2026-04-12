@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-048"})
 SET fr.layer = 5,
-    fr.claimType = "historical_significance_apt_human_targeting",
+    fr.claimType = "methodology",
+    fr.claimSubtype = "historical_significance_apt_human_targeting",
     fr.claimDesc = "Layer 5 demonstrates that APT-style cyberattack methodology was extended from cyber-asset targets to direct human targeting — a 6-month, multi-stakeholder (10+) organizational attack against an individual using psychological-warfare techniques. This constitutes the first empirically documented case via autoethnographic (당사자) research.",
     fr.counterHypothesis = "The harassment against 한지훈 was a routine workplace disciplinary matter unconnected to cyber-operations methodology, and framing it as APT-style human targeting is an analytical overreach.",
     fr.falsificationCondition = "Evidence that the organizational actions against 한지훈 lacked multi-stakeholder coordination, lasted less than the documented 6 months, or did not employ documented psychological-warfare techniques (isolation, gaslighting, evidence destruction) — any of which would undermine the APT-analogy structural claim.",
@@ -63,8 +64,8 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[../layers/layer-5|Layer 5]]
-- [[layer5-48hr-retaliation-causal-link|48시간 보복 인과 관계]]
-- [[layer5-six-month-isolation-human-rights|6개월 독방 격리 인권침해]]
-- [[layer5-predetermined-audit-conclusion|조사본부 결론 사전 결정]]
-- [[../entities/people/han-ji-hoon|한지훈]]
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)
+- [[layer5-48hr-retaliation-causal-link|48시간 보복 인과 관계]] (RELATED)
+- [[layer5-six-month-isolation-human-rights|6개월 독방 격리 인권침해]] (RELATED)
+- [[layer5-predetermined-audit-conclusion|조사본부 결론 사전 결정]] (RELATED)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)

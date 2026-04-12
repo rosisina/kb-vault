@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-007"})
 SET fr.layer = 6,
-    fr.claimType = "deliberate_delay_mechanism",
+    fr.claimType = "temporal_manipulation",
+    fr.claimSubtype = "deliberate_delay_mechanism",
     fr.claimDesc = "The 新KIATIS 개발운용시험평가위원회 illegally resolved 80 additional requirements (기록 제3,039쪽) outside its authority, extending the project timeline and providing the operational window for the 2016 DIDC hacking cover-up — a Layer 6 finding about the operational mechanism of concealment through deliberate project delay.",
     fr.counterHypothesis = "The 80 additional requirements were a legitimate quality-assurance finding made by the evaluation committee based on technical deficiencies identified during the 2019 test-evaluation; the delay was a necessary consequence of genuine project shortfalls, not a politically motivated obstruction.",
     fr.falsificationCondition = "Production of evaluation committee minutes or RFP documents showing that the 80 additional items fell within the original contract scope and evaluation authority, OR evidence that the 80 items addressed genuine security or operational deficiencies rather than requirements absent from the original RFP.",
@@ -81,8 +82,8 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[han-ji-hoon-suspect-interrogation-2022-09-02|피의자 신문조서 (2022-09-02) — 전력화 실패 서사의 활용 단계]]
-- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|기소유예 = 범죄 낙인 — 지연 서사의 최종 귀결]]
-- [[prosecution-misapplies-2129-article-58-4-to-kiatis|훈령 오적용 원자 — 전력화 미완료와 법적 혐의의 결합]]
-- [[../layers/layer-6|Layer 6]]
-- [[../layers/layer-4|Layer 4 — 80건 의결이 발생한 시험평가 후 조작 단계]]
+- [[han-ji-hoon-suspect-interrogation-2022-09-02|피의자 신문조서 (2022-09-02) — 전력화 실패 서사의 활용 단계]] (RELATED)
+- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|기소유예 = 범죄 낙인 — 지연 서사의 최종 귀결]] (RELATED)
+- [[prosecution-misapplies-2129-article-58-4-to-kiatis|훈령 오적용 원자 — 전력화 미완료와 법적 혐의의 결합]] (RELATED)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)
+- [[../layers/layer-4|Layer 4 — 80건 의결이 발생한 시험평가 후 조작 단계]] (PART_OF_LAYER)

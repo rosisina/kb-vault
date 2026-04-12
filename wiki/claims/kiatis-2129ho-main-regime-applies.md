@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-KIATIS-001"})
 SET fr.layer = 4,
-    fr.claimType = "regulatory_classification",
+    fr.claimType = "regulatory_manipulation",
+    fr.claimSubtype = "regulatory_classification",
     fr.claimDesc = "KIATIS 성능개선사업 (6.25억 KRW, 2018–2019) is governed by 국방정보화업무 훈령 제2129호 제58조 ¶2 main regime — DT&E and OT&E must be conducted separately as the regulatory default, with integration permitted only by explicit 사업통제기관 written approval — and does not qualify for the 제58조 ¶3 5억-미만 exception",
     fr.counterHypothesis = "KIATIS qualifies for delegation under 제58조 ¶3 by virtue of being a 기관 위임사업 or 사업계획서 단계 시험평가 위임 사업, in which case 제58조 ¶4 permits simultaneous DT&E/OT&E execution",
     fr.falsificationCondition = "Production of (a) the KIATIS 사업계획서 with a documented test-evaluation 위임 decision under 제46조, OR (b) classification as 기관 위임사업 by 사업통제기관 in writing, OR (c) demonstration that contract value 6.25억 was below the 5억 threshold (e.g., by separating into multiple sub-contracts)",
@@ -89,13 +90,13 @@ If item 1 is produced, the verdict downgrades to WEAKENED. If item 1 is produced
 
 ## Related
 
-- [[kiatis-rfp-binds-lifecycle|KIATIS — RFP-binds-lifecycle (행위시법주의)]]
-- [[2436ho-test-evaluation-principle-inverted|2436호 inverted the principle KIATIS was bound by]]
-- [[2436ho-dtne-articles-erased|2436호 erased the DT&E articles KIATIS was bound by]]
-- [[../regulations/defense-it-2129-article-58|제58조]]
-- [[../regulations/defense-it-2129-article-11|제11조]]
-- [[../events/2018-2019-kiatis-performance-improvement-project|KIATIS 성능개선사업 event]]
-- [[../entities/organizations/gukjeonwon|국전원]]
-- [[../entities/organizations/dma-defense-pow-mia-accounting-agency|DMA]]
-- [[../layers/layer-4|Layer 4]]
-- [[../topics/kiatis-systems|KIATIS Systems]]
+- [[kiatis-rfp-binds-lifecycle|KIATIS — RFP-binds-lifecycle (행위시법주의)]] (CORROBORATES)
+- [[2436ho-test-evaluation-principle-inverted|2436호 inverted the principle KIATIS was bound by]] (CORROBORATES)
+- [[2436ho-dtne-articles-erased|2436호 erased the DT&E articles KIATIS was bound by]] (CORROBORATES)
+- [[../regulations/defense-it-2129-article-58|제58조]] (ABOUT)
+- [[../regulations/defense-it-2129-article-11|제11조]] (ABOUT)
+- [[../events/2018-2019-kiatis-performance-improvement-project|KIATIS 성능개선사업 event]] (ABOUT)
+- [[../entities/organizations/gukjeonwon|국전원]] (ABOUT)
+- [[../entities/organizations/dma-defense-pow-mia-accounting-agency|DMA]] (ABOUT)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)
+- [[../topics/kiatis-systems|KIATIS Systems]] (ABOUT)

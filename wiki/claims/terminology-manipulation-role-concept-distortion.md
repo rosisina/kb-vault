@@ -8,6 +8,7 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L4-TERMINOLOGY-DISTORTION-001"})
 SET fr.layer = 4,
     fr.claimType = "terminology_manipulation",
+    fr.claimSubtype = "role_concept_downgrade",
     fr.claimDesc = "The 국방정보화업무훈령 별표1 terminology was systematically altered from 제2263호 (2019-02-26) onward: 사업관리기관→집행기관, 사업주관기관→소요제기기관. This is not mere renaming but deliberate concept distortion — '관리' (active management) was downgraded to '집행' (passive execution), and '주관' (comprehensive oversight) was reduced to '소요제기' (requirement submission). The manipulation severs the terminological link to the 新·舊KIATIS accountability chain. 한지훈's own 참고인 진술조서 (기록 제4,781쪽, 2022-01-25) documents 국전원's actual 사업관리 function in his own words, contradicting the post-2019 '집행기관' framing.",
     fr.counterHypothesis = "The terminology change was a neutral administrative modernization to align with contemporary public procurement language; the terms '집행기관' and '소요제기기관' are standard government terminology with no intent to obscure accountability.",
     fr.falsificationCondition = "Evidence that '집행기관' and '소요제기기관' were already in common use in other MND directives or government-wide procurement regulations before the KIATIS controversy, adopted as part of a broader government-wide standardization initiative.",
@@ -75,8 +76,8 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[2436ho-gukjeonwon-role-tier-renaming]] — 동일 용어 변경의 제2436호 단위 분석 (사업통제기관 포함)
-- [[kiatis-2129ho-main-regime-applies]] — KIATIS에 적용되는 구용어 체계("사업관리기관")의 법적 근거
-- [[han-ji-hoon-witness-statement-2022-01-25]] — 기록 제4,781쪽 참고인 진술의 Layer 6 맥락
-- [[../layers/layer-4|Layer 4]]
-- [[../layers/layer-2|Layer 2 — 기록 제1,372쪽 소속]]
+- [[2436ho-gukjeonwon-role-tier-renaming]] — 동일 용어 변경의 제2436호 단위 분석 (사업통제기관 포함) (RELATED)
+- [[kiatis-2129ho-main-regime-applies]] — KIATIS에 적용되는 구용어 체계("사업관리기관")의 법적 근거 (RELATED)
+- [[han-ji-hoon-witness-statement-2022-01-25]] — 기록 제4,781쪽 참고인 진술의 Layer 6 맥락 (RELATED)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)
+- [[../layers/layer-2|Layer 2 — 기록 제1,372쪽 소속]] (PART_OF_LAYER)

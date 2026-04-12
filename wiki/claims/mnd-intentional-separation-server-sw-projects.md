@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-INTENTIONAL-PROJECT-SPLIT"})
 SET fr.layer = 4,
-    fr.claimType = "organizational_manipulation",
+    fr.claimType = "conspiracy_structure",
+    fr.claimSubtype = "organizational_manipulation",
     fr.claimDesc = "국방부는 新KIATIS를 서버구축사업(DIDC1센터)과 SW개발사업(국전원)으로 의도적으로 분리하여 추진했다. 통합 추진 시 개발관리팀장이 舊KIATIS의 인터넷 운용 사실을 발견할 수 있고, DIDC 자체의 보안 과오가 드러나기 때문이다. 규격 심의에서 舊KIATIS 데이터·SW의 新KIATIS 서버 이전을 완전 차단한 것도 같은 맥락이다",
     fr.counterHypothesis = "사업 분리는 클라우드 전환 정책에 따른 표준적 사업 추진 방식이며, 은폐 목적과 무관한 행정 효율성 판단이었다",
     fr.falsificationCondition = "동일 시기 다른 국방정보화사업에서도 서버구축과 SW개발을 동일하게 분리 추진한 사례가 다수 존재함을 보여주는 기록",
@@ -58,6 +59,6 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[didc-falsely-records-old-kiatis-as-vpn-user]] — L4 DIDC VPN 허위기재
-- [[gukjeonwon-pre-evaluation-team-leader-exclusion]] — L4 팀장 배제
-- [[../layers/layer-4|Layer 4]]
+- [[didc-falsely-records-old-kiatis-as-vpn-user]] — L4 DIDC VPN 허위기재 (OPPOSES)
+- [[gukjeonwon-pre-evaluation-team-leader-exclusion]] — L4 팀장 배제 (CORROBORATES)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

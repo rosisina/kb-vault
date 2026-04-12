@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-XSYN-2436-RETROACTIVE"})
 SET fr.layer = 4,
-    fr.claimType = "cross_source_synthesis",
+    fr.claimType = "cross_layer_analysis",
+    fr.claimSubtype = "cross_source_synthesis",
     fr.claimDesc = "3소스 삼각확인: 행위(2019.9) 후 도입된 법(2020.6)을 검찰이 소급 인용. 시간적 불가능.",
     fr.counterHypothesis = "검찰은 불기소이유서 작성 시점(2022)의 현행법을 적용한 것이며, 행위시법 적용은 별개 법적 쟁점이다",
     fr.falsificationCondition = "검찰이 행위시법(2019 시점 제2129호/제2263호)을 분석하고도 동일 결론에 도달하였음을 보여주는 법적 검토 기록",
@@ -52,7 +53,7 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[article-58-separation-to-integration-2020-directive-manipulation|2 shared records — 제58조 분리→통합 역전]]
-- [[2436ho-cluster-six-anchors]]
-- [[2436ho-test-evaluation-principle-inverted]]
-- [[prosecution-misapplies-2129-article-58-4-to-kiatis]]
+- [[article-58-separation-to-integration-2020-directive-manipulation|2 shared records — 제58조 분리→통합 역전]] (RELATED)
+- [[2436ho-cluster-six-anchors]] (CAUSES)
+- [[2436ho-test-evaluation-principle-inverted]] (RELATED)
+- [[prosecution-misapplies-2129-article-58-4-to-kiatis]] (CAUSES)

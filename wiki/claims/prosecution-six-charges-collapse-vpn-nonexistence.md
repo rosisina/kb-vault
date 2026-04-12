@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L1-SIX-CHARGES-COLLAPSE"})
 SET fr.layer = 1,
-    fr.claimType = "structural_impossibility",
+    fr.claimType = "methodology",
+    fr.claimSubtype = "structural_impossibility",
     fr.claimDesc = "6개 혐의 전부가 '보안 조치 조작'을 전제하나, 해당 보안 조치가 존재하지 않았으므로 구조적 불가능. victim-blame.",
     fr.counterHypothesis = "검찰의 혐의는 VPN 자체가 아닌 방화벽 포트 개방 절차의 위법성에 기반하며, VPN 존재 여부와 무관하다",
     fr.falsificationCondition = "6개 혐의가 VPN 존재 여부와 독립적으로 성립함을 보여주는 법리적 분석",
@@ -51,7 +52,7 @@ SET fr.layer = 1,
 
 ## Related
 
-- [[four-kiatis-environments-non-identical]]
-- [[firewall-port-opening-standard-it-procedure]]
-- [[../layers/layer-1|Layer 1]]
-- [[../layers/layer-6|Layer 6]]
+- [[four-kiatis-environments-non-identical]] (RELATED)
+- [[firewall-port-opening-standard-it-procedure]] (RELATED)
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

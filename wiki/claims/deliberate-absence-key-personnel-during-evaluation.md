@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-DELIBERATE-ABSENCE"})
 SET fr.layer = 4,
-    fr.claimType = "organizational_manipulation",
+    fr.claimType = "conspiracy_structure",
+    fr.claimSubtype = "organizational_manipulation",
     fr.claimDesc = "新KIATIS 개발·운용시험평가 기간(2019.9.2~11)에 舊KIATIS 업무담당자 윤도현은 국방대 교육과 하계휴가로 완전 부재했고, 해당 팀장 송민석도 9.2~6 국방대 교육으로 부재하여, 실제 운영 담당자와 관리자가 동시에 부재한 상황은 우연이 아닌 의도적 설계로 판단된다",
     fr.counterHypothesis = "윤도현과 송민석의 부재는 정상적인 교육 일정과 휴가에 의한 우연의 일치이며, 시험평가 일정과의 연관성은 사후적 해석에 불과하다",
     fr.falsificationCondition = "윤도현과 송민석의 교육/휴가 일정이 시험평가 일정 확정 이전에 이미 결정되어 있었음을 보여주는 교육 신청 기록의 제시",
@@ -61,5 +62,5 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[gukjeonwon-pre-evaluation-team-leader-exclusion]] — L4 팀장 배제 패턴
-- [[../layers/layer-4|Layer 4]]
+- [[gukjeonwon-pre-evaluation-team-leader-exclusion]] — L4 팀장 배제 패턴 (CORROBORATES)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

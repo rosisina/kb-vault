@@ -7,7 +7,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L7-PETITION-MND-MINISTER-001"})
 SET fr.layer = 7,
-    fr.claimType = "institutional_non_response",
+    fr.claimType = "institutional_obstruction",
+    fr.claimSubtype = "institutional_non_response",
     fr.claimDesc = "한지훈 submitted a formal petition (기록 제5,578~5,602쪽) and a 'Clarification and Proof regarding Seizure, Search, and Verification Warrant' (2022.9.25, 기록 제5,393~5,577쪽) to MND Minister 최우진 via intranet email and memo-report (메모보고). The Minister confirmed reading the email at the time. 군사보좌관 준장 홍성민 received the same materials via KakaoTalk (기록 제5,669쪽). Neither responded. This constitutes the apex of the Layer 7 institutional non-response chain: the highest military authority was personally notified of evidence-based claims of organized crime and did nothing.",
     fr.counterHypothesis = "The Minister's office reviewed the petition internally and determined it lacked merit or fell outside the Minister's direct purview, referring it through normal channels; non-response does not equal complicity.",
     fr.falsificationCondition = "Evidence that the MND Minister's office took any internal action on the petition — including referral to an inspector general, legal review, or tasking to subordinate commands — would weaken the 'complete non-response' characterization.",
@@ -73,8 +74,8 @@ SET fr.layer = 7,
 
 ## Related
 
-- [[han-ji-hoon-rebuttal-rejected-by-eight-institutions]] — 8개 기관 거부 사슬의 첫 번째·두 번째 고리 (국방장관, 군사보좌관)
-- [[on-nara-2024-upgrade-evidence-destruction-risk]] — 메모보고 증거 인멸 위험
-- [[han-ji-hoon-dan-jang-phone-call-2022-09-28]] — 같은 시기 군검찰단장에 대한 직접 접촉
-- [[../layers/layer-7|Layer 7]]
-- [[../entities/people/han-ji-hoon|한지훈]]
+- [[han-ji-hoon-rebuttal-rejected-by-eight-institutions]] — 8개 기관 거부 사슬의 첫 번째·두 번째 고리 (국방장관, 군사보좌관) (OPPOSES)
+- [[on-nara-2024-upgrade-evidence-destruction-risk]] — 메모보고 증거 인멸 위험 (RELATED)
+- [[han-ji-hoon-dan-jang-phone-call-2022-09-28]] — 같은 시기 군검찰단장에 대한 직접 접촉 (RELATED)
+- [[../layers/layer-7|Layer 7]] (PART_OF_LAYER)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-ART68-TRIGGER-WEAKENED"})
 SET fr.layer = 4,
-    fr.claimType = "terminology_substitution",
+    fr.claimType = "terminology_manipulation",
+    fr.claimSubtype = "terminology_substitution",
     fr.claimDesc = "전력화 조건: OT&E→통합시험으로 완화. 정의(57/58)→절차(62-64)→결과(68)의 완전 연쇄 완성.",
     fr.counterHypothesis = "통합 시험이 OT&E 수준의 검증을 포함하므로 전력화 조건의 실질적 완화가 아니다",
     fr.falsificationCondition = "제2576호 제63조의 평가 항목이 제2075호와 동일한 OT&E 요건(실제환경, 운용시나리오, 군사용적합 판정)을 유지하고 있음을 보여주는 조항 비교",
@@ -50,6 +51,6 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[2576ho-ote-prefix-dropped-procedural-collapse]]
-- [[2436ho-test-evaluation-principle-inverted]]
-- [[mnd-control-agency-role-evasion-deployment-delay]]
+- [[2576ho-ote-prefix-dropped-procedural-collapse]] (CORROBORATES)
+- [[2436ho-test-evaluation-principle-inverted]] (SUPERSEDES)
+- [[mnd-control-agency-role-evasion-deployment-delay]] (RELATED)

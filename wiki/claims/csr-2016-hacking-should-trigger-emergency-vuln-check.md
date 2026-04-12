@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-CSR-006"})
 SET fr.layer = 1,
-    fr.claimType = "procedural_duty",
+    fr.claimType = "procedural_violation",
+    fr.claimSubtype = "procedural_duty",
     fr.claimDesc = "2016 해킹은 제44조 긴급점검 조건 2개 동시 충족. KIATIS 점검 미시행=은폐.",
     fr.counterHypothesis = "긴급 점검이 사이버사령부에 의해 실시되었으나 기밀이다",
     fr.falsificationCondition = "2016 해킹 후 발령된 긴급 취약점 점검 명령 또는 결과 보고서",
@@ -50,6 +51,6 @@ SET fr.layer = 1,
 
 ## Related
 
-- [[didc-sop-12-incident-scene-preservation-mandatory]]
-- [[xsyn-sop-incident-silence-equals-coverup-proof]]
-- [[../layers/layer-1|Layer 1]]
+- [[didc-sop-12-incident-scene-preservation-mandatory]] (CORROBORATES)
+- [[xsyn-sop-incident-silence-equals-coverup-proof]] (RELATED)
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)

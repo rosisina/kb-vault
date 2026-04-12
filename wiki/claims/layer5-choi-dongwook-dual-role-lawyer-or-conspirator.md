@@ -7,7 +7,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-007"})
 SET fr.layer = 5,
-    fr.claimType = "conflict_of_interest_dual_agency",
+    fr.claimType = "attorney_misconduct",
+    fr.claimSubtype = "conflict_of_interest_dual_agency",
     fr.claimDesc = "변호사 최동욱은 한지훈의 변호인으로 선임되었으나, 실제로는 군검찰의 대리인 역할을 수행하였다. 피의자 신문 조서와 일치하는 답변 요청서를 한지훈에게 보냈고, 경북대 동문 네트워크(이근태)를 은폐하였으며, 한지훈을 '비정상'으로 진단하려 시도하였다.",
     fr.counterHypothesis = "최동욱은 성실한 변호 활동의 일환으로 군검찰 질문에 대비하기 위해 답변서를 준비시킨 것이며, 이근태와의 관계 부인은 기억 오류에 불과하다.",
     fr.falsificationCondition = "최동욱이 군검찰의 질문지를 사전에 입수할 수 없었다는 증거, 또는 답변 요청서 내용이 피의자 신문 조서와 실질적으로 상이하다는 증거가 제시되면 약화된다.",
@@ -85,7 +86,7 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[layer5-park-seojun-nominal-complainant]] — 박서준 명목상 신고자 atom (최동욱의 대리 역할과 동일한 조직적 프레이밍 구조)
-- [[layer5-predetermined-audit-conclusion]] — 사전 결론 결정 atom (최동욱이 이 결론의 실현에 기여)
-- [[layer5-six-month-isolation-human-rights]] — 6개월 격리 인권 침해 atom (최동욱이 이를 목격하고도 무조치)
-- [[han-ji-hoon-kiso-yuye-is-criminal-stigma]] — 기소유예 atom (최동욱의 이중 대리가 기소유예 결과에 기여)
+- [[layer5-park-seojun-nominal-complainant]] — 박서준 명목상 신고자 atom (최동욱의 대리 역할과 동일한 조직적 프레이밍 구조) (RELATED)
+- [[layer5-predetermined-audit-conclusion]] — 사전 결론 결정 atom (최동욱이 이 결론의 실현에 기여) (RELATED)
+- [[layer5-six-month-isolation-human-rights]] — 6개월 격리 인권 침해 atom (최동욱이 이를 목격하고도 무조치) (RELATED)
+- [[han-ji-hoon-kiso-yuye-is-criminal-stigma]] — 기소유예 atom (최동욱의 이중 대리가 기소유예 결과에 기여) (RELATED)

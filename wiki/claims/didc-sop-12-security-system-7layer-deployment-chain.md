@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L1-DIDC-7LAYER-SECURITY"})
 SET fr.layer = 1,
-    fr.claimType = "procedural_artifact_mandatory",
+    fr.claimType = "procedural_violation",
+    fr.claimSubtype = "procedural_artifact_mandatory",
     fr.claimDesc = "7대 보안체계 적용 의무. KIATIS에 SSL VPN·DB접근제어 미적용은 이 SOP 위반.",
     fr.counterHypothesis = "KIATIS 보안체계 배포는 국전원이 관리하여 DIDC 별지 제10호 절차 적용 대상이 아니었다",
     fr.falsificationCondition = "KIATIS에 대한 별지 제10호 보안체계 적용 기록 7건, 또는 대체 절차에 의한 보안 배포 기록",
@@ -51,6 +52,6 @@ KIATIS에 대한 별지 제10호 보안체계 적용 기록 7건, 또는 대체 
 
 ## Related
 
-- [[didc-sop-firewall-vpn-trail-mandatory]]
-- [[didc-sop-db-access-control-mandatory]]
-- [[../layers/layer-1|Layer 1]]
+- [[didc-sop-firewall-vpn-trail-mandatory]] (CAUSES)
+- [[didc-sop-db-access-control-mandatory]] (CAUSES)
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)

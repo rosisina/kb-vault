@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L7-DATE-MISMATCH"})
 SET fr.layer = 7,
-    fr.claimType = "date_discrepancy_resolved",
+    fr.claimType = "temporal_manipulation",
+    fr.claimSubtype = "date_discrepancy_resolved",
     fr.claimDesc = "Book §3.7.1.1 dates 한지훈's self-authored rebuttal document ('압수, 수색, 검증 영장에 대한 해명과 증명') as 2022-09-25. Earlier wiki atom drafts and the raw/05 source filename used 2022-09-29. The raw/05 (20220929) document was read in full on 2026-04-11 and found to carry NO printed date anywhere in its 3,811 lines — the document does not self-date. Therefore the (20220929) filename is James's own filename-metadata convention with no primary-source status, and the book's 2022-09-25 governs under the Re-verify authority principle.",
     fr.counterHypothesis = "The (20220929) filename was chosen by James deliberately because 2022-09-29 was the submission or distribution date, distinct from the 2022-09-25 composition date given in the book. Under this hypothesis both dates are correct for different referents and the discrepancy is not an error.",
     fr.falsificationCondition = "Production of a separate raw/05 document (receiving stamp, submission receipt, or institutional response dated near the event) that independently anchors either 2022-09-25 or 2022-09-29 as the submission date would either corroborate the counter-hypothesis (2-date interpretation) or resolve the discrepancy to a single date.",
@@ -73,8 +74,8 @@ An alternative: one of the two sources contains a single-digit transcription err
 
 ## Related
 
-- [[../layers/layer-7|Layer 7]]
-- [[han-ji-hoon-rebuttal-rejected-by-eight-institutions|Existing L7 atom: 8-institution rejection chain]]
-- [[han-ji-hoon-dan-jang-phone-call-2022-09-28|L7 atom: 단장 phone call 2022-09-28]]
-- [[../entities/people/han-ji-hoon|한지훈 entity hub]]
-- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|Layer 6: 기소유예 criminal stigma]]
+- [[../layers/layer-7|Layer 7]] (PART_OF_LAYER)
+- [[han-ji-hoon-rebuttal-rejected-by-eight-institutions|Existing L7 atom: 8-institution rejection chain]] (OPPOSES)
+- [[han-ji-hoon-dan-jang-phone-call-2022-09-28|L7 atom: 단장 phone call 2022-09-28]] (OPPOSES)
+- [[../entities/people/han-ji-hoon|한지훈 entity hub]] (ABOUT)
+- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|Layer 6: 기소유예 criminal stigma]] (OPPOSES)

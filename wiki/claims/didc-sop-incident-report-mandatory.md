@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L1-DIDC-002"})
 SET fr.layer = 1,
-    fr.claimType = "procedural_artifact_mandatory",
+    fr.claimType = "procedural_violation",
+    fr.claimSubtype = "procedural_artifact_mandatory",
     fr.claimDesc = "DIDC 부대예규 제12호 제21조 (침해사고 신고) requires immediate reporting to 정보보호과 and 사이버작전사령부 upon discovery of unauthorized access or hacking traces; 별지 제4호 서식 (정보시스템 위협/손상 보고서) is the prescribed report form. For the 2016 DIDC hacking incident, this SOP-mandated incident report must exist as a documentary artifact; its absence, alteration, or post-hoc fabrication is direct Layer 1 cover-up evidence",
     fr.counterHypothesis = "The 2016 incident was reported under a different mechanism (verbal, classified channel, or non-SOP-prescribed format), so the absence of a 별지 제4호 form is not procedurally meaningful",
     fr.falsificationCondition = "Production of (a) the 별지 제4호 incident report for the 2016 hacking incident with verifiable creation date contemporaneous with the incident, OR (b) authoritative Korean military regulation establishing that classified or operational hacking incidents at DIDC are exempt from 별지 제4호 documentation",
@@ -83,9 +84,9 @@ If item 1 is produced with contemporaneous date and complete fields, the verdict
 
 ## Related
 
-- [[../regulations/didc-cyber-protection-sop-12|DIDC SOP 제12호]]
-- [[didc-sops-cover-2016-hacking-period|sister atom: SOP duty floor 2016-02-01]]
-- [[didc-sop-firewall-vpn-trail-mandatory|sister atom: firewall/VPN paper trail]]
-- [[../entities/organizations/didc|DIDC]]
-- [[../layers/layer-1|Layer 1]]
-- [[../topics/defense-informatization-cartel|Defense Informatization Cartel]]
+- [[../regulations/didc-cyber-protection-sop-12|DIDC SOP 제12호]] (ABOUT)
+- [[didc-sops-cover-2016-hacking-period|sister atom: SOP duty floor 2016-02-01]] (CORROBORATES)
+- [[didc-sop-firewall-vpn-trail-mandatory|sister atom: firewall/VPN paper trail]] (CORROBORATES)
+- [[../entities/organizations/didc|DIDC]] (ABOUT)
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)
+- [[../topics/defense-informatization-cartel|Defense Informatization Cartel]] (ABOUT)

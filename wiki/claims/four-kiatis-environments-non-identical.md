@@ -7,6 +7,7 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L6-FOUR-ENVIRONMENTS-NON-IDENTICAL"})
 SET fr.layer = 6,
     fr.claimType = "technical_proof",
+    fr.claimSubtype = "environment_non_identity",
     fr.claimDesc = "정리04: 舊KIATIS 실제운용환경(Ⓐ), 新KIATIS 2019 실제운용환경(Ⓑ), 新KIATIS 실제운용환경(Ⓓ, 2021.4.15~현재), 新KIATIS 시험평가환경(Ⓒ, 2019.9.2~11)은 운용시기·사이버공간·보안장비·PC/모바일 위치의 차이로 인해 모두 서로에게 동일한 환경이 될 수 없다. 군검찰단의 '동일한 환경' 전제는 물리적으로 성립 불가능하다",
     fr.counterHypothesis = "시험평가에서의 '동일한 환경'은 완전한 물리적 동일성이 아닌 '기능적 동등성'을 의미하며, 기능적으로 동등한 환경은 구축 가능했다",
     fr.falsificationCondition = "훈령에서 '실제 조성된 기반 운영환경'이 '기능적 동등성'으로 해석될 수 있다는 법적 해석 또는 판례",
@@ -60,6 +61,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[prosecution-identity-fallacy-deception-technique]] — L6 동일성 오류
-- [[prosecution-distorts-operational-vs-test-environment]] — L6 환경 왜곡
-- [[../layers/layer-6|Layer 6]]
+- [[prosecution-identity-fallacy-deception-technique]] — L6 동일성 오류 (RELATED)
+- [[prosecution-distorts-operational-vs-test-environment]] — L6 환경 왜곡 (RELATED)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-XSYN-POST-WARRANT-ARRIVAL"})
 SET fr.layer = 6,
-    fr.claimType = "cross_source_synthesis",
+    fr.claimType = "cross_layer_analysis",
+    fr.claimSubtype = "cross_source_synthesis",
     fr.claimDesc = "결정 검사 영장 후 부임+단장 결재 구조 = 구조적 예정. 녹취+영장+책 3소스 삼각확인.",
     fr.counterHypothesis = "인사이동은 일상적이며 후임 검사의 독립적 기록 검토가 자율적 결정을 보장한다",
     fr.falsificationCondition = "임형규가 전임 검사와 다른 독립적 증인 조사나 증거 검토를 수행한 기록",
@@ -51,6 +52,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[prosecution-knew-innocence-continued-case]]
-- [[prosecution-chief-evades-innocence-plea]]
-- [[../layers/layer-6|Layer 6]]
+- [[prosecution-knew-innocence-continued-case]] (RELATED)
+- [[prosecution-chief-evades-innocence-plea]] (CAUSES)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

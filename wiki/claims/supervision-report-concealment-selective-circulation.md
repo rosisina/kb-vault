@@ -6,7 +6,8 @@
 **Aurora node:**
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-031"})
-SET fr.layer = 4, fr.claimType = "action",
+SET fr.layer = 4, fr.claimType = "methodology",
+    fr.claimSubtype = "action",
     fr.claimDesc = "감리 결과보고서에 기록된 사업 성공 증거(개발 관리 우수성, 요구사항 기능 완벽 일치 등)가 이준호에게만 선별적으로 공람되었고, 군검찰단 수사 기간에는 국유단이 의도적으로 제공하지 않아 한지훈의 방어 증거가 차단되었다",
     fr.counterHypothesis = "감리 결과보고서 공람 범위는 통상적 문서 배포 절차에 따른 것이며 의도적 차단이 아니었다",
     fr.falsificationCondition = "감리 결과보고서가 이준호 외 다른 관계자에게도 동시에 배포되었거나, 한지훈이 수사 기간 중 보고서에 접근할 수 있었음을 증명하면 약화된다",
@@ -67,7 +68,7 @@ SET fr.layer = 4, fr.claimType = "action",
 
 ## Related
 
-- [[../layers/layer-4|Layer 4 — 新KIATIS 개발·운영·시험평가 전·중·후 조작]]
-- [[../layers/layer-6|Layer 6 — 군 검찰단의 사기 수사와 범죄자 낙인]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[cartel-requirement-inflation-80-items-delay|카르텔 추가요구사항 80건 지연 공작]]
+- [[../layers/layer-4|Layer 4 — 新KIATIS 개발·운영·시험평가 전·중·후 조작]] (PART_OF_LAYER)
+- [[../layers/layer-6|Layer 6 — 군 검찰단의 사기 수사와 범죄자 낙인]] (PART_OF_LAYER)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[cartel-requirement-inflation-80-items-delay|카르텔 추가요구사항 80건 지연 공작]] (RELATED)

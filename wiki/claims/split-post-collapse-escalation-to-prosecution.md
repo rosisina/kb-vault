@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-POST-COLLAPSE-ESCALATION"})
 SET fr.layer = 5,
-    fr.claimType = "conspiracy_escalation",
+    fr.claimType = "conspiracy_structure",
+    fr.claimSubtype = "conspiracy_escalation",
     fr.claimDesc = "공모 붕괴→5단계 확대 대응→군검찰 표적수사 전환. 축소 불가 → 확대만 가능.",
     fr.counterHypothesis = "경고장 유지와 수사 전환은 독립적 사유에 기반한 정상 절차",
     fr.falsificationCondition = "경고장 유지의 핵심 사유가 붕괴된 후에도 적법한 행정 관행임을 보여주는 선례",
@@ -49,6 +50,6 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[layer5-fraud-investigation-triangular-model]]
-- [[layer5-fabricated-warning-letter]]
-- [[../layers/layer-5|Layer 5]]
+- [[layer5-fraud-investigation-triangular-model]] (CORROBORATES)
+- [[layer5-fabricated-warning-letter]] (OPPOSES)
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

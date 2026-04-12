@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-EVIDENCE-DESTRUCTION-FRAME"})
 SET fr.layer = 5,
-    fr.claimType = "speech_act_manipulation",
+    fr.claimType = "witness_manipulation",
+    fr.claimSubtype = "speech_act_manipulation",
     fr.claimDesc = "단일 화행으로 정당한 행위를 범죄로 재정의. 열람금지가 사업 종료 후에도 유지된 것은 징벌적 조치.",
     fr.counterHypothesis = "증거인멸 경고는 수사 과정에서 피의자에 대한 정상적 주의 사항이다",
     fr.falsificationCondition = "문서 열람금지가 수사 관련 법적 절차에 따른 정당한 조치였음을 보여주는 기록",
@@ -50,5 +51,5 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[layer5-language-weaponization-silence-as-murder]]
-- [[../layers/layer-5|Layer 5]]
+- [[layer5-language-weaponization-silence-as-murder]] (RELATED)
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

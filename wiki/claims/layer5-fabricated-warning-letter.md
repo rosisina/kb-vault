@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-004"})
 SET fr.layer = 5,
-    fr.claimType = "fabricated_official_document_title",
+    fr.claimType = "document_fabrication",
+    fr.claimSubtype = "fabricated_official_document_title",
     fr.claimDesc = "The 2022-05-23 경고장 (warning letter) issued by the MND Legal Affairs Office (법무관리관실) listed a non-existent job title for 한지훈 (행정정보화계획팀장 or similar), whereas his actual post since 2022-02-28 had been 자원정보화과. A non-existent title in an official legal document proves the letter was prepared without access to current personnel records — i.e., it was fabricated or prepared in coordination with parties who did not verify his actual posting.",
     fr.counterHypothesis = "The incorrect title was a clerical error reflecting use of an outdated personnel record, not deliberate fabrication — an administrative mistake rather than evidence of coordination or fabrication.",
     fr.falsificationCondition = "Production of the specific personnel record used as the source document when drafting the warning letter, showing it was an outdated record legitimately on file rather than a document created to match a predetermined narrative.",
@@ -73,9 +74,9 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[../layers/layer-5|Layer 5]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[layer5-park-seojun-nominal-complainant|layer5-park-seojun-nominal-complainant — 박서준 명의상 신고자]]
-- [[layer5-predetermined-audit-conclusion|layer5-predetermined-audit-conclusion — 조사본부 결론 사전 결정]]
-- [[../entities/organizations/gukjeonwon|국전원]]
-- [[../topics/whistleblower-protection-and-reform|Whistleblower Protection and Reform]]
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[layer5-park-seojun-nominal-complainant|layer5-park-seojun-nominal-complainant — 박서준 명의상 신고자]] (OPPOSES)
+- [[layer5-predetermined-audit-conclusion|layer5-predetermined-audit-conclusion — 조사본부 결론 사전 결정]] (OPPOSES)
+- [[../entities/organizations/gukjeonwon|국전원]] (ABOUT)
+- [[../topics/whistleblower-protection-and-reform|Whistleblower Protection and Reform]] (ABOUT)

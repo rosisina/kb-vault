@@ -7,6 +7,7 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L4-VOCABULARY-ERASURE"})
 SET fr.layer = 4,
     fr.claimType = "regulatory_manipulation",
+    fr.claimSubtype = "vocabulary_erasure",
     fr.claimDesc = "3대 용어 교체로 위반 사실의 지칭 자체를 불가능하게 만든 어휘적 증거 인멸.",
     fr.counterHypothesis = "국방 행정 표준화 정책에 따른 용어 통일",
     fr.falsificationCondition = "다른 중앙행정기관에서 2018년 이전에 동일 용어가 사용된 사례",
@@ -52,6 +53,6 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[directive-article-11-control-functions-stripped]]
-- [[2436ho-gukjeonwon-role-tier-renaming]]
-- [[../layers/layer-4|Layer 4]]
+- [[directive-article-11-control-functions-stripped]] (CORROBORATES)
+- [[2436ho-gukjeonwon-role-tier-renaming]] (RELATED)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-KAKAOTALK-SILENCE"})
 SET fr.layer = 5,
-    fr.claimType = "absence_of_speech_as_evidence",
+    fr.claimType = "witness_manipulation",
+    fr.claimSubtype = "absence_of_speech_as_evidence",
     fr.claimDesc = "KakaoTalk group chat records from 2019 to 2022 (Record No. 1,881, L3 range) show that every other member of 행정정보화과 routinely posted single-line attendance reports (late arrivals, sick leave, early departures). 한지훈 has exactly ZERO such posts in 3 years. Using Speech Act theory (화행론), the absence of notification speech acts (알림 화행) proves 한지훈 never deviated from normal working hours, because deviation is what triggers the notification. 이지영's claim that she 'does not remember' 한지훈's reporting is statistically impossible if he routinely departed without notice; it is however fully consistent with him always reporting (making each instance unremarkable). The book concludes: 이지영's '기억 안 남' paradoxically proves 한지훈 always reported.",
     fr.counterHypothesis = "한지훈 simply did not use the KakaoTalk group chat for attendance reporting and used other channels (phone, in-person), so the absence of chat records proves nothing about his attendance pattern.",
     fr.falsificationCondition = "Production of evidence that 한지훈 used alternative attendance reporting channels, or that other team members also had zero KakaoTalk attendance posts despite irregular attendance.",
@@ -72,8 +73,8 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[../layers/layer-5|Layer 5]]
-- [[layer5-investigation-bureau-pre-collusion-triple-conspiracy]] — 이지영 거짓 귀속 + 3조직 사전 공모
-- [[layer5-yang-mi-suk-silence-as-active-complicity]] — 양미숙 침묵: 출퇴근 관리 담당의 동조
-- [[layer5-kim-min-su-conspiracy-admission-sufficiently-discussed]] — 김민수 자백: 조사본부와의 사전 조율
-- [[lee-ji-young-double-play-park-seo-jun-incitement-han-ji-hoon-blocking]] — 이지영의 이중 플레이
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)
+- [[layer5-investigation-bureau-pre-collusion-triple-conspiracy]] — 이지영 거짓 귀속 + 3조직 사전 공모 (CORROBORATES)
+- [[layer5-yang-mi-suk-silence-as-active-complicity]] — 양미숙 침묵: 출퇴근 관리 담당의 동조 (CORROBORATES)
+- [[layer5-kim-min-su-conspiracy-admission-sufficiently-discussed]] — 김민수 자백: 조사본부와의 사전 조율 (RELATED)
+- [[lee-ji-young-double-play-park-seo-jun-incitement-han-ji-hoon-blocking]] — 이지영의 이중 플레이 (RELATED)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L1-FOUNDATION-7LAYER"})
 SET fr.layer = 1,
-    fr.claimType = "structural_framing",
+    fr.claimType = "methodology",
+    fr.claimSubtype = "structural_framing",
     fr.claimDesc = "L1=전체 7층위의 동기적 근간. 舊KIATIS 15년 인터넷 노출 은폐가 7층위 전체 범죄의 단일 동기.",
     fr.counterHypothesis = "각 층위의 부정행위는 L1 증거 인멸과 무관한 독립적 관료적 기능장애에 의해 동기 부여된다",
     fr.falsificationCondition = "L2-7 행위자들이 舊KIATIS 인터넷 노출을 인지하지 못했거나 관심 없었음을 보여주는 기록",
@@ -50,6 +51,6 @@ L2-7 행위자들이 舊KIATIS 인터넷 노출을 인지하지 못했거나 관
 
 ## Related
 
-- [[old-kiatis-hosted-inside-other-server-15-years]]
-- [[old-kiatis-direct-db-access-without-vpn]]
-- [[../layers/layer-1|Layer 1]]
+- [[old-kiatis-hosted-inside-other-server-15-years]] (RELATED)
+- [[old-kiatis-direct-db-access-without-vpn]] (RELATED)
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)

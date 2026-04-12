@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-CSR-011"})
 SET fr.layer = 1,
-    fr.claimType = "catch_all_duty",
+    fr.claimType = "procedural_violation",
+    fr.claimSubtype = "catch_all_duty",
     fr.claimDesc = "제45조 catch-all: 미등록→차단, 등록+취약→차단. 어느 경우든 15년 방치=위반.",
     fr.counterHypothesis = "舊KIATIS가 사이버자산 현황에 정상 등록되어 수용 가능 위험으로 분류되었다",
     fr.falsificationCondition = "DIDC의 사이버자산 현황에 舊KIATIS가 네트워크 구성과 위험 분류와 함께 등록된 기록",
@@ -50,6 +51,6 @@ DIDC의 사이버자산 현황에 舊KIATIS가 네트워크 구성과 위험 분
 
 ## Related
 
-- [[csr-annual-vulnerability-assessment-duty-violated]]
-- [[old-kiatis-direct-db-access-without-vpn]]
-- [[../layers/layer-1|Layer 1]]
+- [[csr-annual-vulnerability-assessment-duty-violated]] (CORROBORATES)
+- [[old-kiatis-direct-db-access-without-vpn]] (CORROBORATES)
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)

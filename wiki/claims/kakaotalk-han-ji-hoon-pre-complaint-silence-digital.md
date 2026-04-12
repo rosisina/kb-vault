@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-KKT-PRE-COMPLAINT-SILENCE"})
 SET fr.layer = 5,
-    fr.claimType = "digital_forensic_evidence",
+    fr.claimType = "technical_proof",
+    fr.claimSubtype = "digital_forensic_evidence",
     fr.claimDesc = "2022.2.3~14 한지훈 메시지 0건. 공식 신고(2.10) 이전 디지털 격리 가능성.",
     fr.counterHypothesis = "한지훈의 침묵은 일반적 포스팅 빈도와 일치하며 격리와 무관",
     fr.falsificationCondition = "전체 카카오톡 분석에서 한지훈이 2.3~14 기간에 포스팅한 기록, 또는 동일 패턴의 침묵이 다른 시기에도 존재",
@@ -50,6 +51,6 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[harassment-complaint-48hrs-premeditated-isolation]]
-- [[layer5-isolation-office-premeditated]]
-- [[../layers/layer-5|Layer 5]]
+- [[harassment-complaint-48hrs-premeditated-isolation]] (RELATED)
+- [[layer5-isolation-office-premeditated]] (RELATED)
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

@@ -7,7 +7,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-DARK-AUDIT-001"})
 SET fr.layer = 5,
-    fr.claimType = "procedural_rights_violation",
+    fr.claimType = "procedural_violation",
+    fr.claimSubtype = "procedural_rights_violation",
     fr.claimDesc = "조사본부의 갑질 조사는 '깜깜이 수사'의 세 가지 차원(절차적 불투명성, 정보적 차단, 증거적 비대칭)을 모두 사용하였다. 김민수의 PC 압수(기록 제11,040쪽)와 이지영의 PC 이동 차단(기록 제11,066쪽)은 한지훈이 31년간 보관한 모든 KIATIS 관련 증거에 대한 접근을 원천 차단한 것이다.",
     fr.counterHypothesis = "PC 압수와 이동 제한은 증거 보전을 위한 표준적 조사 절차이며, 갑질 조사의 비밀 유지는 피조사자와 신고자 모두를 보호하기 위한 조치이다.",
     fr.falsificationCondition = "PC 압수가 공식 증거보전 명령에 따른 것이며, 한지훈에게 압수 사유와 반환 절차가 고지되었음을 보여주는 문서가 제시되면, '깜깜이 수사'에서 '절차적 증거 보전'으로 재평가된다.",
@@ -72,9 +73,9 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[layer5-isolation-office-premeditated|독방 격리의 사전 계획성 — 깜깜이 수사의 물리적 기반]]
-- [[layer5-fabricated-warning-letter|허위 경고장 — 깜깜이 수사의 최종 산출물]]
-- [[layer5-48hr-retaliation-causal-link|48시간 내 보복 인과관계]]
-- [[layer5-park-seojun-nominal-complainant|박서준의 명목상 신고자 지위]]
-- [[../layers/layer-5|Layer 5 — 허위 갑질 신고와 조사본부의 조작 감사]]
-- [[../layers/layer-6|Layer 6 — 깜깜이 수사가 군 검찰단 사기수사의 모델이 됨]]
+- [[layer5-isolation-office-premeditated|독방 격리의 사전 계획성 — 깜깜이 수사의 물리적 기반]] (RELATED)
+- [[layer5-fabricated-warning-letter|허위 경고장 — 깜깜이 수사의 최종 산출물]] (OPPOSES)
+- [[layer5-48hr-retaliation-causal-link|48시간 내 보복 인과관계]] (RELATED)
+- [[layer5-park-seojun-nominal-complainant|박서준의 명목상 신고자 지위]] (RELATED)
+- [[../layers/layer-5|Layer 5 — 허위 갑질 신고와 조사본부의 조작 감사]] (PART_OF_LAYER)
+- [[../layers/layer-6|Layer 6 — 깜깜이 수사가 군 검찰단 사기수사의 모델이 됨]] (PART_OF_LAYER)

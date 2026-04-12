@@ -81,6 +81,21 @@ PAT_MERGE_NODE = re.compile(
 PAT_RESULT_ID = re.compile(r'resultId:\s*"([^"]+)"')
 PAT_FILENAME_SAFE = re.compile(r"[^\w.\-/]")
 
+# Relationship extraction from ## Related sections
+PAT_RELATED_LINK = re.compile(
+    r"- \[\[([^\]|]+)(?:\|[^\]]+)?\]\].*?\(([A-Z_]+)\)\s*$"
+)
+# Map wiki relationship types to Neo4j relationship types
+WIKI_TO_NEO4J_REL = {
+    "CAUSES": "CAUSES",
+    "OPPOSES": "OPPOSES",
+    "CORROBORATES": "CORROBORATES",
+    "SUPERSEDES": "SUPERSEDES",
+    "PART_OF_LAYER": "PART_OF_LAYER",
+    "ABOUT": "ABOUT",
+    "RELATED": "RELATED_TO",
+}
+
 
 # --------------------------------------------------------------------------- #
 # Load pseudonym mapping for defensive real-name scan
@@ -137,6 +152,28 @@ def extract_cypher_blocks(body: str) -> list[str]:
     return [m.group(1) for m in PAT_CYPHER_BLOCK.finditer(body)]
 
 
+def extract_typed_relationships(body: str) -> list[tuple[str, str]]:
+    """Extract (target_stem, rel_type) from ## Related section with (TYPE) tags."""
+    rels = []
+    in_related = False
+    for line in body.split("\n"):
+        if line.startswith("## Related"):
+            in_related = True
+            continue
+        if in_related and line.startswith("## "):
+            break
+        if not in_related:
+            continue
+        m = PAT_RELATED_LINK.match(line)
+        if m:
+            target = m.group(1).split("/")[-1]  # extract stem from path
+            rel_type = m.group(2)
+            if rel_type in ("PART_OF_LAYER", "ABOUT"):
+                continue  # these are handled by MERGE blocks, not atom-to-atom
+            rels.append((target, rel_type))
+    return rels
+
+
 def is_merge_block(block: str) -> bool:
     return "MERGE" in block and PAT_MERGE_NODE.search(block) is not None
 
@@ -167,6 +204,10 @@ def main() -> int:
     real_names = load_real_names()
 
     extracted: list[tuple[str, str | None, str]] = []  # (rel_path, result_id, block)
+    # stem → resultId mapping for relationship resolution
+    stem_to_rid: dict[str, str] = {}
+    # All typed relationships: (source_stem, target_stem, rel_type)
+    all_relationships: list[tuple[str, str, str]] = []
     files_scanned = 0
     files_with_cypher = 0
     blocks_skipped_no_merge = 0
@@ -186,6 +227,7 @@ def main() -> int:
         files_with_cypher += 1
 
         rel = str(path.relative_to(REPO_ROOT))
+        stem = path.stem
 
         for block in blocks:
             if not is_merge_block(block):
@@ -201,6 +243,13 @@ def main() -> int:
 
             result_id = extract_result_id(block)
             extracted.append((rel, result_id, block.rstrip()))
+            if result_id:
+                stem_to_rid[stem] = result_id
+
+        # Extract typed relationships from ## Related section
+        typed_rels = extract_typed_relationships(body)
+        for target_stem, rel_type in typed_rels:
+            all_relationships.append((stem, target_stem, rel_type))
 
     if not extracted:
         print("[error] no MERGE blocks extracted — aborting", file=sys.stderr)
@@ -220,6 +269,11 @@ def main() -> int:
     )
 
     lines: list[str] = [header, ""]
+
+    # Section 1: Node MERGEs
+    lines.append("// ═══════════════════════════════════════════════════════════════════════")
+    lines.append("// SECTION 1: FalsificationResult Node MERGEs")
+    lines.append("// ═══════════════════════════════════════════════════════════════════════")
     for rel, result_id, block in extracted:
         rid = result_id or "(no resultId — review)"
         lines.append("")
@@ -229,13 +283,35 @@ def main() -> int:
         lines.append(block)
         lines.append(";")
 
+    # Section 2: Typed Relationships
+    rel_count = 0
+    lines.append("")
+    lines.append("// ═══════════════════════════════════════════════════════════════════════")
+    lines.append("// SECTION 2: Typed Relationships (extracted from ## Related sections)")
+    lines.append("// ═══════════════════════════════════════════════════════════════════════")
+    for src_stem, tgt_stem, wiki_type in all_relationships:
+        src_rid = stem_to_rid.get(src_stem)
+        tgt_rid = stem_to_rid.get(tgt_stem)
+        if not src_rid or not tgt_rid:
+            continue  # skip if either atom not found
+        neo4j_type = WIKI_TO_NEO4J_REL.get(wiki_type, "RELATED_TO")
+        lines.append("")
+        lines.append(f"// {src_stem} -[:{neo4j_type}]-> {tgt_stem}")
+        lines.append(
+            f'MATCH (a:FalsificationResult {{resultId: "{src_rid}"}}), '
+            f'(b:FalsificationResult {{resultId: "{tgt_rid}"}}) '
+            f"MERGE (a)-[:{neo4j_type}]->(b);"
+        )
+        rel_count += 1
+
     OUTPUT_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     print(f"[ok] staged {OUTPUT_PATH}")
     print(
         f"     files_scanned={files_scanned}, with_cypher={files_with_cypher}, "
         f"extracted={len(extracted)}, skipped_no_merge={blocks_skipped_no_merge}, "
-        f"rejected_pseudonym={len(blocks_rejected_pseudonym)}"
+        f"rejected_pseudonym={len(blocks_rejected_pseudonym)}, "
+        f"relationships={rel_count}"
     )
 
     if blocks_rejected_pseudonym:

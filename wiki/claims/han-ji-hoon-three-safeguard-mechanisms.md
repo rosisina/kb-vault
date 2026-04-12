@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L3-THREE-SAFEGUARDS"})
 SET fr.layer = 3,
-    fr.claimType = "professional_competence",
+    fr.claimType = "methodology",
+    fr.claimSubtype = "professional_competence",
     fr.claimDesc = "3가지 제동장치: 국유단 실무자 상주, 요구사항 검토회의 정식화, 감리독립성 보장. 검찰의 과실 서사와 정반대.",
     fr.counterHypothesis = "3가지 조치는 일반적 사업관리 절차이며, 특별한 위험 인식이나 능동적 대응이 아니다",
     fr.falsificationCondition = "동일 시기 유사 사업에서 동일한 3가지 조치가 표준적으로 시행되었음을 보여주는 사례",
@@ -51,6 +52,6 @@ SET fr.layer = 3,
 
 ## Related
 
-- [[kiatis-project-deliberately-transferred-to-han-ji-hoon]]
-- [[gukjeonwon-pre-evaluation-team-leader-exclusion]]
-- [[../layers/layer-3|Layer 3]]
+- [[kiatis-project-deliberately-transferred-to-han-ji-hoon]] (RELATED)
+- [[gukjeonwon-pre-evaluation-team-leader-exclusion]] (RELATED)
+- [[../layers/layer-3|Layer 3]] (PART_OF_LAYER)

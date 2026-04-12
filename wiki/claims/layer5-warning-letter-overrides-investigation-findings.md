@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-WARNING-OVERRIDES-INVESTIGATION"})
 SET fr.layer = 5,
-    fr.claimType = "institutional_override",
+    fr.claimType = "institutional_obstruction",
+    fr.claimSubtype = "institutional_override",
     fr.claimDesc = "조사본부 자체 조사에서 붕괴된 주장이 경고장에 그대로 유지 — 결론 선행 증거.",
     fr.counterHypothesis = "경고장은 출퇴근 이외의 다른 갑질 사유를 반영한 것이며, 출퇴근 건은 경고장 근거에 포함되지 않았다",
     fr.falsificationCondition = "경고장의 구체적 사유 목록에 출퇴근 관련 항목이 없음을 보여주는 기록",
@@ -51,6 +52,6 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[warning-letter-reflects-only-lee-jiyoung]]
-- [[layer5-fabricated-warning-letter]]
-- [[../layers/layer-5|Layer 5]]
+- [[warning-letter-reflects-only-lee-jiyoung]] (RELATED)
+- [[layer5-fabricated-warning-letter]] (OPPOSES)
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

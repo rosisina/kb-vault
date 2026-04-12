@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-NON-PROSECUTION-CONTRADICTION"})
 SET fr.layer = 6,
-    fr.claimType = "prosecution_logical_contradiction",
+    fr.claimType = "prosecution_misconduct",
+    fr.claimSubtype = "prosecution_logical_contradiction",
     fr.claimDesc = "군 검찰단의 불기소 이유서는 위계공무집행방해로 기소유예 처분을 내리면서 동시에 'KIATIS는 99.73점을 받아 제안요구서 기능을 대부분 충족'이라고 인정하여, 논리적으로 양립 불가능한 모순을 내포한다. 국가계약법에 의한 용역사업 평가위원회에서 적합 판정을 받은 합법적 행위가 범죄가 될 수 없다",
     fr.counterHypothesis = "기소유예의 범죄사실과 99.73점 성공은 별개의 쟁점이며, 환경 구성의 하자와 사업 결과의 품질은 독립적으로 판단할 수 있다",
     fr.falsificationCondition = "위계공무집행방해의 성립이 사업 결과의 성공 여부와 무관하게 절차적 하자만으로 인정될 수 있다는 판례 또는 법리의 제시",
@@ -62,7 +63,7 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[prosecution-identity-fallacy-deception-technique]] — L6 동일성 오류
-- [[prosecution-non-prosecution-identity-error-fraud]] — L6 불기소 사기
-- [[prosecution-distorts-operational-vs-test-environment]] — L6 환경 왜곡
-- [[../layers/layer-6|Layer 6]]
+- [[prosecution-identity-fallacy-deception-technique]] — L6 동일성 오류 (CORROBORATES)
+- [[prosecution-non-prosecution-identity-error-fraud]] — L6 불기소 사기 (CORROBORATES)
+- [[prosecution-distorts-operational-vs-test-environment]] — L6 환경 왜곡 (CORROBORATES)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-KIATIS-002"})
 SET fr.layer = 4,
-    fr.claimType = "regulatory_temporal_binding",
+    fr.claimType = "regulatory_manipulation",
+    fr.claimSubtype = "regulatory_temporal_binding",
     fr.claimDesc = "KIATIS 성능개선사업 conduct (2018–2019) is governed by the directive in force at the time of contracting and conduct — 제2129호 (2018-02-05) — under both 국가계약법 RFP-binds-lifecycle principles and the criminal-law 행위시법주의 (lex temporis delicti) doctrine. Subsequent revisions (제2263호 onward) do not apply to KIATIS conduct.",
     fr.counterHypothesis = "Procedural directives are framework rules that apply to current administrative review regardless of when the underlying conduct occurred; 제2436호's regime can be applied to 2018–2019 KIATIS conduct because the 2022 review is itself a 2022 administrative act",
     fr.falsificationCondition = "Production of (a) Korean administrative case law treating defense IT directives as procedural framework rules retroactively applicable to historical conduct, OR (b) a 국가계약법 ruling permitting post-contract directive substitution by the procuring agency",
@@ -85,11 +86,11 @@ If items 1 or 2 are produced, the verdict downgrades to WEAKENED. Items 3 and 4 
 
 ## Related
 
-- [[kiatis-2129ho-main-regime-applies|paired: 제58조 ¶2 main regime]]
-- [[2436ho-test-evaluation-principle-inverted|the principle KIATIS conduct must NOT be measured by]]
-- [[2436ho-dtne-articles-erased|the deletion KIATIS conduct must NOT be measured by]]
-- [[../events/2018-2019-kiatis-performance-improvement-project|KIATIS event page]]
-- [[../layers/layer-4|Layer 4]]
-- [[../layers/layer-6|Layer 6]]
-- [[../topics/fraud-investigation|Fraud Investigation]]
-- [[../topics/kiatis-systems|KIATIS Systems]]
+- [[kiatis-2129ho-main-regime-applies|paired: 제58조 ¶2 main regime]] (CORROBORATES)
+- [[2436ho-test-evaluation-principle-inverted|the principle KIATIS conduct must NOT be measured by]] (CORROBORATES)
+- [[2436ho-dtne-articles-erased|the deletion KIATIS conduct must NOT be measured by]] (CORROBORATES)
+- [[../events/2018-2019-kiatis-performance-improvement-project|KIATIS event page]] (ABOUT)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)
+- [[../topics/fraud-investigation|Fraud Investigation]] (ABOUT)
+- [[../topics/kiatis-systems|KIATIS Systems]] (ABOUT)

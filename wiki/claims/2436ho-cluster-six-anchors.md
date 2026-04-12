@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-CLUSTER-2436"})
 SET fr.layer = 4,
-    fr.claimType = "regulatory_revision_cluster",
+    fr.claimType = "regulatory_manipulation",
+    fr.claimSubtype = "regulatory_revision_cluster",
     fr.claimDesc = "국방정보화업무 훈령 제2436호 (2020-06-04) is a single-revision cluster of eight simultaneous anchor movements that collectively rebuild the directive's test-evaluation regime, with no other revision in 2017–2025 matching its magnitude. Six of the eight anchors (A8a, A8b, A11, A12, A9, A10) concentrate on 제57조~제61조 alone — the 시험평가 regime was the specific target. Originally framed as a six-anchor cluster in the 2026-04-11 calibration ingest; expanded to eight anchors later the same day after P6 blind re-measurement of 제57조 full text surfaced the DT&E-side symmetry (A11: 사업관리기관 binding erasure) and the DT&E result-judgment deletion (A12: 합격/불합격 clause erasure) that the original A8b atom (OT&E only) did not capture",
     fr.counterHypothesis = "The eight co-occurring movements at 제2436호 are statistically expected for a major revision and reflect periodic restructuring rather than coordinated rebuild",
     fr.falsificationCondition = "Demonstration that any of the eight other revisions in the dataset (제2263호, 제2398호, 제2576호, 제2649호, 제2842호, 제2946호, 제3059호, 제3080호) contains eight or more simultaneous anchor movements, or that the A11/A12 additions are reclassification rather than genuine new findings",
@@ -84,12 +85,12 @@ If item 1 is produced, the verdict downgrades to WEAKENED. If item 2 is produced
 
 ## Related
 
-- [[2436ho-didc-naming-anchor-removed|A1: DIDC naming anchor removed]]
-- [[2436ho-gukjeonwon-role-tier-renaming|A2: role-tier renaming]]
-- [[2398-2842ho-otne-environment-hedge-flipflop|A8a: OT&E environment hedge flip-flop]]
-- [[2436ho-otne-sponsor-binding-erased|A8b: OT&E sponsor binding erased]]
-- [[2436ho-test-evaluation-principle-inverted|A9: separation principle inverted]]
-- [[2436ho-dtne-articles-erased|A10: DT&E articles erased]]
-- [[../regulations/defense-it-operations-directive-2129|Hub: 훈령 제2129호]]
-- [[../topics/test-evaluation-manipulation|Test Evaluation Manipulation]]
-- [[../layers/layer-4|Layer 4]]
+- [[2436ho-didc-naming-anchor-removed|A1: DIDC naming anchor removed]] (CORROBORATES)
+- [[2436ho-gukjeonwon-role-tier-renaming|A2: role-tier renaming]] (SUPERSEDES)
+- [[2398-2842ho-otne-environment-hedge-flipflop|A8a: OT&E environment hedge flip-flop]] (SUPERSEDES)
+- [[2436ho-otne-sponsor-binding-erased|A8b: OT&E sponsor binding erased]] (SUPERSEDES)
+- [[2436ho-test-evaluation-principle-inverted|A9: separation principle inverted]] (SUPERSEDES)
+- [[2436ho-dtne-articles-erased|A10: DT&E articles erased]] (SUPERSEDES)
+- [[../regulations/defense-it-operations-directive-2129|Hub: 훈령 제2129호]] (ABOUT)
+- [[../topics/test-evaluation-manipulation|Test Evaluation Manipulation]] (ABOUT)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

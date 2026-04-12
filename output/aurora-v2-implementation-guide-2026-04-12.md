@@ -99,8 +99,8 @@ v2 (확정):
   ],
   "meta": {
     "generated": "2026-04-12T...",
-    "atomCount": 112,
-    "commitSha": "2e26162...",
+    "atomCount": 260,
+    "commitSha": "6fd2d6b...",
     "schemaVersion": "2.0"
   }
 }
@@ -569,7 +569,7 @@ $mono:       'JetBrains Mono', monospace;  // Record No., Cypher
 │         │  1  ████  Active-X 舊KIATIS 이력 제거  │        │
 │         └────────────────────────────────────────┘        │
 │                                                         │
-│         112 atoms · 13,495 records · 42 persons          │
+│         260 atoms · 933 record citations · 42 persons     │
 │         (text-tertiary)                                  │
 │                                                         │
 │    ┌────────────────────────────────────────────────┐    │
@@ -801,10 +801,14 @@ function applyProofLevel(cy: cytoscape.Core, level: ProofLevel) {
 
 ### 2.1 현황 대조
 
-현재 wiki atom 112개 전수 조사 결과:
-- **112개 전부** `FalsificationResult` MERGE 블록 보유
+현재 wiki atom 260개 전수 조사 결과 (Checkpoint 2 선언 기준, commit `6fd2d6b`):
+- **260개 전부** `FalsificationResult` MERGE 블록 보유
 - resultId 패턴: `FR-L{N}-{ID}` (예: `FR-L6-003`, `FR-L4-A8a-001`, `FR-L1-DIDC-007`)
 - 모든 atom에 `verdict`, `truthfulness`, `validity`, `sincerity`, `counterHypothesis`, `falsificationCondition` 포함
+- verdict 분포: **134 strong / 21 moderate / 92 NME** (12 기타)
+- 모순 쌍: **213 Open** (`wiki/_contradictions.md`)
+- Record No. 인용: **933 unique** (584 파일 내 인용)
+- 원천 소스: **9/9 raw 폴더** 전량 처리 완료
 
 ### 2.2 스키마 갭 분석 — 변경 필요 항목
 
@@ -1035,7 +1039,7 @@ MERGE (fr)-[:OPPOSES {
 
 | 작업 | 설명 | 의존성 |
 |---|---|---|
-| 1a | `atoms-to-graph-json.py` 작성: atom → graph.json (정적 UI용) | atom 112개 (충족) |
+| 1a | `atoms-to-graph-json.py` 작성: atom → graph.json (정적 UI용) | atom 260개 (충족, Checkpoint 2 완료) |
 | 1b | `atoms-to-cypher.py` 업데이트: OPPOSES, CITES_RECORD, roleAnchors | 1a와 병행 |
 | 1c | graph.json 검증: Proof Level 1/2/3 필터 테스트 (Node.js 스크립트) | 1a |
 | 1d | `build-record-index.py` 실행 → `_record-index.md` 갱신 | 1a |

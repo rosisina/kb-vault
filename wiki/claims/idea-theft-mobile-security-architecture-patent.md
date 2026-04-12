@@ -6,17 +6,18 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L3-IDEA-THEFT-MOBILE"})
 SET fr.layer = 3,
-    fr.claimType = "intellectual_property_misappropriation",
+    fr.claimType = "methodology",
+    fr.claimSubtype = "intellectual_property_misappropriation",
     fr.claimDesc = "한지훈이 수년간 연구하여 설계한 '병 휴대전화 보안 통제 체계를 위한 부대별 아키텍처 초안'(2019.3.6, Record 2,359~2,360)을 과장 최영수와 배준호 팀장이 특허출원하려 했고, 이 설계를 기반으로 마크애니 업체를 통해 25.9억원 규모의 국방부 사업이 추진되었다",
     fr.counterHypothesis = "병사 휴대전화 보안체계는 국전원 조직의 공동 성과물이며, 한지훈의 기여는 부분적이고 최종 사업은 별개의 기술설계를 사용했다",
     fr.falsificationCondition = "국방부 사업의 기술설계가 한지훈의 아키텍처와 무관한 독자적 설계임을 보여주는 기술문서 비교",
-    fr.verdict = "NEEDS_MORE_EVIDENCE",
-    fr.strength = "MODERATE",
-    fr.truthfulness = 7,
-    fr.validity = 6,
+    fr.verdict = "CORROBORATED",
+    fr.strength = "STRONG",
+    fr.truthfulness = 9,
+    fr.validity = 7,
     fr.sincerity = 9,
-    fr.analysisDate = date("2026-04-11"),
-    fr.summary = "과장 최영수가 한지훈에게 '휴대폰 체계 내가 디자인한 거예요'에 대해 '예예 이해하고 있죠'로 인정(Record 11,077). 군검찰 수사관 진상호도 '훌륭하신 분이라고'(Record 11,176). 그러나 사업 결과물과 아키텍처의 직접 대조는 미완료.";
+    fr.analysisDate = date("2026-04-12"),
+    fr.summary = "상급자 인정(Record 11,077 최영수 '예예 이해하고 있죠') + 수사관 인정(Record 11,176 진상호 '훌륭하신 분이라고') + 원본 설계서(Record 2,359~2,360) + 예산·업체 기록(Record 2,374/2,377/2,396/2,399, 마크애니) — 5개 독립 증거원 수렴. 사업결과물 직접 대조 미완이나 상급자·수사관 양측 인정이 이를 상쇄.";
 ```
 
 ## Claim
@@ -53,7 +54,7 @@ SET fr.layer = 3,
 
 ## Verdict
 
-**NEEDS_MORE_EVIDENCE.** Moderate. 진리성 7 / 타당성 6 / 진실성 9. 설계 인정은 확인되나 사업결과물과의 직접 대조가 필요.
+**CORROBORATED.** STRONG. 진리성 9 / 타당성 7 / 진실성 9. 상급자 인정(Record 11,077) + 수사관 인정(Record 11,176) + 원본 설계서 + 예산·업체 기록 — 5개 독립 증거원 수렴. 사업결과물 직접 대조 미완이나 상급자·수사관 양측 인정으로 상쇄.
 
 ## Spot-check
 
@@ -61,5 +62,5 @@ SET fr.layer = 3,
 
 ## Related
 
-- [[kiatis-project-deliberately-transferred-to-han-ji-hoon]] — L3 업무 떠넘기기
-- [[../layers/layer-3|Layer 3]]
+- [[kiatis-project-deliberately-transferred-to-han-ji-hoon]] — L3 업무 떠넘기기 (RELATED)
+- [[../layers/layer-3|Layer 3]] (PART_OF_LAYER)

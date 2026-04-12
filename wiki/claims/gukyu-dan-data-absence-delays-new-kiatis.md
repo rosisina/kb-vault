@@ -7,7 +7,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-DATA-ABSENCE-001"})
 SET fr.layer = 6,
-    fr.claimType = "deliberate_delay_mechanism",
+    fr.claimType = "temporal_manipulation",
+    fr.claimSubtype = "deliberate_delay_mechanism",
     fr.claimDesc = "국유단(MKIA)의 최종 감리결과보고서(2019.9.)에 '연계 데이터 생성 불가'로 지적된 문제(기록 제2,610쪽~제2,623쪽)가 수사 시점인 2022년 2월까지 해소되지 않았으며, 동시에 평가위원회의 불법적 80건 추가 요구사항(기록 제3,039쪽)도 미완료 상태였다는 사실(기록 제11,322쪽~제11,345쪽)이 전력화 지연의 직접 원인이다.",
     fr.counterHypothesis = "연계 데이터 미구축과 80건 미완료는 기술적 한계와 예산 부족의 자연스러운 결과이며, 의도적 지연이 아닌 정상적 사업 관리의 지체이다.",
     fr.falsificationCondition = "국유단이 2019~2022년 사이 연계 데이터 구축을 위한 예산 요청 또는 사업 추진 문서를 생산했음을 보여주는 공식 기록이 제시되면 의도적 방치 주장이 약화된다.",
@@ -72,8 +73,8 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[cross-atom-99-7-plus-80items-plus-data-absence|2 shared records — 99.7점 + 80건 + 데이터 부재 복합]]
-- [[cartel-requirement-inflation-80-items-delay|FR-L6-007 — 80건 불법 의결에 의한 전력화 지연 (자매 원자)]]
-- [[layer4-evaluation-committee-80-items-violation|FR-L4-EVAL-80-001 — 99.7점과 80건 동시 의결의 절차적 모순 (L4 자매 원자)]]
-- [[../layers/layer-6|Layer 6 — 군 검찰단의 사기 수사와 범죄자 낙인]]
-- [[../layers/layer-4|Layer 4 — 新KIATIS 개발·운영·시험평가 전·중·후 조작]]
+- [[cross-atom-99-7-plus-80items-plus-data-absence|2 shared records — 99.7점 + 80건 + 데이터 부재 복합]] (RELATED)
+- [[cartel-requirement-inflation-80-items-delay|FR-L6-007 — 80건 불법 의결에 의한 전력화 지연 (자매 원자)]] (CORROBORATES)
+- [[layer4-evaluation-committee-80-items-violation|FR-L4-EVAL-80-001 — 99.7점과 80건 동시 의결의 절차적 모순 (L4 자매 원자)]] (RELATED)
+- [[../layers/layer-6|Layer 6 — 군 검찰단의 사기 수사와 범죄자 낙인]] (PART_OF_LAYER)
+- [[../layers/layer-4|Layer 4 — 新KIATIS 개발·운영·시험평가 전·중·후 조작]] (PART_OF_LAYER)

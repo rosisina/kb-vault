@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L1-DIDC-005"})
 SET fr.layer = 1,
-    fr.claimType = "procedural_artifact_mandatory",
+    fr.claimType = "procedural_violation",
+    fr.claimSubtype = "procedural_artifact_mandatory",
     fr.claimDesc = "DIDC 부대예규 제11호 Chapter 8 (백업/복구관리, 제70~94조) imposes a 25-article backup management regime including 백업정책 수립 (제79조), 백업수행 (제81조), 백업매체 소산 (제84조 — off-site storage), and 백업결과 확인 및 통보 (제85조). For the 2016 DIDC hacking incident period, backups created prior to and during the incident must exist as physical media at off-site storage. Either (a) the backups exist and contain forensically valuable pre-tampering data of the breached systems, OR (b) the backups have been destroyed or are missing, in which case their destruction must itself be documented under DIDC's media disposal procedures (제77조 매체 등록/변경/폐기). Both possibilities are testable; the absence of either preserved backups OR documented destruction is direct Layer 1 cover-up evidence",
     fr.counterHypothesis = "The 2016 incident-period backups were destroyed under proper procedure with full disposal documentation (which would itself need verification), OR the backup retention period had expired by the time of investigation",
     fr.falsificationCondition = "Production of (a) the 2016 incident-period backup media with verifiable contents, OR (b) complete 제77조 disposal documentation for those backup media with proper authorization chain",
@@ -120,10 +121,10 @@ If item 1 is produced, the verdict downgrades to WEAKENED (the backup-cover-up t
 
 ## Related
 
-- [[../regulations/didc-info-system-operation-sop-11|DIDC SOP 제11호]]
-- [[didc-sops-cover-2016-hacking-period|sister atom: SOP duty floor]]
-- [[didc-sop-incident-report-mandatory|sister atom: 별지 제4호 incident report]]
-- [[didc-sop-firewall-vpn-trail-mandatory|sister atom: firewall/VPN trail]]
-- [[didc-sop-11-change-management-trail-mandatory|sister atom: change management trail]]
-- [[../entities/organizations/didc|DIDC]]
-- [[../layers/layer-1|Layer 1]]
+- [[../regulations/didc-info-system-operation-sop-11|DIDC SOP 제11호]] (ABOUT)
+- [[didc-sops-cover-2016-hacking-period|sister atom: SOP duty floor]] (CORROBORATES)
+- [[didc-sop-incident-report-mandatory|sister atom: 별지 제4호 incident report]] (CORROBORATES)
+- [[didc-sop-firewall-vpn-trail-mandatory|sister atom: firewall/VPN trail]] (CORROBORATES)
+- [[didc-sop-11-change-management-trail-mandatory|sister atom: change management trail]] (CORROBORATES)
+- [[../entities/organizations/didc|DIDC]] (ABOUT)
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)

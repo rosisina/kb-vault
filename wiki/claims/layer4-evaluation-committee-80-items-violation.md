@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-EVAL-80-001"})
 SET fr.layer = 4,
-    fr.claimType = "test_evaluation_procedural_violation",
+    fr.claimType = "procedural_violation",
+    fr.claimSubtype = "test_evaluation_procedural_violation",
     fr.claimDesc = "The 新KIATIS 개발운용시험평가위원회 simultaneously issued a 99.7-point 군사용 적합 verdict AND resolved 80 additional requirements at the same evaluation session (기록 제3,039쪽~제3,041쪽). This is a Layer 4 test-evaluation manipulation finding: a 성공 판정 is the terminal act of the evaluation process, and approving 80 new functional requirements in the same session internally contradicts the declaration that requirements were met — violating 훈령 제2129호 제63조 corrective-action regime.",
     fr.counterHypothesis = "The 80 additional items were a routine user-requirements supplement recognized by the committee as outside the evaluation's scope but necessary for operational deployment; the 성공 판정 referred to the RFP-specified scope, while the 80 items constituted a separate scope expansion, not a finding of deficiency in the evaluated scope.",
     fr.falsificationCondition = "Production of (a) evaluation committee minutes distinguishing the 성공 판정 from the 80-item resolution as formally separate agenda items with distinct legal basis, OR (b) documentation showing the 80 items were processed through the 제2129호 제63조 ¶2 corrective-action-with-사업통제기관-approval channel rather than a unilateral committee vote.",
@@ -99,12 +100,12 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[cartel-requirement-inflation-80-items-delay|FR-L6-007 — Layer 6 sister atom: 80건이 전력화 지연 메커니즘으로 작동한 과정]]
-- [[2436ho-test-evaluation-principle-inverted|FR-L4-A9-001 — 시험평가 원칙 역전 (분리→통합)]]
-- [[han-ji-hoon-prosecution-violates-2129-role-separation|역할 분리 위반 — 사업관리팀장이 시험평가 주체가 아닌 근거]]
-- [[prosecution-misapplies-2129-article-58-4-to-kiatis|제58조 ¶4 misapplication]]
-- [[../events/2022-10-07-non-prosecution-decision|2022-10-07 불기소이유서 — 99.7점 독립 확인 문서]]
-- [[../events/2018-2019-kiatis-performance-improvement-project|KIATIS 성능개선사업 허브]]
-- [[../regulations/defense-it-2129-article-63|제63조 — 운용시험평가 수행, 수정보완 재시험 채널]]
-- [[../layers/layer-4|Layer 4 — 시험평가 전·중·후 조작]]
-- [[../layers/layer-6|Layer 6 — 군 검찰단의 사기 수사]]
+- [[cartel-requirement-inflation-80-items-delay|FR-L6-007 — Layer 6 sister atom: 80건이 전력화 지연 메커니즘으로 작동한 과정]] (RELATED)
+- [[2436ho-test-evaluation-principle-inverted|FR-L4-A9-001 — 시험평가 원칙 역전 (분리→통합)]] (RELATED)
+- [[han-ji-hoon-prosecution-violates-2129-role-separation|역할 분리 위반 — 사업관리팀장이 시험평가 주체가 아닌 근거]] (RELATED)
+- [[prosecution-misapplies-2129-article-58-4-to-kiatis|제58조 ¶4 misapplication]] (RELATED)
+- [[../events/2022-10-07-non-prosecution-decision|2022-10-07 불기소이유서 — 99.7점 독립 확인 문서]] (ABOUT)
+- [[../events/2018-2019-kiatis-performance-improvement-project|KIATIS 성능개선사업 허브]] (ABOUT)
+- [[../regulations/defense-it-2129-article-63|제63조 — 운용시험평가 수행, 수정보완 재시험 채널]] (ABOUT)
+- [[../layers/layer-4|Layer 4 — 시험평가 전·중·후 조작]] (PART_OF_LAYER)
+- [[../layers/layer-6|Layer 6 — 군 검찰단의 사기 수사]] (PART_OF_LAYER)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L1-DIDC-007"})
 SET fr.layer = 1,
-    fr.claimType = "procedural_artifact_approval_chain_violation",
+    fr.claimType = "procedural_violation",
+    fr.claimSubtype = "procedural_artifact_approval_chain_violation",
     fr.claimDesc = "The 2019-08-26 firewall policy change request for KIATIS test evaluation was drafted by 이준호 (대위), reviewed by 한지훈 at 17:38:29 on 2019-08-26, and approved by 최영수 (행정정보화과장) at 17:51:26 the same day. However, DIDC SOP 제12호 제37조 ① explicitly requires firewall policy changes (별지 제6호) to be approved by 정보보호과장 (information protection section chief), NOT 행정정보화과장 (administrative IT section chief). The approval chain on the actual KIATIS firewall change form therefore violates the SOP's required approval authority — meaning the form exists but its approval signature is procedurally defective",
     fr.counterHypothesis = "The DIDC SOP version in force in 2019 (a pre-2018-12-01 revision) named 행정정보화과장 as the approver, OR the 2019 KIATIS firewall change was specifically delegated to 행정정보화과장 by 정보보호과장 in writing",
     fr.falsificationCondition = "Production of (a) the pre-2019 DIDC SOP revision text showing 행정정보화과장 (or equivalent) as the named approver, OR (b) a written delegation document from 정보보호과장 to 행정정보화과장 dated before 2019-08-26",
@@ -98,11 +99,11 @@ If item 1 or 2 shows 정보보호과장 as the approver, the verdict elevates to
 
 ## Related
 
-- [[didc-sop-firewall-vpn-trail-mandatory|sister atom: firewall/VPN trail mandatory (this atom focuses on the trail's defect, not its absence)]]
-- [[../regulations/didc-cyber-protection-sop-12|DIDC SOP 제12호]]
-- [[han-ji-hoon-prosecution-violates-2129-role-separation|paired Layer 6 atom: the prosecution relied on this defective form to charge 한지훈]]
-- [[prosecution-misapplies-2129-article-58-4-to-kiatis|paired Layer 6 atom: prosecution legal misapplication]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[../entities/organizations/didc|DIDC]]
-- [[../layers/layer-1|Layer 1]]
-- [[../layers/layer-6|Layer 6]]
+- [[didc-sop-firewall-vpn-trail-mandatory|sister atom: firewall/VPN trail mandatory (this atom focuses on the trail's defect, not its absence)]] (CORROBORATES)
+- [[../regulations/didc-cyber-protection-sop-12|DIDC SOP 제12호]] (ABOUT)
+- [[han-ji-hoon-prosecution-violates-2129-role-separation|paired Layer 6 atom: the prosecution relied on this defective form to charge 한지훈]] (RELATED)
+- [[prosecution-misapplies-2129-article-58-4-to-kiatis|paired Layer 6 atom: prosecution legal misapplication]] (RELATED)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[../entities/organizations/didc|DIDC]] (ABOUT)
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

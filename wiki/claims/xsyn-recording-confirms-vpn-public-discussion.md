@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-XSYN-VPN-PUBLIC"})
 SET fr.layer = 6,
-    fr.claimType = "cross_source_synthesis",
+    fr.claimType = "cross_layer_analysis",
+    fr.claimSubtype = "cross_source_synthesis",
     fr.claimDesc = "녹취(raw/02)가 VPN 공개 논의를 확인 → 영장(raw/05)의 '은폐' 주장을 독립 반박.",
     fr.counterHypothesis = "2022 회의는 2019 시험평가 우회와 별개이며, 운영상 VPN 문제 인식과 시험환경 VPN 우회 은폐는 별개 사실이다",
     fr.falsificationCondition = "한지훈이 평가위원에게 VPN 우회를 구체적으로 숨기라고 지시한 기록",
@@ -51,6 +52,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[firewall-port-opening-standard-it-procedure]]
-- [[prosecution-distorts-operational-vs-test-environment]]
-- [[../layers/layer-6|Layer 6]]
+- [[firewall-port-opening-standard-it-procedure]] (CORROBORATES)
+- [[prosecution-distorts-operational-vs-test-environment]] (CORROBORATES)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-LEEJUNHO-FALSE-TESTIMONY"})
 SET fr.layer = 6,
-    fr.claimType = "witness_self_contradiction",
+    fr.claimType = "witness_manipulation",
+    fr.claimSubtype = "witness_self_contradiction",
     fr.claimDesc = "이준호 (공모자-1)는 '실제 기반운영환경에서는 DB에 바로 접근하는 방식으로 운용할 수 없다'(Record 1,171)고 진술하였으나, 시험평가 종료 3주 후인 2019.10.2에 자신이 작성한 방화벽 정책 요청서(Record 6,168)는 舊KIATIS와 新KIATIS 모두에 대해 VPN 없이 DB 직접접속을 요청하고 있어, 자신의 진술을 직접 반박한다",
     fr.counterHypothesis = "이준호의 진술은 '정상적 운용환경에서는 DB 직접접속이 불가능해야 한다'는 당위적 진술이며, 2019.10.2 요청서는 임시 조치였다",
     fr.falsificationCondition = "이준호의 2019.10.2 방화벽 요청이 예외적 임시 조치였음을 보여주는 DIDC 승인 기록",
@@ -57,6 +58,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[firewall-requests-confirm-no-vpn-db-direct-access]] — L4 방화벽 추가 증거
-- [[prosecution-identity-fallacy-deception-technique]] — L6 동일성 오류
-- [[../layers/layer-6|Layer 6]]
+- [[firewall-requests-confirm-no-vpn-db-direct-access]] — L4 방화벽 추가 증거 (OPPOSES)
+- [[prosecution-identity-fallacy-deception-technique]] — L6 동일성 오류 (OPPOSES)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

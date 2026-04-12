@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-011"})
 SET fr.layer = 4,
-    fr.claimType = "conspiracy_evidence_evaluation_manipulation",
+    fr.claimType = "conspiracy_structure",
+    fr.claimSubtype = "conspiracy_evidence_evaluation_manipulation",
     fr.claimDesc = "During the 新KIATIS operational test-evaluation, the evaluation committee requested Active-X removal from 국유단 (project-control agency) citing audit results (Record No. 5,950–5,953), and the 국유단장 immediately approved (Record No. 3,068). Instant approval of a new requirement during an ongoing evaluation is evidence of a pre-arranged scenario between the two organizations. The evaluation committee's transfer of evaluation content to 국유단 destroyed the independence essential to test-evaluation.",
     fr.counterHypothesis = "The Active-X removal request was an urgent operational need identified during legitimate evaluation, and rapid approval reflected efficient decision-making rather than pre-coordination.",
     fr.falsificationCondition = "Documentation showing the Active-X removal request went through normal deliberation channels with recorded discussion, objections, or delays before approval, demonstrating independent decision-making rather than a rubber-stamp process.",
@@ -71,9 +72,9 @@ Active-X 제거 요청은 시험평가 과정에서 자연스럽게 발견된 �
 
 ## Related
 
-- [[../layers/layer-4|Layer 4]]
-- [[layer4-test-evaluation-separation-principle-directive-2129|훈령 제2129호 시험평가 분리 원칙]]
-- [[article-58-separation-to-integration-2020-directive-manipulation|제58조 분리→통합 조작]]
-- [[layer4-evaluation-committee-80-items-violation|평가위원회 80건 위반]]
-- [[../entities/organizations/gukyudan|국유단]]
-- [[../events/2016-didc-north-korean-hacking|2016 DIDC North Korean Hacking]]
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)
+- [[layer4-test-evaluation-separation-principle-directive-2129|훈령 제2129호 시험평가 분리 원칙]] (RELATED)
+- [[article-58-separation-to-integration-2020-directive-manipulation|제58조 분리→통합 조작]] (RELATED)
+- [[layer4-evaluation-committee-80-items-violation|평가위원회 80건 위반]] (RELATED)
+- [[../entities/organizations/gukyudan|국유단]] (ABOUT)
+- [[../events/2016-didc-north-korean-hacking|2016 DIDC North Korean Hacking]] (ABOUT)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L1-DIDC-SCENE-PRESERVATION"})
 SET fr.layer = 1,
-    fr.claimType = "procedural_duty_mandatory",
+    fr.claimType = "procedural_violation",
+    fr.claimSubtype = "procedural_duty_mandatory",
     fr.claimDesc = "제21-23조: 현장보존+합동분석팀+탐지대응기록 3중 의무. 2016 사건에서 이 기록들이 존재해야 함.",
     fr.counterHypothesis = "2016 사건이 사이버작전사령부에 의해 처리되어 DIDC 자체 침해대응 절차가 적용되지 않았다",
     fr.falsificationCondition = "2016 현장보존 기록, 합동분석팀 구성·운영 기록, 탐지·대응·조치 기록일지의 제시",
@@ -51,6 +52,6 @@ DIDC 부대예규 제12호 제21조①은 불법접근·해킹 흔적 발견 시
 
 ## Related
 
-- [[didc-sops-cover-2016-hacking-period]]
-- [[didc-sop-incident-report-mandatory]]
-- [[../layers/layer-1|Layer 1]]
+- [[didc-sops-cover-2016-hacking-period]] (CORROBORATES)
+- [[didc-sop-incident-report-mandatory]] (CORROBORATES)
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)

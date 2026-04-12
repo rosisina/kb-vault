@@ -6,7 +6,8 @@
 **Aurora node:**
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-021"})
-SET fr.layer = 6, fr.claimType = "process",
+SET fr.layer = 6, fr.claimType = "methodology",
+    fr.claimSubtype = "process",
     fr.claimDesc = "2019년 9월 시험평가위원회의 99.7점 성공적 평가 결과 이후, 80건 추가 요구사항 의결과 2020년 국방정보화업무훈령 개악을 통해 성공 결과를 무력화하고 전력화를 지연시키는 1단계 공작이 실행되었다",
     fr.counterHypothesis = "80건 추가 요구사항은 시험평가위원회의 정당한 기술적 판단이었으며, 훈령 개정은 시험평가 제도 개선을 위한 통상적 절차였다",
     fr.falsificationCondition = "80건 추가 요구사항이 기술적으로 합리적이고 표준적인 요구 수준이었음을 독립적 기술 평가로 증명하거나, 훈령 개정이 新KIATIS 사안과 무관하게 추진되었음을 증명하면 약화된다",
@@ -66,8 +67,8 @@ SET fr.layer = 6, fr.claimType = "process",
 
 ## Related
 
-- [[../layers/layer-6|Layer 6 — 군 검찰단의 사기 수사와 범죄자 낙인]]
-- [[../layers/layer-4|Layer 4 — 新KIATIS 개발·운영·시험평가 전·중·후 조작]]
-- [[../entities/people/kim-min-su|김민수]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[cartel-requirement-inflation-80-items-delay|카르텔 추가요구사항 80건 지연 공작]]
+- [[../layers/layer-6|Layer 6 — 군 검찰단의 사기 수사와 범죄자 낙인]] (PART_OF_LAYER)
+- [[../layers/layer-4|Layer 4 — 新KIATIS 개발·운영·시험평가 전·중·후 조작]] (PART_OF_LAYER)
+- [[../entities/people/kim-min-su|김민수]] (ABOUT)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[cartel-requirement-inflation-80-items-delay|카르텔 추가요구사항 80건 지연 공작]] (RELATED)

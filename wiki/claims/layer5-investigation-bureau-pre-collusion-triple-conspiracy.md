@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-054"})
 SET fr.layer = 5,
-    fr.claimType = "pre_collusion_triple_conspiracy",
+    fr.claimType = "conspiracy_structure",
+    fr.claimSubtype = "pre_collusion_triple_conspiracy",
     fr.claimDesc = "Lee Ji-young's false attribution of the gag order to the Inspector General's office and Kim Min-su's self-contradicting statements — claiming ignorance of the audit while later demanding 'you think this outcome came because you did well?' — prove pre-coordination among DCIA (국전원), MND Investigation Bureau (조사본부), and MND Legal Affairs Office (법무관리관실).",
     fr.counterHypothesis = "Lee Ji-young genuinely relayed the Inspector General's confidentiality instruction; Kim Min-su's later statement was a reaction to the audit result, not evidence of prior coordination.",
     fr.falsificationCondition = "Production of a written confidentiality directive from the Inspector General's office to Lee Ji-young, combined with evidence that Kim Min-su learned of the audit outcome only after its completion.",
@@ -70,11 +71,11 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[../layers/layer-5|Layer 5]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[../entities/people/kim-min-su|김민수]]
-- [[../entities/people/lee-ji-young|이지영]]
-- [[layer5-predetermined-audit-conclusion|조사본부 결론 사전결정]]
-- [[layer5-fabricated-warning-letter|허위 경고장]]
-- [[layer5-park-seojun-nominal-complainant|박서준 명목상 신고자]]
-- [[lee-ji-young-double-play-park-seo-jun-incitement-han-ji-hoon-blocking|이지영 이중 플레이]]
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[../entities/people/kim-min-su|김민수]] (ABOUT)
+- [[../entities/people/lee-ji-young|이지영]] (ABOUT)
+- [[layer5-predetermined-audit-conclusion|조사본부 결론 사전결정]] (CORROBORATES)
+- [[layer5-fabricated-warning-letter|허위 경고장]] (OPPOSES)
+- [[layer5-park-seojun-nominal-complainant|박서준 명목상 신고자]] (CORROBORATES)
+- [[lee-ji-young-double-play-park-seo-jun-incitement-han-ji-hoon-blocking|이지영 이중 플레이]] (CORROBORATES)

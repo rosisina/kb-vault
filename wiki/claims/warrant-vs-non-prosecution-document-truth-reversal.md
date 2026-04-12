@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-WARRANT-VS-NONPROSECUTION-REVERSAL"})
 SET fr.layer = 6,
-    fr.claimType = "cross_document_contradiction",
+    fr.claimType = "cross_layer_analysis",
+    fr.claimSubtype = "cross_document_contradiction",
     fr.claimDesc = "같은 검찰이 같은 문서에 대해 판사에게는 '허위', 피의자에게는 '사실'이라고 진술. 3개월 간격의 진실성 역전.",
     fr.counterHypothesis = "영장 단계의 '허위' 판단은 잠정적 평가이며, 수사 후 '사실 그대로' 결론은 정상적 수사 결과",
     fr.falsificationCondition = "영장 발부와 불기소결정 사이에 문서의 진실성 판단을 변경한 구체적 새로운 증거가 발견된 기록",
@@ -53,6 +54,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[warrant-docs-are-actual-false-documents]]
-- [[prosecution-false-document-charge-self-contradiction]]
-- [[../layers/layer-6|Layer 6]]
+- [[warrant-docs-are-actual-false-documents]] (OPPOSES)
+- [[prosecution-false-document-charge-self-contradiction]] (OPPOSES)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

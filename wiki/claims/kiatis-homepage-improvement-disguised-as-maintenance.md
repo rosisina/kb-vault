@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L1-HOMEPAGE-DISGUISED-MAINTENANCE"})
 SET fr.layer = 1,
-    fr.claimType = "project_identity_concealment",
+    fr.claimType = "evidence_concealment",
+    fr.claimSubtype = "project_identity_concealment",
     fr.claimDesc = "The 국방부 홈페이지 개선 사업 (2016-09-26 to 2017-04-24, 7 months) was a security vulnerability remediation project centered on checking the '보안 취약점 10대 항목'. However, on the official task card (과제카드), it was disguised as '국방부 홈페이지 유지보수' — mere maintenance (Record No. 16/L1). The book explicitly notes this was likely a post-2016 DIDC hacking follow-up measure (각주 63). The timing (starting 10 days after the hacking incident disclosure) and the deliberate downgrading of a security project to 'maintenance' on paper constitute direct Layer 1 concealment evidence.",
     fr.counterHypothesis = "The '유지보수' classification on the task card was a legitimate administrative categorization reflecting the routine nature of security patching, not a deliberate concealment of the project's actual scope.",
     fr.falsificationCondition = "Production of the original project proposal or 사업계획서 showing that the project was always classified as 유지보수 from inception, with no evidence of deliberate reclassification from 개선사업 to 유지보수.",
@@ -70,7 +71,7 @@ SET fr.layer = 1,
 
 ## Related
 
-- [[../layers/layer-1|Layer 1]]
-- [[kiatis-homepage-co-managed-by-admin-ops-team]] — §3.1.1.7 행정정보 운영팀 공동 운용
-- [[kiatis-server-laundering-to-integrated-mail-server]] — §3.1.1.2 서버 세탁
-- [[didc-sop-incident-report-mandatory]] — DIDC SOP 사고 보고 의무 (2016 해킹 대응 맥락)
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)
+- [[kiatis-homepage-co-managed-by-admin-ops-team]] — §3.1.1.7 행정정보 운영팀 공동 운용 (RELATED)
+- [[kiatis-server-laundering-to-integrated-mail-server]] — §3.1.1.2 서버 세탁 (CORROBORATES)
+- [[didc-sop-incident-report-mandatory]] — DIDC SOP 사고 보고 의무 (2016 해킹 대응 맥락) (RELATED)

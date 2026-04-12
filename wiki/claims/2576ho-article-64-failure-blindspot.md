@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-ART64-FAILURE-BLINDSPOT"})
 SET fr.layer = 4,
-    fr.claimType = "regulatory_reporting_chain",
+    fr.claimType = "regulatory_manipulation",
+    fr.claimSubtype = "regulatory_reporting_chain",
     fr.claimDesc = "보고체계 재구조화: 합격만 보고, 부적합은 정보화기획관실에 미도달. 감독 사각지대.",
     fr.counterHypothesis = "제64조④가 제64조②의 시정조치 조항과 함께 부적합 결과도 처리한다",
     fr.falsificationCondition = "제2576호 제64조④가 부적합 결과도 정보화기획관실에 보고하도록 요구하는 조항 존재 확인",
@@ -50,5 +51,5 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[2576ho-article-62-5-ote-approval-deleted]]
-- [[directive-article-11-control-functions-stripped]]
+- [[2576ho-article-62-5-ote-approval-deleted]] (CORROBORATES)
+- [[directive-article-11-control-functions-stripped]] (CORROBORATES)

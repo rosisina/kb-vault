@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-TRIPLE-SELF-CONTRADICTION"})
 SET fr.layer = 4,
-    fr.claimType = "cross_atom_contradiction",
+    fr.claimType = "cross_layer_analysis",
+    fr.claimSubtype = "cross_atom_contradiction",
     fr.claimDesc = "3중 자기모순: 성공판정+대규모추가요구+핵심데이터부재의 동시 성립은 조작 증거.",
     fr.counterHypothesis = "세 조건이 독립적으로 합리적 설명이 가능하다",
     fr.falsificationCondition = "80건이 사전 존재 결함, 데이터 부재가 공지된 제약, 99.7점이 제한 범위에만 적용됨을 보여주는 기록",
@@ -52,7 +53,7 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[gukyu-dan-data-absence-delays-new-kiatis|2 shared records — 데이터 부재 + 80건]]
-- [[layer4-evaluation-committee-80-items-violation]]
-- [[cartel-requirement-inflation-80-items-delay]]
-- [[../layers/layer-4|Layer 4]]
+- [[gukyu-dan-data-absence-delays-new-kiatis|2 shared records — 데이터 부재 + 80건]] (CAUSES)
+- [[layer4-evaluation-committee-80-items-violation]] (RELATED)
+- [[cartel-requirement-inflation-80-items-delay]] (CAUSES)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

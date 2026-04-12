@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L1-HOMEPAGE-COMANAGEMENT"})
 SET fr.layer = 1,
-    fr.claimType = "operational_co_management_proof",
+    fr.claimType = "technical_proof",
+    fr.claimSubtype = "operational_co_management_proof",
     fr.claimDesc = "Suspect interrogation transcript (Record No. 4,879/L6) and organizational chart (2019-12-17, Record No. 4,723/L6) prove that 행정정보 운영팀 managed both 舊KIATIS (625전사자 종합 정보체계) and internet/intranet 홈페이지 together. Before the 2020 reorganization under 김민수, the same team handled both development and operations. 조성민 (실무자-1) managed both KIATIS and homepage operations as a single person, later split to 윤도현 (실무자-2, KIATIS) and a junior officer (실무자-3, homepage).",
     fr.counterHypothesis = "KIATIS and the internet homepage were managed by separate organizational units with independent chains of responsibility, and their co-location in the same team was purely administrative convenience without security implications.",
     fr.falsificationCondition = "Production of organizational charts showing KIATIS and homepage operations under separate teams with separate chains of command before the 2020 reorganization.",
@@ -74,7 +75,7 @@ SET fr.layer = 1,
 
 ## Related
 
-- [[../layers/layer-1|Layer 1]]
-- [[kiatis-server-laundering-to-integrated-mail-server]] — §3.1.1.2 서버 세탁 확인
-- [[kiatis-server-laundering-dcia-to-didc1]] — L2-04 서버 세탁 전체 체인
-- [[kiatis-homepage-improvement-disguised-as-maintenance]] — §3.1.1.7 홈페이지 개선 사업 유지보수 둔갑
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)
+- [[kiatis-server-laundering-to-integrated-mail-server]] — §3.1.1.2 서버 세탁 확인 (RELATED)
+- [[kiatis-server-laundering-dcia-to-didc1]] — L2-04 서버 세탁 전체 체인 (RELATED)
+- [[kiatis-homepage-improvement-disguised-as-maintenance]] — §3.1.1.7 홈페이지 개선 사업 유지보수 둔갑 (RELATED)

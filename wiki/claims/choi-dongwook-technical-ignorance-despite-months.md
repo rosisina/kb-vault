@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-LAWYER-TECHNICAL-IGNORANCE"})
 SET fr.layer = 6,
-    fr.claimType = "attorney_incompetence",
+    fr.claimType = "attorney_misconduct",
+    fr.claimSubtype = "attorney_incompetence",
     fr.claimDesc = "수개월+2천만원 수임에도 산출물·DT/OT·훈령 미이해. 효과적 방어 구조적 불가능.",
     fr.counterHypothesis = "최동욱은 일반 군사법 변호사로서 의뢰인이 제공한 기술 자료에 의존하는 것이 합리적 분업이다",
     fr.falsificationCondition = "최동욱이 국방정보화업무훈령이나 KIATIS 사업 문서를 독자적으로 검토한 기록, 또는 기술 자문을 의뢰한 기록",
@@ -51,6 +52,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[choi-dongwook-resignation-threat-coercive-control]]
-- [[layer5-choi-dongwook-dual-role-lawyer-or-conspirator]]
-- [[../layers/layer-6|Layer 6]]
+- [[choi-dongwook-resignation-threat-coercive-control]] (CORROBORATES)
+- [[layer5-choi-dongwook-dual-role-lawyer-or-conspirator]] (RELATED)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

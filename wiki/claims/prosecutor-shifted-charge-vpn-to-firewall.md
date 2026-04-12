@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-CHARGE-SHIFT-VPN-TO-FIREWALL"})
 SET fr.layer = 6,
-    fr.claimType = "prosecution_narrative_shift",
+    fr.claimType = "prosecution_misconduct",
+    fr.claimSubtype = "prosecution_narrative_shift",
     fr.claimDesc = "검사 임형규는 한지훈의 반박문서(Record 4,979~5,163) 제출 이후, 기소 핵심 논거를 'VPN 미사용'에서 '방화벽 포트 개방'으로 전환하였다(2022.9.28 대화 Record 11,157~11,160, 2022.10.11 대화 Record 11,188). VPN 논거가 논리적으로 성립 불가능함(舊KIATIS가 15년간 VPN 없이 운영)을 인지한 후의 전환이며, 독립적 기술 전문가 자문 없이 수행되었다",
     fr.counterHypothesis = "검사는 수사 과정에서 증거를 재평가하여 더 적확한 법적 근거로 전환한 것이며, 이는 정상적인 법적 판단이다",
     fr.falsificationCondition = "방화벽 포트 개방이 VPN과 독립적인 별도의 위법 행위로 성립함을 보여주는 기술적·법적 분석",
@@ -57,7 +58,7 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[layer6-prosecutor-violated-anti-corruption-five-principles|2 shared records — 반부패 5원칙 위반]]
-- [[firewall-port-opening-standard-it-procedure]] — L6 방화벽 표준 절차
-- [[prosecution-identity-fallacy-deception-technique]] — L6 동일성 오류
-- [[../layers/layer-6|Layer 6]]
+- [[layer6-prosecutor-violated-anti-corruption-five-principles|2 shared records — 반부패 5원칙 위반]] (CORROBORATES)
+- [[firewall-port-opening-standard-it-procedure]] — L6 방화벽 표준 절차 (CORROBORATES)
+- [[prosecution-identity-fallacy-deception-technique]] — L6 동일성 오류 (CORROBORATES)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

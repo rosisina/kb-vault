@@ -6,17 +6,18 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L7-EVIDENCE-GOLDEN-TIME"})
 SET fr.layer = 7,
-    fr.claimType = "operational_urgency",
+    fr.claimType = "methodology",
+    fr.claimSubtype = "operational_urgency",
     fr.claimDesc = "12,495쪽 확보했으나 핵심 디지털 증거 접근 불가. 골든타임 경과 시 진실 규명 불가능.",
     fr.counterHypothesis = "기존 12,495쪽으로 충분하며 추가 증거 보전은 불필요하다",
     fr.falsificationCondition = "기존 증거만으로 기소 충분하다는 법적 평가",
-    fr.verdict = "NEEDS_MORE_EVIDENCE",
+    fr.verdict = "CORROBORATED",
     fr.strength = "MODERATE",
-    fr.truthfulness = 7,
-    fr.validity = 6,
+    fr.truthfulness = 8,
+    fr.validity = 7,
     fr.sincerity = 9,
     fr.analysisDate = date("2026-04-12"),
-    fr.summary = "12,495쪽 확보했으나 핵심 디지털 증거 접근 불가. 골든타임 경과 시 진실 규명 불가능.";
+    fr.summary = "§5.3.1: '디지털 증거의 특성상 완전한 삭제가 가능하므로 지금 당장 보전 조치를 취하지 않으면 결정적 증거들을 영원히 잃을 수 있다.' L1의 Active-X 제거사업 악용 사례가 실제 증거인멸 선례를 입증.";
 ```
 
 ## Claim
@@ -43,7 +44,7 @@ SET fr.layer = 7,
 
 ## Verdict
 
-**NEEDS_MORE_EVIDENCE.** MODERATE. 진리성 7 / 타당성 6 / 진실성 9.
+**CORROBORATED.** MODERATE. 진리성 8 / 타당성 7 / 진실성 9. §5.3.1 명시적 진술 + L1 증거인멸 선례(Active-X 제거사업)로 뒷받침.
 
 ## Spot-check
 
@@ -51,5 +52,5 @@ SET fr.layer = 7,
 
 ## Related
 
-- [[on-nara-2024-upgrade-evidence-destruction-risk]]
-- [[../layers/layer-7|Layer 7]]
+- [[on-nara-2024-upgrade-evidence-destruction-risk]] (RELATED)
+- [[../layers/layer-7|Layer 7]] (PART_OF_LAYER)

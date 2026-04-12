@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-CSR-002"})
 SET fr.layer = 1,
-    fr.claimType = "institutional_accountability",
+    fr.claimType = "institutional_obstruction",
+    fr.claimSubtype = "institutional_accountability",
     fr.claimDesc = "DIDC=통합보안관제(2차) 명시 지정. 보안 책임은 기관(DIDC)에 있지 개인(한지훈)에 없다.",
     fr.counterHypothesis = "KIATIS가 DIDC에 호스팅되지 않았거나 DIDC 관제 범위에서 제외되었다",
     fr.falsificationCondition = "DIDC 공식 보안관제 범위에서 KIATIS가 제외된 기록",
@@ -50,6 +51,6 @@ DIDC 공식 보안관제 범위에서 KIATIS가 제외된 기록
 
 ## Related
 
-- [[didc-sops-cover-2016-hacking-period]]
-- [[victim-blaming-structural-to-individual]]
-- [[../layers/layer-6|Layer 6]]
+- [[didc-sops-cover-2016-hacking-period]] (RELATED)
+- [[victim-blaming-structural-to-individual]] (RELATED)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

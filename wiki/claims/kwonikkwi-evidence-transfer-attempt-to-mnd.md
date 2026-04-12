@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L7-KWONIKKWI-TRANSFER"})
 SET fr.layer = 7,
-    fr.claimType = "institutional_complicity_civilian_oversight",
+    fr.claimType = "institutional_obstruction",
+    fr.claimSubtype = "institutional_complicity_civilian_oversight",
     fr.claimDesc = "A 국가권익위원회 (Anti-Corruption and Civil Rights Commission) staff member attempted, during a 30-minute recorded phone call on 2022-10-04, to legally transfer 한지훈's submitted evidence to the MND — the very institution against which the petition was filed. The book characterizes this as 'beyond ordinary imagination' and invites readers to listen to the recording directly.",
     fr.counterHypothesis = "The 권익위 staff member was following standard inter-agency referral procedure (e.g., 행정절차법 or 권익위법 referral provisions) rather than acting in bad faith; the transfer would have been disclosed to 한지훈 and subject to procedural safeguards.",
     fr.falsificationCondition = "Production of the 권익위 staff member's written procedural basis for the transfer attempt, demonstrating it was a routine referral under 권익위법 제39조 (이첩) with required notification to the petitioner, would downgrade the verdict to NEEDS_MORE_EVIDENCE.",
@@ -74,8 +75,8 @@ This counter-hypothesis is weakened by two factors: (1) the book notes that 한�
 
 ## Related
 
-- [[../layers/layer-7|Layer 7]]
-- [[han-ji-hoon-rebuttal-rejected-by-eight-institutions|L7 atom: 8-institution rejection chain]]
-- [[inkkwonwi-rejected-without-witness-review|L7 atom: 인권위 rejection without witness review]]
-- [[../entities/people/han-ji-hoon|한지훈 entity hub]]
-- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|Layer 6: 기소유예 criminal stigma]]
+- [[../layers/layer-7|Layer 7]] (PART_OF_LAYER)
+- [[han-ji-hoon-rebuttal-rejected-by-eight-institutions|L7 atom: 8-institution rejection chain]] (OPPOSES)
+- [[inkkwonwi-rejected-without-witness-review|L7 atom: 인권위 rejection without witness review]] (CORROBORATES)
+- [[../entities/people/han-ji-hoon|한지훈 entity hub]] (ABOUT)
+- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|Layer 6: 기소유예 criminal stigma]] (RELATED)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-FRAUD-MEETS-CRIMINAL-ELEMENTS"})
 SET fr.layer = 6,
-    fr.claimType = "prosecution_fraud_classification",
+    fr.claimType = "prosecution_misconduct",
+    fr.claimSubtype = "prosecution_fraud_classification",
     fr.claimDesc = "군검찰단의 사기수사는 형사범죄(사기, 직권남용, 증거인멸, 허위공문서작성)와 사이버범죄(디지털 증거 조작, 온-나라 시스템 문서 변조)의 성립요소를 동시에 충족하는 복합 범죄(hybrid state crime)이다. 27개의 Record No.가 이를 뒷받침한다",
     fr.counterHypothesis = "군검찰단의 수사는 재량 범위 내의 정상적 검찰 활동이며, 수사상 판단 오류가 있더라도 범죄 성립요소를 충족하지 않는다",
     fr.falsificationCondition = "군검찰단의 수사 과정이 검찰 윤리강령과 군형사소송법의 절차적 요건을 충족했음을 보여주는 내부 감사 기록",
@@ -61,6 +62,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[prosecution-identity-fallacy-deception-technique]] — L6 동일성 오류
-- [[prosecution-non-prosecution-internal-contradiction]] — L6 불기소 모순
-- [[../layers/layer-6|Layer 6]]
+- [[prosecution-identity-fallacy-deception-technique]] — L6 동일성 오류 (CORROBORATES)
+- [[prosecution-non-prosecution-internal-contradiction]] — L6 불기소 모순 (CORROBORATES)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-001"})
 SET fr.layer = 5,
-    fr.claimType = "retaliatory_complaint_causation",
+    fr.claimType = "human_rights_violation",
+    fr.claimSubtype = "retaliatory_complaint_causation",
     fr.claimDesc = "The false power-abuse (갑질) complaint against 한지훈 was filed on 2022-02-10, within 48 hours of the 2022-02-08 KIATIS-discussion meeting at which 舊KIATIS's 15-year internet-exposure security violation was revealed. The sub-48-hour window establishes organizational retaliatory intent rather than coincidental grievance filing.",
     fr.counterHypothesis = "The 갑질 complaint reflected genuine pre-existing grievances that happened to be filed shortly after the meeting by coincidence, with no causal relationship to the security-violation disclosure.",
     fr.falsificationCondition = "Production of documented pre-2022-02-08 grievance records by the complainants showing the 갑질 complaint was in preparation before the KIATIS security discussion took place.",
@@ -70,11 +71,11 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[../layers/layer-5|Layer 5]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[../entities/people/lee-ji-young|이지영]]
-- [[../entities/people/kim-min-su|김민수]]
-- [[layer5-predetermined-audit-conclusion|layer5-predetermined-audit-conclusion — 조사본부 결론 사전 결정]]
-- [[layer5-isolation-office-premeditated|layer5-isolation-office-premeditated — 독방 사전 준비]]
-- [[../topics/whistleblower-protection-and-reform|Whistleblower Protection and Reform]]
-- [[../events/2016-didc-north-korean-hacking|2016 DIDC North Korean Hacking]]
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[../entities/people/lee-ji-young|이지영]] (ABOUT)
+- [[../entities/people/kim-min-su|김민수]] (ABOUT)
+- [[layer5-predetermined-audit-conclusion|layer5-predetermined-audit-conclusion — 조사본부 결론 사전 결정]] (RELATED)
+- [[layer5-isolation-office-premeditated|layer5-isolation-office-premeditated — 독방 사전 준비]] (CORROBORATES)
+- [[../topics/whistleblower-protection-and-reform|Whistleblower Protection and Reform]] (ABOUT)
+- [[../events/2016-didc-north-korean-hacking|2016 DIDC North Korean Hacking]] (ABOUT)

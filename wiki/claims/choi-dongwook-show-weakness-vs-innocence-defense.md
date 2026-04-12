@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-LAWYER-SHOW-WEAKNESS-STRATEGY"})
 SET fr.layer = 6,
-    fr.claimType = "defense_strategy_conflict",
+    fr.claimType = "attorney_misconduct",
+    fr.claimSubtype = "defense_strategy_conflict",
     fr.claimDesc = "감경전략(아프게 보여라) vs 무혐의전략(집중할 것이다). 변호사=유죄 프레임, 의뢰인=무혐의.",
     fr.counterHypothesis = "'아픈 모습 보이기'는 무혐의와 병행 가능한 이중 전략이며, 수사관의 동정심을 유발하는 합법적 전술이다",
     fr.falsificationCondition = "최동욱이 동정심 전략과 함께 별도의 기술적 무혐의 방어를 준비한 기록",
@@ -52,6 +53,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[choi-dongwook-technical-ignorance-despite-months]]
-- [[han-ji-hoon-kiso-yuye-is-criminal-stigma]]
-- [[../layers/layer-6|Layer 6]]
+- [[choi-dongwook-technical-ignorance-despite-months]] (CORROBORATES)
+- [[han-ji-hoon-kiso-yuye-is-criminal-stigma]] (RELATED)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

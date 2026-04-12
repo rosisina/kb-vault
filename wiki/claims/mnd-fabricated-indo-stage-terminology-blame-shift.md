@@ -7,7 +7,8 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L4-B2-004"})
 SET fr.layer = 4,
     fr.secondaryLayer = 6,
-    fr.claimType = "fabricated_terminology_indo_stage",
+    fr.claimType = "terminology_manipulation",
+    fr.claimSubtype = "fabricated_terminology_indo_stage",
     fr.claimDesc = "The MND's 2020-08-20 fabricated document '국방정보시스템 시험평가 개선방안 의견수렴' introduced a fabricated term '인도 단계' (delivery stage) not present in any prior version of the 국방정보화업무훈령. This fabricated stage was applied to both DT&E and OT&E, making system installation the sole responsibility of the 사업관리기관 (executing agency). Combined with the directive's transformation of test-evaluation separation into integration-as-principle, this terminology creates a retroactive blame-shift mechanism: if a system fails after deployment, the 사업관리기관 bears full responsibility for the 'delivery' regardless of whether operational-environment issues caused the failure. 新KIATIS is identified as the victim of this fabricated framework.",
     fr.counterHypothesis = "The '인도 단계' term was a genuine procedural improvement reflecting international best practices in defense systems acquisition, independently developed by KIDA and not targeted at any specific project",
     fr.falsificationCondition = "Production of (a) pre-2020 MND or KIDA documentation using '인도 단계' as a standard test-evaluation term, OR (b) international defense acquisition framework (US DoD, NATO) that uses an equivalent 'delivery stage' concept within test-evaluation procedures",
@@ -78,10 +79,10 @@ This claim is CORROBORATED unless:
 
 ## Related
 
-- [[article-58-separation-to-integration-2020-directive-manipulation|L4 atom: test-evaluation separation→integration inversion]]
-- [[mnd-test-evaluation-definition-manipulation|L4 atom: test-evaluation definition manipulation]]
-- [[mnd-test-evaluation-improvement-retroactive-justification|L4 atom: retroactive justification]]
-- [[prosecution-misapplies-2129-article-58-4-to-kiatis|L6 atom: 제58조 ¶4 misapplication]]
-- [[../regulations/defense-it-2129-article-58|제58조]]
-- [[../layers/layer-4|Layer 4]]
-- [[../layers/layer-6|Layer 6]]
+- [[article-58-separation-to-integration-2020-directive-manipulation|L4 atom: test-evaluation separation→integration inversion]] (OPPOSES)
+- [[mnd-test-evaluation-definition-manipulation|L4 atom: test-evaluation definition manipulation]] (OPPOSES)
+- [[mnd-test-evaluation-improvement-retroactive-justification|L4 atom: retroactive justification]] (OPPOSES)
+- [[prosecution-misapplies-2129-article-58-4-to-kiatis|L6 atom: 제58조 ¶4 misapplication]] (OPPOSES)
+- [[../regulations/defense-it-2129-article-58|제58조]] (ABOUT)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L1-CARTEL-001"})
 SET fr.layer = 1,
-    fr.claimType = "operational_definition",
+    fr.claimType = "methodology",
+    fr.claimSubtype = "operational_definition",
     fr.claimDesc = "한지훈's 2022-09-25 rebuttal document explicitly names and defines the 'Defense Information Cartel' (국방정보화카르텔) as a coordinated 5-organization grouping: (1) 국방부 검찰단, (2) 국방부 정보화조직, (3) 국군방첩사령부 (formerly 안보지원사 / 안지사), (4) 국방연구원 (KIDA), (5) 기타 국방부 제조직. The cartel's alleged motive: to conceal the root server of the 2016 DIDC North Korean hacking incident and destroy evidence of the 15+-year violation of 국방사이버안보훈령 by directly accessing databases without VPN due to failure to remove vulnerable Active-X components",
     fr.counterHypothesis = "The 'cartel' framing is a rhetorical construct by the rebuttal author and does not correspond to any actual coordinated organizational entity; the 5 named organizations operated independently and any apparent coordination is post-hoc pattern recognition",
     fr.falsificationCondition = "Production of (a) evidence that any of the 5 named organizations operated independently of the others on the matters at issue, OR (b) demonstration that the 한지훈's framing is rhetorical without corresponding to verifiable inter-organizational coordination",
@@ -103,12 +104,12 @@ If items 1 or 2 produce coordination evidence, the substantive form upgrades to 
 
 ## Related
 
-- [[../topics/defense-informatization-cartel|Defense Informatization Cartel topic page]]
-- [[han-ji-hoon-rebuttal-rejected-by-eight-institutions|sister atom: 8-step rejection chain]]
-- [[kida-otne-citation-misrepresents-us-standard|KIDA's role in the cartel]]
-- [[../entities/organizations/kida|KIDA]]
-- [[../entities/organizations/mnd-it-planning-office|MND HQ IT planning office]]
-- [[../entities/organizations/didc|DIDC]]
-- [[../layers/layer-1|Layer 1]]
-- [[../layers/layer-3|Layer 3]]
-- [[../layers/layer-6|Layer 6]]
+- [[../topics/defense-informatization-cartel|Defense Informatization Cartel topic page]] (ABOUT)
+- [[han-ji-hoon-rebuttal-rejected-by-eight-institutions|sister atom: 8-step rejection chain]] (OPPOSES)
+- [[kida-otne-citation-misrepresents-us-standard|KIDA's role in the cartel]] (OPPOSES)
+- [[../entities/organizations/kida|KIDA]] (ABOUT)
+- [[../entities/organizations/mnd-it-planning-office|MND HQ IT planning office]] (ABOUT)
+- [[../entities/organizations/didc|DIDC]] (ABOUT)
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)
+- [[../layers/layer-3|Layer 3]] (PART_OF_LAYER)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

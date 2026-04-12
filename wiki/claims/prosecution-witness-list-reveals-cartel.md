@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-WITNESS-LIST-CARTEL-ID"})
 SET fr.layer = 6,
-    fr.claimType = "evidentiary_claim",
+    fr.claimType = "methodology",
+    fr.claimSubtype = "evidentiary_claim",
     fr.claimDesc = "검사의 '다 불렀다' 발언(Record 11,162)이 참고인 명단=카르텔 조직도임을 시인.",
     fr.counterHypothesis = "참고인 소환은 표준 수사 절차이며 카르텔 구성원 식별과 무관하다",
     fr.falsificationCondition = "참고인 명단에 한지훈 입장을 지지하거나 검찰 서사에 반하는 증언을 한 인원이 포함되어 있었음을 보여주는 기록",
@@ -50,6 +51,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[prosecution-principal-actor-in-cartel]]
-- [[kim-min-su-central-cross-layer-cartel-figure]]
-- [[../layers/layer-6|Layer 6]]
+- [[prosecution-principal-actor-in-cartel]] (RELATED)
+- [[kim-min-su-central-cross-layer-cartel-figure]] (RELATED)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

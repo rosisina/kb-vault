@@ -8,7 +8,8 @@ MERGE (fr:FalsificationResult {resultId: "FR-L4-B3-002"})
 SET fr.layer = 4,
     fr.secondaryLayer = 1,
     fr.tertiaryLayer = 3,
-    fr.claimType = "997_military_adequate_contradicted_by_sabotage",
+    fr.claimType = "cross_layer_analysis",
+    fr.claimSubtype = "997_military_adequate_contradicted_by_sabotage",
     fr.claimDesc = "The non-standing 新KIATIS test-evaluation committee awarded a 99.7% score and 'military adequate (군사용 적합)' verdict (Record No. 3,041). This score was achieved under Han Ji-hoon's active project management, with 국유단 TF members (Record No. 1,073/1,308) and user-requirement review meeting participants (Record No. 1,851, all attendees signed) serving as evaluation committee members. Han Ji-hoon personally led UML-based analysis/design, risk management, and issue management (Record No. 1,767–1,843). The prosecution and development contractor both acknowledged Han Ji-hoon's excellence in project management. However, cross-document analysis reveals that the defense informatization cartel simultaneously executed a dual strategy: publicly certifying success while internally preparing a sabotage scenario to retroactively convert the success into failure. The 99.7% score proves Han Ji-hoon's successful project management, while the cartel's subsequent actions — imposing 80 additional requirements, fabricating directives, and redirecting blame through 'system installation' terminology manipulation — were designed to transform this documented success into a criminal case. The cartel exploited the DIDC hacking incident's root cause (舊KIATIS VPN-less DB access) by intentionally recreating the same environment in the 新KIATIS test-evaluation, then using fabricated documents and directives to blame Han Ji-hoon for the environmental discrepancy they themselves engineered.",
     fr.counterHypothesis = "The 99.7% score reflected genuine project success, and the subsequent problems (80 additional requirements, deployment delays) arose from legitimate technical issues and user needs discovered during operational use, not from a pre-planned sabotage strategy.",
     fr.falsificationCondition = "Production of evidence showing that (a) the 80 additional requirements were genuine user needs documented through standard requirements management processes, (b) the deployment delays were caused by technical issues unrelated to organizational manipulation, and (c) no organizational communication or planning regarding the 'dual strategy' existed prior to or during the evaluation period.",
@@ -77,9 +78,9 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[../layers/layer-4|Layer 4]]
-- [[cartel-requirement-inflation-80-items-delay]] — 80건 추가 요구사항
-- [[layer6-phase1-success-result-neutralization-2019-2020]] — 성공 결과 무력화 1단계
-- [[layer4-test-evaluation-separation-principle-directive-2129]] — 시험평가 분리 원칙
-- [[layer4-software-install-to-system-install-terminology-fabrication]] — 시스템 설치 용어 조작
-- [[../entities/people/han-ji-hoon|한지훈]]
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)
+- [[cartel-requirement-inflation-80-items-delay]] — 80건 추가 요구사항 (CAUSES)
+- [[layer6-phase1-success-result-neutralization-2019-2020]] — 성공 결과 무력화 1단계 (CAUSES)
+- [[layer4-test-evaluation-separation-principle-directive-2129]] — 시험평가 분리 원칙 (RELATED)
+- [[layer4-software-install-to-system-install-terminology-fabrication]] — 시스템 설치 용어 조작 (OPPOSES)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)

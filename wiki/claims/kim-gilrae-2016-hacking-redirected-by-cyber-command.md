@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L1-HACKING-REDIRECTED-CYBER-CMD"})
 SET fr.layer = 1,
-    fr.claimType = "insider_testimony",
+    fr.claimType = "testimony_evidence",
+    fr.claimSubtype = "insider_testimony",
     fr.claimDesc = "이근태: 2016 해킹 조사가 사이버사령관에 의해 DIDC로 의도적 전환. 2022 수사와 동일 패턴.",
     fr.counterHypothesis = "조사가 포렌식 증거에 따라 자연스럽게 DIDC로 확대된 것이며 의도적 전환이 아니다",
     fr.falsificationCondition = "사이버사령부 조사기록에서 포렌식 증거 경로에 따른 자연적 확대를 보여주는 기록",
@@ -51,6 +52,6 @@ SET fr.layer = 1,
 
 ## Related
 
-- [[layer6-didc-center1-true-hacking-host]]
-- [[prosecution-principal-actor-in-cartel]]
-- [[../layers/layer-1|Layer 1]]
+- [[layer6-didc-center1-true-hacking-host]] (RELATED)
+- [[prosecution-principal-actor-in-cartel]] (RELATED)
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)

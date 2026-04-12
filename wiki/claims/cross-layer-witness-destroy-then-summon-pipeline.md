@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-CB-04-WITNESS-PIPELINE"})
 SET fr.layer = 6,
-    fr.claimType = "cross_layer_mechanism",
+    fr.claimType = "cross_layer_analysis",
+    fr.claimSubtype = "cross_layer_mechanism",
     fr.claimDesc = "L5 증인파괴→L6 증인소환 파이프라인. 독립성 파괴 후 순응적 증언 수확.",
     fr.counterHypothesis = "증인 격리와 증인 소환은 독립적 행정·법적 조치",
     fr.falsificationCondition = "검찰 증인이 강압 여부 심사를 거쳤고, 격리 전 입장과 일관된 증언을 한 기록",
@@ -51,6 +52,6 @@ Layer 5에서 6개월간 체계적 증인 파괴 전술(독방 격리, PC 차단
 
 ## Related
 
-- [[layer5-collective-witness-abandonment-selective-memory]]
-- [[prosecution-witness-list-reveals-cartel]]
-- [[../layers/layer-6|Layer 6]]
+- [[layer5-collective-witness-abandonment-selective-memory]] (CAUSES)
+- [[prosecution-witness-list-reveals-cartel]] (RELATED)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L2-051"})
 SET fr.layer = 2,
-    fr.claimType = "intentional_budget_reduction",
+    fr.claimType = "temporal_manipulation",
+    fr.claimSubtype = "intentional_budget_reduction",
     fr.claimDesc = "The 新KIATIS project was a pure software development contract under the National Contract Act with a budget of 6.25억 KRW determined by the Public Procurement Service (조달청). However, 국유단's requirement-inflation (80 additional requirements during evaluation) against this fixed budget reveals that the required functionality was structurally unfundable — the budget was intentionally compressed relative to the actual scope, setting up conditions for project delay and eventual blame-shifting to the project manager (한지훈).",
     fr.counterHypothesis = "The 6.25억 budget was adequate for the original scope; the 80 additional requirements emerged naturally during evaluation and were not foreseeable at budget-determination time.",
     fr.falsificationCondition = "Documentation showing that the 6.25억 budget was sufficient to cover both the original RFP scope and the 80 additional requirements, or that the additional requirements were funded by a separate budget allocation.",
@@ -68,9 +69,9 @@ SET fr.layer = 2,
 
 ## Related
 
-- [[../layers/layer-2|Layer 2]]
-- [[layer4-evaluation-committee-80-items-violation|평가위원회 80건 추가 요구사항 위반]]
-- [[cartel-requirement-inflation-80-items-delay|카르텔의 요구사항 팽창과 지연]]
-- [[gukyu-dan-data-absence-delays-new-kiatis|국유단 데이터 부재로 인한 新KIATIS 지연]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[../entities/organizations/gukjeonwon|국전원]]
+- [[../layers/layer-2|Layer 2]] (PART_OF_LAYER)
+- [[layer4-evaluation-committee-80-items-violation|평가위원회 80건 추가 요구사항 위반]] (RELATED)
+- [[cartel-requirement-inflation-80-items-delay|카르텔의 요구사항 팽창과 지연]] (RELATED)
+- [[gukyu-dan-data-absence-delays-new-kiatis|국유단 데이터 부재로 인한 新KIATIS 지연]] (RELATED)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[../entities/organizations/gukjeonwon|국전원]] (ABOUT)

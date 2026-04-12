@@ -7,7 +7,8 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L6-B3-001"})
 SET fr.layer = 6,
     fr.secondaryLayers = [2, 5, 7],
-    fr.claimType = "prosecution_identity_error_technique",
+    fr.claimType = "prosecution_misconduct",
+    fr.claimSubtype = "prosecution_identity_error_technique",
     fr.claimDesc = "The 불기소결정서 (사건번호 2022년 형제66호) employs 동일성 오류 (identity error) as its core deception technique: it compares the 2019 test-evaluation environment (新KIATIS Ⓒ) against the 2022 actual-operation environment (新KIATIS Ⓓ, post-2021.4.15 with VPN/ChakraMax active), falsely claiming the test should have matched the 2022 environment. But 따름정리01 proves VPN/DB access control was NOT operational until 2021.4.15 — so the 2019 test environment and the 2019 actual environment were in fact identical (both lacked VPN). The identity error is further exposed by the RFP technical-application table (Record No. 4,424) marking all security equipment as '해당사항 없음', proving the project was pure SW development.",
     fr.counterHypothesis = "The prosecution's environment comparison was a good-faith legal analysis — the operational environment at the time of investigation (2022) was the correct comparator under 훈령 제62조, and the temporal gap was immaterial to the legal charge",
     fr.falsificationCondition = "A legal analysis showing that 훈령 제62조 requires comparison against the environment at the time of prosecution (2022), not at the time of the evaluated event (2019), would weaken this claim. Alternatively, evidence that VPN/DB access control was operational before 2021.4.15 would undermine 따름정리01.",
@@ -74,10 +75,10 @@ This claim is CORROBORATED unless:
 
 ## Related
 
-- [[prosecution-distorts-operational-vs-test-environment|L6: 군검찰 실제운영-시험평가 환경 왜곡]]
-- [[prosecution-misapplies-2129-article-58-4-to-kiatis|L6: 제58조 ¶4 misapplication]]
-- [[kiatis-rfp-tech-table-proves-sw-only-internet-structure|L1/L4: RFP 기술적용표 순수 SW 증명]]
-- [[layer4-old-new-kiatis-different-cyberspace|L4: 舊·新KIATIS 다른 사이버공간]]
-- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|L6: 기소유예 범죄 낙인]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[../layers/layer-6|Layer 6]]
+- [[prosecution-distorts-operational-vs-test-environment|L6: 군검찰 실제운영-시험평가 환경 왜곡]] (CORROBORATES)
+- [[prosecution-misapplies-2129-article-58-4-to-kiatis|L6: 제58조 ¶4 misapplication]] (CORROBORATES)
+- [[kiatis-rfp-tech-table-proves-sw-only-internet-structure|L1/L4: RFP 기술적용표 순수 SW 증명]] (RELATED)
+- [[layer4-old-new-kiatis-different-cyberspace|L4: 舊·新KIATIS 다른 사이버공간]] (RELATED)
+- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|L6: 기소유예 범죄 낙인]] (RELATED)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

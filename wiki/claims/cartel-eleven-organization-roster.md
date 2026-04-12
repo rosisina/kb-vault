@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-META-CARTEL-ROSTER"})
 SET fr.layer = 6,
-    fr.claimType = "organizational_structure",
+    fr.claimType = "conspiracy_structure",
+    fr.claimSubtype = "organizational_structure",
     fr.claimDesc = "11개 조직 역할 분담 목록. 법적·행정·기술·연구·심리 영역 카르텔 구조.",
     fr.counterHypothesis = "11개 조직 중 일부는 과실이지 의도적 참여가 아니다",
     fr.falsificationCondition = "11개 중 하나라도 한지훈 관련 조치에 이의를 제기한 기록",
@@ -50,5 +51,5 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[diffusion-of-responsibility-seven-organizations]]
-- [[../layers/layer-6|Layer 6]]
+- [[diffusion-of-responsibility-seven-organizations]] (RELATED)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

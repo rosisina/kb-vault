@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-COLLECTIVE-WITNESS-ABANDONMENT"})
 SET fr.layer = 5,
-    fr.claimType = "witness_behavior_pattern",
+    fr.claimType = "witness_manipulation",
+    fr.claimSubtype = "witness_behavior_pattern",
     fr.claimDesc = "오현수 '엮기기 싫다' + 이태호 '선택적 기억' 진단. 5인+ 동시 침묵 = 조직적 합의.",
     fr.counterHypothesis = "동료들의 침묵은 수사 사안에 대한 개인적 회피 심리이며, 조직적 합의가 아니다",
     fr.falsificationCondition = "5인 이상의 동료가 독립적으로 증언 회피 사유를 설명한 기록 (조직적 지시 없이)",
@@ -51,5 +52,5 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[layer5-yang-mi-suk-silence-as-active-complicity]]
-- [[../layers/layer-5|Layer 5]]
+- [[layer5-yang-mi-suk-silence-as-active-complicity]] (CORROBORATES)
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

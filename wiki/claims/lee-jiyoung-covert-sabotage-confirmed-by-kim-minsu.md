@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-LEE-JIYOUNG-COVERT-SABOTAGE"})
 SET fr.layer = 5,
-    fr.claimType = "cartel_coordination",
+    fr.claimType = "conspiracy_structure",
+    fr.claimSubtype = "cartel_coordination",
     fr.claimDesc = "녹취009: 김민수가 이지영의 이면행위 직접 폭로. '반대로 하고 있어'. 공모 구조 증거.",
     fr.counterHypothesis = "김민수는 이지영에 대한 개인적 불만을 과장한 것이며 이지영은 독립적으로 행동하였다",
     fr.falsificationCondition = "이지영이 한지훈에게 유리한 조치를 실제로 취한 기록",
@@ -51,6 +52,6 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[kim-min-su-central-cross-layer-cartel-figure]]
-- [[lee-ji-young-double-play-park-seo-jun-incitement-han-ji-hoon-blocking]]
-- [[../layers/layer-5|Layer 5]]
+- [[kim-min-su-central-cross-layer-cartel-figure]] (RELATED)
+- [[lee-ji-young-double-play-park-seo-jun-incitement-han-ji-hoon-blocking]] (RELATED)
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

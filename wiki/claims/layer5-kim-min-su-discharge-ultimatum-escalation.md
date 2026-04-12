@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-057"})
 SET fr.layer = 5,
-    fr.claimType = "kim_min_su_discharge_ultimatum_escalation",
+    fr.claimType = "human_rights_violation",
+    fr.claimSubtype = "kim_min_su_discharge_ultimatum_escalation",
     fr.claimDesc = "Kim Min-su's declaration 'This is serious. Discharge is the only option' exhibits a three-stage illocutionary escalation: severity ('심각하다') → no-alternative ('전역만이 옵션이다') → final ruling ('징계다'). His 2022-08-31 dialogue (Record No. 11,054+) further self-contradicts: first denying he told Han to 'take responsibility', then admitting it when Han cited evidence records. This proves Kim Min-su knowingly pressured Han to become a scapegoat for the cartel's own transgressions.",
     fr.counterHypothesis = "Kim Min-su's statements were expressions of concern for Han Ji-hoon's career situation, not pressure; the 'discharge' comment was personal advice, not an institutional directive.",
     fr.falsificationCondition = "Evidence that Kim Min-su subsequently retracted or softened his discharge demand, or evidence that he actively sought to protect Han Ji-hoon from disciplinary action.",
@@ -81,10 +82,10 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[../layers/layer-5|Layer 5]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[../entities/people/kim-min-su|김민수]]
-- [[layer5-predetermined-audit-conclusion|결론 사전결정]]
-- [[layer5-isolation-office-premeditated|격리실 사전 준비 + "준비 다 됐다"]]
-- [[layer5-triangular-collusion-speech-act-timeline|삼각 공모 시간 조율]]
-- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|기소유예는 범죄 낙인 (Layer 6)]]
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[../entities/people/kim-min-su|김민수]] (ABOUT)
+- [[layer5-predetermined-audit-conclusion|결론 사전결정]] (RELATED)
+- [[layer5-isolation-office-premeditated|격리실 사전 준비 + "준비 다 됐다"]] (CORROBORATES)
+- [[layer5-triangular-collusion-speech-act-timeline|삼각 공모 시간 조율]] (RELATED)
+- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|기소유예는 범죄 낙인 (Layer 6)]] (RELATED)

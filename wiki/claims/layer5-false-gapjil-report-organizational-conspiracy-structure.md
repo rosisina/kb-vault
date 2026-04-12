@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-B2-005"})
 SET fr.layer = 5,
-    fr.claimType = "false_gapjil_organizational_conspiracy_structure",
+    fr.claimType = "conspiracy_structure",
+    fr.claimSubtype = "false_gapjil_organizational_conspiracy_structure",
     fr.claimDesc = "The false 갑질 (abuse of authority) report operated through a 3-stage conspiracy structure: Stage 1 (주모자/masterminds): 김민수 (국전원장, 육사 43) ordered 6-month isolation with pressure ('너 책임져라') and threats ('증거 인멸 조심하라'), while 이지영 (과장, 서기관) collected VPN information at the 2022-02-08 meeting, coordinated with 조사본부, and made false statements about attendance. Stage 2 (실행자/executors): 김수진 (주무관, simultaneously holding 훈령 담당 role from 국방부 정보화기획관실) led fabrication of 갑질 justifications with 양미숙 and 김민지, per 양준승 부장's testimony (Record No. 11,407–11,415); 이승우 (국방부 직무감찰담당관 사무관) immediately ruled 이지영's false statement about pre-6pm dining as 'disciplinary grounds'. Stage 3 (도구/tool): 박서준 (대위진), a gaslighting victim used as the nominal complainant — her claims were not reflected in the warning letter issued by 법무관리관실, proving she was organizational puppet, not genuine complainant.",
     fr.counterHypothesis = "The 갑질 report was a genuine complaint by 박서준 based on real workplace grievances, and the organizational actors' involvement was standard institutional response to a subordinate's complaint, not a coordinated conspiracy",
     fr.falsificationCondition = "Production of (a) 박서준's original complaint document showing specific grievances that match the warning letter's content, OR (b) 조사본부 investigation records showing independent corroboration of 박서준's claims without reliance on 이지영/김수진's input",
@@ -77,14 +78,14 @@ This claim is CORROBORATED unless:
 
 ## Related
 
-- [[layer5-48hr-retaliation-causal-link|L5 atom: 48-hour retaliation chain]]
-- [[layer5-park-seojun-nominal-complainant|L5 atom: 박서준 as nominal complainant]]
-- [[layer5-park-seojun-gaslighting-victim-or-accomplice|L5 atom: 박서준 gaslighting analysis]]
-- [[layer5-predetermined-audit-conclusion|L5 atom: predetermined audit conclusion]]
-- [[layer5-fabricated-warning-letter|L5 atom: fabricated warning letter]]
-- [[lee-ji-young-double-play-park-seo-jun-incitement-han-ji-hoon-blocking|L5 atom: 이지영 double play]]
-- [[lee-jiyoung-kim-sujin-single-point-of-control|L5 atom: 이지영+김수진 single point of control]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[../entities/people/kim-min-su|김민수]]
-- [[../entities/people/lee-ji-young|이지영]]
-- [[../layers/layer-5|Layer 5]]
+- [[layer5-48hr-retaliation-causal-link|L5 atom: 48-hour retaliation chain]] (OPPOSES)
+- [[layer5-park-seojun-nominal-complainant|L5 atom: 박서준 as nominal complainant]] (OPPOSES)
+- [[layer5-park-seojun-gaslighting-victim-or-accomplice|L5 atom: 박서준 gaslighting analysis]] (OPPOSES)
+- [[layer5-predetermined-audit-conclusion|L5 atom: predetermined audit conclusion]] (OPPOSES)
+- [[layer5-fabricated-warning-letter|L5 atom: fabricated warning letter]] (OPPOSES)
+- [[lee-ji-young-double-play-park-seo-jun-incitement-han-ji-hoon-blocking|L5 atom: 이지영 double play]] (OPPOSES)
+- [[lee-jiyoung-kim-sujin-single-point-of-control|L5 atom: 이지영+김수진 single point of control]] (OPPOSES)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[../entities/people/kim-min-su|김민수]] (ABOUT)
+- [[../entities/people/lee-ji-young|이지영]] (ABOUT)
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-A9-001"})
 SET fr.layer = 4,
-    fr.claimType = "regulatory_principle_inversion",
+    fr.claimType = "regulatory_manipulation",
+    fr.claimSubtype = "regulatory_principle_inversion",
     fr.claimDesc = "제2436호 (2020-06-04) inverted the test-evaluation principle from 'separate as principle, integrate by exception' (제2129호 제58조 ¶2) to 'integrate as principle, separate by exception' (제2436호 제58조 ¶1) — a direct semantic reversal of the regulatory default for DT&E/OT&E execution",
     fr.counterHypothesis = "The inversion is a re-statement of pre-existing practice rather than a substantive change of the legal default; integrated execution had been the de facto norm even under 제2129호 and 제2436호 merely conformed the directive text to existing practice",
     fr.falsificationCondition = "Production of (a) any 사업통제기관 written approval under 제2129호 제58조 ¶2 permitting integrated execution for any project 2018–2020, in numbers consistent with 'integrated as norm', OR (b) MND audit / inspection records 2018–2020 treating integrated execution as compliant without requiring exception approval",
@@ -71,9 +72,9 @@ If item 1 or 2 is produced, the verdict downgrades to WEAKENED. If item 3 alone 
 
 ## Related
 
-- [[2436ho-cluster-six-anchors|2436호 cluster meta-claim]]
-- [[2436ho-dtne-articles-erased|A10: DT&E article deletion (paired change)]]
-- [[kiatis-2129ho-main-regime-applies|KIATIS bound by 제2129호 separation principle]]
-- [[../regulations/defense-it-2129-article-58|제58조]]
-- [[../topics/test-evaluation-manipulation|Test Evaluation Manipulation]]
-- [[../layers/layer-4|Layer 4]]
+- [[2436ho-cluster-six-anchors|2436호 cluster meta-claim]] (SUPERSEDES)
+- [[2436ho-dtne-articles-erased|A10: DT&E article deletion (paired change)]] (CORROBORATES)
+- [[kiatis-2129ho-main-regime-applies|KIATIS bound by 제2129호 separation principle]] (CORROBORATES)
+- [[../regulations/defense-it-2129-article-58|제58조]] (ABOUT)
+- [[../topics/test-evaluation-manipulation|Test Evaluation Manipulation]] (ABOUT)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

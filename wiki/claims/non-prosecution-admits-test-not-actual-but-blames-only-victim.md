@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-ADMITS-NOT-ACTUAL-BLAMES-VICTIM"})
 SET fr.layer = 6,
-    fr.claimType = "selective_prosecution",
+    fr.claimType = "prosecution_misconduct",
+    fr.claimSubtype = "selective_prosecution",
     fr.claimDesc = "불기소결정서가 환경 미준수를 인정하면서 한지훈에게만 일방적으로 적용. 체계적 원인 미조사.",
     fr.counterHypothesis = "검찰의 수사 범위는 특정 혐의에 한정되며 시스템적 원인 조사는 별도 사안이다",
     fr.falsificationCondition = "검찰이 VPN 미적용 환경의 체계적 원인을 분석하고 수사 범위 제한 사유를 공식 기록한 문서",
@@ -51,6 +52,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[prosecution-identity-fallacy-deception-technique]]
-- [[victim-blaming-structural-to-individual]]
-- [[../layers/layer-6|Layer 6]]
+- [[prosecution-identity-fallacy-deception-technique]] (CORROBORATES)
+- [[victim-blaming-structural-to-individual]] (RELATED)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

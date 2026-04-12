@@ -7,7 +7,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L2-KIATIS-MNDCTRL-001"})
 SET fr.layer = 2,
-    fr.claimType = "regulatory_classification",
+    fr.claimType = "regulatory_manipulation",
+    fr.claimSubtype = "regulatory_classification",
     fr.claimDesc = "新KIATIS 성능개선사업 (6.25억, 2018–2019)은 국방 정보화 업무 훈령 제2129호 제10조 ¶4 + 제11조 ¶2의 규정에 따라 국방부 통제 사업이며, 위임 사업의 대상이 아니다. 5가지 독립 근거: ① 2007–2014 국전원 서버 호스팅 이력 (record 10,302), ② 2015년부터 시작된 갱신 자료 이력 (record 2,275), ③ 2021 행정정보화과 유지보수 사업 예산 분류상 'MND 운용 정보시스템' (records 2,119/7,995/7,996), ④ 제2576호(2021-08-12) 개정 이전까지 MND 통제기관 임무 의무 (records 8,086/8,179), ⑤ 국정과제 사업 지정 (records 1,042/1,064)",
     fr.counterHypothesis = "新KIATIS는 처음부터 기관 위임 사업으로 정당하게 분류되었으며, 국방부의 5가지 분류 근거는 사후 정리에 불과하다",
     fr.falsificationCondition = "2018-07-09 이전 시점에 작성된 국방부 정보화기획관실 명의의 위임 결정 공문 또는 훈령상 위임 사업 분류의 명시적 근거를 제시할 것. 위임 결정 공문이 존재하지 않으면 청구는 corroborated.",
@@ -79,13 +80,13 @@ SET fr.layer = 2,
 
 ## Related
 
-- [[../layers/layer-2|Layer 2 hub]]
-- [[../layers/layer-1|Layer 1 — DIDC 서버 호스팅 이력]]
-- [[../layers/layer-3|Layer 3 — 국전원 SW 사업관리 캡처]]
-- [[kiatis-mkia-multi-cap-inscription|MKIA 다중 cap inscription (L2-02)]]
-- [[lee-jiyoung-kim-sujin-single-point-of-control|이지영/김수진 단일 통제점 (L2-03)]]
-- [[kiatis-2129ho-main-regime-applies|KIATIS 제58조 ¶2 main regime applies (L4)]]
-- [[../regulations/defense-it-2129-article-10|제2129호 제10조]]
-- [[../regulations/defense-it-2129-article-11|제2129호 제11조]]
-- [[../events/2018-2019-kiatis-performance-improvement-project|KIATIS 성능개선사업 event]]
-- [[../entities/organizations/gukjeonwon|국전원]]
+- [[../layers/layer-2|Layer 2 hub]] (PART_OF_LAYER)
+- [[../layers/layer-1|Layer 1 — DIDC 서버 호스팅 이력]] (PART_OF_LAYER)
+- [[../layers/layer-3|Layer 3 — 국전원 SW 사업관리 캡처]] (PART_OF_LAYER)
+- [[kiatis-mkia-multi-cap-inscription|MKIA 다중 cap inscription (L2-02)]] (RELATED)
+- [[lee-jiyoung-kim-sujin-single-point-of-control|이지영/김수진 단일 통제점 (L2-03)]] (RELATED)
+- [[kiatis-2129ho-main-regime-applies|KIATIS 제58조 ¶2 main regime applies (L4)]] (RELATED)
+- [[../regulations/defense-it-2129-article-10|제2129호 제10조]] (ABOUT)
+- [[../regulations/defense-it-2129-article-11|제2129호 제11조]] (ABOUT)
+- [[../events/2018-2019-kiatis-performance-improvement-project|KIATIS 성능개선사업 event]] (ABOUT)
+- [[../entities/organizations/gukjeonwon|국전원]] (ABOUT)

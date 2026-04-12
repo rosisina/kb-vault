@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-DIDC-EXCLUDED-REFORM"})
 SET fr.layer = 4,
-    fr.claimType = "organizational_exclusion",
+    fr.claimType = "conspiracy_structure",
+    fr.claimSubtype = "organizational_exclusion",
     fr.claimDesc = "DIDC는 시험평가 개혁의 3단계(KIDA 연구 2020.1~6, TF 2020.8~2021.1, 국전원 표준화 2021.2~12) 전체와 <그림 4-7>의 모든 조작 공문에서 체계적으로 배제되었다. DIDC는 서버 인프라 운영자이자 VPN 미적용 책임의 직접 당사자임에도 시험평가 개혁 논의에서 제외됨으로써 자신의 과오가 드러나는 것을 방지하였다",
     fr.counterHypothesis = "DIDC는 인프라 운영 기관이지 시험평가 정책 기관이 아니므로 개혁 논의에서 제외된 것은 정상적이다",
     fr.falsificationCondition = "DIDC가 시험평가 개혁 과정에 참여한 기록, 또는 인프라 운영 기관의 시험평가 정책 참여가 관례적으로 제외되는 규정",
@@ -59,6 +60,6 @@ DIDC의 시험평가 개혁 참여 기록.
 
 ## Related
 
-- [[didc-withheld-network-diagram-from-kiatis]] — L4 네트워크 구성도 비공개
-- [[didc-falsely-records-old-kiatis-as-vpn-user]] — L4 VPN 허위 기재
-- [[../layers/layer-4|Layer 4]]
+- [[didc-withheld-network-diagram-from-kiatis]] — L4 네트워크 구성도 비공개 (RELATED)
+- [[didc-falsely-records-old-kiatis-as-vpn-user]] — L4 VPN 허위 기재 (OPPOSES)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

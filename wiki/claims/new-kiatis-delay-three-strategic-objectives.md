@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-DELAY-THREE-OBJECTIVES"})
 SET fr.layer = 6,
-    fr.claimType = "strategic_analysis",
+    fr.claimType = "methodology",
+    fr.claimSubtype = "strategic_analysis",
     fr.claimDesc = "3대 목적의 동시 달성: 해킹은폐+예산순환+팀장제거. 예산 패턴 6.25→4→3.9억이 순환 구조 입증.",
     fr.counterHypothesis = "전력화 지연은 기술적 문제(VPN 속도, 데이터 미이관 등)에 의한 자연적 지연이며, 전략적 의도가 없다",
     fr.falsificationCondition = "전력화 지연의 각 단계가 순수 기술적 사유에 의한 것임을 보여주는 사업 진행 기록",
@@ -52,6 +53,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[layer6-gis-server-budget-intentional-omission]]
-- [[mnd-control-agency-role-evasion-deployment-delay]]
-- [[../layers/layer-6|Layer 6]]
+- [[layer6-gis-server-budget-intentional-omission]] (RELATED)
+- [[mnd-control-agency-role-evasion-deployment-delay]] (RELATED)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

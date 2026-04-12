@@ -8,7 +8,8 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L2-SERVERLAUND-004"})
 SET fr.layer = 2,
     fr.crossLayer = [1],
-    fr.claimType = "evidence_chain_obfuscation",
+    fr.claimType = "evidence_concealment",
+    fr.claimSubtype = "evidence_chain_obfuscation",
     fr.claimDesc = "舊KIATIS 서버는 처음 국전원 지하 (DCIA basement)에 호스팅, 이후 「전군 인터넷 통합 메일」 인프라를 거쳐 DIDC 1센터(용인) 클라우드 군으로 이전됨 — 이는 단순 클라우드 마이그레이션이 아닌 server laundering이며, 인터넷 노출 + Active-X + VPN 부재 환경에서 운영된 호스트 시스템의 운영 이력을 은폐하는 메커니즘이다. 장우진 (사업실무자-1) 2022-07-17 conversation으로 직접 확인. 결정적 detail: VPN은 사업 초창기 RFP에 없었고 한참 후 보안정책 단계에서야 추가됨 → 인터넷 운영 + Active-X 환경의 attack surface가 2016 DIDC1 해킹의 직접 원인 가능성 시사. 장우진의 1주일 1회 국전원 상주 사실은 record 11,098 (국전원 첫 사업 실무자 간접 진술) + record 11,354 (용역개발 PM 진술) 가 attest.",
     fr.counterHypothesis = "舊KIATIS 서버 이전은 routine 클라우드 마이그레이션이며, 호스트 인프라 변경은 운영상 정당한 사유 (성능 개선, 비용 절감, 통합 관리)에 의한 것이다",
     fr.falsificationCondition = "舊KIATIS의 호스트 시스템 변경 결정이 routine 클라우드 마이그레이션 정책 (예: '국방 cloud-first' 정책 등)에 따른 것이며, 이전 사유가 사전에 문서화되어 있고 (a) 변경 결정 공문, (b) 운영 환경 평가 보고서, (c) VPN 미적용 사유서가 모두 존재함을 보이는 직접 증거 일체.",
@@ -98,14 +99,14 @@ SET fr.layer = 2,
 
 ## Related
 
-- [[../layers/layer-2|Layer 2 hub]]
-- [[../layers/layer-1|Layer 1 — DIDC 흔적 제거]]
-- [[kiatis-mnd-controlled-not-delegated|L2-01]]
-- [[kiatis-mkia-multi-cap-inscription|L2-02]]
-- [[lee-jiyoung-kim-sujin-single-point-of-control|L2-03]]
-- [[han-ji-hoon-three-braking-devices-active-defense|L2-05]]
-- [[didc-sops-cover-2016-hacking-period|DIDC SOPs covered 2016 hacking period (L1)]]
-- [[didc-sop-firewall-vpn-trail-mandatory|DIDC SOP — firewall/VPN/NAC trail (L1)]]
-- [[../entities/people/jang-woo-jin|장우진 (사업실무자-1)]]
-- [[../entities/organizations/didc|DIDC]]
-- [[../entities/organizations/gukjeonwon|국전원]]
+- [[../layers/layer-2|Layer 2 hub]] (PART_OF_LAYER)
+- [[../layers/layer-1|Layer 1 — DIDC 흔적 제거]] (PART_OF_LAYER)
+- [[kiatis-mnd-controlled-not-delegated|L2-01]] (RELATED)
+- [[kiatis-mkia-multi-cap-inscription|L2-02]] (RELATED)
+- [[lee-jiyoung-kim-sujin-single-point-of-control|L2-03]] (RELATED)
+- [[han-ji-hoon-three-braking-devices-active-defense|L2-05]] (RELATED)
+- [[didc-sops-cover-2016-hacking-period|DIDC SOPs covered 2016 hacking period (L1)]] (RELATED)
+- [[didc-sop-firewall-vpn-trail-mandatory|DIDC SOP — firewall/VPN/NAC trail (L1)]] (RELATED)
+- [[../entities/people/jang-woo-jin|장우진 (사업실무자-1)]] (ABOUT)
+- [[../entities/organizations/didc|DIDC]] (ABOUT)
+- [[../entities/organizations/gukjeonwon|국전원]] (ABOUT)

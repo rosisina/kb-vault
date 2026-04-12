@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-006"})
 SET fr.layer = 6,
-    fr.claimType = "evidence_substrate_design",
+    fr.claimType = "evidence_concealment",
+    fr.claimSubtype = "evidence_substrate_design",
     fr.claimDesc = "The 피의자 신문조서 created on 2022-09-02 is the prosecution's primary evidence substrate for the 2022-10-07 기소유예 decision, and is structured to avoid the substantive 15-year DIDC VPN-bypass question — focusing instead on the 2019 firewall form approval chain.",
     fr.counterHypothesis = "The 피의자 신문조서 focused on the firewall policy form because that was the legally cognizable charge; the 15-year VPN-bypass issue is not a criminal charge but a systemic infrastructure problem outside the prosecution's mandate.",
     fr.falsificationCondition = "Production of a 피의자 신문조서 or investigative record showing that 군 검찰단 directly examined the 15-year VPN-bypass history of 구KIATIS and affirmatively excluded it from the charge on legally principled grounds.",
@@ -76,9 +77,9 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[han-ji-hoon-investigation-notification-2022-07-21|수사개시 통보 (2022-07-21) 원자 — 피의자 신문의 법적 전제]]
-- [[han-ji-hoon-witness-statement-2022-01-25|참고인 진술서 (2022-01-25) 원자 — 심문의 증거 원천]]
-- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|기소유예 = 범죄 낙인 원자 — 신문조서의 최종 귀결]]
-- [[han-ji-hoon-prosecution-violates-2129-role-separation|훈령 제2129호 역할 분리 위반 원자]]
-- [[../layers/layer-6|Layer 6]]
-- [[../layers/layer-1|Layer 1 — 구KIATIS 이력 제거 (심문 회피로 보호된 층위)]]
+- [[han-ji-hoon-investigation-notification-2022-07-21|수사개시 통보 (2022-07-21) 원자 — 피의자 신문의 법적 전제]] (RELATED)
+- [[han-ji-hoon-witness-statement-2022-01-25|참고인 진술서 (2022-01-25) 원자 — 심문의 증거 원천]] (RELATED)
+- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|기소유예 = 범죄 낙인 원자 — 신문조서의 최종 귀결]] (RELATED)
+- [[han-ji-hoon-prosecution-violates-2129-role-separation|훈령 제2129호 역할 분리 위반 원자]] (RELATED)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)
+- [[../layers/layer-1|Layer 1 — 구KIATIS 이력 제거 (심문 회피로 보호된 층위)]] (PART_OF_LAYER)

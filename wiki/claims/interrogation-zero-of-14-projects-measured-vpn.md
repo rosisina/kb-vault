@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-ZERO-VPN-MEASUREMENT-BASELINE"})
 SET fr.layer = 6,
-    fr.claimType = "institutional_precedent",
+    fr.claimType = "institutional_obstruction",
+    fr.claimSubtype = "institutional_precedent",
     fr.claimDesc = "14개 사업 중 VPN 측정 0건. KIATIS에만 VPN 의무 부과 = 전례 없는 차별적 적용.",
     fr.counterHypothesis = "다른 13개 사업은 KIATIS와 다른 유형이어서 VPN 측정이 불필요했다",
     fr.falsificationCondition = "14개 사업 중 하나라도 VPN 성능 측정을 실시한 기록, 또는 KIATIS만 VPN 측정이 필요한 특수 사유가 존재함을 보여주는 규정",
@@ -50,6 +51,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[firewall-port-opening-standard-it-procedure]]
-- [[prosecution-selective-criminalization-firewall-approval-chain]]
-- [[../layers/layer-6|Layer 6]]
+- [[firewall-port-opening-standard-it-procedure]] (RELATED)
+- [[prosecution-selective-criminalization-firewall-approval-chain]] (CAUSES)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

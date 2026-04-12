@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-FABRICATED-DOC-2020-IN-2022"})
 SET fr.layer = 4,
-    fr.claimType = "document_fabrication_temporal",
+    fr.claimType = "document_fabrication",
+    fr.claimSubtype = "document_fabrication_temporal",
     fr.claimDesc = "2020.8.20일자 국방부 '시험평가 개선방안' 공문은 실제로 2022년 군검찰단 수사 시점에 소급 조작된 것이다. 이 공문에 '인도 단계'라는 용어가 사용되어 있으나, 이 용어는 제2842호(2023.9.20.) 훈령에서야 최초 도입된 개념으로 2020년에는 존재하지 않았다 — 물리법칙 위반(시간역전)",
     fr.counterHypothesis = "'인도 단계' 용어가 2020년 내부 논의에서 이미 사용되고 있었고, 훈령 공식 반영은 2023년이지만 개념 자체는 선행했다",
     fr.falsificationCondition = "2020년 이전 문서에서 '인도 단계' 용어가 사용된 사례의 제시, 또는 온-나라 시스템 메타데이터에서 2020년 실제 생산을 확인",
@@ -54,6 +55,6 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[mnd-test-eval-simplification-timed-to-evaluation-day]] — L4 시간역전 패턴
-- [[mnd-fabricated-indo-stage-terminology-blame-shift]] — L4 인도단계 용어 조작
-- [[../layers/layer-4|Layer 4]]
+- [[mnd-test-eval-simplification-timed-to-evaluation-day]] — L4 시간역전 패턴 (OPPOSES)
+- [[mnd-fabricated-indo-stage-terminology-blame-shift]] — L4 인도단계 용어 조작 (OPPOSES)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

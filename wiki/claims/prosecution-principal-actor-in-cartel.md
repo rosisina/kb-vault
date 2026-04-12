@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-PROSECUTION-PRINCIPAL-ACTOR"})
 SET fr.layer = 6,
-    fr.claimType = "institutional_criminal_role",
+    fr.claimType = "institutional_obstruction",
+    fr.claimSubtype = "institutional_criminal_role",
     fr.claimDesc = "군검찰단은 국방정보화카르텔의 단순 공범(accessory)이 아닌 주동자(principal actor)로서, 검찰 권한을 이용하여 국전원·DIDC·국유단 등 다수 기관에 법적 보호를 제공하면서 DIDC 1센터(용인)가 2016년 북한 해킹의 실제 주요 거점이었음을 은폐하였다. 2016년 합동조사단을 이끈 주역이 국방부 검찰단이었다는 사실이 이를 뒷받침한다",
     fr.counterHypothesis = "군검찰단은 관련 기관의 자료 제공에 의존한 수동적 수사자이며, 주도적 은폐 의도가 아닌 정보 비대칭에 의한 판단 오류이다",
     fr.falsificationCondition = "군검찰단이 카르텔과 독립적으로 수사를 진행하였고, 관련 기관의 자료 제공에 영향받지 않았음을 보여주는 수사 기록",
@@ -61,7 +62,7 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[prosecution-fraud-meets-criminal-elements]] — L6 사기수사 범죄 성립
-- [[prosecution-non-prosecution-internal-contradiction]] — L6 불기소 모순
-- [[prosecution-knew-innocence-continued-case]] — L6 무혐의 인지
-- [[../layers/layer-6|Layer 6]]
+- [[prosecution-fraud-meets-criminal-elements]] — L6 사기수사 범죄 성립 (RELATED)
+- [[prosecution-non-prosecution-internal-contradiction]] — L6 불기소 모순 (RELATED)
+- [[prosecution-knew-innocence-continued-case]] — L6 무혐의 인지 (RELATED)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

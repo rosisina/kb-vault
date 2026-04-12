@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-WARRANT-OMITS-15YR-VPN"})
 SET fr.layer = 6,
-    fr.claimType = "judicial_deception",
+    fr.claimType = "prosecution_misconduct",
+    fr.claimSubtype = "judicial_deception",
     fr.claimDesc = "영장이 15년 VPN 미사용을 판사에게 은닉하여 거짓된 신규성 전제로 영장 발부를 받음.",
     fr.counterHypothesis = "舊KIATIS의 VPN 미사용은 영장 발부 시점에서 수사가 아직 진행 중이므로 범죄사실에 포함할 의무가 없었다",
     fr.falsificationCondition = "검찰이 영장 발부 전에 舊KIATIS의 VPN 미사용 사실을 인지하지 못했음을 보여주는 기록",
@@ -50,6 +51,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[prosecution-six-charges-collapse-vpn-nonexistence]]
-- [[old-kiatis-direct-db-access-without-vpn]]
-- [[../layers/layer-6|Layer 6]]
+- [[prosecution-six-charges-collapse-vpn-nonexistence]] (RELATED)
+- [[old-kiatis-direct-db-access-without-vpn]] (RELATED)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

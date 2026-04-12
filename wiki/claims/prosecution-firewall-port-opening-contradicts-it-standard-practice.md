@@ -7,7 +7,8 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L6-B2-003"})
 SET fr.layer = 6,
     fr.secondaryLayer = 5,
-    fr.claimType = "prosecution_contradicts_it_standard_practice",
+    fr.claimType = "prosecution_misconduct",
+    fr.claimSubtype = "prosecution_contradicts_it_standard_practice",
     fr.claimDesc = "The military prosecution treated firewall port opening during test/development as criminal conduct (위계공무집행방해). However, firewall port opening is standard IT practice worldwide — used by Microsoft, Amazon, Google, and all IT enterprises. In development/test environments, ports are opened as needed for testing, then hardened at operational deployment. The prosecution's technical ignorance is evidenced by the questions in the 참고인 진술서, 피의자 신문조서, and the questions provided by lawyer 최동욱 (Record No. 4,338ff, Record No. 4,542ff), which demonstrate misunderstanding of firewall, VPN, and DB access concepts. Prosecutor 임형규 himself acknowledged it was not a 'technical' issue but a matter of accepting the cartel's fabricated narrative about the port opening.",
     fr.counterHypothesis = "The prosecution's charge was not about the port opening itself but about the manner of requesting it (위계 = deception in the process), making IT industry practice irrelevant to the legal question",
     fr.falsificationCondition = "Production of a technical expert report commissioned by the prosecution that analyzed the specific port-opening action and concluded it deviated from standard IT practice in a materially significant way",
@@ -77,12 +78,12 @@ This claim is CORROBORATED unless:
 
 ## Related
 
-- [[prosecution-selective-criminalization-firewall-approval-chain|L6 atom: selective targeting in approval chain]]
-- [[prosecution-misapplies-2129-article-58-4-to-kiatis|L6 atom: 제58조 ¶4 misapplication]]
-- [[prosecution-distorts-operational-vs-test-environment|L6 atom: operational vs test environment distortion]]
-- [[layer5-choi-dongwook-dual-role-lawyer-or-conspirator|L5 atom: 최동욱 dual role]]
-- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|L6 atom: 기소유예 stigma]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[../entities/people/im-hyung-gyu|임형규 (검사)]]
-- [[../layers/layer-6|Layer 6]]
-- [[../layers/layer-5|Layer 5]]
+- [[prosecution-selective-criminalization-firewall-approval-chain|L6 atom: selective targeting in approval chain]] (CAUSES)
+- [[prosecution-misapplies-2129-article-58-4-to-kiatis|L6 atom: 제58조 ¶4 misapplication]] (OPPOSES)
+- [[prosecution-distorts-operational-vs-test-environment|L6 atom: operational vs test environment distortion]] (OPPOSES)
+- [[layer5-choi-dongwook-dual-role-lawyer-or-conspirator|L5 atom: 최동욱 dual role]] (OPPOSES)
+- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|L6 atom: 기소유예 stigma]] (OPPOSES)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[../entities/people/im-hyung-gyu|임형규 (검사)]] (ABOUT)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

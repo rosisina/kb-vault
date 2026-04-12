@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-055"})
 SET fr.layer = 5,
-    fr.claimType = "triangular_collusion_speech_act_timeline",
+    fr.claimType = "conspiracy_structure",
+    fr.claimSubtype = "triangular_collusion_speech_act_timeline",
     fr.claimDesc = "The collusion among DCIA (국전원), Investigation Bureau (조사본부), and Legal Affairs Office (법무관리관실) is proven by a four-stage temporally coordinated sequence: Kim Min-su's 2022-02-10 declaration → Lee Ji-young's 2022-03-25 false testimony → Lee Seung-woo's immediate disciplinary ruling → Legal Affairs Office's 2022-05-23 warning letter. Additionally, Lee Ji-young reversed the complainant identity 3 times in 5 minutes on 2022-02-21 (Record No. 11,064), proving real-time coordination with Kim Min-su.",
     fr.counterHypothesis = "The four stages were independent bureaucratic steps, not coordinated; Lee Ji-young's 3 reversals reflected genuine confusion about complaint procedures, not real-time coordination.",
     fr.falsificationCondition = "Evidence that each stage was initiated independently without communication between the three organizations, combined with procedural guidelines explaining Lee Ji-young's 3 reversals as standard complaint-processing protocol.",
@@ -74,11 +75,11 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[../layers/layer-5|Layer 5]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[../entities/people/kim-min-su|김민수]]
-- [[../entities/people/lee-ji-young|이지영]]
-- [[layer5-investigation-bureau-pre-collusion-triple-conspiracy|사전 공모 증거]]
-- [[layer5-predetermined-audit-conclusion|결론 사전결정]]
-- [[layer5-park-seojun-nominal-complainant|박서준 명목상 신고자]]
-- [[lee-ji-young-double-play-park-seo-jun-incitement-han-ji-hoon-blocking|이지영 이중 플레이]]
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[../entities/people/kim-min-su|김민수]] (ABOUT)
+- [[../entities/people/lee-ji-young|이지영]] (ABOUT)
+- [[layer5-investigation-bureau-pre-collusion-triple-conspiracy|사전 공모 증거]] (CORROBORATES)
+- [[layer5-predetermined-audit-conclusion|결론 사전결정]] (RELATED)
+- [[layer5-park-seojun-nominal-complainant|박서준 명목상 신고자]] (RELATED)
+- [[lee-ji-young-double-play-park-seo-jun-incitement-han-ji-hoon-blocking|이지영 이중 플레이]] (RELATED)

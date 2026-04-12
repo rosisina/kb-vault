@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-VPN-5QUESTIONS-MOTIVE"})
 SET fr.layer = 5,
-    fr.claimType = "information_extraction",
+    fr.claimType = "evidence_concealment",
+    fr.claimSubtype = "information_extraction",
     fr.claimDesc = "5단계 VPN 질문 패턴이 정보 추출 목적임을 48시간 후 갑질 신고와의 시간적 인과관계가 입증.",
     fr.counterHypothesis = "이지영의 VPN 질문은 업무적 관심에서 비롯된 일상적 질의이다",
     fr.falsificationCondition = "이지영이 VPN 관련 질문을 다른 직원들에게도 동일하게 한 기록",
@@ -51,6 +52,6 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[harassment-complaint-48hrs-premeditated-isolation]]
-- [[layer5-park-seojun-48hr-cooperation-to-hostility]]
-- [[../layers/layer-5|Layer 5]]
+- [[harassment-complaint-48hrs-premeditated-isolation]] (RELATED)
+- [[layer5-park-seojun-48hr-cooperation-to-hostility]] (RELATED)
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

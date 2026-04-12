@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-A8b-001"})
 SET fr.layer = 4,
-    fr.claimType = "regulatory_role_binding_erasure",
+    fr.claimType = "regulatory_manipulation",
+    fr.claimSubtype = "regulatory_role_binding_erasure",
     fr.claimDesc = "제2436호 (2020-06-04) removed the clause '사업주관기관 주관 하에' from the OT&E definition in 제57조 ¶1 제2호 with no replacement; OT&E execution becomes textually unbound from any named role-tier",
     fr.counterHypothesis = "The clause was redundant given that 제11조 already assigns OT&E execution responsibility to the 소요제기기관 (renamed sponsor role); the deletion is a non-substantive de-duplication",
     fr.falsificationCondition = "Production of any other 제2436호-or-later directive provision that explicitly binds OT&E execution to a named role with the same force as 'X 주관 하에' (i.e., binding the entire OT&E procedure, not just one of its sub-tasks)",
@@ -74,9 +75,9 @@ If item 1 is produced, the verdict downgrades to WEAKENED. If item 2 is judged e
 
 ## Related
 
-- [[2436ho-cluster-six-anchors|2436호 cluster (A8b participates)]]
-- [[2398-2842ho-otne-environment-hedge-flipflop|A8a: environment hedge flip-flop (paired)]]
-- [[2436ho-gukjeonwon-role-tier-renaming|A2: role-tier renaming (provides the new vocabulary)]]
-- [[../regulations/defense-it-2129-article-57|제57조]]
-- [[../entities/organizations/dma-defense-pow-mia-accounting-agency|DMA — KIATIS 사업주관기관]]
-- [[../layers/layer-4|Layer 4]]
+- [[2436ho-cluster-six-anchors|2436호 cluster (A8b participates)]] (SUPERSEDES)
+- [[2398-2842ho-otne-environment-hedge-flipflop|A8a: environment hedge flip-flop (paired)]] (CORROBORATES)
+- [[2436ho-gukjeonwon-role-tier-renaming|A2: role-tier renaming (provides the new vocabulary)]] (SUPERSEDES)
+- [[../regulations/defense-it-2129-article-57|제57조]] (ABOUT)
+- [[../entities/organizations/dma-defense-pow-mia-accounting-agency|DMA — KIATIS 사업주관기관]] (ABOUT)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

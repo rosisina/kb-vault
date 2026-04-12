@@ -7,6 +7,7 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L4-DATA-TRANSFER-BLOCKED"})
 SET fr.layer = 4,
     fr.claimType = "evidence_concealment",
+    fr.claimSubtype = "data_migration_blocked",
     fr.claimDesc = "Record 3,324: 데이터·SW 이전 완전 차단. 舊KIATIS 증거 격리 효과.",
     fr.counterHypothesis = "신규 시스템 설계 원칙(clean-slate)에 따른 기술적 결정",
     fr.falsificationCondition = "데이터 미이전에 대한 기술적 근거(호환성 등)가 문서화된 기록",
@@ -50,5 +51,5 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[mnd-intentional-separation-server-sw-projects]]
-- [[../layers/layer-4|Layer 4]]
+- [[mnd-intentional-separation-server-sw-projects]] (RELATED)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

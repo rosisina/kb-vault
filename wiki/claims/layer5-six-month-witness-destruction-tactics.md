@@ -7,7 +7,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-011"})
 SET fr.layer = 5,
-    fr.claimType = "systematic_witness_destruction",
+    fr.claimType = "witness_manipulation",
+    fr.claimSubtype = "systematic_witness_destruction",
     fr.claimDesc = "2022년 2월~9월 6개월간 한지훈은 4차례 독방 이동, PC 차단, 자료 접근 차단, 전투화 분실, 화장실 5시간 대기 등 물리적·심리적·사회적 학대를 당했다. 이는 단순 갑질이 아니라 2016 DIDC 해킹 은폐를 위한 체계적 증인 파괴 전술이었다.",
     fr.counterHypothesis = "격리는 갑질 조사 중 표준적인 분리 조치였으며, 독방 전전은 공간 부족에 따른 행정적 결과였다.",
     fr.falsificationCondition = "동일 시기 다른 갑질 조사 사례에서도 유사한 6개월 격리가 시행되었다는 선례가 확인되거나, 4차례 독방 이동이 각각 합리적 행정 사유에 의한 것이었다는 기록이 제시되면 약화된다.",
@@ -90,7 +91,7 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[layer5-six-month-isolation-human-rights]] — 6개월 격리 인권 침해 atom (본 atom은 학대의 구체적 양태에 초점, 기존 atom은 인권 침해 프레임)
-- [[layer5-48hr-retaliation-causal-link]] — 48시간 보복 atom (격리의 시작점이 48시간 보복과 동일)
-- [[layer5-isolation-office-premeditated]] — 격리 사전 계획 atom (독방이 사전 준비되었다는 증거)
-- [[han-ji-hoon-prosecution-violates-2129-role-separation]] — 검찰 역할 분리 위반 atom (압수수색의 불법성이 역할 분리 위반의 물리적 집행)
+- [[layer5-six-month-isolation-human-rights]] — 6개월 격리 인권 침해 atom (본 atom은 학대의 구체적 양태에 초점, 기존 atom은 인권 침해 프레임) (RELATED)
+- [[layer5-48hr-retaliation-causal-link]] — 48시간 보복 atom (격리의 시작점이 48시간 보복과 동일) (RELATED)
+- [[layer5-isolation-office-premeditated]] — 격리 사전 계획 atom (독방이 사전 준비되었다는 증거) (RELATED)
+- [[han-ji-hoon-prosecution-violates-2129-role-separation]] — 검찰 역할 분리 위반 atom (압수수색의 불법성이 역할 분리 위반의 물리적 집행) (RELATED)

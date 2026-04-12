@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L1-DIDC-ERT-LOGS"})
 SET fr.layer = 1,
-    fr.claimType = "procedural_artifact_mandatory",
+    fr.claimType = "procedural_violation",
+    fr.claimSubtype = "procedural_artifact_mandatory",
     fr.claimDesc = "긴급대응반 2종 일지(상황근무+침해사고) 의무. INFOCON 연동으로 2016 실시간 기록 존재 필수.",
     fr.counterHypothesis = "2016 사건이 INFOCON 상향 기준에 미달하였거나 사이버사령부 자체 대응팀이 처리하였다",
     fr.falsificationCondition = "2016 침해사고 기록일지, 상황근무일지, INFOCON 수준 기록의 제시",
@@ -50,6 +51,6 @@ DIDC 부대예규 제12호 제17조③-6은 긴급대응반의 '침해사고 기
 
 ## Related
 
-- [[didc-sop-12-incident-scene-preservation-mandatory]]
-- [[didc-sops-cover-2016-hacking-period]]
-- [[../layers/layer-1|Layer 1]]
+- [[didc-sop-12-incident-scene-preservation-mandatory]] (CORROBORATES)
+- [[didc-sops-cover-2016-hacking-period]] (CORROBORATES)
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)

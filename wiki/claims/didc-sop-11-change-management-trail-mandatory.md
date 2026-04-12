@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L1-DIDC-004"})
 SET fr.layer = 1,
-    fr.claimType = "procedural_artifact_mandatory",
+    fr.claimType = "procedural_violation",
+    fr.claimSubtype = "procedural_artifact_mandatory",
     fr.claimDesc = "DIDC 부대예규 제11호 Chapter 4 변경관리 (제21~32조) imposes an 11-gate procedural chain for any change to DIDC-hosted information systems: 변경 요청 접수 → 검토 및 반려 → 유형 분류 → 계획 수립 → 계획 승인 → 변경 작업 → 보안성 검토 요청 (제30조) → 적용 결과 검토 → 결과 검토 확인. Each gate generates documentary artifacts. KIATIS, as a DIDC-hosted system during 2018–2019, was subject to this regime; any KIATIS-era system change at DIDC must have produced 11-gate trail artifacts. The absence or alteration of these artifacts for KIATIS is direct Layer 1 + Layer 4 evidence",
     fr.counterHypothesis = "KIATIS during 2018–2019 was not hosted at DIDC, OR KIATIS changes were exempt from the 제11호 변경관리 regime under a separate carve-out, OR KIATIS changes were managed under 국전원's own change-management procedures rather than DIDC's",
     fr.falsificationCondition = "Production of (a) the KIATIS DIDC-hosting confirmation showing the system was at DIDC during 2018–2019, AND (b) the 11-gate change-management trail for any specific KIATIS change in that period, OR alternatively (c) regulatory documentation establishing that KIATIS was NOT hosted at DIDC during 2018–2019",
@@ -93,13 +94,13 @@ If item 1 confirms DIDC hosting and item 2 produces the trail with complete cont
 
 ## Related
 
-- [[../regulations/didc-info-system-operation-sop-11|DIDC SOP 제11호]]
-- [[../regulations/didc-cyber-protection-sop-12|DIDC SOP 제12호 (제30조 보안성 검토 bridge)]]
-- [[didc-sops-cover-2016-hacking-period|sister atom: SOP duty floor]]
-- [[didc-sop-incident-report-mandatory|sister atom: 별지 제4호 incident report]]
-- [[didc-sop-firewall-vpn-trail-mandatory|sister atom: 별지 6/7/8호 firewall/VPN trail]]
-- [[../entities/organizations/didc|DIDC]]
-- [[../entities/organizations/gukjeonwon|국전원]]
-- [[../events/2018-2019-kiatis-performance-improvement-project|KIATIS event]]
-- [[../layers/layer-1|Layer 1]]
-- [[../layers/layer-4|Layer 4]]
+- [[../regulations/didc-info-system-operation-sop-11|DIDC SOP 제11호]] (ABOUT)
+- [[../regulations/didc-cyber-protection-sop-12|DIDC SOP 제12호 (제30조 보안성 검토 bridge)]] (ABOUT)
+- [[didc-sops-cover-2016-hacking-period|sister atom: SOP duty floor]] (CORROBORATES)
+- [[didc-sop-incident-report-mandatory|sister atom: 별지 제4호 incident report]] (CORROBORATES)
+- [[didc-sop-firewall-vpn-trail-mandatory|sister atom: 별지 6/7/8호 firewall/VPN trail]] (CORROBORATES)
+- [[../entities/organizations/didc|DIDC]] (ABOUT)
+- [[../entities/organizations/gukjeonwon|국전원]] (ABOUT)
+- [[../events/2018-2019-kiatis-performance-improvement-project|KIATIS event]] (ABOUT)
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

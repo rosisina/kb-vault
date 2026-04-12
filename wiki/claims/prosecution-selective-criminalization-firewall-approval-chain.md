@@ -7,7 +7,8 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L6-B2-002"})
 SET fr.layer = 6,
     fr.secondaryLayer = 5,
-    fr.claimType = "selective_criminalization_firewall_chain",
+    fr.claimType = "prosecution_misconduct",
+    fr.claimSubtype = "selective_criminalization_firewall_chain",
     fr.claimDesc = "The firewall policy application request document (공문) had a three-person approval chain: drafter 이준호, reviewer 한지훈, approver 최영수. The military prosecution designated only the middle reviewer (한지훈) as the accused. The final approver 최영수 — a 30-year IT expert, 서기관, and 과장 with authority to reject the document — was treated as a mere witness. The drafter 이준호 was excluded entirely. 최영수 testified for 5 hours that the firewall port opening was technically justified, and the prosecution could not rebut his arguments. This selective targeting within a single approval chain is evidence of targeted prosecution (표적수사).",
     fr.counterHypothesis = "The prosecution targeted the reviewer because the reviewer bore the primary duty of technical verification in the approval chain, and the reviewer's position (팀장) carried the operational responsibility for the port-opening decision",
     fr.falsificationCondition = "Production of a legal analysis showing that 팀장 (reviewer) bears greater criminal liability than 과장 (approver) for a port-opening decision under military administrative law, OR evidence that 최영수 and 이준호 were separately investigated and cleared on documented grounds",
@@ -74,11 +75,11 @@ This claim is CORROBORATED unless:
 
 ## Related
 
-- [[prosecution-misapplies-2129-article-58-4-to-kiatis|L6 atom: 제58조 ¶4 misapplication]]
-- [[layer5-48hr-retaliation-causal-link|L5 atom: 48-hour retaliation chain]]
-- [[layer5-choi-youngsu-testimony-exposes-joseo-fabrication|L5 atom: 최영수 testimony]]
-- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|L6 atom: 기소유예 stigma harm]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[../entities/people/choi-young-su|최영수]]
-- [[../layers/layer-6|Layer 6]]
-- [[../layers/layer-5|Layer 5]]
+- [[prosecution-misapplies-2129-article-58-4-to-kiatis|L6 atom: 제58조 ¶4 misapplication]] (CAUSES)
+- [[layer5-48hr-retaliation-causal-link|L5 atom: 48-hour retaliation chain]] (CAUSES)
+- [[layer5-choi-youngsu-testimony-exposes-joseo-fabrication|L5 atom: 최영수 testimony]] (CAUSES)
+- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|L6 atom: 기소유예 stigma harm]] (CAUSES)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[../entities/people/choi-young-su|최영수]] (ABOUT)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

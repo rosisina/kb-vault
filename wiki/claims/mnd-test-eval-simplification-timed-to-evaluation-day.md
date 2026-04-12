@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-EVAL-SIMPLIFICATION-TIMING"})
 SET fr.layer = 4,
-    fr.claimType = "document_manipulation_timing",
+    fr.claimType = "document_fabrication",
+    fr.claimSubtype = "document_manipulation_timing",
     fr.claimDesc = "국방부 이지영·김수진이 시험평가 시작일인 2019.9.2 13:39:35에 '시험평가 절차 간소화 추진 계획 검토 요청' 공문을 생산·발송(Record 2,853)하였으나, 첨부 추진계획 보고서의 날짜가 2019.9.3(화)로 생산일보다 이후 — 시간역전 현상. 이후 2020.2.13 제2398호에서 제11조 ②항 4호(시험평가 계획·결과 승인)가 삭제되었다",
     fr.counterHypothesis = "추진계획 보고서의 날짜가 하루 뒤인 것은 단순 행정 오류이며, 훈령 개정은 별도의 정책 결정 과정을 거친 정상적 개정이다",
     fr.falsificationCondition = "시험평가 절차 간소화가 新KIATIS와 무관한 전군 차원의 정책이었음을 보여주는 사전 기획 문서의 제시",
@@ -59,6 +60,6 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[gukjeonwon-pre-evaluation-team-leader-exclusion]] — L4 팀장 배제
-- [[2436ho-cluster-six-anchors]] — 훈령 조작 클러스터
-- [[../layers/layer-4|Layer 4]]
+- [[gukjeonwon-pre-evaluation-team-leader-exclusion]] — L4 팀장 배제 (RELATED)
+- [[2436ho-cluster-six-anchors]] — 훈령 조작 클러스터 (RELATED)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

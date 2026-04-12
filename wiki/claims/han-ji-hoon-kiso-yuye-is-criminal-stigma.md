@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-002"})
 SET fr.layer = 6,
-    fr.claimType = "criminal_disposition_harm",
+    fr.claimType = "human_rights_violation",
+    fr.claimSubtype = "criminal_disposition_harm",
     fr.claimDesc = "The 기소유예 (deferred prosecution) disposition issued against 한지훈 by 군 검찰단 in October 2022 is, under Korean criminal procedure, a substantive criminal disposition that acknowledges criminal facts while withholding formal indictment — not exoneration. For a 32-year career officer whose conduct was lawful (per FR-L6-001), the 기소유예 outcome constitutes a continuous harm comprising: unlawful warrant + 압수수색 + 피의자 조사 + 기소유예 stigma + reputation damage + criminal branding + family harm + post-discharge social isolation",
     fr.counterHypothesis = "기소유예 is functionally equivalent to no-prosecution and does not constitute criminal stigma in Korean legal practice; the 한지훈 case's reputational and social harms are independent of the 기소유예 disposition and would have followed any investigation outcome",
     fr.falsificationCondition = "Production of (a) Korean Supreme Court rulings or 헌법재판소 decisions treating 기소유예 as functionally equivalent to 무혐의 for stigma purposes, OR (b) empirical evidence that 기소유예 recipients in Korea are not subject to background-check disclosure or career consequences distinct from 무혐의 recipients",
@@ -101,12 +102,12 @@ If items 1–3 are produced with substantive content, the verdict downgrades to 
 
 ## Related
 
-- [[han-ji-hoon-prosecution-violates-2129-role-separation|paired Layer 6 atom: prosecution charge structurally inapplicable to 사업관리팀장]]
-- [[han-ji-hoon|한지훈 entity hub]]
-- [[im-hyung-gyu|임형규 (담당 검사)]]
-- [[ahn-se-jun|안세준 (군검찰단장, 결재 승인자)]]
-- [[../layers/layer-6|Layer 6]]
-- [[../layers/layer-7|Layer 7 (petition response)]]
-- [[../topics/fraud-investigation|Fraud Investigation]]
-- [[../topics/whistleblower-protection-and-reform|Whistleblower Protection and Reform]]
-- [[../topics/banality-vs-sophistication-of-evil|Banality vs Sophistication of Evil]]
+- [[han-ji-hoon-prosecution-violates-2129-role-separation|paired Layer 6 atom: prosecution charge structurally inapplicable to 사업관리팀장]] (RELATED)
+- [[han-ji-hoon|한지훈 entity hub]] (RELATED)
+- [[im-hyung-gyu|임형규 (담당 검사)]] (RELATED)
+- [[ahn-se-jun|안세준 (군검찰단장, 결재 승인자)]] (RELATED)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)
+- [[../layers/layer-7|Layer 7 (petition response)]] (PART_OF_LAYER)
+- [[../topics/fraud-investigation|Fraud Investigation]] (ABOUT)
+- [[../topics/whistleblower-protection-and-reform|Whistleblower Protection and Reform]] (ABOUT)
+- [[../topics/banality-vs-sophistication-of-evil|Banality vs Sophistication of Evil]] (ABOUT)

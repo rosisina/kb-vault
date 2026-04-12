@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-5MIN-TRIPLE-REVERSAL"})
 SET fr.layer = 5,
-    fr.claimType = "conspiracy_evidence",
+    fr.claimType = "conspiracy_structure",
+    fr.claimSubtype = "conspiracy_evidence",
     fr.claimDesc = "Record 11,064: 5분 3회 번복. 조직→직권→개인. 실시간 조율+증거 은폐 시도.",
     fr.counterHypothesis = "절차적 불확실성에서 비롯된 정상적 재검토",
     fr.falsificationCondition = "직권조사 거부에 대한 법적 절차적 사유가 문서화된 기록",
@@ -50,6 +51,6 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[lee-jiyoung-jikgwon-josa-flip-flop-hours]]
-- [[layer5-triangular-collusion-speech-act-timeline]]
-- [[../layers/layer-5|Layer 5]]
+- [[lee-jiyoung-jikgwon-josa-flip-flop-hours]] (CORROBORATES)
+- [[layer5-triangular-collusion-speech-act-timeline]] (CORROBORATES)
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

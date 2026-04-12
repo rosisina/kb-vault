@@ -7,6 +7,7 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L6-ARTICLE-57-DIRECTIVE-LAUNDERING"})
 SET fr.layer = 6,
     fr.claimType = "regulatory_manipulation",
+    fr.claimSubtype = "directive_laundering",
     fr.claimDesc = "제57조의 '사업주관기관 주관 하에' 삭제 = 기관→개인 책임전가의 핵심 메커니즘. 시간역전으로 소급 조작.",
     fr.counterHypothesis = "'사업주관기관 주관 하에' 삭제는 행정 효율화 차원의 용어 정비이며 책임 전가 목적이 아니다",
     fr.falsificationCondition = "제2275호의 제57조 변경이 독립적 정책 검토에 의해 결정되었음을 보여주는 입법예고 또는 심의 기록",
@@ -51,6 +52,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[kiatis-phantom-directive-2275ho]]
-- [[directive-article-11-control-functions-stripped]]
-- [[../layers/layer-6|Layer 6]]
+- [[kiatis-phantom-directive-2275ho]] (RELATED)
+- [[directive-article-11-control-functions-stripped]] (RELATED)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

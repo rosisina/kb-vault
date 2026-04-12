@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L7-INKKWONWI-REJECTION"})
 SET fr.layer = 7,
-    fr.claimType = "institutional_procedural_failure_human_rights_body",
+    fr.claimType = "institutional_obstruction",
+    fr.claimSubtype = "institutional_procedural_failure_human_rights_body",
     fr.claimDesc = "The 국가인권위원회 (National Human Rights Commission of Korea) issued a rejection of 한지훈's petition WITHOUT calling any witness (참고인) and WITHOUT substantively reviewing the thousands of pages of submitted evidence. The book characterizes the rejection as 'beyond words' and questions the commission's reason for existence.",
     fr.counterHypothesis = "The 인권위 conducted a paper-based review sufficient under its statutory framework (국가인권위원회법), determined the matter fell outside its human-rights jurisdiction (e.g., primarily a criminal-procedure or procurement dispute), and issued a legitimate jurisdictional rejection without needing to call witnesses.",
     fr.falsificationCondition = "Production of the 인권위 진정사건 처리결과 (기록 제5,679~5,680쪽) showing substantive engagement with 한지훈's specific human-rights claims (isolation, criminal stigma, harassment) would downgrade this claim to NEEDS_MORE_EVIDENCE.",
@@ -76,9 +77,9 @@ This counter-hypothesis is weakened by (a) the explicit 5+ months of documented 
 
 ## Related
 
-- [[../layers/layer-7|Layer 7]]
-- [[han-ji-hoon-rebuttal-rejected-by-eight-institutions|L7 atom: 8-institution rejection chain]]
-- [[kwonikkwi-evidence-transfer-attempt-to-mnd|L7 atom: 권익위 evidence transfer attempt]]
-- [[../entities/people/han-ji-hoon|한지훈 entity hub]]
-- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|Layer 6: 기소유예 criminal stigma]]
-- [[han-ji-hoon-dan-jang-phone-call-2022-09-28|L7 atom: 단장 phone call — civilian escalation trigger]]
+- [[../layers/layer-7|Layer 7]] (PART_OF_LAYER)
+- [[han-ji-hoon-rebuttal-rejected-by-eight-institutions|L7 atom: 8-institution rejection chain]] (OPPOSES)
+- [[kwonikkwi-evidence-transfer-attempt-to-mnd|L7 atom: 권익위 evidence transfer attempt]] (CORROBORATES)
+- [[../entities/people/han-ji-hoon|한지훈 entity hub]] (ABOUT)
+- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|Layer 6: 기소유예 criminal stigma]] (RELATED)
+- [[han-ji-hoon-dan-jang-phone-call-2022-09-28|L7 atom: 단장 phone call — civilian escalation trigger]] (RELATED)

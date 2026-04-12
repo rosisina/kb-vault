@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-002"})
 SET fr.layer = 5,
-    fr.claimType = "workplace_isolation_human_rights_violation",
+    fr.claimType = "human_rights_violation",
+    fr.claimSubtype = "workplace_isolation_human_rights_violation",
     fr.claimDesc = "한지훈 was confined to 4 successive solitary offices between 2022-02 and 2022-09 (approximately 6 months), systematically denied normal desk access, PC access, and colleague interaction — a continuous and documented workplace human-rights violation used as a witness-destruction tactic.",
     fr.counterHypothesis = "The successive office reassignments were routine administrative decisions unrelated to the 갑질 investigation, reflecting normal personnel rotation procedures within 국전원.",
     fr.falsificationCondition = "Production of personnel rotation documents showing the 4 office reassignments followed standard rotation schedules predating the 갑질 investigation, with contemporaneous justifications unrelated to the audit process.",
@@ -69,10 +70,10 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[../layers/layer-5|Layer 5]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[../entities/people/kim-min-su|김민수]]
-- [[layer5-48hr-retaliation-causal-link|layer5-48hr-retaliation-causal-link — 48시간 보복 인과 관계]]
-- [[layer5-isolation-office-premeditated|layer5-isolation-office-premeditated — 독방 사전 준비]]
-- [[layer5-predetermined-audit-conclusion|layer5-predetermined-audit-conclusion — 조사본부 결론 사전 결정]]
-- [[../topics/whistleblower-protection-and-reform|Whistleblower Protection and Reform]]
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[../entities/people/kim-min-su|김민수]] (ABOUT)
+- [[layer5-48hr-retaliation-causal-link|layer5-48hr-retaliation-causal-link — 48시간 보복 인과 관계]] (CORROBORATES)
+- [[layer5-isolation-office-premeditated|layer5-isolation-office-premeditated — 독방 사전 준비]] (CORROBORATES)
+- [[layer5-predetermined-audit-conclusion|layer5-predetermined-audit-conclusion — 조사본부 결론 사전 결정]] (RELATED)
+- [[../topics/whistleblower-protection-and-reform|Whistleblower Protection and Reform]] (ABOUT)

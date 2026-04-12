@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-KIM-MINSU-FALSE-IGNORANCE"})
 SET fr.layer = 4,
-    fr.claimType = "false_testimony",
+    fr.claimType = "witness_manipulation",
+    fr.claimSubtype = "false_testimony",
     fr.claimDesc = "Records 11,055-56(무지) vs Records 6,748/6,760/6,755(경력). 직접 모순.",
     fr.counterHypothesis = "정보화기획실 재직이 KIATIS와 무관한 업무였을 수 있다",
     fr.falsificationCondition = "김민수의 재직 기간 업무가 KIATIS와 무관했음을 보여주는 기록",
@@ -53,5 +54,5 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[kim-min-su-central-cross-layer-cartel-figure]]
-- [[../layers/layer-4|Layer 4]]
+- [[kim-min-su-central-cross-layer-cartel-figure]] (OPPOSES)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-C-L4-19"})
 SET fr.layer = 4,
-    fr.claimType = "contradiction_pair",
+    fr.claimType = "cross_layer_analysis",
+    fr.claimSubtype = "contradiction_pair",
     fr.claimDesc = "5년 안정→4개월 역전. 제2436호 8-anchor cluster와 동시. 의도적 조작의 시간적 증거.",
     fr.counterHypothesis = "통합 원칙은 국제적 애자일 테스트 관행을 반영한 현대화 조치이며 시기적 우연이다",
     fr.falsificationCondition = "2019년 이전에 통합을 권고하는 내부 정책 검토 문서가 존재하는 경우",
@@ -51,7 +52,7 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[article-58-separation-to-integration-2020-directive-manipulation|2 shared records — 분리→통합 원칙 역전]]
-- [[2436ho-test-evaluation-principle-inverted]]
-- [[2436ho-cluster-six-anchors]]
-- [[../layers/layer-4|Layer 4]]
+- [[article-58-separation-to-integration-2020-directive-manipulation|2 shared records — 분리→통합 원칙 역전]] (RELATED)
+- [[2436ho-test-evaluation-principle-inverted]] (RELATED)
+- [[2436ho-cluster-six-anchors]] (CAUSES)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

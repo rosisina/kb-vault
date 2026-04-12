@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-DELAY-LEADER-ELIMINATION"})
 SET fr.layer = 6,
-    fr.claimType = "victim_targeting",
+    fr.claimType = "human_rights_violation",
+    fr.claimSubtype = "victim_targeting",
     fr.claimDesc = "진실 발견→제거 동기→'개발 부실' 프레이밍의 순차 구조.",
     fr.counterHypothesis = "한지훈에 대한 책임 추궁은 실제 개발 관리 부실에 기반",
     fr.falsificationCondition = "한지훈의 개발 관리에 실질적 부실을 보여주는 독립 감리 보고서",
@@ -50,6 +51,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[new-kiatis-delay-three-strategic-objectives]]
-- [[layer5-48hr-retaliation-causal-link]]
-- [[../layers/layer-6|Layer 6]]
+- [[new-kiatis-delay-three-strategic-objectives]] (RELATED)
+- [[layer5-48hr-retaliation-causal-link]] (RELATED)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-JUDICIAL-MURDER-FAMILY"})
 SET fr.layer = 6,
-    fr.claimType = "sincerity_harm",
+    fr.claimType = "human_rights_violation",
+    fr.claimSubtype = "sincerity_harm",
     fr.claimDesc = "정리02: 군검찰단=사법살인 전범기관. 무고한 군인의 영구적 파괴와 가족공동체의 회복불능.",
     fr.counterHypothesis = "검찰은 정당한 반부패 수사를 수행했으며, 개인적 고통은 합법적 과정의 부수적 결과이다",
     fr.falsificationCondition = "검찰이 적정 절차를 준수했고, L4 조작 증거에 의존하지 않았으며, 진정한 증거 평가에 기반했음을 보여주는 기록",
@@ -52,7 +53,7 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[prosecution-fraud-meets-criminal-elements]]
-- [[prosecution-principal-actor-in-cartel]]
-- [[han-ji-hoon-kiso-yuye-is-criminal-stigma]]
-- [[../layers/layer-6|Layer 6]]
+- [[prosecution-fraud-meets-criminal-elements]] (RELATED)
+- [[prosecution-principal-actor-in-cartel]] (RELATED)
+- [[han-ji-hoon-kiso-yuye-is-criminal-stigma]] (CORROBORATES)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

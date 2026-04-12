@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-KIM-MINSU-CENTRAL-FIGURE"})
 SET fr.layer = 4,
-    fr.claimType = "cartel_leadership",
+    fr.claimType = "conspiracy_structure",
+    fr.claimSubtype = "cartel_leadership",
     fr.claimDesc = "김민수 (핵심 의사결정자-1)는 2016년 DIDC 해킹 당시 국방부 정보화기획실에 재직하였고, 이후 국전원 개발관리팀장(2015-2017, 박성호와 함께), 그 후 국전원장으로 복귀하여 '팀장이 검증 안 했으면 팀장이 책임져라'(정리11)는 사전 공모된 발언으로 한지훈에게 책임을 전가하면서 '원은 안 도와준다'고 선언하였다. 그러면서 '내가 그걸 어떻게 아니. 오기도 전에 일을'이라고 허위 진술하였다",
     fr.counterHypothesis = "김민수의 경력 이동은 정상적 인사 배치이며, '팀장 책임' 발언은 일반적 관리자의 책임 배분 판단이다",
     fr.falsificationCondition = "김민수가 2016 DIDC 해킹과 舊KIATIS 관련 업무에 관여하지 않았음을 보여주는 인사 기록",
@@ -62,6 +63,6 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[gukjeonwon-pre-evaluation-team-leader-exclusion]] — L4 팀장 배제
-- [[../layers/layer-4|Layer 4]]
-- [[../layers/layer-5|Layer 5]]
+- [[gukjeonwon-pre-evaluation-team-leader-exclusion]] — L4 팀장 배제 (CORROBORATES)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

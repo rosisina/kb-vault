@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-DIDC-CENTER1-TRUE-HOST"})
 SET fr.layer = 6,
-    fr.claimType = "factual_concealment",
+    fr.claimType = "evidence_concealment",
+    fr.claimSubtype = "factual_concealment",
     fr.claimDesc = "정리01: DIDC 1센터=진짜 해킹 거점. 정리02: 군검찰단=전범기관. Records 6,620/6,609에서 확인.",
     fr.counterHypothesis = "DIDC 2센터(계룡대)가 실제 해킹 거점이며, 1센터(용인)의 연루는 2차적이다",
     fr.falsificationCondition = "2016년 해킹 합동조사 결과에서 DIDC 1센터(용인)가 해킹 거점이 아님을 명시한 공식 기록",
@@ -52,6 +53,6 @@ DIDC 2센터(계룡대)가 실제 해킹 거점이며, 1센터(용인)의 연루
 
 ## Related
 
-- [[prosecution-principal-actor-in-cartel]]
-- [[../layers/layer-6|Layer 6]]
-- [[../layers/layer-1|Layer 1]]
+- [[prosecution-principal-actor-in-cartel]] (RELATED)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)

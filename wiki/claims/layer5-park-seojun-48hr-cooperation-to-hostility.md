@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-PARK-48HR-SHIFT"})
 SET fr.layer = 5,
-    fr.claimType = "behavioral_evidence",
+    fr.claimType = "methodology",
+    fr.claimSubtype = "behavioral_evidence",
     fr.claimDesc = "박서준 (갑질신고자-1)은 2022.2.8 이지영의 VPN 관련 정보 추출 시점까지 한지훈과 정상적으로 협력하였으나, 48시간 내에 적대적 태도로 전환되었다. 이 급격한 변화는 이지영·김민수의 지시에 의한 것으로, 박서준이 자발적 갑질 신고자가 아닌 조종된 도구였음을 보여준다",
     fr.counterHypothesis = "박서준의 태도 변화는 갑질 경험의 누적으로 인한 자발적 결단이며, 특정 시점의 외부 지시와 무관하다",
     fr.falsificationCondition = "박서준이 2022.2.8 이전부터 갑질 신고를 준비하고 있었음을 보여주는 기록(일기, 메시지 등)",
@@ -56,6 +57,6 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[layer5-park-seojun-gaslighting-victim-or-accomplice|박서준 가스라이팅 피해자/공모자 판정]]
-- [[layer5-48hr-retaliation-causal-link|48시간 인과 관계 — 동일 시간 프레임]]
-- [[../layers/layer-5|Layer 5]]
+- [[layer5-park-seojun-gaslighting-victim-or-accomplice|박서준 가스라이팅 피해자/공모자 판정]] (RELATED)
+- [[layer5-48hr-retaliation-causal-link|48시간 인과 관계 — 동일 시간 프레임]] (RELATED)
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

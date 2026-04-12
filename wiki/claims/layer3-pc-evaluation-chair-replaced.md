@@ -7,7 +7,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L3-PC-EVAL-CHAIR-REPLACED-001"})
 SET fr.layer = 3,
-    fr.claimType = "evaluation_independence_violation",
+    fr.claimType = "procedural_violation",
+    fr.claimSubtype = "evaluation_independence_violation",
     fr.claimDesc = "한지훈 중령이 특정 PC 사업의 평가위원장으로 선정되어 규격 문제를 제기하자, 평가위원회 자체가 취소되었고 이후 다른 인원으로 평가위원장이 교체되었다. 또한 200억 원 이상 규모 국방 인사정보체계 고도화 사업(2018-12~2022-03, 209.9억, 기록 제1,720쪽)의 토의에 총괄 담당으로 여러 번 참석하여 UML 등 개발도구 문제점·도입 불필요성을 지적한 이후 본인이 불편해져 참석하지 않는 상태로 배제되었다. 두 사례는 Layer 3 평가·토의 과정에서 '규격 문제를 제기하는 독립 판단자를 제거하는 패턴'의 일관된 실례이다.",
     fr.counterHypothesis = "평가위원장 교체와 토의 불참은 정상적 인사 조정·업무 조율의 일환이며 규격 문제 제기와 직접 인과 관계가 없다",
     fr.falsificationCondition = "평가위원회 취소 사유가 공문상 '위원 교체 필요' 이외의 독립적 사유(예: 사업 일정 변경·소요 철회)로 명시되어 있고, 대체 위원장이 동일한 규격 문제를 제기하였음이 Record No. 원문으로 확인되면 약화",
@@ -79,9 +80,9 @@ SET fr.layer = 3,
 
 ## Related
 
-- [[../layers/layer-3|Layer 3 hub]]
-- [[../layers/layer-4|Layer 4 hub]]
-- [[layer4-evaluation-committee-80-items-violation|평가위원회 80개 위반 (L4)]]
-- [[2436ho-test-evaluation-principle-inverted|2436호 시험평가 원칙 역전]]
-- [[han-ji-hoon-three-braking-devices-active-defense|한지훈 3 적극적 방어 mechanism]]
-- [[../entities/organizations/gukjeonwon|국전원]]
+- [[../layers/layer-3|Layer 3 hub]] (PART_OF_LAYER)
+- [[../layers/layer-4|Layer 4 hub]] (PART_OF_LAYER)
+- [[layer4-evaluation-committee-80-items-violation|평가위원회 80개 위반 (L4)]] (RELATED)
+- [[2436ho-test-evaluation-principle-inverted|2436호 시험평가 원칙 역전]] (RELATED)
+- [[han-ji-hoon-three-braking-devices-active-defense|한지훈 3 적극적 방어 mechanism]] (RELATED)
+- [[../entities/organizations/gukjeonwon|국전원]] (ABOUT)

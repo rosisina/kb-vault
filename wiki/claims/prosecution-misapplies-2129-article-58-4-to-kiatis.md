@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-003"})
 SET fr.layer = 6,
-    fr.claimType = "prosecution_legal_misapplication",
+    fr.claimType = "prosecution_misconduct",
+    fr.claimSubtype = "prosecution_legal_misapplication",
     fr.claimDesc = "The 2022-10-07 불기소이유서 (Case 2022 형제66호) by the MND Military Prosecutor's Office cited 제2129호 제58조 ¶4 as legal basis for the legitimacy of integrated DT&E/OT&E execution in KIATIS, but 제58조 ¶4 is the exception clause that applies ONLY to 제58조 ¶3 projects (기관 위임사업, 5억 원 미만 사업, 또는 제46조에 따라 위임된 사업). KIATIS at 6.25억 KRW does not qualify under any 제58조 ¶3 path (foreclosed by FR-L4-KIATIS-001), so the prosecution applied the wrong paragraph of the directive — citing the exception as if it were the main regime. This legal misapplication is the foundation on which the 위계공무집행방해 기소유예 stigma stands",
     fr.counterHypothesis = "The prosecution's citation of 제58조 ¶4 was implicitly conditional on a 제58조 ¶3 qualification analysis that was performed but not articulated in the 불기소이유서, OR the prosecution interpreted ¶4 as freestanding rather than dependent on ¶3",
     fr.falsificationCondition = "Production of (a) the prosecution's internal legal analysis showing a 제58조 ¶3 qualification path for KIATIS, OR (b) authoritative administrative interpretation that 제58조 ¶4 operates independently of ¶3",
@@ -98,13 +99,13 @@ If items 1 or 3 are produced with substantive content, the verdict downgrades to
 
 ## Related
 
-- [[han-ji-hoon-prosecution-violates-2129-role-separation|paired Layer 6 atom: role-tier misattribution]]
-- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|paired Layer 6 atom: 기소유예 stigma harm]]
-- [[kiatis-2129ho-main-regime-applies|KIATIS main regime applies — forecloses ¶3 paths]]
-- [[kiatis-rfp-binds-lifecycle|KIATIS RFP binds lifecycle (행위시법주의)]]
-- [[../regulations/defense-it-2129-article-58|제58조]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[../entities/people/im-hyung-gyu|임형규 (담당 검사)]]
-- [[../entities/people/ahn-se-jun|안세준 (군검찰단장 결재)]]
-- [[../layers/layer-6|Layer 6]]
-- [[../topics/fraud-investigation|Fraud Investigation]]
+- [[han-ji-hoon-prosecution-violates-2129-role-separation|paired Layer 6 atom: role-tier misattribution]] (CORROBORATES)
+- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|paired Layer 6 atom: 기소유예 stigma harm]] (RELATED)
+- [[kiatis-2129ho-main-regime-applies|KIATIS main regime applies — forecloses ¶3 paths]] (RELATED)
+- [[kiatis-rfp-binds-lifecycle|KIATIS RFP binds lifecycle (행위시법주의)]] (RELATED)
+- [[../regulations/defense-it-2129-article-58|제58조]] (ABOUT)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[../entities/people/im-hyung-gyu|임형규 (담당 검사)]] (ABOUT)
+- [[../entities/people/ahn-se-jun|안세준 (군검찰단장 결재)]] (ABOUT)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)
+- [[../topics/fraud-investigation|Fraud Investigation]] (ABOUT)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L1-A3-001"})
 SET fr.layer = 1,
-    fr.claimType = "regulatory_routing_micro_change",
+    fr.claimType = "regulatory_manipulation",
+    fr.claimSubtype = "regulatory_routing_micro_change",
     fr.claimDesc = "제2263호 (2019-02-26) is the first revision in the dataset to micro-edit 제9조 ¶2's reference to 국방사이버안보훈령 — the cyber-security routing anchor that determines which separate directive governs cybersecurity aspects of defense IT projects",
     fr.counterHypothesis = "The micro-edit is a routine cross-reference update reflecting parallel changes in the 국방사이버안보훈령 itself, with no substantive intent to redirect cybersecurity accountability away from defense IT projects",
     fr.falsificationCondition = "Production of the contemporaneous 국방사이버안보훈령 revision history showing parallel edits at or near 2019-02-26 that justify the cross-reference update on technical grounds",
@@ -88,6 +89,6 @@ Item 2 is a free verification step using the converted file set and should be pe
 
 ## Related
 
-- [[2436ho-cluster-six-anchors|2436호 cluster (A3 not in cluster)]]
-- [[../regulations/defense-it-2129-article-9|제9조]]
-- [[../layers/layer-1|Layer 1]]
+- [[2436ho-cluster-six-anchors|2436호 cluster (A3 not in cluster)]] (CORROBORATES)
+- [[../regulations/defense-it-2129-article-9|제9조]] (ABOUT)
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)

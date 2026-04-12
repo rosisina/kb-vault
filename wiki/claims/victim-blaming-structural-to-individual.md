@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-VICTIM-BLAMING"})
 SET fr.layer = 6,
-    fr.claimType = "analytical_framework",
+    fr.claimType = "methodology",
+    fr.claimSubtype = "analytical_framework",
     fr.claimDesc = "15년 구조적 취약점→개인 책임전가. Records 4,855/3,236. 피해자 비난 전술.",
     fr.counterHypothesis = "사업관리팀장으로서 시험평가 보안 설정 책임이 있으며 시스템 역사와 무관하다",
     fr.falsificationCondition = "한지훈이 VPN/DB접근제어 조달 권한과 예산을 보유하고 의도적으로 거부한 기록",
@@ -51,5 +52,5 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[prosecution-six-charges-collapse-vpn-nonexistence]]
-- [[../layers/layer-6|Layer 6]]
+- [[prosecution-six-charges-collapse-vpn-nonexistence]] (RELATED)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

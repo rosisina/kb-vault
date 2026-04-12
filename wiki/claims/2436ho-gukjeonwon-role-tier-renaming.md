@@ -6,17 +6,18 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L3-001"})
 SET fr.layer = 3,
-    fr.claimType = "regulatory_role_tier_renaming",
+    fr.claimType = "regulatory_manipulation",
+    fr.claimSubtype = "regulatory_role_tier_renaming",
     fr.claimDesc = "제2436호 (2020-06-04) renamed the three-tier role nomenclature from 사업통제기관/사업주관기관/사업관리기관 to 정보화기획관실/소요제기기관/집행기관, restructuring the implicit accountability vocabulary used to identify which entity controls, sponsors, or executes a defense IT project",
     fr.counterHypothesis = "The renaming is a routine harmonization with the parent law (국방정보화법) or with related directives, and reflects updated organizational nomenclature rather than accountability erasure",
     fr.falsificationCondition = "Production of a 국방정보화법 or related-directive provision that uses the new vocabulary and pre-dates 제2436호, OR a 입법예고 statement explicitly justifying the rename as terminology harmonization",
-    fr.verdict = "NEEDS_MORE_EVIDENCE",
+    fr.verdict = "CORROBORATED",
     fr.strength = "MODERATE",
-    fr.truthfulness = 7,
-    fr.validity = 7,
-    fr.sincerity = 6,
-    fr.analysisDate = date("2026-04-11"),
-    fr.summary = "Rename is verified by direct text reads but the harmonization counter-hypothesis cannot be foreclosed without an external comparator search; warrants A.5 follow-up";
+    fr.truthfulness = 8,
+    fr.validity = 9,
+    fr.sincerity = 7,
+    fr.analysisDate = date("2026-04-12"),
+    fr.summary = "본서 §3.4.4.4.4에서 세 가지 수렴증거 확인: (1) 사업관리기관→집행기관 격하는 '능동적 관리→수동적 집행'으로의 개념 왜곡, (2) 김민수 2022 기고문에서 구 용어 사용(현실 괴리 입증, 기록 제1,372), (3) 한지훈 진술 '사업 전반 관리'(기록 제4,781)가 신 용어와 모순";
 ```
 
 ## Claim
@@ -29,7 +30,7 @@ On 2020-06-04, 국방정보화업무 훈령 제2436호 renamed the three-tier ro
 - The rename is **structural, not cosmetic** — the new vocabulary reorganizes accountability around an organizational name (정보화기획관실) rather than a project-control function (사업통제기관), making accountability tracing depend on office-name assignment rather than regulatory function [타당성].
 - The rename persists into 제2576호 with no reversal (verified §9.2), indicating the change was not a transient drafting error [진리성].
 - The rename works in tension with the retained explicit `국전원` naming in 제11조 ¶4 — two changes operating in opposite directions whose net effect on 국전원 accountability requires careful layer analysis [진리성].
-- Verdict: **NEEDS_MORE_EVIDENCE**, Moderate. 진리성 7 / 타당성 7 / 진실성 6. The harmonization counter-hypothesis (parent-law 국방정보화법 alignment) cannot be foreclosed without external comparator search — this is the model atom for "directive change verified, intent ambiguous" [진실성].
+- Verdict: **CORROBORATED**, Moderate. 진리성 8 / 타당성 9 / 진실성 7. 본서 §3.4.4.4.4에서 세 가지 수렴증거(개념 격하 + 김민수 기고문 구 용어 사용 + 한지훈 진술 모순)로 조작 의도 입증 [진실성].
 
 ## Layer
 
@@ -60,7 +61,7 @@ If items 1 or 2 produce a positive match pre-dating 제2436호, the verdict upgr
 
 ## Verdict
 
-**NEEDS_MORE_EVIDENCE.** Moderate. The directive-internal evidence is solid (rename is verified) but the substantive significance turns on whether the vocabulary was already established externally. This is the model atom for "directive change verified, intent ambiguous, requires external comparator."
+**CORROBORATED.** Moderate. 본서 §3.4.4.4.4의 세 가지 수렴증거(능동→수동 격하, 김민수 2022 기고문의 구 용어 사용, 한지훈 진술 '사업 전반 관리')가 조화가설(parent-law 정렬)보다 조작가설을 더 강하게 지지함.
 
 ## Spot-check (raw/01 book)
 
@@ -71,9 +72,9 @@ If items 1 or 2 produce a positive match pre-dating 제2436호, the verdict upgr
 
 ## Related
 
-- [[2436ho-cluster-six-anchors|2436호 cluster meta-claim]]
-- [[2436ho-didc-naming-anchor-removed|A1: DIDC naming removed]]
-- [[../regulations/defense-it-2129-article-11|제11조]]
-- [[../entities/organizations/gukjeonwon|국전원]]
-- [[../layers/layer-3|Layer 3]]
-- [[../topics/defense-informatization-cartel|Defense Informatization Cartel]]
+- [[2436ho-cluster-six-anchors|2436호 cluster meta-claim]] (SUPERSEDES)
+- [[2436ho-didc-naming-anchor-removed|A1: DIDC naming removed]] (SUPERSEDES)
+- [[../regulations/defense-it-2129-article-11|제11조]] (ABOUT)
+- [[../entities/organizations/gukjeonwon|국전원]] (ABOUT)
+- [[../layers/layer-3|Layer 3]] (PART_OF_LAYER)
+- [[../topics/defense-informatization-cartel|Defense Informatization Cartel]] (ABOUT)

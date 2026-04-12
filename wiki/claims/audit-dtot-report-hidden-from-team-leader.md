@@ -7,6 +7,7 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L4-DTOT-REPORT-HIDDEN"})
 SET fr.layer = 4,
     fr.claimType = "evidence_concealment",
+    fr.claimSubtype = "report_hidden_single_approval",
     fr.claimDesc = "국유단이 2019.9.24 발송한 감리용역 DT/OT 테스트 지원결과보고서(79p)를 이준호가 2019.10.7 접수 후 '1인 결재'하여 개발관리팀장에게 미보고하였다. 이 보고서의 감리업체 점검결과는 대부분 '부적합'으로 되어 있으며, 군검찰단 수사의 핵심 자료이다",
     fr.counterHypothesis = "DT/OT 결과보고서의 '부적합' 판정은 개발 요구기능이 아닌 데이터 부재에 관한 것이며, 최종 감리결과에서는 '적합'으로 판정되었으므로 은폐 의도가 없었다",
     fr.falsificationCondition = "이준호의 1인 결재가 당시 팀장 부재 등 정당한 사유에 의한 것임을 보여주는 기록",
@@ -58,5 +59,5 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[gukjeonwon-pre-evaluation-team-leader-exclusion]] — L4 팀장 배제 패턴
-- [[../layers/layer-4|Layer 4]]
+- [[gukjeonwon-pre-evaluation-team-leader-exclusion]] — L4 팀장 배제 패턴 (RELATED)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

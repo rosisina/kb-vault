@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-NO-CORRUPTION-STILL-CHARGED"})
 SET fr.layer = 6,
-    fr.claimType = "prosecution_admission",
+    fr.claimType = "prosecution_misconduct",
+    fr.claimSubtype = "prosecution_admission",
     fr.claimDesc = "검사 녹음: 부패 없음 인정+기소유예 유지+규정 논거 일축+'정의롭게 했다' 자평.",
     fr.counterHypothesis = "기소유예는 시험평가 환경 문제에 기반한 정당한 처분이며 부패 부재와 무관하다",
     fr.falsificationCondition = "불기소이유서에서 사업관리팀장 vs 평가인원 구분을 규정 근거로 분석한 기록",
@@ -51,6 +52,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[prosecution-non-prosecution-internal-contradiction]]
-- [[prosecution-knew-innocence-continued-case]]
-- [[../layers/layer-6|Layer 6]]
+- [[prosecution-non-prosecution-internal-contradiction]] (CORROBORATES)
+- [[prosecution-knew-innocence-continued-case]] (CORROBORATES)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

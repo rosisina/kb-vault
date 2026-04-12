@@ -7,7 +7,8 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L6-B3-004"})
 SET fr.layer = 6,
     fr.secondaryLayer = 7,
-    fr.claimType = "control_agency_role_evasion",
+    fr.claimType = "temporal_manipulation",
+    fr.claimSubtype = "control_agency_role_evasion",
     fr.claimDesc = "국방부 정보화기획관실 deliberately evaded its 사업통제기관 role for 新KIATIS, specifically by intentionally skipping the '정보보호의 적절성' assessment at the 소요제기 stage (훈령 제23조·제24조). This evasion was not a technical judgment but a political decision to prevent 新KIATIS 전력화 from exposing 舊KIATIS's 15-year security vulnerability. 장우진 (사업실무자-1), who managed KIATIS for 10+ years at 국유단, independently attributed the deployment delay to '연계 데이터' and VPN issues (Record No. 11,303). When the 사업통제기관 abandons its role, deployment becomes structurally impossible — no other entity has the authority to approve 전력화.",
     fr.counterHypothesis = "국방부 정보화기획관실 did not evade its role but delegated specific functions to subordinate organizations as permitted under the directive's flexibility provisions; the deployment delay resulted from genuine technical complexity, not institutional evasion",
     fr.falsificationCondition = "Production of 국방부 정보화기획관실's documented assessment of 新KIATIS's 정보보호 적절성 at the 소요제기 or any subsequent stage, showing the assessment was performed rather than evaded",
@@ -77,11 +78,11 @@ This claim is CORROBORATED unless:
 
 ## Related
 
-- [[prosecution-omits-saup-tongje-gigwan-from-rfp-structure|L6: 군검사 사업통제기관 역할 의도적 누락]]
-- [[layer4-post-evaluation-illegal-control-transfer-to-gukyu-dan|L4: 국유단 사업통제기관 불법 자임]]
-- [[gukyu-dan-data-absence-delays-new-kiatis|L6: 국유단 데이터 부재 전력화 지연]]
-- [[cartel-requirement-inflation-80-items-delay|L6: 80건 추가 요구사항 지연 메커니즘]]
-- [[kiatis-mnd-controlled-not-delegated|L2: 新KIATIS 국방부 통제 사업]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[../entities/organizations/mnd|국방부]]
-- [[../layers/layer-6|Layer 6]]
+- [[prosecution-omits-saup-tongje-gigwan-from-rfp-structure|L6: 군검사 사업통제기관 역할 의도적 누락]] (RELATED)
+- [[layer4-post-evaluation-illegal-control-transfer-to-gukyu-dan|L4: 국유단 사업통제기관 불법 자임]] (RELATED)
+- [[gukyu-dan-data-absence-delays-new-kiatis|L6: 국유단 데이터 부재 전력화 지연]] (CORROBORATES)
+- [[cartel-requirement-inflation-80-items-delay|L6: 80건 추가 요구사항 지연 메커니즘]] (CORROBORATES)
+- [[kiatis-mnd-controlled-not-delegated|L2: 新KIATIS 국방부 통제 사업]] (RELATED)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[../entities/organizations/mnd|국방부]] (ABOUT)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

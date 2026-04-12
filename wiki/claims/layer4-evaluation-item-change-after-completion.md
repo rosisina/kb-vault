@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-052"})
 SET fr.layer = 4,
-    fr.claimType = "post_completion_evaluation_item_change",
+    fr.claimType = "temporal_manipulation",
+    fr.claimSubtype = "post_completion_evaluation_item_change",
     fr.claimDesc = "The evaluation-item change for 新KIATIS was requested on 2019-09-05, the test-evaluation ended on 2019-09-11, but the item-change was approved on 2019-09-19 — 8 days after the evaluation had already concluded. This temporal inversion (approving rule changes after the game ended) violates basic principles of procedural integrity and constitutes evidence of coordinated post-hoc manipulation.",
     fr.counterHypothesis = "The 2019-09-19 approval was a routine administrative formalization of changes that had been orally agreed during the evaluation period, and the delay was merely bureaucratic rather than indicative of manipulation.",
     fr.falsificationCondition = "Documentation showing that the evaluation-item changes were substantively agreed and applied before 2019-09-11 (the evaluation end date), with the 2019-09-19 document being merely a retroactive formalization of an already-implemented decision.",
@@ -65,9 +66,9 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[../layers/layer-4|Layer 4]]
-- [[2436ho-test-evaluation-principle-inverted|훈령 제2436호 시험평가 분리→통합 원칙 변경]]
-- [[lee-jiyoung-kim-sujin-single-point-of-control|이지영-김수진 단일 통제점]]
-- [[mnd-test-evaluation-improvement-retroactive-justification|국방부 시험평가 개선방안 소급 정당화]]
-- [[layer4-evaluation-committee-80-items-violation|평가위원회 80건 추가 요구사항 위반]]
-- [[../entities/people/han-ji-hoon|한지훈]]
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)
+- [[2436ho-test-evaluation-principle-inverted|훈령 제2436호 시험평가 분리→통합 원칙 변경]] (RELATED)
+- [[lee-jiyoung-kim-sujin-single-point-of-control|이지영-김수진 단일 통제점]] (RELATED)
+- [[mnd-test-evaluation-improvement-retroactive-justification|국방부 시험평가 개선방안 소급 정당화]] (CORROBORATES)
+- [[layer4-evaluation-committee-80-items-violation|평가위원회 80건 추가 요구사항 위반]] (RELATED)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)

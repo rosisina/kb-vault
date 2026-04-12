@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-TEAM-LEADER-EXCLUSION"})
 SET fr.layer = 4,
-    fr.claimType = "organizational_manipulation",
+    fr.claimType = "conspiracy_structure",
+    fr.claimSubtype = "organizational_manipulation",
     fr.claimDesc = "국전원은 2019.8.29 新KIATIS 개발·운용시험평가 계획보고에서 개발관리팀장(한지훈)을 전례 없이 배제하고, 사업실무자 이준호가 국전원장에게 직접 보고하여 승인받았다. 이는 시험평가 전체 과정에서 팀장을 의사결정 체계에서 제거하는 조직적 조작의 출발점이다",
     fr.counterHypothesis = "팀장 배제는 일상적인 보고체계 변경이거나 팀장의 자발적 불참에 의한 것이며, 조직적 조작 의도와 무관하다",
     fr.falsificationCondition = "팀장 배제가 정당한 사유(출장, 휴가, 직무 변경 등)에 의한 것임을 보여주는 공문 또는 인사기록의 제시",
@@ -64,6 +65,6 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[han-ji-hoon-prosecution-violates-2129-role-separation]] — L6 역할 분리 위반
-- [[prosecution-selective-criminalization-firewall-approval-chain]] — L6 선별적 범죄화
-- [[../layers/layer-4|Layer 4]]
+- [[han-ji-hoon-prosecution-violates-2129-role-separation]] — L6 역할 분리 위반 (RELATED)
+- [[prosecution-selective-criminalization-firewall-approval-chain]] — L6 선별적 범죄화 (CAUSES)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

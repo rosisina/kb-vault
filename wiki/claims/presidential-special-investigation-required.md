@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L7-PRESIDENTIAL-INVESTIGATION"})
 SET fr.layer = 7,
-    fr.claimType = "policy_claim",
+    fr.claimType = "methodology",
+    fr.claimSubtype = "policy_claim",
     fr.claimDesc = "수사기관과 가해자의 구조적 이해충돌. 대통령급 개입(진실규명위·특별검사)과 국제적 관심 필요.",
     fr.counterHypothesis = "기존 기관(공수처, 감사원)이 적절히 활성화되면 충분한 독립성과 권한을 가진다",
     fr.falsificationCondition = "공수처 또는 감사원이 2017-2025 기간에 유사한 군 조직 은폐 사건을 성공적으로 수사한 기록",
@@ -51,5 +52,5 @@ SET fr.layer = 7,
 
 ## Related
 
-- [[han-ji-hoon-rebuttal-rejected-by-eight-institutions]]
-- [[../layers/layer-7|Layer 7]]
+- [[han-ji-hoon-rebuttal-rejected-by-eight-institutions]] (OPPOSES)
+- [[../layers/layer-7|Layer 7]] (PART_OF_LAYER)

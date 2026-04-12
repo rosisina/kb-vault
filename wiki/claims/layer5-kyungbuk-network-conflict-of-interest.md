@@ -7,7 +7,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-008"})
 SET fr.layer = 5,
-    fr.claimType = "network_concealment_conflict_of_interest",
+    fr.claimType = "evidence_concealment",
+    fr.claimSubtype = "network_concealment_conflict_of_interest",
     fr.claimDesc = "경북대 동문 네트워크(최동욱·이근태·최영수·박성호)는 2016년 DIDC 해킹 사건 당시 핵심 보직에 있었고, 2022년에도 국방 정보화 요직에 있었다. 변호사 최동욱은 이근태와의 관계를 의도적으로 거짓 부인함으로써 이 네트워크를 은폐하려 했다.",
     fr.counterHypothesis = "경북대 출신의 동일 분야 배치는 군 인사체계의 구조적 특성일 뿐 공모 네트워크가 아니며, 최동욱의 관계 부인은 단순 기억 오류이다.",
     fr.falsificationCondition = "경북대 동문들이 각기 독립적인 인사 경로로 배치되었다는 인사 기록이 확인되고, 이근태가 '최동욱을 안다, 만났다'는 진술을 번복하는 경우 약화된다.",
@@ -83,6 +84,6 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[layer5-choi-dongwook-dual-role-lawyer-or-conspirator]] — 최동욱 이중 역할 atom (경북대 네트워크의 핵심 행위자)
-- [[layer5-predetermined-audit-conclusion]] — 사전 결론 결정 atom (경북대 네트워크가 이 결론의 인적 토대)
-- [[defense-information-cartel-named-by-rebuttal]] — 국방정보화카르텔 정의 atom (경북대 네트워크가 카르텔의 인맥 기반)
+- [[layer5-choi-dongwook-dual-role-lawyer-or-conspirator]] — 최동욱 이중 역할 atom (경북대 네트워크의 핵심 행위자) (RELATED)
+- [[layer5-predetermined-audit-conclusion]] — 사전 결론 결정 atom (경북대 네트워크가 이 결론의 인적 토대) (RELATED)
+- [[defense-information-cartel-named-by-rebuttal]] — 국방정보화카르텔 정의 atom (경북대 네트워크가 카르텔의 인맥 기반) (OPPOSES)

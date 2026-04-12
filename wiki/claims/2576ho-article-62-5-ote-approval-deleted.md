@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-ART62-APPROVAL-DELETED"})
 SET fr.layer = 4,
-    fr.claimType = "regulatory_anchor_deletion",
+    fr.claimType = "regulatory_manipulation",
+    fr.claimSubtype = "regulatory_anchor_deletion",
     fr.claimDesc = "3차 최종 승인 체크포인트 삭제. 시험평가 체제에서 사업통제기관 승인 권한 완전 소멸.",
     fr.counterHypothesis = "제2436호 구조조정으로 사업통제기관 계획 승인이 불필요해진 정상적 조치",
     fr.falsificationCondition = "제2576호에서 제62조⑤를 대체하는 승인 메커니즘이 다른 조항에 존재함을 보여주는 기록",
@@ -50,6 +51,6 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[directive-article-11-control-functions-stripped]]
-- [[2436ho-dtne-articles-erased]]
-- [[2436ho-cluster-six-anchors]]
+- [[directive-article-11-control-functions-stripped]] (CORROBORATES)
+- [[2436ho-dtne-articles-erased]] (CORROBORATES)
+- [[2436ho-cluster-six-anchors]] (SUPERSEDES)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-010"})
 SET fr.layer = 4,
-    fr.claimType = "regulatory_baseline",
+    fr.claimType = "regulatory_manipulation",
+    fr.claimSubtype = "regulatory_baseline",
     fr.claimDesc = "국방 정보화 업무 훈령 제2129호 (2018-02-05) Articles 57, 58, 62 established the mandatory test-evaluation framework for 新KIATIS: (1) developmental and operational test-evaluations must be separated (Art. 58②), (2) operational test-evaluation must be conducted in the actual operational environment (Art. 57①-2), (3) the project-sponsoring agency (사업주관기관) leads operational test-evaluation planning (Art. 62①). This baseline remained unchanged through 제2263호 (2019-02-26) and 제2398호 (2020-02-13), but was manipulated starting from 제2436호 (2020-06-04).",
     fr.counterHypothesis = "The directive text was ambiguous enough that combining developmental and operational test-evaluations was a legitimate interpretation, not a manipulation.",
     fr.falsificationCondition = "Production of a legal opinion or authoritative commentary issued before 2020-06-04 interpreting Articles 57-58 of 제2129호 as permitting combined test-evaluation without 사업통제기관 approval.",
@@ -71,9 +72,9 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[../layers/layer-4|Layer 4]]
-- [[../regulations/directive-2129|훈령 제2129호]]
-- [[article-58-separation-to-integration-2020-directive-manipulation|제58조 분리→통합 조작]]
-- [[2436ho-test-evaluation-principle-inverted|제2436호 시험평가 원칙 역전]]
-- [[prosecution-misapplies-2129-article-58-4-to-kiatis|검찰의 제2129호 제58조 오적용]]
-- [[mnd-test-evaluation-definition-manipulation|국방부 시험평가 정의 조작]]
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)
+- [[../regulations/directive-2129|훈령 제2129호]] (ABOUT)
+- [[article-58-separation-to-integration-2020-directive-manipulation|제58조 분리→통합 조작]] (CORROBORATES)
+- [[2436ho-test-evaluation-principle-inverted|제2436호 시험평가 원칙 역전]] (CORROBORATES)
+- [[prosecution-misapplies-2129-article-58-4-to-kiatis|검찰의 제2129호 제58조 오적용]] (RELATED)
+- [[mnd-test-evaluation-definition-manipulation|국방부 시험평가 정의 조작]] (RELATED)

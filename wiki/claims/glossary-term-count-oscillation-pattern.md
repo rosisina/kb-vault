@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-GLOSSARY-OSCILLATION"})
 SET fr.layer = 4,
-    fr.claimType = "pattern_analysis",
+    fr.claimType = "methodology",
+    fr.claimSubtype = "pattern_analysis",
     fr.claimDesc = "8개 개정판 용어 수 진동: 제2436호=최저점. 본문 조작 강도와 시간적 동기화.",
     fr.counterHypothesis = "용어집 크기 변동은 정상적 편집 사이클을 반영하며 본문 조작과 무관",
     fr.falsificationCondition = "유사 규모 다른 정부 지침에서 비교 가능한 진동 폭을 보여주는 통계 분석",
@@ -50,6 +51,6 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[2436ho-cluster-six-anchors]]
-- [[2436ho-glossary-mass-term-purge-and-restoration]]
-- [[../layers/layer-4|Layer 4]]
+- [[2436ho-cluster-six-anchors]] (RELATED)
+- [[2436ho-glossary-mass-term-purge-and-restoration]] (RELATED)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

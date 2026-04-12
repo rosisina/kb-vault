@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-INVESTIGATOR-IGNORANCE"})
 SET fr.layer = 6,
-    fr.claimType = "prosecution_incompetence",
+    fr.claimType = "prosecution_misconduct",
+    fr.claimSubtype = "prosecution_incompetence",
     fr.claimDesc = "Record 11,188 녹음에서 수사관의 기술적 무지 직접 확인. 피의자가 수사관을 교육하는 역전 상황.",
     fr.counterHypothesis = "수사관은 전략적으로 질문하여 피의자의 진술을 유도한 것이며, 기술적 무지가 아니다",
     fr.falsificationCondition = "수사관이 IT 환경 구분에 대한 전문 지식을 갖추고 있었음을 보여주는 교육 이력이나 내부 분석 기록",
@@ -50,6 +51,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[prosecutor-shifted-charge-vpn-to-firewall]]
-- [[prosecution-identity-fallacy-deception-technique]]
-- [[../layers/layer-6|Layer 6]]
+- [[prosecutor-shifted-charge-vpn-to-firewall]] (CORROBORATES)
+- [[prosecution-identity-fallacy-deception-technique]] (CORROBORATES)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-APT-3Y11M-PERSONALIZED"})
 SET fr.layer = 5,
-    fr.claimType = "cross_layer_synthesis",
+    fr.claimType = "cross_layer_analysis",
+    fr.claimSubtype = "cross_layer_synthesis",
     fr.claimDesc = "3년 11개월 연속 표적화. 피해자의 경력·성격·배경을 분석한 맞춤형 공격. 조직적 스토킹.",
     fr.counterHypothesis = "2018-12~2022-10의 조치들은 독립적 기관들의 비조율적 대응이며 연속적 표적 캠페인이 아니다",
     fr.falsificationCondition = "행위자들 간 상호 인식이나 조율 없이 독립적으로 행동했음을 보여주는 기록",
@@ -52,6 +53,6 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[layer5-historical-significance-apt-human-targeting]]
-- [[layer5-six-month-isolation-human-rights]]
-- [[../layers/layer-5|Layer 5]]
+- [[layer5-historical-significance-apt-human-targeting]] (RELATED)
+- [[layer5-six-month-isolation-human-rights]] (RELATED)
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

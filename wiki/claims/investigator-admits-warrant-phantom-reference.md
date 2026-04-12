@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-WARRANT-PHANTOM-REFERENCE"})
 SET fr.layer = 6,
-    fr.claimType = "procedural_defect",
+    fr.claimType = "procedural_violation",
+    fr.claimSubtype = "procedural_defect",
     fr.claimDesc = "수사관 인정: 영장 내 유령 참조(phantom reference). 수사개시통보서의 비정상적 전달 경로.",
     fr.counterHypothesis = "참조 누락은 경미한 행정적 오류이며 피의자 방어권에 실질적 영향 없다",
     fr.falsificationCondition = "'위 1.나항' 내용이 피의자에게 미제공된 영장 원본에 존재하는 경우 비공개가 문제, 어디에도 없는 경우 영장 자체의 결함",
@@ -51,6 +52,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[warrant-omits-15yr-vpn-bypass-from-probable-cause]]
-- [[warrant-vs-non-prosecution-document-truth-reversal]]
-- [[../layers/layer-6|Layer 6]]
+- [[warrant-omits-15yr-vpn-bypass-from-probable-cause]] (RELATED)
+- [[warrant-vs-non-prosecution-document-truth-reversal]] (RELATED)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L3-MKISS-GASLIGHTING-PRETEXT"})
 SET fr.layer = 3,
-    fr.claimType = "pretext_fabrication",
+    fr.claimType = "document_fabrication",
+    fr.claimSubtype = "pretext_fabrication",
     fr.claimDesc = "M-KISS 체계 관련 분석형 보고문서(Record 3,879)는 한지훈이 밤 10시 넘게 직접 작성한 것이나, 이 보고서가 박서준의 갑질 신고 사유 중 하나로 사용되었다. 국방부 인적자원개발과에서 발송한 M-KISS 워크숍 계획 통보(Record 3,882)를 행정운영팀이 접수하여 '관리하는 체계가 아니다'는 의견으로 한지훈 팀 실무자에게 공람 처리한 것은 팀장-과장-국방부 간의 유착 증거이다",
     fr.counterHypothesis = "M-KISS 업무 관련 갈등은 통상적 조직 내 업무 분장 마찰이며, 갑질 신고와의 연관은 사후적 해석이다",
     fr.falsificationCondition = "M-KISS 관련 보고서 작성이 한지훈의 정규 업무 범위에 해당하며, 박서준의 갑질 신고 사유에 M-KISS가 포함되지 않았음을 보여주는 기록",
@@ -62,5 +63,5 @@ M-KISS 업무 갈등은 통상적 조직 마찰이며 갑질 신고와 무관하
 
 ## Related
 
-- [[kiatis-project-deliberately-transferred-to-han-ji-hoon]] — L3 업무 떠넘기기
-- [[../layers/layer-3|Layer 3]]
+- [[kiatis-project-deliberately-transferred-to-han-ji-hoon]] — L3 업무 떠넘기기 (RELATED)
+- [[../layers/layer-3|Layer 3]] (PART_OF_LAYER)

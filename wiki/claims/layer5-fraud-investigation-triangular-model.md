@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-FRAUD-TRIANGULAR-MODEL"})
 SET fr.layer = 5,
-    fr.claimType = "conspiracy_structural_model",
+    fr.claimType = "conspiracy_structure",
+    fr.claimSubtype = "conspiracy_structural_model",
     fr.claimDesc = "The parent section §3.5.2.4 defines the 조사본부-법무관리관실-국전원 triangular conspiracy as the 'typical model of fraud investigation' (사기수사의 전형적 모델). Three structural components beyond the §3.5.2.4.1 admission atom: (1) 이지영 functioned as intermediary between all three organizations, imposing a false information blockade while secretly coordinating with 조사본부 — including 5-minute triple reversal on 2022-02-21 (§3.5.2.4.2); (2) Perfect temporal sequencing: 김민수 declaration (2.14) → 이지영 frame-setting (2.21) → 이승우 interrogation (3.25) → 법무관리관실 warning letter (5.23) — coordination impossible without pre-arrangement (§3.5.2.4.3); (3) When the conspiracy collapsed (contractor confirmations), the organization concealed the failure, retained the warning letter, added substitute charges, and escalated to military prosecution (§3.5.2.4.4).",
     fr.counterHypothesis = "The three organizations operated independently through normal administrative channels, and the temporal alignment is coincidental or reflects standard bureaucratic processing timelines rather than coordinated conspiracy.",
     fr.falsificationCondition = "Production of independent case files from 조사본부, 법무관리관실, and 국전원 showing that each organization reached its conclusions independently without inter-organizational coordination or information sharing.",
@@ -79,9 +80,9 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[../layers/layer-5|Layer 5]]
-- [[layer5-kim-min-su-conspiracy-admission-sufficiently-discussed]] — §3.5.2.4.1 김민수 자백 (child atom)
-- [[layer5-triangular-collusion-speech-act-timeline]] — §3.5.2.1.4 삼각 공모 시간 조율 (parallel evidence)
-- [[layer5-investigation-bureau-pre-collusion-triple-conspiracy]] — §3.5.2.1.2 사전 공모 구조
-- [[lee-ji-young-double-play-park-seo-jun-incitement-han-ji-hoon-blocking]] — 이지영 이중 플레이
-- [[investigation-bureau-fake-harassment-7-phase-process]] — 7단계 조사 프로세스
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)
+- [[layer5-kim-min-su-conspiracy-admission-sufficiently-discussed]] — §3.5.2.4.1 김민수 자백 (child atom) (CORROBORATES)
+- [[layer5-triangular-collusion-speech-act-timeline]] — §3.5.2.1.4 삼각 공모 시간 조율 (parallel evidence) (CORROBORATES)
+- [[layer5-investigation-bureau-pre-collusion-triple-conspiracy]] — §3.5.2.1.2 사전 공모 구조 (CORROBORATES)
+- [[lee-ji-young-double-play-park-seo-jun-incitement-han-ji-hoon-blocking]] — 이지영 이중 플레이 (RELATED)
+- [[investigation-bureau-fake-harassment-7-phase-process]] — 7단계 조사 프로세스 (RELATED)

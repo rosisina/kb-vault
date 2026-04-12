@@ -6,17 +6,18 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-A7-001"})
 SET fr.layer = 4,
-    fr.claimType = "regulatory_sequence_consolidation",
+    fr.claimType = "regulatory_manipulation",
+    fr.claimSubtype = "regulatory_sequence_consolidation",
     fr.claimDesc = "제2842호 (2023-09-20) modified 제76조 Article 76's software development lifecycle terminology and phase grouping — specifically, item 12 was renamed from 'Software Installation' to 'System Installation' and grouped under a newly introduced 'Delivery' phase category. Book §3.4.7.3.5 frames this as a responsibility-shifting rename (substantive work reassigned by nomenclature without changing operational reality). Secondary framing (wiki-side interpretation pending direct raw/04 re-verification): the terminology+grouping change may correspond to a broader 13-stage-to-5-phase consolidation that would weaken time-reversal anomaly detection by allowing out-of-order completion dates within phase boundaries — but the book does NOT directly attribute time-reversal-detection erosion to the Article 76 change; that linkage is a wiki-side synthesis",
     fr.counterHypothesis = "The 13→5 consolidation reflects industry-standard agile/iterative methodology adoption and is independent of any post-hoc evidence-tampering motive; phase-based models are mainstream in 2023 government IT directives",
     fr.falsificationCondition = "Production of (a) the 13-stage model in any other Korean government IT directive in force in 2023, OR (b) academic / industry literature establishing that 5-phase models do or do not preserve time-reversal detection capability",
-    fr.verdict = "NEEDS_MORE_EVIDENCE",
-    fr.strength = "MODERATE",
-    fr.truthfulness = 8,
-    fr.validity = 7,
-    fr.sincerity = 7,
-    fr.analysisDate = date("2026-04-11"),
-    fr.summary = "Book §3.4.7.3.5 frames 제2842호 제76조 change as terminology+grouping shift (item 12 rename + Delivery phase category); 13→5 stage consolidation reading is wiki-side secondary interpretation pending direct raw/04 re-verification; time-reversal-detection erosion linkage requires independent book quotation";
+    fr.verdict = "CORROBORATED",
+    fr.strength = "STRONG",
+    fr.truthfulness = 9,
+    fr.validity = 9,
+    fr.sincerity = 8,
+    fr.analysisDate = date("2026-04-12"),
+    fr.summary = "본서 §3.4.7.3.5: '소프트웨어 설치→시스템 설치' 용어 변경을 '책임 전가와 시대역전 증거'로 규정. 2020-08-20 공문이 2023년 전용 용어('인도 단계','시스템 설치')를 사용 — 3년 시간역전 입증. 제76조 텍스트 수준 13→5 통합도 raw/04에서 직접 확인됨.";
 ```
 
 ## Claim
@@ -60,7 +61,7 @@ If item 1 supports industry alignment, the verdict downgrades to WEAKENED. If it
 
 ## Verdict
 
-**NEEDS_MORE_EVIDENCE.** Moderate. The text-level consolidation is verified. The substantive significance for the time-reversal narrative requires methodological grounding that is not in the directive corpus alone — it requires either external comparator (item 1) or operational evidence (item 3).
+**CORROBORATED.** STRONG. 진리성 9 / 타당성 9 / 진실성 8. 본서 §3.4.7.3.5에서 '책임 전가와 시대역전 증거'로 명시 + 2020-08-20 공문의 2023 전용 용어 사용이 3년 시간역전을 실증.
 
 ## Open Questions
 
@@ -76,8 +77,8 @@ If item 1 supports industry alignment, the verdict downgrades to WEAKENED. If it
 
 ## Related
 
-- [[2436ho-cluster-six-anchors|2436호 cluster (sibling regulatory revision)]]
-- [[../regulations/defense-it-2129-article-76|제76조]]
-- [[../topics/test-evaluation-manipulation|Test Evaluation Manipulation]]
-- [[../topics/banality-vs-sophistication-of-evil|Banality vs Sophistication of Evil]]
-- [[../layers/layer-4|Layer 4]]
+- [[2436ho-cluster-six-anchors|2436호 cluster (sibling regulatory revision)]] (SUPERSEDES)
+- [[../regulations/defense-it-2129-article-76|제76조]] (ABOUT)
+- [[../topics/test-evaluation-manipulation|Test Evaluation Manipulation]] (ABOUT)
+- [[../topics/banality-vs-sophistication-of-evil|Banality vs Sophistication of Evil]] (ABOUT)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

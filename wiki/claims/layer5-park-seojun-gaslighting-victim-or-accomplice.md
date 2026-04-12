@@ -7,7 +7,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-010"})
 SET fr.layer = 5,
-    fr.claimType = "coached_speech_nominal_complainant",
+    fr.claimType = "witness_manipulation",
+    fr.claimSubtype = "coached_speech_nominal_complainant",
     fr.claimDesc = "박서준의 발화 패턴은 2022-02-08 토의 전후로 극적으로 변화했다. 2월 8일 정상적 협력에서 2월 10일 이후 공포와 협박으로 돌변한 것은 48시간 사이에 외부 조종이 있었음을 시사하며, '살고 싶습니다'라는 발화는 조종된 발화(coached speech)의 증거이다.",
     fr.counterHypothesis = "박서준은 누적된 업무 불만으로 자발적으로 신고한 것이며, '살고 싶습니다'는 갑질 피해의 진정한 호소이다.",
     fr.falsificationCondition = "박서준이 2022-02-08 이전에 갑질 불만을 표명한 기록(일기, 메시지, 상담 기록 등)이 확인되거나, 박서준 자신이 자발적 신고였음을 구체적 근거와 함께 증언하는 경우 약화된다.",
@@ -85,7 +86,7 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[layer5-park-seojun-nominal-complainant]] — 박서준 명목상 신고자 atom (본 atom은 발화 분석으로 같은 결론에 도달)
-- [[layer5-48hr-retaliation-causal-link]] — 48시간 보복 atom (박서준의 발화 변화가 48시간 창 내 발생)
-- [[layer5-predetermined-audit-conclusion]] — 사전 결론 결정 atom (김민수의 사전 결론이 박서준을 도구로 사용하는 프레임워크)
-- [[layer5-six-month-isolation-human-rights]] — 6개월 격리 atom (박서준의 신고가 격리의 구실 제공)
+- [[layer5-park-seojun-nominal-complainant]] — 박서준 명목상 신고자 atom (본 atom은 발화 분석으로 같은 결론에 도달) (CORROBORATES)
+- [[layer5-48hr-retaliation-causal-link]] — 48시간 보복 atom (박서준의 발화 변화가 48시간 창 내 발생) (RELATED)
+- [[layer5-predetermined-audit-conclusion]] — 사전 결론 결정 atom (김민수의 사전 결론이 박서준을 도구로 사용하는 프레임워크) (RELATED)
+- [[layer5-six-month-isolation-human-rights]] — 6개월 격리 atom (박서준의 신고가 격리의 구실 제공) (RELATED)

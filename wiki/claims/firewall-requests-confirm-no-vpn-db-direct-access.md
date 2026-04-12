@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-FIREWALL-CONFIRMS-NO-VPN"})
 SET fr.layer = 4,
-    fr.claimType = "technical_evidence",
+    fr.claimType = "technical_proof",
+    fr.claimSubtype = "technical_evidence",
     fr.claimDesc = "3명의 사업실무자가 처리한 '방화벽 정책 적용 요청' 공문 모두가 舊KIATIS(인터넷)와 新KIATIS(국방망)의 DB를 직접 접속하기 위한 것이었으며, 이는 VPN 미사용 상태의 DB 직접접속을 확증하는 추가 증거다. 新KIATIS도 최소 2021.4.14까지 VPN과 DB접근제어시스템(샤크라맥스) 미적용 상태로 운영되었다",
     fr.counterHypothesis = "방화벽 정책 요청은 VPN이 있더라도 별도로 필요한 표준 절차이며, 방화벽 개방 자체가 VPN 미사용의 증거가 되지 않는다",
     fr.falsificationCondition = "VPN이 적용된 상태에서도 별도 방화벽 정책 요청이 필요했음을 보여주는 DIDC 운영 지침 또는 VPN 적용 기록의 제시",
@@ -64,8 +65,8 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[old-kiatis-direct-db-access-without-vpn]] — L1 舊KIATIS DB 직접접속
-- [[gukjeonwon-pre-evaluation-team-leader-exclusion]] — L4 팀장 배제
-- [[prosecution-firewall-port-opening-contradicts-it-standard-practice]] — L6 방화벽 개방 관련
-- [[../layers/layer-4|Layer 4]]
-- [[../layers/layer-1|Layer 1]]
+- [[old-kiatis-direct-db-access-without-vpn]] — L1 舊KIATIS DB 직접접속 (RELATED)
+- [[gukjeonwon-pre-evaluation-team-leader-exclusion]] — L4 팀장 배제 (RELATED)
+- [[prosecution-firewall-port-opening-contradicts-it-standard-practice]] — L6 방화벽 개방 관련 (OPPOSES)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)

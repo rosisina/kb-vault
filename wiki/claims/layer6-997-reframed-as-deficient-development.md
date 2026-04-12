@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-997-REFRAMED-DEFICIENT"})
 SET fr.layer = 6,
-    fr.claimType = "narrative_manipulation",
+    fr.claimType = "human_rights_violation",
+    fr.claimSubtype = "narrative_manipulation",
     fr.claimDesc = "군검찰단은 평가위원회에서 99.73점 '군사용 적합' 판정을 받은 新KIATIS를 '부실개발'로 재프레이밍하였다. 이 재프레이밍은 (1) 80건 추가 요구사항(사후 부과)을 원래 요구사항으로 취급, (2) 전력화 지연(국유단·DIDC 책임)을 개발 부실로 귀결, (3) GIS 서버 미반영 예산(국방부 책임)을 개발자 과실로 전환하는 세 겹의 서사 조작으로 구성된다",
     fr.counterHypothesis = "99.73점은 시험평가 환경의 하자로 인한 왜곡된 점수이며, 실제 개발 품질은 점수와 다르다",
     fr.falsificationCondition = "시험평가 환경의 구체적 하자가 점수에 영향을 미쳤음을 보여주는 기술적 분석",
@@ -58,6 +59,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[prosecution-non-prosecution-internal-contradiction]] — L6 불기소 모순
-- [[80-items-violate-national-contract-law]] — L4 80건 국가계약법 위반
-- [[../layers/layer-6|Layer 6]]
+- [[prosecution-non-prosecution-internal-contradiction]] — L6 불기소 모순 (RELATED)
+- [[80-items-violate-national-contract-law]] — L4 80건 국가계약법 위반 (RELATED)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

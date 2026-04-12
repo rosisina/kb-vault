@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-KIM-MINSU-SUPPORT-CUTOFF"})
 SET fr.layer = 5,
-    fr.claimType = "institutional_abandonment",
+    fr.claimType = "institutional_obstruction",
+    fr.claimSubtype = "institutional_abandonment",
     fr.claimDesc = "정리11 발언3: 조직 지원 차단 + 개인 책임 전가 = 제도적 유기.",
     fr.counterHypothesis = "관리자로서 책임 소재를 명확히 한 정상 지시",
     fr.falsificationCondition = "김민수가 별도의 조직적 지원(법률자문, 자료접근 등)을 제공한 기록",
@@ -49,5 +50,5 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[kim-min-su-central-cross-layer-cartel-figure]]
-- [[../layers/layer-5|Layer 5]]
+- [[kim-min-su-central-cross-layer-cartel-figure]] (RELATED)
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

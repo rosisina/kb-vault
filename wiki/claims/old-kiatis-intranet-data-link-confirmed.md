@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L1-INTRANET-LINK"})
 SET fr.layer = 1,
-    fr.claimType = "system_architecture_fact",
+    fr.claimType = "technical_proof",
+    fr.claimSubtype = "system_architecture_fact",
     fr.claimDesc = "舊KIATIS operated with intranet (국방망) data linkage as documented in 이태호 (평가위원장-1)'s 2018-08 사업계획서 (Record No. 1,117) which lists '인트라넷 홈페이지 연동' in the system requirements, confirmed by 국유단's RFP review report specifying 국유단 홈페이지(인트라넷) as the linkage target with data items: 조사, 발굴, 감식, 유가족 정보 (Record No. 1,125)",
     fr.counterHypothesis = "The intranet linkage was planned but never operationally implemented in 舊KIATIS, making the 사업계획서 entry aspirational rather than descriptive",
     fr.falsificationCondition = "Production of network traffic logs or DIDC configuration records showing 舊KIATIS had no intranet data linkage during its operational period, OR a 사업계획서 errata correcting the entry",
@@ -65,7 +66,7 @@ This claim is **CORROBORATED** unless:
 
 ## Related
 
-- [[kiatis-server-laundering-dcia-to-didc1]] — server migration path showing how 舊KIATIS ended up in DIDC1
-- [[kiatis-rfp-tech-table-proves-sw-only-internet-structure]] — RFP tech table confirming internet-based SW-only architecture
-- [[../layers/layer-1|Layer 1]] — DIDC hacking cover-up origin
-- [[../layers/layer-2|Layer 2]] — New KIATIS project framework (evidentiary provenance)
+- [[kiatis-server-laundering-dcia-to-didc1]] — server migration path showing how 舊KIATIS ended up in DIDC1 (RELATED)
+- [[kiatis-rfp-tech-table-proves-sw-only-internet-structure]] — RFP tech table confirming internet-based SW-only architecture (RELATED)
+- [[../layers/layer-1|Layer 1]] — DIDC hacking cover-up origin (PART_OF_LAYER)
+- [[../layers/layer-2|Layer 2]] — New KIATIS project framework (evidentiary provenance) (PART_OF_LAYER)

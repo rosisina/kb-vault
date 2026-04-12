@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-C-L5-04-EXT"})
 SET fr.layer = 5,
-    fr.claimType = "contradiction_pair",
+    fr.claimType = "cross_layer_analysis",
+    fr.claimSubtype = "contradiction_pair",
     fr.claimDesc = "경고장+신문조서 모두 미존재 직위 기재. 카르텔 비공식 정보 공유의 증거.",
     fr.counterHypothesis = "직위 오류는 단순 행정적 실수이다",
     fr.falsificationCondition = "법무관리관실이 국방인사정보체계에서 직위를 확인하고 기재한 기록",
@@ -54,6 +55,6 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[warning-letter-reflects-only-lee-jiyoung]]
-- [[layer5-fabricated-warning-letter]]
-- [[../layers/layer-5|Layer 5]]
+- [[warning-letter-reflects-only-lee-jiyoung]] (OPPOSES)
+- [[layer5-fabricated-warning-letter]] (OPPOSES)
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

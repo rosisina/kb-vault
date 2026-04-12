@@ -7,7 +7,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-ART58-SEPARATION-REVERSAL-001"})
 SET fr.layer = 4,
-    fr.claimType = "directive_manipulation",
+    fr.claimType = "regulatory_manipulation",
+    fr.claimSubtype = "directive_manipulation",
     fr.claimDesc = "Article 58 (시험평가 수행원칙) of the 국방정보화업무훈령 maintained a separation principle (개발시험평가와 운용시험평가를 분리하는 것을 원칙) from 제1775호 (2015-01-27, 기록 제7,512쪽) through 제2398호 (2020-02-13, 기록 제8,194쪽). On 2020-06-04, 제2436호 reversed this to an integration principle (시험평가는 통합하여 실시하는 것을 원칙). The 5-year stability of the separation principle followed by sudden reversal is evidence of deliberate manipulation, not routine policy evolution.",
     fr.counterHypothesis = "The integration principle was adopted as a modernization measure reflecting international best practices in agile software testing; the timing coincidence with the KIATIS case is not causal.",
     fr.falsificationCondition = "Production of an internal MND policy review document pre-dating the KIATIS controversy (before 2019) that recommends integrating DT&E and OT&E as a general reform, unrelated to any specific project.",
@@ -73,10 +74,10 @@ KIATIS 논란 이전(2019년 이전)에 개발·운용시험평가 통합을 권
 
 ## Related
 
-- [[xsyn-directive-2436-retroactive-legal-basis|2 shared records — 제2436호 소급 법적 근거]]
-- [[contradiction-article-58-five-year-stability-then-reversal|2 shared records — 제58조 5년 안정성→역전]]
-- [[2436ho-test-evaluation-principle-inverted]] — 제2436호 단위 앵커 분석 (동일 사안의 다른 시각)
-- [[2436ho-cluster-six-anchors]] — 제2436호 6대 앵커 동시 조작 메타 원자
-- [[kiatis-2129ho-main-regime-applies]] — KIATIS가 제58조 분리 원칙의 적용 대상이었음을 증명
-- [[../layers/layer-4|Layer 4]]
-- [[../regulations/defense-it-operations-directive-2129|훈령 제2129호]]
+- [[xsyn-directive-2436-retroactive-legal-basis|2 shared records — 제2436호 소급 법적 근거]] (RELATED)
+- [[contradiction-article-58-five-year-stability-then-reversal|2 shared records — 제58조 5년 안정성→역전]] (RELATED)
+- [[2436ho-test-evaluation-principle-inverted]] — 제2436호 단위 앵커 분석 (동일 사안의 다른 시각) (CORROBORATES)
+- [[2436ho-cluster-six-anchors]] — 제2436호 6대 앵커 동시 조작 메타 원자 (RELATED)
+- [[kiatis-2129ho-main-regime-applies]] — KIATIS가 제58조 분리 원칙의 적용 대상이었음을 증명 (CORROBORATES)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)
+- [[../regulations/defense-it-operations-directive-2129|훈령 제2129호]] (ABOUT)

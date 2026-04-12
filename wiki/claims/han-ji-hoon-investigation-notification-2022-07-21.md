@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-005"})
 SET fr.layer = 6,
-    fr.claimType = "procedural_protection_failure",
+    fr.claimType = "procedural_violation",
+    fr.claimSubtype = "procedural_protection_failure",
     fr.claimDesc = "The 군인·공무원 수사개시 통보 issued on 2022-07-21 (기록 제4,854쪽~제4,859쪽) is the formal criminal-investigation commencement notice that triggers Military Court Act procedural protections and should have activated automatic MND human-rights-protection review under the 군인권보호관 규정 — neither triggered in practice.",
     fr.counterHypothesis = "The 군인권보호관 review mechanism is discretionary, not automatic, upon 수사개시 통보; or the review was in fact conducted but not recorded in the evidence file accessible to 한지훈.",
     fr.falsificationCondition = "Production of MND records showing that a 군인권보호관 review was initiated for 한지훈 following the 2022-07-21 수사개시 통보, OR legal analysis establishing that the 군인권보호관 규정 does not mandate automatic review upon criminal investigation commencement.",
@@ -78,7 +79,7 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[han-ji-hoon-witness-statement-2022-01-25|참고인 신분 조사 (2022-01-25) 원자 — 절차 역전의 이전 단계]]
-- [[han-ji-hoon-suspect-interrogation-2022-09-02|피의자 신문조서 (2022-09-02) 원자 — 수사개시 통보의 다음 단계]]
-- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|기소유예 = 범죄 낙인 원자]]
-- [[../layers/layer-6|Layer 6]]
+- [[han-ji-hoon-witness-statement-2022-01-25|참고인 신분 조사 (2022-01-25) 원자 — 절차 역전의 이전 단계]] (CORROBORATES)
+- [[han-ji-hoon-suspect-interrogation-2022-09-02|피의자 신문조서 (2022-09-02) 원자 — 수사개시 통보의 다음 단계]] (RELATED)
+- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|기소유예 = 범죄 낙인 원자]] (RELATED)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

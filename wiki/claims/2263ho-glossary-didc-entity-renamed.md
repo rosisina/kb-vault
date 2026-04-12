@@ -6,17 +6,18 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L1-GLOSSARY-DIDC-RENAME"})
 SET fr.layer = 1,
-    fr.claimType = "terminology_entity_rename",
+    fr.claimType = "terminology_manipulation",
+    fr.claimSubtype = "terminology_entity_rename",
     fr.claimDesc = "별표1 기관명 세탁: 해킹 당시 명칭 제거. 제10조 삭제보다 15개월 선행.",
     fr.counterHypothesis = "실제 조직 명칭 변경을 반영한 정상적 업데이트",
     fr.falsificationCondition = "국방통합정보관리소→국방통합데이터센터의 공식 직제 개편 명령",
-    fr.verdict = "NEEDS_MORE_EVIDENCE",
+    fr.verdict = "CORROBORATED",
     fr.strength = "MODERATE",
-    fr.truthfulness = 7,
-    fr.validity = 8,
-    fr.sincerity = 6,
+    fr.truthfulness = 8,
+    fr.validity = 9,
+    fr.sincerity = 7,
     fr.analysisDate = date("2026-04-12"),
-    fr.summary = "별표1 기관명 세탁: 해킹 당시 명칭 제거. 제10조 삭제보다 15개월 선행.";
+    fr.summary = "별표1 기관명 세탁: 해킹 당시 명칭 제거. 제10조 삭제보다 15개월 선행. 본서 L1-L7 전반에서 DIDC 은폐를 다층 논의하며, 2020-08-20 공문 수신처에서 DIDC 배제(기록 제4,763, §3.4.7.3.3)가 의도적 기관 말소를 직접 입증.";
 ```
 
 ## Claim
@@ -42,7 +43,7 @@ SET fr.layer = 1,
 
 ## Verdict
 
-**NEEDS_MORE_EVIDENCE.** MODERATE. 진리성 7 / 타당성 8 / 진실성 6.
+**CORROBORATED.** MODERATE. 진리성 8 / 타당성 9 / 진실성 7. 본서 다층 DIDC 은폐 논의 + 2020-08-20 공문 수신처 DIDC 배제(기록 제4,763)로 의도적 기관명 말소 입증.
 
 ## Spot-check
 
@@ -50,6 +51,6 @@ SET fr.layer = 1,
 
 ## Related
 
-- [[2436ho-didc-naming-anchor-removed]]
-- [[2263ho-cyber-routing-rewrite]]
-- [[../layers/layer-1|Layer 1]]
+- [[2436ho-didc-naming-anchor-removed]] (SUPERSEDES)
+- [[2263ho-cyber-routing-rewrite]] (SUPERSEDES)
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-058"})
 SET fr.layer = 5,
-    fr.claimType = "audit_result_falsity_collusion_proof",
+    fr.claimType = "temporal_manipulation",
+    fr.claimSubtype = "audit_result_falsity_collusion_proof",
     fr.claimDesc = "The Investigation Bureau's audit result is provably false, demonstrated by six independent proofs: (1) Lee Seung-woo's self-confession that no typical harassment grounds existed, (2) the sole commuting charge collapsed via 2 contractor witness statements, (3) nominal complainant Park Seo-jun's claims entirely excluded from the warning letter, (4) statistically improbable coordinated false statements by Lee Ji-young + Lee Seung-woo + Kim Min-su, (5) deletion of disproven evidence from official documents, (6) Choi Young-su's testimony exposing systematic joseo fabrication. Kim Min-su's self-confession '감사관과 충분히 애기하고' (Record No. 11,069) proves the three organizations operated as a single conspiracy network.",
     fr.counterHypothesis = "The audit followed standard procedures; individual testimonial discrepancies are normal and do not prove conspiracy; the warning letter was drafted independently of the audit.",
     fr.falsificationCondition = "Production of audit process documentation showing each organization's input was independently gathered without cross-communication, combined with explanation for all six anomalies.",
@@ -77,14 +78,14 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[../layers/layer-5|Layer 5]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[../entities/people/kim-min-su|김민수]]
-- [[../entities/people/lee-ji-young|이지영]]
-- [[layer5-investigation-bureau-pre-collusion-triple-conspiracy|사전 공모 증거]]
-- [[layer5-triangular-collusion-speech-act-timeline|삼각 공모 시간 조율]]
-- [[layer5-yang-mi-suk-silence-as-active-complicity|양미숙 침묵 공모]]
-- [[layer5-kim-min-su-discharge-ultimatum-escalation|김민수 전역 확정]]
-- [[layer5-choi-youngsu-testimony-exposes-joseo-fabrication|최영수 조서 조작 폭로]]
-- [[layer5-fabricated-warning-letter|허위 경고장]]
-- [[layer5-park-seojun-nominal-complainant|박서준 명목상 신고자]]
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[../entities/people/kim-min-su|김민수]] (ABOUT)
+- [[../entities/people/lee-ji-young|이지영]] (ABOUT)
+- [[layer5-investigation-bureau-pre-collusion-triple-conspiracy|사전 공모 증거]] (OPPOSES)
+- [[layer5-triangular-collusion-speech-act-timeline|삼각 공모 시간 조율]] (OPPOSES)
+- [[layer5-yang-mi-suk-silence-as-active-complicity|양미숙 침묵 공모]] (OPPOSES)
+- [[layer5-kim-min-su-discharge-ultimatum-escalation|김민수 전역 확정]] (OPPOSES)
+- [[layer5-choi-youngsu-testimony-exposes-joseo-fabrication|최영수 조서 조작 폭로]] (OPPOSES)
+- [[layer5-fabricated-warning-letter|허위 경고장]] (OPPOSES)
+- [[layer5-park-seojun-nominal-complainant|박서준 명목상 신고자]] (OPPOSES)

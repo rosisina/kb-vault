@@ -7,7 +7,8 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L6-B3-002"})
 SET fr.layer = 6,
     fr.secondaryLayer = 5,
-    fr.claimType = "three_phase_delay_mechanism_phase3",
+    fr.claimType = "temporal_manipulation",
+    fr.claimSubtype = "three_phase_delay_mechanism_phase3",
     fr.claimDesc = "Phase 3 (2021–2022.4) of the three-phase 新KIATIS deployment delay mechanism: 이지영 (공문결재자-1) issued a 3.9억원 additional budget request that activated the trap, converting the deployment delay from a technical issue to a criminal one. The military prosecution's intervention reframed the 개발관리팀장 from 'person responsible for development failure' to 'criminal suspect', and deployment was indefinitely postponed until the investigation concluded. This was the terminal phase designed to achieve permanent delay.",
     fr.counterHypothesis = "The 3.9억원 additional budget request was a routine administrative action to address genuine cost overruns, and the military prosecution's investigation was independently triggered by the budgetary anomaly, not as a coordinated trap",
     fr.falsificationCondition = "Evidence that the 3.9억원 request followed standard budget request procedures with proper technical justification reviewed by 사업통제기관, AND that the prosecution investigation was triggered by an independent complaint rather than coordinated referral from 국전원",
@@ -74,11 +75,11 @@ This claim is CORROBORATED unless:
 
 ## Related
 
-- [[layer6-phase1-success-result-neutralization-2019-2020|L6: Phase 1 성공 결과 무력화]]
-- [[layer6-phase2-blame-shift-2020-2021|L6: Phase 2 문제 확산과 책임 전가]]
-- [[cartel-requirement-inflation-80-items-delay|L6: 80건 추가 요구사항 지연 메커니즘]]
-- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|L6: 기소유예 범죄 낙인]]
-- [[lee-ji-young-double-play-park-seo-jun-incitement-han-ji-hoon-blocking|L5: 이지영 이중 플레이]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[../entities/people/lee-ji-young|이지영]]
-- [[../layers/layer-6|Layer 6]]
+- [[layer6-phase1-success-result-neutralization-2019-2020|L6: Phase 1 성공 결과 무력화]] (RELATED)
+- [[layer6-phase2-blame-shift-2020-2021|L6: Phase 2 문제 확산과 책임 전가]] (RELATED)
+- [[cartel-requirement-inflation-80-items-delay|L6: 80건 추가 요구사항 지연 메커니즘]] (CORROBORATES)
+- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|L6: 기소유예 범죄 낙인]] (RELATED)
+- [[lee-ji-young-double-play-park-seo-jun-incitement-han-ji-hoon-blocking|L5: 이지영 이중 플레이]] (RELATED)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[../entities/people/lee-ji-young|이지영]] (ABOUT)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

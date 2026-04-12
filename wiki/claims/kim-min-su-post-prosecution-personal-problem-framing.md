@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-PERSONAL-PROBLEM-FRAMING"})
 SET fr.layer = 6,
-    fr.claimType = "institutional_abandonment",
+    fr.claimType = "institutional_obstruction",
+    fr.claimSubtype = "institutional_abandonment",
     fr.claimDesc = "2022-10-13 녹음에서 '최선의 결과', '종결', '사과하라', '자신 챙겨라' 발언 확인. 피해자에 대한 지속적 통제.",
     fr.counterHypothesis = "김민수는 상급자로서 부하를 걱정하며 조언한 것이며, 조직 통제 의도가 아니다",
     fr.falsificationCondition = "김민수가 한지훈에 대한 조직적 지원 조치를 실제로 취한 기록",
@@ -51,6 +52,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[kim-min-su-central-cross-layer-cartel-figure]]
-- [[prosecution-chief-evades-innocence-plea]]
-- [[../layers/layer-6|Layer 6]]
+- [[kim-min-su-central-cross-layer-cartel-figure]] (RELATED)
+- [[prosecution-chief-evades-innocence-plea]] (RELATED)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

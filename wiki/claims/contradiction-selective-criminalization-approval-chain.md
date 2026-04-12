@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-C-L6-16"})
 SET fr.layer = 6,
-    fr.claimType = "contradiction_pair",
+    fr.claimType = "cross_layer_analysis",
+    fr.claimSubtype = "contradiction_pair",
     fr.claimDesc = "결재선 3인 중 1인만 피의자. 최종 결재자=참고인, 기안자=배제. 선별적 범죄자 만들기.",
     fr.counterHypothesis = "검토자가 기술적 검증 의무의 일차적 책임자이므로 정당한 피의자 지정",
     fr.falsificationCondition = "팀장(검토자)이 과장(결재자)보다 방화벽 결정에 대해 더 큰 형사 책임을 진다는 법리 분석",
@@ -52,6 +53,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[prosecution-firewall-port-opening-contradicts-it-standard-practice]]
-- [[prosecution-selective-criminalization-firewall-approval-chain]]
-- [[../layers/layer-6|Layer 6]]
+- [[prosecution-firewall-port-opening-contradicts-it-standard-practice]] (CAUSES)
+- [[prosecution-selective-criminalization-firewall-approval-chain]] (CAUSES)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

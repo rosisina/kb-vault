@@ -8,7 +8,8 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L3-PARK-NCO-SLUR-001"})
 SET fr.layer = 3,
     fr.secondaryLayers = [5],
-    fr.claimType = "motivational_anchor",
+    fr.claimType = "methodology",
+    fr.claimSubtype = "motivational_anchor",
     fr.claimDesc = "국전원장 박성호 (2016해킹당시원장-1)는 '부사관이 장교보다 낫다'는 발언을 2019년 초 초급장교 6~7명에게 수시로 하여 스트레스를 가하였고(기록 제11,134쪽~제11,135쪽), 수개월 후 원장 회의에서 한지훈 앞에서도 같은 발언을 반복하여 20여 분간 원장-한지훈 간 공개 토론이 벌어졌다. 이후 원장 박성호가 퇴임 전 한지훈에게 준 쪽편지(기록 제1,473쪽)에도 본 갈등이 담겨 있다. 본 발언 공론화 사건은 Layer 5의 6개월 독방 격리(2022-02 이후)와 허위 갑질 신고의 주관적 동기 anchor로 기능한다.",
     fr.counterHypothesis = "박성호 원장의 발언은 공개 회의에서의 일상적 의견 표명이며 Layer 5 격리와 인과 관계가 없다",
     fr.falsificationCondition = "박성호 원장의 퇴임 쪽편지(기록 제1,473쪽) 원문 또는 초급장교들의 진정 기록이 본 갈등 내용을 담지 않는 경우 약화",
@@ -76,9 +77,9 @@ SET fr.layer = 3,
 
 ## Related
 
-- [[../layers/layer-3|Layer 3 hub]]
-- [[../layers/layer-5|Layer 5 hub]]
-- [[layer5-isolation-office-premeditated|6개월 독방 격리 사전계획성]]
-- [[layer5-park-seojun-nominal-complainant|박서준 명목상 신고자]]
-- [[kiatis-mnd-controlled-not-delegated|KIATIS = 국방부 통제 사업]]
-- [[../entities/organizations/gukjeonwon|국전원]]
+- [[../layers/layer-3|Layer 3 hub]] (PART_OF_LAYER)
+- [[../layers/layer-5|Layer 5 hub]] (PART_OF_LAYER)
+- [[layer5-isolation-office-premeditated|6개월 독방 격리 사전계획성]] (RELATED)
+- [[layer5-park-seojun-nominal-complainant|박서준 명목상 신고자]] (RELATED)
+- [[kiatis-mnd-controlled-not-delegated|KIATIS = 국방부 통제 사업]] (RELATED)
+- [[../entities/organizations/gukjeonwon|국전원]] (ABOUT)

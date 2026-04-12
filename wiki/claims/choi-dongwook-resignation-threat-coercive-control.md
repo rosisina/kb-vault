@@ -7,6 +7,7 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L6-LAWYER-RESIGNATION-COERCION"})
 SET fr.layer = 6,
     fr.claimType = "attorney_misconduct",
+    fr.claimSubtype = "resignation_threat_coercion",
     fr.claimDesc = "사임 위협을 통한 의뢰인 방어 자율성 억제. 녹취201+203에서 패턴 확인.",
     fr.counterHypothesis = "최동욱의 사임 위협은 비협조적 의뢰인에 대한 전문적 경계 설정이다",
     fr.falsificationCondition = "최동욱이 위협 없이도 의뢰인 자료를 다른 경로로 충분히 확보하고 있었음을 보여주는 기록",
@@ -50,6 +51,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[layer5-choi-dongwook-dual-role-lawyer-or-conspirator]]
-- [[kim-gilrae-reveals-lawyer-kiso-yuye-target]]
-- [[../layers/layer-6|Layer 6]]
+- [[layer5-choi-dongwook-dual-role-lawyer-or-conspirator]] (RELATED)
+- [[kim-gilrae-reveals-lawyer-kiso-yuye-target]] (RELATED)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

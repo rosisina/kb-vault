@@ -7,7 +7,8 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L6-B3-003"})
 SET fr.layer = 6,
     fr.secondaryLayers = [1, 2],
-    fr.claimType = "prosecution_self_contradiction_false_document",
+    fr.claimType = "prosecution_misconduct",
+    fr.claimSubtype = "prosecution_self_contradiction_false_document",
     fr.claimDesc = "The 불기소결정서 charges 허위공문서작성 regarding three documents: the evaluation result report (Record No. 394/L1), the result report to 국전원장 (Record No. 1,481/L2), and the result notification to 국유단 (Record No. 1,483/L2). However, the same 불기소결정서 explicitly states that 이준호's documents '실제로 이루어진 시험평가 위원들의 평가를 그대로 기재한 것에 불과하므로 표시된 내용과 진실이 부합하지 않는다고 할 수 없다' — acknowledging the 99.7점 result was genuine. Additionally, the prosecution admits 한지훈 '시험평가 과정에 직접 참여한 것도 아니어서 기재된 내용이 허위라는 사실을 인식하고 문서를 결재한 것이라고 단정할 수도 없다.' This negates both the objective and subjective elements of 허위공문서작성죄 while still raising the charge — a textbook self-contradiction.",
     fr.counterHypothesis = "The prosecution raised the charge procedurally to examine all possible offenses comprehensively, and the self-contradiction was a natural outcome of the investigative process rather than evidence of fraudulent prosecution",
     fr.falsificationCondition = "Evidence that the 허위공문서작성 charge was raised as a required procedural step under military prosecution rules (e.g., mandatory comprehensive charging), and that the self-contradictory language was standard legal drafting for 증거불충분 dispositions",
@@ -78,11 +79,11 @@ This claim is CORROBORATED unless:
 
 ## Related
 
-- [[prosecution-non-prosecution-identity-error-fraud|L6: 불기소결정서 동일성 오류]]
-- [[prosecution-distorts-operational-vs-test-environment|L6: 실제운영-시험평가 환경 왜곡]]
-- [[prosecution-misapplies-2129-article-58-4-to-kiatis|L6: 제58조 ¶4 misapplication]]
-- [[prosecution-selective-criminalization-firewall-approval-chain|L6: 선택적 범죄자 만들기]]
-- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|L6: 기소유예 범죄 낙인]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[../entities/people/lee-jun-ho|이준호]]
-- [[../layers/layer-6|Layer 6]]
+- [[prosecution-non-prosecution-identity-error-fraud|L6: 불기소결정서 동일성 오류]] (OPPOSES)
+- [[prosecution-distorts-operational-vs-test-environment|L6: 실제운영-시험평가 환경 왜곡]] (OPPOSES)
+- [[prosecution-misapplies-2129-article-58-4-to-kiatis|L6: 제58조 ¶4 misapplication]] (OPPOSES)
+- [[prosecution-selective-criminalization-firewall-approval-chain|L6: 선택적 범죄자 만들기]] (CAUSES)
+- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|L6: 기소유예 범죄 낙인]] (OPPOSES)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[../entities/people/lee-jun-ho|이준호]] (ABOUT)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

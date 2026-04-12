@@ -7,7 +7,8 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L4-B3-001"})
 SET fr.layer = 4,
     fr.secondaryLayer = 7,
-    fr.claimType = "software_install_to_system_install_terminology_fabrication",
+    fr.claimType = "terminology_manipulation",
+    fr.claimSubtype = "software_install_to_system_install_terminology_fabrication",
     fr.claimDesc = "The earliest searchable 국방정보화업무훈령 (제1775호, 2015-01-27) through 제2129호 (2018-02-05) used '소프트웨어 설치' as step 12 of the 13-stage software development process (제76조 ①항). Starting from 제2263호 (2019-02-26) through 제2649호 (2022-05-06), the term was maintained but the staging was changed. Then 제2842호 (2023-09-20) replaced the 13-stage sequence with a 5-phase model where step 5 'Delivery (인도)' contains '시스템 설치' — shifting the subject from 'software (the product) being installed' to 'system (the entire infrastructure) being installed.' This semantic shift reassigns responsibility from the developer placing code on a server to the project manager installing an entire end-to-end system (PC→intranet→firewall→network→DIDC→server). Since DIDC controls physical server infrastructure, and 국전원 (사업관리기관) has no physical control over DIDC servers, the term '시스템 설치' creates an impossible responsibility assignment — the executing agency is blamed for infrastructure it cannot control. The fabricated 2020-08-20 공문 (Record No. 4,757/4,763) already uses the '인도 단계' + '시스템 설치' terminology that only appears in formal directives starting from 제2842호 (2023-09-20), constituting a time-reversal (시대역전) that proves the 2020 document was fabricated retroactively.",
     fr.counterHypothesis = "The terminology change from '소프트웨어 설치' to '시스템 설치' was a natural evolution in defense acquisition terminology reflecting the shift toward integrated system delivery, and the 2020 document legitimately anticipated the 2023 directive revision.",
     fr.falsificationCondition = "Production of pre-2020 MND documentation, KIDA research reports, or international defense acquisition frameworks that use '시스템 설치' in the same semantic scope as 제2842호, demonstrating the term existed before the alleged fabrication date.",
@@ -76,8 +77,8 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[../layers/layer-4|Layer 4]]
-- [[mnd-fabricated-indo-stage-terminology-blame-shift]] — '인도 단계' 조작 (동일 공문의 상위 구조)
-- [[2842ho-software-development-13-to-5-stage]] — 13단계→5단계 축소 (동일 훈령 개정)
-- [[layer4-test-evaluation-separation-principle-directive-2129]] — 시험평가 분리 원칙
-- [[../entities/people/han-ji-hoon|한지훈]]
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)
+- [[mnd-fabricated-indo-stage-terminology-blame-shift]] — '인도 단계' 조작 (동일 공문의 상위 구조) (OPPOSES)
+- [[2842ho-software-development-13-to-5-stage]] — 13단계→5단계 축소 (동일 훈령 개정) (OPPOSES)
+- [[layer4-test-evaluation-separation-principle-directive-2129]] — 시험평가 분리 원칙 (OPPOSES)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-WARNING-LETTER-LEE-JIYOUNG-ONLY"})
 SET fr.layer = 5,
-    fr.claimType = "document_fraud_selective_content",
+    fr.claimType = "document_fabrication",
+    fr.claimSubtype = "document_fraud_selective_content",
     fr.claimDesc = "2022.5.23 법무관리관실 경고장에는 박서준의 실제 주장(Record 6,916~6,917의 '저도 살고 싶습니다' 등)이 전혀 반영되지 않고, 이지영의 허위 주장('오후 5시 반에 보고 없이 나갔다')만이 징계 사유로 즉시 반영되었다. 이는 이지영이 실질적 신고 주도자이며 박서준은 명목상 신고자에 불과함을 입증한다. 또한 경고장의 직위 기재('행정정보계획팀장')는 한지훈의 공식 직위(자원정보화과 국방정보화사업담당, Record 1,586)와 불일치하여 경고장 자체가 허위문서이다",
     fr.counterHypothesis = "경고장은 조사 결과를 종합한 것이며, 박서준의 주장이 조사 과정에서 사실과 부합하지 않아 제외된 것이다",
     fr.falsificationCondition = "경고장 작성 과정에서 박서준의 주장이 검토되었으나 사실관계 확인 결과 제외된 기록",
@@ -60,6 +61,6 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[layer5-reporter-3stage-statement-change]] — L5 신고자 3단 변화
-- [[harassment-complaint-48hrs-premeditated-isolation]] — L5 48시간 사전 기획
-- [[../layers/layer-5|Layer 5]]
+- [[layer5-reporter-3stage-statement-change]] — L5 신고자 3단 변화 (RELATED)
+- [[harassment-complaint-48hrs-premeditated-isolation]] — L5 48시간 사전 기획 (RELATED)
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

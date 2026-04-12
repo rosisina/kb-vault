@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-C-L1-11"})
 SET fr.layer = 1,
-    fr.claimType = "contradiction_pair",
+    fr.claimType = "cross_layer_analysis",
+    fr.claimSubtype = "contradiction_pair",
     fr.claimDesc = "舊KIATIS 이중 연동(인터넷+인트라넷) = 해킹 브릿지 공격면. 단순 웹사이트 아닌 국방망 관문.",
     fr.counterHypothesis = "인트라넷 연동은 계획되었으나 실제 운용되지 않았으며 문서는 목표를 기술한 것이다",
     fr.falsificationCondition = "舊KIATIS에 인트라넷 데이터 연동이 없었음을 보여주는 네트워크 트래픽 로그 또는 구성 기록",
@@ -51,6 +52,6 @@ SET fr.layer = 1,
 
 ## Related
 
-- [[old-kiatis-direct-db-access-without-vpn]]
-- [[old-kiatis-hosted-inside-other-server-15-years]]
-- [[../layers/layer-1|Layer 1]]
+- [[old-kiatis-direct-db-access-without-vpn]] (RELATED)
+- [[old-kiatis-hosted-inside-other-server-15-years]] (RELATED)
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)

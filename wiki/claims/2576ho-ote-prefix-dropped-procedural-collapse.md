@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-OTE-PREFIX-DROPPED"})
 SET fr.layer = 4,
-    fr.claimType = "terminology_substitution",
+    fr.claimType = "terminology_manipulation",
+    fr.claimSubtype = "terminology_substitution",
     fr.claimDesc = "DT/OT 제도적 구분 완전 소멸. 제58조 전환+제59-61조 삭제+제62-64조 접두어 제거의 3단계 공격.",
     fr.counterHypothesis = "제2436호 통합원칙 채택 후 '운용' 접두어는 불필요한 잔여 표현이며 삭제는 편집적 정비",
     fr.falsificationCondition = "2021년 시점 다른 한국 정부 IT 지침이 DT/OT 분리 절차 조항을 유지하고 있었음을 보여주는 사례",
@@ -50,6 +51,6 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[2436ho-test-evaluation-principle-inverted]]
-- [[2436ho-dtne-articles-erased]]
-- [[layer4-dtot-separation-principle-violated]]
+- [[2436ho-test-evaluation-principle-inverted]] (SUPERSEDES)
+- [[2436ho-dtne-articles-erased]] (SUPERSEDES)
+- [[layer4-dtot-separation-principle-violated]] (RELATED)

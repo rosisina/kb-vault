@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-CHAKRA-NOT-USED-TESTEVAL"})
 SET fr.layer = 4,
-    fr.claimType = "testimony_admission",
+    fr.claimType = "testimony_evidence",
+    fr.claimSubtype = "testimony_admission",
     fr.claimDesc = "PM 증언: 샤크라맥스 미사용은 국전원-DIDC 합의 미달에 의한 것. 한지훈 미통보.",
     fr.counterHypothesis = "샤크라맥스 미사용은 한지훈의 의도적 은폐이며 조직 간 분쟁이 아니다",
     fr.falsificationCondition = "한지훈이 샤크라맥스 문제를 공식 통보받았음을 보여주는 기록",
@@ -50,6 +51,6 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[four-kiatis-environments-non-identical]]
-- [[didc-sop-db-access-control-mandatory]]
-- [[../layers/layer-4|Layer 4]]
+- [[four-kiatis-environments-non-identical]] (CORROBORATES)
+- [[didc-sop-db-access-control-mandatory]] (CORROBORATES)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

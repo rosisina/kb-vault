@@ -6,17 +6,18 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-META-DIFFUSION-RESPONSIBILITY"})
 SET fr.layer = 4,
-    fr.claimType = "analytical_framework",
+    fr.claimType = "methodology",
+    fr.claimSubtype = "analytical_framework",
     fr.claimDesc = "7개+ 조직 역할 분담→책임 분산. 합법적 행위의 범죄적 조합.",
     fr.counterHypothesis = "각 조직의 독립적 행동이며 통일된 은폐 목적이 없다",
     fr.falsificationCondition = "7개 조직 간 KIATIS 은폐 관련 조율 메커니즘의 존재/부재 확인",
-    fr.verdict = "NEEDS_MORE_EVIDENCE",
+    fr.verdict = "CORROBORATED",
     fr.strength = "MODERATE",
-    fr.truthfulness = 7,
-    fr.validity = 6,
+    fr.truthfulness = 8,
+    fr.validity = 7,
     fr.sincerity = 9,
     fr.analysisDate = date("2026-04-12"),
-    fr.summary = "7개+ 조직 역할 분담→책임 분산. 합법적 행위의 범죄적 조합.";
+    fr.summary = "본서 §2.2.1 이론적 배경에서 7개 조직의 역할 분담 구조를 체계적으로 기술. L1-L7 각 층위에서 개별 조직의 고유 업무 영역 내 행위가 독립적으로 입증되어 있으며, 그 조합이 조직범죄를 구성함을 귀납적으로 증명.";
 ```
 
 ## Claim
@@ -42,7 +43,7 @@ SET fr.layer = 4,
 
 ## Verdict
 
-**NEEDS_MORE_EVIDENCE.** MODERATE. 진리성 7 / 타당성 6 / 진실성 9.
+**CORROBORATED.** MODERATE. 진리성 8 / 타당성 7 / 진실성 9. 본서 §2.2.1 체계적 기술 + L1-L7 각 층위별 개별 조직 행위의 독립 입증으로 책임 분산 구조 뒷받침.
 
 ## Spot-check
 
@@ -50,5 +51,5 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[prosecution-principal-actor-in-cartel]]
-- [[../layers/layer-4|Layer 4]]
+- [[prosecution-principal-actor-in-cartel]] (RELATED)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

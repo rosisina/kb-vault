@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-DELAY-BUDGET-CYCLE"})
 SET fr.layer = 6,
-    fr.claimType = "budget_manipulation",
+    fr.claimType = "temporal_manipulation",
+    fr.claimSubtype = "budget_manipulation",
     fr.claimDesc = "6.25→4→3.9억 예산 패턴 = 의도적 실패→추가예산 순환.",
     fr.counterHypothesis = "예산 감소는 정상적 사업 축소이며 순환 구조가 아니다",
     fr.falsificationCondition = "유사 사업에서 동일한 예산 패턴이 정상적으로 발생한 사례",
@@ -50,6 +51,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[new-kiatis-delay-three-strategic-objectives]]
-- [[layer6-gis-server-budget-intentional-omission]]
-- [[../layers/layer-6|Layer 6]]
+- [[new-kiatis-delay-three-strategic-objectives]] (RELATED)
+- [[layer6-gis-server-budget-intentional-omission]] (CORROBORATES)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

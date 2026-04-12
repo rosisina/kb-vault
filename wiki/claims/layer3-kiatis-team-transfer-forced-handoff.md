@@ -8,7 +8,8 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L3-KIATIS-TEAM-HANDOFF-001"})
 SET fr.layer = 3,
     fr.secondaryLayers = [7],
-    fr.claimType = "institutional_routing_manipulation",
+    fr.claimType = "institutional_obstruction",
+    fr.claimSubtype = "institutional_routing_manipulation",
     fr.claimDesc = "KIATIS 사업은 국전원 행정정보화과의 분장사무 및 기존 운영 이력상 '행정정보운영팀' 소관이며, 오현수 (사업실무자-2) 대위 및 이태호 (평가위원장-1) 해군 중령 등 실무자들이 수차례 '행정정보운영팀 사업을 계획팀에 떠넘겼다'고 한지훈에게 직접 하소연하였다. 2018년 7월까지의 과거 공문 이력이 행정정보운영팀 소관을 뒷받침한다. 이 강제 이관은 新KIATIS 사업관리팀장 역할을 한지훈에게 부과하기 위한 의도적 업무 이관이며, 같은 기간 행정정보계획팀이 4개 사업팀 중 7~8개 사업을 과도하게 담당하는 구조적 이상과 결합된다.",
     fr.counterHypothesis = "KIATIS 사업의 계획팀 이관은 정상적 업무 재배분이며 실무자들의 하소연은 주관적 불만에 불과하다",
     fr.falsificationCondition = "행정정보운영팀 → 행정정보계획팀 KIATIS 이관의 정식 결재 공문(과장 결재 이상)이 2018년 중 존재함이 Record No. 원문으로 확인되면 약화",
@@ -74,10 +75,10 @@ KIATIS 사업의 계획팀 이관은 정상적 업무 재배분이며, 실무자
 
 ## Related
 
-- [[../layers/layer-3|Layer 3 hub]]
-- [[../layers/layer-7|Layer 7 hub]]
-- [[layer3-pm-post-vacancy-predecessor-gap|보직 캡처 (L3)]]
-- [[kiatis-mnd-controlled-not-delegated|KIATIS = 국방부 통제 사업]]
-- [[han-ji-hoon-officer-personal-record-manipulation|장교 개인 자력 조작]]
-- [[../events/2018-2019-kiatis-performance-improvement-project|2018–2019 KIATIS 성능개선사업]]
-- [[../entities/organizations/gukjeonwon|국전원]]
+- [[../layers/layer-3|Layer 3 hub]] (PART_OF_LAYER)
+- [[../layers/layer-7|Layer 7 hub]] (PART_OF_LAYER)
+- [[layer3-pm-post-vacancy-predecessor-gap|보직 캡처 (L3)]] (CAUSES)
+- [[kiatis-mnd-controlled-not-delegated|KIATIS = 국방부 통제 사업]] (CAUSES)
+- [[han-ji-hoon-officer-personal-record-manipulation|장교 개인 자력 조작]] (CAUSES)
+- [[../events/2018-2019-kiatis-performance-improvement-project|2018–2019 KIATIS 성능개선사업]] (ABOUT)
+- [[../entities/organizations/gukjeonwon|국전원]] (ABOUT)

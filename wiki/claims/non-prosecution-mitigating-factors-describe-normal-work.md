@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-MITIGATING-IS-NORMAL-WORK"})
 SET fr.layer = 6,
-    fr.claimType = "prosecution_self_contradiction",
+    fr.claimType = "prosecution_misconduct",
+    fr.claimSubtype = "prosecution_self_contradiction",
     fr.claimDesc = "참작사유='업체 소통+프로그램 완성+일정 충족'=정상적 업무수행. 범죄 의도 부재의 자인.",
     fr.counterHypothesis = "참작사유는 기소유예에서 표준적으로 기재되며 무죄를 의미하지 않는다",
     fr.falsificationCondition = "동일한 참작사유가 명백한 범죄 의도가 인정된 유사 사건에서도 동일하게 기재된 사례",
@@ -50,6 +51,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[prosecution-non-prosecution-internal-contradiction]]
-- [[prosecution-baeim-charge-self-contradictory]]
-- [[../layers/layer-6|Layer 6]]
+- [[prosecution-non-prosecution-internal-contradiction]] (CORROBORATES)
+- [[prosecution-baeim-charge-self-contradictory]] (CORROBORATES)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

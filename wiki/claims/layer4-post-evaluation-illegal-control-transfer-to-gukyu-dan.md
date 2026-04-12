@@ -7,7 +7,8 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L4-B3-001"})
 SET fr.layer = 4,
     fr.secondaryLayer = 7,
-    fr.claimType = "illegal_control_authority_transfer",
+    fr.claimType = "procedural_violation",
+    fr.claimSubtype = "illegal_control_authority_transfer",
     fr.claimDesc = "After the 新KIATIS 개발운용시험평가 concluded on 2019-09-11, 국유단장 approved evaluation item changes on 2019-09-19 — 8 days post-evaluation — thereby self-assuming the 사업통제기관 role. This implies a prior agreement (합의) between 국방부, 국유단, and 국전원 to illegally transfer control authority. Per 국방정보화업무훈령 제2129호 (Record No. 7,486) and 국전원 사업관리실무지침 (Record No. 8,371), the 사업통제기관 is defined (Record No. 8,567) as exclusively 국방부 정보화기획관실 or each service's equivalent. 국유단 cannot serve as 사업통제기관. 장우진 (사업실무자-1) confirmed the responsibility chain was dysfunctional (Record No. 11,107ff).",
     fr.counterHypothesis = "국유단's post-evaluation approval was an exercise of its 사업주관기관 authority under 제62조, not an assumption of 사업통제기관 authority; the distinction was immaterial for post-evaluation item changes",
     fr.falsificationCondition = "Production of a formal delegation document (위임장 or 권한이양 합의서) authorizing 국유단 to perform 사업통제기관 functions for 新KIATIS, executed before 2019-09-19 with 국방부 정보화기획관실 approval, would show the transfer was lawful rather than illegal",
@@ -73,11 +74,11 @@ This claim is CORROBORATED unless:
 
 ## Related
 
-- [[prosecution-omits-saup-tongje-gigwan-from-rfp-structure|L6: 군검사 사업통제기관 의도적 누락]]
-- [[kiatis-mnd-controlled-not-delegated|L2: 新KIATIS 국방부 통제 사업]]
-- [[kiatis-mkia-multi-cap-inscription|L2: 국유단 다중 cap inscription]]
-- [[layer4-evaluation-item-change-after-completion|L4: 평가 종료 후 항목 변경 승인]]
-- [[layer4-test-evaluation-separation-principle-directive-2129|L4: 시험평가 분리 원칙]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[../entities/organizations/gukyu-dan|국유단]]
-- [[../layers/layer-4|Layer 4]]
+- [[prosecution-omits-saup-tongje-gigwan-from-rfp-structure|L6: 군검사 사업통제기관 의도적 누락]] (RELATED)
+- [[kiatis-mnd-controlled-not-delegated|L2: 新KIATIS 국방부 통제 사업]] (RELATED)
+- [[kiatis-mkia-multi-cap-inscription|L2: 국유단 다중 cap inscription]] (RELATED)
+- [[layer4-evaluation-item-change-after-completion|L4: 평가 종료 후 항목 변경 승인]] (RELATED)
+- [[layer4-test-evaluation-separation-principle-directive-2129|L4: 시험평가 분리 원칙]] (RELATED)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[../entities/organizations/gukyu-dan|국유단]] (ABOUT)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

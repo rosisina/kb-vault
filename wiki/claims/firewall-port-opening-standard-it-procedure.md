@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-FIREWALL-STANDARD-PROCEDURE"})
 SET fr.layer = 6,
-    fr.claimType = "prosecution_technical_ignorance",
+    fr.claimType = "prosecution_misconduct",
+    fr.claimSubtype = "prosecution_technical_ignorance",
     fr.claimDesc = "군검찰단이 '불법적 방화벽 개방'으로 기소한 행위는 국전원↔DIDC 간의 표준 방화벽 정책 적용 요청 절차이다. 국방의 모든 기관은 DIDC 서버 접속 시 동일한 방화벽 포트 개방을 요청하며(그림 4-3), 행정정보화과에서만 2019년 전반기에 수십 건의 동일 요청이 처리되었다. 단 1건의 공문만을 범죄 근거로 사용한 것은 선별적 기소이다",
     fr.counterHypothesis = "시험평가용 방화벽 개방은 일반 업무용과 다른 특수한 절차가 적용되어야 하며, DIDC 부대예규 미준수가 위법 요소이다",
     fr.falsificationCondition = "시험평가용 방화벽 개방에 별도의 보안 심의 절차가 요구된다는 DIDC 부대예규 조항의 제시",
@@ -59,6 +60,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[prosecution-firewall-port-opening-contradicts-it-standard-practice]] — L6 기존 관련 atom
-- [[prosecution-selective-criminalization-firewall-approval-chain]] — L6 선별적 범죄화
-- [[../layers/layer-6|Layer 6]]
+- [[prosecution-firewall-port-opening-contradicts-it-standard-practice]] — L6 기존 관련 atom (OPPOSES)
+- [[prosecution-selective-criminalization-firewall-approval-chain]] — L6 선별적 범죄화 (CAUSES)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

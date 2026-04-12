@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L1-DB-DIRECT-NO-VPN"})
 SET fr.layer = 1,
-    fr.claimType = "security_architecture_violation",
+    fr.claimType = "procedural_violation",
+    fr.claimSubtype = "security_architecture_violation",
     fr.claimDesc = "舊KIATIS operated with direct database access from the internet without VPN or security equipment for approximately 15 years (2007–2022). 장우진 (사업실무자-1) testified that VPN limitations caused operational failure of 新KIATIS and that the old system used direct DB access (Record No. 10,303). A 국유단 발굴 팀장 confirmed 15-year non-VPN usage. 국유단's 2022.2.6 '22년 1월 KIATIS 추진 평가 결과 보고' (Record No. 5,240) triggered the remediation meeting that led to the false 갑질 complaint against 한지훈",
     fr.counterHypothesis = "The VPN absence applied only to field operations and the core system at DIDC used VPN for DB access; field non-usage was operational convenience not a systemic vulnerability",
     fr.falsificationCondition = "Production of DIDC/국전원 network configuration records showing VPN was deployed for 舊KIATIS DB access at any point during 2007–2019",
@@ -71,9 +72,9 @@ This claim is **CORROBORATED** unless:
 
 ## Related
 
-- [[old-kiatis-intranet-data-link-confirmed]] — companion L1 atom establishing the intranet linkage
-- [[kiatis-server-laundering-dcia-to-didc1]] — server migration path (Layer 2 bridge)
-- [[layer5-48hr-retaliation-causal-link]] — the 48-hour gap between this meeting and the false complaint
-- [[firewall-policy-form-approved-by-wrong-officer]] — the firewall port opening mechanism
-- [[didc-sop-firewall-vpn-trail-mandatory]] — 제12호 제37조 VPN paper trail requirement
-- [[../layers/layer-1|Layer 1]] — DIDC hacking cover-up origin
+- [[old-kiatis-intranet-data-link-confirmed]] — companion L1 atom establishing the intranet linkage (RELATED)
+- [[kiatis-server-laundering-dcia-to-didc1]] — server migration path (Layer 2 bridge) (RELATED)
+- [[layer5-48hr-retaliation-causal-link]] — the 48-hour gap between this meeting and the false complaint (OPPOSES)
+- [[firewall-policy-form-approved-by-wrong-officer]] — the firewall port opening mechanism (CORROBORATES)
+- [[didc-sop-firewall-vpn-trail-mandatory]] — 제12호 제37조 VPN paper trail requirement (CORROBORATES)
+- [[../layers/layer-1|Layer 1]] — DIDC hacking cover-up origin (PART_OF_LAYER)

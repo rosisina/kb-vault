@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L7-KISO-YUYE-DISCHARGE-20DAYS"})
 SET fr.layer = 7,
-    fr.claimType = "factual_core",
+    fr.claimType = "methodology",
+    fr.claimSubtype = "factual_core",
     fr.claimDesc = "기소유예(10.11)→불명예제대(10.31) 20일. 32년 군경력 종결.",
     fr.counterHypothesis = "기소유예는 정당한 검찰 재량이며 제대는 독립적 군 행정 절차",
     fr.falsificationCondition = "20일이 장교 제대의 표준 처리 기간임을 보여주는 기록",
@@ -50,5 +51,5 @@ SET fr.layer = 7,
 
 ## Related
 
-- [[han-ji-hoon-kiso-yuye-is-criminal-stigma]]
-- [[../layers/layer-7|Layer 7]]
+- [[han-ji-hoon-kiso-yuye-is-criminal-stigma]] (RELATED)
+- [[../layers/layer-7|Layer 7]] (PART_OF_LAYER)

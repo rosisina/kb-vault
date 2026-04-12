@@ -7,7 +7,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L2-MKIA-MULTICAP-002"})
 SET fr.layer = 2,
-    fr.claimType = "structural_violation",
+    fr.claimType = "procedural_violation",
+    fr.claimSubtype = "structural_violation",
     fr.claimDesc = "2018-08-07 사업계획 보고 (record 1,140), 2018-08-07 사업계획서 (record 1,119/1,131), 2018-10-29 최종 제안요청서 (record 1,474)에서 국방부 유해발굴감식단(국유단/MKIA)이 사업통제기관 + 사업관리기관 + 사업주관기관 + 사업수행기관 슬롯에 다중 cap으로 inscription되었다. 〈표 3-2-1〉이 직접 증명. 강민호 (과장-1)가 박성호 (2016해킹당시원장-1)에게 '사업통제·주관기관: 국방부 유해발굴감식단(기관 위임 사업)'으로 보고하고 승인. 이는 제2129호 제11조 ¶2가 국방부 정보화기획관실의 고유 임무로 명시한 사업통제기관의 4대 핵심 임무를 일반 기관에 위임한 훈령 위반이며, 국방 정보화 사업 역사상 전례가 없다",
     fr.counterHypothesis = "PCA·PHA 다중 cap은 업무 간소화 또는 소규모 기관 사업에 대해 정당하게 허용된다",
     fr.falsificationCondition = "다른 국방 정보화 사업에서 MKIA(또는 비-MND-정보화기획관실 기관)가 적법하게 사업통제기관으로 지정된 사례를 제시할 것. 한국어 원본은 §3.2.1.1에서 비교 사업 (조직정원체계 사업, 2017-04~2019-01) 이 동일 행정정보화과 팀에 의해 합법 추진되었음을 직접 증명하므로 counter는 사실상 봉쇄됨",
@@ -89,13 +90,13 @@ PCA·PHA 다중 cap은 다음 중 하나로 정당화된다:
 
 ## Related
 
-- [[new-kiatis-is-mnd-controlled-not-delegated-project|3 shared records — MND 통제 사업 분류]]
-- [[gukyu-dan-dual-cap-unprecedented-structure|3 shared records — 이중역할 전례 없는 구조]]
-- [[../layers/layer-2|Layer 2 hub]]
-- [[kiatis-mnd-controlled-not-delegated|L2-01 — MND controlled, not delegated]]
-- [[lee-jiyoung-kim-sujin-single-point-of-control|L2-03 — 단일 통제점]]
-- [[han-ji-hoon-three-braking-devices-active-defense|L2-05 — 3가지 제동장치]]
-- [[kiatis-rfp-binds-lifecycle|KIATIS — RFP-binds-lifecycle (행위시법주의)]]
-- [[../regulations/defense-it-2129-article-11|제2129호 제11조]]
-- [[../entities/organizations/didc|DIDC]]
-- [[../entities/organizations/gukjeonwon|국전원]]
+- [[new-kiatis-is-mnd-controlled-not-delegated-project|3 shared records — MND 통제 사업 분류]] (CORROBORATES)
+- [[gukyu-dan-dual-cap-unprecedented-structure|3 shared records — 이중역할 전례 없는 구조]] (RELATED)
+- [[../layers/layer-2|Layer 2 hub]] (PART_OF_LAYER)
+- [[kiatis-mnd-controlled-not-delegated|L2-01 — MND controlled, not delegated]] (RELATED)
+- [[lee-jiyoung-kim-sujin-single-point-of-control|L2-03 — 단일 통제점]] (RELATED)
+- [[han-ji-hoon-three-braking-devices-active-defense|L2-05 — 3가지 제동장치]] (RELATED)
+- [[kiatis-rfp-binds-lifecycle|KIATIS — RFP-binds-lifecycle (행위시법주의)]] (RELATED)
+- [[../regulations/defense-it-2129-article-11|제2129호 제11조]] (ABOUT)
+- [[../entities/organizations/didc|DIDC]] (ABOUT)
+- [[../entities/organizations/gukjeonwon|국전원]] (ABOUT)

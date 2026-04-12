@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-EXCAVATION-INTERNET-PROOF"})
 SET fr.layer = 5,
-    fr.claimType = "operational_evidence",
+    fr.claimType = "technical_proof",
+    fr.claimSubtype = "operational_evidence",
     fr.claimDesc = "국유단의 발굴단계 업무(유해 발굴, 현장 데이터 입력, 사진 촬영·업로드)는 인터넷 환경에서 수행되었으며, 이는 舊KIATIS가 인터넷 기반 시스템이었음을 실무 차원에서 확증한다. 발굴 현장(산악, 비무장지대 등)에서 국방망 접속은 물리적으로 불가능하므로 인터넷 사용은 운용상 필수였다",
     fr.counterHypothesis = "발굴 현장에서의 데이터 입력은 오프라인으로 수행 후 사후 업로드하였으며, 실시간 인터넷 접속은 필수가 아니었다",
     fr.falsificationCondition = "발굴 현장에서 국방망을 통해 KIATIS에 접속한 기록 또는 오프라인 데이터 입력·사후 동기화 절차가 존재했음을 보여주는 기록",
@@ -55,7 +56,7 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[old-kiatis-direct-db-access-without-vpn]] — L1 DB 직접접속
-- [[old-kiatis-hosted-inside-other-server-15-years]] — L1 타 서버 내 운용
-- [[../layers/layer-5|Layer 5]]
-- [[../layers/layer-1|Layer 1]]
+- [[old-kiatis-direct-db-access-without-vpn]] — L1 DB 직접접속 (RELATED)
+- [[old-kiatis-hosted-inside-other-server-15-years]] — L1 타 서버 내 운용 (RELATED)
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)

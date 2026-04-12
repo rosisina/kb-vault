@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-B3-002"})
 SET fr.layer = 6,
-    fr.claimType = "cartel_network_four_documents_four_keywords",
+    fr.claimType = "conspiracy_structure",
+    fr.claimSubtype = "cartel_network_four_documents_four_keywords",
     fr.claimDesc = "The military prosecutor's fraudulent investigation against Han Ji-hoon is structurally defined by four documents and four keywords. The four documents are: (1) 참고인진술서 (2022-01-25, Record No. 4,776ff), (2) 압수·수색·검증 영장 (2022-07-18, Record No. 4,842ff), (3) 군인·공무원범죄 수사개시 통보 (2022-07-21, Record No. 4,854ff), (4) 피의자 신문조서 (2022-09-02, Record No. 4,874ff), plus (5) 불기소이유 통지 (2022-10-11, Record No. 5,167ff). The four fraud keywords pervading these documents are: 'DIDC 예규 미준수,' '불법적 방화벽 개방,' 'DB 불법접속,' '미고지.' The cartel network operated in three temporal phases: Phase 1 (2016-2018) cover-up foundation, Phase 2 (2018-2022) manipulation system activation via 新KIATIS, Phase 3 (2022-2025) complete-crime completion via prosecutor fraud investigation. The network radiates from 국방부 정보화기획관실 at center, with 국전원, DIDC, 국유단, KIDA, 사이버작전사령부, 국군방첩사령부, 조사본부, and 군 검찰단 as coordinated nodes. Each institution had a specific role: MND (overall command + document/directive manipulation), 국전원 (project manipulation), DIDC (technical concealment), 국유단 (user camouflage + 80 additional requirements), KIDA (academic justification), 사이버사 (security whitewash), 조사본부 + 법무관리관실 (false harassment justification), 국군방첩사 (delayed then fabricated security countermeasure), 군 검찰단 + 최동욱 변호사 (legal finalization). The structure exhibits 'distributed responsibility, centralized control' — the hallmark of organized crime.",
     fr.counterHypothesis = "The multiple organizations acted independently in their respective domains without central coordination from 정보화기획관실; temporal alignment of their actions reflects normal bureaucratic sequencing rather than organized conspiracy.",
     fr.falsificationCondition = "Production of evidence showing that (a) 정보화기획관실 had no communication or coordination role with DIDC/국유단/국군방첩사 regarding the KIATIS investigation, (b) each organization's actions can be explained by independent institutional decision-making without cross-organizational communication, and (c) the 4 keywords in the prosecution documents were derived from independent evidence-gathering rather than a shared narrative framework.",
@@ -89,12 +90,12 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[layer3-vpn-otp-card-used-2021-not-2019|3 shared records — VPN OTP 카드 L3 사실관계]]
-- [[prosecution-distorts-operational-vs-test-environment|4 shared records — 환경 왜곡 관련]]
-- [[han-ji-hoon-witness-statement-2022-01-25|4 shared records — 참고인 진술 원본]]
-- [[../layers/layer-6|Layer 6]]
-- [[defense-information-cartel-named-by-rebuttal]] — 카르텔 정의
-- [[han-ji-hoon-investigation-notification-2022-07-21]] — 수사개시 통보
-- [[prosecution-misapplies-2129-article-58-4-to-kiatis]] — 불기소이유서 오적용
-- [[layer6-prosecutor-violated-anti-corruption-five-principles]] — 반부패 5대 원칙 위반
-- [[../entities/people/han-ji-hoon|한지훈]]
+- [[layer3-vpn-otp-card-used-2021-not-2019|3 shared records — VPN OTP 카드 L3 사실관계]] (RELATED)
+- [[prosecution-distorts-operational-vs-test-environment|4 shared records — 환경 왜곡 관련]] (RELATED)
+- [[han-ji-hoon-witness-statement-2022-01-25|4 shared records — 참고인 진술 원본]] (RELATED)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)
+- [[defense-information-cartel-named-by-rebuttal]] — 카르텔 정의 (OPPOSES)
+- [[han-ji-hoon-investigation-notification-2022-07-21]] — 수사개시 통보 (RELATED)
+- [[prosecution-misapplies-2129-article-58-4-to-kiatis]] — 불기소이유서 오적용 (RELATED)
+- [[layer6-prosecutor-violated-anti-corruption-five-principles]] — 반부패 5대 원칙 위반 (RELATED)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)

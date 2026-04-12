@@ -7,7 +7,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L3-PM-POST-VACANCY-001"})
 SET fr.layer = 3,
-    fr.claimType = "procedural_irregularity",
+    fr.claimType = "procedural_violation",
+    fr.claimSubtype = "procedural_irregularity",
     fr.claimDesc = "한지훈 중령은 2018-12-03 국방부 보직 시 자원정보화과 군수/시설체계계획담당으로 발령받았으나 실제로는 국전원 행정정보화과 총괄담당으로 근무하였다. 한지훈 본인도 6개월 가량 이 보직 불일치 상태를 인지하지 못하였으며, 운영예규상 행정정보계획팀은 해군 중령이 편제되어 있음에도 육군 중령이 보직되었고, 전임 해군 중령은 약 2개월간 공석이었다. 편제 불일치 + 전임자 공석 + 본인 미인지 3가지가 결합된 보직 이관 구조는 新KIATIS 사업관리팀장 역할의 부지불식간 임의 지정 수단으로 기능하였다.",
     fr.counterHypothesis = "보직-편제 불일치는 군 인사 운영상 흔한 잠정적 조치이며, 전임자 공석도 정상적 인사 흐름의 일부이다",
     fr.falsificationCondition = "2018-10~12 기간 국방부·국전원 간 인사 운영예규 또는 보직 발령 공문에서 '육군 중령 → 행정정보화과 총괄담당' 이관이 정규 절차에 따랐음이 공문으로 확인되면 약화",
@@ -72,9 +73,9 @@ SET fr.layer = 3,
 
 ## Related
 
-- [[../layers/layer-3|Layer 3 hub]]
-- [[kiatis-mnd-controlled-not-delegated|KIATIS = 국방부 통제 사업]]
-- [[han-ji-hoon-officer-personal-record-manipulation|장교 개인 자력 조작]]
-- [[layer3-kiatis-team-transfer-forced-handoff|KIATIS 사업 강제 이관 (L3)]]
-- [[../events/2018-2019-kiatis-performance-improvement-project|2018–2019 KIATIS 성능개선사업]]
-- [[../entities/organizations/gukjeonwon|국전원]]
+- [[../layers/layer-3|Layer 3 hub]] (PART_OF_LAYER)
+- [[kiatis-mnd-controlled-not-delegated|KIATIS = 국방부 통제 사업]] (RELATED)
+- [[han-ji-hoon-officer-personal-record-manipulation|장교 개인 자력 조작]] (RELATED)
+- [[layer3-kiatis-team-transfer-forced-handoff|KIATIS 사업 강제 이관 (L3)]] (CAUSES)
+- [[../events/2018-2019-kiatis-performance-improvement-project|2018–2019 KIATIS 성능개선사업]] (ABOUT)
+- [[../entities/organizations/gukjeonwon|국전원]] (ABOUT)

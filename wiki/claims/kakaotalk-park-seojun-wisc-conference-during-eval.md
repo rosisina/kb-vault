@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-KKT-WISC"})
 SET fr.layer = 5,
-    fr.claimType = "behavioral_evidence",
+    fr.claimType = "methodology",
+    fr.claimSubtype = "behavioral_evidence",
     fr.claimDesc = "KakaoTalk에서 박서준 WiSC 참석 확인. 시험평가 기간과 겹침. 억압 서사와 모순.",
     fr.counterHypothesis = "학술대회 참석은 갑질과 무관하며, 피해자도 정상 업무를 수행할 수 있다",
     fr.falsificationCondition = "한지훈이 박서준의 학술대회 참석을 강제하거나 방해한 기록",
@@ -49,5 +50,5 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[layer5-park-seojun-48hr-cooperation-to-hostility]]
-- [[../layers/layer-5|Layer 5]]
+- [[layer5-park-seojun-48hr-cooperation-to-hostility]] (CORROBORATES)
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

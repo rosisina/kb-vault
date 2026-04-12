@@ -8,7 +8,8 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L2-LJY-KSJ-CONTROL-003"})
 SET fr.layer = 2,
     fr.crossLayer = [1, 4, 6],
-    fr.claimType = "actor_continuity",
+    fr.claimType = "conspiracy_structure",
+    fr.claimSubtype = "actor_continuity",
     fr.claimDesc = "이지영 (공문결재자-1, 가명 매핑 id 2) 과 김수진 (행정담당자-1, 가명 매핑 id 11) 은 4가지 독립 컨텍스트에서 같은 actor 패턴으로 등장한다: (a) 비교 사업 조직정원체계의 PCA 담당 (국방부 정보화기획관실 소프트웨어 융합 담당관실; 한국어 원본 §3.2.1.2 footnote 85), (b) 2019-09-02 work-simplification 공문 (record 5,853 또는 2,853)의 작성·결재자 (한국어 원본 §3.2.2 footnote 109), (c) 「전군 인터넷 통합 메일 사업」(2018-11-20~2019-05-30)의 시험평가 승인자 (record 3,485, 분리 시행, 평가위원장 = 이태호 (평가위원장-1)), (d) 2017 Active-X 제거 사업부터 2018 新KIATIS 시험평가 시작까지 일관 패턴, 그리고 2021-01-18 (이지영) / 2021-02-09 (김수진) MND→국전원 보직 이동 후에도 같은 패턴의 훈령 개정 관여 (한국어 원본 §3.2.3). 모든 조작의 시작과 끝에 동일 두 사람이 등장한다는 것은 단일 통제점이 존재함을 보이는 결정적 증거이다.",
     fr.counterHypothesis = "이지영과 김수진은 단순한 행정 사무 처리 담당자로, 4가지 컨텍스트 등장은 각자의 직무 범위 내 routine 활동의 우연한 중복이다",
     fr.falsificationCondition = "이지영 또는 김수진이 4가지 컨텍스트 중 어느 하나에 등장하지 않았음을 보이는 직접 증거 (예: 결재 라인에서 다른 사람이 결재한 동일 시기 동일 부서 공문). 또는 그들의 4가지 컨텍스트 등장이 routine HR 패턴이며 다른 동일 직급 직원도 동일 시기에 동일 패턴으로 등장한 사례.",
@@ -99,13 +100,13 @@ SET fr.layer = 2,
 
 ## Related
 
-- [[../layers/layer-2|Layer 2 hub]]
-- [[../layers/layer-1|Layer 1 — Active-X 제거 단계]]
-- [[../layers/layer-4|Layer 4 — 훈령 개정 관여 패턴]]
-- [[../layers/layer-6|Layer 6 — GIS 서버 검찰단 제공]]
-- [[kiatis-mnd-controlled-not-delegated|L2-01]]
-- [[kiatis-mkia-multi-cap-inscription|L2-02]]
-- [[kiatis-server-laundering-dcia-to-didc1|L2-04 — server laundering]]
-- [[han-ji-hoon-three-braking-devices-active-defense|L2-05]]
-- [[../entities/people/lee-ji-young|이지영 (공문결재자-1)]]
-- [[../entities/organizations/gukjeonwon|국전원]]
+- [[../layers/layer-2|Layer 2 hub]] (PART_OF_LAYER)
+- [[../layers/layer-1|Layer 1 — Active-X 제거 단계]] (PART_OF_LAYER)
+- [[../layers/layer-4|Layer 4 — 훈령 개정 관여 패턴]] (PART_OF_LAYER)
+- [[../layers/layer-6|Layer 6 — GIS 서버 검찰단 제공]] (PART_OF_LAYER)
+- [[kiatis-mnd-controlled-not-delegated|L2-01]] (RELATED)
+- [[kiatis-mkia-multi-cap-inscription|L2-02]] (RELATED)
+- [[kiatis-server-laundering-dcia-to-didc1|L2-04 — server laundering]] (RELATED)
+- [[han-ji-hoon-three-braking-devices-active-defense|L2-05]] (RELATED)
+- [[../entities/people/lee-ji-young|이지영 (공문결재자-1)]] (ABOUT)
+- [[../entities/organizations/gukjeonwon|국전원]] (ABOUT)

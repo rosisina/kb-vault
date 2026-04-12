@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-KIDA-GUKJEONWON-INTEGRATION"})
 SET fr.layer = 4,
-    fr.claimType = "academic_fraud_international_misrepresentation",
+    fr.claimType = "methodology",
+    fr.claimSubtype = "academic_fraud_international_misrepresentation",
     fr.claimDesc = "KIDA 연구의 제4 함의(Record 6,722)는 사업관리기관(국전원) 중심의 DT/OT 통합을 권고하나, 이는 US TEMP Guidebook 3.1(2017)의 'DT와 OT는 서로 다른 목적을 가지며 통합해서는 안 된다'는 원칙을 정반대로 왜곡한 것이다. 개발자가 자체 평가하는 여우-닭장 구조(fox-guarding-henhouse)를 학술적으로 정당화한 것이다",
     fr.counterHypothesis = "KIDA의 통합 권고는 한국군의 특수한 상황을 반영한 독자적 판단이며, 미군 기준과의 차이는 맥락 차이에 기인한다",
     fr.falsificationCondition = "US TEMP Guidebook이 특정 조건에서 DT/OT 통합을 허용하는 조항의 제시, 또는 KIDA가 미군 기준과의 차이를 명시적으로 인정·설명한 기록",
@@ -56,6 +57,6 @@ US TEMP Guidebook에서 DT/OT 통합을 허용하는 조항의 제시.
 
 ## Related
 
-- [[kida-otne-citation-misrepresents-us-standard]] — L4 기존 KIDA 미군 왜곡 atom
-- [[kida-research-legitimizes-pre-existing-manipulation]] — L4 KIDA 소급 정당화
-- [[../layers/layer-4|Layer 4]]
+- [[kida-otne-citation-misrepresents-us-standard]] — L4 기존 KIDA 미군 왜곡 atom (CORROBORATES)
+- [[kida-research-legitimizes-pre-existing-manipulation]] — L4 KIDA 소급 정당화 (CORROBORATES)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

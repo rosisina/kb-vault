@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-A8a-001"})
 SET fr.layer = 4,
-    fr.claimType = "regulatory_anchor_flipflop",
+    fr.claimType = "regulatory_manipulation",
+    fr.claimSubtype = "regulatory_anchor_flipflop",
     fr.claimDesc = "The OT&E environment exclusivity clause '실제 조성된 기반운영 환경에서' was loosened to '환경 또는 이와 유사한 환경에서' at 제2398호 (2020-02-13), reverted at 제2436호 (2020-06-04), then re-introduced at 제2842호 (2023-09-20) where it persists through 제3080호",
     fr.counterHypothesis = "The flip-flop is a clerical drafting sequence with no substantive intent — the hedge was added by drafting error in 제2398호, removed in 제2436호 during the larger restructuring, then re-added in 제2842호 to align with operational practice",
     fr.falsificationCondition = "Production of internal MND drafting records for 제2398호 / 제2436호 / 제2842호 showing the hedge clause was treated as a clerical issue rather than a substantive policy debate",
@@ -121,8 +122,8 @@ This atom has been logged in [[../_contradictions|_contradictions.md]] as entry 
 
 ## Related
 
-- [[2436ho-cluster-six-anchors|2436호 cluster (A8a participates)]]
-- [[2436ho-otne-sponsor-binding-erased|A8b: 사업주관기관 주관 하에 erasure (paired)]]
-- [[../regulations/defense-it-2129-article-57|제57조 (시험평가 구분)]]
-- [[../topics/test-evaluation-manipulation|Test Evaluation Manipulation]]
-- [[../layers/layer-4|Layer 4]]
+- [[2436ho-cluster-six-anchors|2436호 cluster (A8a participates)]] (SUPERSEDES)
+- [[2436ho-otne-sponsor-binding-erased|A8b: 사업주관기관 주관 하에 erasure (paired)]] (CORROBORATES)
+- [[../regulations/defense-it-2129-article-57|제57조 (시험평가 구분)]] (ABOUT)
+- [[../topics/test-evaluation-manipulation|Test Evaluation Manipulation]] (ABOUT)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

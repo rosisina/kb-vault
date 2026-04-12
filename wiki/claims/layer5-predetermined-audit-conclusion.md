@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-003"})
 SET fr.layer = 5,
-    fr.claimType = "predetermined_audit_conclusion",
+    fr.claimType = "temporal_manipulation",
+    fr.claimSubtype = "predetermined_audit_conclusion",
     fr.claimDesc = "The MND Inspector General's office (조사본부) declared the disciplinary/discharge outcome on 2022-02-10 — the same day the false 갑질 complaint was filed — before conducting the 29-question leading interrogation on 2022-03-25. The conclusion preceded the investigation by approximately 43 days, structurally inverting the logical order of fact-finding and adjudication.",
     fr.counterHypothesis = "The 2022-02-10 statement was a preliminary administrative assessment, not a conclusion, and the subsequent 29-question interrogation on 2022-03-25 was a genuine fact-finding exercise that could have altered the outcome.",
     fr.falsificationCondition = "Production of a 2022-03-25 interrogation transcript showing open-ended questions and procedural acknowledgment that the outcome had not yet been determined, combined with evidence that the 2022-02-10 statement was labelled as preliminary rather than conclusive.",
@@ -71,10 +72,10 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[../layers/layer-5|Layer 5]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[../entities/people/kim-min-su|김민수]]
-- [[layer5-48hr-retaliation-causal-link|layer5-48hr-retaliation-causal-link — 48시간 보복 인과 관계]]
-- [[layer5-fabricated-warning-letter|layer5-fabricated-warning-letter — 허위 경고장]]
-- [[../topics/whistleblower-protection-and-reform|Whistleblower Protection and Reform]]
-- [[../topics/fraud-investigation|Fraud Investigation]]
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[../entities/people/kim-min-su|김민수]] (ABOUT)
+- [[layer5-48hr-retaliation-causal-link|layer5-48hr-retaliation-causal-link — 48시간 보복 인과 관계]] (RELATED)
+- [[layer5-fabricated-warning-letter|layer5-fabricated-warning-letter — 허위 경고장]] (OPPOSES)
+- [[../topics/whistleblower-protection-and-reform|Whistleblower Protection and Reform]] (ABOUT)
+- [[../topics/fraud-investigation|Fraud Investigation]] (ABOUT)

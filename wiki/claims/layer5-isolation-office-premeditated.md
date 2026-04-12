@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-006"})
 SET fr.layer = 5,
-    fr.claimType = "premeditated_isolation_operation",
+    fr.claimType = "human_rights_violation",
+    fr.claimSubtype = "premeditated_isolation_operation",
     fr.claimDesc = "The isolation office to which 한지훈 was assigned was physically prepared before the 2022-02-10 false 갑질 report was even filed. 김민수's recorded statement '준비 다 됐다' on 2022-02-21 proves the retaliation was pre-planned at the organizational level, not a reactive administrative response triggered by the complaint.",
     fr.counterHypothesis = "김민수's '준비 다 됐다' statement on 2022-02-21 referred to preparation of unrelated administrative matters, not the isolation office — or was said after the isolation had already begun as a description rather than an announcement.",
     fr.falsificationCondition = "A full transcript context of the 2022-02-21 recording showing that '준비 다 됐다' referred to something other than 한지훈's workspace isolation, or evidence that the office was repurposed only after the 갑질 complaint was formally processed.",
@@ -71,10 +72,10 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[../layers/layer-5|Layer 5]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[../entities/people/kim-min-su|김민수]]
-- [[layer5-six-month-isolation-human-rights|layer5-six-month-isolation-human-rights — 6개월 독방 인권침해]]
-- [[layer5-48hr-retaliation-causal-link|layer5-48hr-retaliation-causal-link — 48시간 보복 인과 관계]]
-- [[layer5-predetermined-audit-conclusion|layer5-predetermined-audit-conclusion — 조사본부 결론 사전 결정]]
-- [[../topics/whistleblower-protection-and-reform|Whistleblower Protection and Reform]]
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[../entities/people/kim-min-su|김민수]] (ABOUT)
+- [[layer5-six-month-isolation-human-rights|layer5-six-month-isolation-human-rights — 6개월 독방 인권침해]] (CORROBORATES)
+- [[layer5-48hr-retaliation-causal-link|layer5-48hr-retaliation-causal-link — 48시간 보복 인과 관계]] (CORROBORATES)
+- [[layer5-predetermined-audit-conclusion|layer5-predetermined-audit-conclusion — 조사본부 결론 사전 결정]] (RELATED)
+- [[../topics/whistleblower-protection-and-reform|Whistleblower Protection and Reform]] (ABOUT)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-024"})
 SET fr.layer = 5,
-    fr.claimType = "conspiracy_admission",
+    fr.claimType = "conspiracy_structure",
+    fr.claimSubtype = "conspiracy_admission",
     fr.claimDesc = "김민수 admitted on 2022-05-04 that he had 'sufficiently discussed' (충분히 애기하고) the matter with the Inspector (감사관) beforehand, and that the final warning was the Inspector's decision. This constitutes a direct admission of prior coordination between 법무관리관실 and 조사본부 (직무감찰담당관실) — a conspiracy to issue a fabricated warning against 한지훈.",
     fr.counterHypothesis = "김민수's remark was casual shorthand for normal inter-office communication that does not imply pre-arranged coordination or a conspiracy to target 한지훈.",
     fr.falsificationCondition = "Production of contemporaneous records showing that 법무관리관실 and 조사본부 followed standard independent channels with no coordinated targeting of 한지훈, or that the 'sufficiently discussed' remark referred to a different matter entirely.",
@@ -68,9 +69,9 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[../layers/layer-5|Layer 5]]
-- [[../entities/people/kim-min-su|김민수]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[layer5-predetermined-audit-conclusion|조사본부 결론 사전 결정]]
-- [[layer5-fabricated-warning-letter|허위 경고장 발부]]
-- [[lee-ji-young-double-play-park-seo-jun-incitement-han-ji-hoon-blocking|이지영의 이중 역할]]
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)
+- [[../entities/people/kim-min-su|김민수]] (ABOUT)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[layer5-predetermined-audit-conclusion|조사본부 결론 사전 결정]] (RELATED)
+- [[layer5-fabricated-warning-letter|허위 경고장 발부]] (OPPOSES)
+- [[lee-ji-young-double-play-park-seo-jun-incitement-han-ji-hoon-blocking|이지영의 이중 역할]] (RELATED)

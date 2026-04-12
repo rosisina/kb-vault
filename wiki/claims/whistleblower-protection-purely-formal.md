@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L7-WHISTLEBLOWER-LAW-FORMAL"})
 SET fr.layer = 7,
-    fr.claimType = "policy_claim",
+    fr.claimType = "methodology",
+    fr.claimSubtype = "policy_claim",
     fr.claimDesc = "공익신고자 보호법 형식적 실패. 32년 군간부도 무력. 자동 보호 발동 시스템 필요.",
     fr.counterHypothesis = "한지훈이 공익신고자 보호법에 따른 절차를 이용하지 않았으므로 법의 실패가 입증되지 않는다",
     fr.falsificationCondition = "한지훈이 진정서 제출 후 어떤 형태로든 공식적 보호 조치를 제공받았음을 보여주는 기록",
@@ -51,6 +52,6 @@ SET fr.layer = 7,
 
 ## Related
 
-- [[layer5-six-month-isolation-human-rights]]
-- [[han-ji-hoon-rebuttal-rejected-by-eight-institutions]]
-- [[../layers/layer-7|Layer 7]]
+- [[layer5-six-month-isolation-human-rights]] (RELATED)
+- [[han-ji-hoon-rebuttal-rejected-by-eight-institutions]] (OPPOSES)
+- [[../layers/layer-7|Layer 7]] (PART_OF_LAYER)

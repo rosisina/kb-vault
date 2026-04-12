@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-IDENTITY-FALLACY"})
 SET fr.layer = 6,
-    fr.claimType = "prosecution_logical_manipulation",
+    fr.claimType = "prosecution_misconduct",
+    fr.claimSubtype = "prosecution_logical_manipulation",
     fr.claimDesc = "The 군 검찰단 committed a systematic Identity Fallacy (동일성 오류) across warrants, investigation initiation, and 불기소 이유서 — deliberately equating temporally, environmentally, and conceptually distinct objects: (1) Temporal: conflating 2019-09 test-evaluation environment with 2022-07 investigation-time environment using future-tense verb '사용할'; (2) Environmental: treating 舊KIATIS(Ⓐ), 新KIATIS test(Ⓑ), 新KIATIS deployed(Ⓓ) as identical systems; (3) Conceptual: treating 평가 위원회 심의결과보고서(Ⓐ, decisional) and 국전원→국유단 통보(Ⓑ, transmittal) as identical documents. This constitutes a planned deception technique, not an inadvertent logical error",
     fr.counterHypothesis = "The 군 검찰단 made good-faith analytical errors due to IT unfamiliarity; the identity conflations are simplifications, not deliberate manipulations",
     fr.falsificationCondition = "Production of internal 군 검찰단 analysis documents showing the distinctions (temporal, environmental, conceptual) were recognized but legitimately collapsed for valid legal reasons, OR a legal opinion holding that the identified conflations are standard prosecutorial practice in IT cases",
@@ -76,9 +77,9 @@ This claim is **CORROBORATED** unless:
 
 ## Related
 
-- [[prosecution-distorts-operational-vs-test-environment]] — companion L6 atom on the environmental distortion pattern across 4 prosecution documents
-- [[han-ji-hoon-prosecution-violates-2129-role-separation]] — foundational L6 atom on role misattribution
-- [[prosecution-misapplies-2129-article-58-4-to-kiatis]] — directive misapplication atom
-- [[layer4-old-new-kiatis-different-cyberspace]] — 舊KIATIS(인터넷)와 新KIATIS(국방망) are different cyberspaces
-- [[kida-otne-citation-misrepresents-us-standard]] — US DT&E/OT&E standard as comparator
-- [[../layers/layer-6|Layer 6]] — 군 검찰단의 사기 수사
+- [[prosecution-distorts-operational-vs-test-environment]] — companion L6 atom on the environmental distortion pattern across 4 prosecution documents (CORROBORATES)
+- [[han-ji-hoon-prosecution-violates-2129-role-separation]] — foundational L6 atom on role misattribution (CORROBORATES)
+- [[prosecution-misapplies-2129-article-58-4-to-kiatis]] — directive misapplication atom (CORROBORATES)
+- [[layer4-old-new-kiatis-different-cyberspace]] — 舊KIATIS(인터넷)와 新KIATIS(국방망) are different cyberspaces (RELATED)
+- [[kida-otne-citation-misrepresents-us-standard]] — US DT&E/OT&E standard as comparator (RELATED)
+- [[../layers/layer-6|Layer 6]] — 군 검찰단의 사기 수사 (PART_OF_LAYER)

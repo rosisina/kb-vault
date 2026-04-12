@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-012"})
 SET fr.layer = 4,
-    fr.claimType = "temporal_manipulation_document_forgery",
+    fr.claimType = "document_fabrication",
+    fr.claimSubtype = "temporal_manipulation_document_forgery",
     fr.claimDesc = "On 2019-09-02, 이지영 (공문결재자-1) and 김수진 (행정담당자-1) at MND SW융합정책담당관 sent a 'test-evaluation procedure simplification plan review request' (Record No. 2,853–2,858). The test-evaluation ran 2019-09-02 to 2019-09-11, meaning the simplification request was sent ON THE SAME DAY the evaluation started — logically impossible as a genuine simplification measure. Furthermore, the document was reported to MND on 2019-09-03 (Record No. 2,858), one day AFTER its own production date, constituting temporal reversal forgery (시간 역전 조작). The clause 'if no objection, consent is assumed' was a device to neutralize the evaluation while maintaining procedural appearance.",
     fr.counterHypothesis = "The procedure simplification request was a routine administrative streamlining effort that coincidentally aligned with the evaluation start date, and the one-day date discrepancy was a clerical error.",
     fr.falsificationCondition = "Production of internal MND communications showing the simplification request was drafted and circulated well before 2019-09-02, proving it was not timed to coincide with the evaluation, or an audit trail explaining the 09-02/09-03 date discrepancy as a normal administrative process.",
@@ -72,9 +73,9 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[../layers/layer-4|Layer 4]]
-- [[../entities/people/lee-ji-young|이지영 (공문결재자-1)]]
-- [[../entities/people/kim-su-jin|김수진 (행정담당자-1)]]
-- [[layer4-test-evaluation-separation-principle-directive-2129|훈령 제2129호 시험평가 분리 원칙]]
-- [[layer4-activex-removal-request-during-evaluation-conspiracy|평가 중 Active-X 제거 요청과 국유단장 승인의 모의]]
-- [[mnd-test-evaluation-improvement-retroactive-justification|시험평가 개선 사후 정당화]]
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)
+- [[../entities/people/lee-ji-young|이지영 (공문결재자-1)]] (ABOUT)
+- [[../entities/people/kim-su-jin|김수진 (행정담당자-1)]] (ABOUT)
+- [[layer4-test-evaluation-separation-principle-directive-2129|훈령 제2129호 시험평가 분리 원칙]] (RELATED)
+- [[layer4-activex-removal-request-during-evaluation-conspiracy|평가 중 Active-X 제거 요청과 국유단장 승인의 모의]] (RELATED)
+- [[mnd-test-evaluation-improvement-retroactive-justification|시험평가 개선 사후 정당화]] (RELATED)

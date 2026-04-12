@@ -244,6 +244,8 @@ Therefore this vault uses a **two-tier structure** that merges both traditions:
 - Atoms connect to **at least two** other wiki pages (one hub, one atom) — Luhmann's "no Zettel stands alone" rule. Lint flags orphans.
 - Atoms are named by pseudonymous content, not by ID. `kim-min-su-denies-knowledge-of-kiatis-removal.md`, not `claim-0042.md`. The filename is itself a one-sentence summary — Luhmann's trick for surviving without a database.
 - Every atom includes its Aurora `MERGE` shape as a fenced code block so a script (see below) can promote it to Neo4j without further interpretation.
+- **Atom `fr.claimType` must use one of the 16 standard categories** defined in `.claude/claimtype-normalization-map.json`. Original fine-grained type goes in `fr.claimSubtype`. This enables Aurora graph clustering and gap analysis. Lint flags non-standard `claimType` values.
+- **`## Related` links must include a relationship type tag.** Format: `- [[target]] (TYPE)`. Valid types: `CAUSES`, `OPPOSES`, `CORROBORATES`, `SUPERSEDES`, `PART_OF_LAYER`, `ABOUT`, `RELATED`. `atoms-to-cypher.py` extracts these as Neo4j relationships. Run `scripts/tag-relationships.py` to auto-infer types for untagged links.
 
 ## Self-compiling knowledge system
 

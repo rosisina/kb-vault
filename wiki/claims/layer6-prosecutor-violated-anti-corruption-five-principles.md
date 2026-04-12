@@ -7,7 +7,8 @@
 MERGE (fr:FalsificationResult {resultId: "FR-L6-B3-001"})
 SET fr.layer = 6,
     fr.secondaryLayer = 7,
-    fr.claimType = "prosecutor_violated_anti_corruption_five_principles",
+    fr.claimType = "prosecution_misconduct",
+    fr.claimSubtype = "prosecutor_violated_anti_corruption_five_principles",
     fr.claimDesc = "The Military Prosecutor's Office violated all five principles of anti-corruption investigation defined by its own governing directive (군 수사 절차상 인권 보호 등에 관한 훈령, 제2502호, 2020-12-30, Record No. 118/187). Article 7 (공정한 수사) mandates objective, impartial, unprejudiced, neutral investigation without arbitrary exercise of authority (Record No. 126). The prosecution inverted each principle: (1) truth-finding → truth-concealment, (2) evidence-based investigation → conclusion-fitting investigation, (3) protection of suspect's rights → human rights violations (본문기록-제6층위-014/014-2/018-2), (4) fairness and transparency → partiality and secrecy (표 3-5-1), (5) punishing responsible parties → scapegoating the investigator (Record No. 11,157–11,164). The prosecution then weaponized anti-corruption rhetoric ('부실 개발 척결', '책임자 처벌', '군기 확립') to disguise its pro-corruption conduct.",
     fr.counterHypothesis = "The prosecution conducted a good-faith anti-corruption investigation that, while imperfect, did not systematically violate all five principles; individual procedural errors do not constitute proof of intentional inversion of every principle.",
     fr.falsificationCondition = "Production of prosecution records showing (a) genuine evidence-gathering that preceded conclusions, (b) open-ended witness examination without leading questions, (c) documented consideration of exculpatory evidence, and (d) investigation of the 15-year VPN-less operation and Active-X security vulnerabilities as part of the anti-corruption mandate.",
@@ -82,9 +83,9 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[prosecutor-shifted-charge-vpn-to-firewall|2 shared records — 검찰 혐의 전환]]
-- [[../layers/layer-6|Layer 6]]
-- [[han-ji-hoon-prosecution-violates-2129-role-separation]] — 훈령 제2129호 역할 분리 위반
-- [[prosecution-misapplies-2129-article-58-4-to-kiatis]] — 제58조 ¶4 오적용
-- [[han-ji-hoon-kiso-yuye-is-criminal-stigma]] — 기소유예의 형사적 낙인
-- [[../entities/people/han-ji-hoon|한지훈]]
+- [[prosecutor-shifted-charge-vpn-to-firewall|2 shared records — 검찰 혐의 전환]] (CORROBORATES)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)
+- [[han-ji-hoon-prosecution-violates-2129-role-separation]] — 훈령 제2129호 역할 분리 위반 (CORROBORATES)
+- [[prosecution-misapplies-2129-article-58-4-to-kiatis]] — 제58조 ¶4 오적용 (CORROBORATES)
+- [[han-ji-hoon-kiso-yuye-is-criminal-stigma]] — 기소유예의 형사적 낙인 (RELATED)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)

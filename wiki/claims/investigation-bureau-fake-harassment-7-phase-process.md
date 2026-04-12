@@ -6,7 +6,8 @@
 **Aurora node:**
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-052"})
-SET fr.layer = 5, fr.claimType = "process",
+SET fr.layer = 5, fr.claimType = "methodology",
+    fr.claimSubtype = "process",
     fr.claimDesc = "조사본부의 허위 갑질 조사는 구실 만들기→표적 격리→거짓 증거 제작→조율된 증언→은폐 실패→증거 은폐→다음 층위 전환의 7단계 사기수사 프로세스를 따랐다",
     fr.counterHypothesis = "7단계는 사후적 패턴 부여이며 실제로는 독립적이고 우연한 행정 절차의 순차적 진행이었다",
     fr.falsificationCondition = "7단계 중 어느 하나라도 시간적 선후관계나 인과관계가 성립하지 않음을 증명하면 약화된다",
@@ -66,8 +67,8 @@ SET fr.layer = 5, fr.claimType = "process",
 
 ## Related
 
-- [[../layers/layer-5|Layer 5 — 허위 갑질 신고와 조사본부의 조작 감사]]
-- [[../layers/layer-6|Layer 6 — 군 검찰단의 사기 수사와 범죄자 낙인]]
-- [[../entities/people/lee-ji-young|이지영]]
-- [[../entities/people/kim-min-su|김민수]]
-- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|한지훈 기소유예는 범죄자 낙인]]
+- [[../layers/layer-5|Layer 5 — 허위 갑질 신고와 조사본부의 조작 감사]] (PART_OF_LAYER)
+- [[../layers/layer-6|Layer 6 — 군 검찰단의 사기 수사와 범죄자 낙인]] (PART_OF_LAYER)
+- [[../entities/people/lee-ji-young|이지영]] (ABOUT)
+- [[../entities/people/kim-min-su|김민수]] (ABOUT)
+- [[han-ji-hoon-kiso-yuye-is-criminal-stigma|한지훈 기소유예는 범죄자 낙인]] (RELATED)

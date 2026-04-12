@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L1-SERVER-LAUNDERING-MAIL"})
 SET fr.layer = 1,
-    fr.claimType = "server_laundering_confirmation",
+    fr.claimType = "evidence_concealment",
+    fr.claimSubtype = "server_laundering_confirmation",
     fr.claimDesc = "MND 군수감사담당관실's routine audit notification (2018-08-14, Record No. 1,141) confirmed that 舊KIATIS was laundered into the '전군 인터넷 통합 구축 사업' — a different project name that concealed its true identity. Record No. 1,144 explicitly names the project as '전군 인터넷 통합 구축 사업', completing the server-laundering chain from 舊KIATIS to integrated internet mail server infrastructure.",
     fr.counterHypothesis = "The renaming from KIATIS to '전군 인터넷 통합 구축 사업' was a legitimate administrative consolidation reflecting actual infrastructure modernization, not a deliberate identity-laundering operation.",
     fr.falsificationCondition = "Production of project planning documents showing that the consolidation was initiated through standard infrastructure modernization procedures with transparent KIATIS identity preservation throughout.",
@@ -68,7 +69,7 @@ SET fr.layer = 1,
 
 ## Related
 
-- [[../layers/layer-1|Layer 1]]
-- [[kiatis-server-laundering-dcia-to-didc1]] — L2-04 서버 세탁 전체 체인 (국전원→전군통합메일→DIDC1)
-- [[kiatis-rfp-tech-table-proves-sw-only-internet-structure]] — 정리 08 순수 SW 사업 + 인터넷 기반 구조
-- [[../entities/people/lee-tae-ho|이태호 (평가위원장-1)]]
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)
+- [[kiatis-server-laundering-dcia-to-didc1]] — L2-04 서버 세탁 전체 체인 (국전원→전군통합메일→DIDC1) (RELATED)
+- [[kiatis-rfp-tech-table-proves-sw-only-internet-structure]] — 정리 08 순수 SW 사업 + 인터넷 기반 구조 (RELATED)
+- [[../entities/people/lee-tae-ho|이태호 (평가위원장-1)]] (ABOUT)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-KIDA-WORKFLOW-NO-MND"})
 SET fr.layer = 4,
-    fr.claimType = "academic_fraud_omission",
+    fr.claimType = "methodology",
+    fr.claimSubtype = "academic_fraud_omission",
     fr.claimDesc = "KIDA 연구보고서의 국방정보시스템 업무흐름도(Record 6,712)에서 국방부(사업통제기관)의 역할이 완전히 누락되었다. 이 흐름도가 조작된 훈령(제2275호)을 기초로 작성되었기 때문이다. 또한 훈령 제2398호(2020.2.13) 개정이 KIDA 연구 완료(2020.6~7월)보다 앞서 이루어져, 연구가 훈령 조작을 정당화하는 도구임이 시간적으로도 확인된다",
     fr.counterHypothesis = "업무흐름도는 위임사업의 흐름을 도식화한 것이며, 위임사업에서는 국방부의 직접적 역할이 축소되는 것이 정상이다",
     fr.falsificationCondition = "KIDA 흐름도가 위임사업 전용 흐름도임을 명시하는 연구보고서 내 설명",
@@ -55,6 +56,6 @@ KIDA 흐름도가 위임사업 전용임을 명시하는 연구보고서 내 설
 
 ## Related
 
-- [[kida-research-legitimizes-pre-existing-manipulation]] — L4 KIDA 소급 정당화
-- [[kida-recommends-gukjeonwon-centered-integration]] — L4 KIDA 통합 권고
-- [[../layers/layer-4|Layer 4]]
+- [[kida-research-legitimizes-pre-existing-manipulation]] — L4 KIDA 소급 정당화 (CORROBORATES)
+- [[kida-recommends-gukjeonwon-centered-integration]] — L4 KIDA 통합 권고 (CORROBORATES)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

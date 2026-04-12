@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-48HR-PREMEDITATED-ISOLATION"})
 SET fr.layer = 5,
-    fr.claimType = "premeditated_human_rights_violation",
+    fr.claimType = "human_rights_violation",
+    fr.claimSubtype = "premeditated_human_rights_violation",
     fr.claimDesc = "2022.2.8 협력 회의에서 박서준이 정상적으로 참여하고 한지훈과 공동 보고한 후, 정확히 48시간 내에 갑질 신고가 접수되었다. 김민수는 2022.2.21 '지금 마련을 다 했다', '준비 다 되어 있다'고 발언하여 독방 격리가 신고 이전에 사전 준비되었음을 시인하였다. 이지영은 회의 후 30분 디브리핑에서 VPN 관련 정보를 5회 이상 집중 추출하였다",
     fr.counterHypothesis = "갑질 신고 시점과 회의 시점의 근접성은 우연이며, 김민수의 '준비' 발언은 신고 접수 후 행정 조치를 의미한다",
     fr.falsificationCondition = "독방 격리가 갑질 신고 접수 후 정상적 행정 절차에 의해 결정되었음을 보여주는 기록",
@@ -60,6 +61,6 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[layer5-park-seojun-48hr-cooperation-to-hostility]] — L5 박서준 48시간 변화
-- [[layer5-language-weaponization-silence-as-murder]] — L5 언어 무기화
-- [[../layers/layer-5|Layer 5]]
+- [[layer5-park-seojun-48hr-cooperation-to-hostility]] — L5 박서준 48시간 변화 (RELATED)
+- [[layer5-language-weaponization-silence-as-murder]] — L5 언어 무기화 (RELATED)
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-L6-SELF-TRAPPING"})
 SET fr.layer = 4,
-    fr.claimType = "cross_layer_mechanism",
+    fr.claimType = "cross_layer_analysis",
+    fr.claimSubtype = "cross_layer_mechanism",
     fr.claimDesc = "L4 조작→L6 기소 도구 전용의 공급 체인. L4 조작 입증=L6 기소 자동 붕괴의 자기모순 구조.",
     fr.counterHypothesis = "검찰이 L4 카르텔 산출물이 아닌 독립적으로 수집한 증거에 기반하여 L6 사건을 구축했다",
     fr.falsificationCondition = "L6 기소 증거가 독립적으로 확보되었고 L4에서 조작된 시험평가 결과에 의존하지 않음을 보여주는 기록",
@@ -51,7 +52,7 @@ L6 기소 증거가 독립적으로 확보되었고 L4에서 조작된 시험평
 
 ## Related
 
-- [[layer6-997-reframed-as-deficient-development]]
-- [[prosecution-fraud-meets-criminal-elements]]
-- [[../layers/layer-4|Layer 4]]
-- [[../layers/layer-6|Layer 6]]
+- [[layer6-997-reframed-as-deficient-development]] (CAUSES)
+- [[prosecution-fraud-meets-criminal-elements]] (CAUSES)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

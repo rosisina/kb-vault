@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L7-WILLFUL-IGNORANCE-FIREWALL"})
 SET fr.layer = 7,
-    fr.claimType = "self_contradiction",
+    fr.claimType = "cross_layer_analysis",
+    fr.claimSubtype = "self_contradiction",
     fr.claimDesc = "녹취006(2.21) '내가 알아서' ↔ 녹취010(3.23) '일절 모른다'. 1개월 내 방화벽 구축.",
     fr.counterHypothesis = "2월 비공식 중재 후 3월 공식 조사 시작으로 법적 관여 불가",
     fr.falsificationCondition = "감사실이 김민수 관여를 차단한 공식 기록",
@@ -50,6 +51,6 @@ SET fr.layer = 7,
 
 ## Related
 
-- [[kim-min-su-apology-evidence-manufacturing]]
-- [[kim-min-su-central-cross-layer-cartel-figure]]
-- [[../layers/layer-7|Layer 7]]
+- [[kim-min-su-apology-evidence-manufacturing]] (CAUSES)
+- [[kim-min-su-central-cross-layer-cartel-figure]] (CAUSES)
+- [[../layers/layer-7|Layer 7]] (PART_OF_LAYER)

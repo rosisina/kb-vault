@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-CSR-001"})
 SET fr.layer = 1,
-    fr.claimType = "jurisdictional_foundation",
+    fr.claimType = "methodology",
+    fr.claimSubtype = "jurisdictional_foundation",
     fr.claimDesc = "KIATIS=사이버자산. 제3장 전체 보호 의무 적용의 법적 기반.",
     fr.counterHypothesis = "KIATIS의 중요도가 '현저히 떨어져' 제외 대상이다",
     fr.falsificationCondition = "KIATIS가 사이버자산 지정에서 제외된 공식 분류 기록",
@@ -50,5 +51,5 @@ KIATIS가 사이버자산 지정에서 제외된 공식 분류 기록
 
 ## Related
 
-- [[old-kiatis-apt-optimal-vulnerability-structure]]
-- [[../layers/layer-1|Layer 1]]
+- [[old-kiatis-apt-optimal-vulnerability-structure]] (RELATED)
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)

@@ -7,7 +7,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L6-PHASE2-BLAME-SHIFT-001"})
 SET fr.layer = 6,
-    fr.claimType = "deliberate_blame_shift",
+    fr.claimType = "human_rights_violation",
+    fr.claimSubtype = "deliberate_blame_shift",
     fr.claimDesc = "Phase 2 (2020–2021) of the 新KIATIS deployment delay mechanism: the 80 additional requirements were used as pretext to spread blame onto the 사업관리팀장 (한지훈). GIS performance, Active-X removal slowdown, VPN resistance by 국유단, and DIDC's 20-month deliberate OTP card non-provision were repackaged as the 개발관리팀장's failure. 국전원 leadership (김민수, 이지영) fabricated official documents and provided them to 군 검찰단 for targeted prosecution.",
     fr.counterHypothesis = "The technical issues (GIS, Active-X, VPN, OTP) were genuine unresolved deficiencies that naturally accumulated blame on the project manager as the responsible party; no deliberate blame-shifting occurred.",
     fr.falsificationCondition = "Evidence that 한지훈 had actual authority over GIS server procurement, DIDC OTP card provisioning, or 국유단 data entry — any of which would justify assigning him responsibility for those failures.",
@@ -70,8 +71,8 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[cartel-requirement-inflation-80-items-delay]] — Phase 2의 전제 조건인 80건 추가 요구사항 의결
-- [[han-ji-hoon-prosecution-violates-2129-role-separation]] — 한지훈에게 전가된 책임이 훈령상 다른 역할 계층의 임무였음을 증명
-- [[han-ji-hoon-kiso-yuye-is-criminal-stigma]] — Phase 2 책임 전가의 최종 귀결
-- [[../layers/layer-6|Layer 6]]
-- [[../layers/layer-1|Layer 1 — 귀국보고서의 DIDC 인프라 진단]]
+- [[cartel-requirement-inflation-80-items-delay]] — Phase 2의 전제 조건인 80건 추가 요구사항 의결 (RELATED)
+- [[han-ji-hoon-prosecution-violates-2129-role-separation]] — 한지훈에게 전가된 책임이 훈령상 다른 역할 계층의 임무였음을 증명 (RELATED)
+- [[han-ji-hoon-kiso-yuye-is-criminal-stigma]] — Phase 2 책임 전가의 최종 귀결 (CORROBORATES)
+- [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)
+- [[../layers/layer-1|Layer 1 — 귀국보고서의 DIDC 인프라 진단]] (PART_OF_LAYER)

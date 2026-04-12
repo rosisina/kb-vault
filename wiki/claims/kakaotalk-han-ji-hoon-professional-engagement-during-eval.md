@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-KKT-PROFESSIONAL-ENGAGEMENT"})
 SET fr.layer = 5,
-    fr.claimType = "behavioral_evidence",
+    fr.claimType = "methodology",
+    fr.claimSubtype = "behavioral_evidence",
     fr.claimDesc = "카카오톡에서 한지훈의 전문 콘텐츠 능동 참여 확인. 채팅 미사용≠출퇴근 보고 회피.",
     fr.counterHypothesis = "한지훈의 채팅 참여는 산발적이며 체계적 출퇴근 보고 회피와 양립 가능",
     fr.falsificationCondition = "한지훈의 '감사드립니다' 응답이 자동화되었거나 타인이 대신 작성한 기록",
@@ -51,5 +52,5 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[layer5-kakaotalk-silence-proves-normal-attendance]]
-- [[../layers/layer-5|Layer 5]]
+- [[layer5-kakaotalk-silence-proves-normal-attendance]] (RELATED)
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

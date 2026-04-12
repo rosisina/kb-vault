@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L1-2016-SCAPEGOAT-ADMISSION"})
 SET fr.layer = 1,
-    fr.claimType = "admission",
+    fr.claimType = "testimony_evidence",
+    fr.claimSubtype = "admission",
     fr.claimDesc = "준장급 정현우가 2016 해킹 시 DIDC 부대원 '희생양' 취급 인정. 2022 사건과 패턴 유사.",
     fr.counterHypothesis = "'희생양'은 비유적 표현이며 의도적 제도적 전가 전략을 설명하는 것이 아니다",
     fr.falsificationCondition = "2016 조사에서 DIDC 부대원이 공정한 절차와 개별 사실 확인을 거쳤음을 보여주는 기록",
@@ -50,6 +51,6 @@ SET fr.layer = 1,
 
 ## Related
 
-- [[layer6-didc-center1-true-hacking-host]]
-- [[kim-gilrae-2016-hacking-redirected-by-cyber-command]]
-- [[../layers/layer-1|Layer 1]]
+- [[layer6-didc-center1-true-hacking-host]] (RELATED)
+- [[kim-gilrae-2016-hacking-redirected-by-cyber-command]] (CORROBORATES)
+- [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)

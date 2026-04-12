@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-GLOSSARY-PURGE-2436"})
 SET fr.layer = 4,
-    fr.claimType = "terminology_mass_deletion",
+    fr.claimType = "terminology_manipulation",
+    fr.claimSubtype = "terminology_mass_deletion",
     fr.claimDesc = "제2436호 ~20개 용어 삭제 + 제2842호 복원 = 3년 공백. 8-anchor cluster와 동기화.",
     fr.counterHypothesis = "용어집 규모 축소를 위한 편집적 정비이며 본문 조작과 무관",
     fr.falsificationCondition = "제2436호의 별표1 축소가 독립적 편집 정책에 의한 것임을 보여주는 기획 문서",
@@ -50,6 +51,6 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[2436ho-cluster-six-anchors]]
-- [[2842ho-software-development-13-to-5-stage]]
-- [[../layers/layer-4|Layer 4]]
+- [[2436ho-cluster-six-anchors]] (SUPERSEDES)
+- [[2842ho-software-development-13-to-5-stage]] (SUPERSEDES)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-XSYN-80ITEMS-TRIANGULATED"})
 SET fr.layer = 4,
-    fr.claimType = "cross_source_synthesis",
+    fr.claimType = "cross_layer_analysis",
+    fr.claimSubtype = "cross_source_synthesis",
     fr.claimDesc = "녹취+책+영장 3소스 삼각확인: 80건=추가요구사항≠하자.",
     fr.counterHypothesis = "80건 중 상당수가 시험평가 전 이미 존재한 결함이었을 수 있다",
     fr.falsificationCondition = "80건 목록에서 50% 이상이 2019-09 평가 전부터 존재한 버그임을 보여주는 기록",
@@ -50,6 +51,6 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[80-items-violate-national-contract-law]]
-- [[cartel-requirement-inflation-80-items-delay]]
-- [[../layers/layer-4|Layer 4]]
+- [[80-items-violate-national-contract-law]] (RELATED)
+- [[cartel-requirement-inflation-80-items-delay]] (CAUSES)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L2-MND-CONTROLLED-PROJECT"})
 SET fr.layer = 2,
-    fr.claimType = "regulatory_violation",
+    fr.claimType = "procedural_violation",
+    fr.claimSubtype = "regulatory_violation",
     fr.claimDesc = "新KIATIS 성능개선 사업은 훈령 제10조 제4항에 의거 '국방부에서 운용하는 정보시스템과 관련된 사업'으로 국방부 통제사업이다. 그러나 국전원은 과장 강민호가 원장 박성호에게 '기관 위임 사업'으로 보고·승인하였고(Record 1,140), 국유단과 공모하여 사업통제기관을 국유단으로 설정하였다. 국방부의 사업계획 승인 공문은 발견되지 않았다",
     fr.counterHypothesis = "국방부가 묵시적으로 위임을 승인했거나, 소규모 사업으로 위임이 관행적으로 허용되었다",
     fr.falsificationCondition = "국방부가 新KIATIS를 위임사업으로 승인한 공문의 제시, 또는 국정과제 사업을 위임할 수 있다는 규정·선례",
@@ -67,6 +68,6 @@ SET fr.layer = 2,
 
 ## Related
 
-- [[kiatis-mkia-multi-cap-inscription|3 shared records — 국유단 다중 cap inscription]]
-- [[kiatis-mnd-controlled-not-delegated]] — 기존 L2 관련 atom
-- [[../layers/layer-2|Layer 2]]
+- [[kiatis-mkia-multi-cap-inscription|3 shared records — 국유단 다중 cap inscription]] (CORROBORATES)
+- [[kiatis-mnd-controlled-not-delegated]] — 기존 L2 관련 atom (RELATED)
+- [[../layers/layer-2|Layer 2]] (PART_OF_LAYER)

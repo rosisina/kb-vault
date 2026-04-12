@@ -6,7 +6,8 @@
 **Aurora node:**
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L3-011"})
-SET fr.layer = 3, fr.claimType = "action",
+SET fr.layer = 3, fr.claimType = "methodology",
+    fr.claimSubtype = "action",
     fr.claimDesc = "국전원장 박성호 (2016해킹당시원장-1)가 '부사관이 장교보다 낫다'라고 수시로 발언하여 초급장교들에게 스트레스를 가했고, 한지훈이 이를 공론화하여 원장과 20여 분 토론하였다",
     fr.counterHypothesis = "박성호의 발언은 맥락에서 벗어나 과장된 것이며, 한지훈과의 토론은 통상적인 의견 교환이었다",
     fr.falsificationCondition = "박성호가 해당 발언을 한 적이 없음을 당시 회의 참석자 증언으로 증명하거나, 발언의 맥락이 장교 비하가 아닌 다른 의미였음을 증명하면 약화된다",
@@ -62,7 +63,7 @@ SET fr.layer = 3, fr.claimType = "action",
 
 ## Related
 
-- [[layer3-park-seong-ho-officer-denigration|동일 사건 자매 atom (L3 정밀 분석)]]
-- [[../layers/layer-3|Layer 3 — 국전원 전속 후 SW개발사업관리 착수·종결]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[../entities/people/kim-min-su|김민수]]
+- [[layer3-park-seong-ho-officer-denigration|동일 사건 자매 atom (L3 정밀 분석)]] (CORROBORATES)
+- [[../layers/layer-3|Layer 3 — 국전원 전속 후 SW개발사업관리 착수·종결]] (PART_OF_LAYER)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[../entities/people/kim-min-su|김민수]] (ABOUT)

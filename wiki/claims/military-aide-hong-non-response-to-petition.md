@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L7-MILITARY-AIDE-NONRESPONSE"})
 SET fr.layer = 7,
-    fr.claimType = "institutional_rejection",
+    fr.claimType = "institutional_obstruction",
+    fr.claimSubtype = "institutional_rejection",
     fr.claimDesc = "군사보좌관 홍성민(준장)은 한지훈과 국방부 정책실 동료였으며, 한지훈이 해명과 증명 자료를 KakaoTalk으로 전달하였으나(Record 5,669) 진정 내용에 대한 연락은 전혀 없었다. 이는 8개 기관 거부 체인의 2번째 고리이다",
     fr.counterHypothesis = "군사보좌관은 피의자와의 직접 접촉을 회피해야 할 법적 의무가 있으며, 무응답은 직무상 적절한 판단이었다",
     fr.falsificationCondition = "홍성민이 진정 내용을 검토하고 적절한 후속 조치를 취했음을 보여주는 기록",
@@ -57,7 +58,7 @@ SET fr.layer = 7,
 
 ## Related
 
-- [[han-ji-hoon-petition-to-mnd-minister-2022]] — L7 국방장관 진정
-- [[han-ji-hoon-rebuttal-rejected-by-eight-institutions]] — L7 8기관 거부 체인
-- [[prosecution-chief-evades-innocence-plea]] — L7 검찰단장 회피
-- [[../layers/layer-7|Layer 7]]
+- [[han-ji-hoon-petition-to-mnd-minister-2022]] — L7 국방장관 진정 (CORROBORATES)
+- [[han-ji-hoon-rebuttal-rejected-by-eight-institutions]] — L7 8기관 거부 체인 (OPPOSES)
+- [[prosecution-chief-evades-innocence-plea]] — L7 검찰단장 회피 (CORROBORATES)
+- [[../layers/layer-7|Layer 7]] (PART_OF_LAYER)

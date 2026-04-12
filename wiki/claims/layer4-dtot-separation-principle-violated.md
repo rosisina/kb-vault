@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L4-DTOT-SEPARATION-VIOLATED"})
 SET fr.layer = 4,
-    fr.claimType = "regulatory_violation",
+    fr.claimType = "procedural_violation",
+    fr.claimSubtype = "regulatory_violation",
     fr.claimDesc = "新KIATIS 시험평가(2019.9.2~11)는 개발시험평가(DT)와 운용시험평가(OT)를 통합하여 실시하였다. 이는 훈령 제2129호/제2263호 제58조 ②의 '국방부 통제사업은 DT와 OT를 분리 수행함을 원칙'에 위반된다. 동시 실시를 위해서는 사업통제기관(국방부) 승인이 필수이나 승인 기록이 없다",
     fr.counterHypothesis = "新KIATIS는 SW 5억 미만 사업으로 제58조 ③에 의해 기관위임이 가능하며, 통합 실시가 허용된다",
     fr.falsificationCondition = "新KIATIS가 제58조 ③의 대상(5억 미만 또는 위임 승인)임을 보여주는 기록, 또는 국방부의 통합 실시 승인 기록",
@@ -59,6 +60,6 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[new-kiatis-is-mnd-controlled-not-delegated-project]] — L2 통제사업 확인
-- [[kida-recommends-gukjeonwon-centered-integration]] — L4 KIDA 통합 권고
-- [[../layers/layer-4|Layer 4]]
+- [[new-kiatis-is-mnd-controlled-not-delegated-project]] — L2 통제사업 확인 (RELATED)
+- [[kida-recommends-gukjeonwon-centered-integration]] — L4 KIDA 통합 권고 (RELATED)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

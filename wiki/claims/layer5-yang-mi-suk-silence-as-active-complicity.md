@@ -6,7 +6,8 @@
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L5-056"})
 SET fr.layer = 5,
-    fr.claimType = "yang_mi_suk_silence_complicity",
+    fr.claimType = "witness_manipulation",
+    fr.claimSubtype = "yang_mi_suk_silence_complicity",
     fr.claimDesc = "Yang Mi-suk, the attendance management officer for Han Ji-hoon's team, knew that Han worked 07:00-21:00~22:00 daily and always reported to his supervisor before meals. Despite being the most direct witness capable of exonerating Han on the commuting fraud charge, she remained silent during the Investigation Bureau audit. Yang Jun-seung's testimony (Record No. 11,412) places her among those who conspired on harassment pretexts from February onward alongside Kim Su-jin, Kim Min-ji, and Ji Won-ho.",
     fr.counterHypothesis = "Yang Mi-suk's silence was due to organizational pressure or fear of retaliation, not voluntary complicity; she was a passive bystander, not an active conspirator.",
     fr.falsificationCondition = "Evidence that Yang Mi-suk attempted to testify on Han Ji-hoon's behalf but was blocked, or evidence that she was explicitly threatened into silence by Kim Min-su or Lee Ji-young.",
@@ -70,10 +71,10 @@ SET fr.layer = 5,
 
 ## Related
 
-- [[../layers/layer-5|Layer 5]]
-- [[../entities/people/han-ji-hoon|한지훈]]
-- [[../entities/people/yang-mi-suk|양미숙]]
-- [[layer5-park-seojun-nominal-complainant|박서준 명목상 신고자]]
-- [[layer5-predetermined-audit-conclusion|결론 사전결정]]
-- [[layer5-investigation-bureau-pre-collusion-triple-conspiracy|사전 공모 증거]]
-- [[mnd-test-evaluation-improvement-retroactive-justification|시험평가 개선방안 소급 정당화 (Layer 4 cross-link)]]
+- [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)
+- [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
+- [[../entities/people/yang-mi-suk|양미숙]] (ABOUT)
+- [[layer5-park-seojun-nominal-complainant|박서준 명목상 신고자]] (CORROBORATES)
+- [[layer5-predetermined-audit-conclusion|결론 사전결정]] (RELATED)
+- [[layer5-investigation-bureau-pre-collusion-triple-conspiracy|사전 공모 증거]] (CORROBORATES)
+- [[mnd-test-evaluation-improvement-retroactive-justification|시험평가 개선방안 소급 정당화 (Layer 4 cross-link)]] (RELATED)
