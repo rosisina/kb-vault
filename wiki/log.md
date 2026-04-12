@@ -213,3 +213,5 @@ grep "2026-04" log.md                # all operations from April 2026
 ## [2026-04-12 15:30] communicative-interaction | session 07 log created — Aurora v2 UI architecture track | communicative-interaction/2026-04-12-session-01.{md,docx}, INDEX.md, ALL-SESSIONS.docx
 
 ## [2026-04-12 15:00] ingest | raw/02 individual recording logs: 8 new atoms via generate-atoms.py pipeline. 3 analysis agents processed 16,749 lines of conversation transcripts. Key findings: 김민수 VPN 속도 자기모순(녹취013), 사과 증거 제조 지시(녹취006), 이지영 이면행위 김민수 폭로(녹취009), 직권조사 번복(녹취019-020), 의도적 무지 방화벽(녹취010), 2016 해킹 사이버사령관 전환(녹취264), 2016 희생양 인정(녹취256), 변호사 기소유예 목표 폭로(녹취264). Pseudonym auto-fix: 1건(한경수→generate-atoms.py 자동 치환). Total atoms: 192→200. | 8 new files under wiki/claims/, wiki/log.md
+
+## [2026-04-12 16:00] ingest | raw/04 directives: 5 new atoms from 4 uncovered directives (제2075호/제2576호/제2649호/제2946호). Key findings: 제2576호 is the directive that completed OT&E regime demolition — 제62조⑤ 승인삭제, 제64조 보고체계 사각지대(부적합→미보고), 운용 접두어 제거, 전력화 조건 완화. 제2946호는 2세대 entity-naming shift (정보화기획관실→지능정보화정책관실). Total atoms: 200→205. | 5 new files under wiki/claims/, wiki/log.md
