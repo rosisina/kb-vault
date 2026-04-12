@@ -1,0 +1,57 @@
+# 김민수의 '어떻게 아니' 허위 진술 — 경력 기록과 직접 모순
+
+**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.7.4 (lines 723-777)
+**Layer:** [[../layers/layer-4|Layer 4]], [[../layers/layer-5|Layer 5]] (secondary)
+**Aurora node:**
+```cypher
+MERGE (fr:FalsificationResult {resultId: "FR-L4-KIM-MINSU-FALSE-IGNORANCE"})
+SET fr.layer = 4,
+    fr.claimType = "false_testimony",
+    fr.claimDesc = "Records 11,055-56(무지) vs Records 6,748/6,760/6,755(경력). 직접 모순.",
+    fr.counterHypothesis = "정보화기획실 재직이 KIATIS와 무관한 업무였을 수 있다",
+    fr.falsificationCondition = "김민수의 재직 기간 업무가 KIATIS와 무관했음을 보여주는 기록",
+    fr.verdict = "CORROBORATED",
+    fr.strength = "STRONG",
+    fr.truthfulness = 9,
+    fr.validity = 8,
+    fr.sincerity = 8,
+    fr.analysisDate = date("2026-04-12"),
+    fr.summary = "Records 11,055-56(무지) vs Records 6,748/6,760/6,755(경력). 직접 모순.";
+```
+
+## Claim
+
+김민수는 '내가 그걸 어떻게 아니. 오기도 전에 일을'이라고 진술(기록 제11,055~11,056쪽). 그러나 경력기록(기록 제6,748/6,760/6,755쪽)은 2016년 해킹 당시 정보화기획실 재직, 2015~2017년 국전원 개발관리팀장으로 박성호와 근무. 무지 주장은 경력과 직접 모순되는 허위 진술.
+
+## Key Takeaways
+
+- 'How would I know' directly contradicted by career records placing him at MND during 2016 hacking [진리성]
+
+## Supporting evidence
+
+- **Record No. 11,055**
+- **Record No. 11,056**
+- **Record No. 6,748**
+- **Record No. 6,760**
+- **Record No. 6,755**
+
+## Counter-hypothesis
+
+정보화기획실 재직이 KIATIS와 무관한 업무였을 수 있다
+
+## Falsification condition
+
+김민수의 재직 기간 업무가 KIATIS와 무관했음을 보여주는 기록
+
+## Verdict
+
+**CORROBORATED.** STRONG. 진리성 9 / 타당성 8 / 진실성 8.
+
+## Spot-check
+
+- `vault-converted-korean/10-3-4-34-제4-층위.md` lines 723-777
+
+## Related
+
+- [[kim-min-su-central-cross-layer-cartel-figure]]
+- [[../layers/layer-4|Layer 4]]
