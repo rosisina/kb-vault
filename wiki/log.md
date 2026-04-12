@@ -225,3 +225,5 @@ grep "2026-04" log.md                # all operations from April 2026
 ## [2026-04-12 20:00] ingest | Checkpoint 2 sprint: +10 atoms (lawyer conversations + cross-source synthesis). Lawyer(4): 최동욱 사임위협·기술적무지·검찰프레이밍·감경전략충돌. Cross-source(6): VPN공개논의확인, 80건삼각확인, 제2436호소급근거, SOP선별인용, 검사영장후부임, 침묵=은폐증명. 3 agents still running (용어변천사, contradiction L1-4, L5-7). Total atoms: 218→228. | 10 new files under wiki/claims/, wiki/log.md
 
 ## [2026-04-12 21:00] ingest | Checkpoint 2 sprint final: +6 atoms (용어변천사 3 + cross-layer 3). 용어변천사: DIDC 기관명 별표1 세탁(2263호), ~20개 기술용어 일괄삭제→복원(2436→2842), 용어수 진동패턴. Cross-layer: L5→L6→L7 결론선행 체인, 증인파괴→소환 파이프라인, 99.7+80건+데이터부재 3중 자기모순. Session grand total: 112→234 (+122 atoms, 14 commits). All raw/ folders covered. | 6 new files under wiki/claims/, wiki/log.md
+
+## [2026-04-12 22:00] ingest | claims/_index.md 전체 갱신: 88개 신규 atom 인덱싱. 전체 234 atoms 인덱싱 완료. Session grand total: 112→234 (+122 atoms, 15 commits). Checkpoint 2 평가: 234/300 = 78%. 모든 raw/01~08 소스 커버리지 완료. | wiki/claims/_index.md (updated), wiki/log.md

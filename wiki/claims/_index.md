@@ -337,6 +337,114 @@ Six initial atoms closing the Layer 2 gap (previously 0 atoms). Compiled from `v
 
 - [[prosecution-chief-evades-innocence-plea]] — 검찰단장의 무혐의 촉구 회피. **CORROBORATED (moderate)**
 
+## Session 2026-04-12 additions (88 atoms)
+
+### Layer 1 additions (session 2026-04-12)
+
+- [[2263ho-glossary-didc-entity-renamed]] — 제2263호 별표1: 국방통합정보관리소→국방통합데이터센터 — 용어 정의 수준 기관명 세탁. NME
+- [[2946ho-entity-naming-second-generation-shift]] — 제2946호 (2024-07-17): 정보화기획관실→지능정보화정책관실 — 2세대 entity-naming anchor 이동. NME
+- [[didc-sop-11-server-root-console-only-mandatory]] — DIDC 부대예규 제11호 제161조: 서버 Root 계정은 콘솔 전용·유지보수 인력 단독 사용 불허. NME
+- [[didc-sop-12-emergency-response-team-logs-mandatory]] — DIDC 부대예규 제12호 제17조: 긴급대응반 상황근무일지·침해사고 기록일지 의무. NME
+- [[didc-sop-12-incident-scene-preservation-mandatory]] — DIDC 부대예규 제12호 제21-23조: 침해사고 현장보존·합동분석팀·탐지대응조치 기록 의무. NME
+- [[didc-sop-12-security-system-7layer-deployment-chain]] — DIDC 부대예규 제12호 제40조+별지 제10호: 7대 보안체계 적용절차 — KIATIS에 적용되었어야. NME
+- [[jeong-hyeonwoo-2016-hacking-scapegoat-admission]] — 정현우 (초대 데이터센터부대장): 2016 해킹 시 DIDC 부대원 '희생양' 취급 인정. NME
+- [[kiatis-phantom-directive-2275ho]] — 훈령 제2275호(2019-05-09)는 국가법령센터 미등재 phantom directive로, 제2436호(2020-06-04) 내용을 1년 . NME
+- [[kim-gilrae-2016-hacking-redirected-by-cyber-command]] — 이근태 (초대 데이터센터장): 2016 해킹 조사가 사이버사령관에 의해 DIDC로 전환. NME
+- [[layer1-foundation-of-seven-layer-system]] — 제1층위는 7층위 증명체계의 근간: 舊KIATIS 인터넷 노출 은폐가 전체 범죄의 동기. NME
+- [[old-kiatis-apt-optimal-vulnerability-structure]] — 舊KIATIS는 APT 공격에 최적화된 4중 구조적 취약점을 지녔다. NME
+- [[prosecution-six-charges-collapse-vpn-nonexistence]] — 검찰의 6개 혐의가 단일 문서로 전면 붕괴 — VPN이 존재하지 않았으므로 조작 불가능. NME
+- [[seven-layer-proof-system-design-rationale]] — 7층위 증명 체계는 국면별 데이터 분류에 기초한 귀납적 구조물이다. NME
+- [[xsyn-sop-incident-silence-equals-coverup-proof]] — DIDC 예규 8단계 침해대응 의무 vs. 2016 해킹 보고서 완전 부재 — 침묵=은폐 증명. NME
+
+### Layer 3 additions (session 2026-04-12)
+
+- [[han-ji-hoon-three-safeguard-mechanisms]] — 한지훈의 3가지 사전 제동 장치 — 사업관리팀장의 능동적 위험관리. NME
+- [[layer3-didc-intervention-start-2018-04-30]] — DIDC는 2018-04-30부터 新KIATIS 사업 조작에 본격 개입하였다. NME
+- [[layer3-kiatis-team-transfer-forced-handoff]] — KIATIS 사업은 행정정보운영팀에서 행정정보계획팀으로 의도적·강제 이관되었다. NME
+- [[layer3-park-seong-ho-officer-denigration]] — 국전원장 박성호의 "부사관이 장교보다 낫다" 비하 발언은 2019년 초부터 공론화되었고 한지훈 고립화 동기로 기능하였다. NME
+- [[layer3-pc-evaluation-chair-replaced]] — 한지훈은 PC 사업 평가위원장으로서 규격 문제 제기 후 다른 인원으로 평가위원장이 교체되었다. NME
+- [[layer3-pm-post-vacancy-predecessor-gap]] — 新KIATIS 사업관리팀장 보직은 부지불식간에 임의 변경되었고 전임자는 2개월간 공석이었다. NME
+- [[layer3-vpn-otp-card-used-2021-not-2019]] — VPN OTP 카드는 2019년 시험평가 기간에 미사용이 아니라 2021년 이후 국유단이 사용. NME
+
+### Layer 4 additions (session 2026-04-12)
+
+- [[2436ho-dtne-sponsor-binding-erased]] — 제2436호 erases `사업관리기관 주관 하에` from the DT&E definition (A8b-sym). NME
+- [[2436ho-glossary-mass-term-purge-and-restoration]] — 제2436호 별표1에서 ~20개 기술용어 일괄 삭제 → 제2842호에서 전면 복원 — 3년 공백. NME
+- [[2576ho-article-62-5-ote-approval-deleted]] — 제2576호 (2021-08-12): 제62조⑤ 삭제 — 사업통제기관 시험평가계획 승인 권한 완전 제거. NME
+- [[2576ho-article-64-failure-blindspot]] — 제2576호: 제64조 보고체계 재구조화 — 부적합 결과가 정보화기획관실에 보고되지 않는 구조적 사각지대. NME
+- [[2576ho-article-68-deployment-trigger-weakened]] — 제2576호: 제68조 전력화 조건 완화 — '운용시험평가결과'→'시험평가결과'. NME
+- [[2576ho-ote-prefix-dropped-procedural-collapse]] — 제2576호: 제62-64조에서 '운용' 접두어 제거 — DT/OT 제도적 구분 완전 소멸. NME
+- [[arendt-banality-vs-intellectualization-of-evil]] — 본 사안은 아렌트의 '악의 평범성'이 아닌 '악의 지능화'를 보여준다. NME
+- [[cross-atom-99-7-plus-80items-plus-data-absence]] — 99.7점 + 80건 추가요구 + 데이터 부재 = 3중 자기모순. NME
+- [[diffusion-of-responsibility-seven-organizations]] — 7개 조직의 역할 분담을 통한 책임 분산 — 악의 평범성의 현대적 구현. NME
+- [[glossary-term-count-oscillation-pattern]] — 별표1 용어 수 진동 패턴: 제2436호가 최저점(138) — 본문 조작 강도와 동기화. NME
+- [[layer4-evaluation-committee-80-items-violation]] — 新KIATIS 시험평가위원회가 99.7점 성공 판정과 동시에 80개 추가요구사항을 의결하여 시험평가의 본질을 위반하였다. NME
+- [[layer4-evidence-becomes-layer6-prosecution-tool]] — 제4층위의 조작 결과가 제6층위 검찰의 범죄자 낙인 도구로 전용 — 자기모순 구조. NME
+- [[pm-confirms-chakramax-not-used-during-eval]] — 유지보수 PM이 시험평가 시 샤크라맥스 미사용 확인 — 국전원·DIDC 간 합의 미달. NME
+- [[xsyn-80items-additional-not-defects-triangulated]] — 3개 독립 소스가 80건을 '추가요구사항'으로 삼각 확인 — 검찰 '하자' 프레이밍 반박. NME
+- [[xsyn-directive-2436-retroactive-legal-basis]] — 제2436호 개정일(2020.6.4)이 행위시점(2019.9) 이후 — 검찰이 사후 법적 근거를 인용. NME
+
+### Layer 5 additions (session 2026-04-12)
+
+- [[apt-human-targeting-3yr-11mo-personalized]] — 3년 11개월간 국가기관의 맞춤형 개인 타겟팅 — 조직적 스토킹. NME
+- [[kim-min-su-apology-evidence-manufacturing]] — 김민수의 사과 증거 제조 지시 — 감사실 사전 조율 후 '사과한 흔적 남기라'. NME
+- [[layer5-collective-witness-abandonment-selective-memory]] — 집단적 증인 이탈 — 오현수의 '엮기기 싫다'와 이태호의 '선택적 기억' 진단. NME
+- [[layer5-evidence-destruction-frame-behavioral-paralysis]] — 증거인멸 프레임을 통한 행동 봉쇄 — 김민수의 단일 화행으로 달성한 전면 마비. NME
+- [[layer5-lee-jiyoung-vpn-5questions-motive-confirmation]] — 이지영의 VPN 5단계 질문 — 동기 확인을 위한 체계적 정보 추출. NME
+- [[layer5-lee-taeho-testimony-work-dumping-exploitation]] — 이태호의 증언 — 공무원의 군인 복종 문화 악용과 업무 떠넘기기. NME
+- [[layer5-reversed-truth-nine-evidence-rebuttal]] — 역전된 진실 — 한지훈의 소명서·반박논증에서 나타난 9개 증거 기반 반박. NME
+- [[layer5-warning-letter-overrides-investigation-findings]] — 법무관리관실 경고장이 조사본부 자체 조사결과를 무시 — 출퇴근 조작 주장 붕괴에도 유지. NME
+- [[lee-jiyoung-covert-sabotage-confirmed-by-kim-minsu]] — 이지영의 이면 행위를 김민수가 직접 폭로 — '당신 말에 반대로 하고 있어'. NME
+- [[lee-jiyoung-jikgwon-josa-flip-flop-hours]] — 이지영의 직권조사 의뢰→철회 수시간 내 번복 — '없었던 걸로 하시죠'. NME
+- [[total-destruction-unperson-triple-vector]] — 삼중 벡터 완전 파괴 — 사회적+법적+경제적 존재 말살 ('언퍼슨' 만들기). NME
+
+### Layer 6 additions (session 2026-04-12)
+
+- [[cartel-eleven-organization-roster]] — 국방 정보화 카르텔 11개 조직·역할 분담 목록. NME
+- [[cartel-requirement-inflation-80-items-delay]] — 평가위원회가 권한 밖의 추가 요구사항 80건을 불법 의결하여 新KIATIS 전력화를 지연시켰다 — 은폐를 위한 의도적 사업 지연 메커니즘. NME
+- [[choi-dongwook-parrots-prosecution-delay-narrative]] — 최동욱 변호사가 검찰의 '지연' 프레이밍을 의뢰인에게 전달 — 실제로는 일정 앞당기는 중. NME
+- [[choi-dongwook-resignation-threat-coercive-control]] — 최동욱 변호사의 사임 위협을 통한 의뢰인 자율 방어 억제. NME
+- [[choi-dongwook-show-weakness-vs-innocence-defense]] — 최동욱의 '아픈 모습 보여라' 조언 vs 한지훈의 '무혐의에 집중' 선언 — 방어 전략 충돌. NME
+- [[choi-dongwook-technical-ignorance-despite-months]] — 최동욱 변호사의 수개월간 기술적 무지 — 산출물·DT/OT·훈령을 모르면서 2천만원 수임. NME
+- [[cross-layer-witness-destroy-then-summon-pipeline]] — L5 증인 파괴 → L6 증인 소환: 독립성 파괴 후 순응적 증언 수확. NME
+- [[han-ji-hoon-investigation-notification-2022-07-21]] — 군인·공무원 수사개시 통보 (2022-07-21, 기록 제4,854쪽~)는 군사법원법 절차 보호와 군인권보호관 검토를 작동시켜야 했으나 실제로는. NME
+- [[han-ji-hoon-suspect-interrogation-2022-09-02]] — 2022-09-02 피의자 신문조서는 기소유예의 1차 증거 기반이며, 15년 DIDC VPN 우회 문제를 회피하고 방화벽 결재 절차에만 집중하도. NME
+- [[han-ji-hoon-witness-statement-2022-01-25]] — 한지훈은 2022-01-25 참고인 신분으로 조사받았고, 6개월 후 피의자로 재분류되었다 — 소급적 기소 설계의 절차적 역전. NME
+- [[interrogation-son-schizophrenia-prosecution-aware]] — 피의자신문조서에서 한지훈이 아들 조현병 진단 공개 — 검찰의 가족 피해 공식 인지 시점. NME
+- [[interrogation-zero-of-14-projects-measured-vpn]] — 2019년 14개 사업 중 VPN 성능을 측정한 사업 0건 — 검찰 요구의 전례 없는 차별적 적용. NME
+- [[investigator-admits-warrant-phantom-reference]] — 수사관이 영장 내 존재하지 않는 '위1.나항' 참조를 인정 — '기재할 필요 없어서 안 했다'. NME
+- [[kim-gilrae-reveals-lawyer-kiso-yuye-target]] — 이근태: 최동욱 변호사가 기소유예를 최대 목표로 설정했음을 폭로. NME
+- [[kim-min-su-post-prosecution-personal-problem-framing]] — 김민수의 기소유예 후 '개인 문제' 프레이밍 — 조직 책임 거부와 사과 요구. NME
+- [[kim-min-su-vpn-speed-no-impact-admission]] — 김민수의 VPN 속도 무관 발언 — 위계공무집행방해 혐의 근거를 스스로 부정. NME
+- [[layer6-didc-center1-true-hacking-host]] — DIDC 1센터(용인)가 2016 해킹의 실제 거점 — 2센터(계룡대) 아닌 1센터. NME
+- [[layer6-judicial-murder-permanent-family-destruction]] — 제6층위 정리02: 군검찰단의 사법살인과 가족공동체의 회복불가능한 파괴. NME
+- [[new-kiatis-delay-three-strategic-objectives]] — 新KIATIS 전력화 지연의 3대 전략적 목적 — 해킹 은폐·예산 순환·팀장 제거. NME
+- [[non-prosecution-admits-test-not-actual-but-blames-only-victim]] — 불기소결정서가 시험환경≠실제환경을 인정하면서 한지훈에게만 책임 전가. NME
+- [[non-prosecution-mitigating-factors-describe-normal-work]] — 불기소결정서 참작사유가 한지훈의 '정상적 업무수행'을 기술 — 범죄 의도 부재의 자인. NME
+- [[prosecution-article-57-directive-laundering]] — 제57조 ①항 2호의 훈령 세탁 — '사업주관기관 주관 하에' 삭제를 통한 책임 전가. NME
+- [[prosecution-investigator-ignorance-environment]] — 수사관의 환경 정의 무지 — 한지훈이 수사관에게 IT 기초를 교육한 녹음. NME
+- [[prosecution-witness-list-reveals-cartel]] — 군검찰단 참고인 명단 자체가 카르텔 구성원 식별의 핵심 증거. NME
+- [[prosecutor-admits-no-corruption-still-charges]] — 군검사가 업체 비리·금품수수 없음 인정하면서도 기소유예 유지. NME
+- [[victim-blaming-structural-to-individual]] — 15년간 방치된 구조적 취약점의 책임을 개인에게 전가 — 피해자 비난 전술. NME
+- [[warrant-omits-15yr-vpn-bypass-from-probable-cause]] — 압수수색 영장이 舊KIATIS 15년 VPN 미사용 사실을 영장판사에게 은닉. NME
+- [[warrant-vs-non-prosecution-document-truth-reversal]] — 영장 '허위의 사실' vs 불기소결정서 '평가를 그대로 기재' — 동일 문서에 대한 진실성 역전. NME
+- [[xsyn-prosecutor-post-warrant-arrival-predetermination]] — 기소결정 검사가 영장 발부 후 부임 — 결정권자가 수사 참여 안 한 구조적 예정. NME
+- [[xsyn-recording-confirms-vpn-public-discussion]] — 녹취록이 VPN 공개 논의 확인 — 검찰 '은폐' 내러티브의 독립 반박. NME
+- [[xsyn-sop-vpn-mandate-vs-prosecution-cherry-pick]] — DIDC 예규 제12호 제37조: 검찰이 VPN 조항만 인용하고 방화벽 관리 절차 조항은 무시. NME
+
+### Layer 7 additions (session 2026-04-12)
+
+- [[cross-layer-predetermined-conclusion-L5-L6-L7]] — L5→L6→L7 결론선행 체인: 감사→기소→제도거부 3단계 동일 패턴 반복. NME
+- [[evidence-golden-time-destruction-risk]] — 증거 보전의 골든타임 — 디지털 증거 인멸과 관련자 기억 소실 위험. NME
+- [[insider-research-autoethnographic-methodology]] — 피해 당사자의 4년간 1차 자료 수집·분석에 기초한 당사자 연구(insider research). NME
+- [[kim-min-su-willful-ignorance-firewall-contradiction]] — 김민수의 '일절 모른다' 방화벽 — 1개월 전 '내가 알아서 할 거고'와 정면 모순. NME
+- [[kiso-yuye-six-charges-dishonorable-discharge]] — 기소유예 6혐의(10.11) → 불명예제대(10.31) — 20일 간격의 설계. NME
+- [[military-aide-hong-non-response-to-petition]] — 군사보좌관 홍성민의 진정서 무응답 — KakaoTalk 전달 후 침묵. NME
+- [[presidential-special-investigation-required]] — 기존 수사기관 한계로 대통령 특단의 조치 필요 — 진실규명위원회 또는 특별검사. NME
+- [[prosecution-human-rights-officer-failed-duty]] — 군검찰단 인권담당감독관의 직무 해태 — 진정서 접수 후 실질적 보호 부재. NME
+- [[seven-layer-organic-crime-system-proven]] — 7층위 증명체계는 12,495쪽 증거로 입증된 단일 유기적 범죄 시스템이다. NME
+- [[whistleblower-protection-purely-formal]] — 공익신고자 보호법은 형식적 수준 — 32년 군간부도 조직적 공격에 무력. NME
+
 ## Pending atoms (not in this batch)
 
 - **A4** (제63조 ¶1 제1호 `개발시험평가 결과 조치사항 이행여부`) — pending re-verification per A.3.5 §7 #1; will be added once subagent claim is independently confirmed/refuted by main-agent direct read
