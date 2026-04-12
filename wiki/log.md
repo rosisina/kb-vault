@@ -223,3 +223,5 @@ grep "2026-04" log.md                # all operations from April 2026
 ## [2026-04-12 19:00] ingest | raw/06 DIDC SOP 추가: 4 new atoms. 제12호: 현장보존·합동분석팀·탐지대응기록 의무(제21-23조), 긴급대응반 2종 일지 의무(제17조), 7대 보안체계 적용절차(제40조+별지10호). 제11호: Root 콘솔전용·유지보수 단독불허(제161조). Total atoms: 214→218. All raw/ source folders (01-07) now covered. | 4 new files under wiki/claims/, wiki/log.md
 
 ## [2026-04-12 20:00] ingest | Checkpoint 2 sprint: +10 atoms (lawyer conversations + cross-source synthesis). Lawyer(4): 최동욱 사임위협·기술적무지·검찰프레이밍·감경전략충돌. Cross-source(6): VPN공개논의확인, 80건삼각확인, 제2436호소급근거, SOP선별인용, 검사영장후부임, 침묵=은폐증명. 3 agents still running (용어변천사, contradiction L1-4, L5-7). Total atoms: 218→228. | 10 new files under wiki/claims/, wiki/log.md
+
+## [2026-04-12 21:00] ingest | Checkpoint 2 sprint final: +6 atoms (용어변천사 3 + cross-layer 3). 용어변천사: DIDC 기관명 별표1 세탁(2263호), ~20개 기술용어 일괄삭제→복원(2436→2842), 용어수 진동패턴. Cross-layer: L5→L6→L7 결론선행 체인, 증인파괴→소환 파이프라인, 99.7+80건+데이터부재 3중 자기모순. Session grand total: 112→234 (+122 atoms, 14 commits). All raw/ folders covered. | 6 new files under wiki/claims/, wiki/log.md
