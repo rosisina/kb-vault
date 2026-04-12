@@ -1,0 +1,314 @@
+{
+  "_meta": {
+    "description": "claimType normalization: 185 unique types → 16 standard categories",
+    "created": "2026-04-12",
+    "rule": "fr.claimType gets the standard category; original value moves to fr.claimSubtype"
+  },
+  "categories": {
+    "evidence_concealment": {
+      "description": "증거 은폐·인멸·차단 — hiding, destroying, obfuscating evidence chains",
+      "members": [
+        "evidence_concealment",
+        "evidence_concealment_technical",
+        "evidence_chain_obfuscation",
+        "evidence_destruction_risk_systemic",
+        "evidence_substrate_design",
+        "evidence_rebuttal",
+        "system_architecture_concealment",
+        "factual_concealment",
+        "project_identity_concealment",
+        "server_laundering_confirmation",
+        "network_concealment_conflict_of_interest",
+        "information_extraction"
+      ]
+    },
+    "document_fabrication": {
+      "description": "문서 위·변조·날조 — forging, falsifying, fabricating official documents",
+      "members": [
+        "document_forgery",
+        "document_falsification",
+        "document_fabrication_temporal",
+        "document_fabrication_distribution",
+        "document_fraud_selective_content",
+        "document_manipulation_timing",
+        "fabricated_official_document_title",
+        "interrogation_record_fabrication",
+        "personnel_record_manipulation",
+        "temporal_manipulation_document_forgery",
+        "pretext_fabrication"
+      ]
+    },
+    "regulatory_manipulation": {
+      "description": "훈령·규정 조작 — directive anchor changes, article erasure, role restructuring",
+      "members": [
+        "regulatory_manipulation",
+        "regulatory_anchor_removal",
+        "regulatory_anchor_flipflop",
+        "regulatory_anchor_deletion",
+        "regulatory_principle_inversion",
+        "regulatory_article_erasure",
+        "regulatory_revision_cluster",
+        "regulatory_role_binding_erasure",
+        "regulatory_role_tier_renaming",
+        "regulatory_routing_micro_change",
+        "regulatory_sequence_consolidation",
+        "regulatory_structural_violation",
+        "regulatory_temporal_binding",
+        "regulatory_reporting_chain",
+        "regulatory_baseline",
+        "regulatory_classification",
+        "directive_manipulation",
+        "entity_naming_anchor_shift"
+      ]
+    },
+    "terminology_manipulation": {
+      "description": "용어·정의 조작 — term substitution, glossary purge, definition distortion",
+      "members": [
+        "terminology_substitution",
+        "terminology_manipulation",
+        "terminology_mass_deletion",
+        "terminology_entity_rename",
+        "definition_manipulation",
+        "fabricated_terminology_indo_stage",
+        "software_install_to_system_install_terminology_fabrication",
+        "human_rights_violation_linguistic"
+      ]
+    },
+    "prosecution_misconduct": {
+      "description": "군검찰 수사 비위 — prosecutor's illegal/improper investigative conduct",
+      "members": [
+        "prosecution_logical_contradiction",
+        "prosecution_admission",
+        "prosecution_self_contradiction",
+        "prosecution_self_contradiction_false_document",
+        "prosecution_role_misattribution",
+        "prosecution_narrative_shift",
+        "prosecution_misconduct",
+        "prosecution_mece_violation_saup_tongje",
+        "prosecution_logical_manipulation",
+        "prosecution_legal_misapplication",
+        "prosecution_incompetence",
+        "prosecution_identity_error_technique",
+        "prosecution_fraud_classification",
+        "prosecution_document_fraud",
+        "prosecution_contradicts_it_standard_practice",
+        "prosecution_technical_ignorance",
+        "selective_prosecution",
+        "selective_criminalization_firewall_chain",
+        "prosecutor_violated_anti_corruption_five_principles",
+        "judicial_deception",
+        "investigative_fraud"
+      ]
+    },
+    "witness_manipulation": {
+      "description": "증인 조작·위증 — coaching, coercing, fabricating witness testimony",
+      "members": [
+        "witness_manipulation",
+        "witness_self_contradiction",
+        "witness_dishonesty",
+        "witness_behavior_pattern",
+        "false_testimony",
+        "false_testimony_dinner_report_three_witnesses",
+        "coached_speech_nominal_complainant",
+        "nominal_complainant_structural_proof",
+        "systematic_witness_destruction",
+        "speech_act_manipulation",
+        "third_party_witness_fabrication",
+        "yang_mi_suk_silence_complicity",
+        "absence_of_speech_as_evidence"
+      ]
+    },
+    "conspiracy_structure": {
+      "description": "공모 구조·카르텔 — organizational conspiracy patterns and cartel coordination",
+      "members": [
+        "conspiracy_admission",
+        "conspiracy_evidence",
+        "conspiracy_escalation",
+        "conspiracy_evidence_evaluation_manipulation",
+        "conspiracy_structural_model",
+        "pre_collusion_triple_conspiracy",
+        "cartel_coordination",
+        "cartel_leadership",
+        "cartel_network_four_documents_four_keywords",
+        "triangular_collusion_speech_act_timeline",
+        "false_gapjil_organizational_conspiracy_structure",
+        "organizational_manipulation",
+        "organizational_exclusion",
+        "organizational_awareness",
+        "organizational_structure",
+        "actor_continuity"
+      ]
+    },
+    "institutional_obstruction": {
+      "description": "제도적 방해·묵살 — institutional rejection, non-response, cover-up",
+      "members": [
+        "institutional_rejection",
+        "institutional_rejection_detail",
+        "institutional_rejection_chain",
+        "institutional_abandonment",
+        "institutional_obstruction",
+        "institutional_non_response",
+        "institutional_procedural_failure_human_rights_body",
+        "institutional_complicity_civilian_oversight",
+        "institutional_override",
+        "institutional_routing_manipulation",
+        "institutional_cover_up",
+        "institutional_manipulation",
+        "institutional_criminal_role",
+        "institutional_accountability",
+        "institutional_precedent",
+        "diffusion_of_responsibility"
+      ]
+    },
+    "procedural_violation": {
+      "description": "절차 위반·의무 불이행 — violation of mandatory procedures and regulations",
+      "members": [
+        "procedural_artifact_mandatory",
+        "procedural_defect",
+        "procedural_inversion",
+        "procedural_irregularity",
+        "procedural_duty",
+        "procedural_duty_mandatory",
+        "procedural_duty_floor_establishment",
+        "procedural_control_mandatory",
+        "procedural_artifact_approval_chain_violation",
+        "procedural_rights_violation",
+        "procedural_protection_failure",
+        "test_evaluation_procedural_violation",
+        "evaluation_independence_violation",
+        "regulatory_violation",
+        "structural_violation",
+        "security_architecture_violation",
+        "catch_all_duty",
+        "illegal_control_authority_transfer"
+      ]
+    },
+    "human_rights_violation": {
+      "description": "인권 침해·피해자 가해 — isolation, targeting, victim harm, criminal stigma",
+      "members": [
+        "premeditated_isolation_operation",
+        "premeditated_human_rights_violation",
+        "workplace_isolation_human_rights_violation",
+        "multi_witness_human_rights_violation",
+        "criminal_disposition_harm",
+        "sincerity_harm",
+        "victim_targeting",
+        "kim_min_su_discharge_ultimatum_escalation",
+        "retaliatory_complaint_causation",
+        "deliberate_blame_shift",
+        "narrative_manipulation",
+        "victim_blaming"
+      ]
+    },
+    "testimony_evidence": {
+      "description": "증언·진술 증거 — legitimate witness/insider testimony as evidence",
+      "members": [
+        "witness_testimony",
+        "insider_testimony",
+        "independent_third_party_testimony",
+        "independent_field_witness_testimony",
+        "institutional_observer_testimony",
+        "institutional_expert_testimony",
+        "dual_source_testimony",
+        "third_party_disclosure",
+        "third_party_technical_testimony",
+        "testimony_admission",
+        "admission",
+        "official_document_admission",
+        "decisional_awareness_primary_evidence",
+        "documented_harm_awareness"
+      ]
+    },
+    "cross_layer_analysis": {
+      "description": "층위 간 연결·모순 분석 — cross-layer connections, contradiction pairs",
+      "members": [
+        "cross_layer_synthesis",
+        "cross_layer_mechanism",
+        "cross_layer_pattern",
+        "cross_source_synthesis",
+        "cross_document_contradiction",
+        "cross_atom_contradiction",
+        "contradiction_pair",
+        "self_contradiction",
+        "997_military_adequate_contradicted_by_sabotage",
+        "factual_temporal_refutation"
+      ]
+    },
+    "technical_proof": {
+      "description": "기술적 증거·디지털 포렌식 — technical/forensic evidence, architecture facts",
+      "members": [
+        "technical_proof",
+        "technical_evidence",
+        "technical_constraint_evidence",
+        "technical_assessment",
+        "technical_architecture_deception",
+        "digital_forensic_evidence",
+        "system_architecture_fact",
+        "operational_vs_test_environment_separation",
+        "attack_surface_identification",
+        "operational_co_management_proof",
+        "operational_evidence"
+      ]
+    },
+    "attorney_misconduct": {
+      "description": "변호인 비위·이해충돌 — defense lawyer misconduct, conflict of interest",
+      "members": [
+        "attorney_misconduct",
+        "attorney_misconduct_coercion",
+        "attorney_incompetence",
+        "attorney_prosecution_alignment",
+        "defense_strategy_conflict",
+        "conflict_of_interest_dual_agency"
+      ]
+    },
+    "temporal_manipulation": {
+      "description": "시간적 조작·지연 전략 — timing manipulation, retroactive justification, delay tactics",
+      "members": [
+        "deliberate_delay_mechanism",
+        "three_phase_delay_mechanism_phase3",
+        "retroactive_justification",
+        "post_completion_evaluation_item_change",
+        "phantom_directive_time_reversal",
+        "predetermined_audit_conclusion",
+        "intentional_budget_reduction",
+        "budget_manipulation",
+        "control_agency_role_evasion",
+        "temporal_structure",
+        "temporal_attribution",
+        "date_discrepancy_resolved",
+        "audit_result_falsity_collusion_proof"
+      ]
+    },
+    "methodology": {
+      "description": "방법론·분석 프레임워크 — meta-claims about proof system, research methodology",
+      "members": [
+        "methodology_claim",
+        "analytical_framework",
+        "theoretical_framework",
+        "pattern_analysis",
+        "strategic_analysis",
+        "policy_claim",
+        "historical_significance_apt_human_targeting",
+        "operational_urgency",
+        "operational_definition",
+        "jurisdictional_foundation",
+        "motivational_anchor",
+        "exculpatory_active_defense",
+        "professional_competence",
+        "academic_fraud_omission",
+        "academic_fraud_international_misrepresentation",
+        "academic_fraud_institutional",
+        "academic_misrepresentation",
+        "intellectual_property_misappropriation",
+        "evidentiary_claim",
+        "factual_core",
+        "behavioral_evidence",
+        "action",
+        "process",
+        "structural_framing",
+        "structural_evidence",
+        "structural_impossibility"
+      ]
+    }
+  }
+}
