@@ -1,0 +1,55 @@
+# 15년간 방치된 구조적 취약점의 책임을 개인에게 전가 — 피해자 비난 전술
+
+**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/05-2-2-이론적-배경.md §2.1.1 (lines 13)
+**Layer:** [[../layers/layer-6|Layer 6]], [[../layers/layer-1|Layer 1]] (secondary), [[../layers/layer-4|Layer 4]] (secondary)
+**Aurora node:**
+```cypher
+MERGE (fr:FalsificationResult {resultId: "FR-L6-VICTIM-BLAMING"})
+SET fr.layer = 6,
+    fr.claimType = "analytical_framework",
+    fr.claimDesc = "15년 구조적 취약점→개인 책임전가. Records 4,855/3,236. 피해자 비난 전술.",
+    fr.counterHypothesis = "사업관리팀장으로서 시험평가 보안 설정 책임이 있으며 시스템 역사와 무관하다",
+    fr.falsificationCondition = "한지훈이 VPN/DB접근제어 조달 권한과 예산을 보유하고 의도적으로 거부한 기록",
+    fr.verdict = "CORROBORATED",
+    fr.strength = "STRONG",
+    fr.truthfulness = 9,
+    fr.validity = 8,
+    fr.sincerity = 9,
+    fr.analysisDate = date("2026-04-12"),
+    fr.summary = "15년 구조적 취약점→개인 책임전가. Records 4,855/3,236. 피해자 비난 전술.";
+```
+
+## Claim
+
+군검찰단은 VPN/DB접근제어 미사용을 한지훈의 혐의로 제기했으나(기록 제4,855쪽), 해당 시스템은 2019.8.27~2021.4.23 부재(기록 제3,236~3,270쪽). 舊KIATIS는 애초부터 15년간 보안장비 없이 운영. 피해자가 의도적으로 해제한 것처럼 서사 조작 — 피해자 비난(Victim Blaming).
+
+## Key Takeaways
+
+- Prosecution charged non-use of systems that did not exist (Records 4,855/3,236-3,270) [진리성]
+- Transferring 15-year systemic failure to individual = Victim Blaming [진실성]
+
+## Supporting evidence
+
+- **Record No. 4,855**
+- **Record No. 3,236**
+
+## Counter-hypothesis
+
+사업관리팀장으로서 시험평가 보안 설정 책임이 있으며 시스템 역사와 무관하다
+
+## Falsification condition
+
+한지훈이 VPN/DB접근제어 조달 권한과 예산을 보유하고 의도적으로 거부한 기록
+
+## Verdict
+
+**CORROBORATED.** STRONG. 진리성 9 / 타당성 8 / 진실성 9.
+
+## Spot-check
+
+- `vault-converted-korean/05-2-2-이론적-배경.md` lines 13
+
+## Related
+
+- [[prosecution-six-charges-collapse-vpn-nonexistence]]
+- [[../layers/layer-6|Layer 6]]
