@@ -267,6 +267,76 @@ Six initial atoms closing the Layer 2 gap (previously 0 atoms). Compiled from `v
 
 **Batch 3 MODERATE-4: +5 atoms (all CORROBORATED strong). Cross-layer record placement: rec 118/126/187→규정(sub-L1), rec 1073→L1, rec 1767/1850/1851→L3, rec 3041/3271→L4, rec 4053/4776/4842/4854/4874/4979→L6, rec 5167→L6, rec 6270/6282/9018/11112/11113/11157→L7. Total: 87→92 atoms.**
 
+## B4 NEEDS_SPLIT atoms (47) — 2026-04-12
+
+### Layer 1 — 舊KIATIS concealment foundation
+
+- [[old-kiatis-hosted-inside-other-server-15-years]] — 舊KIATIS 15년간 타 서버 내 운영 (홈페이지 게시판 기원). **CORROBORATED (strong)**
+- [[active-x-removal-as-project-goal-confirms-vulnerability]] — Active-X 제거가 사업 기대효과 → 보안취약 공식 인정. **CORROBORATED (strong)**
+- [[old-kiatis-web-facade-masking-cs-direct-db]] — 웹 외관 아래 C/S 방식 DB 직접접속 이중구조. **CORROBORATED (strong)**
+- [[firewall-requests-confirm-no-vpn-db-direct-access]] — 방화벽 요청 공문이 VPN 미사용·DB 직접접속의 추가 증거. **CORROBORATED (strong)**
+- [[mnd-intentional-separation-server-sw-projects]] — 서버구축·SW개발 의도적 분리 → 舊KIATIS 은폐 설계. **CORROBORATED (moderate)**
+- [[mnd-test-eval-simplification-timed-to-evaluation-day]] — 시험평가 당일(2019.9.2) 절차 간소화 공문 시간역전. **CORROBORATED (strong)**
+
+### Layer 2 — project control structure manipulation
+
+- [[new-kiatis-is-mnd-controlled-not-delegated-project]] — 新KIATIS는 국방부 통제사업 — 위임전환 불법. **CORROBORATED (strong)**
+- [[gukyu-dan-dual-cap-unprecedented-structure]] — 국유단 사업통제+주관기관 이중역할 전례 없는 위반. **CORROBORATED (strong)**
+
+### Layer 3 — personnel manipulation and IP theft
+
+- [[kiatis-project-deliberately-transferred-to-han-ji-hoon]] — KIATIS 업무 행정운영팀→계획팀 의도적 떠넘기기. **CORROBORATED (strong)**
+- [[idea-theft-mobile-security-architecture-patent]] — 병사 휴대폰 아키텍처 아이디어 절도·특허출원 모의. **NEEDS_MORE_EVIDENCE (moderate)**
+- [[layer3-mkiss-abnormal-operation-gaslighting-pretext]] — M-KISS 부적절 운영과 갑질 신고 사전 기획. **CORROBORATED (moderate)**
+
+### Layer 4 — test-evaluation manipulation (B4 batch)
+
+- [[gukjeonwon-pre-evaluation-team-leader-exclusion]] — 시험평가 계획보고 시 팀장 체계적 배제. **CORROBORATED (strong)**
+- [[deliberate-absence-key-personnel-during-evaluation]] — 윤도현·송민석 시험평가 기간 동시 부재. **CORROBORATED (moderate)**
+- [[didc-falsely-records-old-kiatis-as-vpn-user]] — DIDC의 舊KIATIS VPN 사용 허위 기재. **CORROBORATED (strong)**
+- [[didc-commander-hwang-prior-knowledge-lie]] — DIDC 부대장 황만수 수사 사전 인지 거짓말. **CORROBORATED (strong)**
+- [[didc-vpn-otp-18month-withholding]] — VPN OTP 1.5년 미제공 → 舊KIATIS 은폐. **CORROBORATED (moderate)**
+- [[didc-withheld-network-diagram-from-kiatis]] — 네트워크 구성도 비공개 → 환경 통제 불가. **CORROBORATED (strong)**
+- [[didc-excluded-from-test-eval-reform]] — 시험평가 개혁 3단계 전면 배제. **CORROBORATED (strong)**
+- [[audit-dtot-report-hidden-from-team-leader]] — 감리 DT/OT 보고서 팀장 배제·1인 결재. **CORROBORATED (strong)**
+- [[kida-research-legitimizes-pre-existing-manipulation]] — KIDA 연구의 소급 정당화. **CORROBORATED (strong)**
+- [[kida-recommends-gukjeonwon-centered-integration]] — KIDA 국전원 중심 통합 권고 vs 미군 분리 원칙. **CORROBORATED (strong)**
+- [[layer4-kida-workflow-omits-mnd-role]] — KIDA 업무흐름도 국방부 역할 누락. **CORROBORATED (strong)**
+- [[layer4-dtot-separation-principle-violated]] — DT/OT 분리 원칙 위반. **CORROBORATED (strong)**
+- [[directive-article-11-control-functions-stripped]] — 제11조 사업통제기관 핵심 기능 체계적 삭제. **CORROBORATED (strong)**
+- [[80-items-violate-national-contract-law]] — 80건 추가요구 국가계약법 위반. **CORROBORATED (strong)**
+- [[fabricated-document-2020-produced-in-2022]] — 2020 공문의 2022 소급 조작 (인도단계 시간역전). **CORROBORATED (strong)**
+- [[fabricated-document-recipients-admin-only]] — 조작 공문 수신자 행정담당에 국한. **CORROBORATED (moderate)**
+- [[kim-min-su-central-cross-layer-cartel-figure]] — 김민수 교차층위 카르텔 핵심 역할. **CORROBORATED (strong)**
+
+### Layer 5 — witness destruction and human rights
+
+- [[layer5-language-weaponization-silence-as-murder]] — 언어 무기화·침묵 강요 → 조직적 사회적 살인. **CORROBORATED (strong)**
+- [[layer5-excavation-team-old-kiatis-internet-proof]] — 국유단 발굴단계 인터넷 수행 → L1 확증. **CORROBORATED (strong)**
+- [[layer5-park-seojun-48hr-cooperation-to-hostility]] — 박서준 48시간 협력→적대 전환. **CORROBORATED (moderate)**
+- [[layer5-reporter-3stage-statement-change]] — 신고자 진술 3단 변화 (박서준→국전원→박서준). **CORROBORATED (strong)**
+- [[harassment-complaint-48hrs-premeditated-isolation]] — 48시간 전 협력 + 사전 준비 독방 격리. **CORROBORATED (strong)**
+- [[warning-letter-reflects-only-lee-jiyoung]] — 경고장에 이지영만 반영, 박서준 부재. **CORROBORATED (strong)**
+
+### Layer 6 — prosecution fraud proof
+
+- [[prosecution-non-prosecution-internal-contradiction]] — 불기소 이유서 기소유예+99.73점 모순. **CORROBORATED (strong)**
+- [[prosecution-fraud-meets-criminal-elements]] — 사기수사가 형사·사이버범죄 성립요소 충족. **CORROBORATED (strong)**
+- [[four-kiatis-environments-non-identical]] — 4개 환경 비동일 (정리04). **CORROBORATED (strong)**
+- [[firewall-port-opening-standard-it-procedure]] — 방화벽 포트 개방은 표준 IT 절차. **CORROBORATED (strong)**
+- [[warrant-docs-are-actual-false-documents]] — 검찰 영장·통보 자체가 허위공문서. **CORROBORATED (strong)**
+- [[layer6-997-reframed-as-deficient-development]] — 99.73점 성공의 부실개발 재프레이밍. **CORROBORATED (strong)**
+- [[prosecution-knew-innocence-continued-case]] — 무혐의 인지 후 수사 계속. **CORROBORATED (strong)**
+- [[prosecutor-shifted-charge-vpn-to-firewall]] — VPN→방화벽 기소 근거 전환. **CORROBORATED (strong)**
+- [[lee-junho-false-testimony-contradicted-by-own-doc]] — 이준호 허위 진술 자기 공문 반박. **CORROBORATED (strong)**
+- [[prosecution-baeim-charge-self-contradictory]] — 배임 혐의 자기모순. **CORROBORATED (strong)**
+- [[layer6-gis-server-budget-intentional-omission]] — GIS 서버 예산 의도적 미반영. **CORROBORATED (strong)**
+- [[prosecution-principal-actor-in-cartel]] — 군검찰단은 카르텔 주동자. **CORROBORATED (strong)**
+
+### Layer 7 — institutional rejection
+
+- [[prosecution-chief-evades-innocence-plea]] — 검찰단장의 무혐의 촉구 회피. **CORROBORATED (moderate)**
+
 ## Pending atoms (not in this batch)
 
 - **A4** (제63조 ¶1 제1호 `개발시험평가 결과 조치사항 이행여부`) — pending re-verification per A.3.5 §7 #1; will be added once subagent claim is independently confirmed/refuted by main-agent direct read

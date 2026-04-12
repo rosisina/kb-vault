@@ -1,7 +1,7 @@
 # 最종 제안요청서의 기술 적용 표는 新KIATIS가 순수 소프트웨어 개발사업이자 인터넷 기반 운용 구조임을 증명한다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/07-3-1-31-제1층위-ActiveX.md (§3.1.1.8)
-**Layer:** [[../layers/layer-1|Layer 1]] (primary), [[../layers/layer-5|Layer 5]] (secondary — 기록 제4,424쪽은 L5 범위), [[../layers/layer-7|Layer 7]] (secondary — 기록 제5,697쪽은 L7 범위)
+**Layer:** [[../layers/layer-1|Layer 1]] (primary), [[../layers/layer-2|Layer 2]] (secondary — Record No. 1,536/1,168 in L2 range), [[../layers/layer-5|Layer 5]] (secondary — 기록 제4,424쪽은 L5 범위), [[../layers/layer-7|Layer 7]] (secondary — 기록 제5,697쪽은 L7 범위)
 
 **Aurora node:**
 ```cypher

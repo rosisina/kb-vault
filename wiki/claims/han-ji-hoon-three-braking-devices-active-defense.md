@@ -1,7 +1,7 @@
 # 한지훈은 사업 착수 시 3가지 능동적 방어 메커니즘을 설치했다 (Layer 6 검찰 기소에 대한 결정적 반대서사)
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/08-3-2-32-제2-층위.md (§3.2.2 footnote 113)
-**Layer:** [[../layers/layer-2|Layer 2]] (with Layer 6 reverse-bridge)
+**Layer:** [[../layers/layer-2|Layer 2]] (primary, with Layer 6 reverse-bridge), [[../layers/layer-7|Layer 7]] (secondary — Record No. 11,354/11,098 in L7 range)
 
 **Aurora node:**
 ```cypher

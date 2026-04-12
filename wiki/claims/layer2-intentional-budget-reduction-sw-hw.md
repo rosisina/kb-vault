@@ -1,7 +1,7 @@
 # 新KIATIS 사업의 예산 필수 소요 요구 기능(SW, HW)에 대한 의도적 예산 축소
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/08-3-2-32-제2-층위.md (§3.2.1.3)
-**Layer:** [[../layers/layer-2|Layer 2]] (primary)
+**Layer:** [[../layers/layer-2|Layer 2]] (primary), [[../layers/layer-6|Layer 6]] (secondary — Record No. 4,866~4,871 in L6 range)
 **Aurora node:**
 ```cypher
 MERGE (fr:FalsificationResult {resultId: "FR-L2-051"})
