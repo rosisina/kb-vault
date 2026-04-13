@@ -1,0 +1,151 @@
+// Aurora v2 — v1 스타일 기반 Global Styles
+// v1의 글자 크기/색상/스타일을 그대로 사용 (시간과 노력의 산물)
+// 다크 테마 적합성은 이후 판단
+@use '@angular/material' as mat;
+
+// ── Fonts (v1 동일) ──
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+// ── Material Theme (v1 동일: light) ──
+$aurora-theme: mat.define-theme((
+  color: (
+    theme-type: light,
+    primary: mat.$violet-palette,
+    tertiary: mat.$orange-palette,
+  ),
+));
+
+html {
+  @include mat.all-component-themes($aurora-theme);
+}
+
+// ── Design Tokens (v1 그대로) ──
+:root {
+  // Base
+  --aurora-primary: #1a237e;
+  --aurora-primary-light: #534bae;
+  --aurora-primary-pale: #e8eaf6;
+  --aurora-accent: #ff6f00;
+  --aurora-bg: #fafafa;
+  --aurora-surface: #ffffff;
+  --aurora-text: #212121;
+  --aurora-text-secondary: #757575;
+  --aurora-border: #e0e0e0;
+
+  // Semantic
+  --aurora-success: #2e7d32;
+  --aurora-warning: #f57f17;
+  --aurora-danger: #c62828;
+  --aurora-info: #1565c0;
+
+  // 7-Layer Colors (v1 동일)
+  --aurora-layer-1: #b71c1c;
+  --aurora-layer-2: #e65100;
+  --aurora-layer-3: #f57f17;
+  --aurora-layer-4: #1b5e20;
+  --aurora-layer-5: #0d47a1;
+  --aurora-layer-6: #4a148c;
+  --aurora-layer-7: #880e4f;
+
+  // Relationship Colors (v1 동일)
+  --aurora-rel-support: #4caf50;
+  --aurora-rel-contradict: #f44336;
+  --aurora-rel-conceal: #9e9e9e;
+  --aurora-rel-chain: #ff9800;
+  --aurora-rel-order: #7b1fa2;
+  --aurora-rel-execute: #d32f2f;
+  --aurora-rel-victim: #1976d2;
+
+  // Popper Traffic Light (v1 동일)
+  --aurora-popper-green: #4caf50;
+  --aurora-popper-yellow: #ffc107;
+  --aurora-popper-red: #f44336;
+
+  // Grid (v1 동일)
+  --aurora-grid-unit: 4px;
+  --aurora-gutter: 16px;
+  --aurora-max-width: 1400px;
+  --aurora-card-radius: 12px;
+
+  // Shadows (v1 동일)
+  --aurora-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.06);
+  --aurora-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.12);
+  --aurora-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.16);
+}
+
+// ── Global Styles (v1 동일) ──
+body {
+  margin: 0;
+  font-family: 'Inter', 'Noto Sans KR', sans-serif;
+  background: var(--aurora-bg);
+  color: var(--aurora-text);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+code, pre, .cypher-display {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+// ── Aurora Card (v1 동일) ──
+.aurora-card {
+  background: var(--aurora-surface);
+  border: 1px solid var(--aurora-border);
+  border-radius: var(--aurora-card-radius);
+  box-shadow: var(--aurora-shadow-sm);
+  padding: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--aurora-shadow-md);
+  }
+
+  &--flat {
+    box-shadow: none;
+    &:hover { transform: none; box-shadow: none; }
+  }
+}
+
+// ── Layer Utilities (v1 동일) ──
+@for $i from 1 through 7 {
+  .layer-#{$i} {
+    --layer-color: var(--aurora-layer-#{$i});
+  }
+  .layer-border-#{$i} {
+    border-left-color: var(--aurora-layer-#{$i});
+  }
+  .layer-bg-#{$i} {
+    background-color: var(--aurora-layer-#{$i});
+    color: white;
+  }
+}
+
+// ── Verdict Utilities (v1 동일) ──
+.verdict-approved { color: var(--aurora-success); font-weight: 600; }
+.verdict-needs-revision { color: var(--aurora-warning); font-weight: 600; }
+.verdict-rejected { color: var(--aurora-danger); font-weight: 600; }
+
+.popper-green { color: var(--aurora-popper-green); }
+.popper-yellow { color: var(--aurora-popper-yellow); }
+.popper-red { color: var(--aurora-popper-red); }
+
+// ── Content Container (v1 동일) ──
+.content {
+  padding: 24px;
+  max-width: var(--aurora-max-width);
+  margin: 0 auto;
+}
+
+// ── Responsive (v1 동일) ──
+@media (max-width: 600px) {
+  :root {
+    --aurora-gutter: 12px;
+  }
+  .content {
+    padding: 12px;
+  }
+}

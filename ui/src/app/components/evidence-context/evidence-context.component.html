@@ -1,0 +1,112 @@
+<!-- Aurora v2 — 우측 패널: Layer 대시보드 + 그룹 목차(진행률) + atom 상세 -->
+<div class="evidence-panel">
+
+  <!-- Layer 대시보드 (진행률 바) -->
+  @if (totalPairs() > 0) {
+    <div class="section dashboard">
+      <div class="section-label">
+        {{ lang.lang() === 'kr' ? 'Layer 요약' : 'Layer Summary' }}
+      </div>
+      <div class="overall-stats">
+        <span class="overall-count">{{ totalPairs() }}건 중 {{ totalCorroborated() }}건 입증</span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" [style.width.%]="overallPct()"></div>
+      </div>
+      <span class="overall-pct">{{ overallPct() }}%</span>
+    </div>
+  }
+
+  <!-- 유형별 현황 (그룹 목차 + 미니 진행률) -->
+  @if (groups().length > 0) {
+    <div class="section">
+      <div class="section-label">
+        {{ lang.lang() === 'kr' ? '유형별 현황' : 'By Type' }}
+      </div>
+      <div class="group-toc">
+        @for (group of groups(); track group.claimType) {
+          <div class="group-row">
+            <div class="group-header" (click)="toggleGroup(group)">
+              <span class="material-icons group-arrow">
+                {{ group.expanded ? 'expand_more' : 'chevron_right' }}
+              </span>
+              <span class="group-name">{{ group.label }}</span>
+              <span class="group-count">{{ group.count }}</span>
+            </div>
+            <!-- 미니 진행률 -->
+            <div class="mini-progress">
+              <div class="mini-fill" [style.width.%]="group.corroboratedPct"></div>
+            </div>
+
+            <!-- 하부 atom 목록 (펼친 상태) -->
+            @if (group.expanded) {
+              <div class="group-items">
+                @for (atom of group.atomTitles; track atom.id) {
+                  <div class="group-item" (click)="onAtomClick(atom.id)">
+                    <span class="toc-dot" [style.background]="'var(--aurora-layer-' + atom.layer + ')'"></span>
+                    <span class="item-text">{{ atom.title }}</span>
+                  </div>
+                }
+              </div>
+            }
+          </div>
+        }
+      </div>
+    </div>
+  }
+
+  <!-- 주요 인물 -->
+  @if (topPersons().length > 0) {
+    <div class="section">
+      <div class="section-label">
+        {{ lang.lang() === 'kr' ? '주요 인물' : 'Key Persons' }}
+      </div>
+      @for (person of topPersons(); track person.name) {
+        <div class="person-row">
+          <span class="person-name">{{ person.name }}</span>
+          <span class="person-count">{{ person.count }}건</span>
+        </div>
+      }
+    </div>
+  }
+
+  <!-- atom 선택 시 상세 -->
+  @if (selectedAtom(); as atom) {
+    <div class="section atom-section">
+      <div class="section-label">
+        {{ lang.lang() === 'kr' ? '선택된 증명' : 'Selected Proof' }}
+      </div>
+      <div class="atom-info">
+        <span class="layer-chip" [style.background]="'var(--aurora-layer-' + atom.layer + ')'">
+          L{{ atom.layer }}
+        </span>
+        <span class="atom-title">{{ atom.title }}</span>
+      </div>
+
+      <!-- 교차 층위 연결 -->
+      @if (crossLayerLinks().length > 0) {
+        <div class="cross-section">
+          <div class="cross-label">
+            {{ lang.lang() === 'kr' ? '다른 층위와 연결' : 'Cross-layer links' }}
+          </div>
+          @for (link of crossLayerLinks(); track link.layer) {
+            <div class="cross-item">
+              <span class="layer-chip-sm" [style.background]="'var(--aurora-layer-' + link.layer + ')'">
+                L{{ link.layer }}
+              </span>
+              <span class="cross-count">{{ link.count }}건</span>
+            </div>
+          }
+        </div>
+      }
+    </div>
+  }
+
+  <!-- 그래프 보기 -->
+  <div class="section link-section">
+    <a class="text-link" (click)="openGraph.emit()">
+      {{ lang.lang() === 'kr' ? '관계망 그래프 보기' : 'View relationship graph' }}
+    </a>
+  </div>
+
+</div>

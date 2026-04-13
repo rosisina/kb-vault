@@ -1,0 +1,124 @@
+<!-- Aurora v2 Landing — 방안 C: 좌측(탑+검색) + 우측(5카드 스크롤) -->
+<div class="landing-layout">
+
+  <!-- 좌측: 고정 (Hero + 검색 + 7-Layer 탑 + 통계) -->
+  <div class="landing-left">
+    <!-- Hero -->
+    <div class="hero-brand">
+      <img class="hero-icon-img" src="aurora-icon.png" alt="Aurora Intelligence">
+      <h1>Aurora Intelligence</h1>
+      <p class="hero-tagline">
+        {{ lang.lang() === 'kr'
+          ? '2016년 국방통합데이터센터 북한 해킹 사건 — 국방 조직의 조직적 은폐 범죄 증명 체계'
+          : '2016 DIDC North Korean Hacking Incident — Organized Cover-up Crime Proof System' }}
+      </p>
+    </div>
+
+    <!-- 검색창 -->
+    <div class="search-hero">
+      <div class="search-box">
+        <div class="search-input-row">
+          <input class="search-input-gemini"
+                 [(ngModel)]="searchQuery"
+                 (keyup.enter)="onSearch()"
+                 [placeholder]="lang.lang() === 'kr' ? '오로라에게 질문해 보세요' : 'Ask Aurora'">
+          <button class="search-submit" (click)="onSearch()">
+            <span class="material-icons">send</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 7-Layer 탑 -->
+    <div class="layer-tower">
+      @for (layer of layers(); track layer.num) {
+        <div class="layer-row" (click)="onLayerClick(layer.num)"
+             [title]="layerDescriptions[layer.num]">
+          <span class="layer-num" [style.color]="layer.color">{{ layer.num }}</span>
+          <div class="layer-info">
+            <span class="layer-name">{{ lang.t('layer.' + layer.num) }}</span>
+            @if (layerSubtitles[layer.num]) {
+              <span class="layer-desc">{{ layerSubtitles[layer.num] }}</span>
+            }
+          </div>
+          <div class="layer-bar-track">
+            <div class="layer-bar-fill"
+                 [style.width.%]="layer.pct"
+                 [style.background]="layer.color"></div>
+          </div>
+          <span class="layer-count">{{ layer.count }}</span>
+        </div>
+      }
+      <div class="legend">
+        <span class="legend-item">
+          <span class="legend-bar" style="background: var(--aurora-success);"></span>
+          {{ lang.lang() === 'kr' ? '입증완료' : 'Corroborated' }}
+        </span>
+        <span class="legend-item">
+          <span class="legend-bar" style="background: var(--aurora-warning);"></span>
+          {{ lang.lang() === 'kr' ? '추가증거필요' : 'Needs Evidence' }}
+        </span>
+      </div>
+    </div>
+
+    <!-- 통계 -->
+    <div class="stats-line">
+      {{ totalAtoms() }} atoms · {{ contradictions() }} open contradictions · 42 pseudonymized persons
+    </div>
+  </div>
+
+  <!-- 우측: 스크롤 (5개 맥락 카드) -->
+  <div class="landing-right">
+    <div class="context-label">
+      {{ lang.lang() === 'kr' ? '사건 개요' : 'Case Overview' }}
+    </div>
+
+    <!-- 텍스트 중심 사건 개요 (Claude support / Google search 스타일) -->
+
+    <div class="context-section">
+      <h4 class="context-heading">{{ lang.lang() === 'kr' ? '사건' : 'The Incident' }}</h4>
+      <p class="context-text">
+        {{ lang.lang() === 'kr'
+          ? '2016년 북한이 국방통합데이터센터(DIDC) 센터1(용인)을 해킹했다. 실제 침입 경로는 VPN 보호 없이 15년간(2007~2022) 인터넷에서 운영된 舊KIATIS(625 전사자 종합정보시스템)였다.'
+          : 'In 2016, North Korea hacked the Defense Integrated Data Center (DIDC) Center 1 (Yongin). The actual intrusion route was the old KIATIS system, operated on the Internet without VPN protection for 15 years (2007-2022).' }}
+      </p>
+    </div>
+
+    <div class="context-section">
+      <h4 class="context-heading">{{ lang.lang() === 'kr' ? '은폐' : 'The Cover-up' }}</h4>
+      <p class="context-text">
+        {{ lang.lang() === 'kr'
+          ? '이 사실을 발견한 32년 복무 장교를 범죄자로 낙인찍기 위한 조직적 공모. 2022년 2월 8일 회의에서 사실을 공개한 지 정확히 48시간 만에 허위 갑질 신고가 접수되었다.'
+          : 'An organized conspiracy to frame the 32-year officer who discovered this as a criminal. Exactly 48 hours after disclosing the facts at a meeting on February 8, 2022, a false abuse-of-authority report was filed.' }}
+      </p>
+    </div>
+
+    <div class="context-section">
+      <h4 class="context-heading">{{ lang.lang() === 'kr' ? '결정적 증거' : 'Decisive Evidence' }}</h4>
+      <p class="context-text">
+        {{ lang.lang() === 'kr'
+          ? '군 검찰이 "조작했다"고 주장하는 VPN 및 DB접근제어 시스템이 시험평가 기간과 이후 최소 18개월간 존재하지 않았음을 증명하는 공문서. 이 문서의 결재자는 카르텔 핵심 구성원 이지영이다.'
+          : 'An official document proving that the VPN and DB access control systems — which prosecutors claimed were manipulated — did not exist during the evaluation period or for at least 18 months afterward. This document was approved by Lee Ji-young, a core cartel member.' }}
+      </p>
+    </div>
+
+    <div class="context-section">
+      <h4 class="context-heading">{{ lang.lang() === 'kr' ? '조직적 범죄 구조' : 'Organized Crime Structure' }}</h4>
+      <p class="context-text">
+        {{ lang.lang() === 'kr'
+          ? 'APT(지능형 지속 위협) 표적 공격 구조: 표적 선정(48시간 내 허위 신고) → 지속성(6개월 고립 + 소급 범죄화) → 정교함(증거 파괴 → 사회적 고립 → 평판 테러 → 범죄자 낙인 → 추적 차단 인적 네트워크).'
+          : 'APT-style targeted attack: Targeting (false report within 48hrs) → Persistence (6 months isolation + retroactive criminalization) → Sophistication (evidence destruction → social isolation → reputation terrorism → criminal labeling → accountability-blocking network).' }}
+      </p>
+    </div>
+
+    <div class="context-section">
+      <h4 class="context-heading">{{ lang.lang() === 'kr' ? '함의' : 'Implications' }}</h4>
+      <p class="context-text">
+        {{ lang.lang() === 'kr'
+          ? '디지털 시대의 새로운 형태의 조직적 악. 한나 아렌트의 "악의 평범성"(다수→다수)과 달리, 이 사건은 다수→1인 구조로 국가 권력이 사이버보안 기술을 이용해 한 개인을 체계적으로 파괴한 사례. 동시에, 정보화 시대의 디지털 증거가 조직 범죄에 대한 책임 추궁을 가능케 함을 증명한다.'
+          : 'A new form of organized evil in the digital age. Unlike Arendt\'s "banality of evil" (many-to-many), this case demonstrates a many-to-one structure where state power systematically destroyed an individual using cybersecurity techniques. It also proves that digital evidence enables accountability for organized crime.' }}
+      </p>
+    </div>
+  </div>
+
+</div>

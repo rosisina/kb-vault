@@ -1,0 +1,44 @@
+{
+  "nav.brand": "Aurora v2",
+  "nav.subtitle": "조직적 은폐 범죄 증명 체계",
+  "nav.graph": "그래프",
+  "nav.evidence": "증거",
+  "nav.lang": "KR",
+
+  "landing.title": "2016 DIDC 북한 해킹 사건",
+  "landing.subtitle": "조직적 은폐 범죄 증명 체계",
+  "landing.input_placeholder": "무엇이든 물어보세요",
+  "landing.atoms": "atoms",
+  "landing.records": "record citations",
+  "landing.persons": "persons",
+  "landing.contradictions": "모순",
+
+  "layer.1": "Active-X 제거 사업 간 舊KIATIS 이력 제거",
+  "layer.2": "新KIATIS 사업 추진체계 및 장교 개인 자력 조작",
+  "layer.3": "국전원 전속 후 SW개발사업관리 착수·종결",
+  "layer.4": "新KIATIS 개발·운영·시험평가 전·중·후 조작",
+  "layer.5": "허위 갑질 신고와 조사본부의 조작 감사",
+  "layer.6": "군 검찰단의 사기 수사와 범죄자 낙인",
+  "layer.7": "진정서 제출·수사 촉구 후 기소유예",
+
+  "proof.1": "범죄 구조도",
+  "proof.1.desc": "누가 지시하고, 실행하고, 피해를 봤는가",
+  "proof.2": "증거 연결도",
+  "proof.2.desc": "어떤 증거가 이를 뒷받침하는가",
+  "proof.3": "교차 층위 조감도",
+  "proof.3.desc": "7개 층위를 횡단하는 범죄 연쇄의 전체 구조",
+
+  "verdict.CORROBORATED": "입증됨",
+  "verdict.WEAKENED": "반증됨",
+  "verdict.NEEDS_MORE_EVIDENCE": "추가 증거 필요",
+  "verdict.UNFALSIFIABLE": "반증 불가",
+
+  "truth.truthfulness": "진리성",
+  "truth.validity": "타당성",
+  "truth.sincerity": "진실성",
+
+  "common.layer": "층위",
+  "common.all_layers": "전체 층위",
+  "common.search": "검색",
+  "common.close": "닫기"
+}

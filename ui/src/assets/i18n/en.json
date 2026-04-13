@@ -1,0 +1,44 @@
+{
+  "nav.brand": "Aurora v2",
+  "nav.subtitle": "Organized Cover-up Crime Proof System",
+  "nav.graph": "Graph",
+  "nav.evidence": "Evidence",
+  "nav.lang": "EN",
+
+  "landing.title": "2016 DIDC North Korean Hacking Incident",
+  "landing.subtitle": "Organized Cover-up Crime Proof System",
+  "landing.input_placeholder": "Ask anything",
+  "landing.atoms": "atoms",
+  "landing.records": "record citations",
+  "landing.persons": "persons",
+  "landing.contradictions": "contradictions",
+
+  "layer.1": "Active-X Removal: Legacy KIATIS History Erasure",
+  "layer.2": "New KIATIS Project System & Officer Record Manipulation",
+  "layer.3": "Post-Transfer SW Dev Project Management Manipulation",
+  "layer.4": "New KIATIS Test & Evaluation Manipulation",
+  "layer.5": "False Harassment Report & Fabricated Audit",
+  "layer.6": "Military Prosecution Fraud & Criminal Labeling",
+  "layer.7": "Petition Filing & Suspended Indictment",
+
+  "proof.1": "Crime Structure",
+  "proof.1.desc": "Who ordered, who executed, who was victimized",
+  "proof.2": "Evidence Trail",
+  "proof.2.desc": "What evidence supports these crimes",
+  "proof.3": "Cross-Layer Overview",
+  "proof.3.desc": "How 7 layers connect into a coordinated cover-up",
+
+  "verdict.CORROBORATED": "Corroborated",
+  "verdict.WEAKENED": "Weakened",
+  "verdict.NEEDS_MORE_EVIDENCE": "Needs More Evidence",
+  "verdict.UNFALSIFIABLE": "Unfalsifiable",
+
+  "truth.truthfulness": "Truthfulness",
+  "truth.validity": "Validity",
+  "truth.sincerity": "Sincerity",
+
+  "common.layer": "Layer",
+  "common.all_layers": "All Layers",
+  "common.search": "Search",
+  "common.close": "Close"
+}

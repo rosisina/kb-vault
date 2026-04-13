@@ -77,8 +77,8 @@ SET fr.layer = 4,
 
 ## Related
 
-- [[jang-hojae-developer-pm-didc-opened-port-not-han-ji-hoon|자매 atom]]
-- [[jang-hojae-data-migration-not-in-rfp-evaluation-independence|자매 atom]]
-- [[80-items-violate-national-contract-law|80건 국가계약법 위반]]
-- [[didc-vpn-otp-18month-withholding|OTP 18개월 미제공 — 1장 수치 보강]]
-- [[../layers/layer-4|Layer 4]]
+- [[jang-hojae-developer-pm-didc-opened-port-not-han-ji-hoon|자매 atom]] (CORROBORATES)
+- [[jang-hojae-data-migration-not-in-rfp-evaluation-independence|자매 atom]] (RELATED)
+- [[80-items-violate-national-contract-law|80건 국가계약법 위반]] (RELATED)
+- [[didc-vpn-otp-18month-withholding|OTP 18개월 미제공 — 1장 수치 보강]] (RELATED)
+- [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

@@ -1,0 +1,131 @@
+<!-- Aurora v2 — 중앙 패널: Layer 요약 + 통계 + 그룹별 모순 쌍 (순번, 선택 강조) -->
+<div class="proof-body">
+
+  <!-- Breadcrumb -->
+  @if (breadcrumb().length > 0) {
+    <nav class="breadcrumb">
+      @for (part of breadcrumb(); track $index; let last = $last) {
+        <span [class.active]="last">{{ part }}</span>
+        @if (!last) { <span class="sep">›</span> }
+      }
+    </nav>
+  }
+
+  <!-- Layer 헤더 + 요약 + 통계 -->
+  @if (activeLayer) {
+    <div class="layer-summary">
+      <div class="layer-header">
+        <span class="layer-badge" [style.background]="'var(--aurora-layer-' + activeLayer + ')'">
+          L{{ activeLayer }}
+        </span>
+        <h2 class="layer-title">{{ layerNames[activeLayer] }}</h2>
+      </div>
+      <p class="layer-proves">
+        {{ lang.lang() === 'kr' ? '이 층위에서 증명하는 것:' : 'What this layer proves:' }}
+        "{{ layerProves[activeLayer] }}"
+      </p>
+      <div class="layer-stats">
+        <span class="stat">{{ groupCount() }}{{ lang.lang() === 'kr' ? '개 유형' : ' types' }}</span>
+        <span class="stat-dot">·</span>
+        <span class="stat">{{ totalPairs() }}{{ lang.lang() === 'kr' ? '건 모순' : ' contradictions' }}</span>
+        <span class="stat-dot">·</span>
+        <span class="stat stat-pct">
+          {{ lang.lang() === 'kr' ? '입증률' : 'corroborated' }} {{ corroborationPct() }}%
+        </span>
+      </div>
+    </div>
+  }
+
+  <!-- atom 상세 (선택 시) -->
+  @if (selectedAtom(); as atom) {
+    <div class="atom-detail">
+      <div class="atom-detail-header">
+        <span class="layer-chip" [style.background]="'var(--aurora-layer-' + atom.layer + ')'">L{{ atom.layer }}</span>
+        <span class="atom-claim-type">{{ atom.claimType }}</span>
+      </div>
+      <h3 class="atom-title">{{ atom.title }}</h3>
+      <div class="truth-axes">
+        <span class="truth-badge truthfulness">
+          {{ lang.t('truth.truthfulness') }}
+          <span class="dots">{{ truthDots(atom.truthfulness) }}</span>
+        </span>
+        <span class="truth-badge validity">
+          {{ lang.t('truth.validity') }}
+          <span class="dots">{{ truthDots(atom.validity) }}</span>
+        </span>
+        <span class="truth-badge sincerity">
+          {{ lang.t('truth.sincerity') }}
+          <span class="dots">{{ truthDots(atom.sincerity) }}</span>
+        </span>
+      </div>
+      <div class="atom-meta">
+        <span class="verdict-badge verdict-{{ atom.verdict.toLowerCase() }}">
+          {{ lang.t('verdict.' + atom.verdict) }}
+        </span>
+        <span class="strength">{{ atom.strength }}</span>
+      </div>
+      <p class="atom-detail-hint">
+        {{ lang.lang() === 'kr' ? '※ 상세 본문은 CP-2에서 구현 예정' : '※ Full details coming in CP-2' }}
+      </p>
+    </div>
+  }
+
+  <!-- claimType별 그룹 -->
+  @for (group of groups(); track group.claimType) {
+    <section class="claim-group" [id]="'group-' + group.claimType">
+      <div class="group-header">
+        <span class="material-icons group-icon">{{ group.icon }}</span>
+        <h3 class="group-title">{{ group.label }}</h3>
+        <span class="group-count">{{ group.pairs.length }}건</span>
+        <span class="group-pct">{{ pct(group.corroboratedCount, group.totalCount) }}%</span>
+      </div>
+
+      @for (pair of group.pairs; track pair.edge.source + pair.edge.target; let i = $index) {
+        <div class="contradiction-pair"
+             [class.selected]="isSelected(pair.source.id) || isSelected(pair.target.id)">
+
+          <!-- 순번 -->
+          <div class="pair-number">{{ i + 1 }}/{{ group.pairs.length }}</div>
+
+          <div class="claim claim-a" (click)="onAtomClick(pair.source.id)">
+            <div class="claim-layer">
+              <span class="layer-dot" [style.background]="'var(--aurora-layer-' + pair.source.layer + ')'"></span>
+              L{{ pair.source.layer }}
+            </div>
+            <p class="claim-text">{{ pair.source.title }}</p>
+            <span class="verdict-badge verdict-{{ pair.source.verdict.toLowerCase() }}">
+              {{ lang.t('verdict.' + pair.source.verdict) }}
+            </span>
+          </div>
+
+          <div class="vs-divider">vs</div>
+
+          <div class="claim claim-b" (click)="onAtomClick(pair.target.id)">
+            <div class="claim-layer">
+              <span class="layer-dot" [style.background]="'var(--aurora-layer-' + pair.target.layer + ')'"></span>
+              L{{ pair.target.layer }}
+            </div>
+            <p class="claim-text">{{ pair.target.title }}</p>
+            <span class="verdict-badge verdict-{{ pair.target.verdict.toLowerCase() }}">
+              {{ lang.t('verdict.' + pair.target.verdict) }}
+            </span>
+          </div>
+
+          <!-- 행동 유도 -->
+          <div class="pair-hint">
+            → {{ lang.lang() === 'kr' ? '클릭하여 상세 보기' : 'Click for details' }}
+          </div>
+        </div>
+      }
+    </section>
+  }
+
+  @if (groups().length === 0 && !selectedAtom()) {
+    <div class="empty-state">
+      <p>{{ lang.lang() === 'kr'
+        ? 'Layer를 선택하면 해당 층위의 모순이 유형별로 표시됩니다'
+        : 'Select a Layer to see contradictions grouped by type' }}</p>
+    </div>
+  }
+
+</div>

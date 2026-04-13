@@ -1,0 +1,87 @@
+<!-- Aurora v2 — ProofShell: 하단 검색 제거 (상단으로 이동), 메뉴 버튼 제거 -->
+<div class="shell">
+
+  <!-- State A: Landing -->
+  @if (isLanding()) {
+    <app-landing-view
+      (layerSelect)="onLayerSelect($event)"
+      (search)="onSearch($event)"
+    />
+  }
+
+  <!-- State B: 3-패널 증명 화면 -->
+  @if (isProof()) {
+    <div class="proof-layout">
+
+      <!-- 좌측: 채팅 이력 + Layer Navigator -->
+      <aside class="panel-left">
+        <!-- 최근 채팅 (최대 5개) -->
+        @if (chatHistory().length > 0) {
+          <div class="sidenav-section-label">
+            {{ lang.lang() === 'kr' ? '최근 채팅' : 'Chats' }}
+          </div>
+          <div class="history-list">
+            @for (h of chatHistory(); track h.timestamp) {
+              <button class="history-item" (click)="onHistoryClick(h.query)">
+                <span class="material-icons history-icon">history</span>
+                <span class="history-text">{{ h.query }}</span>
+              </button>
+            }
+          </div>
+        }
+
+        <!-- Layer Navigator ("← 홈" 포함) -->
+        <app-layer-navigator
+          [activeLayer]="activeLayer()"
+          (layerSelect)="onLayerSelect($event)"
+          (backToLanding)="onBackToLanding()"
+        />
+      </aside>
+
+      <!-- 중앙: 증명 본문 (claimType 그룹별 모순 쌍) -->
+      <main class="panel-center">
+        <app-proof-body
+          [activeLayer]="activeLayer()"
+          [selectedAtomId]="selectedAtomId()"
+          [scrollToGroup]="scrollToGroup()"
+          (atomSelect)="onAtomSelect($event)"
+        />
+      </main>
+
+      <!-- 우측: 그룹 목차 (TOC) + 교차 층위 -->
+      <aside class="panel-right">
+        <app-evidence-context
+          [activeLayer]="activeLayer()"
+          [selectedAtomId]="selectedAtomId()"
+          (openGraph)="onOpenGraph()"
+          (atomSelect)="onAtomSelect($event)"
+          (groupSelect)="onGroupSelect($event)"
+        />
+      </aside>
+
+    </div>
+  }
+
+  <!-- Graph 모달 오버레이 -->
+  @if (showGraphModal()) {
+    <div class="graph-overlay" (click)="onCloseGraph()">
+      <div class="graph-modal" (click)="$event.stopPropagation()">
+        <div class="modal-header">
+          <span class="modal-title">
+            {{ lang.lang() === 'kr' ? '관계망' : 'Relationship Graph' }}
+            @if (activeLayer()) { — Layer {{ activeLayer() }} }
+          </span>
+          <button class="modal-close" (click)="onCloseGraph()">
+            {{ lang.lang() === 'kr' ? '닫기' : 'Close' }}
+          </button>
+        </div>
+        <div class="modal-body">
+          <p style="color: var(--aurora-text-secondary); text-align: center; padding: 40px; font-size: 1rem;">
+            Cytoscape.js Proof Level visualization (CP-2)
+          </p>
+        </div>
+      </div>
+    </div>
+  }
+
+</div>
