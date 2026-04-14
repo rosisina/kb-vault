@@ -58,6 +58,7 @@ export class EvidenceContextComponent implements OnChanges {
   @Output() groupSelect = new EventEmitter<string>();
   @Output() personSelect = new EventEmitter<string>();
   @Output() recordSelect = new EventEmitter<string>();
+  @Output() previewSelect = new EventEmitter<string>();  // 미니 프리뷰 요청
 
   onPersonClick(name: string): void {
     this.personSelect.emit(name);
@@ -120,12 +121,15 @@ export class EvidenceContextComponent implements OnChanges {
   }
 
   onRelatedClick(slug: string): void {
-    // Find the node by slug (stem)
     const nodes = this.graphData.getNodes();
     const found = nodes.find(n => n.wikiSlug === slug || n.stem === slug);
     if (found) {
-      this.atomSelect.emit(found.id);
+      this.previewSelect.emit(found.id);  // 미니 프리뷰로 전환
     }
+  }
+
+  onUnlinkedClick(id: string): void {
+    this.previewSelect.emit(id);  // 미니 프리뷰로 전환
   }
 
   private buildDashboard(): void {

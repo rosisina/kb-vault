@@ -739,6 +739,56 @@
   }
 
   <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- 미니 프리뷰 카드 (우측 관계맵/숨은연결에서 클릭 시) -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  @if (previewNode(); as pNode) {
+    <div class="mini-preview">
+      <div class="preview-header">
+        <span class="layer-dot" [style.background]="'var(--aurora-layer-' + pNode.layer + ')'"></span>
+        <span class="preview-layer">L{{ pNode.layer }}</span>
+        <span class="verdict-badge verdict-{{ pNode.verdict.toLowerCase() }}">{{ pNode.strength }}</span>
+        <span class="preview-spacer"></span>
+        <button class="preview-close" (click)="previewClose.emit()">
+          <span class="material-icons">close</span>
+        </button>
+      </div>
+
+      <h4 class="preview-title">{{ pNode.title }}</h4>
+
+      @if (previewDetail(); as pDetail) {
+        <p class="preview-claim">{{ pDetail.claim.length > 250 ? pDetail.claim.slice(0, 250) + '...' : pDetail.claim }}</p>
+
+        @if (pDetail.keyTakeaways.length > 0) {
+          <ul class="preview-takeaways">
+            @for (t of pDetail.keyTakeaways.slice(0, 2); track $index) {
+              <li>{{ t.text.length > 100 ? t.text.slice(0, 100) + '...' : t.text }}</li>
+            }
+          </ul>
+        }
+
+        @if (pDetail.allRecordNos.length > 0) {
+          <div class="preview-records">
+            Record No.
+            @for (r of pDetail.allRecordNos.slice(0, 4); track r; let last = $last) {
+              <span class="record-link" (click)="onRecordClick(r); $event.stopPropagation()">{{ r }}</span>@if (!last) {, }
+            }
+            @if (pDetail.allRecordNos.length > 4) { +{{ pDetail.allRecordNos.length - 4 }} }
+          </div>
+        }
+      }
+
+      <div class="preview-actions">
+        <a class="nav-link" (click)="previewNavigate.emit(pNode.id)">
+          {{ lang.lang() === 'kr' ? '이동 →' : 'Navigate →' }}
+        </a>
+        <a class="nav-link" (click)="onChainNav(pNode.id); previewClose.emit()">
+          {{ lang.lang() === 'kr' ? '체인 보기' : 'View Chain' }}
+        </a>
+      </div>
+    </div>
+  }
+
+  <!-- ═══════════════════════════════════════════════════════ -->
   <!-- CP-3.5: Record No. 역추적 결과 오버레이 -->
   <!-- ═══════════════════════════════════════════════════════ -->
   @if (recordResults().length > 0 || activeRecordSource()) {

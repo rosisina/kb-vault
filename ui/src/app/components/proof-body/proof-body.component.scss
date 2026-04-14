@@ -1495,6 +1495,100 @@
   white-space: nowrap;
 }
 
+// ═══════════════════════════════════════════════════════════
+// 미니 프리뷰 카드
+// ═══════════════════════════════════════════════════════════
+
+.mini-preview {
+  position: sticky;
+  bottom: 0;
+  background: white;
+  border-top: 3px solid var(--aurora-primary);
+  border-radius: 12px 12px 0 0;
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.12);
+  padding: 16px 18px;
+  z-index: 12;
+  animation: slideUp 0.2s ease;
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.preview-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.preview-layer {
+  font-size: 0.78rem;
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--aurora-text-secondary);
+}
+
+.preview-spacer { flex: 1; }
+
+.preview-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--aurora-text-secondary);
+  padding: 2px;
+  border-radius: 50%;
+  &:hover { background: #f0f0f0; }
+  .material-icons { font-size: 18px; }
+}
+
+.preview-title {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--aurora-text);
+  margin: 0 0 8px;
+  line-height: 1.4;
+}
+
+.preview-claim {
+  font-size: 0.82rem;
+  color: #444;
+  line-height: 1.65;
+  margin: 0 0 8px;
+  border-left: 3px solid #e0e0e0;
+  padding-left: 12px;
+}
+
+.preview-takeaways {
+  font-size: 0.78rem;
+  color: #555;
+  margin: 0 0 8px;
+  padding-left: 20px;
+  li { margin-bottom: 3px; line-height: 1.5; }
+}
+
+.preview-records {
+  font-size: 0.75rem;
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--aurora-text-secondary);
+  margin-bottom: 10px;
+}
+
+.preview-actions {
+  display: flex;
+  gap: 16px;
+  padding-top: 8px;
+  border-top: 1px solid #f0f0f0;
+
+  .nav-link {
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: var(--aurora-primary);
+    cursor: pointer;
+    &:hover { text-decoration: underline; }
+  }
+}
+
 // Record No. source info
 .record-source-info {
   background: #f8f9fe;

@@ -44,9 +44,16 @@ export class ProofBodyComponent implements OnChanges {
   @Input() searchQuery: string | null = null;
   @Input() guidedProofMode: boolean = false;
   @Input() activeFacets: any = null;
+  @Input() previewAtomId: string | null = null;
   @Output() atomSelect = new EventEmitter<string>();
   @Output() answerReady = new EventEmitter<QueryAnswer>();
   @Output() facetChange = new EventEmitter<any>();
+  @Output() previewNavigate = new EventEmitter<string>();
+  @Output() previewClose = new EventEmitter<void>();
+
+  // 미니 프리뷰
+  previewNode = signal<GraphNode | null>(null);
+  previewDetail = signal<AtomDetail | null>(null);
 
   // Faceted search
   availableFacets = signal<any>(null);
@@ -107,6 +114,15 @@ export class ProofBodyComponent implements OnChanges {
     // Load available facets for filter UI
     if (!this.availableFacets()) {
       this.availableFacets.set(this.graphData.getAvailableFacets());
+    }
+
+    // 미니 프리뷰 업데이트
+    if (this.previewAtomId) {
+      this.previewNode.set(this.graphData.getNodeById(this.previewAtomId) ?? null);
+      this.previewDetail.set(this.graphData.getDetail(this.previewAtomId) ?? null);
+    } else {
+      this.previewNode.set(null);
+      this.previewDetail.set(null);
     }
 
     // CP-3.2: Guided proof mode

@@ -45,6 +45,9 @@ export class ProofShellComponent {
   // CP-3: Navigation Trail (Obsidian stacked panes 개념)
   navTrail = signal<Array<{ id: string; title: string; layer: number }>>([]);
 
+  // 미니 프리뷰 (우측 패널 클릭 → 중앙 하단 프리뷰)
+  previewAtomId = signal<string | null>(null);
+
   isLanding = computed(() => this.state() === 'landing');
   isProof = computed(() => this.state() === 'proof');
 
@@ -183,6 +186,20 @@ export class ProofShellComponent {
   onGraphNodeSelect(atomId: string): void {
     this.showGraphModal.set(false);
     this.onAtomSelect(atomId); // push to nav trail + set selectedAtomId
+  }
+
+  // 미니 프리뷰: 우측 관계맵/숨은연결 클릭 → 중앙에 프리뷰
+  onPreviewSelect(atomId: string): void {
+    this.previewAtomId.set(atomId);
+  }
+
+  onPreviewNavigate(atomId: string): void {
+    this.previewAtomId.set(null);
+    this.onAtomSelect(atomId);
+  }
+
+  onPreviewClose(): void {
+    this.previewAtomId.set(null);
   }
 
   // CP-3.1: Guided proof — select strongest fracture and enter proof view

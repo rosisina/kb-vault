@@ -132,7 +132,7 @@
       @for (item of unlinkedMentions(); track item.node.id) {
         <div class="unlinked-item"
              [atomTooltip]="item.node.id"
-             (click)="onAtomClick(item.node.id)">
+             (click)="onUnlinkedClick(item.node.id)">
           <div class="unlinked-item-header">
             <span class="layer-dot" [style.background]="'var(--aurora-layer-' + item.node.layer + ')'"></span>
             <span class="rel-layer">L{{ item.node.layer }}</span>

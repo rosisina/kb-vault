@@ -73,9 +73,12 @@
           [searchQuery]="searchQuery()"
           [guidedProofMode]="guidedProofMode()"
           [activeFacets]="activeFacets()"
+          [previewAtomId]="previewAtomId()"
           (atomSelect)="onAtomSelect($event)"
           (answerReady)="answerForContext.set($event)"
           (facetChange)="onFacetChange($event)"
+          (previewNavigate)="onPreviewNavigate($event)"
+          (previewClose)="onPreviewClose()"
         />
       </main>
 
@@ -90,6 +93,7 @@
           (groupSelect)="onGroupSelect($event)"
           (personSelect)="onPersonSelect($event)"
           (recordSelect)="onRecordSelect($event)"
+          (previewSelect)="onPreviewSelect($event)"
         />
       </aside>
 
