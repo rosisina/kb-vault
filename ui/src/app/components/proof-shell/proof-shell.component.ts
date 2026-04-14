@@ -73,7 +73,14 @@ export class ProofShellComponent {
   }
 
   onAtomSelect(atomId: string): void {
-    this.selectedAtomId.set(atomId);
+    // Force re-trigger even if same atom (e.g., clicking "상세" on already-selected atom)
+    if (this.selectedAtomId() === atomId) {
+      this.selectedAtomId.set(null);
+      // Microtask to ensure Angular detects the change
+      setTimeout(() => this.selectedAtomId.set(atomId), 0);
+    } else {
+      this.selectedAtomId.set(atomId);
+    }
     // CP-3: Push to navigation trail
     const node = this.graphData.getNodeById(atomId);
     if (node) {

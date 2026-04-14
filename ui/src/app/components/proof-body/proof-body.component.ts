@@ -339,8 +339,10 @@ export class ProofBodyComponent implements OnChanges {
   }
 
   onChainNav(id: string): void {
-    this.atomSelect.emit(id);
     this.viewMode.set('chain');
+    this.atomSelect.emit(id);
+    // Force chain rebuild for same atom
+    this.updateChain();
   }
 
   private composeAndSetAnswer(): void {
