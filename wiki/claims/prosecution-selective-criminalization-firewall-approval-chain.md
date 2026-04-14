@@ -1,3 +1,56 @@
+---
+lang: ko
+title-ko: "군검찰의 선택적 범죄자 만들기 — 방화벽 정책적용 공문의 결재자·기안자 면책, 검토자만 피의자 지정"
+title-en: "군검찰의 선택적 범죄자 만들기 — 방화벽 정책적용 공문의 결재자·기안자 면책, 검토자만 피의자 지정"
+aliases:
+  - FR-L6-B2-002
+  - "군검찰의 선택적 범죄자 만들기 — 방화벽 정책적용 공문의 결재자·기안자 면책, 검토자만"
+
+layer: 6
+secondary-layers: [5]
+claimType: prosecution_misconduct
+claimSubtype: selective_criminalization_firewall_chain
+fracture-type: F-SE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 10
+analysisDate: 2026-04-11
+
+record-nos: [3948]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 최영수
+  - 한지훈
+  - 이준호
+  - 박서준
+organizations:
+  - MND
+  - 조사본부
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/prosecution-misconduct
+  - source/book
+  - fracture/F-SE
+  - person/최영수
+  - person/한지훈
+  - person/이준호
+  - person/박서준
+  - org/MND
+  - org/조사본부
+  - has/record-nos
+  - cross-layer
+---
 # 군검찰의 선택적 범죄자 만들기 — 방화벽 정책적용 공문의 결재자·기안자 면책, 검토자만 피의자 지정
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md (§3.6.4.11.4, lines 680–683)

@@ -1,3 +1,48 @@
+---
+lang: ko
+title-ko: "이근태: 최동욱 변호사가 기소유예를 최대 목표로 설정했음을 폭로"
+title-en: ""
+aliases:
+  - FR-L6-LAWYER-KISO-YUYE-TARGET
+  - "이근태: 최동욱 변호사가 기소유예를 최대 목표로 설정했음을 폭로"
+
+layer: 6
+secondary-layers: [7]
+claimType: testimony_evidence
+claimSubtype: third_party_disclosure
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 7
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 최동욱
+  - 이근태
+  - 한지훈
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/testimony-evidence
+  - source/recording
+  - person/최동욱
+  - person/이근태
+  - person/한지훈
+  - cross-layer
+---
 # 이근태: 최동욱 변호사가 기소유예를 최대 목표로 설정했음을 폭로
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md 녹취264-1 (lines 15988-16001)

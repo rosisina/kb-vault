@@ -1,3 +1,43 @@
+---
+lang: ko
+title-ko: 군검찰단의 사기수사가 형사범죄·사이버범죄의 성립요소를 충족
+title-en: ""
+aliases:
+  - FR-L6-FRAUD-MEETS-CRIMINAL-ELEMENTS
+  - 군검찰단의 사기수사가 형사범죄·사이버범죄의 성립요소를 충족
+
+layer: 6
+secondary-layers: []
+claimType: prosecution_misconduct
+claimSubtype: prosecution_fraud_classification
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - 군검찰단
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/prosecution-misconduct
+  - source/book
+  - fracture/F-CE
+  - org/군검찰단
+---
 # 군검찰단의 사기수사가 형사범죄·사이버범죄의 성립요소를 충족
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.2.1 (lines 19-28)

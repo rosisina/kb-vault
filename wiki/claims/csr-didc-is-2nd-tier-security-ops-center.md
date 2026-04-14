@@ -1,3 +1,48 @@
+---
+lang: ko
+title-ko: DIDC는 국방사이버안보 훈령 제54조에 의한 '통합보안관제(2차)' 책임 부대 — 한지훈 아님
+title-en: DIDC는 국방사이버안보 훈령 제54조에 의한 '통합보안관제(2차)' 책임 부대 — 한지훈 아님
+aliases:
+  - FR-CSR-002
+  - DIDC는 국방사이버안보 훈령 제54조에 의한 '통합보안관제(2차)' 책임 부대 —
+
+layer: 1
+secondary-layers: [4, 6]
+claimType: institutional_obstruction
+claimSubtype: institutional_accountability
+fracture-type: F-CE
+source-type: regulation
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 7
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+organizations:
+  - DIDC
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - layer/L4
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/institutional-obstruction
+  - source/regulation
+  - fracture/F-CE
+  - person/한지훈
+  - org/DIDC
+  - cross-layer
+---
 # DIDC는 국방사이버안보 훈령 제54조에 의한 '통합보안관제(2차)' 책임 부대 — 한지훈 아님
 
 **Source:** raw/09. 사이버안보 훈령(당시)/cyber security reguration.md 제54조 제1항 제2호(나) (lines 494-496)

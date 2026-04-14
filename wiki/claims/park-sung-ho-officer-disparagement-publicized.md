@@ -1,3 +1,50 @@
+---
+lang: ko
+title-ko: 국전원장 박성호 (2016해킹당시원장-1)의 "부사관이 장교보다 낫다" 비하 발언과 공론화
+title-en: ""
+aliases:
+  - FR-L3-011
+  - 국전원장 박성호 (2016해킹당시원장-1)의 "부사관이 장교보다 낫다" 비하 발언과 공론화
+
+layer: 3
+secondary-layers: []
+claimType: methodology
+claimSubtype: action
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 8
+validity: 5
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: [1473, 11134]
+evidence-ids: ["L3-011"]
+event-date: null
+
+persons:
+  - 박성호
+  - 한지훈
+  - 김민수
+organizations:
+  - 국전원
+has-verbatim: false
+
+tags:
+  - layer/L3
+  - verdict/corroborated
+  - strength/strong
+  - type/methodology
+  - source/book
+  - fracture/F-CE
+  - person/박성호
+  - person/한지훈
+  - person/김민수
+  - org/국전원
+  - has/record-nos
+---
 # 국전원장 박성호 (2016해킹당시원장-1)의 "부사관이 장교보다 낫다" 비하 발언과 공론화
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/09-3-3-33-제3-층위.md (§3.3.3.1)

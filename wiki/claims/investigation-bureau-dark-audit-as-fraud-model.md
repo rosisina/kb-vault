@@ -1,3 +1,58 @@
+---
+lang: ko
+title-ko: 조사본부의 허위 갑질조사가 '깜깜이 수사'로서 사기수사의 전형적 모델을 증명한다
+title-en: ""
+aliases:
+  - FR-L5-DARK-AUDIT-001
+  - 조사본부의 허위 갑질조사가 '깜깜이 수사'로서 사기수사의 전형적 모델을 증명한다
+
+layer: 5
+secondary-layers: []
+claimType: procedural_violation
+claimSubtype: procedural_rights_violation
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 10
+analysisDate: 2026-04-11
+
+record-nos: [11040, 11066]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+  - 김민수
+  - 이지영
+  - 박서준
+  - 이태호
+organizations:
+  - 군검찰단
+  - MND
+  - 조사본부
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/procedural-violation
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - person/김민수
+  - person/이지영
+  - person/박서준
+  - person/이태호
+  - org/군검찰단
+  - org/MND
+  - org/조사본부
+  - has/record-nos
+---
 # 조사본부의 허위 갑질조사가 '깜깜이 수사'로서 사기수사의 전형적 모델을 증명한다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md (§3.5.2.3.1)

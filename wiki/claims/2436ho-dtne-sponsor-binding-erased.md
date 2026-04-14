@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: "제2436호 erases `사업관리기관 주관 하에` from the DT&E definition (A8b-sym)"
+title-en: ""
+aliases:
+  - FR-L4-A8b-sym-001
+  - "제2436호 erases `사업관리기관 주관 하에` from the DT&E"
+
+layer: 4
+secondary-layers: []
+claimType: regulatory_manipulation
+claimSubtype: regulatory_role_binding_erasure
+fracture-type: F-MS
+source-type: regulation
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 7
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: 2020-06-04
+
+persons: []
+organizations:
+  - 국전원
+  - MND
+  - 국본
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/regulatory-manipulation
+  - source/regulation
+  - fracture/F-MS
+  - org/국전원
+  - org/MND
+  - org/국본
+---
 # 제2436호 erases `사업관리기관 주관 하에` from the DT&E definition (A8b-sym)
 
 **Source:** raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2129호)(20180205).converted.md, raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2436호)(20200604).converted.md

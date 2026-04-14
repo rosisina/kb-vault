@@ -1,3 +1,61 @@
+---
+lang: ko
+title-ko: 한지훈의 보직이 국전원 재임 동안 본인 모르게 2회 변경되었다 (장교 개인 자력 조작)
+title-en: ""
+aliases:
+  - FR-L2-OFFICERMANIP-006
+  - 한지훈의 보직이 국전원 재임 동안 본인 모르게 2회 변경되었다 (장교 개인 자력 조작)
+
+layer: 2
+secondary-layers: []
+claimType: document_fabrication
+claimSubtype: personnel_record_manipulation
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 10
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+  - 이태호
+  - 이준호
+  - 오현수
+  - 이지영
+  - 김수진
+organizations:
+  - DIDC
+  - 국전원
+  - 군검찰단
+  - MND
+  - DCIA
+has-verbatim: false
+
+tags:
+  - layer/L2
+  - verdict/corroborated
+  - strength/strong
+  - type/document-fabrication
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - person/이태호
+  - person/이준호
+  - person/오현수
+  - person/이지영
+  - org/DIDC
+  - org/국전원
+  - org/군검찰단
+  - org/MND
+  - org/DCIA
+---
 # 한지훈의 보직이 국전원 재임 동안 본인 모르게 2회 변경되었다 (장교 개인 자력 조작)
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/08-3-2-32-제2-층위.md (§3.2.3)

@@ -1,3 +1,45 @@
+---
+lang: ko
+title-ko: "제2576호: 제64조 보고체계 재구조화 — 부적합 결과가 정보화기획관실에 보고되지 않는 구조적 사각지대"
+title-en: "제2576호: 제64조 보고체계 재구조화 — 부적합 결과가 정보화기획관실에 보고되지 않는 구조적 사각지대"
+aliases:
+  - FR-L4-ART64-FAILURE-BLINDSPOT
+  - "제2576호: 제64조 보고체계 재구조화 — 부적합 결과가 정보화기획관실에 보고되지 않는"
+
+layer: 4
+secondary-layers: [1]
+claimType: regulatory_manipulation
+claimSubtype: regulatory_reporting_chain
+fracture-type: F-MS
+source-type: regulation
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 7
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L1
+  - verdict/corroborated
+  - strength/strong
+  - type/regulatory-manipulation
+  - source/regulation
+  - fracture/F-MS
+  - org/MND
+  - cross-layer
+---
 # 제2576호: 제64조 보고체계 재구조화 — 부적합 결과가 정보화기획관실에 보고되지 않는 구조적 사각지대
 
 **Source:** raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2576호)(20210812).converted.md 제64조①③④ (lines 1800-1824)

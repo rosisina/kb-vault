@@ -1,3 +1,55 @@
+---
+lang: ko
+title-ko: "장우진 녹취 211: Windows 10 전환 시 ChakraMax 모듈 부재 → VPN 없이 DB 다이렉트 접속 + OTP 6~10개 수량 제한"
+title-en: ""
+aliases:
+  - FR-L4-WIN10-CHAKRAMAX-ABSENT
+  - "장우진 녹취 211: Windows 10 전환 시 ChakraMax 모듈 부재 → VPN"
+
+layer: 4
+secondary-layers: [1]
+claimType: technical_proof
+claimSubtype: technical_constraint_evidence
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 장우진
+  - 한지훈
+organizations:
+  - DIDC
+  - 국전원
+  - MND
+  - 국유단
+has-verbatim: true
+
+tags:
+  - layer/L4
+  - layer/L1
+  - verdict/corroborated
+  - strength/strong
+  - type/technical-proof
+  - source/recording
+  - person/장우진
+  - person/한지훈
+  - org/DIDC
+  - org/국전원
+  - org/MND
+  - org/국유단
+  - has/verbatim-quote
+  - cross-layer
+---
 # 장우진 녹취 211: Windows 10 전환 시 ChakraMax 모듈 부재 → VPN 없이 DB 다이렉트 접속 + OTP 6~10개 수량 제한
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[020]` 녹취 211 (2022.7.22, 00:31:07, lines 12547~12795) • 녹취 212 (2022.9.27, 00:11:35, lines 12838~12906)

@@ -1,3 +1,45 @@
+---
+lang: ko
+title-ko: 제4층위의 조작 결과가 제6층위 검찰의 범죄자 낙인 도구로 전용 — 자기모순 구조
+title-en: 제4층위의 조작 결과가 제6층위 검찰의 범죄자 낙인 도구로 전용 — 자기모순 구조
+aliases:
+  - FR-L4-L6-SELF-TRAPPING
+  - 제4층위의 조작 결과가 제6층위 검찰의 범죄자 낙인 도구로 전용 — 자기모순 구조
+
+layer: 4
+secondary-layers: [6]
+claimType: cross_layer_analysis
+claimSubtype: cross_layer_mechanism
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - 군검찰단
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/cross-layer-analysis
+  - source/book
+  - fracture/F-MS
+  - org/군검찰단
+  - cross-layer
+---
 # 제4층위의 조작 결과가 제6층위 검찰의 범죄자 낙인 도구로 전용 — 자기모순 구조
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4 (lines 3)

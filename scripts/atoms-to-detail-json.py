@@ -25,6 +25,8 @@ import re
 import sys
 from pathlib import Path
 
+import yaml
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CLAIMS_DIR = REPO_ROOT / "wiki" / "claims"
 OUTPUT_DETAIL = REPO_ROOT / "output" / "detail.json"
@@ -120,19 +122,48 @@ def main() -> int:
             continue
         body = path.read_text(encoding="utf-8")
 
-        result_id_m = PAT_RID.search(body)
-        if not result_id_m:
+        # ── YAML frontmatter (preferred) ──────────────────────────
+        fm = None
+        if body.startswith("---\n"):
+            try:
+                fm_end_pos = body.index("---", 4)
+                fm = yaml.safe_load(body[4:fm_end_pos])
+            except Exception:
+                fm = None
+
+        if fm:
+            result_id = fm.get("aliases", [""])[0] if fm.get("aliases") else ""
+            if not result_id:
+                result_id_m = PAT_RID.search(body)
+                result_id = result_id_m.group(1) if result_id_m else ""
+            title = fm.get("title-ko") or fm.get("title-en") or path.stem
+            source_m = PAT_SOURCE.search(body)
+            source = source_m.group(1) if source_m else ""
+            layer = fm.get("layer", 0)
+            persons = fm.get("persons", [])
+            organizations = fm.get("organizations", [])
+            fracture_type = fm.get("fracture-type")
+            if fracture_type == "null" or fracture_type is None:
+                fracture_type = None
+            source_type = fm.get("source-type", "unknown")
+        else:
+            result_id_m = PAT_RID.search(body)
+            if not result_id_m:
+                continue
+            result_id = result_id_m.group(1)
+            title_m = PAT_TITLE.search(body)
+            title = title_m.group(1) if title_m else path.stem
+            source_m = PAT_SOURCE.search(body)
+            source = source_m.group(1) if source_m else ""
+            layer_m = PAT_LAYER.search(body)
+            layer = int(layer_m.group(1)) if layer_m else 0
+            persons = []
+            organizations = []
+            fracture_type = None
+            source_type = "unknown"
+
+        if not result_id:
             continue
-        result_id = result_id_m.group(1)
-
-        title_m = PAT_TITLE.search(body)
-        title = title_m.group(1) if title_m else path.stem
-
-        source_m = PAT_SOURCE.search(body)
-        source = source_m.group(1) if source_m else ""
-
-        layer_m = PAT_LAYER.search(body)
-        layer = int(layer_m.group(1)) if layer_m else 0
 
         # Extract all sections
         claim = _extract_section(body, "Claim")
@@ -169,6 +200,10 @@ def main() -> int:
             "spotCheck": spot_check,
             "related": related,
             "allRecordNos": all_records,
+            "persons": persons or [],
+            "organizations": organizations or [],
+            "fractureType": fracture_type,
+            "sourceType": source_type,
         }
 
     # ── Output ────────────────────────────────────────────────────────

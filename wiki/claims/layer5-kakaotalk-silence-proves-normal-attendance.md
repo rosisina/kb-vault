@@ -1,3 +1,57 @@
+---
+lang: ko
+title-ko: 단톡방 3년간 출퇴근 보고 0건이 한지훈의 정상 근무를 역설적으로 증명함 — 발화 부재가 증거 존재(Speech Act 분석)
+title-en: 단톡방 3년간 출퇴근 보고 0건이 한지훈의 정상 근무를 역설적으로 증명함 — 발화 부재가 증거 존재(Speech Act 분석)
+aliases:
+  - FR-L5-KAKAOTALK-SILENCE
+  - 단톡방 3년간 출퇴근 보고 0건이 한지훈의 정상 근무를 역설적으로 증명함 — 발화 부재가
+
+layer: 5
+secondary-layers: [3]
+claimType: witness_manipulation
+claimSubtype: absence_of_speech_as_evidence
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 7
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: [1881]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+  - 이지영
+  - 박서준
+  - 김민수
+  - 김수진
+  - 양미숙
+organizations:
+  - 조사본부
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - layer/L3
+  - verdict/corroborated
+  - strength/strong
+  - type/witness-manipulation
+  - source/book
+  - fracture/F-CE
+  - person/한지훈
+  - person/이지영
+  - person/박서준
+  - person/김민수
+  - person/김수진
+  - org/조사본부
+  - has/record-nos
+  - cross-layer
+---
 # 단톡방 3년간 출퇴근 보고 0건이 한지훈의 정상 근무를 역설적으로 증명함 — 발화 부재가 증거 존재(Speech Act 분석)
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md (book §3.5.2.2.4)

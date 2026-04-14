@@ -1,3 +1,54 @@
+---
+lang: ko
+title-ko: "1단계: 99.7점 성공 평가 결과 무력화 (2019.9~2020)"
+title-en: ""
+aliases:
+  - FR-L6-021
+  - "1단계: 99.7점 성공 평가 결과 무력화 (2019.9~2020)"
+
+layer: 6
+secondary-layers: [4]
+claimType: methodology
+claimSubtype: process
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 8
+validity: 8
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: [3987]
+evidence-ids: ["L6-021"]
+event-date: null
+
+persons:
+  - 한지훈
+  - 김민수
+organizations:
+  - 국전원
+  - 군검찰단
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/methodology
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - person/김민수
+  - org/국전원
+  - org/군검찰단
+  - org/MND
+  - has/record-nos
+  - cross-layer
+---
 # 1단계: 99.7점 성공 평가 결과 무력화 (2019.9~2020)
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md (§3.6.5.3.1)

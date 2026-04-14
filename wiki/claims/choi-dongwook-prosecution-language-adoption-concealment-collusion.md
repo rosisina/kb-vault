@@ -1,3 +1,51 @@
+---
+lang: ko
+title-ko: "최동욱 변호사: 검찰의 \"은폐·모의\" 언어를 그대로 반복 — \"전산은 우리가 뭐 아나\""
+title-en: "최동욱 변호사: 검찰의 \"은폐·모의\" 언어를 그대로 반복 — \"전산은 우리가 뭐 아나\""
+aliases:
+  - FR-L6-LAWYER-PROSECUTION-LANGUAGE
+  - "최동욱 변호사: 검찰의 \"은폐·모의\" 언어를 그대로 반복 — \"전산은 우리가 뭐 아나\""
+
+layer: 6
+secondary-layers: [5]
+claimType: attorney_misconduct
+claimSubtype: attorney_prosecution_alignment_linguistic
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 8
+analysisDate: 2026-04-13
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 최동욱
+  - 한지훈
+  - 이준호
+organizations:
+  - 국유단
+has-verbatim: true
+
+tags:
+  - layer/L6
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/attorney-misconduct
+  - source/recording
+  - person/최동욱
+  - person/한지훈
+  - person/이준호
+  - org/국유단
+  - has/verbatim-quote
+  - cross-layer
+---
 # 최동욱 변호사: 검찰의 "은폐·모의" 언어를 그대로 반복 — "전산은 우리가 뭐 아나"
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[016]` 녹취 182 (녹취 사, 2022.7.19, 00:21:01, line 8253+)

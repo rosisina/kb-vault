@@ -1,3 +1,53 @@
+---
+lang: ko
+title-ko: 제5층위는 사이버공간의 APT 공격이 인간을 직접 표적으로 삼은 최초의 학술적 실증 사례다
+title-en: ""
+aliases:
+  - FR-L5-048
+  - 제5층위는 사이버공간의 APT 공격이 인간을 직접 표적으로 삼은 최초의 학술적 실증 사례다
+
+layer: 5
+secondary-layers: [7]
+claimType: methodology
+claimSubtype: historical_significance_apt_human_targeting
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 8
+validity: 7
+sincerity: 10
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: ["L5-048"]
+event-date: null
+
+persons:
+  - 한지훈
+  - 김민수
+  - 이지영
+  - 이승우
+organizations:
+  - 조사본부
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/methodology
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - person/김민수
+  - person/이지영
+  - person/이승우
+  - org/조사본부
+  - cross-layer
+---
 # 제5층위는 사이버공간의 APT 공격이 인간을 직접 표적으로 삼은 최초의 학술적 실증 사례다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md (§3.5.1.8)

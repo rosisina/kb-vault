@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: 이지영의 직권조사 의뢰→철회 수시간 내 번복 — '없었던 걸로 하시죠'
+title-en: 이지영의 직권조사 의뢰→철회 수시간 내 번복 — '없었던 걸로 하시죠'
+aliases:
+  - FR-L5-JIKGWON-FLIP-FLOP
+  - 이지영의 직권조사 의뢰→철회 수시간 내 번복 — '없었던 걸로 하시죠'
+
+layer: 5
+secondary-layers: [7]
+claimType: institutional_obstruction
+claimSubtype: institutional_cover_up
+fracture-type: F-MS
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: 2022-02-21
+
+persons:
+  - 이지영
+organizations:
+  - 국전원
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/institutional-obstruction
+  - source/recording
+  - fracture/F-MS
+  - person/이지영
+  - org/국전원
+  - cross-layer
+---
 # 이지영의 직권조사 의뢰→철회 수시간 내 번복 — '없었던 걸로 하시죠'
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md 녹취019-020 (lines 2344-2399)

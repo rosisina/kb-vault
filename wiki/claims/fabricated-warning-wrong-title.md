@@ -1,3 +1,48 @@
+---
+lang: ko
+title-ko: "C-L5-04 확장: 경고장의 존재하지 않는 직위 기재 — 행정정보계획팀장(미존재) vs 자원정보화과 국방정보화사업담당(공식)"
+title-en: "C-L5-04 확장: 경고장의 존재하지 않는 직위 기재 — 행정정보계획팀장(미존재) vs 자원정보화과 국방정보화사업담당(공식)"
+aliases:
+  - FR-C-L5-04-EXT
+  - "C-L5-04 확장: 경고장의 존재하지 않는 직위 기재 — 행정정보계획팀장(미존재) vs"
+
+layer: 5
+secondary-layers: [6]
+claimType: cross_layer_analysis
+claimSubtype: contradiction_pair
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: [1584, 1586, 4064, 4878]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+organizations:
+  - 군검찰단
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/cross-layer-analysis
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - org/군검찰단
+  - has/record-nos
+  - cross-layer
+---
 # C-L5-04 확장: 경고장의 존재하지 않는 직위 기재 — 행정정보계획팀장(미존재) vs 자원정보화과 국방정보화사업담당(공식)
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md §3.5.1.3 (lines 49-60)

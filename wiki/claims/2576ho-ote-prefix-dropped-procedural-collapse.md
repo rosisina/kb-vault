@@ -1,3 +1,42 @@
+---
+lang: ko
+title-ko: "제2576호: 제62-64조에서 '운용' 접두어 제거 — DT/OT 제도적 구분 완전 소멸"
+title-en: "제2576호: 제62-64조에서 '운용' 접두어 제거 — DT/OT 제도적 구분 완전 소멸"
+aliases:
+  - FR-L4-OTE-PREFIX-DROPPED
+  - "제2576호: 제62-64조에서 '운용' 접두어 제거 — DT/OT 제도적 구분 완전 소멸"
+
+layer: 4
+secondary-layers: []
+claimType: terminology_manipulation
+claimSubtype: terminology_substitution
+fracture-type: null
+source-type: regulation
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 8
+sincerity: 6
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - verdict/corroborated
+  - strength/moderate
+  - type/terminology-manipulation
+  - source/regulation
+  - org/MND
+---
 # 제2576호: 제62-64조에서 '운용' 접두어 제거 — DT/OT 제도적 구분 완전 소멸
 
 **Source:** raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2576호)(20210812).converted.md 제62조, 제63조, 제64조 제목 (lines 1743-1800)

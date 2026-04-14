@@ -1,3 +1,54 @@
+---
+lang: ko
+title-ko: 갑질 신고 48시간 전 협력 회의 + 사전 준비된 독방 격리
+title-en: ""
+aliases:
+  - FR-L5-48HR-PREMEDITATED-ISOLATION
+  - 갑질 신고 48시간 전 협력 회의 + 사전 준비된 독방 격리
+
+layer: 5
+secondary-layers: []
+claimType: human_rights_violation
+claimSubtype: premeditated_human_rights_violation
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 10
+analysisDate: 2026-04-12
+
+record-nos: [3966, 4826, 11009, 11026, 11334]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 김민수
+  - 이지영
+  - 박서준
+  - 한지훈
+organizations:
+  - 국전원
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/human-rights-violation
+  - source/book
+  - fracture/F-MS
+  - person/김민수
+  - person/이지영
+  - person/박서준
+  - person/한지훈
+  - org/국전원
+  - org/국유단
+  - has/record-nos
+---
 # 갑질 신고 48시간 전 협력 회의 + 사전 준비된 독방 격리
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md §3.5.1.1 (lines 25-42)

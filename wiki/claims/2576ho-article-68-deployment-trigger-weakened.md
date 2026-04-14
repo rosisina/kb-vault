@@ -1,3 +1,44 @@
+---
+lang: ko
+title-ko: "제2576호: 제68조 전력화 조건 완화 — '운용시험평가결과'→'시험평가결과'"
+title-en: "제2576호: 제68조 전력화 조건 완화 — '운용시험평가결과'→'시험평가결과'"
+aliases:
+  - FR-L4-ART68-TRIGGER-WEAKENED
+  - "제2576호: 제68조 전력화 조건 완화 — '운용시험평가결과'→'시험평가결과'"
+
+layer: 4
+secondary-layers: [1]
+claimType: terminology_manipulation
+claimSubtype: terminology_substitution
+fracture-type: null
+source-type: regulation
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 8
+sincerity: 7
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L1
+  - verdict/corroborated
+  - strength/moderate
+  - type/terminology-manipulation
+  - source/regulation
+  - org/MND
+  - cross-layer
+---
 # 제2576호: 제68조 전력화 조건 완화 — '운용시험평가결과'→'시험평가결과'
 
 **Source:** raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2576호)(20210812).converted.md 제68조①②③ (lines 1901-1911)

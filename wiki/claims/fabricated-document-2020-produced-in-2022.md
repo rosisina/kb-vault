@@ -1,3 +1,48 @@
+---
+lang: ko
+title-ko: 2020.8.20 국방부 공문의 2022년 소급 조작 — '인도 단계' 용어의 시간역전
+title-en: 2020.8.20 국방부 공문의 2022년 소급 조작 — '인도 단계' 용어의 시간역전
+aliases:
+  - FR-L4-FABRICATED-DOC-2020-IN-2022
+  - 2020.8.20 국방부 공문의 2022년 소급 조작 — '인도 단계' 용어의 시간역전
+
+layer: 4
+secondary-layers: []
+claimType: document_fabrication
+claimSubtype: document_fabrication_temporal
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: [4757, 4821]
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - 국전원
+  - 군검찰단
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/document-fabrication
+  - source/book
+  - fracture/F-MS
+  - org/국전원
+  - org/군검찰단
+  - org/MND
+  - has/record-nos
+---
 # 2020.8.20 국방부 공문의 2022년 소급 조작 — '인도 단계' 용어의 시간역전
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.7.3.6 (lines 664-721)

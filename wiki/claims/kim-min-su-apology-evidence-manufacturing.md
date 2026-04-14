@@ -1,3 +1,49 @@
+---
+lang: ko
+title-ko: 김민수의 사과 증거 제조 지시 — 감사실 사전 조율 후 '사과한 흔적 남기라'
+title-en: 김민수의 사과 증거 제조 지시 — 감사실 사전 조율 후 '사과한 흔적 남기라'
+aliases:
+  - FR-L5-APOLOGY-EVIDENCE-MANUFACTURING
+  - 김민수의 사과 증거 제조 지시 — 감사실 사전 조율 후 '사과한 흔적 남기라'
+
+layer: 5
+secondary-layers: [7]
+claimType: institutional_obstruction
+claimSubtype: institutional_manipulation
+fracture-type: F-MS
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 7
+sincerity: 10
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: 2022-02-21
+
+persons:
+  - 김민수
+  - 한지훈
+organizations:
+  - 감사실
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/institutional-obstruction
+  - source/recording
+  - fracture/F-MS
+  - person/김민수
+  - person/한지훈
+  - org/감사실
+  - cross-layer
+---
 # 김민수의 사과 증거 제조 지시 — 감사실 사전 조율 후 '사과한 흔적 남기라'
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md 녹취006 (lines 1718-1747)

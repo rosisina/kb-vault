@@ -1,3 +1,44 @@
+---
+lang: ko
+title-ko: "C-L4-19: 제58조 분리 원칙 5년 안정(2015~2020.2) → 제2436호 4개월 만에 역전(2020.6)"
+title-en: ""
+aliases:
+  - FR-C-L4-19
+  - "C-L4-19: 제58조 분리 원칙 5년 안정(2015~2020.2) → 제2436호"
+
+layer: 4
+secondary-layers: [1]
+claimType: cross_layer_analysis
+claimSubtype: contradiction_pair
+fracture-type: F-MS
+source-type: regulation
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 7
+analysisDate: 2026-04-12
+
+record-nos: [7512, 8194]
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L1
+  - verdict/corroborated
+  - strength/strong
+  - type/cross-layer-analysis
+  - source/regulation
+  - fracture/F-MS
+  - has/record-nos
+  - cross-layer
+---
 # C-L4-19: 제58조 분리 원칙 5년 안정(2015~2020.2) → 제2436호 4개월 만에 역전(2020.6)
 
 **Source:** raw/04. law & regulation/Korean/국방 정보화업무 훈령 제58조 변천사 (lines N/A)

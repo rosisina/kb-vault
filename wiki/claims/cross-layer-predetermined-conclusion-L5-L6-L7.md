@@ -1,3 +1,44 @@
+---
+lang: ko
+title-ko: "L5→L6→L7 결론선행 체인: 감사→기소→제도거부 3단계 동일 패턴 반복"
+title-en: ""
+aliases:
+  - FR-CB-05-PREDETERMINED-CHAIN
+  - "L5→L6→L7 결론선행 체인: 감사→기소→제도거부 3단계 동일 패턴 반복"
+
+layer: 7
+secondary-layers: [5, 6]
+claimType: cross_layer_analysis
+claimSubtype: cross_layer_pattern
+fracture-type: F-MS
+source-type: unknown
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 10
+analysisDate: 2026-04-12
+
+record-nos: [3965, 5679, 11188]
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L7
+  - layer/L5
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/cross-layer-analysis
+  - fracture/F-MS
+  - has/record-nos
+  - cross-layer
+---
 # L5→L6→L7 결론선행 체인: 감사→기소→제도거부 3단계 동일 패턴 반복
 
 **Source:** wiki/claims/layer5-predetermined-audit-conclusion.md + prosecution-knew-innocence-continued-case.md + han-ji-hoon-rebuttal-rejected-by-eight-institutions.md §3.5.2.1 + §3.6.3.3.5 + §3.7 (lines cross-reference)

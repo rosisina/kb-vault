@@ -1,3 +1,46 @@
+---
+lang: ko
+title-ko: 3개 독립 소스가 80건을 '추가요구사항'으로 삼각 확인 — 검찰 '하자' 프레이밍 반박
+title-en: 3개 독립 소스가 80건을 '추가요구사항'으로 삼각 확인 — 검찰 '하자' 프레이밍 반박
+aliases:
+  - FR-XSYN-80ITEMS-TRIANGULATED
+  - 3개 독립 소스가 80건을 '추가요구사항'으로 삼각 확인 — 검찰 '하자' 프레이밍 반박
+
+layer: 4
+secondary-layers: [6]
+claimType: cross_layer_analysis
+claimSubtype: cross_source_synthesis
+fracture-type: F-CE
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: [3987, 5950]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/cross-layer-analysis
+  - source/recording
+  - fracture/F-CE
+  - person/한지훈
+  - has/record-nos
+  - cross-layer
+---
 # 3개 독립 소스가 80건을 '추가요구사항'으로 삼각 확인 — 검찰 '하자' 프레이밍 반박
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md 녹취001 lines 287-311 (lines 287-311)

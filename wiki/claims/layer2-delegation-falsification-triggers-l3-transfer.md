@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: 新KIATIS 위임사업 허위 분류가 Layer 3 국전원 이관의 원인 구조
+title-en: ""
+aliases:
+  - FR-L2-DELEGATION-FALSIFICATION-L3-BRIDGE
+  - 新KIATIS 위임사업 허위 분류가 Layer 3 국전원 이관의 원인 구조
+
+layer: 2
+secondary-layers: [3]
+claimType: conspiracy_structure
+claimSubtype: delegation_falsification_causal_bridge
+fracture-type: null
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: [1056, 1057, 1119, 1140, 7496]
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - 국전원
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L2
+  - layer/L3
+  - verdict/corroborated
+  - strength/strong
+  - type/conspiracy-structure
+  - source/book
+  - org/국전원
+  - org/MND
+  - has/record-nos
+  - cross-layer
+---
 # 新KIATIS 위임사업 허위 분류가 Layer 3 국전원 이관의 원인 구조
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/08-3-2-32-제2-층위.md §3.2 (lines 11-18)

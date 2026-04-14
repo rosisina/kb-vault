@@ -1,3 +1,48 @@
+---
+lang: ko
+title-ko: 군검찰단의 영장·수사개시 통보 자체가 실제 허위공문서
+title-en: ""
+aliases:
+  - FR-L6-WARRANT-IS-FALSE-DOCUMENT
+  - 군검찰단의 영장·수사개시 통보 자체가 실제 허위공문서
+
+layer: 6
+secondary-layers: []
+claimType: prosecution_misconduct
+claimSubtype: prosecution_document_fraud
+fracture-type: F-SC
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: [4979, 5008]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+organizations:
+  - 군검찰단
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/prosecution-misconduct
+  - source/book
+  - fracture/F-SC
+  - person/한지훈
+  - org/군검찰단
+  - org/MND
+  - has/record-nos
+---
 # 군검찰단의 영장·수사개시 통보 자체가 실제 허위공문서
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.3.3.3 (lines 213-232)

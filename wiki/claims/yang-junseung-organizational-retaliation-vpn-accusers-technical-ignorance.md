@@ -1,3 +1,57 @@
+---
+lang: ko
+title-ko: "양준승: \"완전 개심하네\" — 검찰 혐의 서사에 대한 외부 목격자 반응 + VPN 비전문 기소의 부당함"
+title-en: "양준승: \"완전 개심하네\" — 검찰 혐의 서사에 대한 외부 목격자 반응 + VPN 비전문 기소의 부당함"
+aliases:
+  - FR-L6-EXTERNAL-WITNESS-REACTION
+  - "양준승: \"완전 개심하네\" — 검찰 혐의 서사에 대한 외부 목격자 반응 + VPN 비전문"
+
+layer: 6
+secondary-layers: [5]
+claimType: testimony_evidence
+claimSubtype: external_witness_prosecution_reaction
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-13
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 양준승
+  - 한지훈
+  - 이준호
+  - 박서준
+organizations:
+  - DIDC
+  - 국전원
+  - DCIA
+has-verbatim: true
+
+tags:
+  - layer/L6
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/testimony-evidence
+  - source/recording
+  - person/양준승
+  - person/한지훈
+  - person/이준호
+  - person/박서준
+  - org/DIDC
+  - org/국전원
+  - org/DCIA
+  - has/verbatim-quote
+  - cross-layer
+---
 # 양준승: "완전 개심하네" — 검찰 혐의 서사에 대한 외부 목격자 반응 + VPN 비전문 기소의 부당함
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[060]` 녹취 285 (2025.7.16, 02:17:02, line 16512+) • 녹취 284 (2022.8.22, 00:15:12)

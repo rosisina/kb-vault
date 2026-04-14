@@ -1,3 +1,54 @@
+---
+lang: ko
+title-ko: "한지훈의 갑질 조사 수첩기록 (2022.3.25, 30개 질의응답) — 신고 동기 = 교육 보복 + 경고장 허위 보직명 + 17:30 석식 상세"
+title-en: "한지훈의 갑질 조사 수첩기록 (2022.3.25, 30개 질의응답) — 신고 동기 = 교육 보복 + 경고장 허위 보직명 + 17:30 석식 상세"
+aliases:
+  - FR-L5-INVESTIGATION-NOTEBOOK-30Q
+  - "한지훈의 갑질 조사 수첩기록 (2022.3.25, 30개 질의응답) — 신고 동기 ="
+
+layer: 5
+secondary-layers: []
+claimType: testimony_evidence
+claimSubtype: contemporaneous_investigation_record
+fracture-type: null
+source-type: unknown
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 10
+analysisDate: 2026-04-13
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 박서준
+  - 한지훈
+  - 이승우
+  - 김민수
+  - 이지영
+organizations:
+  - MND
+  - 국유단
+has-verbatim: true
+
+tags:
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/testimony-evidence
+  - person/박서준
+  - person/한지훈
+  - person/이승우
+  - person/김민수
+  - person/이지영
+  - org/MND
+  - org/국유단
+  - has/verbatim-quote
+---
 # 한지훈의 갑질 조사 수첩기록 (2022.3.25, 30개 질의응답) — 신고 동기 = 교육 보복 + 경고장 허위 보직명 + 17:30 석식 상세
 
 **Source:** raw/10. 인원별 관련 문서/[20220325] 갑질 신고 조사시 질문내용 수첩기록, 결과요약.pdf (2 pages)

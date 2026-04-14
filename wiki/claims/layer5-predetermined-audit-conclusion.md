@@ -1,3 +1,53 @@
+---
+lang: ko
+title-ko: 국방부 조사본부는 2022-02-10 징계·전역 결론을 선언한 후 2022-03-25에 29개 유도심문 조사를 실시했다
+title-en: ""
+aliases:
+  - FR-L5-003
+  - 국방부 조사본부는 2022-02-10 징계·전역 결론을 선언한 후 2022-03-25에
+
+layer: 5
+secondary-layers: [7]
+claimType: temporal_manipulation
+claimSubtype: predetermined_audit_conclusion
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: ["L5-003"]
+event-date: 2022-03-25
+
+persons:
+  - 김민수
+  - 한지훈
+organizations:
+  - 국전원
+  - MND
+  - 조사본부
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/temporal-manipulation
+  - source/book
+  - fracture/F-MS
+  - person/김민수
+  - person/한지훈
+  - org/국전원
+  - org/MND
+  - org/조사본부
+  - cross-layer
+---
 # 국방부 조사본부는 2022-02-10 징계·전역 결론을 선언한 후 2022-03-25에 29개 유도심문 조사를 실시했다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md (book §3.5.2.1 / §3.5.2.3.5 / §3.5.1.2 / §3.5.2.2.1)

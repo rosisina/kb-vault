@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: 3년 11개월간 국가기관의 맞춤형 개인 타겟팅 — 조직적 스토킹
+title-en: 3년 11개월간 국가기관의 맞춤형 개인 타겟팅 — 조직적 스토킹
+aliases:
+  - FR-L5-APT-3Y11M-PERSONALIZED
+  - 3년 11개월간 국가기관의 맞춤형 개인 타겟팅 — 조직적 스토킹
+
+layer: 5
+secondary-layers: [6, 7]
+claimType: cross_layer_analysis
+claimSubtype: cross_layer_synthesis
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 8
+validity: 6
+sincerity: 10
+analysisDate: 2026-04-12
+
+record-nos: [4979, 5578, 5671]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - layer/L6
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/cross-layer-analysis
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - has/record-nos
+  - cross-layer
+---
 # 3년 11개월간 국가기관의 맞춤형 개인 타겟팅 — 조직적 스토킹
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/14-4-4-한나-아렌트.md §4.2.1 (lines 23-28)

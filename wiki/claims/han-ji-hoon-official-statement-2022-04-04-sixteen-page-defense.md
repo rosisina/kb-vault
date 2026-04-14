@@ -1,3 +1,57 @@
+---
+lang: ko
+title-ko: "한지훈 공식 진술 및 소명서 (2022.4.4, 16페이지) — 갑질 혐의 전면 반박 + 김민수의 전역 강요 + \"저도 살고 싶습니다\" 기록"
+title-en: "한지훈 공식 진술 및 소명서 (2022.4.4, 16페이지) — 갑질 혐의 전면 반박 + 김민수의 전역 강요 + \"저도 살고 싶습니다\" 기록"
+aliases:
+  - FR-L5-OFFICIAL-STATEMENT-20220404
+  - "한지훈 공식 진술 및 소명서 (2022.4.4, 16페이지) — 갑질 혐의 전면 반박 +"
+
+layer: 5
+secondary-layers: [7]
+claimType: testimony_evidence
+claimSubtype: primary_defense_document
+fracture-type: null
+source-type: unknown
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 10
+validity: 8
+sincerity: 10
+analysisDate: 2026-04-13
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 박서준
+  - 한지훈
+  - 김민수
+  - 이지영
+  - 이준호
+  - 지원호
+organizations:
+  - 국전원
+  - MND
+has-verbatim: true
+
+tags:
+  - layer/L5
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/testimony-evidence
+  - person/박서준
+  - person/한지훈
+  - person/김민수
+  - person/이지영
+  - person/이준호
+  - org/국전원
+  - org/MND
+  - has/verbatim-quote
+  - cross-layer
+---
 # 한지훈 공식 진술 및 소명서 (2022.4.4, 16페이지) — 갑질 혐의 전면 반박 + 김민수의 전역 강요 + "저도 살고 싶습니다" 기록
 
 **Source:** raw/10. 인원별 관련 문서/[20220404] 진술 및 소명서(갑질, 국방부 감사관실).pdf (16 pages, signed 2022.4.4)

@@ -1,3 +1,52 @@
+---
+lang: ko
+title-ko: "김민수의 \"심각하다 전역만이 옵션이다\" 확정: 3단계 발화수반력 증폭과 책임 전가 자백"
+title-en: ""
+aliases:
+  - FR-L5-057
+  - "김민수의 \"심각하다 전역만이 옵션이다\" 확정: 3단계 발화수반력 증폭과 책임 전가 자백"
+
+layer: 5
+secondary-layers: []
+claimType: human_rights_violation
+claimSubtype: kim_min_su_discharge_ultimatum_escalation
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 10
+analysisDate: 2026-04-11
+
+record-nos: [11054]
+evidence-ids: ["L5-057"]
+event-date: null
+
+persons:
+  - 김민수
+  - 한지훈
+  - 이승우
+organizations:
+  - MND
+  - 조사본부
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/human-rights-violation
+  - source/book
+  - fracture/F-MS
+  - person/김민수
+  - person/한지훈
+  - person/이승우
+  - org/MND
+  - org/조사본부
+  - has/record-nos
+---
 # 김민수의 "심각하다 전역만이 옵션이다" 확정: 3단계 발화수반력 증폭과 책임 전가 자백
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md (§3.5.2.2.7)

@@ -1,3 +1,46 @@
+---
+lang: ko
+title-ko: "DIDC SOP 제11호 Chapter 4 (변경관리, 제21~32조) mandates 11-gate change-management trail; KIATIS-era system changes at DIDC must have generated this trail"
+title-en: ""
+aliases:
+  - FR-L1-DIDC-004
+  - "DIDC SOP 제11호 Chapter 4 (변경관리, 제21~32조) mandates"
+
+layer: 1
+secondary-layers: [4]
+claimType: procedural_violation
+claimSubtype: procedural_artifact_mandatory
+fracture-type: null
+source-type: sop
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 7
+validity: 10
+sincerity: 7
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - DIDC
+  - 국전원
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - layer/L4
+  - verdict/corroborated
+  - strength/moderate
+  - type/procedural-violation
+  - source/sop
+  - org/DIDC
+  - org/국전원
+  - cross-layer
+---
 # DIDC SOP 제11호 Chapter 4 (변경관리, 제21~32조) mandates 11-gate change-management trail; KIATIS-era system changes at DIDC must have generated this trail
 
 **Source:** raw/06. DIDC SOP(국방 통합데이터 센터 예규)/02.(Korean) DIDC_정보시스템_운영관리_예규.md (Chapter 4 변경관리 제21~32조)

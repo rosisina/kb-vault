@@ -1,3 +1,54 @@
+---
+lang: ko
+title-ko: 국유단의 연계 데이터 부재와 평가위원회의 불법적 80건 추가 요구사항이 新KIATIS 전력화 지연의 직접 원인이다
+title-en: ""
+aliases:
+  - FR-L6-DATA-ABSENCE-001
+  - 국유단의 연계 데이터 부재와 평가위원회의 불법적 80건 추가 요구사항이 新KIATIS
+
+layer: 6
+secondary-layers: [4]
+claimType: temporal_manipulation
+claimSubtype: deliberate_delay_mechanism
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 7
+analysisDate: 2026-04-11
+
+record-nos: [2610, 11322]
+evidence-ids: ["L6-007"]
+event-date: null
+
+persons:
+  - 박서준
+  - 한지훈
+organizations:
+  - 군검찰단
+  - MND
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/temporal-manipulation
+  - source/book
+  - fracture/F-CE
+  - person/박서준
+  - person/한지훈
+  - org/군검찰단
+  - org/MND
+  - org/국유단
+  - has/record-nos
+  - cross-layer
+---
 # 국유단의 연계 데이터 부재와 평가위원회의 불법적 80건 추가 요구사항이 新KIATIS 전력화 지연의 직접 원인이다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md (§3.6.5.1.1)

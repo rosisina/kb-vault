@@ -1,3 +1,61 @@
+---
+lang: ko
+title-ko: 불기소결정서의 허위공문서작성 혐의에서 군검찰이 스스로 평가 결과의 정당성을 인정하면서 동시에 허위라고 주장하는 자기모순을 드러냈다
+title-en: ""
+aliases:
+  - FR-L6-B3-003
+  - 불기소결정서의 허위공문서작성 혐의에서 군검찰이 스스로 평가 결과의 정당성을 인정하면서
+
+layer: 6
+secondary-layers: [1, 2]
+claimType: prosecution_misconduct
+claimSubtype: prosecution_self_contradiction_false_document
+fracture-type: F-SC
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: [394, 1481, 1483]
+evidence-ids: ["L6-031"]
+event-date: null
+
+persons:
+  - 한지훈
+  - 이준호
+  - 박성호
+  - 최영수
+  - 김경진
+organizations:
+  - 국전원
+  - 군검찰단
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L1
+  - layer/L2
+  - verdict/corroborated
+  - strength/strong
+  - type/prosecution-misconduct
+  - source/book
+  - fracture/F-SC
+  - person/한지훈
+  - person/이준호
+  - person/박성호
+  - person/최영수
+  - person/김경진
+  - org/국전원
+  - org/군검찰단
+  - org/국유단
+  - has/record-nos
+  - cross-layer
+---
 # 불기소결정서의 허위공문서작성 혐의에서 군검찰이 스스로 평가 결과의 정당성을 인정하면서 동시에 허위라고 주장하는 자기모순을 드러냈다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md (§3.6.4.7, lines 582–610)

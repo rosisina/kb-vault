@@ -1,3 +1,49 @@
+---
+lang: ko
+title-ko: 조작 공문 수신자가 행정담당 인원에 국한 — DIDC 배제
+title-en: 조작 공문 수신자가 행정담당 인원에 국한 — DIDC 배제
+aliases:
+  - FR-L4-RECIPIENTS-ADMIN-ONLY
+  - 조작 공문 수신자가 행정담당 인원에 국한 — DIDC 배제
+
+layer: 4
+secondary-layers: []
+claimType: document_fabrication
+claimSubtype: document_fabrication_distribution
+fracture-type: null
+source-type: book
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 8
+sincerity: 7
+analysisDate: 2026-04-11
+
+record-nos: [4758]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 양미숙
+organizations:
+  - DIDC
+  - 국전원
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - verdict/corroborated
+  - strength/moderate
+  - type/document-fabrication
+  - source/book
+  - person/양미숙
+  - org/DIDC
+  - org/국전원
+  - org/MND
+  - has/record-nos
+---
 # 조작 공문 수신자가 행정담당 인원에 국한 — DIDC 배제
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.7.3.6 (lines 664-721)

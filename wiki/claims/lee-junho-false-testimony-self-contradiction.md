@@ -1,3 +1,48 @@
+---
+lang: ko
+title-ko: 이준호의 허위 진술 — 자신의 공문이 반박
+title-en: 이준호의 허위 진술 — 자신의 공문이 반박
+aliases:
+  - FR-L6-LEEJUNHO-FALSE-TESTIMONY
+  - 이준호의 허위 진술 — 자신의 공문이 반박
+
+layer: 6
+secondary-layers: []
+claimType: witness_manipulation
+claimSubtype: witness_self_contradiction
+fracture-type: F-SC
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 10
+validity: 9
+sincerity: 7
+analysisDate: 2026-04-12
+
+record-nos: [1171, 1239, 6168]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 이준호
+  - 최영수
+organizations:
+  - DIDC
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/witness-manipulation
+  - source/book
+  - fracture/F-SC
+  - person/이준호
+  - person/최영수
+  - org/DIDC
+  - has/record-nos
+---
 # 이준호의 허위 진술 — 자신의 공문이 반박
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.4.6.8 (lines 489-580)

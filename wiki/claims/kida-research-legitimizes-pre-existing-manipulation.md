@@ -1,3 +1,48 @@
+---
+lang: ko
+title-ko: KIDA의 시험평가 연구가 국방정보화카르텔의 기존 조작을 학술적으로 정당화
+title-en: ""
+aliases:
+  - FR-L4-KIDA-LEGITIMIZATION
+  - KIDA의 시험평가 연구가 국방정보화카르텔의 기존 조작을 학술적으로 정당화
+
+layer: 4
+secondary-layers: []
+claimType: methodology
+claimSubtype: academic_fraud_institutional
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: [2542, 4708, 4900, 6709, 6715, 6738]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 이지영
+  - 김수진
+organizations:
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/methodology
+  - source/book
+  - fracture/F-MS
+  - person/이지영
+  - person/김수진
+  - org/MND
+  - has/record-nos
+---
 # KIDA의 시험평가 연구가 국방정보화카르텔의 기존 조작을 학술적으로 정당화
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.3.1 (lines 211-224)

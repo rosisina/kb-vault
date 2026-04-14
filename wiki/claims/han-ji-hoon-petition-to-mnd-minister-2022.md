@@ -1,3 +1,53 @@
+---
+lang: ko
+title-ko: 한지훈이 국방부장관(최우진)과 군사보좌관(홍성민)에게 진정서와 해명·증명 자료를 제출하였으나 어떠한 연락도 없었다
+title-en: ""
+aliases:
+  - FR-L7-PETITION-MND-MINISTER-001
+  - 한지훈이 국방부장관(최우진)과 군사보좌관(홍성민)에게 진정서와 해명·증명 자료를
+
+layer: 7
+secondary-layers: []
+claimType: institutional_obstruction
+claimSubtype: institutional_non_response
+fracture-type: F-AA
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 홍성민
+  - 한지훈
+  - 최우진
+organizations:
+  - DIDC
+  - 군검찰단
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/institutional-obstruction
+  - source/book
+  - fracture/F-AA
+  - person/홍성민
+  - person/한지훈
+  - person/최우진
+  - org/DIDC
+  - org/군검찰단
+  - org/MND
+---
 # 한지훈이 국방부장관(최우진)과 군사보좌관(홍성민)에게 진정서와 해명·증명 자료를 제출하였으나 어떠한 연락도 없었다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/13-3-7-37-제7층위-진정서.md (§3.7.1.1)

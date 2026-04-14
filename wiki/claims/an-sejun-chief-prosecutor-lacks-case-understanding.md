@@ -1,3 +1,50 @@
+---
+lang: ko
+title-ko: "군검찰단장 안세준: \"아직은 모르겠는데\" — 기소 후에도 사건 내용 미파악 + 처분 책임 회피"
+title-en: "군검찰단장 안세준: \"아직은 모르겠는데\" — 기소 후에도 사건 내용 미파악 + 처분 책임 회피"
+aliases:
+  - FR-L6-ANSEJUN-CHIEF-PROSECUTOR-IGNORANCE
+  - "군검찰단장 안세준: \"아직은 모르겠는데\" — 기소 후에도 사건 내용 미파악 + 처분 책임"
+
+layer: 6
+secondary-layers: []
+claimType: prosecution_misconduct
+claimSubtype: prosecutorial_oversight_failure
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 안세준
+  - 한지훈
+  - 임형규
+  - 진상호
+organizations:
+  - 군검찰단
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/prosecution-misconduct
+  - source/recording
+  - person/안세준
+  - person/한지훈
+  - person/임형규
+  - person/진상호
+  - org/군검찰단
+---
 # 군검찰단장 안세준: "아직은 모르겠는데" — 기소 후에도 사건 내용 미파악 + 처분 책임 회피
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[007-1]` 녹취 174 (2022.9.29~10.6, 00:06:38)

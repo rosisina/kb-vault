@@ -1,3 +1,54 @@
+---
+lang: ko
+title-ko: 最종 제안요청서의 기술 적용 표는 新KIATIS가 순수 소프트웨어 개발사업이자 인터넷 기반 운용 구조임을 증명한다
+title-en: ""
+aliases:
+  - FR-L1-RFP-TECH-TABLE-001
+  - 最종 제안요청서의 기술 적용 표는 新KIATIS가 순수 소프트웨어 개발사업이자 인터넷
+
+layer: 1
+secondary-layers: [2, 5, 7]
+claimType: methodology
+claimSubtype: structural_evidence
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 7
+analysisDate: 2026-04-11
+
+record-nos: [1536]
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - DIDC
+  - 국전원
+  - 국유단
+  - 조달청
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - layer/L2
+  - layer/L5
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/methodology
+  - source/book
+  - fracture/F-CE
+  - org/DIDC
+  - org/국전원
+  - org/국유단
+  - org/조달청
+  - has/record-nos
+  - cross-layer
+---
 # 最종 제안요청서의 기술 적용 표는 新KIATIS가 순수 소프트웨어 개발사업이자 인터넷 기반 운용 구조임을 증명한다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/07-3-1-31-제1층위-ActiveX.md (§3.1.1.8)

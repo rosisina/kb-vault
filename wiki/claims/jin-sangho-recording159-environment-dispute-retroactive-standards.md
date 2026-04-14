@@ -1,3 +1,45 @@
+---
+lang: ko
+title-ko: "진상호 녹취 159: \"자다가 봉창 두드리는 얘기\" — 4년치 소급 적용의 부당함 + 수사관이 환경 3요소(네트워크·서버·PC)를 피의자에게 배움"
+title-en: "진상호 녹취 159: \"자다가 봉창 두드리는 얘기\" — 4년치 소급 적용의 부당함 + 수사관이 환경 3요소(네트워크·서버·PC)를 피의자에게 배움"
+aliases:
+  - FR-L6-REC159-RETROACTIVE-STANDARDS
+  - "진상호 녹취 159: \"자다가 봉창 두드리는 얘기\" — 4년치 소급 적용의 부당함 +"
+
+layer: 6
+secondary-layers: []
+claimType: prosecution_misconduct
+claimSubtype: retroactive_standard_application_technical_ignorance
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 9
+analysisDate: 2026-04-13
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+  - 진상호
+organizations: []
+has-verbatim: true
+
+tags:
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/prosecution-misconduct
+  - source/recording
+  - person/한지훈
+  - person/진상호
+  - has/verbatim-quote
+---
 # 진상호 녹취 159: "자다가 봉창 두드리는 얘기" — 4년치 소급 적용의 부당함 + 수사관이 환경 3요소(네트워크·서버·PC)를 피의자에게 배움
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[012]` 녹취 159 (2022.9.13, 00:40:02, line 7318~7800)

@@ -1,3 +1,49 @@
+---
+lang: ko
+title-ko: 국유단 발굴단계 업무의 인터넷 수행 — 舊KIATIS 인터넷 운용의 실무 증거
+title-en: 국유단 발굴단계 업무의 인터넷 수행 — 舊KIATIS 인터넷 운용의 실무 증거
+aliases:
+  - FR-L5-EXCAVATION-INTERNET-PROOF
+  - 국유단 발굴단계 업무의 인터넷 수행 — 舊KIATIS 인터넷 운용의 실무 증거
+
+layer: 5
+secondary-layers: [1, 4, 6, 7]
+claimType: technical_proof
+claimSubtype: operational_evidence
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 7
+analysisDate: 2026-04-11
+
+record-nos: [3229, 5245, 10028]
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - layer/L1
+  - layer/L4
+  - layer/L6
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/technical-proof
+  - source/book
+  - fracture/F-CE
+  - org/국유단
+  - has/record-nos
+  - cross-layer
+---
 # 국유단 발굴단계 업무의 인터넷 수행 — 舊KIATIS 인터넷 운용의 실무 증거
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md §3.5.4.1.1 (lines 480-531)

@@ -1,3 +1,48 @@
+---
+lang: ko
+title-ko: DIDC1센터의 舊KIATIS VPN 사용자 허위 기재 — 조작된 점검계획 공문
+title-en: DIDC1센터의 舊KIATIS VPN 사용자 허위 기재 — 조작된 점검계획 공문
+aliases:
+  - FR-L4-DIDC-FALSE-VPN-RECORD
+  - DIDC1센터의 舊KIATIS VPN 사용자 허위 기재 — 조작된 점검계획 공문
+
+layer: 4
+secondary-layers: [1]
+claimType: document_fabrication
+claimSubtype: document_falsification
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 7
+analysisDate: 2026-04-11
+
+record-nos: [1874, 1875, 4748, 4890]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 박서준
+organizations:
+  - DIDC
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L1
+  - verdict/corroborated
+  - strength/strong
+  - type/document-fabrication
+  - source/book
+  - fracture/F-MS
+  - person/박서준
+  - org/DIDC
+  - has/record-nos
+  - cross-layer
+---
 # DIDC1센터의 舊KIATIS VPN 사용자 허위 기재 — 조작된 점검계획 공문
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.2.2 (lines 118-161)

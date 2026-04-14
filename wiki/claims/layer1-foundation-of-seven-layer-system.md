@@ -1,3 +1,48 @@
+---
+lang: ko
+title-ko: "제1층위는 7층위 증명체계의 근간: 舊KIATIS 인터넷 노출 은폐가 전체 범죄의 동기"
+title-en: ""
+aliases:
+  - FR-L1-FOUNDATION-7LAYER
+  - "제1층위는 7층위 증명체계의 근간: 舊KIATIS 인터넷 노출 은폐가 전체 범죄의 동기"
+
+layer: 1
+secondary-layers: [2, 3, 4, 5, 6, 7]
+claimType: methodology
+claimSubtype: structural_framing
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 8
+validity: 7
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - layer/L2
+  - layer/L3
+  - layer/L4
+  - layer/L5
+  - layer/L6
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/methodology
+  - source/book
+  - fracture/F-CE
+  - cross-layer
+---
 # 제1층위는 7층위 증명체계의 근간: 舊KIATIS 인터넷 노출 은폐가 전체 범죄의 동기
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/07-3-1-31-제1층위-ActiveX.md §3.1 (lines 1-5)

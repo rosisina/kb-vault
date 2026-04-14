@@ -1,3 +1,56 @@
+---
+lang: ko
+title-ko: 김민수의 교차층위 카르텔 핵심 역할 — 2016 해킹 당시→국전원장→책임전가 주도
+title-en: 김민수의 교차층위 카르텔 핵심 역할 — 2016 해킹 당시→국전원장→책임전가 주도
+aliases:
+  - FR-L4-KIM-MINSU-CENTRAL-FIGURE
+  - 김민수의 교차층위 카르텔 핵심 역할 — 2016 해킹 당시→국전원장→책임전가 주도
+
+layer: 4
+secondary-layers: [5]
+claimType: conspiracy_structure
+claimSubtype: cartel_leadership
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: [1573, 6748, 11055]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 김민수
+  - 박성호
+  - 한지훈
+organizations:
+  - DIDC
+  - 국전원
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/conspiracy-structure
+  - source/book
+  - fracture/F-MS
+  - person/김민수
+  - person/박성호
+  - person/한지훈
+  - org/DIDC
+  - org/국전원
+  - org/MND
+  - has/record-nos
+  - cross-layer
+---
 # 김민수의 교차층위 카르텔 핵심 역할 — 2016 해킹 당시→국전원장→책임전가 주도
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.7.4 (lines 723-777)

@@ -1,3 +1,43 @@
+---
+lang: ko
+title-ko: KIATIS는 국방사이버안보 훈령 제3조 제7호의 '사이버자산'에 해당 — 제3장 전체 의무 적용
+title-en: KIATIS는 국방사이버안보 훈령 제3조 제7호의 '사이버자산'에 해당 — 제3장 전체 의무 적용
+aliases:
+  - FR-CSR-001
+  - KIATIS는 국방사이버안보 훈령 제3조 제7호의 '사이버자산'에 해당 — 제3장 전체
+
+layer: 1
+secondary-layers: [4]
+claimType: methodology
+claimSubtype: jurisdictional_foundation
+fracture-type: F-CE
+source-type: regulation
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 3
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/methodology
+  - source/regulation
+  - fracture/F-CE
+  - cross-layer
+---
 # KIATIS는 국방사이버안보 훈령 제3조 제7호의 '사이버자산'에 해당 — 제3장 전체 의무 적용
 
 **Source:** raw/09. 사이버안보 훈령(당시)/cyber security reguration.md 제3조 제7호 (lines 110-111)

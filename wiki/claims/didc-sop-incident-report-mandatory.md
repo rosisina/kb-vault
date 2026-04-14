@@ -1,3 +1,43 @@
+---
+lang: ko
+title-ko: DIDC SOP 제12호 제21조 + 별지 제4호 mandate immediate incident reporting; absence of the report is Layer 1 cover-up evidence
+title-en: ""
+aliases:
+  - FR-L1-DIDC-002
+  - DIDC SOP 제12호 제21조 + 별지 제4호 mandate immediate
+
+layer: 1
+secondary-layers: []
+claimType: procedural_violation
+claimSubtype: procedural_artifact_mandatory
+fracture-type: F-AA
+source-type: sop
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - DIDC
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - verdict/corroborated
+  - strength/strong
+  - type/procedural-violation
+  - source/sop
+  - fracture/F-AA
+  - org/DIDC
+---
 # DIDC SOP 제12호 제21조 + 별지 제4호 mandate immediate incident reporting; absence of the report is Layer 1 cover-up evidence
 
 **Source:** raw/06. DIDC SOP(국방 통합데이터 센터 예규)/01.(Korean) DIDC_사이버방호_예규.md (제21조 verbatim, 별지 제4호 form structure)

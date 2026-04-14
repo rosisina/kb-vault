@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: 김민수의 VPN 속도 무관 발언 — 위계공무집행방해 혐의 근거를 스스로 부정
+title-en: 김민수의 VPN 속도 무관 발언 — 위계공무집행방해 혐의 근거를 스스로 부정
+aliases:
+  - FR-L6-VPN-SPEED-SELF-CONTRADICTION
+  - 김민수의 VPN 속도 무관 발언 — 위계공무집행방해 혐의 근거를 스스로 부정
+
+layer: 6
+secondary-layers: [4]
+claimType: cross_layer_analysis
+claimSubtype: self_contradiction
+fracture-type: F-CE
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 7
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: 2022-10-13
+
+persons:
+  - 김민수
+organizations:
+  - 국전원
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/cross-layer-analysis
+  - source/recording
+  - fracture/F-CE
+  - person/김민수
+  - org/국전원
+  - cross-layer
+---
 # 김민수의 VPN 속도 무관 발언 — 위계공무집행방해 혐의 근거를 스스로 부정
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md 녹취013 (lines 2204-2208)

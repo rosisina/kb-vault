@@ -1,3 +1,44 @@
+---
+lang: ko
+title-ko: "DIDC 부대예규 제11호 제161조: 서버 Root 계정은 콘솔 전용·유지보수 인력 단독 사용 불허"
+title-en: ""
+aliases:
+  - FR-L1-DIDC-ROOT-CONSOLE-ONLY
+  - "DIDC 부대예규 제11호 제161조: 서버 Root 계정은 콘솔 전용·유지보수 인력"
+
+layer: 1
+secondary-layers: [4]
+claimType: procedural_violation
+claimSubtype: procedural_control_mandatory
+fracture-type: null
+source-type: sop
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 10
+sincerity: 7
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - DIDC
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - layer/L4
+  - verdict/corroborated
+  - strength/moderate
+  - type/procedural-violation
+  - source/sop
+  - org/DIDC
+  - cross-layer
+---
 # DIDC 부대예규 제11호 제161조: 서버 Root 계정은 콘솔 전용·유지보수 인력 단독 사용 불허
 
 **Source:** raw/06. DIDC SOP(국방 통합데이터 센터 예규)/02.(Korean) DIDC_정보시스템_운영관리_예규.md 제161조②⑦ (lines 336-352)

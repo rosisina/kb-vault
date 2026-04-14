@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: 2019년 14개 사업 중 VPN 성능을 측정한 사업 0건 — 검찰 요구의 전례 없는 차별적 적용
+title-en: 2019년 14개 사업 중 VPN 성능을 측정한 사업 0건 — 검찰 요구의 전례 없는 차별적 적용
+aliases:
+  - FR-L6-ZERO-VPN-MEASUREMENT-BASELINE
+  - 2019년 14개 사업 중 VPN 성능을 측정한 사업 0건 — 검찰 요구의 전례 없는
+
+layer: 6
+secondary-layers: [4]
+claimType: institutional_obstruction
+claimSubtype: institutional_precedent
+fracture-type: F-SE
+source-type: investigation
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 7
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+organizations:
+  - DCIA
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/institutional-obstruction
+  - source/investigation
+  - fracture/F-SE
+  - person/한지훈
+  - org/DCIA
+  - cross-layer
+---
 # 2019년 14개 사업 중 VPN 성능을 측정한 사업 0건 — 검찰 요구의 전례 없는 차별적 적용
 
 **Source:** raw/05. Investigation by the Military Prosecutor's Office/Bilingual(English, Korean)/(2022902) Record of interrogation of a suspect (2 September 2022(English, Korean).converted.md 피의자 진술 (lines 1-2154)

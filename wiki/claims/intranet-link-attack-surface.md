@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: "C-L1-11: 舊KIATIS 인터넷+인트라넷 이중 연동 = 2016 해킹 브릿지 공격면"
+title-en: ""
+aliases:
+  - FR-C-L1-11
+  - "C-L1-11: 舊KIATIS 인터넷+인트라넷 이중 연동 = 2016 해킹 브릿지 공격면"
+
+layer: 1
+secondary-layers: [4, 6]
+claimType: cross_layer_analysis
+claimSubtype: contradiction_pair
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 8
+validity: 8
+sincerity: 7
+analysisDate: 2026-04-12
+
+record-nos: [1117, 1125]
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - DIDC
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - layer/L4
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/cross-layer-analysis
+  - source/book
+  - fracture/F-CE
+  - org/DIDC
+  - has/record-nos
+  - cross-layer
+---
 # C-L1-11: 舊KIATIS 인터넷+인트라넷 이중 연동 = 2016 해킹 브릿지 공격면
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/07-3-1-31-제1층위-ActiveX.md §3.1.1.3 (lines 25-28)

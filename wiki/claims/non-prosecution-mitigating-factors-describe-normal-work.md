@@ -1,3 +1,46 @@
+---
+lang: ko
+title-ko: 불기소결정서 참작사유가 한지훈의 '정상적 업무수행'을 기술 — 범죄 의도 부재의 자인
+title-en: 불기소결정서 참작사유가 한지훈의 '정상적 업무수행'을 기술 — 범죄 의도 부재의 자인
+aliases:
+  - FR-L6-MITIGATING-IS-NORMAL-WORK
+  - 불기소결정서 참작사유가 한지훈의 '정상적 업무수행'을 기술 — 범죄 의도 부재의 자인
+
+layer: 6
+secondary-layers: [7]
+claimType: prosecution_misconduct
+claimSubtype: prosecution_self_contradiction
+fracture-type: F-SC
+source-type: investigation
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 8
+validity: 9
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: [1200]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/prosecution-misconduct
+  - source/investigation
+  - fracture/F-SC
+  - person/한지훈
+  - has/record-nos
+  - cross-layer
+---
 # 불기소결정서 참작사유가 한지훈의 '정상적 업무수행'을 기술 — 범죄 의도 부재의 자인
 
 **Source:** raw/05. Investigation by the Military Prosecutor's Office/Bilingual(English, Korean)/(20221014) Fraudulent Proof of Notification of the Reason for Non-Prosecution(English, Korean).converted.md IV.1.카.(8) (lines 1-509)

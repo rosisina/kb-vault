@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: 최동욱 변호사의 사임 위협을 통한 의뢰인 자율 방어 억제
+title-en: ""
+aliases:
+  - FR-L6-LAWYER-RESIGNATION-COERCION
+  - 최동욱 변호사의 사임 위협을 통한 의뢰인 자율 방어 억제
+
+layer: 6
+secondary-layers: [7]
+claimType: attorney_misconduct
+claimSubtype: resignation_threat_coercion
+fracture-type: F-MS
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 최동욱
+  - 한지훈
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/attorney-misconduct
+  - source/recording
+  - fracture/F-MS
+  - person/최동욱
+  - person/한지훈
+  - cross-layer
+---
 # 최동욱 변호사의 사임 위협을 통한 의뢰인 자율 방어 억제
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md 녹취201+203 (lines 10513-10855)

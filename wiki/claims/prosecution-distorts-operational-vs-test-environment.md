@@ -1,3 +1,45 @@
+---
+lang: ko
+title-ko: 군 검찰단이 '실제 운영 대 시험평가' 환경의 동일성과 차이를 의도적으로 왜곡하여 사기수사를 설계하였다
+title-en: ""
+aliases:
+  - FR-L6-ENV-DISTORT-001
+  - 군 검찰단이 '실제 운영 대 시험평가' 환경의 동일성과 차이를 의도적으로 왜곡하여
+
+layer: 6
+secondary-layers: []
+claimType: prosecution_misconduct
+claimSubtype: investigative_fraud
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: 2022-10-11
+
+persons:
+  - 한지훈
+organizations:
+  - 군검찰단
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/prosecution-misconduct
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - org/군검찰단
+---
 # 군 검찰단이 '실제 운영 대 시험평가' 환경의 동일성과 차이를 의도적으로 왜곡하여 사기수사를 설계하였다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md (§3.6.3.1)

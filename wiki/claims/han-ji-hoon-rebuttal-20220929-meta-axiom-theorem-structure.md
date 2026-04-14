@@ -1,3 +1,56 @@
+---
+lang: ko
+title-ko: "한지훈 \"압수·수색·검증 영장에 대한 해명과 증명\" (2022.9.29, 3,811줄) — 공리·정리·정의 체계로 6개 혐의 전면 반박"
+title-en: "한지훈 \"압수·수색·검증 영장에 대한 해명과 증명\" (2022.9.29, 3,811줄) — 공리·정리·정의 체계로 6개 혐의 전면 반박"
+aliases:
+  - FR-L6-REBUTTAL-20220929-META
+  - "한지훈 \"압수·수색·검증 영장에 대한 해명과 증명\" (2022.9.29, 3,811줄)"
+
+layer: 6
+secondary-layers: [7]
+claimType: testimony_evidence
+claimSubtype: primary_defense_document_meta
+fracture-type: null
+source-type: investigation
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 10
+validity: 9
+sincerity: 10
+analysisDate: 2026-04-13
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+  - 임형규
+  - 진상호
+  - 안세준
+organizations:
+  - DIDC
+  - 군검찰단
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/testimony-evidence
+  - source/investigation
+  - person/한지훈
+  - person/임형규
+  - person/진상호
+  - person/안세준
+  - org/DIDC
+  - org/군검찰단
+  - org/MND
+  - cross-layer
+---
 # 한지훈 "압수·수색·검증 영장에 대한 해명과 증명" (2022.9.29, 3,811줄) — 공리·정리·정의 체계로 6개 혐의 전면 반박
 
 **Source:** raw/05. Investigation by the Military Prosecutor's Office/Bilingual(English, Korean)/(20220929) Explanation and Proof Search, Seizure, and Verification Warrants Search(English, Korean).converted.md (3,811 lines, bilingual Korean/English)

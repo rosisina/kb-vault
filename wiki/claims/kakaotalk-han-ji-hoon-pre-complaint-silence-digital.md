@@ -1,3 +1,50 @@
+---
+lang: ko
+title-ko: "카카오톡: 2022.2.3~14 한지훈 메시지 부재 — 공식 신고(2.10) 이전부터 디지털 격리 시작"
+title-en: "카카오톡: 2022.2.3~14 한지훈 메시지 부재 — 공식 신고(2.10) 이전부터 디지털 격리 시작"
+aliases:
+  - FR-L5-KKT-PRE-COMPLAINT-SILENCE
+  - "카카오톡: 2022.2.3~14 한지훈 메시지 부재 — 공식 신고(2.10) 이전부터"
+
+layer: 5
+secondary-layers: []
+claimType: technical_proof
+claimSubtype: digital_forensic_evidence
+fracture-type: null
+source-type: kakao
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 7
+validity: 6
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+  - 이지영
+  - 박서준
+  - 송민석
+  - 양미숙
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - verdict/corroborated
+  - strength/moderate
+  - type/technical-proof
+  - source/kakao
+  - person/한지훈
+  - person/이지영
+  - person/박서준
+  - person/송민석
+  - person/양미숙
+---
 # 카카오톡: 2022.2.3~14 한지훈 메시지 부재 — 공식 신고(2.10) 이전부터 디지털 격리 시작
 
 **Source:** raw/03. Kakao talk data /Korean/카타오톡 자료(4년 동안 자료 2019.3.7~2023.3.25).txt lines 12378-12479 (lines 12378-12479)

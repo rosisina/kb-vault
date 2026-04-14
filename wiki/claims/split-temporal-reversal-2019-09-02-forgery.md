@@ -1,3 +1,44 @@
+---
+lang: ko
+title-ko: 2019-09-02 생산 문서의 09-03 보고 날짜 — 디지털 시간 역전 문서 조작
+title-en: 2019-09-02 생산 문서의 09-03 보고 날짜 — 디지털 시간 역전 문서 조작
+aliases:
+  - FR-L4-TEMPORAL-REVERSAL-090203
+  - 2019-09-02 생산 문서의 09-03 보고 날짜 — 디지털 시간 역전 문서 조작
+
+layer: 4
+secondary-layers: []
+claimType: document_fabrication
+claimSubtype: document_forgery
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 7
+analysisDate: 2026-04-12
+
+record-nos: [2858]
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/document-fabrication
+  - source/book
+  - fracture/F-MS
+  - org/MND
+  - has/record-nos
+---
 # 2019-09-02 생산 문서의 09-03 보고 날짜 — 디지털 시간 역전 문서 조작
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.7.1 (lines N/A)

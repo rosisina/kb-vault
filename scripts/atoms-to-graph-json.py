@@ -26,6 +26,8 @@ import sys
 from collections import defaultdict, deque
 from pathlib import Path
 
+import yaml
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CLAIMS_DIR = REPO_ROOT / "wiki" / "claims"
 OUTPUT_GRAPH = REPO_ROOT / "output" / "graph.json"
@@ -111,21 +113,81 @@ def main() -> int:
         body = path.read_text(encoding="utf-8")
         stem = path.stem
 
-        result_id = _m1(PAT_RID, body)
+        # ── YAML frontmatter (preferred) ──────────────────────────
+        fm = None
+        if body.startswith("---\n"):
+            try:
+                fm_end = body.index("---", 4)
+                fm = yaml.safe_load(body[4:fm_end])
+            except Exception:
+                fm = None
+            # Strip frontmatter from body for regex fallback patterns
+            body_no_fm = body[fm_end + 4:] if fm else body
+        else:
+            body_no_fm = body
+
+        if fm:
+            result_id = fm.get("aliases", [""])[0] if fm.get("aliases") else _m1(PAT_RID, body)
+            if not result_id:
+                result_id = _m1(PAT_RID, body)
+            primary_layer = fm.get("layer", 0)
+            secondary_layers = fm.get("secondary-layers", [])
+            claim_type = fm.get("claimType", "")
+            claim_subtype = fm.get("claimSubtype", "")
+            verdict = fm.get("verdict", "")
+            strength = fm.get("strength", "")
+            title = (fm.get("title-ko") or fm.get("title-en") or _m1(PAT_TITLE, body))[:120]
+            source = _m1(PAT_SOURCE, body)[:200]
+            truthfulness = fm.get("truthfulness", 0)
+            validity = fm.get("validity", 0)
+            sincerity = fm.get("sincerity", 0)
+            # New fields from frontmatter
+            persons = fm.get("persons", [])
+            organizations = fm.get("organizations", [])
+            fracture_type = fm.get("fracture-type")
+            if fracture_type == "null" or fracture_type is None:
+                fracture_type = None
+            source_type = fm.get("source-type", "unknown")
+            record_nos = fm.get("record-nos", [])
+            evidence_ids = fm.get("evidence-ids", [])
+            event_date = fm.get("event-date")
+            if event_date == "null" or event_date is None:
+                event_date = None
+            else:
+                event_date = str(event_date)
+            has_verbatim = fm.get("has-verbatim", False)
+            title_ko = fm.get("title-ko", "")
+            title_en = fm.get("title-en", "")
+        else:
+            result_id = _m1(PAT_RID, body)
+            if not result_id:
+                continue
+            head = body[:800]
+            layers = [int(x) for x in PAT_LAYER.findall(head)]
+            primary_layer = layers[0] if layers else 0
+            secondary_layers = layers[1:] if len(layers) > 1 else []
+            claim_type = _m1(PAT_CT, body)
+            claim_subtype = _m1(PAT_CST, body)
+            verdict = _m1(PAT_V, body)
+            strength = _m1(PAT_S, body)
+            title = _m1(PAT_TITLE, body)[:120]
+            source = _m1(PAT_SOURCE, body)[:200]
+            truthfulness = _mi(PAT_T, body)
+            validity = _mi(PAT_VA, body)
+            sincerity = _mi(PAT_SI, body)
+            persons = []
+            organizations = []
+            fracture_type = None
+            source_type = "unknown"
+            record_nos = []
+            evidence_ids = []
+            event_date = None
+            has_verbatim = False
+            title_ko = ""
+            title_en = ""
+
         if not result_id:
             continue
-
-        head = body[:800]
-        layers = [int(x) for x in PAT_LAYER.findall(head)]
-        primary_layer = layers[0] if layers else 0
-        secondary_layers = layers[1:] if len(layers) > 1 else []
-
-        claim_type = _m1(PAT_CT, body)
-        claim_subtype = _m1(PAT_CST, body)
-        verdict = _m1(PAT_V, body)
-        strength = _m1(PAT_S, body)
-        title = _m1(PAT_TITLE, body)[:120]
-        source = _m1(PAT_SOURCE, body)[:200]
 
         has_spot = "## Spot-check" in body
         if verdict == "NEEDS_MORE_EVIDENCE":
@@ -143,6 +205,8 @@ def main() -> int:
             "id": result_id,
             "stem": stem,
             "title": title,
+            "titleKo": title_ko,
+            "titleEn": title_en,
             "layer": primary_layer,
             "secondaryLayers": secondary_layers,
             "claimType": claim_type,
@@ -151,11 +215,19 @@ def main() -> int:
             "verdict": verdict,
             "strength": strength,
             "testStatus": test_status,
-            "truthfulness": _mi(PAT_T, body),
-            "validity": _mi(PAT_VA, body),
-            "sincerity": _mi(PAT_SI, body),
+            "truthfulness": truthfulness,
+            "validity": validity,
+            "sincerity": sincerity,
             "source": source,
             "wikiSlug": stem,
+            "persons": persons or [],
+            "organizations": organizations or [],
+            "fractureType": fracture_type,
+            "sourceType": source_type,
+            "recordNos": record_nos or [],
+            "evidenceIds": evidence_ids or [],
+            "eventDate": event_date,
+            "hasVerbatim": has_verbatim,
             "corroborationCount": 0,
             "oppositionCount": 0,
             "causalDepth": 0,
@@ -232,10 +304,15 @@ def main() -> int:
     roots = all_ids - causes_targets
     depth: dict[str, int] = {r: 0 for r in roots}
     queue = deque(roots)
-    while queue:
+    max_iterations = len(nodes) * 10  # safety limit
+    iterations = 0
+    while queue and iterations < max_iterations:
+        iterations += 1
         nid = queue.popleft()
         for child in causes_out.get(nid, []):
             nd = depth[nid] + 1
+            if nd > 50:  # cycle guard
+                continue
             if child not in depth or depth[child] < nd:
                 depth[child] = nd
                 queue.append(child)

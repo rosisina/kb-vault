@@ -1,3 +1,61 @@
+---
+lang: ko
+title-ko: 한지훈의 증거 기반 반박 문서(2022-09-25)는 군 검찰단부터 국가권익위원회까지 8개 기관에서 모두 거절됨
+title-en: Layer 7 institutional rejection chain
+aliases:
+  - FR-L7-001
+  - 한지훈의 증거 기반 반박 문서(2022-09-25)는 군 검찰단부터 국가권익위원회까지
+  - Layer 7 institutional rejection chain
+
+layer: 7
+secondary-layers: [6]
+claimType: institutional_obstruction
+claimSubtype: institutional_rejection_chain
+fracture-type: F-AA
+source-type: investigation
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 10
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: ["L7-001"]
+event-date: 2022-09-25
+
+persons:
+  - 한지훈
+  - 임형규
+  - 안세준
+  - 최우진
+  - 홍성민
+  - 진상호
+organizations:
+  - DIDC
+  - 군검찰단
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L7
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/institutional-obstruction
+  - source/investigation
+  - fracture/F-AA
+  - person/한지훈
+  - person/임형규
+  - person/안세준
+  - person/최우진
+  - person/홍성민
+  - org/DIDC
+  - org/군검찰단
+  - org/MND
+  - cross-layer
+---
 # 한지훈의 증거 기반 반박 문서(2022-09-25)는 군 검찰단부터 국가권익위원회까지 8개 기관에서 모두 거절됨 — Layer 7 institutional rejection chain
 
 **Source:** raw/05. Investigation by the Military Prosecutor's Office/Bilingual(English, Korean)/(20220929) Explanation and Proof Search, Seizure, and Verification Warrants Search(English, Korean).converted.md (한지훈 본인 작성 반박 문서, composition date **2022-09-25** per book §3.7.1.1 and raw/05 interior read 2026-04-11; the `(20220929)` in filename is James's own filename-metadata convention with no primary-source status — see [[han-ji-hoon-rebuttal-document-date-2022-09-25]]) • James 2026-04-11 contextual input on 8-step distribution chain

@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: 4개 KIATIS 환경은 모두 비동일 — 정리04에 의한 동일성 오류 반박
+title-en: 4개 KIATIS 환경은 모두 비동일 — 정리04에 의한 동일성 오류 반박
+aliases:
+  - FR-L6-FOUR-ENVIRONMENTS-NON-IDENTICAL
+  - 4개 KIATIS 환경은 모두 비동일 — 정리04에 의한 동일성 오류 반박
+
+layer: 6
+secondary-layers: []
+claimType: technical_proof
+claimSubtype: environment_non_identity
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 7
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - 국전원
+  - 군검찰단
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/technical-proof
+  - source/book
+  - fracture/F-CE
+  - org/국전원
+  - org/군검찰단
+  - org/국유단
+---
 # 4개 KIATIS 환경은 모두 비동일 — 정리04에 의한 동일성 오류 반박
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.2.3 (lines 37-112)

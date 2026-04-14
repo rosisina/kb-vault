@@ -1,3 +1,54 @@
+---
+lang: ko
+title-ko: 국유단의 사업통제+주관기관 이중역할 — 전례 없는 위반 구조
+title-en: 국유단의 사업통제+주관기관 이중역할 — 전례 없는 위반 구조
+aliases:
+  - FR-L2-DUAL-CAP-UNPRECEDENTED
+  - 국유단의 사업통제+주관기관 이중역할 — 전례 없는 위반 구조
+
+layer: 2
+secondary-layers: []
+claimType: regulatory_manipulation
+claimSubtype: regulatory_structural_violation
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: [1131, 3331, 5853, 10053]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 이지영
+  - 김수진
+  - 한지훈
+organizations:
+  - 국전원
+  - MND
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L2
+  - verdict/corroborated
+  - strength/strong
+  - type/regulatory-manipulation
+  - source/book
+  - fracture/F-CE
+  - person/이지영
+  - person/김수진
+  - person/한지훈
+  - org/국전원
+  - org/MND
+  - org/국유단
+  - has/record-nos
+---
 # 국유단의 사업통제+주관기관 이중역할 — 전례 없는 위반 구조
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/08-3-2-32-제2-층위.md §3.2.1.2 (lines 23-70)

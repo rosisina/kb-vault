@@ -1,3 +1,55 @@
+---
+lang: ko
+title-ko: 신고자 진술의 3단 변화 — 박서준→국전원→다시 박서준
+title-en: 신고자 진술의 3단 변화 — 박서준→국전원→다시 박서준
+aliases:
+  - FR-L5-REPORTER-3STAGE-SHIFT
+  - 신고자 진술의 3단 변화 — 박서준→국전원→다시 박서준
+
+layer: 5
+secondary-layers: []
+claimType: witness_manipulation
+claimSubtype: three_stage_narrative_shift
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 박서준
+  - 김민수
+  - 최영수
+  - 이지영
+  - 김수진
+  - 김동욱
+  - 한지훈
+organizations:
+  - 국전원
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/witness-manipulation
+  - source/book
+  - fracture/F-MS
+  - person/박서준
+  - person/김민수
+  - person/최영수
+  - person/이지영
+  - person/김수진
+  - org/국전원
+---
 # 신고자 진술의 3단 변화 — 박서준→국전원→다시 박서준
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md §3.5.3.2.1 (lines 335-392)

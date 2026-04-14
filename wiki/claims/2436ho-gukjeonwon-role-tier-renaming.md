@@ -1,3 +1,50 @@
+---
+lang: ko
+title-ko: 제2436호 retiers 사업통제/주관/관리 → 정보화기획관실/소요제기/집행
+title-en: ""
+aliases:
+  - FR-L3-001
+  - 제2436호 retiers 사업통제/주관/관리 → 정보화기획관실/소요제기/집행
+
+layer: 3
+secondary-layers: []
+claimType: regulatory_manipulation
+claimSubtype: regulatory_role_tier_renaming
+fracture-type: null
+source-type: regulation
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 9
+sincerity: 7
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: ["L3-001"]
+event-date: 2020-06-04
+
+persons:
+  - 김민수
+  - 한지훈
+organizations:
+  - DIDC
+  - 국전원
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L3
+  - verdict/corroborated
+  - strength/moderate
+  - type/regulatory-manipulation
+  - source/regulation
+  - person/김민수
+  - person/한지훈
+  - org/DIDC
+  - org/국전원
+  - org/MND
+---
 # 제2436호 retiers 사업통제/주관/관리 → 정보화기획관실/소요제기/집행
 
 **Source:** raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2129호)(20180205).converted.md, raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2436호)(20200604).converted.md

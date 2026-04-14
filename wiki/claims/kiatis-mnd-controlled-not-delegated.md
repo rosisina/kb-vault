@@ -1,3 +1,56 @@
+---
+lang: ko
+title-ko: 新KIATIS 성능개선사업은 국방부 통제 사업이며 위임 사업이 될 수 없다
+title-en: ""
+aliases:
+  - FR-L2-KIATIS-MNDCTRL-001
+  - 新KIATIS 성능개선사업은 국방부 통제 사업이며 위임 사업이 될 수 없다
+
+layer: 2
+secondary-layers: []
+claimType: regulatory_manipulation
+claimSubtype: regulatory_classification
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 10
+validity: 10
+sincerity: 8
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 박성호
+  - 한지훈
+  - 이지영
+  - 김수진
+organizations:
+  - DIDC
+  - 국전원
+  - MND
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L2
+  - verdict/corroborated
+  - strength/strong
+  - type/regulatory-manipulation
+  - source/book
+  - fracture/F-CE
+  - person/박성호
+  - person/한지훈
+  - person/이지영
+  - person/김수진
+  - org/DIDC
+  - org/국전원
+  - org/MND
+  - org/국유단
+---
 # 新KIATIS 성능개선사업은 국방부 통제 사업이며 위임 사업이 될 수 없다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/08-3-2-32-제2-층위.md (§3.2.1.1), raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2129호)(20180205).converted.md

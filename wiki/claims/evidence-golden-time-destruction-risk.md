@@ -1,3 +1,43 @@
+---
+lang: ko
+title-ko: 증거 보전의 골든타임 — 디지털 증거 인멸과 관련자 기억 소실 위험
+title-en: 증거 보전의 골든타임 — 디지털 증거 인멸과 관련자 기억 소실 위험
+aliases:
+  - FR-L7-EVIDENCE-GOLDEN-TIME
+  - 증거 보전의 골든타임 — 디지털 증거 인멸과 관련자 기억 소실 위험
+
+layer: 7
+secondary-layers: [1, 4]
+claimType: methodology
+claimSubtype: operational_urgency
+fracture-type: null
+source-type: book
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 7
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L7
+  - layer/L1
+  - layer/L4
+  - verdict/corroborated
+  - strength/moderate
+  - type/methodology
+  - source/book
+  - cross-layer
+---
 # 증거 보전의 골든타임 — 디지털 증거 인멸과 관련자 기억 소실 위험
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/15-5-5-결론-및.md §5.3.1 (lines 45-48)

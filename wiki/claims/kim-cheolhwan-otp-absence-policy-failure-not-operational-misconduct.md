@@ -1,3 +1,49 @@
+---
+lang: ko
+title-ko: "김철환 (센터장): OTP 부재는 정책·행정 수준의 실패이지 운영자 비위가 아님 — \"과장이나 원장이 승인해야\""
+title-en: "김철환 (센터장): OTP 부재는 정책·행정 수준의 실패이지 운영자 비위가 아님 — \"과장이나 원장이 승인해야\""
+aliases:
+  - FR-L6-POLICY-FAILURE-NOT-MISCONDUCT
+  - "김철환 (센터장): OTP 부재는 정책·행정 수준의 실패이지 운영자 비위가 아님 —"
+
+layer: 6
+secondary-layers: [4]
+claimType: testimony_evidence
+claimSubtype: institutional_expert_policy_vs_operations
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 8
+analysisDate: 2026-04-13
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 김철환
+  - 한지훈
+organizations:
+  - DIDC
+has-verbatim: true
+
+tags:
+  - layer/L6
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/testimony-evidence
+  - source/recording
+  - person/김철환
+  - person/한지훈
+  - org/DIDC
+  - has/verbatim-quote
+  - cross-layer
+---
 # 김철환 (센터장): OTP 부재는 정책·행정 수준의 실패이지 운영자 비위가 아님 — "과장이나 원장이 승인해야"
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[050]` 녹취 255 (2022.10.12, 00:37:25, line 15422+) • 녹취 253 (2022.8.3, 00:04:30, line 15355+) • 녹취 254 (2022.10.12, 00:03:22, line 15396+)

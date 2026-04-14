@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: 시험평가 기간 중 핵심인물의 의도적 부재 — 舊KIATIS 담당자와 팀장의 동시 부재
+title-en: 시험평가 기간 중 핵심인물의 의도적 부재 — 舊KIATIS 담당자와 팀장의 동시 부재
+aliases:
+  - FR-L4-DELIBERATE-ABSENCE
+  - 시험평가 기간 중 핵심인물의 의도적 부재 — 舊KIATIS 담당자와 팀장의 동시 부재
+
+layer: 4
+secondary-layers: []
+claimType: conspiracy_structure
+claimSubtype: organizational_manipulation
+fracture-type: null
+source-type: book
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 7
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: [1946, 2276]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 윤도현
+  - 송민석
+  - 한지훈
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - verdict/corroborated
+  - strength/moderate
+  - type/conspiracy-structure
+  - source/book
+  - person/윤도현
+  - person/송민석
+  - person/한지훈
+  - has/record-nos
+---
 # 시험평가 기간 중 핵심인물의 의도적 부재 — 舊KIATIS 담당자와 팀장의 동시 부재
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.2.1 (lines 53-116)

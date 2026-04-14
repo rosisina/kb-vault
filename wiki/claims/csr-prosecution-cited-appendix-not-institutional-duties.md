@@ -1,3 +1,45 @@
+---
+lang: ko
+title-ko: 검찰이 별표(기술요건)만 인용하고 제3장(기관 의무)은 무시 — 개인→기관 책임 전환의 선별적 인용
+title-en: 검찰이 별표(기술요건)만 인용하고 제3장(기관 의무)은 무시 — 개인→기관 책임 전환의 선별적 인용
+aliases:
+  - FR-CSR-009
+  - 검찰이 별표(기술요건)만 인용하고 제3장(기관 의무)은 무시 — 개인→기관 책임 전환의
+
+layer: 6
+secondary-layers: [1, 4]
+claimType: prosecution_misconduct
+claimSubtype: selective_prosecution
+fracture-type: null
+source-type: regulation
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 7
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - DIDC
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L1
+  - layer/L4
+  - verdict/corroborated
+  - strength/moderate
+  - type/prosecution-misconduct
+  - source/regulation
+  - org/DIDC
+  - cross-layer
+---
 # 검찰이 별표(기술요건)만 인용하고 제3장(기관 의무)은 무시 — 개인→기관 책임 전환의 선별적 인용
 
 **Source:** raw/09. 사이버안보 훈령(당시)/cyber security reguration.md 별표 SS-2-3 vs 제3장 전체 (lines 506-551 vs 167-398)

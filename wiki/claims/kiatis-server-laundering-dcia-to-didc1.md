@@ -1,3 +1,56 @@
+---
+lang: ko
+title-ko: 舊KIATIS 서버는 국전원 지하 → 「전군 인터넷 통합 메일」 인프라 → DIDC 1센터 클라우드로 server laundering되었다
+title-en: ""
+aliases:
+  - FR-L2-SERVERLAUND-004
+  - 舊KIATIS 서버는 국전원 지하 → 「전군 인터넷 통합 메일」 인프라 → DIDC
+
+layer: 2
+secondary-layers: []
+claimType: evidence_concealment
+claimSubtype: evidence_chain_obfuscation
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 10
+validity: 8
+sincerity: 9
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 장우진
+  - 한지훈
+  - 이지영
+  - 김수진
+organizations:
+  - DIDC
+  - 국전원
+  - MND
+  - DCIA
+has-verbatim: false
+
+tags:
+  - layer/L2
+  - verdict/corroborated
+  - strength/strong
+  - type/evidence-concealment
+  - source/book
+  - fracture/F-MS
+  - person/장우진
+  - person/한지훈
+  - person/이지영
+  - person/김수진
+  - org/DIDC
+  - org/국전원
+  - org/MND
+  - org/DCIA
+---
 # 舊KIATIS 서버는 국전원 지하 → 「전군 인터넷 통합 메일」 인프라 → DIDC 1센터 클라우드로 server laundering되었다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/08-3-2-32-제2-층위.md (§3.2.2)

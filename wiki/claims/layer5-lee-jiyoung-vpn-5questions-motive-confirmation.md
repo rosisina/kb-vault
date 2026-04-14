@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: 이지영의 VPN 5단계 질문 — 동기 확인을 위한 체계적 정보 추출
+title-en: 이지영의 VPN 5단계 질문 — 동기 확인을 위한 체계적 정보 추출
+aliases:
+  - FR-L5-VPN-5QUESTIONS-MOTIVE
+  - 이지영의 VPN 5단계 질문 — 동기 확인을 위한 체계적 정보 추출
+
+layer: 5
+secondary-layers: [1]
+claimType: evidence_concealment
+claimSubtype: information_extraction
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 8
+validity: 7
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: 2022-02-08
+
+persons:
+  - 이지영
+  - 한지훈
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - layer/L1
+  - verdict/corroborated
+  - strength/strong
+  - type/evidence-concealment
+  - source/book
+  - fracture/F-MS
+  - person/이지영
+  - person/한지훈
+  - cross-layer
+---
 # 이지영의 VPN 5단계 질문 — 동기 확인을 위한 체계적 정보 추출
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md §3.5.4.2.1 (lines 568-577)

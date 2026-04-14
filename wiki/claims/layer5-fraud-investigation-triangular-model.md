@@ -1,3 +1,54 @@
+---
+lang: ko
+title-ko: "조사본부-법무관리관실-국전원 삼각 공모가 사기수사의 전형적 모델을 구성함 — 이지영 중개, 시간 조율, 공모 붕괴 후 은폐·전환"
+title-en: "조사본부-법무관리관실-국전원 삼각 공모가 사기수사의 전형적 모델을 구성함 — 이지영 중개, 시간 조율, 공모 붕괴 후 은폐·전환"
+aliases:
+  - FR-L5-FRAUD-TRIANGULAR-MODEL
+  - 조사본부-법무관리관실-국전원 삼각 공모가 사기수사의 전형적 모델을 구성함 — 이지영
+
+layer: 5
+secondary-layers: []
+claimType: conspiracy_structure
+claimSubtype: conspiracy_structural_model
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: [11064, 11069]
+evidence-ids: []
+event-date: 2022-02-14
+
+persons:
+  - 이지영
+  - 김민수
+  - 이승우
+  - 한지훈
+organizations:
+  - 국전원
+  - 조사본부
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/conspiracy-structure
+  - source/book
+  - fracture/F-MS
+  - person/이지영
+  - person/김민수
+  - person/이승우
+  - person/한지훈
+  - org/국전원
+  - org/조사본부
+  - has/record-nos
+---
 # 조사본부-법무관리관실-국전원 삼각 공모가 사기수사의 전형적 모델을 구성함 — 이지영 중개, 시간 조율, 공모 붕괴 후 은폐·전환
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md (book §3.5.2.4, excluding §3.5.2.4.1)

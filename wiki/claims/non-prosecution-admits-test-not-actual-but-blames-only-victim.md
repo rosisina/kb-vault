@@ -1,3 +1,48 @@
+---
+lang: ko
+title-ko: 불기소결정서가 시험환경≠실제환경을 인정하면서 한지훈에게만 책임 전가
+title-en: ""
+aliases:
+  - FR-L6-ADMITS-NOT-ACTUAL-BLAMES-VICTIM
+  - 불기소결정서가 시험환경≠실제환경을 인정하면서 한지훈에게만 책임 전가
+
+layer: 6
+secondary-layers: [4]
+claimType: prosecution_misconduct
+claimSubtype: selective_prosecution
+fracture-type: F-SE
+source-type: investigation
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: [1253, 1392]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+organizations:
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/prosecution-misconduct
+  - source/investigation
+  - fracture/F-SE
+  - person/한지훈
+  - org/MND
+  - has/record-nos
+  - cross-layer
+---
 # 불기소결정서가 시험환경≠실제환경을 인정하면서 한지훈에게만 책임 전가
 
 **Source:** raw/05. Investigation by the Military Prosecutor's Office/Bilingual(English, Korean)/(20221014) Fraudulent Proof of Notification of the Reason for Non-Prosecution(English, Korean).converted.md IV.1.카.(2) (lines 1-509)

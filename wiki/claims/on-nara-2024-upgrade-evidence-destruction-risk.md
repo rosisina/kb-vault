@@ -1,3 +1,50 @@
+---
+lang: ko
+title-ko: "2024년 온-나라 시스템 개선사업(약 40억원)은 Layer 1–6 증거의 기반이 되는 국방 행정문서 이력을 파괴할 위험을 내포하며, 이는 Layer 7 차원의 은폐 연속으로 분류될 수 있음"
+title-en: ""
+aliases:
+  - FR-L7-ONNARA-2024
+  - 2024년 온-나라 시스템 개선사업(약 40억원)은 Layer 1–6 증거의 기반이 되는
+
+layer: 7
+secondary-layers: [1]
+claimType: evidence_concealment
+claimSubtype: evidence_destruction_risk_systemic
+fracture-type: null
+source-type: book
+
+verdict: NEEDS_MORE_EVIDENCE
+strength: MODERATE
+truthfulness: 7
+validity: 6
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: 2022-10-07
+
+persons:
+  - 한지훈
+organizations:
+  - DIDC
+  - 군검찰단
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L7
+  - layer/L1
+  - verdict/needs-more-evidence
+  - strength/moderate
+  - type/evidence-concealment
+  - source/book
+  - person/한지훈
+  - org/DIDC
+  - org/군검찰단
+  - org/MND
+  - cross-layer
+---
 # 2024년 온-나라 시스템 개선사업(약 40억원)은 Layer 1–6 증거의 기반이 되는 국방 행정문서 이력을 파괴할 위험을 내포하며, 이는 Layer 7 차원의 은폐 연속으로 분류될 수 있음
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/13-3-7-37-제7층위-진정서.md (book §3.7.1.1 fn.588)

@@ -1,3 +1,43 @@
+---
+lang: ko
+title-ko: "L5 증인 파괴 → L6 증인 소환: 독립성 파괴 후 순응적 증언 수확"
+title-en: ""
+aliases:
+  - FR-CB-04-WITNESS-PIPELINE
+  - "L5 증인 파괴 → L6 증인 소환: 독립성 파괴 후 순응적 증언 수확"
+
+layer: 6
+secondary-layers: [5]
+claimType: cross_layer_analysis
+claimSubtype: cross_layer_mechanism
+fracture-type: F-MS
+source-type: unknown
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 10
+analysisDate: 2026-04-12
+
+record-nos: [10034, 11162]
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/cross-layer-analysis
+  - fracture/F-MS
+  - has/record-nos
+  - cross-layer
+---
 # L5 증인 파괴 → L6 증인 소환: 독립성 파괴 후 순응적 증언 수확
 
 **Source:** wiki/claims/layer5-six-month-witness-destruction-tactics.md + prosecution-witness-list-reveals-cartel.md §3.5.1.6 + §5.3.4 (lines cross-reference)

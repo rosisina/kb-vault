@@ -1,3 +1,52 @@
+---
+lang: ko
+title-ko: GIS 서버 예산의 의도적 미반영 — 전력화 지연의 은폐된 원인
+title-en: GIS 서버 예산의 의도적 미반영 — 전력화 지연의 은폐된 원인
+aliases:
+  - FR-L6-GIS-BUDGET-OMISSION
+  - GIS 서버 예산의 의도적 미반영 — 전력화 지연의 은폐된 원인
+
+layer: 6
+secondary-layers: []
+claimType: temporal_manipulation
+claimSubtype: budget_manipulation
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: [4826, 4890, 11023]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+  - 이지영
+organizations:
+  - 국전원
+  - 군검찰단
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/temporal-manipulation
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - person/이지영
+  - org/국전원
+  - org/군검찰단
+  - org/국유단
+  - has/record-nos
+---
 # GIS 서버 예산의 의도적 미반영 — 전력화 지연의 은폐된 원인
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.5.1.2 (lines 715-734)

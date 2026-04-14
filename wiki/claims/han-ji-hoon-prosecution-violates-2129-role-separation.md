@@ -1,3 +1,59 @@
+---
+lang: ko
+title-ko: 한지훈 prosecution targets a role (사업관리팀장) that 제2129호 제11조 explicitly excludes from test-evaluation execution
+title-en: ""
+aliases:
+  - FR-L6-001
+  - 한지훈 prosecution targets a role (사업관리팀장) that
+
+layer: 6
+secondary-layers: [4]
+claimType: prosecution_misconduct
+claimSubtype: prosecution_role_misattribution
+fracture-type: F-CE
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: ["L6-001"]
+event-date: null
+
+persons:
+  - 한지훈
+  - 임형규
+  - 안세준
+organizations:
+  - 국전원
+  - 군검찰단
+  - MND
+  - 국본
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/prosecution-misconduct
+  - source/recording
+  - fracture/F-CE
+  - person/한지훈
+  - person/임형규
+  - person/안세준
+  - org/국전원
+  - org/군검찰단
+  - org/MND
+  - org/국본
+  - org/국유단
+  - cross-layer
+---
 # 한지훈 prosecution targets a role (사업관리팀장) that 제2129호 제11조 explicitly excludes from test-evaluation execution
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[011]` recording 142 (2022-09-28, 한지훈↔임형규 verbatim) • raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2129호)(20180205).converted.md • raw/05. Investigation by the Military Prosecutor's Office/ (압수수색검증 영장 — pending ingest)

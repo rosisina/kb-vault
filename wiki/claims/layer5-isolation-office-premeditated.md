@@ -1,3 +1,51 @@
+---
+lang: ko
+title-ko: "한지훈 배치 독방 사무실은 갑질 신고 이전에 이미 준비되어 있었고, 김민수의 \"준비 다 됐다\" 발언이 이를 입증한다"
+title-en: ""
+aliases:
+  - FR-L5-006
+  - "한지훈 배치 독방 사무실은 갑질 신고 이전에 이미 준비되어 있었고, 김민수의 \"준비 다"
+
+layer: 5
+secondary-layers: [7]
+claimType: human_rights_violation
+claimSubtype: premeditated_isolation_operation
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 10
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: ["L5-006"]
+event-date: 2022-02-14
+
+persons:
+  - 김민수
+  - 한지훈
+organizations:
+  - 국전원
+  - 조사본부
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/human-rights-violation
+  - source/book
+  - fracture/F-MS
+  - person/김민수
+  - person/한지훈
+  - org/국전원
+  - org/조사본부
+  - cross-layer
+---
 # 한지훈 배치 독방 사무실은 갑질 신고 이전에 이미 준비되어 있었고, 김민수의 "준비 다 됐다" 발언이 이를 입증한다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md (book §3.5.1.5 / §3.5.2.3.5)

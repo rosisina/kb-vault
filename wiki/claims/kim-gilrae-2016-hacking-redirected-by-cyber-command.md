@@ -1,3 +1,48 @@
+---
+lang: ko
+title-ko: "이근태 (초대 데이터센터장): 2016 해킹 조사가 사이버사령관에 의해 DIDC로 전환"
+title-en: ""
+aliases:
+  - FR-L1-HACKING-REDIRECTED-CYBER-CMD
+  - "이근태 (초대 데이터센터장): 2016 해킹 조사가 사이버사령관에 의해 DIDC로 전환"
+
+layer: 1
+secondary-layers: [6]
+claimType: testimony_evidence
+claimSubtype: insider_testimony
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 7
+validity: 5
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 이근태
+  - 한경수
+organizations:
+  - DIDC
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - layer/L6
+  - verdict/corroborated
+  - strength/moderate
+  - type/testimony-evidence
+  - source/recording
+  - person/이근태
+  - person/한경수
+  - org/DIDC
+  - cross-layer
+---
 # 이근태 (초대 데이터센터장): 2016 해킹 조사가 사이버사령관에 의해 DIDC로 전환
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md 녹취264-1 (lines 15902-15911)

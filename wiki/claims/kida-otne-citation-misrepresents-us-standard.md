@@ -1,3 +1,53 @@
+---
+lang: en
+title-ko: ""
+title-en: "KIDA's citation of US DoD OT&E guidelines misrepresents the US standard by selective omission of the Level I qualifier and OTA approval requirement (verbatim distortion confirmed)"
+aliases:
+  - FR-L4-KIDA-001
+  - "KIDA's citation of US DoD OT&E guidelines"
+
+layer: 4
+secondary-layers: []
+claimType: methodology
+claimSubtype: academic_misrepresentation
+fracture-type: null
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 10
+validity: 10
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: 2010-09-14
+
+persons:
+  - 이지영
+  - 김수진
+  - 한지훈
+organizations:
+  - 군검찰단
+  - MND
+  - 국유단
+has-verbatim: true
+
+tags:
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/methodology
+  - source/book
+  - person/이지영
+  - person/김수진
+  - person/한지훈
+  - org/군검찰단
+  - org/MND
+  - org/국유단
+  - has/verbatim-quote
+---
 # KIDA's citation of US DoD OT&E guidelines misrepresents the US standard by selective omission of the Level I qualifier and OTA approval requirement (verbatim distortion confirmed)
 
 **Source:** raw/04. law & regulation/English/(US Regulation) DOD Operational Test and Evaluation (OT&E) for Information and Business Systems(dod).converted.md, raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md (§3.4.3.1, §3.4.3.4.2)

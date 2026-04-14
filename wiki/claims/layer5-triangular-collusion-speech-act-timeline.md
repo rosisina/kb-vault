@@ -1,3 +1,58 @@
+---
+lang: ko
+title-ko: "조사본부-법무관리관실-국전원의 삼각 공모: 4단계 시간 조율과 이지영의 5분 3회 번복이 조직적 공모를 증명한다"
+title-en: ""
+aliases:
+  - FR-L5-055
+  - "조사본부-법무관리관실-국전원의 삼각 공모: 4단계 시간 조율과 이지영의 5분 3회 번복이"
+
+layer: 5
+secondary-layers: []
+claimType: conspiracy_structure
+claimSubtype: triangular_collusion_speech_act_timeline
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: [11064]
+evidence-ids: ["L5-055"]
+event-date: 2022-02-10
+
+persons:
+  - 이지영
+  - 김민수
+  - 이승우
+  - 한지훈
+  - 박서준
+organizations:
+  - 국전원
+  - 조사본부
+  - DCIA
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/conspiracy-structure
+  - source/book
+  - fracture/F-MS
+  - person/이지영
+  - person/김민수
+  - person/이승우
+  - person/한지훈
+  - person/박서준
+  - org/국전원
+  - org/조사본부
+  - org/DCIA
+  - has/record-nos
+---
 # 조사본부-법무관리관실-국전원의 삼각 공모: 4단계 시간 조율과 이지영의 5분 3회 번복이 조직적 공모를 증명한다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md (§3.5.2.1.4)

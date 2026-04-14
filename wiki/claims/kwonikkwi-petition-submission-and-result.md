@@ -1,3 +1,60 @@
+---
+lang: ko
+title-ko: "국가권익위원회 진정서 제출: 수천 쪽 증거 제출에도 참고인 조사 없이 국방부 대변"
+title-en: ""
+aliases:
+  - FR-L7-KWONIKKWI-PETITION
+  - "국가권익위원회 진정서 제출: 수천 쪽 증거 제출에도 참고인 조사 없이 국방부 대변"
+
+layer: 7
+secondary-layers: []
+claimType: institutional_obstruction
+claimSubtype: institutional_rejection_detail
+fracture-type: F-AA
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 10
+analysisDate: 2026-04-11
+
+record-nos: [5314]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+  - 김민수
+  - 이지영
+  - 김수진
+  - 박서준
+organizations:
+  - DIDC
+  - 국전원
+  - 군검찰단
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/institutional-obstruction
+  - source/book
+  - fracture/F-AA
+  - person/한지훈
+  - person/김민수
+  - person/이지영
+  - person/김수진
+  - person/박서준
+  - org/DIDC
+  - org/국전원
+  - org/군검찰단
+  - org/MND
+  - has/record-nos
+---
 # 국가권익위원회 진정서 제출: 수천 쪽 증거 제출에도 참고인 조사 없이 국방부 대변
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/13-3-7-37-제7층위-진정서.md §3.7.2.1 (lines 41–48)

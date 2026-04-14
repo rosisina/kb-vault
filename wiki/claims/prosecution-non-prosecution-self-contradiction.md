@@ -1,3 +1,54 @@
+---
+lang: ko
+title-ko: 불기소 이유서의 내적 모순 — 기소유예와 99.73점 성공 동시 인정
+title-en: 불기소 이유서의 내적 모순 — 기소유예와 99.73점 성공 동시 인정
+aliases:
+  - FR-L6-NON-PROSECUTION-CONTRADICTION
+  - 불기소 이유서의 내적 모순 — 기소유예와 99.73점 성공 동시 인정
+
+layer: 6
+secondary-layers: []
+claimType: prosecution_misconduct
+claimSubtype: prosecution_logical_contradiction
+fracture-type: F-SC
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: [1033, 1129, 1535, 4866, 4872, 6818]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+organizations:
+  - DIDC
+  - 국전원
+  - 군검찰단
+  - 국유단
+  - 조달청
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/prosecution-misconduct
+  - source/book
+  - fracture/F-SC
+  - person/한지훈
+  - org/DIDC
+  - org/국전원
+  - org/군검찰단
+  - org/국유단
+  - org/조달청
+  - has/record-nos
+---
 # 불기소 이유서의 내적 모순 — 기소유예와 99.73점 성공 동시 인정
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.4.1 (lines 299-310)

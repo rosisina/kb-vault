@@ -1,3 +1,48 @@
+---
+lang: ko
+title-ko: 군 검찰단이 반부패 수사 5대 원칙 전부를 정반대로 위반하여 사기수사를 수행했다
+title-en: ""
+aliases:
+  - FR-L6-B3-001
+  - 군 검찰단이 반부패 수사 5대 원칙 전부를 정반대로 위반하여 사기수사를 수행했다
+
+layer: 6
+secondary-layers: [7]
+claimType: prosecution_misconduct
+claimSubtype: prosecutor_violated_anti_corruption_five_principles
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 10
+analysisDate: 2026-04-11
+
+record-nos: [118, 126, 11157]
+evidence-ids: ["L6-014", "L6-018"]
+event-date: 2020-12-30
+
+persons:
+  - 한지훈
+organizations:
+  - 군검찰단
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/prosecution-misconduct
+  - source/book
+  - fracture/F-CE
+  - person/한지훈
+  - org/군검찰단
+  - has/record-nos
+  - cross-layer
+---
 # 군 검찰단이 반부패 수사 5대 원칙 전부를 정반대로 위반하여 사기수사를 수행했다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md (§3.6.2.2, lines 30–35)

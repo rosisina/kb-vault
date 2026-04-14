@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: 법무관리관실 경고장이 조사본부 자체 조사결과를 무시 — 출퇴근 조작 주장 붕괴에도 유지
+title-en: 법무관리관실 경고장이 조사본부 자체 조사결과를 무시 — 출퇴근 조작 주장 붕괴에도 유지
+aliases:
+  - FR-L5-WARNING-OVERRIDES-INVESTIGATION
+  - 법무관리관실 경고장이 조사본부 자체 조사결과를 무시 — 출퇴근 조작 주장 붕괴에도 유지
+
+layer: 5
+secondary-layers: []
+claimType: institutional_obstruction
+claimSubtype: institutional_override
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 8
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: 2022-05-23
+
+persons:
+  - 김민수
+  - 한지훈
+organizations:
+  - 조사본부
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/institutional-obstruction
+  - source/book
+  - fracture/F-MS
+  - person/김민수
+  - person/한지훈
+  - org/조사본부
+---
 # 법무관리관실 경고장이 조사본부 자체 조사결과를 무시 — 출퇴근 조작 주장 붕괴에도 유지
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md §3.5.2.3.9 (lines 247-250)

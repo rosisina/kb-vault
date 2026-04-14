@@ -1,3 +1,45 @@
+---
+lang: ko
+title-ko: "카카오톡: 이지영의 갑질 신고 직전 주간 정상적 관리자 활동 — 직장 기능장애 서사 반박"
+title-en: "카카오톡: 이지영의 갑질 신고 직전 주간 정상적 관리자 활동 — 직장 기능장애 서사 반박"
+aliases:
+  - FR-L5-KKT-NORMAL-MGMT
+  - "카카오톡: 이지영의 갑질 신고 직전 주간 정상적 관리자 활동 — 직장 기능장애 서사 반박"
+
+layer: 5
+secondary-layers: []
+claimType: methodology
+claimSubtype: behavioral_evidence
+fracture-type: F-CE
+source-type: kakao
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 8
+validity: 7
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: 2022-02-03
+
+persons:
+  - 이지영
+  - 한지훈
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/methodology
+  - source/kakao
+  - fracture/F-CE
+  - person/이지영
+  - person/한지훈
+---
 # 카카오톡: 이지영의 갑질 신고 직전 주간 정상적 관리자 활동 — 직장 기능장애 서사 반박
 
 **Source:** raw/03. Kakao talk data /Korean/카타오톡 자료(4년 동안 자료 2019.3.7~2023.3.25).txt lines 12381-12474 (lines 12381-12474)

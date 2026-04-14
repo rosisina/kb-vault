@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: "카카오톡: 한지훈이 시험평가 기간 중 전문 콘텐츠에 능동 참여 — 채팅 미사용이 아닌 보고할 이상 부재"
+title-en: "카카오톡: 한지훈이 시험평가 기간 중 전문 콘텐츠에 능동 참여 — 채팅 미사용이 아닌 보고할 이상 부재"
+aliases:
+  - FR-L5-KKT-PROFESSIONAL-ENGAGEMENT
+  - "카카오톡: 한지훈이 시험평가 기간 중 전문 콘텐츠에 능동 참여 — 채팅 미사용이 아닌"
+
+layer: 5
+secondary-layers: [4]
+claimType: methodology
+claimSubtype: behavioral_evidence
+fracture-type: F-CE
+source-type: kakao
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 8
+validity: 7
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: 2019-09-02
+
+persons:
+  - 한지훈
+  - 송민석
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/methodology
+  - source/kakao
+  - fracture/F-CE
+  - person/한지훈
+  - person/송민석
+  - cross-layer
+---
 # 카카오톡: 한지훈이 시험평가 기간 중 전문 콘텐츠에 능동 참여 — 채팅 미사용이 아닌 보고할 이상 부재
 
 **Source:** raw/03. Kakao talk data /Korean/카타오톡 자료(4년 동안 자료 2019.3.7~2023.3.25).txt lines 2661-2715 (lines 2661-2715)

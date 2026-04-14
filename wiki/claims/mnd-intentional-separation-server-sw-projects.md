@@ -1,3 +1,51 @@
+---
+lang: ko
+title-ko: 국방부의 新KIATIS 서버구축·SW개발 사업 의도적 분리 — 舊KIATIS 은폐 설계
+title-en: 국방부의 新KIATIS 서버구축·SW개발 사업 의도적 분리 — 舊KIATIS 은폐 설계
+aliases:
+  - FR-L4-INTENTIONAL-PROJECT-SPLIT
+  - 국방부의 新KIATIS 서버구축·SW개발 사업 의도적 분리 — 舊KIATIS 은폐 설계
+
+layer: 4
+secondary-layers: [1]
+claimType: conspiracy_structure
+claimSubtype: organizational_manipulation
+fracture-type: null
+source-type: book
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 8
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: [3318, 4890]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+organizations:
+  - DIDC
+  - 국전원
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L1
+  - verdict/corroborated
+  - strength/moderate
+  - type/conspiracy-structure
+  - source/book
+  - person/한지훈
+  - org/DIDC
+  - org/국전원
+  - org/MND
+  - has/record-nos
+  - cross-layer
+---
 # 국방부의 新KIATIS 서버구축·SW개발 사업 의도적 분리 — 舊KIATIS 은폐 설계
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.2.2 (lines 118-161)

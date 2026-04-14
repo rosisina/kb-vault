@@ -1,3 +1,48 @@
+---
+lang: ko
+title-ko: 新KIATIS 개발·운용시험평가 통합 실시 — 분리 원칙 위반
+title-en: 新KIATIS 개발·운용시험평가 통합 실시 — 분리 원칙 위반
+aliases:
+  - FR-L4-DTOT-SEPARATION-VIOLATED
+  - 新KIATIS 개발·운용시험평가 통합 실시 — 분리 원칙 위반
+
+layer: 4
+secondary-layers: []
+claimType: procedural_violation
+claimSubtype: regulatory_violation
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 7
+analysisDate: 2026-04-11
+
+record-nos: [8012, 9003]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+organizations:
+  - 국전원
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/procedural-violation
+  - source/book
+  - fracture/F-CE
+  - person/한지훈
+  - org/국전원
+  - org/MND
+  - has/record-nos
+---
 # 新KIATIS 개발·운용시험평가 통합 실시 — 분리 원칙 위반
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.3.2 (lines 226-275)

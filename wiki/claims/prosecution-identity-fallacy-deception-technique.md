@@ -1,3 +1,50 @@
+---
+lang: ko
+title-ko: "군 검찰단의 동일성 오류: 시간적·환경적·개념적 동일성 조작을 통한 사기수사 핵심 기만 기술"
+title-en: ""
+aliases:
+  - FR-L6-IDENTITY-FALLACY
+  - "군 검찰단의 동일성 오류: 시간적·환경적·개념적 동일성 조작을 통한 사기수사 핵심 기만"
+
+layer: 6
+secondary-layers: [7]
+claimType: prosecution_misconduct
+claimSubtype: prosecution_logical_manipulation
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: [8013]
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - 국전원
+  - 군검찰단
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/prosecution-misconduct
+  - source/book
+  - fracture/F-MS
+  - org/국전원
+  - org/군검찰단
+  - org/국유단
+  - has/record-nos
+  - cross-layer
+---
 # 군 검찰단의 동일성 오류: 시간적·환경적·개념적 동일성 조작을 통한 사기수사 핵심 기만 기술
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.4.2 (lines 312–321)

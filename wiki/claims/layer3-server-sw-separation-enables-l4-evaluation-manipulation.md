@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: L3 서버-SW 의도적 분리가 L4 시험평가 조작의 제도적 전제조건
+title-en: ""
+aliases:
+  - FR-L3-SW-SEPARATION-L4-BRIDGE
+  - L3 서버-SW 의도적 분리가 L4 시험평가 조작의 제도적 전제조건
+
+layer: 3
+secondary-layers: [4]
+claimType: cross_layer_analysis
+claimSubtype: separation_enables_evaluation_manipulation
+fracture-type: null
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: [2538, 8012, 8086, 8179]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 박성호
+organizations:
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L3
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/cross-layer-analysis
+  - source/book
+  - person/박성호
+  - org/MND
+  - has/record-nos
+  - cross-layer
+---
 # L3 서버-SW 의도적 분리가 L4 시험평가 조작의 제도적 전제조건
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/09-3-3-33-제3-층위.md §3.3 (line 13)

@@ -1,3 +1,60 @@
+---
+lang: ko
+title-ko: 국방부 유해발굴감식단(국유단)이 사업통제기관·사업주관기관·사업수행기관 다중 cap으로 inscription되었다
+title-en: ""
+aliases:
+  - FR-L2-MKIA-MULTICAP-002
+  - 국방부 유해발굴감식단(국유단)이 사업통제기관·사업주관기관·사업수행기관 다중 cap으로
+
+layer: 2
+secondary-layers: []
+claimType: procedural_violation
+claimSubtype: structural_violation
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 10
+validity: 10
+sincerity: 9
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 강민호
+  - 박성호
+  - 이지영
+  - 김수진
+  - 한지훈
+organizations:
+  - DIDC
+  - 국전원
+  - MND
+  - 국유단
+  - 조달청
+has-verbatim: false
+
+tags:
+  - layer/L2
+  - verdict/corroborated
+  - strength/strong
+  - type/procedural-violation
+  - source/book
+  - fracture/F-CE
+  - person/강민호
+  - person/박성호
+  - person/이지영
+  - person/김수진
+  - person/한지훈
+  - org/DIDC
+  - org/국전원
+  - org/MND
+  - org/국유단
+  - org/조달청
+---
 # 국방부 유해발굴감식단(국유단)이 사업통제기관·사업주관기관·사업수행기관 다중 cap으로 inscription되었다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/08-3-2-32-제2-층위.md (§3.2.1.1, §3.2.1.2 + 〈표 3-2-1〉)

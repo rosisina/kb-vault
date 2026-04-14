@@ -1,3 +1,48 @@
+---
+lang: ko
+title-ko: "C-L4-13: 시험평가 종료(9.11) 후 평가항목 변경 승인(9.19) — 시간적 불가능"
+title-en: "C-L4-13: 시험평가 종료(9.11) 후 평가항목 변경 승인(9.19) — 시간적 불가능"
+aliases:
+  - FR-C-L4-13
+  - "C-L4-13: 시험평가 종료(9.11) 후 평가항목 변경 승인(9.19) — 시간적"
+
+layer: 4
+secondary-layers: [7]
+claimType: cross_layer_analysis
+claimSubtype: contradiction_pair
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: [3068, 4757, 5950]
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - MND
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/cross-layer-analysis
+  - source/book
+  - fracture/F-MS
+  - org/MND
+  - org/국유단
+  - has/record-nos
+  - cross-layer
+---
 # C-L4-13: 시험평가 종료(9.11) 후 평가항목 변경 승인(9.19) — 시간적 불가능
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.7.2 + §3.4.2.4 (lines N/A)

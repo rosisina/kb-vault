@@ -1,3 +1,50 @@
+---
+lang: ko
+title-ko: "김민수의 자백: \"감사관하고도 내가 충분히 애기하고\" — 조사본부와 법무관리관실의 모의 증거"
+title-en: "김민수의 자백: \"감사관하고도 내가 충분히 애기하고\" — 조사본부와 법무관리관실의 모의 증거"
+aliases:
+  - FR-L5-024
+  - "김민수의 자백: \"감사관하고도 내가 충분히 애기하고\" — 조사본부와 법무관리관실의 모의"
+
+layer: 5
+secondary-layers: []
+claimType: conspiracy_structure
+claimSubtype: conspiracy_admission
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 7
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: [11069]
+evidence-ids: ["L5-024"]
+event-date: null
+
+persons:
+  - 김민수
+  - 한지훈
+  - 이지영
+organizations:
+  - 조사본부
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/conspiracy-structure
+  - source/book
+  - fracture/F-CE
+  - person/김민수
+  - person/한지훈
+  - person/이지영
+  - org/조사본부
+  - has/record-nos
+---
 # 김민수의 자백: "감사관하고도 내가 충분히 애기하고" — 조사본부와 법무관리관실의 모의 증거
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md (book §3.5.2.4.1)

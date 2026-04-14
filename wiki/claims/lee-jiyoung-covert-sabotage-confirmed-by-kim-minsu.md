@@ -1,3 +1,49 @@
+---
+lang: ko
+title-ko: 이지영의 이면 행위를 김민수가 직접 폭로 — '당신 말에 반대로 하고 있어'
+title-en: 이지영의 이면 행위를 김민수가 직접 폭로 — '당신 말에 반대로 하고 있어'
+aliases:
+  - FR-L5-LEE-JIYOUNG-COVERT-SABOTAGE
+  - 이지영의 이면 행위를 김민수가 직접 폭로 — '당신 말에 반대로 하고 있어'
+
+layer: 5
+secondary-layers: [3]
+claimType: conspiracy_structure
+claimSubtype: cartel_coordination
+fracture-type: F-CE
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 7
+sincerity: 10
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: 2022-02-23
+
+persons:
+  - 이지영
+  - 김민수
+  - 한지훈
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - layer/L3
+  - verdict/corroborated
+  - strength/strong
+  - type/conspiracy-structure
+  - source/recording
+  - fracture/F-CE
+  - person/이지영
+  - person/김민수
+  - person/한지훈
+  - cross-layer
+---
 # 이지영의 이면 행위를 김민수가 직접 폭로 — '당신 말에 반대로 하고 있어'
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md 녹취009 (lines 1893-1901)

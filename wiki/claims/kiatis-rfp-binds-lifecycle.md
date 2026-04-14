@@ -1,3 +1,45 @@
+---
+lang: ko
+title-ko: "KIATIS conduct is governed by 제2129호 throughout its lifecycle (RFP-binds-lifecycle, 행위시법주의)"
+title-en: ""
+aliases:
+  - FR-L4-KIATIS-002
+  - KIATIS conduct is governed by 제2129호 throughout
+
+layer: 4
+secondary-layers: [6]
+claimType: regulatory_manipulation
+claimSubtype: regulatory_temporal_binding
+fracture-type: F-CE
+source-type: regulation
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: 2018-02-05
+
+persons: []
+organizations:
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/regulatory-manipulation
+  - source/regulation
+  - fracture/F-CE
+  - org/MND
+  - cross-layer
+---
 # KIATIS conduct is governed by 제2129호 throughout its lifecycle (RFP-binds-lifecycle, 행위시법주의)
 
 **Source:** raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2129호)(20180205).converted.md, raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2436호)(20200604).converted.md

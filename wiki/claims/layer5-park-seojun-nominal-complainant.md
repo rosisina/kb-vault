@@ -1,3 +1,57 @@
+---
+lang: ko
+title-ko: "박서준의 신고 내용은 경고장에서 완전히 배제되었고 이지영의 주장만 반영되어, 박서준은 명의상 신고자였음이 증명된다"
+title-en: ""
+aliases:
+  - FR-L5-005
+  - "박서준의 신고 내용은 경고장에서 완전히 배제되었고 이지영의 주장만 반영되어, 박서준은"
+
+layer: 5
+secondary-layers: []
+claimType: witness_manipulation
+claimSubtype: nominal_complainant_structural_proof
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: ["L5-005"]
+event-date: null
+
+persons:
+  - 박서준
+  - 이지영
+  - 김민수
+  - 김수진
+  - 한지훈
+organizations:
+  - 국전원
+  - MND
+  - 조사본부
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/witness-manipulation
+  - source/book
+  - fracture/F-CE
+  - person/박서준
+  - person/이지영
+  - person/김민수
+  - person/김수진
+  - person/한지훈
+  - org/국전원
+  - org/MND
+  - org/조사본부
+---
 # 박서준의 신고 내용은 경고장에서 완전히 배제되었고 이지영의 주장만 반영되어, 박서준은 명의상 신고자였음이 증명된다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md (book §3.5.1.3 / §3.5.2.1.1 / §3.5.3.2)

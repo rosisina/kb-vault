@@ -1,3 +1,55 @@
+---
+lang: ko
+title-ko: "최영규 증언: 보직 이동으로 KIATIS 자료 접근 **전면 차단** — \"여기에 뭔가 의도가 있는 거 같애\""
+title-en: "최영규 증언: 보직 이동으로 KIATIS 자료 접근 **전면 차단** — \"여기에 뭔가 의도가 있는 거 같애\""
+aliases:
+  - FR-L5-DOCUMENT-ACCESS-BLOCKED
+  - "최영규 증언: 보직 이동으로 KIATIS 자료 접근 **전면 차단** — \"여기에 뭔가"
+
+layer: 5
+secondary-layers: [6]
+claimType: evidence_concealment
+claimSubtype: evidence_access_obstruction
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 10
+analysisDate: 2026-04-13
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+  - 최영규
+  - 김민수
+organizations:
+  - DIDC
+  - 국전원
+  - 국유단
+has-verbatim: true
+
+tags:
+  - layer/L5
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/evidence-concealment
+  - source/recording
+  - person/한지훈
+  - person/최영규
+  - person/김민수
+  - org/DIDC
+  - org/국전원
+  - org/국유단
+  - has/verbatim-quote
+  - cross-layer
+---
 # 최영규 증언: 보직 이동으로 KIATIS 자료 접근 **전면 차단** — "여기에 뭔가 의도가 있는 거 같애"
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[009-4]` 녹취 117 (2022.8.9, 00:24:57, line 5238+)

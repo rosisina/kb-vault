@@ -1,3 +1,43 @@
+---
+lang: ko
+title-ko: 제2436호 inverts 제58조 from "separation principle" to "integration principle"
+title-en: ""
+aliases:
+  - FR-L4-A9-001
+  - 제2436호 inverts 제58조 from "separation principle"
+
+layer: 4
+secondary-layers: []
+claimType: regulatory_manipulation
+claimSubtype: regulatory_principle_inversion
+fracture-type: F-MS
+source-type: regulation
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: 2020-06-04
+
+persons: []
+organizations:
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/regulatory-manipulation
+  - source/regulation
+  - fracture/F-MS
+  - org/MND
+---
 # 제2436호 inverts 제58조 from "separation principle" to "integration principle"
 
 **Source:** raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2129호)(20180205).converted.md, raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2436호)(20200604).converted.md, raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2649호)(20220506).converted.md

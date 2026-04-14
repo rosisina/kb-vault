@@ -1,3 +1,43 @@
+---
+lang: ko
+title-ko: "규격 재심의에서 舊KIATIS 데이터·SW의 新서버 이전 완전 차단 (기록 제3,324쪽)"
+title-en: ""
+aliases:
+  - FR-L4-DATA-TRANSFER-BLOCKED
+  - "규격 재심의에서 舊KIATIS 데이터·SW의 新서버 이전 완전 차단 (기록 제3,324쪽)"
+
+layer: 4
+secondary-layers: [1]
+claimType: evidence_concealment
+claimSubtype: data_migration_blocked
+fracture-type: null
+source-type: book
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 8
+sincerity: 7
+analysisDate: 2026-04-12
+
+record-nos: [3324]
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L1
+  - verdict/corroborated
+  - strength/moderate
+  - type/evidence-concealment
+  - source/book
+  - has/record-nos
+  - cross-layer
+---
 # 규격 재심의에서 舊KIATIS 데이터·SW의 新서버 이전 완전 차단 (기록 제3,324쪽)
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.2.2 (lines 135-139)

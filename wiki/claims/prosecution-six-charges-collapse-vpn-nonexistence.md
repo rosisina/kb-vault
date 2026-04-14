@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: 검찰의 6개 혐의가 단일 문서로 전면 붕괴 — VPN이 존재하지 않았으므로 조작 불가능
+title-en: 검찰의 6개 혐의가 단일 문서로 전면 붕괴 — VPN이 존재하지 않았으므로 조작 불가능
+aliases:
+  - FR-L1-SIX-CHARGES-COLLAPSE
+  - 검찰의 6개 혐의가 단일 문서로 전면 붕괴 — VPN이 존재하지 않았으므로 조작 불가능
+
+layer: 1
+secondary-layers: [6]
+claimType: methodology
+claimSubtype: structural_impossibility
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 10
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+organizations:
+  - 군검찰단
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/methodology
+  - source/book
+  - fracture/F-CE
+  - person/한지훈
+  - org/군검찰단
+  - cross-layer
+---
 # 검찰의 6개 혐의가 단일 문서로 전면 붕괴 — VPN이 존재하지 않았으므로 조작 불가능
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/07-3-1-31-제1층위-ActiveX.md §3.1.1.10 (lines 106-113)

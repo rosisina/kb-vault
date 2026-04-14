@@ -1,3 +1,45 @@
+---
+lang: ko
+title-ko: DIDC SOP 제11호 제164조 + 별지 17호 mandate DB access control via 차크라맥스 (CharkraMax) with documented application chain; absence of trail for 2016 incident period is direct Layer 1 cover-up evidence
+title-en: ""
+aliases:
+  - FR-L1-DIDC-006
+  - DIDC SOP 제11호 제164조 + 별지 17호 mandate DB access
+
+layer: 1
+secondary-layers: []
+claimType: procedural_violation
+claimSubtype: procedural_artifact_mandatory
+fracture-type: F-AA
+source-type: sop
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: 2026-04-11
+
+persons: []
+organizations:
+  - DIDC
+  - 조사본부
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - verdict/corroborated
+  - strength/strong
+  - type/procedural-violation
+  - source/sop
+  - fracture/F-AA
+  - org/DIDC
+  - org/조사본부
+---
 # DIDC SOP 제11호 제164조 + 별지 17호 mandate DB access control via 차크라맥스 (CharkraMax) with documented application chain; absence of trail for 2016 incident period is direct Layer 1 cover-up evidence
 
 **Source:** raw/06. DIDC SOP(국방 통합데이터 센터 예규)/02.(Korean) DIDC_정보시스템_운영관리_예규.md (제14장 접근통제 본문 — 제158조~제167조; 제164조 verbatim; 별지 17호 form reference)

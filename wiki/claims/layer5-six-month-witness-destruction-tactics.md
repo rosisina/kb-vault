@@ -1,3 +1,65 @@
+---
+lang: ko
+title-ko: 6개월 격리는 물리적·심리적·사회적 학대를 통한 체계적 증인 파괴 전술이었다
+title-en: ""
+aliases:
+  - FR-L5-011
+  - 6개월 격리는 물리적·심리적·사회적 학대를 통한 체계적 증인 파괴 전술이었다
+
+layer: 5
+secondary-layers: [6, 7]
+claimType: witness_manipulation
+claimSubtype: systematic_witness_destruction
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 10
+validity: 8
+sincerity: 10
+analysisDate: 2026-04-11
+
+record-nos: [4084, 11111, 12896]
+evidence-ids: ["L5-011"]
+event-date: null
+
+persons:
+  - 한지훈
+  - 이지영
+  - 김민지
+  - 이근태
+  - 김민수
+  - 이태호
+  - 최동욱
+organizations:
+  - DIDC
+  - 국전원
+  - 군검찰단
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - layer/L6
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/witness-manipulation
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - person/이지영
+  - person/김민지
+  - person/이근태
+  - person/김민수
+  - org/DIDC
+  - org/국전원
+  - org/군검찰단
+  - org/MND
+  - has/record-nos
+  - cross-layer
+---
 # 6개월 격리는 물리적·심리적·사회적 학대를 통한 체계적 증인 파괴 전술이었다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md (§3.5.1.6)

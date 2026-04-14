@@ -1,3 +1,49 @@
+---
+lang: ko
+title-ko: 수사관이 영장 내 존재하지 않는 '위1.나항' 참조를 인정 — '기재할 필요 없어서 안 했다'
+title-en: 수사관이 영장 내 존재하지 않는 '위1.나항' 참조를 인정 — '기재할 필요 없어서 안 했다'
+aliases:
+  - FR-L6-WARRANT-PHANTOM-REFERENCE
+  - 수사관이 영장 내 존재하지 않는 '위1.나항' 참조를 인정 — '기재할 필요 없어서 안
+
+layer: 6
+secondary-layers: [7]
+claimType: procedural_violation
+claimSubtype: procedural_defect
+fracture-type: F-MS
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: 2022-08-31
+
+persons:
+  - 김민수
+  - 한지훈
+  - 진상호
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/procedural-violation
+  - source/recording
+  - fracture/F-MS
+  - person/김민수
+  - person/한지훈
+  - person/진상호
+  - cross-layer
+---
 # 수사관이 영장 내 존재하지 않는 '위1.나항' 참조를 인정 — '기재할 필요 없어서 안 했다'
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md 녹취151-152 (lines 6371-6802)

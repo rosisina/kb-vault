@@ -1,3 +1,43 @@
+---
+lang: ko
+title-ko: 제2842호 modifies 제76조 Article 76 software development terminology and phase grouping
+title-en: "the book frames this as responsibility-shifting rename (item 12: Software Installation → System Installation, grouped under new Delivery phase); the wiki \"13→5 stage consolidation\" reading is a secondary interpretation pending direct raw/04 re-verification"
+aliases:
+  - FR-L4-A7-001
+  - 제2842호 modifies 제76조 Article 76 software
+  - the book frames this as responsibility-shifting
+
+layer: 4
+secondary-layers: []
+claimType: regulatory_manipulation
+claimSubtype: regulatory_sequence_consolidation
+fracture-type: null
+source-type: regulation
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: 2023-09-20
+
+persons: []
+organizations:
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/regulatory-manipulation
+  - source/regulation
+  - org/MND
+---
 # 제2842호 modifies 제76조 Article 76 software development terminology and phase grouping — the book frames this as responsibility-shifting rename (item 12: Software Installation → System Installation, grouped under new Delivery phase); the wiki "13→5 stage consolidation" reading is a secondary interpretation pending direct raw/04 re-verification
 
 **Source:** raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2129호)(20180205).converted.md, raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2842호)(20230920).converted.md

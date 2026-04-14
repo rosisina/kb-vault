@@ -1,3 +1,49 @@
+---
+lang: ko
+title-ko: "카르텔 3단계 시간 전개: 은폐기반(2016~18) → 조작가동(2018~22) → 범죄완성(2022~25)"
+title-en: ""
+aliases:
+  - FR-L6-THREE-PHASE-TIMELINE
+  - "카르텔 3단계 시간 전개: 은폐기반(2016~18) → 조작가동(2018~22) →"
+
+layer: 6
+secondary-layers: [1, 4, 5]
+claimType: temporal_manipulation
+claimSubtype: temporal_structure
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+organizations:
+  - DIDC
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L1
+  - layer/L4
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/temporal-manipulation
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - org/DIDC
+  - cross-layer
+---
 # 카르텔 3단계 시간 전개: 은폐기반(2016~18) → 조작가동(2018~22) → 범죄완성(2022~25)
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.6.1 (lines 791-804)

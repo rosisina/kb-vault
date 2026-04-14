@@ -1,3 +1,45 @@
+---
+lang: ko
+title-ko: 한지훈은 PC 사업 평가위원장으로서 규격 문제 제기 후 다른 인원으로 평가위원장이 교체되었다
+title-en: ""
+aliases:
+  - FR-L3-PC-EVAL-CHAIR-REPLACED-001
+  - 한지훈은 PC 사업 평가위원장으로서 규격 문제 제기 후 다른 인원으로 평가위원장이
+
+layer: 3
+secondary-layers: []
+claimType: procedural_violation
+claimSubtype: evaluation_independence_violation
+fracture-type: null
+source-type: book
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 7
+sincerity: 9
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+  - 최영수
+organizations:
+  - 국전원
+has-verbatim: false
+
+tags:
+  - layer/L3
+  - verdict/corroborated
+  - strength/moderate
+  - type/procedural-violation
+  - source/book
+  - person/한지훈
+  - person/최영수
+  - org/국전원
+---
 # 한지훈은 PC 사업 평가위원장으로서 규격 문제 제기 후 다른 인원으로 평가위원장이 교체되었다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/09-3-3-33-제3-층위.md (§3.3.3.3)

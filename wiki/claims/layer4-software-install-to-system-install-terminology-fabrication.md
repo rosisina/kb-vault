@@ -1,3 +1,52 @@
+---
+lang: ko
+title-ko: 제76조 '소프트웨어 설치'에서 '시스템 설치'로의 용어 조작 — 책임 전가와 시대역전 증거
+title-en: 제76조 '소프트웨어 설치'에서 '시스템 설치'로의 용어 조작 — 책임 전가와 시대역전 증거
+aliases:
+  - FR-L4-B3-001
+  - 제76조 '소프트웨어 설치'에서 '시스템 설치'로의 용어 조작 — 책임 전가와 시대역전
+
+layer: 4
+secondary-layers: [7]
+claimType: terminology_manipulation
+claimSubtype: software_install_to_system_install_terminology_fabrication
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 10
+validity: 10
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: [3271, 4757, 6270, 9018]
+evidence-ids: []
+event-date: 2015-01-27
+
+persons:
+  - 한지훈
+organizations:
+  - DIDC
+  - 국전원
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/terminology-manipulation
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - org/DIDC
+  - org/국전원
+  - org/MND
+  - has/record-nos
+  - cross-layer
+---
 # 제76조 '소프트웨어 설치'에서 '시스템 설치'로의 용어 조작 — 책임 전가와 시대역전 증거
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md (§3.4.7.3.5, lines 639–662)

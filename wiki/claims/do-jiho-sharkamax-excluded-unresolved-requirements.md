@@ -1,3 +1,52 @@
+---
+lang: ko
+title-ko: "유지보수PM 도지호: ChakraMax(샤크라맥스) 시험평가 시 미사용 — \"확정이 안됐으니까\""
+title-en: "유지보수PM 도지호: ChakraMax(샤크라맥스) 시험평가 시 미사용 — \"확정이 안됐으니까\""
+aliases:
+  - FR-L4-DOJIHO-SHARKAMAX-EXCLUDED
+  - "유지보수PM 도지호: ChakraMax(샤크라맥스) 시험평가 시 미사용 — \"확정이"
+
+layer: 4
+secondary-layers: [1]
+claimType: testimony_evidence
+claimSubtype: technical_witness_admission
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 7
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 도지호
+  - 한지훈
+  - 장우진
+  - 김철환
+organizations:
+  - DIDC
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L1
+  - verdict/corroborated
+  - strength/strong
+  - type/testimony-evidence
+  - source/recording
+  - person/도지호
+  - person/한지훈
+  - person/장우진
+  - person/김철환
+  - org/DIDC
+  - cross-layer
+---
 # 유지보수PM 도지호: ChakraMax(샤크라맥스) 시험평가 시 미사용 — "확정이 안됐으니까"
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[010]` 녹취 133-2 (2022.8.2, 00:03:52)

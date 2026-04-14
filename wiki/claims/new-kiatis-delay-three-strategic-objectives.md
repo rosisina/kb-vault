@@ -1,3 +1,46 @@
+---
+lang: ko
+title-ko: 新KIATIS 전력화 지연의 3대 전략적 목적 — 해킹 은폐·예산 순환·팀장 제거
+title-en: 新KIATIS 전력화 지연의 3대 전략적 목적 — 해킹 은폐·예산 순환·팀장 제거
+aliases:
+  - FR-L6-DELAY-THREE-OBJECTIVES
+  - 新KIATIS 전력화 지연의 3대 전략적 목적 — 해킹 은폐·예산 순환·팀장 제거
+
+layer: 6
+secondary-layers: [4, 5]
+claimType: methodology
+claimSubtype: strategic_analysis
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 8
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: 2022-02-08
+
+persons:
+  - 한지훈
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L4
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/methodology
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - cross-layer
+---
 # 新KIATIS 전력화 지연의 3대 전략적 목적 — 해킹 은폐·예산 순환·팀장 제거
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.5.2 (lines 747-761)

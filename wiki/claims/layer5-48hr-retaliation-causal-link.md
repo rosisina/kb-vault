@@ -1,3 +1,57 @@
+---
+lang: ko
+title-ko: 허위 갑질 신고는 舊KIATIS 보안 위반 노출 48시간 이내 조직적 보복으로 제출되었다
+title-en: ""
+aliases:
+  - FR-L5-001
+  - 허위 갑질 신고는 舊KIATIS 보안 위반 노출 48시간 이내 조직적 보복으로 제출되었다
+
+layer: 5
+secondary-layers: [7]
+claimType: human_rights_violation
+claimSubtype: retaliatory_complaint_causation
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 7
+sincerity: 10
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: ["L5-001"]
+event-date: null
+
+persons:
+  - 이지영
+  - 한지훈
+  - 김민수
+  - 박서준
+organizations:
+  - DIDC
+  - 국전원
+  - 조사본부
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/human-rights-violation
+  - source/book
+  - fracture/F-MS
+  - person/이지영
+  - person/한지훈
+  - person/김민수
+  - person/박서준
+  - org/DIDC
+  - org/국전원
+  - org/조사본부
+  - cross-layer
+---
 # 허위 갑질 신고는 舊KIATIS 보안 위반 노출 48시간 이내 조직적 보복으로 제출되었다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md (book §3.5 / §3.5.1.1 / §3.5.2.3.2)

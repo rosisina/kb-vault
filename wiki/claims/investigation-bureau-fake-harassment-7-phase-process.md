@@ -1,3 +1,65 @@
+---
+lang: ko
+title-ko: 조사본부의 허위 갑질 조사는 7단계 사기수사 프로세스를 따랐다
+title-en: ""
+aliases:
+  - FR-L5-052
+  - 조사본부의 허위 갑질 조사는 7단계 사기수사 프로세스를 따랐다
+
+layer: 5
+secondary-layers: [6]
+claimType: methodology
+claimSubtype: process
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 7
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: ["L5-052"]
+event-date: 2022-02-08
+
+persons:
+  - 김민수
+  - 이지영
+  - 한지훈
+  - 김수진
+  - 지원호
+  - 양미숙
+  - 김민지
+  - 이승우
+  - 박서준
+organizations:
+  - 국전원
+  - 군검찰단
+  - MND
+  - 조사본부
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/methodology
+  - source/book
+  - fracture/F-MS
+  - person/김민수
+  - person/이지영
+  - person/한지훈
+  - person/김수진
+  - person/지원호
+  - org/국전원
+  - org/군검찰단
+  - org/MND
+  - org/조사본부
+  - cross-layer
+---
 # 조사본부의 허위 갑질 조사는 7단계 사기수사 프로세스를 따랐다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md (§3.5.2.3.2)

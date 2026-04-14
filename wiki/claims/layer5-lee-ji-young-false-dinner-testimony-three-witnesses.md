@@ -1,3 +1,58 @@
+---
+lang: ko
+title-ko: 이지영의 거짓 식사 증언이 3명의 독립 증인에 의해 붕괴되었다
+title-en: ""
+aliases:
+  - FR-L5-B3-001
+  - 이지영의 거짓 식사 증언이 3명의 독립 증인에 의해 붕괴되었다
+
+layer: 5
+secondary-layers: [7]
+claimType: witness_manipulation
+claimSubtype: false_testimony_dinner_report_three_witnesses
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: [3889, 3893, 3945, 4053, 4054, 11112]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 이지영
+  - 한지훈
+  - 이승우
+  - 김민수
+  - 김민지
+organizations:
+  - MND
+  - 조사본부
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/witness-manipulation
+  - source/book
+  - fracture/F-CE
+  - person/이지영
+  - person/한지훈
+  - person/이승우
+  - person/김민수
+  - person/김민지
+  - org/MND
+  - org/조사본부
+  - has/record-nos
+  - cross-layer
+---
 # 이지영의 거짓 식사 증언이 3명의 독립 증인에 의해 붕괴되었다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md (§3.5.1.2, lines 44–47)

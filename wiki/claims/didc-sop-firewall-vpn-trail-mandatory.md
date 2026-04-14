@@ -1,3 +1,43 @@
+---
+lang: ko
+title-ko: DIDC SOP 제12호 제37조 + 별지 6/7/8호 mandate firewall/VPN/NAC paper trail; absence of trail for 2016 incident period is Layer 1 cover-up evidence
+title-en: ""
+aliases:
+  - FR-L1-DIDC-003
+  - DIDC SOP 제12호 제37조 + 별지 6/7/8호 mandate
+
+layer: 1
+secondary-layers: []
+claimType: procedural_violation
+claimSubtype: procedural_artifact_mandatory
+fracture-type: F-AA
+source-type: sop
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - DIDC
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - verdict/corroborated
+  - strength/strong
+  - type/procedural-violation
+  - source/sop
+  - fracture/F-AA
+  - org/DIDC
+---
 # DIDC SOP 제12호 제37조 + 별지 6/7/8호 mandate firewall/VPN/NAC paper trail; absence of trail for 2016 incident period is Layer 1 cover-up evidence
 
 **Source:** raw/06. DIDC SOP(국방 통합데이터 센터 예규)/01.(Korean) DIDC_사이버방호_예규.md (제37조 verbatim, 별지 6/7/8호 form references)

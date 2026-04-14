@@ -1,3 +1,64 @@
+---
+lang: ko
+title-ko: 舊KIATIS와 인터넷 홈페이지 서버는 행정정보 운영팀에서 공무원 팀장·실무자에 의해 함께 운용됨 — 피의자 신문조서 및 조직 현황 문서에 의한 증명
+title-en: 舊KIATIS와 인터넷 홈페이지 서버는 행정정보 운영팀에서 공무원 팀장·실무자에 의해 함께 운용됨 — 피의자 신문조서 및 조직 현황 문서에 의한 증명
+aliases:
+  - FR-L1-HOMEPAGE-COMANAGEMENT
+  - 舊KIATIS와 인터넷 홈페이지 서버는 행정정보 운영팀에서 공무원 팀장·실무자에 의해
+
+layer: 1
+secondary-layers: [6]
+claimType: technical_proof
+claimSubtype: operational_co_management_proof
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: [16, 1019, 4723, 4879, 6759]
+evidence-ids: []
+event-date: 2019-12-17
+
+persons:
+  - 조성민
+  - 윤도현
+  - 오현수
+  - 김민수
+  - 이태호
+  - 송민석
+  - 한지훈
+  - 최영규
+  - 유길수
+organizations:
+  - DIDC
+  - 국전원
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/technical-proof
+  - source/book
+  - fracture/F-CE
+  - person/조성민
+  - person/윤도현
+  - person/오현수
+  - person/김민수
+  - person/이태호
+  - org/DIDC
+  - org/국전원
+  - org/MND
+  - has/record-nos
+  - cross-layer
+---
 # 舊KIATIS와 인터넷 홈페이지 서버는 행정정보 운영팀에서 공무원 팀장·실무자에 의해 함께 운용됨 — 피의자 신문조서 및 조직 현황 문서에 의한 증명
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/07-3-1-31-제1층위-ActiveX.md (book §3.1.1.7)

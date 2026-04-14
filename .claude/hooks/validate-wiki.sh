@@ -28,7 +28,7 @@ esac
 # Skip non-articles
 base="$(basename "$FILE_PATH")"
 case "$base" in
-  _index.md|_master-index.md|log.md|_fractures.md|_contradictions.md|timeline.md|_record-index.md|_evidence-catalog.md) exit 0 ;;
+  _index.md|_master-index.md|log.md|_fractures.md|_contradictions.md|timeline.md|_record-index.md|_evidence-catalog.md|_dataview-*.md|_coverage-matrix.md|_falsification-tracker.md) exit 0 ;;
 esac
 case "$FILE_PATH" in
   */_examples/*) exit 0 ;;

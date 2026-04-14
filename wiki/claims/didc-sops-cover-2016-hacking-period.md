@@ -1,3 +1,43 @@
+---
+lang: ko
+title-ko: "Both DIDC SOPs (제12호 사이버방호 + 제11호 운영관리) were in force on 2016-02-01, the procedural duty floor for the 2016 DIDC hacking incident"
+title-en: ""
+aliases:
+  - FR-L1-DIDC-001
+  - Both DIDC SOPs (제12호 사이버방호 + 제11호 운영관리) were in
+
+layer: 1
+secondary-layers: []
+claimType: procedural_violation
+claimSubtype: procedural_duty_floor_establishment
+fracture-type: F-CE
+source-type: sop
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 7
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: 2016-02-01
+
+persons: []
+organizations:
+  - DIDC
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - verdict/corroborated
+  - strength/strong
+  - type/procedural-violation
+  - source/sop
+  - fracture/F-CE
+  - org/DIDC
+---
 # Both DIDC SOPs (제12호 사이버방호 + 제11호 운영관리) were in force on 2016-02-01, the procedural duty floor for the 2016 DIDC hacking incident
 
 **Source:** raw/06. DIDC SOP(국방 통합데이터 센터 예규)/01.(Korean) DIDC_사이버방호_예규.md (제정일 2016-02-01) • raw/06/02.(Korean) DIDC_정보시스템_운영관리_예규.md (제정일 2016-02-01)

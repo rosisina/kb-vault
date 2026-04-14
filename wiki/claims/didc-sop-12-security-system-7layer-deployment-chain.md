@@ -1,3 +1,46 @@
+---
+lang: ko
+title-ko: "DIDC 부대예규 제12호 제40조+별지 제10호: 7대 보안체계 적용절차 — KIATIS에 적용되었어야"
+title-en: "DIDC 부대예규 제12호 제40조+별지 제10호: 7대 보안체계 적용절차 — KIATIS에 적용되었어야"
+aliases:
+  - FR-L1-DIDC-7LAYER-SECURITY
+  - "DIDC 부대예규 제12호 제40조+별지 제10호: 7대 보안체계 적용절차 —"
+
+layer: 1
+secondary-layers: [4]
+claimType: procedural_violation
+claimSubtype: procedural_artifact_mandatory
+fracture-type: null
+source-type: sop
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 7
+validity: 10
+sincerity: 7
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - DIDC
+  - 국전원
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - layer/L4
+  - verdict/corroborated
+  - strength/moderate
+  - type/procedural-violation
+  - source/sop
+  - org/DIDC
+  - org/국전원
+  - cross-layer
+---
 # DIDC 부대예규 제12호 제40조+별지 제10호: 7대 보안체계 적용절차 — KIATIS에 적용되었어야
 
 **Source:** raw/06. DIDC SOP(국방 통합데이터 센터 예규)/01.(Korean) DIDC_사이버방호_예규.md 제40조, 별지 제10호 (lines 574-890)

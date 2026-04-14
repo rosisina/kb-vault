@@ -1,3 +1,52 @@
+---
+lang: ko
+title-ko: 평가 기간 중 Active-X 제거 요청과 국유단장 즉시 승인 — 사전 합의된 시나리오의 증거
+title-en: 평가 기간 중 Active-X 제거 요청과 국유단장 즉시 승인 — 사전 합의된 시나리오의 증거
+aliases:
+  - FR-L4-011
+  - 평가 기간 중 Active-X 제거 요청과 국유단장 즉시 승인 — 사전 합의된 시나리오의
+
+layer: 4
+secondary-layers: [7]
+claimType: conspiracy_structure
+claimSubtype: conspiracy_evidence_evaluation_manipulation
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 7
+analysisDate: 2026-04-11
+
+record-nos: [3068, 5950]
+evidence-ids: ["L4-001", "L4-011"]
+event-date: null
+
+persons:
+  - 한지훈
+organizations:
+  - DIDC
+  - 국전원
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/conspiracy-structure
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - org/DIDC
+  - org/국전원
+  - org/국유단
+  - has/record-nos
+  - cross-layer
+---
 # 평가 기간 중 Active-X 제거 요청과 국유단장 즉시 승인 — 사전 합의된 시나리오의 증거
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md (book §3.4.6.3)

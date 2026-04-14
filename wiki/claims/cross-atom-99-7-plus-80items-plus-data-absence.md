@@ -1,3 +1,45 @@
+---
+lang: ko
+title-ko: 99.7점 + 80건 추가요구 + 데이터 부재 = 3중 자기모순
+title-en: ""
+aliases:
+  - FR-L4-TRIPLE-SELF-CONTRADICTION
+  - 99.7점 + 80건 추가요구 + 데이터 부재 = 3중 자기모순
+
+layer: 4
+secondary-layers: [6]
+claimType: cross_layer_analysis
+claimSubtype: cross_atom_contradiction
+fracture-type: F-SC
+source-type: unknown
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: [2610, 3039, 3041]
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/cross-layer-analysis
+  - fracture/F-SC
+  - org/국유단
+  - has/record-nos
+  - cross-layer
+---
 # 99.7점 + 80건 추가요구 + 데이터 부재 = 3중 자기모순
 
 **Source:** wiki/claims/layer4-evaluation-committee-80-items-violation.md + gukyu-dan-data-absence-delays-new-kiatis.md §3.4.7.2 + §3.6.5.1.1 (lines cross-reference)

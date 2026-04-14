@@ -1,3 +1,50 @@
+---
+lang: ko
+title-ko: 방화벽 포트 개방은 표준 IT 절차 — 불법 접근이 아님
+title-en: 방화벽 포트 개방은 표준 IT 절차 — 불법 접근이 아님
+aliases:
+  - FR-L6-FIREWALL-STANDARD-PROCEDURE
+  - 방화벽 포트 개방은 표준 IT 절차 — 불법 접근이 아님
+
+layer: 6
+secondary-layers: []
+claimType: prosecution_misconduct
+claimSubtype: prosecution_technical_ignorance
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: [6128, 8435]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+organizations:
+  - DIDC
+  - 국전원
+  - 군검찰단
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/prosecution-misconduct
+  - source/book
+  - fracture/F-CE
+  - person/한지훈
+  - org/DIDC
+  - org/국전원
+  - org/군검찰단
+  - has/record-nos
+---
 # 방화벽 포트 개방은 표준 IT 절차 — 불법 접근이 아님
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.3.3.1 (lines 151-198)

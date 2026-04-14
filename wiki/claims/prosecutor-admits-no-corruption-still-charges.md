@@ -1,3 +1,48 @@
+---
+lang: ko
+title-ko: 군검사가 업체 비리·금품수수 없음 인정하면서도 기소유예 유지
+title-en: ""
+aliases:
+  - FR-L6-NO-CORRUPTION-STILL-CHARGED
+  - 군검사가 업체 비리·금품수수 없음 인정하면서도 기소유예 유지
+
+layer: 6
+secondary-layers: [4, 7]
+claimType: prosecution_misconduct
+claimSubtype: prosecution_admission
+fracture-type: F-SC
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 10
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: 2022-09-28
+
+persons:
+  - 한지훈
+  - 임형규
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L4
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/prosecution-misconduct
+  - source/recording
+  - fracture/F-SC
+  - person/한지훈
+  - person/임형규
+  - cross-layer
+---
 # 군검사가 업체 비리·금품수수 없음 인정하면서도 기소유예 유지
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md 녹취142+146 (lines 6032-6326)

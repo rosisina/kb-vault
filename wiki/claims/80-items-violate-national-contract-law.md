@@ -1,3 +1,44 @@
+---
+lang: ko
+title-ko: 80건 추가 요구사항이 국가계약법 위반 — 평가위원회의 권한 초월
+title-en: 80건 추가 요구사항이 국가계약법 위반 — 평가위원회의 권한 초월
+aliases:
+  - FR-L4-80-ITEMS-CONTRACT-LAW-VIOLATION
+  - 80건 추가 요구사항이 국가계약법 위반 — 평가위원회의 권한 초월
+
+layer: 4
+secondary-layers: []
+claimType: procedural_violation
+claimSubtype: regulatory_violation
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: [3039, 4776]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 장호재
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/procedural-violation
+  - source/book
+  - fracture/F-CE
+  - person/장호재
+  - has/record-nos
+---
 # 80건 추가 요구사항이 국가계약법 위반 — 평가위원회의 권한 초월
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.7.3.6 (lines 664-721)

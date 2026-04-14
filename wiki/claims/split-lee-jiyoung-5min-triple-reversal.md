@@ -1,3 +1,46 @@
+---
+lang: ko
+title-ko: 이지영의 5분 3회 번복 — 조직→직권→개인 신고 변경 = 실시간 김민수 조율
+title-en: 이지영의 5분 3회 번복 — 조직→직권→개인 신고 변경 = 실시간 김민수 조율
+aliases:
+  - FR-L5-5MIN-TRIPLE-REVERSAL
+  - 이지영의 5분 3회 번복 — 조직→직권→개인 신고 변경 = 실시간 김민수 조율
+
+layer: 5
+secondary-layers: []
+claimType: conspiracy_structure
+claimSubtype: conspiracy_evidence
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: [11064]
+evidence-ids: []
+event-date: 2022-02-21
+
+persons:
+  - 김민수
+  - 이지영
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/conspiracy-structure
+  - source/book
+  - fracture/F-MS
+  - person/김민수
+  - person/이지영
+  - has/record-nos
+---
 # 이지영의 5분 3회 번복 — 조직→직권→개인 신고 변경 = 실시간 김민수 조율
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md §3.5.2.4.2 (lines 260-263)

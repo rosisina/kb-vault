@@ -1,3 +1,54 @@
+---
+lang: ko
+title-ko: "용어 정의 조작: \"사업관리기관\"→\"집행기관\", \"사업주관기관\"→\"소요제기기관\" 변경은 新·舊KIATIS 책임 단절을 위한 의도적 개념 왜곡이다"
+title-en: ""
+aliases:
+  - FR-L4-TERMINOLOGY-DISTORTION-001
+  - "용어 정의 조작: \"사업관리기관\"→\"집행기관\", \"사업주관기관\"→\"소요제기기관\" 변경은"
+
+layer: 4
+secondary-layers: [2, 6]
+claimType: terminology_manipulation
+claimSubtype: role_concept_downgrade
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 8
+validity: 9
+sincerity: 7
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+  - 김민수
+organizations:
+  - 국전원
+  - 군검찰단
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L2
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/terminology-manipulation
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - person/김민수
+  - org/국전원
+  - org/군검찰단
+  - org/MND
+  - cross-layer
+---
 # 용어 정의 조작: "사업관리기관"→"집행기관", "사업주관기관"→"소요제기기관" 변경은 新·舊KIATIS 책임 단절을 위한 의도적 개념 왜곡이다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md (§3.4.4.4.4)

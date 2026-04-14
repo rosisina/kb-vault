@@ -1,3 +1,46 @@
+---
+lang: ko
+title-ko: DIDC의 시험평가 개혁 과정 전면 배제 — VPN 책임 은폐
+title-en: DIDC의 시험평가 개혁 과정 전면 배제 — VPN 책임 은폐
+aliases:
+  - FR-L4-DIDC-EXCLUDED-REFORM
+  - DIDC의 시험평가 개혁 과정 전면 배제 — VPN 책임 은폐
+
+layer: 4
+secondary-layers: []
+claimType: conspiracy_structure
+claimSubtype: organizational_exclusion
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: [3322, 5741]
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - DIDC
+  - 국전원
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/conspiracy-structure
+  - source/book
+  - fracture/F-MS
+  - org/DIDC
+  - org/국전원
+  - has/record-nos
+---
 # DIDC의 시험평가 개혁 과정 전면 배제 — VPN 책임 은폐
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.3.4.3 (lines 342-353)

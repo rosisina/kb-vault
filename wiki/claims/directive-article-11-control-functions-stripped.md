@@ -1,3 +1,44 @@
+---
+lang: ko
+title-ko: 훈령 제11조 사업통제기관 핵심 기능의 체계적 삭제
+title-en: ""
+aliases:
+  - FR-L4-ARTICLE-11-STRIPPED
+  - 훈령 제11조 사업통제기관 핵심 기능의 체계적 삭제
+
+layer: 4
+secondary-layers: []
+claimType: regulatory_manipulation
+claimSubtype: control_function_deletion
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: [7512, 8087, 8168, 8260, 8272]
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/regulatory-manipulation
+  - source/book
+  - fracture/F-MS
+  - org/국유단
+  - has/record-nos
+---
 # 훈령 제11조 사업통제기관 핵심 기능의 체계적 삭제
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.4.4.2 (lines 383-402)

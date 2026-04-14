@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: 군검찰단 참고인 명단 자체가 카르텔 구성원 식별의 핵심 증거
+title-en: ""
+aliases:
+  - FR-L6-WITNESS-LIST-CARTEL-ID
+  - 군검찰단 참고인 명단 자체가 카르텔 구성원 식별의 핵심 증거
+
+layer: 6
+secondary-layers: [7]
+claimType: methodology
+claimSubtype: evidentiary_claim
+fracture-type: null
+source-type: book
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 7
+validity: 5
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: [11162]
+evidence-ids: []
+event-date: 2022-10-11
+
+persons:
+  - 한지훈
+organizations:
+  - 군검찰단
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L7
+  - verdict/corroborated
+  - strength/moderate
+  - type/methodology
+  - source/book
+  - person/한지훈
+  - org/군검찰단
+  - has/record-nos
+  - cross-layer
+---
 # 군검찰단 참고인 명단 자체가 카르텔 구성원 식별의 핵심 증거
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/15-5-5-결론-및.md §5.3.4 (lines 60-65)

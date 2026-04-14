@@ -1,3 +1,49 @@
+---
+lang: ko
+title-ko: "박성호 (2016해킹당시원장-1): DIDC 원장→국전원장으로 L1-L3 제도적 연속성 형성"
+title-en: ""
+aliases:
+  - FR-L3-PARK-SEONG-HO-L1-L3-BRIDGE
+  - "박성호 (2016해킹당시원장-1): DIDC 원장→국전원장으로 L1-L3 제도적 연속성"
+
+layer: 3
+secondary-layers: [1]
+claimType: conspiracy_structure
+claimSubtype: institutional_role_continuity_bridge
+fracture-type: null
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: [1473, 1573, 2520, 11107, 11134]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 박성호
+organizations:
+  - DIDC
+  - 국전원
+has-verbatim: false
+
+tags:
+  - layer/L3
+  - layer/L1
+  - verdict/corroborated
+  - strength/strong
+  - type/conspiracy-structure
+  - source/book
+  - person/박성호
+  - org/DIDC
+  - org/국전원
+  - has/record-nos
+  - cross-layer
+---
 # 박성호 (2016해킹당시원장-1): DIDC 원장→국전원장으로 L1-L3 제도적 연속성 형성
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/09-3-3-33-제3-층위.md §3.3 (lines 11, 38)

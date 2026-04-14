@@ -1,3 +1,46 @@
+---
+lang: ko
+title-ko: 검사의 기소 근거 전환 — VPN에서 방화벽으로 핵심 논거 이동
+title-en: 검사의 기소 근거 전환 — VPN에서 방화벽으로 핵심 논거 이동
+aliases:
+  - FR-L6-CHARGE-SHIFT-VPN-TO-FIREWALL
+  - 검사의 기소 근거 전환 — VPN에서 방화벽으로 핵심 논거 이동
+
+layer: 6
+secondary-layers: []
+claimType: prosecution_misconduct
+claimSubtype: prosecution_narrative_shift
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: [4979, 11157, 11188]
+evidence-ids: []
+event-date: 2022-10-11
+
+persons:
+  - 한지훈
+  - 임형규
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/prosecution-misconduct
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - person/임형규
+  - has/record-nos
+---
 # 검사의 기소 근거 전환 — VPN에서 방화벽으로 핵심 논거 이동
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.4.3.1 (lines 328-371)

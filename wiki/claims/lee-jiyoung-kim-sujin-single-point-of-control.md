@@ -1,3 +1,52 @@
+---
+lang: ko
+title-ko: 이지영 (공문결재자-1)과 김수진 (행정담당자-1)은 모든 조작의 시작과 끝에 등장하는 단일 통제점이다
+title-en: ""
+aliases:
+  - FR-L2-LJY-KSJ-CONTROL-003
+  - 이지영 (공문결재자-1)과 김수진 (행정담당자-1)은 모든 조작의 시작과 끝에 등장하는
+
+layer: 2
+secondary-layers: []
+claimType: conspiracy_structure
+claimSubtype: actor_continuity
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 10
+validity: 9
+sincerity: 9
+
+record-nos: []
+evidence-ids: []
+event-date: 2019-09-02
+
+persons:
+  - 이지영
+  - 김수진
+  - 이태호
+organizations:
+  - 국전원
+  - MND
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L2
+  - verdict/corroborated
+  - strength/strong
+  - type/conspiracy-structure
+  - source/book
+  - fracture/F-MS
+  - person/이지영
+  - person/김수진
+  - person/이태호
+  - org/국전원
+  - org/MND
+  - org/국유단
+---
 # 이지영 (공문결재자-1)과 김수진 (행정담당자-1)은 모든 조작의 시작과 끝에 등장하는 단일 통제점이다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/08-3-2-32-제2-층위.md (§3.2.1.2 footnote 85, §3.2.2 footnote 109, §3.2.3 main paragraph), ../defense-kg-platform/kg/pseudonym_mapping.json (id 2 + id 11)

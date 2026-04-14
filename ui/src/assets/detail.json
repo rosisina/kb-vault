@@ -69,7 +69,14 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "DIDC",
+        "MND"
+      ],
+      "fractureType": null,
+      "sourceType": "regulation"
     },
     "FR-L1-GLOSSARY-DIDC-RENAME": {
       "id": "FR-L1-GLOSSARY-DIDC-RENAME",
@@ -118,7 +125,13 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "DIDC"
+      ],
+      "fractureType": null,
+      "sourceType": "regulation"
     },
     "FR-L4-A8a-001": {
       "id": "FR-L4-A8a-001",
@@ -198,12 +211,18 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "MND"
+      ],
+      "fractureType": null,
+      "sourceType": "regulation"
     },
     "FR-L4-CLUSTER-2436": {
       "id": "FR-L4-CLUSTER-2436",
       "stem": "2436ho-cluster-six-anchors",
-      "title": "제2436호 (2020-06-04) is an eight-anchor cluster — single-revision rebuild of the test-evaluation regime (expanded from six on 2026-04-11 after P6 blind re-measurement)",
+      "title": "제2436호 (2020-06-04) is an eight-anchor cluster",
       "source": "raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2129호)(20180205).converted.md, raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2398호)(20200213).converted.md, raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2436호)(20200604).converted.md",
       "layer": 1,
       "claim": "The 제2436호 revision (2020-06-04) of 국방정보화업무 훈령 is a coordinated single-revision cluster moving **eight** of the thirteen baseline anchors simultaneously: A1 (DIDC naming), A2 (role-tier renaming), A8a (OT&E environment hedge), A8b (OT&E sponsor binding), **A11 (DT&E sponsor binding — symmetric to A8b)**, **A12 (DT&E `합격/불합격` result-judgment clause)**, A9 (separation-principle inversion), and A10 (DT&E article body deletion). No other revision in the 2017–2025 dataset moves more than one anchor at a time. The 제2436호 cluster reconstructs the directive's test-evaluation regime in a single edit, with six of the eight movements concentrated on 제57조~제61조 (the 시험평가 regime itself).",
@@ -334,7 +353,14 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "DIDC",
+        "MND"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "regulation"
     },
     "FR-L1-001": {
       "id": "FR-L1-001",
@@ -428,7 +454,15 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "DIDC",
+        "MND",
+        "국본"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "regulation"
     },
     "FR-L4-A10-001": {
       "id": "FR-L4-A10-001",
@@ -528,7 +562,15 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "국전원",
+        "MND",
+        "국본"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "regulation"
     },
     "FR-L4-A8b-sym-001": {
       "id": "FR-L4-A8b-sym-001",
@@ -639,7 +681,15 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "국전원",
+        "MND",
+        "국본"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "regulation"
     },
     "FR-L4-GLOSSARY-PURGE-2436": {
       "id": "FR-L4-GLOSSARY-PURGE-2436",
@@ -688,7 +738,11 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [],
+      "fractureType": null,
+      "sourceType": "regulation"
     },
     "FR-L3-001": {
       "id": "FR-L3-001",
@@ -785,7 +839,18 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "김민수",
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "MND"
+      ],
+      "fractureType": null,
+      "sourceType": "regulation"
     },
     "FR-L4-A8b-001": {
       "id": "FR-L4-A8b-001",
@@ -879,7 +944,14 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "MND",
+        "국유단"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "regulation"
     },
     "FR-L4-A9-001": {
       "id": "FR-L4-A9-001",
@@ -976,7 +1048,13 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "MND"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "regulation"
     },
     "FR-L4-ART62-APPROVAL-DELETED": {
       "id": "FR-L4-ART62-APPROVAL-DELETED",
@@ -1025,7 +1103,13 @@
           "type": "SUPERSEDES"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "MND"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "regulation"
     },
     "FR-L4-ART64-FAILURE-BLINDSPOT": {
       "id": "FR-L4-ART64-FAILURE-BLINDSPOT",
@@ -1069,7 +1153,13 @@
           "type": "CORROBORATES"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "MND"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "regulation"
     },
     "FR-L4-ART68-TRIGGER-WEAKENED": {
       "id": "FR-L4-ART68-TRIGGER-WEAKENED",
@@ -1118,7 +1208,13 @@
           "type": "RELATED"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "MND"
+      ],
+      "fractureType": null,
+      "sourceType": "regulation"
     },
     "FR-L4-OTE-PREFIX-DROPPED": {
       "id": "FR-L4-OTE-PREFIX-DROPPED",
@@ -1167,12 +1263,18 @@
           "type": "RELATED"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "MND"
+      ],
+      "fractureType": null,
+      "sourceType": "regulation"
     },
     "FR-L4-A7-001": {
       "id": "FR-L4-A7-001",
       "stem": "2842ho-software-development-13-to-5-stage",
-      "title": "제2842호 modifies 제76조 Article 76 software development terminology and phase grouping — the book frames this as responsibility-shifting rename (item 12: Software Installation → System Installation, grouped under new Delivery phase); the wiki \"13→5 stage consolidation\" reading is a secondary interpretation pending direct raw/04 re-verification",
+      "title": "제2842호 modifies 제76조 Article 76 software development terminology and phase grouping",
       "source": "raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2129호)(20180205).converted.md, raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2842호)(20230920).converted.md",
       "layer": 4,
       "claim": "**Primary framing (book-anchored, per §3.4.7.3.5 of `raw/01. book-beyond-cybersecurity/vault-converted-english/14-3-4-34-Fourth-Layer.md` line 511):** On 2023-09-20, 국방정보화업무 훈령 제2842호 modified 제76조 Article 76's software development lifecycle terminology and phase grouping. Specifically, item 12 was renamed from `Software Installation` to `System Installation` and grouped under a newly introduced `Delivery` phase category. James characterizes this as a **responsibility-shifting rename** — the substantive work covered by item 12 is reassigned by nomenclature without changing the operational reality.\n\n**Secondary framing (wiki interpretation, pending direct raw/04 re-verification):** The book's description of terminology + grouping change may correspond to a broader 13-stage-to-5-phase consolidation at the text level of 제2842호 제76조 ¶1. Under the 13-stage reading, each stage had a defined predecessor and successor and time-reversal anomalies (out-of-order completion dates between stages) were detectable on the document trail. Under the 5-phase reading, sequencing within each phase would be flexible, weakening the time-reversal detection signal. **The 13→5 phrasing is a wiki-side interpretive step not directly stated in the book**; it requires direct re-measurement of the 제2129호 and 제2842호 제76조 ¶1 raw text before being promoted to primary framing.",
@@ -1253,7 +1355,13 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "MND"
+      ],
+      "fractureType": null,
+      "sourceType": "regulation"
     },
     "FR-L1-2946-RENAME": {
       "id": "FR-L1-2946-RENAME",
@@ -1302,7 +1410,13 @@
           "type": "RELATED"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "MND"
+      ],
+      "fractureType": null,
+      "sourceType": "regulation"
     },
     "FR-L4-80-ITEMS-CONTRACT-LAW-VIOLATION": {
       "id": "FR-L4-80-ITEMS-CONTRACT-LAW-VIOLATION",
@@ -1364,7 +1478,13 @@
       "allRecordNos": [
         "3039",
         "4776"
-      ]
+      ],
+      "persons": [
+        "장호재"
+      ],
+      "organizations": [],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L1-ACTIVEX-REMOVAL-GOAL": {
       "id": "FR-L1-ACTIVEX-REMOVAL-GOAL",
@@ -1459,7 +1579,14 @@
         "1481",
         "1487",
         "1515"
-      ]
+      ],
+      "persons": [],
+      "organizations": [
+        "국전원",
+        "국유단"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L6-ANSEJUN-CHIEF-PROSECUTOR-IGNORANCE": {
       "id": "FR-L6-ANSEJUN-CHIEF-PROSECUTOR-IGNORANCE",
@@ -1528,7 +1655,18 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "안세준",
+        "한지훈",
+        "임형규",
+        "진상호"
+      ],
+      "organizations": [
+        "군검찰단"
+      ],
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L5-APT-3Y11M-PERSONALIZED": {
       "id": "FR-L5-APT-3Y11M-PERSONALIZED",
@@ -1596,7 +1734,13 @@
         "4979",
         "5578",
         "5671"
-      ]
+      ],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L4-INTELLECTUALIZATION-OF-EVIL": {
       "id": "FR-L4-INTELLECTUALIZATION-OF-EVIL",
@@ -1663,7 +1807,83 @@
       "allRecordNos": [
         "6445",
         "6446"
-      ]
+      ],
+      "persons": [],
+      "organizations": [
+        "MND"
+      ],
+      "fractureType": null,
+      "sourceType": "book"
+    },
+    "FR-C-L4-19": {
+      "id": "FR-C-L4-19",
+      "stem": "article-58-five-year-stability-then-reversal",
+      "title": "C-L4-19: 제58조 분리 원칙 5년 안정(2015~2020.2) → 제2436호 4개월 만에 역전(2020.6)",
+      "source": "raw/04. law & regulation/Korean/국방 정보화업무 훈령 제58조 변천사 (lines N/A)",
+      "layer": 4,
+      "claim": "제58조의 시험평가 분리 원칙이 제1775호(2015.1.27)부터 제2398호(2020.2.13)까지 5년간 안정적으로 유지되었다가 제2436호(2020.6.4)에서 4개월 만에 통합 원칙으로 180도 전환(기록 제7,512쪽, 제8,194쪽). 5년 안정 후 돌연 역전은 자연적 정책 진화가 아닌 의도적 조작의 시간적 증거이다.",
+      "keyTakeaways": [
+        {
+          "text": "5-year stability (2015-2020.2) followed by sudden reversal at 제2436호 (2020.6.4) — 4 months [진리성]",
+          "axes": [
+            "진리성"
+          ]
+        },
+        {
+          "text": "Reversal occurred in the same revision as five other anchor manipulations (8-anchor cluster) [진리성]",
+          "axes": [
+            "진리성"
+          ]
+        }
+      ],
+      "supportingEvidence": [
+        {
+          "raw": "**Record No. 7,512**",
+          "recordNos": [
+            "7512"
+          ]
+        },
+        {
+          "raw": "**Record No. 8,194**",
+          "recordNos": [
+            "8194"
+          ]
+        }
+      ],
+      "counterHypothesis": "통합 원칙은 국제적 애자일 테스트 관행을 반영한 현대화 조치이며 시기적 우연이다",
+      "falsificationCondition": "2019년 이전에 통합을 권고하는 내부 정책 검토 문서가 존재하는 경우",
+      "verdictProse": "**CORROBORATED.** STRONG. 진리성 9 / 타당성 9 / 진실성 7.",
+      "spotCheck": "- `vault-converted-korean/국방 정보화업무 훈령` lines N/A",
+      "related": [
+        {
+          "slug": "article-58-separation-to-integration-2020-directive-manipulation",
+          "display": "2 shared records — 분리→통합 원칙 역전",
+          "type": "RELATED"
+        },
+        {
+          "slug": "2436ho-test-evaluation-principle-inverted",
+          "display": "2436ho-test-evaluation-principle-inverted",
+          "type": "RELATED"
+        },
+        {
+          "slug": "2436ho-cluster-six-anchors",
+          "display": "2436ho-cluster-six-anchors",
+          "type": "CAUSES"
+        },
+        {
+          "slug": "layer-4",
+          "display": "Layer 4",
+          "type": "PART_OF_LAYER"
+        }
+      ],
+      "allRecordNos": [
+        "7512",
+        "8194"
+      ],
+      "persons": [],
+      "organizations": [],
+      "fractureType": "F-MS",
+      "sourceType": "regulation"
     },
     "FR-L4-ART58-SEPARATION-REVERSAL-001": {
       "id": "FR-L4-ART58-SEPARATION-REVERSAL-001",
@@ -1735,7 +1955,7 @@
           "type": "RELATED"
         },
         {
-          "slug": "contradiction-article-58-five-year-stability-then-reversal",
+          "slug": "article-58-five-year-stability-then-reversal",
           "display": "2 shared records — 제58조 5년 안정성→역전",
           "type": "RELATED"
         },
@@ -1765,7 +1985,16 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "국전원",
+        "MND",
+        "국본",
+        "국유단"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L4-DTOT-REPORT-HIDDEN": {
       "id": "FR-L4-DTOT-REPORT-HIDDEN",
@@ -1841,7 +2070,20 @@
         "2767",
         "2773",
         "5835"
-      ]
+      ],
+      "persons": [
+        "이준호",
+        "이지영",
+        "박서준",
+        "한지훈",
+        "김민수"
+      ],
+      "organizations": [
+        "군검찰단",
+        "국유단"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-META-CARTEL-ROSTER": {
       "id": "FR-META-CARTEL-ROSTER",
@@ -1885,7 +2127,19 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "최동욱",
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "군검찰단",
+        "조사본부"
+      ],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L6-007": {
       "id": "FR-L6-007",
@@ -1986,7 +2240,18 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "박서준",
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC",
+        "군검찰단",
+        "국유단"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L5-LAWYER-COERCIVE-RESIGNATION": {
       "id": "FR-L5-LAWYER-COERCIVE-RESIGNATION",
@@ -2058,7 +2323,17 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "최동욱",
+        "박서준",
+        "한지훈",
+        "김민수",
+        "이지영"
+      ],
+      "organizations": [],
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L6-LAWYER-FEE-CONTINGENT": {
       "id": "FR-L6-LAWYER-FEE-CONTINGENT",
@@ -2116,7 +2391,14 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "최동욱",
+        "한지훈"
+      ],
+      "organizations": [],
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L6-LAWYER-PROSECUTION-FRAMING": {
       "id": "FR-L6-LAWYER-PROSECUTION-FRAMING",
@@ -2165,7 +2447,14 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "최동욱",
+        "한지훈"
+      ],
+      "organizations": [],
+      "fractureType": "F-MS",
+      "sourceType": "recording"
     },
     "FR-L6-LAWYER-PROSECUTION-LANGUAGE": {
       "id": "FR-L6-LAWYER-PROSECUTION-LANGUAGE",
@@ -2237,7 +2526,17 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "최동욱",
+        "한지훈",
+        "이준호"
+      ],
+      "organizations": [
+        "국유단"
+      ],
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L5-PSYCHIATRIC-GASLIGHTING": {
       "id": "FR-L5-PSYCHIATRIC-GASLIGHTING",
@@ -2311,7 +2610,19 @@
       ],
       "allRecordNos": [
         "11252"
-      ]
+      ],
+      "persons": [
+        "한지훈",
+        "최동욱",
+        "천하경",
+        "박서준",
+        "김동욱"
+      ],
+      "organizations": [
+        "국전원"
+      ],
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L6-LAWYER-RESIGNATION-COERCION": {
       "id": "FR-L6-LAWYER-RESIGNATION-COERCION",
@@ -2360,7 +2671,14 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "최동욱",
+        "한지훈"
+      ],
+      "organizations": [],
+      "fractureType": "F-MS",
+      "sourceType": "recording"
     },
     "FR-L6-LAWYER-SHOW-WEAKNESS-STRATEGY": {
       "id": "FR-L6-LAWYER-SHOW-WEAKNESS-STRATEGY",
@@ -2415,7 +2733,14 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "최동욱",
+        "한지훈"
+      ],
+      "organizations": [],
+      "fractureType": "F-MS",
+      "sourceType": "recording"
     },
     "FR-L6-LAWYER-TECHNICAL-IGNORANCE": {
       "id": "FR-L6-LAWYER-TECHNICAL-IGNORANCE",
@@ -2470,7 +2795,14 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "최동욱",
+        "한지훈"
+      ],
+      "organizations": [],
+      "fractureType": "F-CE",
+      "sourceType": "recording"
     },
     "FR-L5-DOCUMENT-ACCESS-BLOCKED": {
       "id": "FR-L5-DOCUMENT-ACCESS-BLOCKED",
@@ -2542,350 +2874,19 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
-    },
-    "FR-C-L4-19": {
-      "id": "FR-C-L4-19",
-      "stem": "contradiction-article-58-five-year-stability-then-reversal",
-      "title": "C-L4-19: 제58조 분리 원칙 5년 안정(2015~2020.2) → 제2436호 4개월 만에 역전(2020.6)",
-      "source": "raw/04. law & regulation/Korean/국방 정보화업무 훈령 제58조 변천사 (lines N/A)",
-      "layer": 4,
-      "claim": "제58조의 시험평가 분리 원칙이 제1775호(2015.1.27)부터 제2398호(2020.2.13)까지 5년간 안정적으로 유지되었다가 제2436호(2020.6.4)에서 4개월 만에 통합 원칙으로 180도 전환(기록 제7,512쪽, 제8,194쪽). 5년 안정 후 돌연 역전은 자연적 정책 진화가 아닌 의도적 조작의 시간적 증거이다.",
-      "keyTakeaways": [
-        {
-          "text": "5-year stability (2015-2020.2) followed by sudden reversal at 제2436호 (2020.6.4) — 4 months [진리성]",
-          "axes": [
-            "진리성"
-          ]
-        },
-        {
-          "text": "Reversal occurred in the same revision as five other anchor manipulations (8-anchor cluster) [진리성]",
-          "axes": [
-            "진리성"
-          ]
-        }
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "최영규",
+        "김민수"
       ],
-      "supportingEvidence": [
-        {
-          "raw": "**Record No. 7,512**",
-          "recordNos": [
-            "7512"
-          ]
-        },
-        {
-          "raw": "**Record No. 8,194**",
-          "recordNos": [
-            "8194"
-          ]
-        }
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "국유단"
       ],
-      "counterHypothesis": "통합 원칙은 국제적 애자일 테스트 관행을 반영한 현대화 조치이며 시기적 우연이다",
-      "falsificationCondition": "2019년 이전에 통합을 권고하는 내부 정책 검토 문서가 존재하는 경우",
-      "verdictProse": "**CORROBORATED.** STRONG. 진리성 9 / 타당성 9 / 진실성 7.",
-      "spotCheck": "- `vault-converted-korean/국방 정보화업무 훈령` lines N/A",
-      "related": [
-        {
-          "slug": "article-58-separation-to-integration-2020-directive-manipulation",
-          "display": "2 shared records — 분리→통합 원칙 역전",
-          "type": "RELATED"
-        },
-        {
-          "slug": "2436ho-test-evaluation-principle-inverted",
-          "display": "2436ho-test-evaluation-principle-inverted",
-          "type": "RELATED"
-        },
-        {
-          "slug": "2436ho-cluster-six-anchors",
-          "display": "2436ho-cluster-six-anchors",
-          "type": "CAUSES"
-        },
-        {
-          "slug": "layer-4",
-          "display": "Layer 4",
-          "type": "PART_OF_LAYER"
-        }
-      ],
-      "allRecordNos": [
-        "7512",
-        "8194"
-      ]
-    },
-    "FR-C-L4-13": {
-      "id": "FR-C-L4-13",
-      "stem": "contradiction-evaluation-post-completion-temporal-impossibility",
-      "title": "C-L4-13: 시험평가 종료(9.11) 후 평가항목 변경 승인(9.19) — 시간적 불가능",
-      "source": "raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.7.2 + §3.4.2.4 (lines N/A)",
-      "layer": 4,
-      "claim": "평가 항목 변경 요청(2019.9.5) → 시험평가 종료(2019.9.11) → 평가 항목 변경 승인(2019.9.19, 국유단장). 승인이 평가 종료 8일 후에 이루어진 것은 시간적 불가능이며, 국유단이 사업통제기관 역할을 불법 자임한 증거. 2020-08 MND 공문(기록 제4,757쪽)이 이를 '제도 개선'으로 소급 정당화.",
-      "keyTakeaways": [
-        {
-          "text": "Evaluation-item change approved 8 days AFTER evaluation ended — temporal impossibility [진리성]",
-          "axes": [
-            "진리성"
-          ]
-        },
-        {
-          "text": "국유단장 assumed 사업통제기관 role without authorization [타당성]",
-          "axes": [
-            "타당성"
-          ]
-        }
-      ],
-      "supportingEvidence": [
-        {
-          "raw": "**Record No. 5,950**",
-          "recordNos": [
-            "5950"
-          ]
-        },
-        {
-          "raw": "**Record No. 3,068**",
-          "recordNos": [
-            "3068"
-          ]
-        },
-        {
-          "raw": "**Record No. 4,757**",
-          "recordNos": [
-            "4757"
-          ]
-        }
-      ],
-      "counterHypothesis": "2019.9.19 승인은 구두 합의의 사후 행정 공식화이다",
-      "falsificationCondition": "평가항목 변경이 2019.9.11 이전에 실질적으로 합의·적용되었음을 보여주는 기록",
-      "verdictProse": "**CORROBORATED.** STRONG. 진리성 9 / 타당성 9 / 진실성 8.",
-      "spotCheck": "- `vault-converted-korean/10-3-4-34-제4-층위.md` lines N/A",
-      "related": [
-        {
-          "slug": "layer4-evaluation-committee-80-items-violation",
-          "display": "layer4-evaluation-committee-80-items-violation",
-          "type": "RELATED"
-        },
-        {
-          "slug": "mnd-test-eval-simplification-timed-to-evaluation-day",
-          "display": "mnd-test-eval-simplification-timed-to-evaluation-day",
-          "type": "RELATED"
-        },
-        {
-          "slug": "layer-4",
-          "display": "Layer 4",
-          "type": "PART_OF_LAYER"
-        }
-      ],
-      "allRecordNos": [
-        "3068",
-        "4757",
-        "5950"
-      ]
-    },
-    "FR-C-L5-04-EXT": {
-      "id": "FR-C-L5-04-EXT",
-      "stem": "contradiction-fabricated-warning-wrong-title",
-      "title": "C-L5-04 확장: 경고장의 존재하지 않는 직위 기재 — 행정정보계획팀장(미존재) vs 자원정보화과 국방정보화사업담당(공식)",
-      "source": "raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md §3.5.1.3 (lines 49-60)",
-      "layer": 5,
-      "claim": "법무관리관실 경고장(2022.5.23)은 한지훈의 직위를 '행정정보계획팀장'으로 기재하였으나, 이 직위는 자원정보화과에도 행정정보화과에도 존재하지 않는다. 한지훈의 2022.2.28 기준 공식 직위는 '자원정보화과 국방정보화사업담당'(기록 제1,586쪽). 동일한 오류가 피의자신문조서(기록 제4,878쪽)에도 나타나 — 카르텔 구성원이 비공식 명칭을 법무관리관실과 군검찰단에 동시 전달한 것.",
-      "keyTakeaways": [
-        {
-          "text": "Warning letter uses non-existent job title '행정정보계획팀장' — this title exists in NEITHER division [진리성]",
-          "axes": [
-            "진리성"
-          ]
-        },
-        {
-          "text": "Same error appears in prosecution's interrogation record (Record 4,878) — proving shared information source [진리성]",
-          "axes": [
-            "진리성"
-          ]
-        },
-        {
-          "text": "Official title was '자원정보화과 국방정보화사업담당' (Record 1,586) — not verified through official personnel system [타당성]",
-          "axes": [
-            "타당성"
-          ]
-        }
-      ],
-      "supportingEvidence": [
-        {
-          "raw": "**Record No. 1,586**",
-          "recordNos": [
-            "1586"
-          ]
-        },
-        {
-          "raw": "**Record No. 1,584**",
-          "recordNos": [
-            "1584"
-          ]
-        },
-        {
-          "raw": "**Record No. 4,878**",
-          "recordNos": [
-            "4878"
-          ]
-        },
-        {
-          "raw": "**Record No. 4,064**",
-          "recordNos": [
-            "4064"
-          ]
-        }
-      ],
-      "counterHypothesis": "직위 오류는 단순 행정적 실수이다",
-      "falsificationCondition": "법무관리관실이 국방인사정보체계에서 직위를 확인하고 기재한 기록",
-      "verdictProse": "**CORROBORATED.** STRONG. 진리성 9 / 타당성 9 / 진실성 9.",
-      "spotCheck": "- `vault-converted-korean/11-3-5-35-제-5층위.md` lines 49-60",
-      "related": [
-        {
-          "slug": "warning-letter-reflects-only-lee-jiyoung",
-          "display": "warning-letter-reflects-only-lee-jiyoung",
-          "type": "OPPOSES"
-        },
-        {
-          "slug": "layer5-fabricated-warning-letter",
-          "display": "layer5-fabricated-warning-letter",
-          "type": "OPPOSES"
-        },
-        {
-          "slug": "layer-5",
-          "display": "Layer 5",
-          "type": "PART_OF_LAYER"
-        }
-      ],
-      "allRecordNos": [
-        "1584",
-        "1586",
-        "4064",
-        "4878"
-      ]
-    },
-    "FR-C-L1-11": {
-      "id": "FR-C-L1-11",
-      "stem": "contradiction-intranet-link-attack-surface",
-      "title": "C-L1-11: 舊KIATIS 인터넷+인트라넷 이중 연동 = 2016 해킹 브릿지 공격면",
-      "source": "raw/01. book-beyond-cybersecurity/vault-converted-korean/07-3-1-31-제1층위-ActiveX.md §3.1.1.3 (lines 25-28)",
-      "layer": 1,
-      "claim": "舊KIATIS는 인터넷 기반이면서 동시에 인트라넷(국방망)과 데이터를 송수신하는 이중 연동 구조였다(기록 제1,117쪽, 제1,125쪽). 단순 인터넷 홈페이지가 아니라 2016 DIDC 해킹 시 인터넷→국방망 공격 경로를 제공한 bridge 시스템이었으며, 이를 은폐할 동기가 커버업의 핵심이다.",
-      "keyTakeaways": [
-        {
-          "text": "舊KIATIS had dual internet-intranet linkage making it a bridge attack surface during 2016 hacking [진리성]",
-          "axes": [
-            "진리성"
-          ]
-        },
-        {
-          "text": "Cover-up motive intensifies: not a simple website but a gateway to the defense network [진리성]",
-          "axes": [
-            "진리성"
-          ]
-        }
-      ],
-      "supportingEvidence": [
-        {
-          "raw": "**Record No. 1,117**",
-          "recordNos": [
-            "1117"
-          ]
-        },
-        {
-          "raw": "**Record No. 1,125**",
-          "recordNos": [
-            "1125"
-          ]
-        }
-      ],
-      "counterHypothesis": "인트라넷 연동은 계획되었으나 실제 운용되지 않았으며 문서는 목표를 기술한 것이다",
-      "falsificationCondition": "舊KIATIS에 인트라넷 데이터 연동이 없었음을 보여주는 네트워크 트래픽 로그 또는 구성 기록",
-      "verdictProse": "**CORROBORATED.** STRONG. 진리성 8 / 타당성 8 / 진실성 7.",
-      "spotCheck": "- `vault-converted-korean/07-3-1-31-제1층위-ActiveX.md` lines 25-28",
-      "related": [
-        {
-          "slug": "old-kiatis-direct-db-access-without-vpn",
-          "display": "old-kiatis-direct-db-access-without-vpn",
-          "type": "RELATED"
-        },
-        {
-          "slug": "old-kiatis-hosted-inside-other-server-15-years",
-          "display": "old-kiatis-hosted-inside-other-server-15-years",
-          "type": "RELATED"
-        },
-        {
-          "slug": "layer-1",
-          "display": "Layer 1",
-          "type": "PART_OF_LAYER"
-        }
-      ],
-      "allRecordNos": [
-        "1117",
-        "1125"
-      ]
-    },
-    "FR-C-L6-16": {
-      "id": "FR-C-L6-16",
-      "stem": "contradiction-selective-criminalization-approval-chain",
-      "title": "C-L6-16: 방화벽 결재 3인 중 중간 검토자만 피의자 — 최종 결재자·기안자 배제",
-      "source": "raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.4.11.4 (lines 680-683)",
-      "layer": 6,
-      "claim": "방화벽 정책적용 공문의 결재선(기안자 이준호, 검토자 한지훈, 결재자 최영수) 중 중간 검토자만 피의자 지정. 최종 결재자(30년 IT 전문가, 서기관)는 참고인, 기안자는 배제. 최영수는 5시간 참고인 조사에서 방화벽 포트 개방의 기술적 정당성을 진술하였으나 검찰은 이를 반박하지 못함. 결재선 내 선택적 범죄자 만들기 = 표적수사.",
-      "keyTakeaways": [
-        {
-          "text": "Of 3-person approval chain (drafter/reviewer/approver), only the reviewer was charged [진리성]",
-          "axes": [
-            "진리성"
-          ]
-        },
-        {
-          "text": "최영수 (final approver, 30-year IT expert) testified 5 hours the action was technically justified — prosecution could not rebut [진리성]",
-          "axes": [
-            "진리성"
-          ]
-        },
-        {
-          "text": "Selective targeting within single approval chain = textbook targeted prosecution [타당성]",
-          "axes": [
-            "타당성"
-          ]
-        }
-      ],
-      "supportingEvidence": [
-        {
-          "raw": "**Record No. 3,948**",
-          "recordNos": [
-            "3948"
-          ]
-        },
-        {
-          "raw": "**Record No. 4,842**",
-          "recordNos": [
-            "4842"
-          ]
-        }
-      ],
-      "counterHypothesis": "검토자가 기술적 검증 의무의 일차적 책임자이므로 정당한 피의자 지정",
-      "falsificationCondition": "팀장(검토자)이 과장(결재자)보다 방화벽 결정에 대해 더 큰 형사 책임을 진다는 법리 분석",
-      "verdictProse": "**CORROBORATED.** STRONG. 진리성 9 / 타당성 9 / 진실성 9.",
-      "spotCheck": "- `vault-converted-korean/12-3-6-36-제6층위-군.md` lines 680-683",
-      "related": [
-        {
-          "slug": "prosecution-firewall-port-opening-contradicts-it-standard-practice",
-          "display": "prosecution-firewall-port-opening-contradicts-it-standard-practice",
-          "type": "CAUSES"
-        },
-        {
-          "slug": "prosecution-selective-criminalization-firewall-approval-chain",
-          "display": "prosecution-selective-criminalization-firewall-approval-chain",
-          "type": "CAUSES"
-        },
-        {
-          "slug": "layer-6",
-          "display": "Layer 6",
-          "type": "PART_OF_LAYER"
-        }
-      ],
-      "allRecordNos": [
-        "3948",
-        "4842"
-      ]
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L4-TRIPLE-SELF-CONTRADICTION": {
       "id": "FR-L4-TRIPLE-SELF-CONTRADICTION",
@@ -2958,7 +2959,13 @@
         "2610",
         "3039",
         "3041"
-      ]
+      ],
+      "persons": [],
+      "organizations": [
+        "국유단"
+      ],
+      "fractureType": "F-SC",
+      "sourceType": "unknown"
     },
     "FR-CB-05-PREDETERMINED-CHAIN": {
       "id": "FR-CB-05-PREDETERMINED-CHAIN",
@@ -3031,7 +3038,11 @@
         "11188",
         "3965",
         "5679"
-      ]
+      ],
+      "persons": [],
+      "organizations": [],
+      "fractureType": "F-MS",
+      "sourceType": "unknown"
     },
     "FR-CB-04-WITNESS-PIPELINE": {
       "id": "FR-CB-04-WITNESS-PIPELINE",
@@ -3092,7 +3103,11 @@
       "allRecordNos": [
         "10034",
         "11162"
-      ]
+      ],
+      "persons": [],
+      "organizations": [],
+      "fractureType": "F-MS",
+      "sourceType": "unknown"
     },
     "FR-CSR-006": {
       "id": "FR-CSR-006",
@@ -3141,7 +3156,13 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "DIDC"
+      ],
+      "fractureType": null,
+      "sourceType": "regulation"
     },
     "FR-CSR-004": {
       "id": "FR-CSR-004",
@@ -3190,7 +3211,13 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "DIDC"
+      ],
+      "fractureType": "F-AA",
+      "sourceType": "regulation"
     },
     "FR-CSR-011": {
       "id": "FR-CSR-011",
@@ -3239,7 +3266,11 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [],
+      "fractureType": "F-AA",
+      "sourceType": "regulation"
     },
     "FR-CSR-002": {
       "id": "FR-CSR-002",
@@ -3288,7 +3319,15 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "regulation"
     },
     "FR-CSR-001": {
       "id": "FR-CSR-001",
@@ -3332,7 +3371,11 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [],
+      "fractureType": "F-CE",
+      "sourceType": "regulation"
     },
     "FR-CSR-009": {
       "id": "FR-CSR-009",
@@ -3381,7 +3424,13 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "DIDC"
+      ],
+      "fractureType": null,
+      "sourceType": "regulation"
     },
     "FR-L1-CARTEL-001": {
       "id": "FR-L1-CARTEL-001",
@@ -3505,7 +3554,20 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "임형규",
+        "안세준"
+      ],
+      "organizations": [
+        "DIDC",
+        "군검찰단",
+        "MND",
+        "국본"
+      ],
+      "fractureType": null,
+      "sourceType": "investigation"
     },
     "FR-L4-DELIBERATE-ABSENCE": {
       "id": "FR-L4-DELIBERATE-ABSENCE",
@@ -3573,7 +3635,15 @@
       "allRecordNos": [
         "1946",
         "2276"
-      ]
+      ],
+      "persons": [
+        "윤도현",
+        "송민석",
+        "한지훈"
+      ],
+      "organizations": [],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L4-HWANG-PRIOR-KNOWLEDGE": {
       "id": "FR-L4-HWANG-PRIOR-KNOWLEDGE",
@@ -3640,7 +3710,17 @@
       "allRecordNos": [
         "11399",
         "11404"
-      ]
+      ],
+      "persons": [
+        "황만수",
+        "한지훈",
+        "김성민"
+      ],
+      "organizations": [
+        "DIDC"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L4-DIDC-EXCLUDED-REFORM": {
       "id": "FR-L4-DIDC-EXCLUDED-REFORM",
@@ -3707,7 +3787,14 @@
       "allRecordNos": [
         "3322",
         "5741"
-      ]
+      ],
+      "persons": [],
+      "organizations": [
+        "DIDC",
+        "국전원"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L4-DIDC-FALSE-VPN-RECORD": {
       "id": "FR-L4-DIDC-FALSE-VPN-RECORD",
@@ -3794,7 +3881,15 @@
         "1875",
         "4748",
         "4890"
-      ]
+      ],
+      "persons": [
+        "박서준"
+      ],
+      "organizations": [
+        "DIDC"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L1-DIDC-005": {
       "id": "FR-L1-DIDC-005",
@@ -3965,7 +4060,13 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "DIDC"
+      ],
+      "fractureType": "F-AA",
+      "sourceType": "sop"
     },
     "FR-L1-DIDC-004": {
       "id": "FR-L1-DIDC-004",
@@ -4115,7 +4216,14 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "DIDC",
+        "국전원"
+      ],
+      "fractureType": null,
+      "sourceType": "sop"
     },
     "FR-L1-DIDC-ROOT-CONSOLE-ONLY": {
       "id": "FR-L1-DIDC-ROOT-CONSOLE-ONLY",
@@ -4170,7 +4278,13 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "DIDC"
+      ],
+      "fractureType": null,
+      "sourceType": "sop"
     },
     "FR-L1-DIDC-ERT-LOGS": {
       "id": "FR-L1-DIDC-ERT-LOGS",
@@ -4219,7 +4333,13 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "DIDC"
+      ],
+      "fractureType": "F-AA",
+      "sourceType": "sop"
     },
     "FR-L1-DIDC-SCENE-PRESERVATION": {
       "id": "FR-L1-DIDC-SCENE-PRESERVATION",
@@ -4274,7 +4394,13 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "DIDC"
+      ],
+      "fractureType": "F-AA",
+      "sourceType": "sop"
     },
     "FR-L1-DIDC-7LAYER-SECURITY": {
       "id": "FR-L1-DIDC-7LAYER-SECURITY",
@@ -4329,7 +4455,14 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "DIDC",
+        "국전원"
+      ],
+      "fractureType": null,
+      "sourceType": "sop"
     },
     "FR-L1-DIDC-006": {
       "id": "FR-L1-DIDC-006",
@@ -4469,7 +4602,14 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "DIDC",
+        "조사본부"
+      ],
+      "fractureType": "F-AA",
+      "sourceType": "sop"
     },
     "FR-L1-DIDC-003": {
       "id": "FR-L1-DIDC-003",
@@ -4580,7 +4720,13 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "DIDC"
+      ],
+      "fractureType": "F-AA",
+      "sourceType": "sop"
     },
     "FR-L1-DIDC-002": {
       "id": "FR-L1-DIDC-002",
@@ -4674,7 +4820,13 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "DIDC"
+      ],
+      "fractureType": "F-AA",
+      "sourceType": "sop"
     },
     "FR-L1-DIDC-001": {
       "id": "FR-L1-DIDC-001",
@@ -4781,7 +4933,13 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "DIDC"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "sop"
     },
     "FR-L4-VPN-OTP-WITHHOLDING": {
       "id": "FR-L4-VPN-OTP-WITHHOLDING",
@@ -4848,7 +5006,16 @@
       "allRecordNos": [
         "11302",
         "4748"
-      ]
+      ],
+      "persons": [
+        "장우진",
+        "박서준"
+      ],
+      "organizations": [
+        "DIDC"
+      ],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L4-DIDC-WITHHELD-DIAGRAM": {
       "id": "FR-L4-DIDC-WITHHELD-DIAGRAM",
@@ -4917,7 +5084,17 @@
         "2301",
         "2311",
         "3333"
-      ]
+      ],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "군검찰단"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-META-DIFFUSION-RESPONSIBILITY": {
       "id": "FR-META-DIFFUSION-RESPONSIBILITY",
@@ -4961,7 +5138,17 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "군검찰단",
+        "MND",
+        "조사본부"
+      ],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L4-ARTICLE-11-STRIPPED": {
       "id": "FR-L4-ARTICLE-11-STRIPPED",
@@ -5049,7 +5236,13 @@
         "8168",
         "8260",
         "8272"
-      ]
+      ],
+      "persons": [],
+      "organizations": [
+        "국유단"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L4-DOJIHO-SHARKAMAX-EXCLUDED": {
       "id": "FR-L4-DOJIHO-SHARKAMAX-EXCLUDED",
@@ -5118,7 +5311,93 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "도지호",
+        "한지훈",
+        "장우진",
+        "김철환"
+      ],
+      "organizations": [
+        "DIDC"
+      ],
+      "fractureType": null,
+      "sourceType": "recording"
+    },
+    "FR-C-L4-13": {
+      "id": "FR-C-L4-13",
+      "stem": "evaluation-post-completion-temporal-impossibility",
+      "title": "C-L4-13: 시험평가 종료(9.11) 후 평가항목 변경 승인(9.19) — 시간적 불가능",
+      "source": "raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.7.2 + §3.4.2.4 (lines N/A)",
+      "layer": 4,
+      "claim": "평가 항목 변경 요청(2019.9.5) → 시험평가 종료(2019.9.11) → 평가 항목 변경 승인(2019.9.19, 국유단장). 승인이 평가 종료 8일 후에 이루어진 것은 시간적 불가능이며, 국유단이 사업통제기관 역할을 불법 자임한 증거. 2020-08 MND 공문(기록 제4,757쪽)이 이를 '제도 개선'으로 소급 정당화.",
+      "keyTakeaways": [
+        {
+          "text": "Evaluation-item change approved 8 days AFTER evaluation ended — temporal impossibility [진리성]",
+          "axes": [
+            "진리성"
+          ]
+        },
+        {
+          "text": "국유단장 assumed 사업통제기관 role without authorization [타당성]",
+          "axes": [
+            "타당성"
+          ]
+        }
+      ],
+      "supportingEvidence": [
+        {
+          "raw": "**Record No. 5,950**",
+          "recordNos": [
+            "5950"
+          ]
+        },
+        {
+          "raw": "**Record No. 3,068**",
+          "recordNos": [
+            "3068"
+          ]
+        },
+        {
+          "raw": "**Record No. 4,757**",
+          "recordNos": [
+            "4757"
+          ]
+        }
+      ],
+      "counterHypothesis": "2019.9.19 승인은 구두 합의의 사후 행정 공식화이다",
+      "falsificationCondition": "평가항목 변경이 2019.9.11 이전에 실질적으로 합의·적용되었음을 보여주는 기록",
+      "verdictProse": "**CORROBORATED.** STRONG. 진리성 9 / 타당성 9 / 진실성 8.",
+      "spotCheck": "- `vault-converted-korean/10-3-4-34-제4-층위.md` lines N/A",
+      "related": [
+        {
+          "slug": "layer4-evaluation-committee-80-items-violation",
+          "display": "layer4-evaluation-committee-80-items-violation",
+          "type": "RELATED"
+        },
+        {
+          "slug": "mnd-test-eval-simplification-timed-to-evaluation-day",
+          "display": "mnd-test-eval-simplification-timed-to-evaluation-day",
+          "type": "RELATED"
+        },
+        {
+          "slug": "layer-4",
+          "display": "Layer 4",
+          "type": "PART_OF_LAYER"
+        }
+      ],
+      "allRecordNos": [
+        "3068",
+        "4757",
+        "5950"
+      ],
+      "persons": [],
+      "organizations": [
+        "MND",
+        "국유단"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L7-EVIDENCE-GOLDEN-TIME": {
       "id": "FR-L7-EVIDENCE-GOLDEN-TIME",
@@ -5168,7 +5447,11 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L1-EXCAVATION-15YR-VPN-ABSENCE": {
       "id": "FR-L1-EXCAVATION-15YR-VPN-ABSENCE",
@@ -5275,7 +5558,20 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "장우진",
+        "한지훈",
+        "김민수",
+        "이지영"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "국유단"
+      ],
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L1-MOBILE-ATTACK-SURFACE": {
       "id": "FR-L1-MOBILE-ATTACK-SURFACE",
@@ -5368,7 +5664,7 @@
           "type": "RELATED"
         },
         {
-          "slug": "contradiction-intranet-link-attack-surface",
+          "slug": "intranet-link-attack-surface",
           "display": "인터넷↔인트라넷 이중 연동 attack surface — 모바일 경로가 추가 진입점",
           "type": "RELATED"
         },
@@ -5388,7 +5684,17 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "이지영"
+      ],
+      "organizations": [
+        "DIDC",
+        "국유단"
+      ],
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L4-FABRICATED-DOC-2020-IN-2022": {
       "id": "FR-L4-FABRICATED-DOC-2020-IN-2022",
@@ -5455,7 +5761,15 @@
       "allRecordNos": [
         "4757",
         "4821"
-      ]
+      ],
+      "persons": [],
+      "organizations": [
+        "국전원",
+        "군검찰단",
+        "MND"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L4-RECIPIENTS-ADMIN-ONLY": {
       "id": "FR-L4-RECIPIENTS-ADMIN-ONLY",
@@ -5515,7 +5829,106 @@
       ],
       "allRecordNos": [
         "4758"
-      ]
+      ],
+      "persons": [
+        "양미숙"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "MND"
+      ],
+      "fractureType": null,
+      "sourceType": "book"
+    },
+    "FR-C-L5-04-EXT": {
+      "id": "FR-C-L5-04-EXT",
+      "stem": "fabricated-warning-wrong-title",
+      "title": "C-L5-04 확장: 경고장의 존재하지 않는 직위 기재 — 행정정보계획팀장(미존재) vs 자원정보화과 국방정보화사업담당(공식)",
+      "source": "raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md §3.5.1.3 (lines 49-60)",
+      "layer": 5,
+      "claim": "법무관리관실 경고장(2022.5.23)은 한지훈의 직위를 '행정정보계획팀장'으로 기재하였으나, 이 직위는 자원정보화과에도 행정정보화과에도 존재하지 않는다. 한지훈의 2022.2.28 기준 공식 직위는 '자원정보화과 국방정보화사업담당'(기록 제1,586쪽). 동일한 오류가 피의자신문조서(기록 제4,878쪽)에도 나타나 — 카르텔 구성원이 비공식 명칭을 법무관리관실과 군검찰단에 동시 전달한 것.",
+      "keyTakeaways": [
+        {
+          "text": "Warning letter uses non-existent job title '행정정보계획팀장' — this title exists in NEITHER division [진리성]",
+          "axes": [
+            "진리성"
+          ]
+        },
+        {
+          "text": "Same error appears in prosecution's interrogation record (Record 4,878) — proving shared information source [진리성]",
+          "axes": [
+            "진리성"
+          ]
+        },
+        {
+          "text": "Official title was '자원정보화과 국방정보화사업담당' (Record 1,586) — not verified through official personnel system [타당성]",
+          "axes": [
+            "타당성"
+          ]
+        }
+      ],
+      "supportingEvidence": [
+        {
+          "raw": "**Record No. 1,586**",
+          "recordNos": [
+            "1586"
+          ]
+        },
+        {
+          "raw": "**Record No. 1,584**",
+          "recordNos": [
+            "1584"
+          ]
+        },
+        {
+          "raw": "**Record No. 4,878**",
+          "recordNos": [
+            "4878"
+          ]
+        },
+        {
+          "raw": "**Record No. 4,064**",
+          "recordNos": [
+            "4064"
+          ]
+        }
+      ],
+      "counterHypothesis": "직위 오류는 단순 행정적 실수이다",
+      "falsificationCondition": "법무관리관실이 국방인사정보체계에서 직위를 확인하고 기재한 기록",
+      "verdictProse": "**CORROBORATED.** STRONG. 진리성 9 / 타당성 9 / 진실성 9.",
+      "spotCheck": "- `vault-converted-korean/11-3-5-35-제-5층위.md` lines 49-60",
+      "related": [
+        {
+          "slug": "warning-letter-reflects-only-lee-jiyoung",
+          "display": "warning-letter-reflects-only-lee-jiyoung",
+          "type": "OPPOSES"
+        },
+        {
+          "slug": "layer5-fabricated-warning-letter",
+          "display": "layer5-fabricated-warning-letter",
+          "type": "OPPOSES"
+        },
+        {
+          "slug": "layer-5",
+          "display": "Layer 5",
+          "type": "PART_OF_LAYER"
+        }
+      ],
+      "allRecordNos": [
+        "1584",
+        "1586",
+        "4064",
+        "4878"
+      ],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "군검찰단"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L1-DIDC-007": {
       "id": "FR-L1-DIDC-007",
@@ -5616,7 +6029,17 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "최영수",
+        "이준호",
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC"
+      ],
+      "fractureType": null,
+      "sourceType": "investigation"
     },
     "FR-L6-FIREWALL-STANDARD-PROCEDURE": {
       "id": "FR-L6-FIREWALL-STANDARD-PROCEDURE",
@@ -5665,8 +6088,8 @@
       "spotCheck": "- `vault-converted-korean/12-3-6-36-제6층위-군.md` lines 151-198",
       "related": [
         {
-          "slug": "prosecution-firewall-port-opening-contradicts-it-standard-practice",
-          "display": "prosecution-firewall-port-opening-contradicts-it-standard-practice",
+          "slug": "prosecution-firewall-port-opening-vs-it-standard-practice",
+          "display": "prosecution-firewall-port-opening-vs-it-standard-practice",
           "type": "OPPOSES"
         },
         {
@@ -5683,7 +6106,17 @@
       "allRecordNos": [
         "6128",
         "8435"
-      ]
+      ],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "군검찰단"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L4-FIREWALL-CONFIRMS-NO-VPN": {
       "id": "FR-L4-FIREWALL-CONFIRMS-NO-VPN",
@@ -5763,8 +6196,8 @@
           "type": "RELATED"
         },
         {
-          "slug": "prosecution-firewall-port-opening-contradicts-it-standard-practice",
-          "display": "prosecution-firewall-port-opening-contradicts-it-standard-practice",
+          "slug": "prosecution-firewall-port-opening-vs-it-standard-practice",
+          "display": "prosecution-firewall-port-opening-vs-it-standard-practice",
           "type": "OPPOSES"
         },
         {
@@ -5783,7 +6216,20 @@
         "6100",
         "6128",
         "6169"
-      ]
+      ],
+      "persons": [
+        "박서준",
+        "장우진",
+        "한지훈",
+        "오현수",
+        "이준호",
+        "지원호"
+      ],
+      "organizations": [
+        "DIDC"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L6-FOUR-ENVIRONMENTS-NON-IDENTICAL": {
       "id": "FR-L6-FOUR-ENVIRONMENTS-NON-IDENTICAL",
@@ -5838,7 +6284,15 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "국전원",
+        "군검찰단",
+        "국유단"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L4-GLOSSARY-OSCILLATION": {
       "id": "FR-L4-GLOSSARY-OSCILLATION",
@@ -5887,7 +6341,11 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [],
+      "fractureType": null,
+      "sourceType": "regulation"
     },
     "FR-L4-TEAM-LEADER-EXCLUSION": {
       "id": "FR-L4-TEAM-LEADER-EXCLUSION",
@@ -5988,7 +6446,21 @@
         "6128",
         "6134",
         "6150"
-      ]
+      ],
+      "persons": [
+        "이준호",
+        "최영수",
+        "지원호",
+        "한지훈",
+        "오현수",
+        "송민석"
+      ],
+      "organizations": [
+        "국전원",
+        "군검찰단"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L6-DATA-ABSENCE-001": {
       "id": "FR-L6-DATA-ABSENCE-001",
@@ -6068,7 +6540,18 @@
       "allRecordNos": [
         "11322",
         "2610"
-      ]
+      ],
+      "persons": [
+        "박서준",
+        "한지훈"
+      ],
+      "organizations": [
+        "군검찰단",
+        "MND",
+        "국유단"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L2-DUAL-CAP-UNPRECEDENTED": {
       "id": "FR-L2-DUAL-CAP-UNPRECEDENTED",
@@ -6154,7 +6637,19 @@
         "1131",
         "3331",
         "5853"
-      ]
+      ],
+      "persons": [
+        "이지영",
+        "김수진",
+        "한지훈"
+      ],
+      "organizations": [
+        "국전원",
+        "MND",
+        "국유단"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L6-NIS-SUPPORT-CMD-DIRECTOR-CHARGE": {
       "id": "FR-L6-NIS-SUPPORT-CMD-DIRECTOR-CHARGE",
@@ -6209,7 +6704,19 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "곽민철",
+        "김민수",
+        "이준호",
+        "박서준"
+      ],
+      "organizations": [
+        "국전원"
+      ],
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L7-DANJANG-CALL": {
       "id": "FR-L7-DANJANG-CALL",
@@ -6313,7 +6820,19 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "안세준",
+        "임형규",
+        "진상호"
+      ],
+      "organizations": [
+        "군검찰단",
+        "MND"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L5-INVESTIGATION-NOTEBOOK-30Q": {
       "id": "FR-L5-INVESTIGATION-NOTEBOOK-30Q",
@@ -6402,7 +6921,20 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "박서준",
+        "한지훈",
+        "이승우",
+        "김민수",
+        "이지영"
+      ],
+      "organizations": [
+        "MND",
+        "국유단"
+      ],
+      "fractureType": null,
+      "sourceType": "unknown"
     },
     "FR-L6-005": {
       "id": "FR-L6-005",
@@ -6489,7 +7021,18 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "김민수"
+      ],
+      "organizations": [
+        "국전원",
+        "군검찰단",
+        "MND"
+      ],
+      "fractureType": "F-AA",
+      "sourceType": "book"
     },
     "FR-L6-002": {
       "id": "FR-L6-002",
@@ -6637,7 +7180,18 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "최영수",
+        "임형규",
+        "안세준"
+      ],
+      "organizations": [
+        "군검찰단"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L2-OFFICERMANIP-006": {
       "id": "FR-L2-OFFICERMANIP-006",
@@ -6762,7 +7316,24 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "이태호",
+        "이준호",
+        "오현수",
+        "이지영",
+        "김수진"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "군검찰단",
+        "MND",
+        "DCIA"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L5-OFFICIAL-STATEMENT-20220404": {
       "id": "FR-L5-OFFICIAL-STATEMENT-20220404",
@@ -6865,7 +7436,21 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "박서준",
+        "한지훈",
+        "김민수",
+        "이지영",
+        "이준호",
+        "지원호"
+      ],
+      "organizations": [
+        "국전원",
+        "MND"
+      ],
+      "fractureType": null,
+      "sourceType": "unknown"
     },
     "FR-L7-PETITION-MND-MINISTER-001": {
       "id": "FR-L7-PETITION-MND-MINISTER-001",
@@ -6957,7 +7542,19 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "홍성민",
+        "한지훈",
+        "최우진"
+      ],
+      "organizations": [
+        "DIDC",
+        "군검찰단",
+        "MND"
+      ],
+      "fractureType": "F-AA",
+      "sourceType": "book"
     },
     "FR-L6-001": {
       "id": "FR-L6-001",
@@ -7097,7 +7694,21 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "임형규",
+        "안세준"
+      ],
+      "organizations": [
+        "국전원",
+        "군검찰단",
+        "MND",
+        "국본",
+        "국유단"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "recording"
     },
     "FR-L6-REBUTTAL-20220929-META": {
       "id": "FR-L6-REBUTTAL-20220929-META",
@@ -7173,7 +7784,7 @@
           "type": "OPPOSES"
         },
         {
-          "slug": "prosecution-non-prosecution-internal-contradiction",
+          "slug": "prosecution-non-prosecution-self-contradiction",
           "display": "불기소 내적 모순",
           "type": "OPPOSES"
         },
@@ -7193,7 +7804,20 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "임형규",
+        "진상호",
+        "안세준"
+      ],
+      "organizations": [
+        "DIDC",
+        "군검찰단",
+        "MND"
+      ],
+      "fractureType": null,
+      "sourceType": "investigation"
     },
     "FR-L7-DATE-MISMATCH": {
       "id": "FR-L7-DATE-MISMATCH",
@@ -7270,12 +7894,20 @@
           "type": "OPPOSES"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "군검찰단"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L7-001": {
       "id": "FR-L7-001",
       "stem": "han-ji-hoon-rebuttal-rejected-by-eight-institutions",
-      "title": "한지훈의 증거 기반 반박 문서(2022-09-25)는 군 검찰단부터 국가권익위원회까지 8개 기관에서 모두 거절됨 — Layer 7 institutional rejection chain",
+      "title": "한지훈의 증거 기반 반박 문서(2022-09-25)는 군 검찰단부터 국가권익위원회까지 8개 기관에서 모두 거절됨",
       "source": "raw/05. Investigation by the Military Prosecutor's Office/Bilingual(English, Korean)/(20220929) Explanation and Proof Search, Seizure, and Verification Warrants Search(English, Korean).converted.md (한지훈 본인 작성 반박 문서, composition date **2022-09-25** per book §3.7.1.1 and raw/05 interior read 2026-04-11; the `(20220929)` in filename is James's own filename-metadata convention with no primary-source status — see [[han-ji-hoon-rebuttal-document-date-2022-09-25]]) • James 2026-04-11 contextual input on 8-step distribution chain",
       "layer": 7,
       "claim": "한지훈 authored an evidence-based rebuttal document on 2022-09-25 (composition date per book §3.7.1.1; the file at `raw/05/Bilingual(English, Korean)/(20220929) Explanation and Proof Search, Seizure, and Verification Warrants Search(English, Korean).pdf` uses `(20220929)` as filename metadata only — the interior has no printed date per raw/05 interior read 2026-04-11) refuting the MND Military Prosecutor's Office's 압수수색 영장, 압수수색 실행, and 피의자 조사. The document is **not a prosecutor work product** — it is **한지훈's own evidence-based rebuttal**, refuting the targeted/fraudulent investigation point by point with primary evidence drawn from directives, official documents, and operational records.\n\nPer James 2026-04-11, 한지훈 submitted the document to **8 institutions in sequence**:\n\n1. **국방부 국방장관** (최우진)\n2. **국방부장관 군사보좌관** (홍성민)\n3. **군 검찰단장** ([[../entities/people/ahn-se-jun|안세준]])\n4. **담당 검사** ([[../entities/people/im-hyung-gyu|임형규]])\n5. **담당 수사관** ([[../entities/people/jin-sang-ho|진상호]])\n6. **군 검찰단 인권담당** (raw/02 [013-2] — 준위 및 대령, names pending)\n\nAfter the 군 검찰단 issued the 기소유예 stigma decision on 2022-10-07 (per [[han-ji-hoon-kiso-yuye-is-criminal-stigma]]), 한지훈 escalated the rebuttal to civilian human rights and anti-corruption bodies:\n\n7. **국가인권위원회** (National Human Rights Commission of Korea)\n8. **국가권익위원회** (Anti-Corruption and Civil Rights Commission)\n\n**ALL EIGHT institutions rejected or refused to act on the rebuttal.** This is the empirical core of Layer 7's `진정서 제출·수사 촉구 후 기소유예` thesis — institutional accountability mechanisms failed at every level, from the internal MND chain (steps 1–6) to the civilian human rights bodies (steps 7–8).",
@@ -7429,7 +8061,22 @@
           "type": "OPPOSES"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "임형규",
+        "안세준",
+        "최우진",
+        "홍성민",
+        "진상호"
+      ],
+      "organizations": [
+        "DIDC",
+        "군검찰단",
+        "MND"
+      ],
+      "fractureType": "F-AA",
+      "sourceType": "investigation"
     },
     "FR-L6-SIX-CHARGES-REFUTATION": {
       "id": "FR-L6-SIX-CHARGES-REFUTATION",
@@ -7478,7 +8125,7 @@
           "raw": "Cross-reference: [[prosecution-misapplies-2129-article-58-4-to-kiatis|제58조 ¶4 오적용 — 혐의 4 반박의 핵심]]"
         },
         {
-          "raw": "Cross-reference: [[prosecution-non-prosecution-internal-contradiction|불기소 내적 모순 — 99점 성공+기소유예 모순]]"
+          "raw": "Cross-reference: [[prosecution-non-prosecution-self-contradiction|불기소 내적 모순 — 99점 성공+기소유예 모순]]"
         }
       ],
       "counterHypothesis": "반박 문서는 피의자의 자기변호이며 검찰의 증거와 비교 검토가 필요하다.",
@@ -7502,7 +8149,7 @@
           "type": "OPPOSES"
         },
         {
-          "slug": "prosecution-non-prosecution-internal-contradiction",
+          "slug": "prosecution-non-prosecution-self-contradiction",
           "display": "불기소 모순",
           "type": "OPPOSES"
         },
@@ -7522,7 +8169,21 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "이준호",
+        "김경진",
+        "김민수"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "군검찰단",
+        "조달청"
+      ],
+      "fractureType": null,
+      "sourceType": "investigation"
     },
     "FR-L6-006": {
       "id": "FR-L6-006",
@@ -7619,7 +8280,17 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC",
+        "군검찰단",
+        "MND"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L2-3BRAKES-005": {
       "id": "FR-L2-3BRAKES-005",
@@ -7746,7 +8417,19 @@
       ],
       "allRecordNos": [
         "11354"
-      ]
+      ],
+      "persons": [
+        "한지훈",
+        "장우진"
+      ],
+      "organizations": [
+        "국전원",
+        "군검찰단",
+        "MND",
+        "국유단"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L3-THREE-SAFEGUARDS": {
       "id": "FR-L3-THREE-SAFEGUARDS",
@@ -7801,7 +8484,17 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "장우진"
+      ],
+      "organizations": [
+        "국전원",
+        "국유단"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L6-004": {
       "id": "FR-L6-004",
@@ -7905,7 +8598,15 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "군검찰단"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L5-48HR-PREMEDITATED-ISOLATION": {
       "id": "FR-L5-48HR-PREMEDITATED-ISOLATION",
@@ -7999,7 +8700,19 @@
         "11334",
         "3966",
         "4826"
-      ]
+      ],
+      "persons": [
+        "김민수",
+        "이지영",
+        "박서준",
+        "한지훈"
+      ],
+      "organizations": [
+        "국전원",
+        "국유단"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L3-IDEA-THEFT-MOBILE": {
       "id": "FR-L3-IDEA-THEFT-MOBILE",
@@ -8095,7 +8808,18 @@
         "2364",
         "2374",
         "2418"
-      ]
+      ],
+      "persons": [
+        "한지훈",
+        "최영수",
+        "진상호"
+      ],
+      "organizations": [
+        "국전원",
+        "MND"
+      ],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L7-INKKWONWI-REJECTION": {
       "id": "FR-L7-INKKWONWI-REJECTION",
@@ -8189,7 +8913,16 @@
           "type": "RELATED"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "군검찰단",
+        "MND"
+      ],
+      "fractureType": "F-AA",
+      "sourceType": "book"
     },
     "FR-META-INSIDER-RESEARCH": {
       "id": "FR-META-INSIDER-RESEARCH",
@@ -8239,7 +8972,11 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L6-SON-SCHIZOPHRENIA-AWARE": {
       "id": "FR-L6-SON-SCHIZOPHRENIA-AWARE",
@@ -8288,7 +9025,13 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [],
+      "fractureType": "F-CE",
+      "sourceType": "investigation"
     },
     "FR-L6-ZERO-VPN-MEASUREMENT-BASELINE": {
       "id": "FR-L6-ZERO-VPN-MEASUREMENT-BASELINE",
@@ -8337,7 +9080,82 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "DCIA"
+      ],
+      "fractureType": "F-SE",
+      "sourceType": "investigation"
+    },
+    "FR-C-L1-11": {
+      "id": "FR-C-L1-11",
+      "stem": "intranet-link-attack-surface",
+      "title": "C-L1-11: 舊KIATIS 인터넷+인트라넷 이중 연동 = 2016 해킹 브릿지 공격면",
+      "source": "raw/01. book-beyond-cybersecurity/vault-converted-korean/07-3-1-31-제1층위-ActiveX.md §3.1.1.3 (lines 25-28)",
+      "layer": 1,
+      "claim": "舊KIATIS는 인터넷 기반이면서 동시에 인트라넷(국방망)과 데이터를 송수신하는 이중 연동 구조였다(기록 제1,117쪽, 제1,125쪽). 단순 인터넷 홈페이지가 아니라 2016 DIDC 해킹 시 인터넷→국방망 공격 경로를 제공한 bridge 시스템이었으며, 이를 은폐할 동기가 커버업의 핵심이다.",
+      "keyTakeaways": [
+        {
+          "text": "舊KIATIS had dual internet-intranet linkage making it a bridge attack surface during 2016 hacking [진리성]",
+          "axes": [
+            "진리성"
+          ]
+        },
+        {
+          "text": "Cover-up motive intensifies: not a simple website but a gateway to the defense network [진리성]",
+          "axes": [
+            "진리성"
+          ]
+        }
+      ],
+      "supportingEvidence": [
+        {
+          "raw": "**Record No. 1,117**",
+          "recordNos": [
+            "1117"
+          ]
+        },
+        {
+          "raw": "**Record No. 1,125**",
+          "recordNos": [
+            "1125"
+          ]
+        }
+      ],
+      "counterHypothesis": "인트라넷 연동은 계획되었으나 실제 운용되지 않았으며 문서는 목표를 기술한 것이다",
+      "falsificationCondition": "舊KIATIS에 인트라넷 데이터 연동이 없었음을 보여주는 네트워크 트래픽 로그 또는 구성 기록",
+      "verdictProse": "**CORROBORATED.** STRONG. 진리성 8 / 타당성 8 / 진실성 7.",
+      "spotCheck": "- `vault-converted-korean/07-3-1-31-제1층위-ActiveX.md` lines 25-28",
+      "related": [
+        {
+          "slug": "old-kiatis-direct-db-access-without-vpn",
+          "display": "old-kiatis-direct-db-access-without-vpn",
+          "type": "RELATED"
+        },
+        {
+          "slug": "old-kiatis-hosted-inside-other-server-15-years",
+          "display": "old-kiatis-hosted-inside-other-server-15-years",
+          "type": "RELATED"
+        },
+        {
+          "slug": "layer-1",
+          "display": "Layer 1",
+          "type": "PART_OF_LAYER"
+        }
+      ],
+      "allRecordNos": [
+        "1117",
+        "1125"
+      ],
+      "persons": [],
+      "organizations": [
+        "DIDC"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L5-DARK-AUDIT-001": {
       "id": "FR-L5-DARK-AUDIT-001",
@@ -8419,7 +9237,21 @@
       "allRecordNos": [
         "11040",
         "11066"
-      ]
+      ],
+      "persons": [
+        "한지훈",
+        "김민수",
+        "이지영",
+        "박서준",
+        "이태호"
+      ],
+      "organizations": [
+        "군검찰단",
+        "MND",
+        "조사본부"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L5-052": {
       "id": "FR-L5-052",
@@ -8487,7 +9319,26 @@
           "type": "RELATED"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "김민수",
+        "이지영",
+        "한지훈",
+        "김수진",
+        "지원호",
+        "양미숙",
+        "김민지",
+        "이승우",
+        "박서준"
+      ],
+      "organizations": [
+        "국전원",
+        "군검찰단",
+        "MND",
+        "조사본부"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L6-WARRANT-PHANTOM-REFERENCE": {
       "id": "FR-L6-WARRANT-PHANTOM-REFERENCE",
@@ -8542,7 +9393,15 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "김민수",
+        "한지훈",
+        "진상호"
+      ],
+      "organizations": [],
+      "fractureType": "F-MS",
+      "sourceType": "recording"
     },
     "FR-L4-DATA-MIGRATION-GUKYU-DAN": {
       "id": "FR-L4-DATA-MIGRATION-GUKYU-DAN",
@@ -8616,7 +9475,19 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "장호재",
+        "한지훈",
+        "장우진"
+      ],
+      "organizations": [
+        "DIDC",
+        "MND",
+        "국유단"
+      ],
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L4-DATA-MIGRATION-NOT-IN-RFP": {
       "id": "FR-L4-DATA-MIGRATION-NOT-IN-RFP",
@@ -8685,7 +9556,16 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "장호재",
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC"
+      ],
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L4-DEVELOPER-PM-DIDC-OPENED-PORT": {
       "id": "FR-L4-DEVELOPER-PM-DIDC-OPENED-PORT",
@@ -8774,7 +9654,19 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "장호재",
+        "한지훈",
+        "장우진"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "국유단"
+      ],
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L4-JANGWOOJIN-DUAL-VPN-ABSENT": {
       "id": "FR-L4-JANGWOOJIN-DUAL-VPN-ABSENT",
@@ -8880,7 +9772,19 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "장우진",
+        "한지훈",
+        "이준호"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "국유단"
+      ],
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L4-WIN10-CHAKRAMAX-ABSENT": {
       "id": "FR-L4-WIN10-CHAKRAMAX-ABSENT",
@@ -8984,7 +9888,19 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "장우진",
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "MND",
+        "국유단"
+      ],
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L1-2016-SCAPEGOAT-ADMISSION": {
       "id": "FR-L1-2016-SCAPEGOAT-ADMISSION",
@@ -9033,7 +9949,16 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "정현우",
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC"
+      ],
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L6-INVESTIGATOR-VPN-ADMISSION": {
       "id": "FR-L6-INVESTIGATOR-VPN-ADMISSION",
@@ -9102,7 +10027,20 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "진상호",
+        "한지훈",
+        "장우진",
+        "장호재",
+        "김철환"
+      ],
+      "organizations": [
+        "DIDC",
+        "군검찰단"
+      ],
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L6-REC159-RETROACTIVE-STANDARDS": {
       "id": "FR-L6-REC159-RETROACTIVE-STANDARDS",
@@ -9168,7 +10106,14 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "진상호"
+      ],
+      "organizations": [],
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L4-KKT-EVAL-ABSENCE-SAME-DAY": {
       "id": "FR-L4-KKT-EVAL-ABSENCE-SAME-DAY",
@@ -9211,7 +10156,13 @@
       ],
       "allRecordNos": [
         "1946"
-      ]
+      ],
+      "persons": [
+        "송민석"
+      ],
+      "organizations": [],
+      "fractureType": null,
+      "sourceType": "kakao"
     },
     "FR-L5-KKT-PRE-COMPLAINT-SILENCE": {
       "id": "FR-L5-KKT-PRE-COMPLAINT-SILENCE",
@@ -9260,7 +10211,17 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "이지영",
+        "박서준",
+        "송민석",
+        "양미숙"
+      ],
+      "organizations": [],
+      "fractureType": null,
+      "sourceType": "kakao"
     },
     "FR-L5-KKT-PROFESSIONAL-ENGAGEMENT": {
       "id": "FR-L5-KKT-PROFESSIONAL-ENGAGEMENT",
@@ -9304,7 +10265,14 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "송민석"
+      ],
+      "organizations": [],
+      "fractureType": "F-CE",
+      "sourceType": "kakao"
     },
     "FR-L5-KKT-NORMAL-MGMT": {
       "id": "FR-L5-KKT-NORMAL-MGMT",
@@ -9342,7 +10310,14 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "이지영",
+        "한지훈"
+      ],
+      "organizations": [],
+      "fractureType": "F-CE",
+      "sourceType": "kakao"
     },
     "FR-L5-KKT-WISC": {
       "id": "FR-L5-KKT-WISC",
@@ -9380,7 +10355,14 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "박서준",
+        "한지훈"
+      ],
+      "organizations": [],
+      "fractureType": null,
+      "sourceType": "kakao"
     },
     "FR-L6-WITNESS-DISPERSAL": {
       "id": "FR-L6-WITNESS-DISPERSAL",
@@ -9438,7 +10420,16 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "강홍석",
+        "한지훈"
+      ],
+      "organizations": [
+        "국유단"
+      ],
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L4-KIATIS-001": {
       "id": "FR-L4-KIATIS-001",
@@ -9570,7 +10561,16 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "국전원",
+        "MND",
+        "국본",
+        "국유단"
+      ],
+      "fractureType": null,
+      "sourceType": "regulation"
     },
     "FR-L1-HOMEPAGE-COMANAGEMENT": {
       "id": "FR-L1-HOMEPAGE-COMANAGEMENT",
@@ -9669,7 +10669,25 @@
         "4723",
         "4879",
         "6759"
-      ]
+      ],
+      "persons": [
+        "조성민",
+        "윤도현",
+        "오현수",
+        "김민수",
+        "이태호",
+        "송민석",
+        "한지훈",
+        "최영규",
+        "유길수"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "MND"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L1-HOMEPAGE-DISGUISED-MAINTENANCE": {
       "id": "FR-L1-HOMEPAGE-DISGUISED-MAINTENANCE",
@@ -9746,7 +10764,16 @@
       ],
       "allRecordNos": [
         "16"
-      ]
+      ],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC",
+        "MND"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L2-MKIA-MULTICAP-002": {
       "id": "FR-L2-MKIA-MULTICAP-002",
@@ -9893,7 +10920,23 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "강민호",
+        "박성호",
+        "이지영",
+        "김수진",
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "MND",
+        "국유단",
+        "조달청"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L2-KIATIS-MNDCTRL-001": {
       "id": "FR-L2-KIATIS-MNDCTRL-001",
@@ -10016,7 +11059,21 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "박성호",
+        "한지훈",
+        "이지영",
+        "김수진"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "MND",
+        "국유단"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L1-PHANTOM-2275HO-001": {
       "id": "FR-L1-PHANTOM-2275HO-001",
@@ -10120,7 +11177,19 @@
           "type": "RELATED"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "이지영",
+        "김수진"
+      ],
+      "organizations": [
+        "국전원",
+        "군검찰단",
+        "MND"
+      ],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L3-KIATIS-TRANSFER": {
       "id": "FR-L3-KIATIS-TRANSFER",
@@ -10187,7 +11256,17 @@
       "allRecordNos": [
         "11107",
         "1712"
-      ]
+      ],
+      "persons": [
+        "한지훈",
+        "이태호",
+        "오현수"
+      ],
+      "organizations": [
+        "국전원"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L4-KIATIS-002": {
       "id": "FR-L4-KIATIS-002",
@@ -10300,7 +11379,13 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "MND"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "regulation"
     },
     "FR-L1-RFP-TECH-TABLE-001": {
       "id": "FR-L1-RFP-TECH-TABLE-001",
@@ -10394,7 +11479,16 @@
       ],
       "allRecordNos": [
         "1536"
-      ]
+      ],
+      "persons": [],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "국유단",
+        "조달청"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L2-SERVERLAUND-004": {
       "id": "FR-L2-SERVERLAUND-004",
@@ -10531,7 +11625,21 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "장우진",
+        "한지훈",
+        "이지영",
+        "김수진"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "MND",
+        "DCIA"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L1-SERVER-LAUNDERING-MAIL": {
       "id": "FR-L1-SERVER-LAUNDERING-MAIL",
@@ -10630,7 +11738,18 @@
         "3470",
         "5818",
         "5819"
-      ]
+      ],
+      "persons": [
+        "이태호",
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "MND"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L4-KIDA-001": {
       "id": "FR-L4-KIDA-001",
@@ -10770,7 +11889,19 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "이지영",
+        "김수진",
+        "한지훈"
+      ],
+      "organizations": [
+        "군검찰단",
+        "MND",
+        "국유단"
+      ],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L4-KIDA-GUKJEONWON-INTEGRATION": {
       "id": "FR-L4-KIDA-GUKJEONWON-INTEGRATION",
@@ -10851,7 +11982,13 @@
         "6717",
         "6722",
         "6725"
-      ]
+      ],
+      "persons": [],
+      "organizations": [
+        "국전원"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L4-KIDA-LEGITIMIZATION": {
       "id": "FR-L4-KIDA-LEGITIMIZATION",
@@ -10952,7 +12089,16 @@
         "6709",
         "6715",
         "6738"
-      ]
+      ],
+      "persons": [
+        "이지영",
+        "김수진"
+      ],
+      "organizations": [
+        "MND"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L6-POLICY-FAILURE-NOT-MISCONDUCT": {
       "id": "FR-L6-POLICY-FAILURE-NOT-MISCONDUCT",
@@ -11021,7 +12167,16 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "김철환",
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC"
+      ],
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L4-DATACENTER-CMD-TEST-EXEMPTION": {
       "id": "FR-L4-DATACENTER-CMD-TEST-EXEMPTION",
@@ -11101,7 +12256,18 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "김철환",
+        "한지훈",
+        "장우진"
+      ],
+      "organizations": [
+        "DIDC",
+        "MND"
+      ],
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L5-NIS-PARK-SEOJUN-MENTAL-HEALTH": {
       "id": "FR-L5-NIS-PARK-SEOJUN-MENTAL-HEALTH",
@@ -11220,7 +12386,23 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "박서준",
+        "김동욱",
+        "한지훈",
+        "김민수",
+        "이지영",
+        "지원호",
+        "박현주",
+        "최영수"
+      ],
+      "organizations": [
+        "국전원",
+        "조사본부"
+      ],
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L1-HACKING-REDIRECTED-CYBER-CMD": {
       "id": "FR-L1-HACKING-REDIRECTED-CYBER-CMD",
@@ -11275,7 +12457,16 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "이근태",
+        "한경수"
+      ],
+      "organizations": [
+        "DIDC"
+      ],
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L6-LAWYER-KISO-YUYE-TARGET": {
       "id": "FR-L6-LAWYER-KISO-YUYE-TARGET",
@@ -11330,7 +12521,15 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "최동욱",
+        "이근태",
+        "한지훈"
+      ],
+      "organizations": [],
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L5-APOLOGY-EVIDENCE-MANUFACTURING": {
       "id": "FR-L5-APOLOGY-EVIDENCE-MANUFACTURING",
@@ -11385,7 +12584,16 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "김민수",
+        "한지훈"
+      ],
+      "organizations": [
+        "감사실"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "recording"
     },
     "FR-L4-KIM-MINSU-CENTRAL-FIGURE": {
       "id": "FR-L4-KIM-MINSU-CENTRAL-FIGURE",
@@ -11465,7 +12673,19 @@
         "11055",
         "1573",
         "6748"
-      ]
+      ],
+      "persons": [
+        "김민수",
+        "박성호",
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "MND"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L6-PERSONAL-PROBLEM-FRAMING": {
       "id": "FR-L6-PERSONAL-PROBLEM-FRAMING",
@@ -11520,7 +12740,16 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "김민수",
+        "한지훈"
+      ],
+      "organizations": [
+        "국전원"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L6-VPN-SPEED-SELF-CONTRADICTION": {
       "id": "FR-L6-VPN-SPEED-SELF-CONTRADICTION",
@@ -11569,11 +12798,19 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "김민수"
+      ],
+      "organizations": [
+        "국전원"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "recording"
     },
     "FR-L7-WILLFUL-IGNORANCE-FIREWALL": {
       "id": "FR-L7-WILLFUL-IGNORANCE-FIREWALL",
-      "stem": "kim-min-su-willful-ignorance-firewall-contradiction",
+      "stem": "kim-min-su-willful-ignorance-firewall-self-contradiction",
       "title": "김민수의 '일절 모른다' 방화벽 — 1개월 전 '내가 알아서 할 거고'와 정면 모순",
       "source": "raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md 녹취010 (lines 1925-1937)",
       "layer": 7,
@@ -11618,7 +12855,15 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "김민수"
+      ],
+      "organizations": [
+        "감사실"
+      ],
+      "fractureType": "F-SC",
+      "sourceType": "recording"
     },
     "FR-L7-KISO-YUYE-DISCHARGE-20DAYS": {
       "id": "FR-L7-KISO-YUYE-DISCHARGE-20DAYS",
@@ -11662,7 +12907,11 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L7-KWONIKKWI-TRANSFER": {
       "id": "FR-L7-KWONIKKWI-TRANSFER",
@@ -11745,7 +12994,15 @@
           "type": "RELATED"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "MND"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L7-KWONIKKWI-PETITION": {
       "id": "FR-L7-KWONIKKWI-PETITION",
@@ -11853,7 +13110,22 @@
       ],
       "allRecordNos": [
         "5314"
-      ]
+      ],
+      "persons": [
+        "한지훈",
+        "김민수",
+        "이지영",
+        "김수진",
+        "박서준"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "군검찰단",
+        "MND"
+      ],
+      "fractureType": "F-AA",
+      "sourceType": "book"
     },
     "FR-L1-FOUNDATION-7LAYER": {
       "id": "FR-L1-FOUNDATION-7LAYER",
@@ -11902,7 +13174,11 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L1-SERVER-LAUNDERING-L2-L3-CHAIN": {
       "id": "FR-L1-SERVER-LAUNDERING-L2-L3-CHAIN",
@@ -12029,7 +13305,14 @@
         "1120",
         "1140",
         "1573"
-      ]
+      ],
+      "persons": [],
+      "organizations": [
+        "DIDC",
+        "국전원"
+      ],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L2-BUDGET-COMPRESSION-L3-BRIDGE": {
       "id": "FR-L2-BUDGET-COMPRESSION-L3-BRIDGE",
@@ -12126,7 +13409,15 @@
         "1074",
         "1535",
         "4866"
-      ]
+      ],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "조달청"
+      ],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L2-DELEGATION-FALSIFICATION-L3-BRIDGE": {
       "id": "FR-L2-DELEGATION-FALSIFICATION-L3-BRIDGE",
@@ -12236,7 +13527,14 @@
         "1119",
         "1140",
         "7496"
-      ]
+      ],
+      "persons": [],
+      "organizations": [
+        "국전원",
+        "MND"
+      ],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L2-051": {
       "id": "FR-L2-051",
@@ -12326,7 +13624,17 @@
       ],
       "allRecordNos": [
         "4866"
-      ]
+      ],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "국전원",
+        "국유단",
+        "조달청"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L3-DIDC-ENTRY-20180430-001": {
       "id": "FR-L3-DIDC-ENTRY-20180430-001",
@@ -12437,7 +13745,16 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "MND",
+        "DCIA"
+      ],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L3-KIATIS-TEAM-HANDOFF-001": {
       "id": "FR-L3-KIATIS-TEAM-HANDOFF-001",
@@ -12536,7 +13853,18 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "이태호",
+        "오현수"
+      ],
+      "organizations": [
+        "국전원",
+        "MND"
+      ],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L3-MKISS-GASLIGHTING-PRETEXT": {
       "id": "FR-L3-MKISS-GASLIGHTING-PRETEXT",
@@ -12619,7 +13947,17 @@
         "3889",
         "3942",
         "3987"
-      ]
+      ],
+      "persons": [
+        "한지훈",
+        "박서준",
+        "이지영"
+      ],
+      "organizations": [
+        "MND"
+      ],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L3-PARK-SEONG-HO-L1-L3-BRIDGE": {
       "id": "FR-L3-PARK-SEONG-HO-L1-L3-BRIDGE",
@@ -12734,7 +14072,16 @@
         "1473",
         "1573",
         "2520"
-      ]
+      ],
+      "persons": [
+        "박성호"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원"
+      ],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L3-PARK-NCO-SLUR-001": {
       "id": "FR-L3-PARK-NCO-SLUR-001",
@@ -12830,7 +14177,18 @@
       ],
       "allRecordNos": [
         "2"
-      ]
+      ],
+      "persons": [
+        "박성호",
+        "한지훈",
+        "박서준"
+      ],
+      "organizations": [
+        "국전원",
+        "MND"
+      ],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L3-PC-EVAL-CHAIR-REPLACED-001": {
       "id": "FR-L3-PC-EVAL-CHAIR-REPLACED-001",
@@ -12924,7 +14282,16 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "최영수"
+      ],
+      "organizations": [
+        "국전원"
+      ],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L3-PM-POST-VACANCY-001": {
       "id": "FR-L3-PM-POST-VACANCY-001",
@@ -13018,7 +14385,16 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "국전원",
+        "MND"
+      ],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L3-SW-SEPARATION-L4-BRIDGE": {
       "id": "FR-L3-SW-SEPARATION-L4-BRIDGE",
@@ -13126,7 +14502,15 @@
         "8012",
         "8086",
         "8179"
-      ]
+      ],
+      "persons": [
+        "박성호"
+      ],
+      "organizations": [
+        "MND"
+      ],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L3-VPN-OTP-2021-001": {
       "id": "FR-L3-VPN-OTP-2021-001",
@@ -13237,11 +14621,23 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "군검찰단",
+        "MND",
+        "국유단"
+      ],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L4-B3-002": {
       "id": "FR-L4-B3-002",
-      "stem": "layer4-997-military-adequate-verdict-contradicted-by-sabotage",
+      "stem": "layer4-997-military-adequate-verdict-vs-sabotage",
       "title": "시험평가위원회 99.7% '군사용 적합' 판정이 내부 파괴 공작과 동시 진행되었다",
       "source": "raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md (§3.4.6.1, lines 491–508)",
       "layer": 4,
@@ -13349,7 +14745,17 @@
         "1850",
         "1851",
         "3041"
-      ]
+      ],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC",
+        "군검찰단",
+        "국유단"
+      ],
+      "fractureType": "F-SC",
+      "sourceType": "book"
     },
     "FR-L4-011": {
       "id": "FR-L4-011",
@@ -13446,7 +14852,17 @@
       "allRecordNos": [
         "3068",
         "5950"
-      ]
+      ],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "국유단"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L4-DTOT-SEPARATION-VIOLATED": {
       "id": "FR-L4-DTOT-SEPARATION-VIOLATED",
@@ -13519,7 +14935,16 @@
       "allRecordNos": [
         "8012",
         "9003"
-      ]
+      ],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "국전원",
+        "MND"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L4-EVAL-80-001": {
       "id": "FR-L4-EVAL-80-001",
@@ -13643,7 +15068,20 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "김경진",
+        "한지훈",
+        "정다원",
+        "배지훈"
+      ],
+      "organizations": [
+        "국전원",
+        "군검찰단",
+        "국유단"
+      ],
+      "fractureType": "F-SC",
+      "sourceType": "book"
     },
     "FR-L4-052": {
       "id": "FR-L4-052",
@@ -13731,7 +15169,19 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "이지영",
+        "김수진",
+        "한지훈"
+      ],
+      "organizations": [
+        "국전원",
+        "MND",
+        "국유단"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L4-L6-SELF-TRAPPING": {
       "id": "FR-L4-L6-SELF-TRAPPING",
@@ -13791,7 +15241,13 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "군검찰단"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L4-KIDA-WORKFLOW-NO-MND": {
       "id": "FR-L4-KIDA-WORKFLOW-NO-MND",
@@ -13865,7 +15321,13 @@
         "6709",
         "6712",
         "6731"
-      ]
+      ],
+      "persons": [],
+      "organizations": [
+        "MND"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L4-051": {
       "id": "FR-L4-051",
@@ -13948,7 +15410,15 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L4-B3-001": {
       "id": "FR-L4-B3-001",
@@ -14054,11 +15524,21 @@
         "4757",
         "6270",
         "9018"
-      ]
+      ],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "MND"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L4-012": {
       "id": "FR-L4-012",
-      "stem": "layer4-procedure-simplification-temporal-contradiction-2019-09",
+      "stem": "layer4-procedure-simplification-temporal-manipulation-2019-09",
       "title": "2019.9.2 시험평가 절차 간소화 요청의 시간적 모순 — 시간 역전 조작의 증거",
       "source": "raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md (book §3.4.7.1)",
       "layer": 4,
@@ -14154,7 +15634,19 @@
       "allRecordNos": [
         "2853",
         "2858"
-      ]
+      ],
+      "persons": [
+        "이지영",
+        "김수진"
+      ],
+      "organizations": [
+        "국전원",
+        "군검찰단",
+        "MND",
+        "국유단"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L4-010": {
       "id": "FR-L4-010",
@@ -14251,7 +15743,13 @@
       "allRecordNos": [
         "1510",
         "4887"
-      ]
+      ],
+      "persons": [],
+      "organizations": [
+        "MND"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L5-001": {
       "id": "FR-L5-001",
@@ -14355,7 +15853,20 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "이지영",
+        "한지훈",
+        "김민수",
+        "박서준"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "조사본부"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L5-058": {
       "id": "FR-L5-058",
@@ -14473,7 +15984,25 @@
       ],
       "allRecordNos": [
         "11069"
-      ]
+      ],
+      "persons": [
+        "김민수",
+        "최영수",
+        "이승우",
+        "이지영",
+        "박서준",
+        "한지훈",
+        "최동욱",
+        "이근태",
+        "양미숙"
+      ],
+      "organizations": [
+        "국전원",
+        "MND",
+        "조사본부"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L5-007": {
       "id": "FR-L5-007",
@@ -14576,7 +16105,21 @@
       ],
       "allRecordNos": [
         "4352"
-      ]
+      ],
+      "persons": [
+        "최동욱",
+        "한지훈",
+        "이근태",
+        "박성호",
+        "박서준"
+      ],
+      "organizations": [
+        "DIDC",
+        "군검찰단",
+        "MND"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L5-009": {
       "id": "FR-L5-009",
@@ -14669,7 +16212,19 @@
           "type": "OPPOSES"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "최영수",
+        "이준호",
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC",
+        "MND",
+        "조사본부"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L5-COLLECTIVE-WITNESS-ABANDONMENT": {
       "id": "FR-L5-COLLECTIVE-WITNESS-ABANDONMENT",
@@ -14719,7 +16274,19 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "오현수",
+        "이태호",
+        "이준호",
+        "윤도현",
+        "장우진",
+        "최영규",
+        "한지훈"
+      ],
+      "organizations": [],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L5-EVIDENCE-DESTRUCTION-FRAME": {
       "id": "FR-L5-EVIDENCE-DESTRUCTION-FRAME",
@@ -14763,7 +16330,14 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "김민수",
+        "한지훈"
+      ],
+      "organizations": [],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L5-EXCAVATION-INTERNET-PROOF": {
       "id": "FR-L5-EXCAVATION-INTERNET-PROOF",
@@ -14842,7 +16416,13 @@
         "10028",
         "3229",
         "5245"
-      ]
+      ],
+      "persons": [],
+      "organizations": [
+        "국유단"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L5-004": {
       "id": "FR-L5-004",
@@ -14939,7 +16519,19 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "박서준",
+        "이지영"
+      ],
+      "organizations": [
+        "국전원",
+        "MND",
+        "조사본부"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L5-B2-005": {
       "id": "FR-L5-B2-005",
@@ -15064,7 +16656,26 @@
       ],
       "allRecordNos": [
         "11407"
-      ]
+      ],
+      "persons": [
+        "박서준",
+        "이지영",
+        "김수진",
+        "이승우",
+        "양준승",
+        "김민수",
+        "양미숙",
+        "김민지",
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "MND",
+        "조사본부"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L5-FRAUD-TRIANGULAR-MODEL": {
       "id": "FR-L5-FRAUD-TRIANGULAR-MODEL",
@@ -15161,7 +16772,19 @@
       "allRecordNos": [
         "11064",
         "11069"
-      ]
+      ],
+      "persons": [
+        "이지영",
+        "김민수",
+        "이승우",
+        "한지훈"
+      ],
+      "organizations": [
+        "국전원",
+        "조사본부"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L5-048": {
       "id": "FR-L5-048",
@@ -15238,7 +16861,18 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "김민수",
+        "이지영",
+        "이승우"
+      ],
+      "organizations": [
+        "조사본부"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L5-054": {
       "id": "FR-L5-054",
@@ -15335,7 +16969,22 @@
       ],
       "allRecordNos": [
         "11062"
-      ]
+      ],
+      "persons": [
+        "이지영",
+        "김민수",
+        "한지훈",
+        "박서준",
+        "이승우"
+      ],
+      "organizations": [
+        "국전원",
+        "MND",
+        "조사본부",
+        "DCIA"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L5-006": {
       "id": "FR-L5-006",
@@ -15440,7 +17089,17 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "김민수",
+        "한지훈"
+      ],
+      "organizations": [
+        "국전원",
+        "조사본부"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L5-KAKAOTALK-SILENCE": {
       "id": "FR-L5-KAKAOTALK-SILENCE",
@@ -15528,7 +17187,20 @@
       ],
       "allRecordNos": [
         "1881"
-      ]
+      ],
+      "persons": [
+        "한지훈",
+        "이지영",
+        "박서준",
+        "김민수",
+        "김수진",
+        "양미숙"
+      ],
+      "organizations": [
+        "조사본부"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L5-024": {
       "id": "FR-L5-024",
@@ -15615,7 +17287,17 @@
       ],
       "allRecordNos": [
         "11069"
-      ]
+      ],
+      "persons": [
+        "김민수",
+        "한지훈",
+        "이지영"
+      ],
+      "organizations": [
+        "조사본부"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L5-057": {
       "id": "FR-L5-057",
@@ -15707,7 +17389,18 @@
       ],
       "allRecordNos": [
         "11054"
-      ]
+      ],
+      "persons": [
+        "김민수",
+        "한지훈",
+        "이승우"
+      ],
+      "organizations": [
+        "MND",
+        "조사본부"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L5-008": {
       "id": "FR-L5-008",
@@ -15790,7 +17483,26 @@
           "type": "OPPOSES"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "최동욱",
+        "이근태",
+        "한지훈",
+        "박성호",
+        "최영수",
+        "김민수",
+        "황만수",
+        "권중현"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "군검찰단",
+        "MND",
+        "국유단"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L5-LANGUAGE-WEAPONIZATION": {
       "id": "FR-L5-LANGUAGE-WEAPONIZATION",
@@ -15884,7 +17596,17 @@
         "4063",
         "4084",
         "4087"
-      ]
+      ],
+      "persons": [
+        "한지훈",
+        "박서준",
+        "김민수",
+        "이지영",
+        "김수진"
+      ],
+      "organizations": [],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L5-B3-001": {
       "id": "FR-L5-B3-001",
@@ -16003,7 +17725,20 @@
         "3945",
         "4053",
         "4054"
-      ]
+      ],
+      "persons": [
+        "이지영",
+        "한지훈",
+        "이승우",
+        "김민수",
+        "김민지"
+      ],
+      "organizations": [
+        "MND",
+        "조사본부"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L5-VPN-5QUESTIONS-MOTIVE": {
       "id": "FR-L5-VPN-5QUESTIONS-MOTIVE",
@@ -16052,7 +17787,14 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "이지영",
+        "한지훈"
+      ],
+      "organizations": [],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L5-WORK-DUMPING-EXPLOITATION": {
       "id": "FR-L5-WORK-DUMPING-EXPLOITATION",
@@ -16101,7 +17843,16 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "이태호",
+        "한지훈"
+      ],
+      "organizations": [
+        "국전원"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L5-PARK-48HR-SHIFT": {
       "id": "FR-L5-PARK-48HR-SHIFT",
@@ -16175,7 +17926,17 @@
         "3889",
         "4063",
         "4087"
-      ]
+      ],
+      "persons": [
+        "박서준",
+        "이지영",
+        "최영수",
+        "한지훈",
+        "김민수"
+      ],
+      "organizations": [],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L5-010": {
       "id": "FR-L5-010",
@@ -16263,7 +18024,19 @@
           "type": "RELATED"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "박서준",
+        "한지훈",
+        "김민수",
+        "곽민철",
+        "이지영"
+      ],
+      "organizations": [
+        "군검찰단"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L5-005": {
       "id": "FR-L5-005",
@@ -16373,7 +18146,21 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "박서준",
+        "이지영",
+        "김민수",
+        "김수진",
+        "한지훈"
+      ],
+      "organizations": [
+        "국전원",
+        "MND",
+        "조사본부"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L5-003": {
       "id": "FR-L5-003",
@@ -16478,7 +18265,18 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "김민수",
+        "한지훈"
+      ],
+      "organizations": [
+        "국전원",
+        "MND",
+        "조사본부"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L5-REPORTER-3STAGE-SHIFT": {
       "id": "FR-L5-REPORTER-3STAGE-SHIFT",
@@ -16528,7 +18326,21 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "박서준",
+        "김민수",
+        "최영수",
+        "이지영",
+        "김수진",
+        "김동욱",
+        "한지훈"
+      ],
+      "organizations": [
+        "국전원"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L5-REVERSED-TRUTH-9PROOFS": {
       "id": "FR-L5-REVERSED-TRUTH-9PROOFS",
@@ -16577,7 +18389,17 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "박서준"
+      ],
+      "organizations": [
+        "국전원",
+        "조사본부"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L5-002": {
       "id": "FR-L5-002",
@@ -16682,7 +18504,17 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "김민수"
+      ],
+      "organizations": [
+        "국전원",
+        "조사본부"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L5-011": {
       "id": "FR-L5-011",
@@ -16787,7 +18619,24 @@
         "11111",
         "12896",
         "4084"
-      ]
+      ],
+      "persons": [
+        "한지훈",
+        "이지영",
+        "김민지",
+        "이근태",
+        "김민수",
+        "이태호",
+        "최동욱"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "군검찰단",
+        "MND"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L5-055": {
       "id": "FR-L5-055",
@@ -16887,7 +18736,21 @@
       ],
       "allRecordNos": [
         "11064"
-      ]
+      ],
+      "persons": [
+        "이지영",
+        "김민수",
+        "이승우",
+        "한지훈",
+        "박서준"
+      ],
+      "organizations": [
+        "국전원",
+        "조사본부",
+        "DCIA"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L5-WARNING-OVERRIDES-INVESTIGATION": {
       "id": "FR-L5-WARNING-OVERRIDES-INVESTIGATION",
@@ -16936,7 +18799,16 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "김민수",
+        "한지훈"
+      ],
+      "organizations": [
+        "조사본부"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L5-056": {
       "id": "FR-L5-056",
@@ -17028,7 +18900,23 @@
       ],
       "allRecordNos": [
         "11412"
-      ]
+      ],
+      "persons": [
+        "양미숙",
+        "한지훈",
+        "양준승",
+        "김민수",
+        "이지영",
+        "김수진",
+        "지원호",
+        "김민지",
+        "박서준"
+      ],
+      "organizations": [
+        "조사본부"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L6-997-REFRAMED-DEFICIENT": {
       "id": "FR-L6-997-REFRAMED-DEFICIENT",
@@ -17074,8 +18962,8 @@
       "spotCheck": "- `vault-converted-korean/12-3-6-36-제6층위-군.md` lines 245-290",
       "related": [
         {
-          "slug": "prosecution-non-prosecution-internal-contradiction",
-          "display": "prosecution-non-prosecution-internal-contradiction",
+          "slug": "prosecution-non-prosecution-self-contradiction",
+          "display": "prosecution-non-prosecution-self-contradiction",
           "type": "RELATED"
         },
         {
@@ -17089,7 +18977,16 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "DIDC",
+        "군검찰단",
+        "MND",
+        "국유단"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L6-B3-002": {
       "id": "FR-L6-B3-002",
@@ -17195,7 +19092,16 @@
       ],
       "allRecordNos": [
         "4854"
-      ]
+      ],
+      "persons": [
+        "이지영",
+        "한지훈"
+      ],
+      "organizations": [
+        "국전원"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L6-DIDC-CENTER1-TRUE-HOST": {
       "id": "FR-L6-DIDC-CENTER1-TRUE-HOST",
@@ -17262,7 +19168,14 @@
       "allRecordNos": [
         "6609",
         "6620"
-      ]
+      ],
+      "persons": [],
+      "organizations": [
+        "DIDC",
+        "군검찰단"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L6-GIS-BUDGET-OMISSION": {
       "id": "FR-L6-GIS-BUDGET-OMISSION",
@@ -17336,7 +19249,18 @@
         "11023",
         "4826",
         "4890"
-      ]
+      ],
+      "persons": [
+        "한지훈",
+        "이지영"
+      ],
+      "organizations": [
+        "국전원",
+        "군검찰단",
+        "국유단"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L6-JUDICIAL-MURDER-FAMILY": {
       "id": "FR-L6-JUDICIAL-MURDER-FAMILY",
@@ -17409,7 +19333,14 @@
         "11123",
         "3900",
         "4087"
-      ]
+      ],
+      "persons": [],
+      "organizations": [
+        "군검찰단",
+        "MND"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L6-021": {
       "id": "FR-L6-021",
@@ -17479,7 +19410,18 @@
       ],
       "allRecordNos": [
         "3987"
-      ]
+      ],
+      "persons": [
+        "한지훈",
+        "김민수"
+      ],
+      "organizations": [
+        "국전원",
+        "군검찰단",
+        "MND"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L6-PHASE2-BLAME-SHIFT-001": {
       "id": "FR-L6-PHASE2-BLAME-SHIFT-001",
@@ -17571,7 +19513,21 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "김민수",
+        "이지영"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "군검찰단",
+        "MND",
+        "국유단"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L6-B3-001": {
       "id": "FR-L6-B3-001",
@@ -17693,7 +19649,16 @@
         "4424",
         "8011",
         "9116"
-      ]
+      ],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "군검찰단",
+        "조달청"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L5-053": {
       "id": "FR-L5-053",
@@ -17763,7 +19728,22 @@
       ],
       "allRecordNos": [
         "11063"
-      ]
+      ],
+      "persons": [
+        "이지영",
+        "박서준",
+        "한지훈",
+        "김민수",
+        "이진한"
+      ],
+      "organizations": [
+        "국전원",
+        "군검찰단",
+        "MND",
+        "조사본부"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L5-LEE-JIYOUNG-COVERT-SABOTAGE": {
       "id": "FR-L5-LEE-JIYOUNG-COVERT-SABOTAGE",
@@ -17818,7 +19798,15 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "이지영",
+        "김민수",
+        "한지훈"
+      ],
+      "organizations": [],
+      "fractureType": "F-CE",
+      "sourceType": "recording"
     },
     "FR-L5-JIKGWON-FLIP-FLOP": {
       "id": "FR-L5-JIKGWON-FLIP-FLOP",
@@ -17868,7 +19856,15 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "이지영"
+      ],
+      "organizations": [
+        "국전원"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "recording"
     },
     "FR-L2-LJY-KSJ-CONTROL-003": {
       "id": "FR-L2-LJY-KSJ-CONTROL-003",
@@ -17991,11 +19987,23 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "이지영",
+        "김수진",
+        "이태호"
+      ],
+      "organizations": [
+        "국전원",
+        "MND",
+        "국유단"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L6-LEEJUNHO-FALSE-TESTIMONY": {
       "id": "FR-L6-LEEJUNHO-FALSE-TESTIMONY",
-      "stem": "lee-junho-false-testimony-contradicted-by-own-doc",
+      "stem": "lee-junho-false-testimony-self-contradiction",
       "title": "이준호의 허위 진술 — 자신의 공문이 반박",
       "source": "raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.4.6.8 (lines 489-580)",
       "layer": 6,
@@ -18065,7 +20073,16 @@
         "1171",
         "1239",
         "6168"
-      ]
+      ],
+      "persons": [
+        "이준호",
+        "최영수"
+      ],
+      "organizations": [
+        "DIDC"
+      ],
+      "fractureType": "F-SC",
+      "sourceType": "book"
     },
     "FR-L6-SELECTIVE-AMNESIA-META": {
       "id": "FR-L6-SELECTIVE-AMNESIA-META",
@@ -18134,7 +20151,16 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "이태호",
+        "오현수",
+        "이지영",
+        "황만수"
+      ],
+      "organizations": [],
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L4-TEAM-LEADER-NEVER-ENTERS-EVAL": {
       "id": "FR-L4-TEAM-LEADER-NEVER-ENTERS-EVAL",
@@ -18206,7 +20232,16 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "이태호",
+        "한지훈"
+      ],
+      "organizations": [
+        "국전원"
+      ],
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L3-WORK-DUMPING-ADMISSION": {
       "id": "FR-L3-WORK-DUMPING-ADMISSION",
@@ -18278,7 +20313,20 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "이지영",
+        "이태호",
+        "한지훈",
+        "김수진",
+        "김민수",
+        "오현수"
+      ],
+      "organizations": [
+        "국전원"
+      ],
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L6-LIM-EVAL-ENVIRONMENT-ADMISSION": {
       "id": "FR-L6-LIM-EVAL-ENVIRONMENT-ADMISSION",
@@ -18361,7 +20409,18 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "임형규",
+        "진상호",
+        "김철환"
+      ],
+      "organizations": [
+        "군검찰단"
+      ],
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L7-MILITARY-AIDE-NONRESPONSE": {
       "id": "FR-L7-MILITARY-AIDE-NONRESPONSE",
@@ -18440,7 +20499,16 @@
         "5393",
         "5578",
         "5669"
-      ]
+      ],
+      "persons": [
+        "홍성민",
+        "한지훈"
+      ],
+      "organizations": [
+        "MND"
+      ],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L6-B3-004": {
       "id": "FR-L6-B3-004",
@@ -18553,7 +20621,20 @@
       "allRecordNos": [
         "1",
         "11303"
-      ]
+      ],
+      "persons": [
+        "장우진",
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "MND",
+        "국본",
+        "국유단"
+      ],
+      "fractureType": "F-AA",
+      "sourceType": "book"
     },
     "FR-L4-B2-004": {
       "id": "FR-L4-B2-004",
@@ -18668,7 +20749,14 @@
         "4763",
         "4765",
         "4769"
-      ]
+      ],
+      "persons": [],
+      "organizations": [
+        "DIDC",
+        "MND"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L4-INTENTIONAL-PROJECT-SPLIT": {
       "id": "FR-L4-INTENTIONAL-PROJECT-SPLIT",
@@ -18741,7 +20829,17 @@
       "allRecordNos": [
         "3318",
         "4890"
-      ]
+      ],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "MND"
+      ],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L4-EVAL-SIMPLIFICATION-TIMING": {
       "id": "FR-L4-EVAL-SIMPLIFICATION-TIMING",
@@ -18814,7 +20912,17 @@
       "allRecordNos": [
         "2853",
         "9003"
-      ]
+      ],
+      "persons": [
+        "이지영",
+        "김수진"
+      ],
+      "organizations": [
+        "국전원",
+        "MND"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L4-EVAL-DEF-001": {
       "id": "FR-L4-EVAL-DEF-001",
@@ -18889,7 +20997,18 @@
       "allRecordNos": [
         "4759",
         "9003"
-      ]
+      ],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "국전원",
+        "군검찰단",
+        "MND",
+        "국유단"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L4-EVAL-IMPROVE-001": {
       "id": "FR-L4-EVAL-IMPROVE-001",
@@ -18963,7 +21082,17 @@
       ],
       "allRecordNos": [
         "4757"
-      ]
+      ],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "국전원",
+        "MND",
+        "DCIA"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L6-DELAY-THREE-OBJECTIVES": {
       "id": "FR-L6-DELAY-THREE-OBJECTIVES",
@@ -19018,7 +21147,13 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L2-MND-CONTROLLED-PROJECT": {
       "id": "FR-L2-MND-CONTROLLED-PROJECT",
@@ -19133,7 +21268,19 @@
         "7496",
         "7995",
         "8012"
-      ]
+      ],
+      "persons": [
+        "강민호",
+        "박성호",
+        "한지훈"
+      ],
+      "organizations": [
+        "국전원",
+        "MND",
+        "국유단"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L6-ADMITS-NOT-ACTUAL-BLAMES-VICTIM": {
       "id": "FR-L6-ADMITS-NOT-ACTUAL-BLAMES-VICTIM",
@@ -19194,7 +21341,15 @@
       "allRecordNos": [
         "1253",
         "1392"
-      ]
+      ],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "MND"
+      ],
+      "fractureType": "F-SE",
+      "sourceType": "investigation"
     },
     "FR-L6-MITIGATING-IS-NORMAL-WORK": {
       "id": "FR-L6-MITIGATING-IS-NORMAL-WORK",
@@ -19231,8 +21386,8 @@
       "spotCheck": "- `vault-converted-korean/(20221014) Fraudulent Proof of Notification of the Reason for Non-Prosecution(English, Korean).converted.md` lines 1-509",
       "related": [
         {
-          "slug": "prosecution-non-prosecution-internal-contradiction",
-          "display": "prosecution-non-prosecution-internal-contradiction",
+          "slug": "prosecution-non-prosecution-self-contradiction",
+          "display": "prosecution-non-prosecution-self-contradiction",
           "type": "CORROBORATES"
         },
         {
@@ -19248,7 +21403,13 @@
       ],
       "allRecordNos": [
         "1200"
-      ]
+      ],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [],
+      "fractureType": "F-SC",
+      "sourceType": "investigation"
     },
     "FR-L1-APT-VULNERABILITY": {
       "id": "FR-L1-APT-VULNERABILITY",
@@ -19309,7 +21470,11 @@
       "allRecordNos": [
         "3236",
         "4855"
-      ]
+      ],
+      "persons": [],
+      "organizations": [],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L1-DB-DIRECT-NO-VPN": {
       "id": "FR-L1-DB-DIRECT-NO-VPN",
@@ -19425,7 +21590,20 @@
       "allRecordNos": [
         "10303",
         "5240"
-      ]
+      ],
+      "persons": [
+        "장우진",
+        "한지훈",
+        "이지영",
+        "김수진"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "국유단"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L1-KIATIS-INSIDE-OTHER-SERVER": {
       "id": "FR-L1-KIATIS-INSIDE-OTHER-SERVER",
@@ -19526,7 +21704,18 @@
         "1144",
         "1157",
         "1481"
-      ]
+      ],
+      "persons": [
+        "강홍석"
+      ],
+      "organizations": [
+        "조사본부",
+        "DCIA",
+        "국유단",
+        "조달청"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L1-INTRANET-LINK": {
       "id": "FR-L1-INTRANET-LINK",
@@ -19610,7 +21799,17 @@
       "allRecordNos": [
         "1117",
         "1125"
-      ]
+      ],
+      "persons": [
+        "이태호"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "국유단"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L1-WEB-FACADE-CS-DIRECT": {
       "id": "FR-L1-WEB-FACADE-CS-DIRECT",
@@ -19689,7 +21888,14 @@
         "1629",
         "4890",
         "5164"
-      ]
+      ],
+      "persons": [
+        "장우진",
+        "한지훈"
+      ],
+      "organizations": [],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L7-ONNARA-2024": {
       "id": "FR-L7-ONNARA-2024",
@@ -19780,7 +21986,17 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC",
+        "군검찰단",
+        "MND"
+      ],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L3-011": {
       "id": "FR-L3-011",
@@ -19846,7 +22062,17 @@
       "allRecordNos": [
         "11134",
         "1473"
-      ]
+      ],
+      "persons": [
+        "박성호",
+        "한지훈",
+        "김민수"
+      ],
+      "organizations": [
+        "국전원"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L4-CHAKRA-NOT-USED-TESTEVAL": {
       "id": "FR-L4-CHAKRA-NOT-USED-TESTEVAL",
@@ -19895,7 +22121,17 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "도지호"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원"
+      ],
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L7-PRESIDENTIAL-INVESTIGATION": {
       "id": "FR-L7-PRESIDENTIAL-INVESTIGATION",
@@ -19945,7 +22181,11 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L6-ARTICLE-57-DIRECTIVE-LAUNDERING": {
       "id": "FR-L6-ARTICLE-57-DIRECTIVE-LAUNDERING",
@@ -20000,7 +22240,11 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L6-BAEIM-SELF-CONTRADICTION": {
       "id": "FR-L6-BAEIM-SELF-CONTRADICTION",
@@ -20067,8 +22311,8 @@
       "spotCheck": "- `vault-converted-korean/12-3-6-36-제6층위-군.md` lines 612-642",
       "related": [
         {
-          "slug": "prosecution-non-prosecution-internal-contradiction",
-          "display": "prosecution-non-prosecution-internal-contradiction",
+          "slug": "prosecution-non-prosecution-self-contradiction",
+          "display": "prosecution-non-prosecution-self-contradiction",
           "type": "CORROBORATES"
         },
         {
@@ -20088,7 +22332,15 @@
         "704",
         "714",
         "831"
-      ]
+      ],
+      "persons": [
+        "장호재"
+      ],
+      "organizations": [
+        "군검찰단"
+      ],
+      "fractureType": "F-SC",
+      "sourceType": "book"
     },
     "FR-L7-PROSECUTION-CHIEF-EVASION": {
       "id": "FR-L7-PROSECUTION-CHIEF-EVASION",
@@ -20154,8 +22406,8 @@
           "type": "RELATED"
         },
         {
-          "slug": "prosecution-non-prosecution-internal-contradiction",
-          "display": "prosecution-non-prosecution-internal-contradiction",
+          "slug": "prosecution-non-prosecution-self-contradiction",
+          "display": "prosecution-non-prosecution-self-contradiction",
           "type": "RELATED"
         },
         {
@@ -20168,7 +22420,16 @@
         "11202",
         "5603",
         "5671"
-      ]
+      ],
+      "persons": [
+        "한지훈",
+        "안세준"
+      ],
+      "organizations": [
+        "MND"
+      ],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L6-ENV-DISTORT-001": {
       "id": "FR-L6-ENV-DISTORT-001",
@@ -20252,7 +22513,15 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "군검찰단"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L6-B3-003": {
       "id": "FR-L6-B3-003",
@@ -20372,11 +22641,25 @@
         "1481",
         "1483",
         "394"
-      ]
+      ],
+      "persons": [
+        "한지훈",
+        "이준호",
+        "박성호",
+        "최영수",
+        "김경진"
+      ],
+      "organizations": [
+        "국전원",
+        "군검찰단",
+        "국유단"
+      ],
+      "fractureType": "F-SC",
+      "sourceType": "book"
     },
     "FR-L6-B2-003": {
       "id": "FR-L6-B2-003",
-      "stem": "prosecution-firewall-port-opening-contradicts-it-standard-practice",
+      "stem": "prosecution-firewall-port-opening-vs-it-standard-practice",
       "title": "IT 상식과의 괴리 — 군검찰이 전 세계 IT 표준 실무인 방화벽 포트 개방을 범죄로 규정",
       "source": "raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md (§3.6.4.11.6, lines 690–693)",
       "layer": 6,
@@ -20494,7 +22777,18 @@
       "allRecordNos": [
         "4338",
         "4542"
-      ]
+      ],
+      "persons": [
+        "임형규",
+        "최동욱",
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L6-FRAUD-MEETS-CRIMINAL-ELEMENTS": {
       "id": "FR-L6-FRAUD-MEETS-CRIMINAL-ELEMENTS",
@@ -20539,8 +22833,8 @@
           "type": "CORROBORATES"
         },
         {
-          "slug": "prosecution-non-prosecution-internal-contradiction",
-          "display": "prosecution-non-prosecution-internal-contradiction",
+          "slug": "prosecution-non-prosecution-self-contradiction",
+          "display": "prosecution-non-prosecution-self-contradiction",
           "type": "CORROBORATES"
         },
         {
@@ -20549,7 +22843,13 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [
+        "군검찰단"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L7-HUMAN-RIGHTS-OFFICER-FAILED": {
       "id": "FR-L7-HUMAN-RIGHTS-OFFICER-FAILED",
@@ -20622,7 +22922,17 @@
       "allRecordNos": [
         "11202",
         "5603"
-      ]
+      ],
+      "persons": [
+        "한지훈",
+        "안세준"
+      ],
+      "organizations": [
+        "군검찰단",
+        "MND"
+      ],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L6-IDENTITY-FALLACY": {
       "id": "FR-L6-IDENTITY-FALLACY",
@@ -20727,7 +23037,15 @@
       ],
       "allRecordNos": [
         "8013"
-      ]
+      ],
+      "persons": [],
+      "organizations": [
+        "국전원",
+        "군검찰단",
+        "국유단"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L6-INVESTIGATOR-IGNORANCE": {
       "id": "FR-L6-INVESTIGATOR-IGNORANCE",
@@ -20781,7 +23099,15 @@
       ],
       "allRecordNos": [
         "11188"
-      ]
+      ],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "군검찰단"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L6-KNEW-INNOCENCE-CONTINUED": {
       "id": "FR-L6-KNEW-INNOCENCE-CONTINUED",
@@ -20836,8 +23162,8 @@
       "spotCheck": "- `vault-converted-korean/12-3-6-36-제6층위-군.md` lines 245-290",
       "related": [
         {
-          "slug": "prosecution-non-prosecution-internal-contradiction",
-          "display": "prosecution-non-prosecution-internal-contradiction",
+          "slug": "prosecution-non-prosecution-self-contradiction",
+          "display": "prosecution-non-prosecution-self-contradiction",
           "type": "CORROBORATES"
         },
         {
@@ -20854,7 +23180,15 @@
       "allRecordNos": [
         "11176",
         "11188"
-      ]
+      ],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "군검찰단"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L6-003": {
       "id": "FR-L6-003",
@@ -20974,11 +23308,23 @@
           "type": "ABOUT"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "임형규",
+        "안세준"
+      ],
+      "organizations": [
+        "국전원",
+        "군검찰단",
+        "MND"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "investigation"
     },
     "FR-L6-NON-PROSECUTION-CONTRADICTION": {
       "id": "FR-L6-NON-PROSECUTION-CONTRADICTION",
-      "stem": "prosecution-non-prosecution-internal-contradiction",
+      "stem": "prosecution-non-prosecution-self-contradiction",
       "title": "불기소 이유서의 내적 모순 — 기소유예와 99.73점 성공 동시 인정",
       "source": "raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.4.1 (lines 299-310)",
       "layer": 6,
@@ -21083,7 +23429,19 @@
         "4866",
         "4872",
         "6818"
-      ]
+      ],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "군검찰단",
+        "국유단",
+        "조달청"
+      ],
+      "fractureType": "F-SC",
+      "sourceType": "book"
     },
     "FR-L6-B2-001": {
       "id": "FR-L6-B2-001",
@@ -21168,7 +23526,19 @@
       ],
       "allRecordNos": [
         "1483"
-      ]
+      ],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "국전원",
+        "MND",
+        "DCIA",
+        "국본",
+        "국유단"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L6-PROSECUTION-PRINCIPAL-ACTOR": {
       "id": "FR-L6-PROSECUTION-PRINCIPAL-ACTOR",
@@ -21234,8 +23604,8 @@
           "type": "RELATED"
         },
         {
-          "slug": "prosecution-non-prosecution-internal-contradiction",
-          "display": "prosecution-non-prosecution-internal-contradiction",
+          "slug": "prosecution-non-prosecution-self-contradiction",
+          "display": "prosecution-non-prosecution-self-contradiction",
           "type": "RELATED"
         },
         {
@@ -21253,7 +23623,19 @@
         "11334",
         "4890",
         "6620"
-      ]
+      ],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "군검찰단",
+        "MND",
+        "국유단"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L6-B2-002": {
       "id": "FR-L6-B2-002",
@@ -21359,7 +23741,19 @@
       ],
       "allRecordNos": [
         "3948"
-      ]
+      ],
+      "persons": [
+        "최영수",
+        "한지훈",
+        "이준호",
+        "박서준"
+      ],
+      "organizations": [
+        "MND",
+        "조사본부"
+      ],
+      "fractureType": "F-SE",
+      "sourceType": "book"
     },
     "FR-L1-SIX-CHARGES-COLLAPSE": {
       "id": "FR-L1-SIX-CHARGES-COLLAPSE",
@@ -21419,7 +23813,15 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "군검찰단"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L6-WITNESS-LIST-CARTEL-ID": {
       "id": "FR-L6-WITNESS-LIST-CARTEL-ID",
@@ -21473,7 +23875,15 @@
       ],
       "allRecordNos": [
         "11162"
-      ]
+      ],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "군검찰단"
+      ],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L6-NO-CORRUPTION-STILL-CHARGED": {
       "id": "FR-L6-NO-CORRUPTION-STILL-CHARGED",
@@ -21513,8 +23923,8 @@
       "spotCheck": "- `vault-converted-korean/(Korean) individual_recording_logs_beyond_cybersecurity.md` lines 6032-6326",
       "related": [
         {
-          "slug": "prosecution-non-prosecution-internal-contradiction",
-          "display": "prosecution-non-prosecution-internal-contradiction",
+          "slug": "prosecution-non-prosecution-self-contradiction",
+          "display": "prosecution-non-prosecution-self-contradiction",
           "type": "CORROBORATES"
         },
         {
@@ -21528,7 +23938,14 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "임형규"
+      ],
+      "organizations": [],
+      "fractureType": "F-SC",
+      "sourceType": "recording"
     },
     "FR-L6-CHARGE-SHIFT-VPN-TO-FIREWALL": {
       "id": "FR-L6-CHARGE-SHIFT-VPN-TO-FIREWALL",
@@ -21607,7 +24024,89 @@
         "11157",
         "11188",
         "4979"
-      ]
+      ],
+      "persons": [
+        "한지훈",
+        "임형규"
+      ],
+      "organizations": [],
+      "fractureType": "F-MS",
+      "sourceType": "book"
+    },
+    "FR-C-L6-16": {
+      "id": "FR-C-L6-16",
+      "stem": "selective-criminalization-approval-chain",
+      "title": "C-L6-16: 방화벽 결재 3인 중 중간 검토자만 피의자 — 최종 결재자·기안자 배제",
+      "source": "raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.4.11.4 (lines 680-683)",
+      "layer": 6,
+      "claim": "방화벽 정책적용 공문의 결재선(기안자 이준호, 검토자 한지훈, 결재자 최영수) 중 중간 검토자만 피의자 지정. 최종 결재자(30년 IT 전문가, 서기관)는 참고인, 기안자는 배제. 최영수는 5시간 참고인 조사에서 방화벽 포트 개방의 기술적 정당성을 진술하였으나 검찰은 이를 반박하지 못함. 결재선 내 선택적 범죄자 만들기 = 표적수사.",
+      "keyTakeaways": [
+        {
+          "text": "Of 3-person approval chain (drafter/reviewer/approver), only the reviewer was charged [진리성]",
+          "axes": [
+            "진리성"
+          ]
+        },
+        {
+          "text": "최영수 (final approver, 30-year IT expert) testified 5 hours the action was technically justified — prosecution could not rebut [진리성]",
+          "axes": [
+            "진리성"
+          ]
+        },
+        {
+          "text": "Selective targeting within single approval chain = textbook targeted prosecution [타당성]",
+          "axes": [
+            "타당성"
+          ]
+        }
+      ],
+      "supportingEvidence": [
+        {
+          "raw": "**Record No. 3,948**",
+          "recordNos": [
+            "3948"
+          ]
+        },
+        {
+          "raw": "**Record No. 4,842**",
+          "recordNos": [
+            "4842"
+          ]
+        }
+      ],
+      "counterHypothesis": "검토자가 기술적 검증 의무의 일차적 책임자이므로 정당한 피의자 지정",
+      "falsificationCondition": "팀장(검토자)이 과장(결재자)보다 방화벽 결정에 대해 더 큰 형사 책임을 진다는 법리 분석",
+      "verdictProse": "**CORROBORATED.** STRONG. 진리성 9 / 타당성 9 / 진실성 9.",
+      "spotCheck": "- `vault-converted-korean/12-3-6-36-제6층위-군.md` lines 680-683",
+      "related": [
+        {
+          "slug": "prosecution-firewall-port-opening-vs-it-standard-practice",
+          "display": "prosecution-firewall-port-opening-vs-it-standard-practice",
+          "type": "CAUSES"
+        },
+        {
+          "slug": "prosecution-selective-criminalization-firewall-approval-chain",
+          "display": "prosecution-selective-criminalization-firewall-approval-chain",
+          "type": "CAUSES"
+        },
+        {
+          "slug": "layer-6",
+          "display": "Layer 6",
+          "type": "PART_OF_LAYER"
+        }
+      ],
+      "allRecordNos": [
+        "3948",
+        "4842"
+      ],
+      "persons": [
+        "최영수",
+        "이준호",
+        "한지훈"
+      ],
+      "organizations": [],
+      "fractureType": "F-SE",
+      "sourceType": "book"
     },
     "FR-L7-SEVEN-LAYER-ORGANIC-SYSTEM": {
       "id": "FR-L7-SEVEN-LAYER-ORGANIC-SYSTEM",
@@ -21675,7 +24174,11 @@
         "6435",
         "6445",
         "6446"
-      ]
+      ],
+      "persons": [],
+      "organizations": [],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-META-7LAYER-DESIGN": {
       "id": "FR-META-7LAYER-DESIGN",
@@ -21719,7 +24222,11 @@
           "type": "RELATED"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L5-6MONTH-SOLITARY-5WITNESSES": {
       "id": "FR-L5-6MONTH-SOLITARY-5WITNESSES",
@@ -21808,7 +24315,22 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "최영규",
+        "김익혁",
+        "류서영",
+        "김민지",
+        "천하경",
+        "김민수"
+      ],
+      "organizations": [
+        "국전원",
+        "MND"
+      ],
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L4-VOCABULARY-ERASURE": {
       "id": "FR-L4-VOCABULARY-ERASURE",
@@ -21876,7 +24398,13 @@
         "8260",
         "8902",
         "9008"
-      ]
+      ],
+      "persons": [],
+      "organizations": [
+        "국유단"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L6-THREE-PHASE-TIMELINE": {
       "id": "FR-L6-THREE-PHASE-TIMELINE",
@@ -21925,7 +24453,15 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L6-DELAY-BUDGET-CYCLE": {
       "id": "FR-L6-DELAY-BUDGET-CYCLE",
@@ -21968,7 +24504,11 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L6-DELAY-LEADER-ELIMINATION": {
       "id": "FR-L6-DELAY-LEADER-ELIMINATION",
@@ -22011,7 +24551,13 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L4-KIM-MINSU-FALSE-IGNORANCE": {
       "id": "FR-L4-KIM-MINSU-FALSE-IGNORANCE",
@@ -22082,7 +24628,17 @@
         "6748",
         "6755",
         "6760"
-      ]
+      ],
+      "persons": [
+        "김민수",
+        "박성호"
+      ],
+      "organizations": [
+        "국전원",
+        "MND"
+      ],
+      "fractureType": "F-SC",
+      "sourceType": "book"
     },
     "FR-L5-KIM-MINSU-SUPPORT-CUTOFF": {
       "id": "FR-L5-KIM-MINSU-SUPPORT-CUTOFF",
@@ -22120,7 +24676,14 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "김민수",
+        "한지훈"
+      ],
+      "organizations": [],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L5-5MIN-TRIPLE-REVERSAL": {
       "id": "FR-L5-5MIN-TRIPLE-REVERSAL",
@@ -22174,7 +24737,14 @@
       ],
       "allRecordNos": [
         "11064"
-      ]
+      ],
+      "persons": [
+        "김민수",
+        "이지영"
+      ],
+      "organizations": [],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L5-POST-COLLAPSE-ESCALATION": {
       "id": "FR-L5-POST-COLLAPSE-ESCALATION",
@@ -22217,7 +24787,13 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "이지영"
+      ],
+      "organizations": [],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L4-DATA-TRANSFER-BLOCKED": {
       "id": "FR-L4-DATA-TRANSFER-BLOCKED",
@@ -22266,7 +24842,11 @@
       ],
       "allRecordNos": [
         "3324"
-      ]
+      ],
+      "persons": [],
+      "organizations": [],
+      "fractureType": null,
+      "sourceType": "book"
     },
     "FR-L4-TEMPORAL-REVERSAL-090203": {
       "id": "FR-L4-TEMPORAL-REVERSAL-090203",
@@ -22320,7 +24900,13 @@
       ],
       "allRecordNos": [
         "2858"
-      ]
+      ],
+      "persons": [],
+      "organizations": [
+        "MND"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L4-031": {
       "id": "FR-L4-031",
@@ -22390,7 +24976,18 @@
         "2594",
         "2762",
         "4756"
-      ]
+      ],
+      "persons": [
+        "이준호",
+        "한지훈"
+      ],
+      "organizations": [
+        "국전원",
+        "군검찰단",
+        "국유단"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L4-TERMINOLOGY-DISTORTION-001": {
       "id": "FR-L4-TERMINOLOGY-DISTORTION-001",
@@ -22482,7 +25079,18 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈",
+        "김민수"
+      ],
+      "organizations": [
+        "국전원",
+        "군검찰단",
+        "MND"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L5-TOTAL-DESTRUCTION-UNPERSON": {
       "id": "FR-L5-TOTAL-DESTRUCTION-UNPERSON",
@@ -22537,7 +25145,11 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [],
+      "fractureType": "F-MS",
+      "sourceType": "book"
     },
     "FR-L6-VICTIM-BLAMING": {
       "id": "FR-L6-VICTIM-BLAMING",
@@ -22593,7 +25205,15 @@
       "allRecordNos": [
         "3236",
         "4855"
-      ]
+      ],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "군검찰단"
+      ],
+      "fractureType": "F-SE",
+      "sourceType": "book"
     },
     "FR-L5-WARNING-LETTER-LEE-JIYOUNG-ONLY": {
       "id": "FR-L5-WARNING-LETTER-LEE-JIYOUNG-ONLY",
@@ -22674,7 +25294,17 @@
         "3945",
         "4878",
         "6916"
-      ]
+      ],
+      "persons": [
+        "박서준",
+        "이지영",
+        "한지훈"
+      ],
+      "organizations": [
+        "MND"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "book"
     },
     "FR-L6-WARRANT-IS-FALSE-DOCUMENT": {
       "id": "FR-L6-WARRANT-IS-FALSE-DOCUMENT",
@@ -22728,8 +25358,8 @@
           "type": "OPPOSES"
         },
         {
-          "slug": "prosecution-non-prosecution-internal-contradiction",
-          "display": "prosecution-non-prosecution-internal-contradiction",
+          "slug": "prosecution-non-prosecution-self-contradiction",
+          "display": "prosecution-non-prosecution-self-contradiction",
           "type": "OPPOSES"
         },
         {
@@ -22741,7 +25371,16 @@
       "allRecordNos": [
         "4979",
         "5008"
-      ]
+      ],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "군검찰단",
+        "MND"
+      ],
+      "fractureType": "F-SC",
+      "sourceType": "book"
     },
     "FR-L6-WARRANT-OMITS-15YR-VPN": {
       "id": "FR-L6-WARRANT-OMITS-15YR-VPN",
@@ -22790,7 +25429,11 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [],
+      "organizations": [],
+      "fractureType": "F-MS",
+      "sourceType": "investigation"
     },
     "FR-L6-WARRANT-VS-NONPROSECUTION-REVERSAL": {
       "id": "FR-L6-WARRANT-VS-NONPROSECUTION-REVERSAL",
@@ -22864,7 +25507,13 @@
         "1481",
         "1483",
         "394"
-      ]
+      ],
+      "persons": [
+        "이준호"
+      ],
+      "organizations": [],
+      "fractureType": "F-SC",
+      "sourceType": "investigation"
     },
     "FR-L7-WHISTLEBLOWER-LAW-FORMAL": {
       "id": "FR-L7-WHISTLEBLOWER-LAW-FORMAL",
@@ -22919,7 +25568,13 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [],
+      "fractureType": "F-AA",
+      "sourceType": "book"
     },
     "FR-XSYN-80ITEMS-TRIANGULATED": {
       "id": "FR-XSYN-80ITEMS-TRIANGULATED",
@@ -22974,7 +25629,13 @@
       "allRecordNos": [
         "3987",
         "5950"
-      ]
+      ],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [],
+      "fractureType": "F-CE",
+      "sourceType": "recording"
     },
     "FR-XSYN-2436-RETROACTIVE": {
       "id": "FR-XSYN-2436-RETROACTIVE",
@@ -23047,7 +25708,13 @@
         "1253",
         "7512",
         "8194"
-      ]
+      ],
+      "persons": [],
+      "organizations": [
+        "MND"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "regulation"
     },
     "FR-XSYN-POST-WARRANT-ARRIVAL": {
       "id": "FR-XSYN-POST-WARRANT-ARRIVAL",
@@ -23108,7 +25775,15 @@
       "allRecordNos": [
         "11202",
         "4854"
-      ]
+      ],
+      "persons": [
+        "임형규"
+      ],
+      "organizations": [
+        "군검찰단"
+      ],
+      "fractureType": "F-MS",
+      "sourceType": "recording"
     },
     "FR-XSYN-VPN-PUBLIC": {
       "id": "FR-XSYN-VPN-PUBLIC",
@@ -23169,7 +25844,16 @@
       "allRecordNos": [
         "1292",
         "612"
-      ]
+      ],
+      "persons": [
+        "한지훈"
+      ],
+      "organizations": [
+        "DIDC",
+        "국유단"
+      ],
+      "fractureType": "F-CE",
+      "sourceType": "recording"
     },
     "FR-XSYN-SILENCE-COVERUP": {
       "id": "FR-XSYN-SILENCE-COVERUP",
@@ -23220,7 +25904,13 @@
       ],
       "allRecordNos": [
         "1"
-      ]
+      ],
+      "persons": [],
+      "organizations": [
+        "DIDC"
+      ],
+      "fractureType": "F-AA",
+      "sourceType": "sop"
     },
     "FR-XSYN-SOP-CHERRY-PICK": {
       "id": "FR-XSYN-SOP-CHERRY-PICK",
@@ -23281,7 +25971,13 @@
       "allRecordNos": [
         "6128",
         "8435"
-      ]
+      ],
+      "persons": [],
+      "organizations": [
+        "DIDC"
+      ],
+      "fractureType": "F-SE",
+      "sourceType": "sop"
     },
     "FR-L5-YANGJUNSEUNG-9POINT-FABRICATION": {
       "id": "FR-L5-YANGJUNSEUNG-9POINT-FABRICATION",
@@ -23347,7 +26043,20 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "양준승",
+        "한지훈",
+        "김수진",
+        "양미숙",
+        "김민지",
+        "박서준"
+      ],
+      "organizations": [
+        "국전원"
+      ],
+      "fractureType": null,
+      "sourceType": "recording"
     },
     "FR-L6-EXTERNAL-WITNESS-REACTION": {
       "id": "FR-L6-EXTERNAL-WITNESS-REACTION",
@@ -23413,7 +26122,20 @@
           "type": "PART_OF_LAYER"
         }
       ],
-      "allRecordNos": []
+      "allRecordNos": [],
+      "persons": [
+        "양준승",
+        "한지훈",
+        "이준호",
+        "박서준"
+      ],
+      "organizations": [
+        "DIDC",
+        "국전원",
+        "DCIA"
+      ],
+      "fractureType": null,
+      "sourceType": "recording"
     }
   }
 }

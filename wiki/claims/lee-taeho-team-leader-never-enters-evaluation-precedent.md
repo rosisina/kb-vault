@@ -1,3 +1,49 @@
+---
+lang: ko
+title-ko: "이태호 (전임 팀장/평가위원장): \"팀장이 들어간 적 없어요\" — 시험평가에 팀장 불참은 관행이지 조작이 아님"
+title-en: "이태호 (전임 팀장/평가위원장): \"팀장이 들어간 적 없어요\" — 시험평가에 팀장 불참은 관행이지 조작이 아님"
+aliases:
+  - FR-L4-TEAM-LEADER-NEVER-ENTERS-EVAL
+  - "이태호 (전임 팀장/평가위원장): \"팀장이 들어간 적 없어요\" — 시험평가에 팀장 불참은"
+
+layer: 4
+secondary-layers: [6]
+claimType: testimony_evidence
+claimSubtype: institutional_precedent_testimony
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 8
+analysisDate: 2026-04-13
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 이태호
+  - 한지훈
+organizations:
+  - 국전원
+has-verbatim: true
+
+tags:
+  - layer/L4
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/testimony-evidence
+  - source/recording
+  - person/이태호
+  - person/한지훈
+  - org/국전원
+  - has/verbatim-quote
+  - cross-layer
+---
 # 이태호 (전임 팀장/평가위원장): "팀장이 들어간 적 없어요" — 시험평가에 팀장 불참은 관행이지 조작이 아님
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[005]` 녹취 057 (2022.7.30, 00:09:57, line 3750+)

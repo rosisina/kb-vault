@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: 피해 당사자의 4년간 1차 자료 수집·분석에 기초한 당사자 연구(insider research)
+title-en: ""
+aliases:
+  - FR-META-INSIDER-RESEARCH
+  - 피해 당사자의 4년간 1차 자료 수집·분석에 기초한 당사자 연구(insider
+
+layer: 7
+secondary-layers: [1, 2, 3, 4, 5, 6]
+claimType: methodology
+claimSubtype: methodology_claim
+fracture-type: null
+source-type: book
+
+verdict: NEEDS_MORE_EVIDENCE
+strength: MODERATE
+truthfulness: 7
+validity: 5
+sincerity: 10
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L7
+  - layer/L1
+  - layer/L2
+  - layer/L3
+  - layer/L4
+  - layer/L5
+  - layer/L6
+  - verdict/needs-more-evidence
+  - strength/moderate
+  - type/methodology
+  - source/book
+  - cross-layer
+---
 # 피해 당사자의 4년간 1차 자료 수집·분석에 기초한 당사자 연구(insider research)
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/03-executive-summary--핵심-요약.md 핵심요약 §7 (lines 420-423)

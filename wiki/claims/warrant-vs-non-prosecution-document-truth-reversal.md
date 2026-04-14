@@ -1,3 +1,44 @@
+---
+lang: ko
+title-ko: 영장 '허위의 사실' vs 불기소결정서 '평가를 그대로 기재' — 동일 문서에 대한 진실성 역전
+title-en: 영장 '허위의 사실' vs 불기소결정서 '평가를 그대로 기재' — 동일 문서에 대한 진실성 역전
+aliases:
+  - FR-L6-WARRANT-VS-NONPROSECUTION-REVERSAL
+  - 영장 '허위의 사실' vs 불기소결정서 '평가를 그대로 기재' — 동일 문서에 대한
+
+layer: 6
+secondary-layers: []
+claimType: cross_layer_analysis
+claimSubtype: cross_document_contradiction
+fracture-type: F-SC
+source-type: investigation
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: [394, 1481, 1483]
+evidence-ids: []
+event-date: 2022-10-07
+
+persons:
+  - 이준호
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/cross-layer-analysis
+  - source/investigation
+  - fracture/F-SC
+  - person/이준호
+  - has/record-nos
+---
 # 영장 '허위의 사실' vs 불기소결정서 '평가를 그대로 기재' — 동일 문서에 대한 진실성 역전
 
 **Source:** raw/05. Investigation by the Military Prosecutor's Office/Bilingual(English, Korean)/(220718) Confiscation, Search and Verification Warrants(ver 0.8) (English, Korean).converted.md 영장 vs 불기소결정서 교차비교 (lines 1-405)

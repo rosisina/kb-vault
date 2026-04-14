@@ -1,3 +1,45 @@
+---
+lang: ko
+title-ko: 공모 붕괴 후 축소 대신 확대 — 경고장 유지 + 군검찰 표적수사 전환
+title-en: 공모 붕괴 후 축소 대신 확대 — 경고장 유지 + 군검찰 표적수사 전환
+aliases:
+  - FR-L5-POST-COLLAPSE-ESCALATION
+  - 공모 붕괴 후 축소 대신 확대 — 경고장 유지 + 군검찰 표적수사 전환
+
+layer: 5
+secondary-layers: [6]
+claimType: conspiracy_structure
+claimSubtype: conspiracy_escalation
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 이지영
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/conspiracy-structure
+  - source/book
+  - fracture/F-MS
+  - person/이지영
+  - cross-layer
+---
 # 공모 붕괴 후 축소 대신 확대 — 경고장 유지 + 군검찰 표적수사 전환
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md §3.5.2.4.4 (lines 270-273)

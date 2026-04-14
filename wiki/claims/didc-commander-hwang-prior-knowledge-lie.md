@@ -1,3 +1,50 @@
+---
+lang: ko
+title-ko: DIDC 부대장 황만수의 수사 사전 인지 거짓말
+title-en: ""
+aliases:
+  - FR-L4-HWANG-PRIOR-KNOWLEDGE
+  - DIDC 부대장 황만수의 수사 사전 인지 거짓말
+
+layer: 4
+secondary-layers: []
+claimType: witness_manipulation
+claimSubtype: witness_dishonesty
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: [11399, 11404]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 황만수
+  - 한지훈
+  - 김성민
+organizations:
+  - DIDC
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/witness-manipulation
+  - source/book
+  - fracture/F-CE
+  - person/황만수
+  - person/한지훈
+  - person/김성민
+  - org/DIDC
+  - has/record-nos
+---
 # DIDC 부대장 황만수의 수사 사전 인지 거짓말
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.2.2 (lines 118-161)

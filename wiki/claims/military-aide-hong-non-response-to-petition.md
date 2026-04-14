@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: 군사보좌관 홍성민의 진정서 무응답 — KakaoTalk 전달 후 침묵
+title-en: 군사보좌관 홍성민의 진정서 무응답 — KakaoTalk 전달 후 침묵
+aliases:
+  - FR-L7-MILITARY-AIDE-NONRESPONSE
+  - 군사보좌관 홍성민의 진정서 무응답 — KakaoTalk 전달 후 침묵
+
+layer: 7
+secondary-layers: []
+claimType: institutional_obstruction
+claimSubtype: institutional_rejection
+fracture-type: null
+source-type: book
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 7
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: [5393, 5578, 5669]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 홍성민
+  - 한지훈
+organizations:
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L7
+  - verdict/corroborated
+  - strength/moderate
+  - type/institutional-obstruction
+  - source/book
+  - person/홍성민
+  - person/한지훈
+  - org/MND
+  - has/record-nos
+---
 # 군사보좌관 홍성민의 진정서 무응답 — KakaoTalk 전달 후 침묵
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/13-3-7-37-제7층위-진정서.md §3.7.1.1 (lines 8-18)

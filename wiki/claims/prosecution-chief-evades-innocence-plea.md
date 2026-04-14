@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: 검찰단장의 무혐의 촉구 회피 — 32년 군인의 호소에 대한 조직적 방어
+title-en: 검찰단장의 무혐의 촉구 회피 — 32년 군인의 호소에 대한 조직적 방어
+aliases:
+  - FR-L7-PROSECUTION-CHIEF-EVASION
+  - 검찰단장의 무혐의 촉구 회피 — 32년 군인의 호소에 대한 조직적 방어
+
+layer: 7
+secondary-layers: []
+claimType: institutional_obstruction
+claimSubtype: innocence_plea_deflection
+fracture-type: null
+source-type: book
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 8
+sincerity: 10
+analysisDate: 2026-04-11
+
+record-nos: [5603, 5671, 11202]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+  - 안세준
+organizations:
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L7
+  - verdict/corroborated
+  - strength/moderate
+  - type/institutional-obstruction
+  - source/book
+  - person/한지훈
+  - person/안세준
+  - org/MND
+  - has/record-nos
+---
 # 검찰단장의 무혐의 촉구 회피 — 32년 군인의 호소에 대한 조직적 방어
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/13-3-7-37-제7층위-진정서.md §3.7.1.2 (lines 20-39)

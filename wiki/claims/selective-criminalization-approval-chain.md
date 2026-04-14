@@ -1,3 +1,50 @@
+---
+lang: ko
+title-ko: "C-L6-16: 방화벽 결재 3인 중 중간 검토자만 피의자 — 최종 결재자·기안자 배제"
+title-en: "C-L6-16: 방화벽 결재 3인 중 중간 검토자만 피의자 — 최종 결재자·기안자 배제"
+aliases:
+  - FR-C-L6-16
+  - "C-L6-16: 방화벽 결재 3인 중 중간 검토자만 피의자 — 최종 결재자·기안자 배제"
+
+layer: 6
+secondary-layers: [5]
+claimType: cross_layer_analysis
+claimSubtype: contradiction_pair
+fracture-type: F-SE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: [3948, 4842]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 최영수
+  - 이준호
+  - 한지훈
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/cross-layer-analysis
+  - source/book
+  - fracture/F-SE
+  - person/최영수
+  - person/이준호
+  - person/한지훈
+  - has/record-nos
+  - cross-layer
+---
 # C-L6-16: 방화벽 결재 3인 중 중간 검토자만 피의자 — 최종 결재자·기안자 배제
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.4.11.4 (lines 680-683)

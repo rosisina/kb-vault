@@ -1,3 +1,51 @@
+---
+lang: ko
+title-ko: 제58조 시험평가 수행원칙이 "분리 원칙"에서 "통합 원칙"으로 180도 전환되었다 — 2015~2020 훈령 이력 추적
+title-en: 제58조 시험평가 수행원칙이 "분리 원칙"에서 "통합 원칙"으로 180도 전환되었다 — 2015~2020 훈령 이력 추적
+aliases:
+  - FR-L4-ART58-SEPARATION-REVERSAL-001
+  - 제58조 시험평가 수행원칙이 "분리 원칙"에서 "통합 원칙"으로 180도 전환되었다 —
+
+layer: 4
+secondary-layers: [7]
+claimType: regulatory_manipulation
+claimSubtype: directive_manipulation
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 7
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - 국전원
+  - MND
+  - 국본
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/regulatory-manipulation
+  - source/book
+  - fracture/F-MS
+  - org/국전원
+  - org/MND
+  - org/국본
+  - org/국유단
+  - cross-layer
+---
 # 제58조 시험평가 수행원칙이 "분리 원칙"에서 "통합 원칙"으로 180도 전환되었다 — 2015~2020 훈령 이력 추적
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md (§3.4.4.4.3)

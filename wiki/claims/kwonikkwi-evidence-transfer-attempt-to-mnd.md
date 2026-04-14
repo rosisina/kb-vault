@@ -1,3 +1,45 @@
+---
+lang: ko
+title-ko: 국가권익위원회 실무자가 한지훈이 제출한 증거를 국방부에 합법적으로 이전하려 시도했음 — 민간 감시기관의 기관 포획 직접 증거
+title-en: 국가권익위원회 실무자가 한지훈이 제출한 증거를 국방부에 합법적으로 이전하려 시도했음 — 민간 감시기관의 기관 포획 직접 증거
+aliases:
+  - FR-L7-KWONIKKWI-TRANSFER
+  - 국가권익위원회 실무자가 한지훈이 제출한 증거를 국방부에 합법적으로 이전하려 시도했음 —
+
+layer: 7
+secondary-layers: []
+claimType: institutional_obstruction
+claimSubtype: institutional_complicity_civilian_oversight
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 7
+sincerity: 10
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: 2022-10-04
+
+persons:
+  - 한지훈
+organizations:
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/institutional-obstruction
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - org/MND
+---
 # 국가권익위원회 실무자가 한지훈이 제출한 증거를 국방부에 합법적으로 이전하려 시도했음 — 민간 감시기관의 기관 포획 직접 증거
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/13-3-7-37-제7층위-진정서.md (book §3.7.2.1)

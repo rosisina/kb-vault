@@ -1,3 +1,61 @@
+---
+lang: ko
+title-ko: 최동욱 변호사는 한지훈의 변호인이 아니라 군검찰의 대리인으로서 이중적 역할을 수행했다
+title-en: ""
+aliases:
+  - FR-L5-007
+  - 최동욱 변호사는 한지훈의 변호인이 아니라 군검찰의 대리인으로서 이중적 역할을 수행했다
+
+layer: 5
+secondary-layers: [6, 7]
+claimType: attorney_misconduct
+claimSubtype: conflict_of_interest_dual_agency
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 10
+analysisDate: 2026-04-11
+
+record-nos: [4352]
+evidence-ids: ["L5-007"]
+event-date: null
+
+persons:
+  - 최동욱
+  - 한지훈
+  - 이근태
+  - 박성호
+  - 박서준
+organizations:
+  - DIDC
+  - 군검찰단
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - layer/L6
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/attorney-misconduct
+  - source/book
+  - fracture/F-CE
+  - person/최동욱
+  - person/한지훈
+  - person/이근태
+  - person/박성호
+  - person/박서준
+  - org/DIDC
+  - org/군검찰단
+  - org/MND
+  - has/record-nos
+  - cross-layer
+---
 # 최동욱 변호사는 한지훈의 변호인이 아니라 군검찰의 대리인으로서 이중적 역할을 수행했다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md (§3.5.2.3.7)

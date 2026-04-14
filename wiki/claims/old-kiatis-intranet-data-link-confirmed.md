@@ -1,3 +1,52 @@
+---
+lang: ko
+title-ko: 舊KIATIS는 인트라넷(국방망)과 연동하여 데이터를 송·수신 — 사업계획서·제안요청서 교차 확인
+title-en: 舊KIATIS는 인트라넷(국방망)과 연동하여 데이터를 송·수신 — 사업계획서·제안요청서 교차 확인
+aliases:
+  - FR-L1-INTRANET-LINK
+  - 舊KIATIS는 인트라넷(국방망)과 연동하여 데이터를 송·수신 — 사업계획서·제안요청서
+
+layer: 1
+secondary-layers: [2]
+claimType: technical_proof
+claimSubtype: system_architecture_fact
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 8
+validity: 8
+sincerity: 7
+analysisDate: 2026-04-11
+
+record-nos: [1117, 1125]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 이태호
+organizations:
+  - DIDC
+  - 국전원
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - layer/L2
+  - verdict/corroborated
+  - strength/strong
+  - type/technical-proof
+  - source/book
+  - fracture/F-CE
+  - person/이태호
+  - org/DIDC
+  - org/국전원
+  - org/국유단
+  - has/record-nos
+  - cross-layer
+---
 # 舊KIATIS는 인트라넷(국방망)과 연동하여 데이터를 송·수신 — 사업계획서·제안요청서 교차 확인
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/07-3-1-31-제1층위-ActiveX.md §3.1.1.3 (lines 25–28)

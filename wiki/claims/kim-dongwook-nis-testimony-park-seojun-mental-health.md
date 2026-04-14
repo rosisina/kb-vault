@@ -1,3 +1,60 @@
+---
+lang: ko
+title-ko: 국가정보원 김동욱의 독립 증언 — 박서준의 기존 정신건강 이력과 한지훈의 보호적 행동 확인
+title-en: 국가정보원 김동욱의 독립 증언 — 박서준의 기존 정신건강 이력과 한지훈의 보호적 행동 확인
+aliases:
+  - FR-L5-NIS-PARK-SEOJUN-MENTAL-HEALTH
+  - 국가정보원 김동욱의 독립 증언 — 박서준의 기존 정신건강 이력과 한지훈의 보호적 행동 확인
+
+layer: 5
+secondary-layers: [7]
+claimType: testimony_evidence
+claimSubtype: independent_third_party_testimony
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 7
+sincerity: 10
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: 2026-04-12
+
+persons:
+  - 박서준
+  - 김동욱
+  - 한지훈
+  - 김민수
+  - 이지영
+  - 지원호
+  - 박현주
+  - 최영수
+organizations:
+  - 국전원
+  - 조사본부
+has-verbatim: true
+
+tags:
+  - layer/L5
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/testimony-evidence
+  - source/recording
+  - person/박서준
+  - person/김동욱
+  - person/한지훈
+  - person/김민수
+  - person/이지영
+  - org/국전원
+  - org/조사본부
+  - has/verbatim-quote
+  - cross-layer
+---
 # 국가정보원 김동욱의 독립 증언 — 박서준의 기존 정신건강 이력과 한지훈의 보호적 행동 확인
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[009-6]` 녹취 121~125 (2022.9.5~9.30, 5건 통화) lines 5432~5608

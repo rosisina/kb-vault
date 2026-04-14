@@ -1,3 +1,49 @@
+---
+lang: ko
+title-ko: "7층위 증명체계는 12,495쪽 증거로 입증된 단일 유기적 범죄 시스템이다"
+title-en: ""
+aliases:
+  - FR-L7-SEVEN-LAYER-ORGANIC-SYSTEM
+  - "7층위 증명체계는 12,495쪽 증거로 입증된 단일 유기적 범죄 시스템이다"
+
+layer: 7
+secondary-layers: [1, 2, 3, 4, 5, 6]
+claimType: cross_layer_analysis
+claimSubtype: cross_layer_synthesis
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 8
+validity: 7
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: [6435, 6445, 6446]
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L7
+  - layer/L1
+  - layer/L2
+  - layer/L3
+  - layer/L4
+  - layer/L5
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/cross-layer-analysis
+  - source/book
+  - fracture/F-CE
+  - has/record-nos
+  - cross-layer
+---
 # 7층위 증명체계는 12,495쪽 증거로 입증된 단일 유기적 범죄 시스템이다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/15-5-5-결론-및.md §5.1.1 (lines 10-15)

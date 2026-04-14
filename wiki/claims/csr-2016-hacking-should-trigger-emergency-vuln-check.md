@@ -1,3 +1,44 @@
+---
+lang: ko
+title-ko: 2016 해킹은 제44조 긴급 취약점 점검 조건 2개를 동시 충족 — KIATIS 점검 필수였다
+title-en: 2016 해킹은 제44조 긴급 취약점 점검 조건 2개를 동시 충족 — KIATIS 점검 필수였다
+aliases:
+  - FR-CSR-006
+  - 2016 해킹은 제44조 긴급 취약점 점검 조건 2개를 동시 충족 — KIATIS 점검
+
+layer: 1
+secondary-layers: [6]
+claimType: procedural_violation
+claimSubtype: procedural_duty
+fracture-type: null
+source-type: regulation
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 10
+sincerity: 6
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - DIDC
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - layer/L6
+  - verdict/corroborated
+  - strength/moderate
+  - type/procedural-violation
+  - source/regulation
+  - org/DIDC
+  - cross-layer
+---
 # 2016 해킹은 제44조 긴급 취약점 점검 조건 2개를 동시 충족 — KIATIS 점검 필수였다
 
 **Source:** raw/09. 사이버안보 훈령(당시)/cyber security reguration.md 제44조 (lines 391-398)

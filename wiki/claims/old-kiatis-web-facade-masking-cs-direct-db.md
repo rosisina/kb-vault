@@ -1,3 +1,46 @@
+---
+lang: ko
+title-ko: 舊KIATIS의 이중구조 — 웹 외관 아래 C/S 방식 DB 직접접속
+title-en: 舊KIATIS의 이중구조 — 웹 외관 아래 C/S 방식 DB 직접접속
+aliases:
+  - FR-L1-WEB-FACADE-CS-DIRECT
+  - 舊KIATIS의 이중구조 — 웹 외관 아래 C/S 방식 DB 직접접속
+
+layer: 1
+secondary-layers: []
+claimType: technical_proof
+claimSubtype: technical_architecture_deception
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 7
+analysisDate: 2026-04-11
+
+record-nos: [1629, 4890, 5164]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 장우진
+  - 한지훈
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - verdict/corroborated
+  - strength/strong
+  - type/technical-proof
+  - source/book
+  - fracture/F-MS
+  - person/장우진
+  - person/한지훈
+  - has/record-nos
+---
 # 舊KIATIS의 이중구조 — 웹 외관 아래 C/S 방식 DB 직접접속
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/07-3-1-31-제1층위-ActiveX.md §3.1.1.5 (lines 45-60)

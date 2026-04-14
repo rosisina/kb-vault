@@ -1,3 +1,43 @@
+---
+lang: ko
+title-ko: "DIDC SOP 제11호 Chapter 8 (백업/복구관리, 제70~94조) mandates 25-article backup regime including off-site storage; 2016 incident period backups must exist or their destruction must be documented"
+title-en: ""
+aliases:
+  - FR-L1-DIDC-005
+  - "DIDC SOP 제11호 Chapter 8 (백업/복구관리, 제70~94조)"
+
+layer: 1
+secondary-layers: []
+claimType: procedural_violation
+claimSubtype: procedural_artifact_mandatory
+fracture-type: F-AA
+source-type: sop
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - DIDC
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - verdict/corroborated
+  - strength/strong
+  - type/procedural-violation
+  - source/sop
+  - fracture/F-AA
+  - org/DIDC
+---
 # DIDC SOP 제11호 Chapter 8 (백업/복구관리, 제70~94조) mandates 25-article backup regime including off-site storage; 2016 incident period backups must exist or their destruction must be documented
 
 **Source:** raw/06. DIDC SOP(국방 통합데이터 센터 예규)/02.(Korean) DIDC_정보시스템_운영관리_예규.md (Chapter 8 백업/복구관리 제70~94조)

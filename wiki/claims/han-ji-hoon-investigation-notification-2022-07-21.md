@@ -1,3 +1,51 @@
+---
+lang: ko
+title-ko: "군인·공무원 수사개시 통보 (2022-07-21, 기록 제4,854쪽~)는 군사법원법 절차 보호와 군인권보호관 검토를 작동시켜야 했으나 실제로는 모두 미작동하였다"
+title-en: ""
+aliases:
+  - FR-L6-005
+  - "군인·공무원 수사개시 통보 (2022-07-21, 기록 제4,854쪽~)는 군사법원법"
+
+layer: 6
+secondary-layers: []
+claimType: procedural_violation
+claimSubtype: procedural_protection_failure
+fracture-type: F-AA
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 8
+validity: 7
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: ["L6-005"]
+event-date: null
+
+persons:
+  - 한지훈
+  - 김민수
+organizations:
+  - 국전원
+  - 군검찰단
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/procedural-violation
+  - source/book
+  - fracture/F-AA
+  - person/한지훈
+  - person/김민수
+  - org/국전원
+  - org/군검찰단
+  - org/MND
+---
 # 군인·공무원 수사개시 통보 (2022-07-21, 기록 제4,854쪽~)는 군사법원법 절차 보호와 군인권보호관 검토를 작동시켜야 했으나 실제로는 모두 미작동하였다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md (§3.6.3.3) • raw/01. book-beyond-cybersecurity/vault-converted-english/16-3-6-36-Sixth-Layer.md

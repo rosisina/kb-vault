@@ -1,3 +1,52 @@
+---
+lang: ko
+title-ko: 국방부 시험평가 절차 간소화 공문의 시간역전 — 시험평가 당일 생산
+title-en: 국방부 시험평가 절차 간소화 공문의 시간역전 — 시험평가 당일 생산
+aliases:
+  - FR-L4-EVAL-SIMPLIFICATION-TIMING
+  - 국방부 시험평가 절차 간소화 공문의 시간역전 — 시험평가 당일 생산
+
+layer: 4
+secondary-layers: [1]
+claimType: document_fabrication
+claimSubtype: document_manipulation_timing
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: [2853, 9003]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 이지영
+  - 김수진
+organizations:
+  - 국전원
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L1
+  - verdict/corroborated
+  - strength/strong
+  - type/document-fabrication
+  - source/book
+  - fracture/F-MS
+  - person/이지영
+  - person/김수진
+  - org/국전원
+  - org/MND
+  - has/record-nos
+  - cross-layer
+---
 # 국방부 시험평가 절차 간소화 공문의 시간역전 — 시험평가 당일 생산
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.2.3 (lines 163-190)

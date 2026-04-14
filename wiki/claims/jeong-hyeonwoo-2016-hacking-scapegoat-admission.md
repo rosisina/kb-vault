@@ -1,3 +1,48 @@
+---
+lang: ko
+title-ko: "정현우 (초대 데이터센터부대장): 2016 해킹 시 DIDC 부대원 '희생양' 취급 인정"
+title-en: ""
+aliases:
+  - FR-L1-2016-SCAPEGOAT-ADMISSION
+  - "정현우 (초대 데이터센터부대장): 2016 해킹 시 DIDC 부대원 '희생양' 취급 인정"
+
+layer: 1
+secondary-layers: [7]
+claimType: testimony_evidence
+claimSubtype: admission
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 6
+validity: 4
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 정현우
+  - 한지훈
+organizations:
+  - DIDC
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - layer/L7
+  - verdict/corroborated
+  - strength/moderate
+  - type/testimony-evidence
+  - source/recording
+  - person/정현우
+  - person/한지훈
+  - org/DIDC
+  - cross-layer
+---
 # 정현우 (초대 데이터센터부대장): 2016 해킹 시 DIDC 부대원 '희생양' 취급 인정
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md 녹취256 (lines 15687-15690)

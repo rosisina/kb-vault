@@ -1,3 +1,52 @@
+---
+lang: ko
+title-ko: "검사 임형규: 시험평가 환경 문제 자인 + 외부 전문가 검증 거부 + 증거를 \"주장\"으로 격하"
+title-en: ""
+aliases:
+  - FR-L6-LIM-EVAL-ENVIRONMENT-ADMISSION
+  - "검사 임형규: 시험평가 환경 문제 자인 + 외부 전문가 검증 거부 + 증거를 \"주장\"으로"
+
+layer: 6
+secondary-layers: [4]
+claimType: prosecution_misconduct
+claimSubtype: prosecutor_admission_predetermined_conclusion
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: 2022-10-11
+
+persons:
+  - 한지훈
+  - 임형규
+  - 진상호
+  - 김철환
+organizations:
+  - 군검찰단
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/prosecution-misconduct
+  - source/recording
+  - person/한지훈
+  - person/임형규
+  - person/진상호
+  - person/김철환
+  - org/군검찰단
+  - cross-layer
+---
 # 검사 임형규: 시험평가 환경 문제 자인 + 외부 전문가 검증 거부 + 증거를 "주장"으로 격하
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[011]` 녹취 146 (2022.10.11, 00:11:16)

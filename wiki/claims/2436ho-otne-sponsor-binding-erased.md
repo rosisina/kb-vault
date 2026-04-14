@@ -1,3 +1,45 @@
+---
+lang: ko
+title-ko: "제2436호 erases `사업주관기관 주관 하에` from the OT&E definition (A8b)"
+title-en: ""
+aliases:
+  - FR-L4-A8b-001
+  - "제2436호 erases `사업주관기관 주관 하에` from the OT&E"
+
+layer: 4
+secondary-layers: []
+claimType: regulatory_manipulation
+claimSubtype: regulatory_role_binding_erasure
+fracture-type: F-MS
+source-type: regulation
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 7
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: 2020-06-04
+
+persons: []
+organizations:
+  - MND
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/regulatory-manipulation
+  - source/regulation
+  - fracture/F-MS
+  - org/MND
+  - org/국유단
+---
 # 제2436호 erases `사업주관기관 주관 하에` from the OT&E definition (A8b)
 
 **Source:** raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2129호)(20180205).converted.md, raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2436호)(20200604).converted.md

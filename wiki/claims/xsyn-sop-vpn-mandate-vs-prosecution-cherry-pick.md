@@ -1,3 +1,46 @@
+---
+lang: ko
+title-ko: "DIDC 예규 제12호 제37조: 검찰이 VPN 조항만 인용하고 방화벽 관리 절차 조항은 무시"
+title-en: ""
+aliases:
+  - FR-XSYN-SOP-CHERRY-PICK
+  - "DIDC 예규 제12호 제37조: 검찰이 VPN 조항만 인용하고 방화벽 관리 절차 조항은"
+
+layer: 6
+secondary-layers: [1]
+claimType: cross_layer_analysis
+claimSubtype: cross_source_synthesis
+fracture-type: F-SE
+source-type: sop
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 7
+analysisDate: 2026-04-12
+
+record-nos: [6128, 8435]
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - DIDC
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L1
+  - verdict/corroborated
+  - strength/strong
+  - type/cross-layer-analysis
+  - source/sop
+  - fracture/F-SE
+  - org/DIDC
+  - has/record-nos
+  - cross-layer
+---
 # DIDC 예규 제12호 제37조: 검찰이 VPN 조항만 인용하고 방화벽 관리 절차 조항은 무시
 
 **Source:** raw/06. DIDC SOP(국방 통합데이터 센터 예규)/01.(Korean) DIDC_사이버방호_예규.md 제37조 (lines 555-576)

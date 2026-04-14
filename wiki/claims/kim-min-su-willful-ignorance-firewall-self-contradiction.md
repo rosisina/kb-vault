@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: 김민수의 '일절 모른다' 방화벽 — 1개월 전 '내가 알아서 할 거고'와 정면 모순
+title-en: 김민수의 '일절 모른다' 방화벽 — 1개월 전 '내가 알아서 할 거고'와 정면 모순
+aliases:
+  - FR-L7-WILLFUL-IGNORANCE-FIREWALL
+  - 김민수의 '일절 모른다' 방화벽 — 1개월 전 '내가 알아서 할 거고'와 정면 모순
+
+layer: 7
+secondary-layers: [5]
+claimType: cross_layer_analysis
+claimSubtype: self_contradiction
+fracture-type: F-SC
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: 2022-03-23
+
+persons:
+  - 김민수
+organizations:
+  - 감사실
+has-verbatim: false
+
+tags:
+  - layer/L7
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/cross-layer-analysis
+  - source/recording
+  - fracture/F-SC
+  - person/김민수
+  - org/감사실
+  - cross-layer
+---
 # 김민수의 '일절 모른다' 방화벽 — 1개월 전 '내가 알아서 할 거고'와 정면 모순
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md 녹취010 (lines 1925-1937)

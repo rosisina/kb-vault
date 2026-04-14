@@ -1,3 +1,59 @@
+---
+lang: ko
+title-ko: 국방 정보화 카르텔 11개 조직·역할 분담 목록
+title-en: ""
+aliases:
+  - FR-META-CARTEL-ROSTER
+  - 국방 정보화 카르텔 11개 조직·역할 분담 목록
+
+layer: 6
+secondary-layers: [1, 2, 3, 4, 5, 7]
+claimType: conspiracy_structure
+claimSubtype: organizational_structure
+fracture-type: null
+source-type: book
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 7
+validity: 6
+sincerity: 10
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 최동욱
+  - 한지훈
+organizations:
+  - DIDC
+  - 국전원
+  - 군검찰단
+  - 조사본부
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L1
+  - layer/L2
+  - layer/L3
+  - layer/L4
+  - layer/L5
+  - layer/L7
+  - verdict/corroborated
+  - strength/moderate
+  - type/conspiracy-structure
+  - source/book
+  - person/최동욱
+  - person/한지훈
+  - org/DIDC
+  - org/국전원
+  - org/군검찰단
+  - org/조사본부
+  - cross-layer
+---
 # 국방 정보화 카르텔 11개 조직·역할 분담 목록
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/03-executive-summary--핵심-요약.md 핵심요약 §6 (lines 416-419)

@@ -1,3 +1,58 @@
+---
+lang: ko
+title-ko: 시험평가 종료 후 국유단이 사업통제기관 역할을 불법 자임하고 국방부·국전원과의 사전 합의가 존재하였음을 시사한다
+title-en: ""
+aliases:
+  - FR-L4-B3-001
+  - 시험평가 종료 후 국유단이 사업통제기관 역할을 불법 자임하고 국방부·국전원과의 사전
+
+layer: 4
+secondary-layers: [7]
+claimType: procedural_violation
+claimSubtype: illegal_control_authority_transfer
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: [7486, 8371, 8567, 11107]
+evidence-ids: ["L4-013"]
+event-date: null
+
+persons:
+  - 장우진
+  - 오현수
+  - 한지훈
+organizations:
+  - DIDC
+  - 국전원
+  - MND
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/procedural-violation
+  - source/book
+  - fracture/F-MS
+  - person/장우진
+  - person/오현수
+  - person/한지훈
+  - org/DIDC
+  - org/국전원
+  - org/MND
+  - org/국유단
+  - has/record-nos
+  - cross-layer
+---
 # 시험평가 종료 후 국유단이 사업통제기관 역할을 불법 자임하고 국방부·국전원과의 사전 합의가 존재하였음을 시사한다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md (§3.4.2.4, lines 192–205)

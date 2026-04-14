@@ -1,3 +1,54 @@
+---
+lang: ko
+title-ko: VPN OTP 카드는 2019년 시험평가 기간에 미사용이 아니라 2021년 이후 국유단이 사용
+title-en: ""
+aliases:
+  - FR-L3-VPN-OTP-2021-001
+  - VPN OTP 카드는 2019년 시험평가 기간에 미사용이 아니라 2021년 이후 국유단이
+
+layer: 3
+secondary-layers: [4, 6]
+claimType: cross_layer_analysis
+claimSubtype: factual_temporal_refutation
+fracture-type: null
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 10
+validity: 9
+sincerity: 9
+
+record-nos: []
+evidence-ids: []
+event-date: 2019-09-02
+
+persons:
+  - 한지훈
+organizations:
+  - DIDC
+  - 국전원
+  - 군검찰단
+  - MND
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L3
+  - layer/L4
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/cross-layer-analysis
+  - source/book
+  - person/한지훈
+  - org/DIDC
+  - org/국전원
+  - org/군검찰단
+  - org/MND
+  - org/국유단
+  - cross-layer
+---
 # VPN OTP 카드는 2019년 시험평가 기간에 미사용이 아니라 2021년 이후 국유단이 사용
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/09-3-3-33-제3-층위.md (§3.3.4 footnote 148)

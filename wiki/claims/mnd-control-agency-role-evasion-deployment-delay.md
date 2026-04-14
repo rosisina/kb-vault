@@ -1,3 +1,58 @@
+---
+lang: ko
+title-ko: 국방부 정보화기획관실이 사업통제기관 역할을 의도적으로 회피하여 新KIATIS 전력화를 불가능하게 만들었다
+title-en: ""
+aliases:
+  - FR-L6-B3-004
+  - 국방부 정보화기획관실이 사업통제기관 역할을 의도적으로 회피하여 新KIATIS 전력화를
+
+layer: 6
+secondary-layers: [7]
+claimType: temporal_manipulation
+claimSubtype: control_agency_role_evasion
+fracture-type: F-AA
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: [1, 11303]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 장우진
+  - 한지훈
+organizations:
+  - DIDC
+  - 국전원
+  - MND
+  - 국본
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/temporal-manipulation
+  - source/book
+  - fracture/F-AA
+  - person/장우진
+  - person/한지훈
+  - org/DIDC
+  - org/국전원
+  - org/MND
+  - org/국본
+  - org/국유단
+  - has/record-nos
+  - cross-layer
+---
 # 국방부 정보화기획관실이 사업통제기관 역할을 의도적으로 회피하여 新KIATIS 전력화를 불가능하게 만들었다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md (§3.6.5.1.3, lines 736–745)

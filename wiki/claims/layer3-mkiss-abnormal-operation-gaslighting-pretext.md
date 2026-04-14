@@ -1,3 +1,49 @@
+---
+lang: ko
+title-ko: M-KISS 체계 운영의 부적절 형태와 갑질 신고의 사전 기획
+title-en: ""
+aliases:
+  - FR-L3-MKISS-GASLIGHTING-PRETEXT
+  - M-KISS 체계 운영의 부적절 형태와 갑질 신고의 사전 기획
+
+layer: 3
+secondary-layers: []
+claimType: document_fabrication
+claimSubtype: pretext_fabrication
+fracture-type: null
+source-type: book
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 7
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: [3879, 3882, 3889, 3942, 3987]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+  - 박서준
+  - 이지영
+organizations:
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L3
+  - verdict/corroborated
+  - strength/moderate
+  - type/document-fabrication
+  - source/book
+  - person/한지훈
+  - person/박서준
+  - person/이지영
+  - org/MND
+  - has/record-nos
+---
 # M-KISS 체계 운영의 부적절 형태와 갑질 신고의 사전 기획
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/09-3-3-33-제3-층위.md §3.3.3.4 (lines 68-73)

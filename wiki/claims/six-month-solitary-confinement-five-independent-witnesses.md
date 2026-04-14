@@ -1,3 +1,59 @@
+---
+lang: ko
+title-ko: 6개월 독방 격리 — 5명의 국전원 내부자가 독립적으로 증언한 "패륜적 인권침해"
+title-en: 6개월 독방 격리 — 5명의 국전원 내부자가 독립적으로 증언한 "패륜적 인권침해"
+aliases:
+  - FR-L5-6MONTH-SOLITARY-5WITNESSES
+  - 6개월 독방 격리 — 5명의 국전원 내부자가 독립적으로 증언한 "패륜적 인권침해"
+
+layer: 5
+secondary-layers: [7]
+claimType: human_rights_violation
+claimSubtype: multi_witness_human_rights_violation
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 10
+validity: 8
+sincerity: 10
+analysisDate: 2026-04-13
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+  - 최영규
+  - 김익혁
+  - 류서영
+  - 김민지
+  - 천하경
+  - 김민수
+organizations:
+  - 국전원
+  - MND
+has-verbatim: true
+
+tags:
+  - layer/L5
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/human-rights-violation
+  - source/recording
+  - person/한지훈
+  - person/최영규
+  - person/김익혁
+  - person/류서영
+  - person/김민지
+  - org/국전원
+  - org/MND
+  - has/verbatim-quote
+  - cross-layer
+---
 # 6개월 독방 격리 — 5명의 국전원 내부자가 독립적으로 증언한 "패륜적 인권침해"
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md — 녹취 091 (김민지 [007-2], line 4297+) • 녹취 108 (김익혁 [009-1], line 4851+) • 녹취 110 (천하경 [009-2], line 4946+) • 녹취 119 (류서영 [009-5], line 5094+) • 녹취 117 (최영규 [009-4], line 5238+)

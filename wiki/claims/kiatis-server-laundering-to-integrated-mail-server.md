@@ -1,3 +1,55 @@
+---
+lang: ko
+title-ko: 舊KIATIS는 '국방 통합 인터넷 메일서버'로 서버 세탁되어 이전·운용됨 — 일상감사 결과 통보에 의한 서버 세탁 확인
+title-en: 舊KIATIS는 '국방 통합 인터넷 메일서버'로 서버 세탁되어 이전·운용됨 — 일상감사 결과 통보에 의한 서버 세탁 확인
+aliases:
+  - FR-L1-SERVER-LAUNDERING-MAIL
+  - 舊KIATIS는 '국방 통합 인터넷 메일서버'로 서버 세탁되어 이전·운용됨 — 일상감사
+
+layer: 1
+secondary-layers: [4, 7]
+claimType: evidence_concealment
+claimSubtype: server_laundering_confirmation
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: [1141, 1144, 3470, 5818, 5819]
+evidence-ids: []
+event-date: 2018-08-14
+
+persons:
+  - 이태호
+  - 한지훈
+organizations:
+  - DIDC
+  - 국전원
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - layer/L4
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/evidence-concealment
+  - source/book
+  - fracture/F-MS
+  - person/이태호
+  - person/한지훈
+  - org/DIDC
+  - org/국전원
+  - org/MND
+  - has/record-nos
+  - cross-layer
+---
 # 舊KIATIS는 '국방 통합 인터넷 메일서버'로 서버 세탁되어 이전·운용됨 — 일상감사 결과 통보에 의한 서버 세탁 확인
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/07-3-1-31-제1층위-ActiveX.md (book §3.1.1.2)

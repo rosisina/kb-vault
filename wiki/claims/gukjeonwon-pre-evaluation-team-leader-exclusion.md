@@ -1,3 +1,57 @@
+---
+lang: ko
+title-ko: 국전원의 시험평가 계획보고 시 개발관리팀장 체계적 배제
+title-en: ""
+aliases:
+  - FR-L4-TEAM-LEADER-EXCLUSION
+  - 국전원의 시험평가 계획보고 시 개발관리팀장 체계적 배제
+
+layer: 4
+secondary-layers: []
+claimType: conspiracy_structure
+claimSubtype: organizational_manipulation
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: [1946, 2276, 6100, 6128, 6134, 6150]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 이준호
+  - 최영수
+  - 지원호
+  - 한지훈
+  - 오현수
+  - 송민석
+organizations:
+  - 국전원
+  - 군검찰단
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/conspiracy-structure
+  - source/book
+  - fracture/F-MS
+  - person/이준호
+  - person/최영수
+  - person/지원호
+  - person/한지훈
+  - person/오현수
+  - org/국전원
+  - org/군검찰단
+  - has/record-nos
+---
 # 국전원의 시험평가 계획보고 시 개발관리팀장 체계적 배제
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.2.1 (lines 53-116)

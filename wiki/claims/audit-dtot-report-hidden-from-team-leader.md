@@ -1,3 +1,56 @@
+---
+lang: ko
+title-ko: 감리업체 DT/OT 테스트 결과보고서의 팀장 배제 — 대부분 '부적합' 결과 은폐
+title-en: 감리업체 DT/OT 테스트 결과보고서의 팀장 배제 — 대부분 '부적합' 결과 은폐
+aliases:
+  - FR-L4-DTOT-REPORT-HIDDEN
+  - 감리업체 DT/OT 테스트 결과보고서의 팀장 배제 — 대부분 '부적합' 결과 은폐
+
+layer: 4
+secondary-layers: []
+claimType: evidence_concealment
+claimSubtype: report_hidden_single_approval
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: [2762, 2767, 2773, 5835]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 이준호
+  - 이지영
+  - 박서준
+  - 한지훈
+  - 김민수
+organizations:
+  - 군검찰단
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/evidence-concealment
+  - source/book
+  - fracture/F-MS
+  - person/이준호
+  - person/이지영
+  - person/박서준
+  - person/한지훈
+  - person/김민수
+  - org/군검찰단
+  - org/국유단
+  - has/record-nos
+---
 # 감리업체 DT/OT 테스트 결과보고서의 팀장 배제 — 대부분 '부적합' 결과 은폐
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.2.3 (lines 163-190)

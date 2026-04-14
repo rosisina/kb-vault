@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: 김민수 '원에서 안 도와준다 네가 책임져라' — 조직적 지원 차단·개인 책임 전가
+title-en: 김민수 '원에서 안 도와준다 네가 책임져라' — 조직적 지원 차단·개인 책임 전가
+aliases:
+  - FR-L5-KIM-MINSU-SUPPORT-CUTOFF
+  - 김민수 '원에서 안 도와준다 네가 책임져라' — 조직적 지원 차단·개인 책임 전가
+
+layer: 5
+secondary-layers: [4]
+claimType: institutional_obstruction
+claimSubtype: institutional_abandonment
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 8
+validity: 8
+sincerity: 10
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 김민수
+  - 한지훈
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/institutional-obstruction
+  - source/book
+  - fracture/F-MS
+  - person/김민수
+  - person/한지훈
+  - cross-layer
+---
 # 김민수 '원에서 안 도와준다 네가 책임져라' — 조직적 지원 차단·개인 책임 전가
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.7.4 정리11 발언3 (lines 723-777)

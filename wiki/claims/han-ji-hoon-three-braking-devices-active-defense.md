@@ -1,3 +1,55 @@
+---
+lang: ko
+title-ko: 한지훈은 사업 착수 시 3가지 능동적 방어 메커니즘을 설치했다 (Layer 6 검찰 기소에 대한 결정적 반대서사)
+title-en: ""
+aliases:
+  - FR-L2-3BRAKES-005
+  - 한지훈은 사업 착수 시 3가지 능동적 방어 메커니즘을 설치했다 (Layer 6 검찰
+
+layer: 2
+secondary-layers: [7]
+claimType: methodology
+claimSubtype: exculpatory_active_defense
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 10
+validity: 9
+sincerity: 10
+
+record-nos: [11354]
+evidence-ids: []
+event-date: 2019-09-01
+
+persons:
+  - 한지훈
+  - 장우진
+organizations:
+  - 국전원
+  - 군검찰단
+  - MND
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L2
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/methodology
+  - source/book
+  - fracture/F-CE
+  - person/한지훈
+  - person/장우진
+  - org/국전원
+  - org/군검찰단
+  - org/MND
+  - org/국유단
+  - has/record-nos
+  - cross-layer
+---
 # 한지훈은 사업 착수 시 3가지 능동적 방어 메커니즘을 설치했다 (Layer 6 검찰 기소에 대한 결정적 반대서사)
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/08-3-2-32-제2-층위.md (§3.2.2 footnote 113)

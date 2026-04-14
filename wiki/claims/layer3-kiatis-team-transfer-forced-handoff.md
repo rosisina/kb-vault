@@ -1,3 +1,51 @@
+---
+lang: ko
+title-ko: KIATIS 사업은 행정정보운영팀에서 행정정보계획팀으로 의도적·강제 이관되었다
+title-en: ""
+aliases:
+  - FR-L3-KIATIS-TEAM-HANDOFF-001
+  - KIATIS 사업은 행정정보운영팀에서 행정정보계획팀으로 의도적·강제 이관되었다
+
+layer: 3
+secondary-layers: [7]
+claimType: institutional_obstruction
+claimSubtype: institutional_routing_manipulation
+fracture-type: null
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 9
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+  - 이태호
+  - 오현수
+organizations:
+  - 국전원
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L3
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/institutional-obstruction
+  - source/book
+  - person/한지훈
+  - person/이태호
+  - person/오현수
+  - org/국전원
+  - org/MND
+  - cross-layer
+---
 # KIATIS 사업은 행정정보운영팀에서 행정정보계획팀으로 의도적·강제 이관되었다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/09-3-3-33-제3-층위.md (§3.3.1.2)

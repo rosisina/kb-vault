@@ -1,3 +1,43 @@
+---
+lang: ko
+title-ko: 기소유예 6혐의(10.11) → 불명예제대(10.31) — 20일 간격의 설계
+title-en: 기소유예 6혐의(10.11) → 불명예제대(10.31) — 20일 간격의 설계
+aliases:
+  - FR-L7-KISO-YUYE-DISCHARGE-20DAYS
+  - 기소유예 6혐의(10.11) → 불명예제대(10.31) — 20일 간격의 설계
+
+layer: 7
+secondary-layers: [6]
+claimType: methodology
+claimSubtype: factual_core
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 8
+validity: 7
+sincerity: 10
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: 2022-10-11
+
+persons: []
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L7
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/methodology
+  - source/book
+  - fracture/F-MS
+  - cross-layer
+---
 # 기소유예 6혐의(10.11) → 불명예제대(10.31) — 20일 간격의 설계
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/03-executive-summary--핵심-요약.md 핵심요약 §2 (lines 400)

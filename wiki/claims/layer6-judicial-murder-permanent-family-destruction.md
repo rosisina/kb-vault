@@ -1,3 +1,49 @@
+---
+lang: ko
+title-ko: "제6층위 정리02: 군검찰단의 사법살인과 가족공동체의 회복불가능한 파괴"
+title-en: ""
+aliases:
+  - FR-L6-JUDICIAL-MURDER-FAMILY
+  - "제6층위 정리02: 군검찰단의 사법살인과 가족공동체의 회복불가능한 파괴"
+
+layer: 6
+secondary-layers: [5, 7]
+claimType: human_rights_violation
+claimSubtype: sincerity_harm
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 7
+validity: 7
+sincerity: 10
+analysisDate: 2026-04-12
+
+record-nos: [3900, 4087, 11123]
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - 군검찰단
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L5
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/human-rights-violation
+  - source/book
+  - fracture/F-CE
+  - org/군검찰단
+  - org/MND
+  - has/record-nos
+  - cross-layer
+---
 # 제6층위 정리02: 군검찰단의 사법살인과 가족공동체의 회복불가능한 파괴
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.1 (lines 7-12)

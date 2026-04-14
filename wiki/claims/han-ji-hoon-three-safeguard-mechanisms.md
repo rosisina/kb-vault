@@ -1,3 +1,49 @@
+---
+lang: ko
+title-ko: 한지훈의 3가지 사전 제동 장치 — 사업관리팀장의 능동적 위험관리
+title-en: 한지훈의 3가지 사전 제동 장치 — 사업관리팀장의 능동적 위험관리
+aliases:
+  - FR-L3-THREE-SAFEGUARDS
+  - 한지훈의 3가지 사전 제동 장치 — 사업관리팀장의 능동적 위험관리
+
+layer: 3
+secondary-layers: []
+claimType: methodology
+claimSubtype: professional_competence
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 10
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+  - 장우진
+organizations:
+  - 국전원
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L3
+  - verdict/corroborated
+  - strength/strong
+  - type/methodology
+  - source/book
+  - fracture/F-CE
+  - person/한지훈
+  - person/장우진
+  - org/국전원
+  - org/국유단
+---
 # 한지훈의 3가지 사전 제동 장치 — 사업관리팀장의 능동적 위험관리
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/09-3-3-33-제3-층위.md §3.3.4 (lines 75-77)

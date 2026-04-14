@@ -1,3 +1,57 @@
+---
+lang: ko
+title-ko: 7개 조직의 역할 분담을 통한 책임 분산 — 악의 평범성의 현대적 구현
+title-en: 7개 조직의 역할 분담을 통한 책임 분산 — 악의 평범성의 현대적 구현
+aliases:
+  - FR-META-DIFFUSION-RESPONSIBILITY
+  - 7개 조직의 역할 분담을 통한 책임 분산 — 악의 평범성의 현대적 구현
+
+layer: 4
+secondary-layers: [1, 2, 3, 5, 6, 7]
+claimType: methodology
+claimSubtype: analytical_framework
+fracture-type: null
+source-type: book
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 7
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - DIDC
+  - 국전원
+  - 군검찰단
+  - MND
+  - 조사본부
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L1
+  - layer/L2
+  - layer/L3
+  - layer/L5
+  - layer/L6
+  - layer/L7
+  - verdict/corroborated
+  - strength/moderate
+  - type/methodology
+  - source/book
+  - org/DIDC
+  - org/국전원
+  - org/군검찰단
+  - org/MND
+  - org/조사본부
+  - cross-layer
+---
 # 7개 조직의 역할 분담을 통한 책임 분산 — 악의 평범성의 현대적 구현
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/05-2-2-이론적-배경.md §2.2.1 (lines 32-35)

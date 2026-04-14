@@ -1,3 +1,51 @@
+---
+lang: ko
+title-ko: "이태호: \"기억이 난다 치더라도 증언을 안 할 거니까 안 난다고 얘기하는거지\" — 선택적 기억상실 전략의 메타 인식"
+title-en: "이태호: \"기억이 난다 치더라도 증언을 안 할 거니까 안 난다고 얘기하는거지\" — 선택적 기억상실 전략의 메타 인식"
+aliases:
+  - FR-L6-SELECTIVE-AMNESIA-META
+  - "이태호: \"기억이 난다 치더라도 증언을 안 할 거니까 안 난다고 얘기하는거지\" — 선택적"
+
+layer: 6
+secondary-layers: [4]
+claimType: witness_manipulation
+claimSubtype: witness_suppression_strategy
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-13
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 이태호
+  - 오현수
+  - 이지영
+  - 황만수
+organizations: []
+has-verbatim: true
+
+tags:
+  - layer/L6
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/witness-manipulation
+  - source/recording
+  - person/이태호
+  - person/오현수
+  - person/이지영
+  - person/황만수
+  - has/verbatim-quote
+  - cross-layer
+---
 # 이태호: "기억이 난다 치더라도 증언을 안 할 거니까 안 난다고 얘기하는거지" — 선택적 기억상실 전략의 메타 인식
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[005]` 녹취 060 (2022.7.30, 00:24:50, line 4069+)

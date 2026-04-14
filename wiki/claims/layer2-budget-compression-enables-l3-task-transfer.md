@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: 新KIATIS 6.25억 예산 압축이 Layer 3 강제 업무 이관을 구조적으로 유발
+title-en: ""
+aliases:
+  - FR-L2-BUDGET-COMPRESSION-L3-BRIDGE
+  - 新KIATIS 6.25억 예산 압축이 Layer 3 강제 업무 이관을 구조적으로 유발
+
+layer: 2
+secondary-layers: [3]
+claimType: temporal_manipulation
+claimSubtype: budget_compression_causal_bridge
+fracture-type: null
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: [1056, 1074, 1535, 4866]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+organizations:
+  - 조달청
+has-verbatim: false
+
+tags:
+  - layer/L2
+  - layer/L3
+  - verdict/corroborated
+  - strength/strong
+  - type/temporal-manipulation
+  - source/book
+  - person/한지훈
+  - org/조달청
+  - has/record-nos
+  - cross-layer
+---
 # 新KIATIS 6.25억 예산 압축이 Layer 3 강제 업무 이관을 구조적으로 유발
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/08-3-2-32-제2-층위.md §3.2 (line 73)

@@ -1,3 +1,48 @@
+---
+lang: ko
+title-ko: 기소결정 검사가 영장 발부 후 부임 — 결정권자가 수사 참여 안 한 구조적 예정
+title-en: 기소결정 검사가 영장 발부 후 부임 — 결정권자가 수사 참여 안 한 구조적 예정
+aliases:
+  - FR-XSYN-POST-WARRANT-ARRIVAL
+  - 기소결정 검사가 영장 발부 후 부임 — 결정권자가 수사 참여 안 한 구조적 예정
+
+layer: 6
+secondary-layers: [7]
+claimType: cross_layer_analysis
+claimSubtype: cross_source_synthesis
+fracture-type: F-MS
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: [4854, 11202]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 임형규
+organizations:
+  - 군검찰단
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/cross-layer-analysis
+  - source/recording
+  - fracture/F-MS
+  - person/임형규
+  - org/군검찰단
+  - has/record-nos
+  - cross-layer
+---
 # 기소결정 검사가 영장 발부 후 부임 — 결정권자가 수사 참여 안 한 구조적 예정
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md 녹취011-나 (lines 6078-6088)

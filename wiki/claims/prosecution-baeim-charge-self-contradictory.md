@@ -1,3 +1,46 @@
+---
+lang: ko
+title-ko: 업무상 배임 혐의의 자기모순 — 99.73점 인정하면서 손해 주장
+title-en: 업무상 배임 혐의의 자기모순 — 99.73점 인정하면서 손해 주장
+aliases:
+  - FR-L6-BAEIM-SELF-CONTRADICTION
+  - 업무상 배임 혐의의 자기모순 — 99.73점 인정하면서 손해 주장
+
+layer: 6
+secondary-layers: []
+claimType: prosecution_misconduct
+claimSubtype: prosecution_logical_contradiction
+fracture-type: F-SC
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: [394, 704, 714, 831, 1150]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 장호재
+organizations:
+  - 군검찰단
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/prosecution-misconduct
+  - source/book
+  - fracture/F-SC
+  - person/장호재
+  - org/군검찰단
+  - has/record-nos
+---
 # 업무상 배임 혐의의 자기모순 — 99.73점 인정하면서 손해 주장
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.4.8 (lines 612-642)

@@ -1,3 +1,45 @@
+---
+lang: ko
+title-ko: "제2946호 (2024-07-17): 정보화기획관실→지능정보화정책관실 — 2세대 entity-naming anchor 이동"
+title-en: "제2946호 (2024-07-17): 정보화기획관실→지능정보화정책관실 — 2세대 entity-naming anchor 이동"
+aliases:
+  - FR-L1-2946-RENAME
+  - "제2946호 (2024-07-17): 정보화기획관실→지능정보화정책관실 — 2세대"
+
+layer: 1
+secondary-layers: [3, 4]
+claimType: regulatory_manipulation
+claimSubtype: entity_naming_anchor_shift
+fracture-type: null
+source-type: regulation
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 8
+sincerity: 6
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - layer/L3
+  - layer/L4
+  - verdict/corroborated
+  - strength/moderate
+  - type/regulatory-manipulation
+  - source/regulation
+  - org/MND
+  - cross-layer
+---
 # 제2946호 (2024-07-17): 정보화기획관실→지능정보화정책관실 — 2세대 entity-naming anchor 이동
 
 **Source:** raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2946호)(20240717).converted.md 제10조②, 제11조①②⑤⑥, 제64조④ (lines 597-832)

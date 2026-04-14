@@ -1,3 +1,49 @@
+---
+lang: ko
+title-ko: 15년간 방치된 구조적 취약점의 책임을 개인에게 전가 — 피해자 비난 전술
+title-en: 15년간 방치된 구조적 취약점의 책임을 개인에게 전가 — 피해자 비난 전술
+aliases:
+  - FR-L6-VICTIM-BLAMING
+  - 15년간 방치된 구조적 취약점의 책임을 개인에게 전가 — 피해자 비난 전술
+
+layer: 6
+secondary-layers: [1, 4]
+claimType: methodology
+claimSubtype: analytical_framework
+fracture-type: F-SE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: [3236, 4855]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+organizations:
+  - 군검찰단
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L1
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/methodology
+  - source/book
+  - fracture/F-SE
+  - person/한지훈
+  - org/군검찰단
+  - has/record-nos
+  - cross-layer
+---
 # 15년간 방치된 구조적 취약점의 책임을 개인에게 전가 — 피해자 비난 전술
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/05-2-2-이론적-배경.md §2.1.1 (lines 13)

@@ -1,3 +1,52 @@
+---
+lang: ko
+title-ko: 국방부가 시험평가의 정의를 조작하여 운영시험평가를 희석하고 개발시험평가에 방점을 찍었다
+title-en: ""
+aliases:
+  - FR-L4-EVAL-DEF-001
+  - 국방부가 시험평가의 정의를 조작하여 운영시험평가를 희석하고 개발시험평가에 방점을 찍었다
+
+layer: 4
+secondary-layers: []
+claimType: terminology_manipulation
+claimSubtype: definition_manipulation
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: [4759, 9003]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+organizations:
+  - 국전원
+  - 군검찰단
+  - MND
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/terminology-manipulation
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - org/국전원
+  - org/군검찰단
+  - org/MND
+  - org/국유단
+  - has/record-nos
+---
 # 국방부가 시험평가의 정의를 조작하여 운영시험평가를 희석하고 개발시험평가에 방점을 찍었다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md (§3.4.7.3.2)

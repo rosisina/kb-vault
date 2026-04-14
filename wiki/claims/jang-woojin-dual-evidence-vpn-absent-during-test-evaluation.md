@@ -1,3 +1,56 @@
+---
+lang: ko
+title-ko: 장우진의 서면 진술서 + 녹취 이중 증거 — 시험평가 시 VPN 미사용 + DIDC 인프라 제약으로 국전원 대여 서버 테스트
+title-en: 장우진의 서면 진술서 + 녹취 이중 증거 — 시험평가 시 VPN 미사용 + DIDC 인프라 제약으로 국전원 대여 서버 테스트
+aliases:
+  - FR-L4-JANGWOOJIN-DUAL-VPN-ABSENT
+  - 장우진의 서면 진술서 + 녹취 이중 증거 — 시험평가 시 VPN 미사용 + DIDC
+
+layer: 4
+secondary-layers: [1, 6]
+claimType: testimony_evidence
+claimSubtype: dual_source_testimony
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 10
+validity: 9
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 장우진
+  - 한지훈
+  - 이준호
+organizations:
+  - DIDC
+  - 국전원
+  - 국유단
+has-verbatim: true
+
+tags:
+  - layer/L4
+  - layer/L1
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/testimony-evidence
+  - source/recording
+  - person/장우진
+  - person/한지훈
+  - person/이준호
+  - org/DIDC
+  - org/국전원
+  - org/국유단
+  - has/verbatim-quote
+  - cross-layer
+---
 # 장우진의 서면 진술서 + 녹취 이중 증거 — 시험평가 시 VPN 미사용 + DIDC 인프라 제약으로 국전원 대여 서버 테스트
 
 **Source:** raw/10. 인원별 관련 문서/(20221005) statements from segent kim(김성중 상사).md (서면 진술서, 2022.10.5) • raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[020]` 녹취 210 (2022.7.19, 01:01:12, lines 11941~12158)

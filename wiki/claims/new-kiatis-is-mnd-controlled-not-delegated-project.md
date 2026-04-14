@@ -1,3 +1,54 @@
+---
+lang: ko
+title-ko: 新KIATIS는 국방부 통제 사업 — 위임 사업 전환은 불법
+title-en: 新KIATIS는 국방부 통제 사업 — 위임 사업 전환은 불법
+aliases:
+  - FR-L2-MND-CONTROLLED-PROJECT
+  - 新KIATIS는 국방부 통제 사업 — 위임 사업 전환은 불법
+
+layer: 2
+secondary-layers: []
+claimType: procedural_violation
+claimSubtype: regulatory_violation
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: [1042, 1119, 1140, 2538, 7495, 7496, 7995, 8012]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 강민호
+  - 박성호
+  - 한지훈
+organizations:
+  - 국전원
+  - MND
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L2
+  - verdict/corroborated
+  - strength/strong
+  - type/procedural-violation
+  - source/book
+  - fracture/F-CE
+  - person/강민호
+  - person/박성호
+  - person/한지훈
+  - org/국전원
+  - org/MND
+  - org/국유단
+  - has/record-nos
+---
 # 新KIATIS는 국방부 통제 사업 — 위임 사업 전환은 불법
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/08-3-2-32-제2-층위.md §3.2.1.1 (lines 10-21)

@@ -1,3 +1,50 @@
+---
+lang: ko
+title-ko: DIDC의 네트워크 구성도 비공개 — 시험평가 환경 통제 불가능 입증
+title-en: DIDC의 네트워크 구성도 비공개 — 시험평가 환경 통제 불가능 입증
+aliases:
+  - FR-L4-DIDC-WITHHELD-DIAGRAM
+  - DIDC의 네트워크 구성도 비공개 — 시험평가 환경 통제 불가능 입증
+
+layer: 4
+secondary-layers: []
+claimType: evidence_concealment
+claimSubtype: network_diagram_withheld
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: [2301, 2311, 3333]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+organizations:
+  - DIDC
+  - 국전원
+  - 군검찰단
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/evidence-concealment
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - org/DIDC
+  - org/국전원
+  - org/군검찰단
+  - has/record-nos
+---
 # DIDC의 네트워크 구성도 비공개 — 시험평가 환경 통제 불가능 입증
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.7.4 (lines 723-777)

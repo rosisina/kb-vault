@@ -1,3 +1,49 @@
+---
+lang: ko
+title-ko: "2022-09-02 피의자 신문조서는 기소유예의 1차 증거 기반이며, 15년 DIDC VPN 우회 문제를 회피하고 방화벽 결재 절차에만 집중하도록 설계되었다"
+title-en: ""
+aliases:
+  - FR-L6-006
+  - "2022-09-02 피의자 신문조서는 기소유예의 1차 증거 기반이며, 15년 DIDC"
+
+layer: 6
+secondary-layers: []
+claimType: evidence_concealment
+claimSubtype: evidence_substrate_design
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: ["L6-006"]
+event-date: null
+
+persons:
+  - 한지훈
+organizations:
+  - DIDC
+  - 군검찰단
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/evidence-concealment
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - org/DIDC
+  - org/군검찰단
+  - org/MND
+---
 # 2022-09-02 피의자 신문조서는 기소유예의 1차 증거 기반이며, 15년 DIDC VPN 우회 문제를 회피하고 방화벽 결재 절차에만 집중하도록 설계되었다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md (§3.6.3.3, §3.6.4.4, §3.6.4.5) • raw/01. book-beyond-cybersecurity/vault-converted-english/16-3-6-36-Sixth-Layer.md

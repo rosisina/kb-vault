@@ -1,3 +1,57 @@
+---
+lang: ko
+title-ko: "'Defense Information Cartel' (국방정보화카르텔)는 한지훈의 (20220929) 반박 문서에서 5개 조직으로 명시 정의됨 — 운용적 정의"
+title-en: "'Defense Information Cartel' (국방정보화카르텔)는 한지훈의 (20220929) 반박 문서에서 5개 조직으로 명시 정의됨 — 운용적 정의"
+aliases:
+  - FR-L1-CARTEL-001
+  - "'Defense Information Cartel' (국방정보화카르텔)는 한지훈의"
+
+layer: 1
+secondary-layers: [3, 6]
+claimType: methodology
+claimSubtype: operational_definition
+fracture-type: null
+source-type: investigation
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 7
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: 2022-09-25
+
+persons:
+  - 한지훈
+  - 임형규
+  - 안세준
+organizations:
+  - DIDC
+  - 군검찰단
+  - MND
+  - 국본
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - layer/L3
+  - layer/L6
+  - verdict/corroborated
+  - strength/moderate
+  - type/methodology
+  - source/investigation
+  - person/한지훈
+  - person/임형규
+  - person/안세준
+  - org/DIDC
+  - org/군검찰단
+  - org/MND
+  - org/국본
+  - cross-layer
+---
 # 'Defense Information Cartel' (국방정보화카르텔)는 한지훈의 (20220929) 반박 문서에서 5개 조직으로 명시 정의됨 — 운용적 정의
 
 **Source:** raw/05. Investigation by the Military Prosecutor's Office/Bilingual(English, Korean)/(20220929) Explanation and Proof Search, Seizure, and Verification Warrants Search(English, Korean).converted.md (lines 90-103)

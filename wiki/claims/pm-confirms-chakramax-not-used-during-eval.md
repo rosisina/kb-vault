@@ -1,3 +1,51 @@
+---
+lang: ko
+title-ko: 유지보수 PM이 시험평가 시 샤크라맥스 미사용 확인 — 국전원·DIDC 간 합의 미달
+title-en: 유지보수 PM이 시험평가 시 샤크라맥스 미사용 확인 — 국전원·DIDC 간 합의 미달
+aliases:
+  - FR-L4-CHAKRA-NOT-USED-TESTEVAL
+  - 유지보수 PM이 시험평가 시 샤크라맥스 미사용 확인 — 국전원·DIDC 간 합의 미달
+
+layer: 4
+secondary-layers: [1, 6]
+claimType: testimony_evidence
+claimSubtype: testimony_admission
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 7
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: 2022-08-02
+
+persons:
+  - 한지훈
+  - 도지호
+organizations:
+  - DIDC
+  - 국전원
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L1
+  - layer/L6
+  - verdict/corroborated
+  - strength/moderate
+  - type/testimony-evidence
+  - source/recording
+  - person/한지훈
+  - person/도지호
+  - org/DIDC
+  - org/국전원
+  - cross-layer
+---
 # 유지보수 PM이 시험평가 시 샤크라맥스 미사용 확인 — 국전원·DIDC 간 합의 미달
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md 녹취133-2 (lines 5837-5925)

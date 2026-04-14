@@ -1,3 +1,54 @@
+---
+lang: ko
+title-ko: 감리 결과보고서 은폐와 이준호에게만 선별적 공람
+title-en: ""
+aliases:
+  - FR-L4-031
+  - 감리 결과보고서 은폐와 이준호에게만 선별적 공람
+
+layer: 4
+secondary-layers: [6]
+claimType: methodology
+claimSubtype: action
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: [2594, 2762, 4756]
+evidence-ids: ["L4-031"]
+event-date: null
+
+persons:
+  - 이준호
+  - 한지훈
+organizations:
+  - 국전원
+  - 군검찰단
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/methodology
+  - source/book
+  - fracture/F-MS
+  - person/이준호
+  - person/한지훈
+  - org/국전원
+  - org/군검찰단
+  - org/국유단
+  - has/record-nos
+  - cross-layer
+---
 # 감리 결과보고서 은폐와 이준호에게만 선별적 공람
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md (§3.4.6.5)

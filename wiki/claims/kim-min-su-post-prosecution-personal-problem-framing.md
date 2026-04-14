@@ -1,3 +1,49 @@
+---
+lang: ko
+title-ko: 김민수의 기소유예 후 '개인 문제' 프레이밍 — 조직 책임 거부와 사과 요구
+title-en: 김민수의 기소유예 후 '개인 문제' 프레이밍 — 조직 책임 거부와 사과 요구
+aliases:
+  - FR-L6-PERSONAL-PROBLEM-FRAMING
+  - 김민수의 기소유예 후 '개인 문제' 프레이밍 — 조직 책임 거부와 사과 요구
+
+layer: 6
+secondary-layers: [5]
+claimType: institutional_obstruction
+claimSubtype: institutional_abandonment
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 10
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: 2022-10-13
+
+persons:
+  - 김민수
+  - 한지훈
+organizations:
+  - 국전원
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/institutional-obstruction
+  - source/book
+  - fracture/F-MS
+  - person/김민수
+  - person/한지훈
+  - org/국전원
+  - cross-layer
+---
 # 김민수의 기소유예 후 '개인 문제' 프레이밍 — 조직 책임 거부와 사과 요구
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.4.3.2 (lines 373-380)

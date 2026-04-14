@@ -1,3 +1,60 @@
+---
+lang: ko
+title-ko: "조사본부-법무관리관실-국전원의 사전 공모: 이지영의 거짓 귀속과 김민수의 자백적 발언이 삼각 공모를 증명한다"
+title-en: ""
+aliases:
+  - FR-L5-054
+  - "조사본부-법무관리관실-국전원의 사전 공모: 이지영의 거짓 귀속과 김민수의 자백적 발언이"
+
+layer: 5
+secondary-layers: []
+claimType: conspiracy_structure
+claimSubtype: pre_collusion_triple_conspiracy
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: [11062]
+evidence-ids: ["L5-054"]
+event-date: null
+
+persons:
+  - 이지영
+  - 김민수
+  - 한지훈
+  - 박서준
+  - 이승우
+organizations:
+  - 국전원
+  - MND
+  - 조사본부
+  - DCIA
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/conspiracy-structure
+  - source/book
+  - fracture/F-CE
+  - person/이지영
+  - person/김민수
+  - person/한지훈
+  - person/박서준
+  - person/이승우
+  - org/국전원
+  - org/MND
+  - org/조사본부
+  - org/DCIA
+  - has/record-nos
+---
 # 조사본부-법무관리관실-국전원의 사전 공모: 이지영의 거짓 귀속과 김민수의 자백적 발언이 삼각 공모를 증명한다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md (§3.5.2.1.2)

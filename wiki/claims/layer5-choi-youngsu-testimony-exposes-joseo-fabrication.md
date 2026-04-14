@@ -1,3 +1,55 @@
+---
+lang: ko
+title-ko: 최영수의 군검찰 증언은 조서 조작의 세 가지 체계적 기법을 폭로한다
+title-en: ""
+aliases:
+  - FR-L5-009
+  - 최영수의 군검찰 증언은 조서 조작의 세 가지 체계적 기법을 폭로한다
+
+layer: 5
+secondary-layers: [6]
+claimType: document_fabrication
+claimSubtype: interrogation_record_fabrication
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: ["L5-009"]
+event-date: null
+
+persons:
+  - 최영수
+  - 이준호
+  - 한지훈
+organizations:
+  - DIDC
+  - MND
+  - 조사본부
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/document-fabrication
+  - source/book
+  - fracture/F-CE
+  - person/최영수
+  - person/이준호
+  - person/한지훈
+  - org/DIDC
+  - org/MND
+  - org/조사본부
+  - cross-layer
+---
 # 최영수의 군검찰 증언은 조서 조작의 세 가지 체계적 기법을 폭로한다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md (§3.5.2.1.5)

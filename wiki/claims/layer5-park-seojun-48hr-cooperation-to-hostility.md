@@ -1,3 +1,52 @@
+---
+lang: ko
+title-ko: 박서준의 48시간 변화 — 2월 8일 협력에서 2월 10일 적대로
+title-en: 박서준의 48시간 변화 — 2월 8일 협력에서 2월 10일 적대로
+aliases:
+  - FR-L5-PARK-48HR-SHIFT
+  - 박서준의 48시간 변화 — 2월 8일 협력에서 2월 10일 적대로
+
+layer: 5
+secondary-layers: []
+claimType: methodology
+claimSubtype: behavioral_evidence
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 8
+validity: 7
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: [3889, 4063, 4087]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 박서준
+  - 이지영
+  - 최영수
+  - 한지훈
+  - 김민수
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/methodology
+  - source/book
+  - fracture/F-MS
+  - person/박서준
+  - person/이지영
+  - person/최영수
+  - person/한지훈
+  - person/김민수
+  - has/record-nos
+---
 # 박서준의 48시간 변화 — 2월 8일 협력에서 2월 10일 적대로
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md §3.5.3.1.6 (lines 321-324)

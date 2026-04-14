@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: 본 사안은 아렌트의 '악의 평범성'이 아닌 '악의 지능화'를 보여준다
+title-en: ""
+aliases:
+  - FR-L4-INTELLECTUALIZATION-OF-EVIL
+  - 본 사안은 아렌트의 '악의 평범성'이 아닌 '악의 지능화'를 보여준다
+
+layer: 4
+secondary-layers: [1, 5, 6]
+claimType: methodology
+claimSubtype: theoretical_framework
+fracture-type: null
+source-type: book
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 7
+validity: 6
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: [6445, 6446]
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L1
+  - layer/L5
+  - layer/L6
+  - verdict/corroborated
+  - strength/moderate
+  - type/methodology
+  - source/book
+  - org/MND
+  - has/record-nos
+  - cross-layer
+---
 # 본 사안은 아렌트의 '악의 평범성'이 아닌 '악의 지능화'를 보여준다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/14-4-4-한나-아렌트.md §4.2.2 (lines 30-33)

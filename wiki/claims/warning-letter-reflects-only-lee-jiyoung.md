@@ -1,3 +1,50 @@
+---
+lang: ko
+title-ko: 법무관리관실 경고장에 박서준 사안 부재 — 이지영만 반영
+title-en: 법무관리관실 경고장에 박서준 사안 부재 — 이지영만 반영
+aliases:
+  - FR-L5-WARNING-LETTER-LEE-JIYOUNG-ONLY
+  - 법무관리관실 경고장에 박서준 사안 부재 — 이지영만 반영
+
+layer: 5
+secondary-layers: []
+claimType: document_fabrication
+claimSubtype: document_fraud_selective_content
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: [1586, 3945, 4878, 6916]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 박서준
+  - 이지영
+  - 한지훈
+organizations:
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/document-fabrication
+  - source/book
+  - fracture/F-CE
+  - person/박서준
+  - person/이지영
+  - person/한지훈
+  - org/MND
+  - has/record-nos
+---
 # 법무관리관실 경고장에 박서준 사안 부재 — 이지영만 반영
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md §3.5.1.3 (lines 49-60)

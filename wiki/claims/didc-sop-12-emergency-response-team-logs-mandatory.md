@@ -1,3 +1,45 @@
+---
+lang: ko
+title-ko: "DIDC 부대예규 제12호 제17조: 긴급대응반 상황근무일지·침해사고 기록일지 의무"
+title-en: ""
+aliases:
+  - FR-L1-DIDC-ERT-LOGS
+  - "DIDC 부대예규 제12호 제17조: 긴급대응반 상황근무일지·침해사고 기록일지 의무"
+
+layer: 1
+secondary-layers: [6]
+claimType: procedural_violation
+claimSubtype: procedural_artifact_mandatory
+fracture-type: F-AA
+source-type: sop
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - DIDC
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/procedural-violation
+  - source/sop
+  - fracture/F-AA
+  - org/DIDC
+  - cross-layer
+---
 # DIDC 부대예규 제12호 제17조: 긴급대응반 상황근무일지·침해사고 기록일지 의무
 
 **Source:** raw/06. DIDC SOP(국방 통합데이터 센터 예규)/01.(Korean) DIDC_사이버방호_예규.md 제17조③-6 (lines 341-355)

@@ -1,3 +1,55 @@
+---
+lang: ko
+title-ko: 시험평가 종료 후 평가 항목 변경 승인 — 물리법칙을 거스른 시간 역전 조작
+title-en: 시험평가 종료 후 평가 항목 변경 승인 — 물리법칙을 거스른 시간 역전 조작
+aliases:
+  - FR-L4-052
+  - 시험평가 종료 후 평가 항목 변경 승인 — 물리법칙을 거스른 시간 역전 조작
+
+layer: 4
+secondary-layers: [7]
+claimType: temporal_manipulation
+claimSubtype: post_completion_evaluation_item_change
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: ["L4-052"]
+event-date: null
+
+persons:
+  - 이지영
+  - 김수진
+  - 한지훈
+organizations:
+  - 국전원
+  - MND
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/temporal-manipulation
+  - source/book
+  - fracture/F-MS
+  - person/이지영
+  - person/김수진
+  - person/한지훈
+  - org/국전원
+  - org/MND
+  - org/국유단
+  - cross-layer
+---
 # 시험평가 종료 후 평가 항목 변경 승인 — 물리법칙을 거스른 시간 역전 조작
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md (§3.4.7.2)

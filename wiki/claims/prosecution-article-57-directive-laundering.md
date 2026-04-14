@@ -1,3 +1,43 @@
+---
+lang: ko
+title-ko: 제57조 ①항 2호의 훈령 세탁 — '사업주관기관 주관 하에' 삭제를 통한 책임 전가
+title-en: 제57조 ①항 2호의 훈령 세탁 — '사업주관기관 주관 하에' 삭제를 통한 책임 전가
+aliases:
+  - FR-L6-ARTICLE-57-DIRECTIVE-LAUNDERING
+  - 제57조 ①항 2호의 훈령 세탁 — '사업주관기관 주관 하에' 삭제를 통한 책임 전가
+
+layer: 6
+secondary-layers: [4]
+claimType: regulatory_manipulation
+claimSubtype: directive_laundering
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/regulatory-manipulation
+  - source/book
+  - fracture/F-MS
+  - cross-layer
+---
 # 제57조 ①항 2호의 훈령 세탁 — '사업주관기관 주관 하에' 삭제를 통한 책임 전가
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.4.6.7 (lines 484-487)

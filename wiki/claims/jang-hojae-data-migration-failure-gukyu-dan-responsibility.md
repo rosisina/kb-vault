@@ -1,3 +1,55 @@
+---
+lang: ko
+title-ko: "장호재 (개발PM): \"데이터 이관이 안 된 거는 전부 다 국유단에서 데이터를 안 줘서\" — 데이터 미이관 책임은 국유단"
+title-en: "장호재 (개발PM): \"데이터 이관이 안 된 거는 전부 다 국유단에서 데이터를 안 줘서\" — 데이터 미이관 책임은 국유단"
+aliases:
+  - FR-L4-DATA-MIGRATION-GUKYU-DAN
+  - "장호재 (개발PM): \"데이터 이관이 안 된 거는 전부 다 국유단에서 데이터를 안 줘서\""
+
+layer: 4
+secondary-layers: [6]
+claimType: testimony_evidence
+claimSubtype: developer_pm_responsibility_attribution
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 8
+analysisDate: 2026-04-13
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 장호재
+  - 한지훈
+  - 장우진
+organizations:
+  - DIDC
+  - MND
+  - 국유단
+has-verbatim: true
+
+tags:
+  - layer/L4
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/testimony-evidence
+  - source/recording
+  - person/장호재
+  - person/한지훈
+  - person/장우진
+  - org/DIDC
+  - org/MND
+  - org/국유단
+  - has/verbatim-quote
+  - cross-layer
+---
 # 장호재 (개발PM): "데이터 이관이 안 된 거는 전부 다 국유단에서 데이터를 안 줘서" — 데이터 미이관 책임은 국유단
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[040]` 녹취 237 (2022.9.17, 00:17:35, line 14990+)

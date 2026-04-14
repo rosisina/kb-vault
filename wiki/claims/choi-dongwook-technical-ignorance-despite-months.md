@@ -1,3 +1,45 @@
+---
+lang: ko
+title-ko: 최동욱 변호사의 수개월간 기술적 무지 — 산출물·DT/OT·훈령을 모르면서 2천만원 수임
+title-en: 최동욱 변호사의 수개월간 기술적 무지 — 산출물·DT/OT·훈령을 모르면서 2천만원 수임
+aliases:
+  - FR-L6-LAWYER-TECHNICAL-IGNORANCE
+  - 최동욱 변호사의 수개월간 기술적 무지 — 산출물·DT/OT·훈령을 모르면서 2천만원 수임
+
+layer: 6
+secondary-layers: []
+claimType: attorney_misconduct
+claimSubtype: attorney_incompetence
+fracture-type: F-CE
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 10
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 최동욱
+  - 한지훈
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/attorney-misconduct
+  - source/recording
+  - fracture/F-CE
+  - person/최동욱
+  - person/한지훈
+---
 # 최동욱 변호사의 수개월간 기술적 무지 — 산출물·DT/OT·훈령을 모르면서 2천만원 수임
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md 녹취198+202+205 (lines 10655-10983)

@@ -1,3 +1,53 @@
+---
+lang: ko
+title-ko: "시험평가위원회 99.7% '군사용 적합' 판정이 내부 파괴 공작과 동시 진행되었다"
+title-en: ""
+aliases:
+  - FR-L4-B3-002
+  - "시험평가위원회 99.7% '군사용 적합' 판정이 내부 파괴 공작과 동시 진행되었다"
+
+layer: 4
+secondary-layers: [1, 3]
+claimType: cross_layer_analysis
+claimSubtype: 997_military_adequate_contradicted_by_sabotage
+fracture-type: F-SC
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 10
+analysisDate: 2026-04-11
+
+record-nos: [1073, 1767, 1850, 1851, 3041]
+evidence-ids: []
+event-date: 2019-02-13
+
+persons:
+  - 한지훈
+organizations:
+  - DIDC
+  - 군검찰단
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L1
+  - layer/L3
+  - verdict/corroborated
+  - strength/strong
+  - type/cross-layer-analysis
+  - source/book
+  - fracture/F-SC
+  - person/한지훈
+  - org/DIDC
+  - org/군검찰단
+  - org/국유단
+  - has/record-nos
+  - cross-layer
+---
 # 시험평가위원회 99.7% '군사용 적합' 판정이 내부 파괴 공작과 동시 진행되었다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md (§3.4.6.1, lines 491–508)

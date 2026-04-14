@@ -1,3 +1,46 @@
+---
+lang: ko
+title-ko: 박서준이 시험평가 기간 중 WiSC 학술대회 참석 — 억압 서사와 모순
+title-en: 박서준이 시험평가 기간 중 WiSC 학술대회 참석 — 억압 서사와 모순
+aliases:
+  - FR-L5-KKT-WISC
+  - 박서준이 시험평가 기간 중 WiSC 학술대회 참석 — 억압 서사와 모순
+
+layer: 5
+secondary-layers: [4]
+claimType: methodology
+claimSubtype: behavioral_evidence
+fracture-type: null
+source-type: kakao
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 7
+validity: 6
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: 2019-09-05
+
+persons:
+  - 박서준
+  - 한지훈
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - layer/L4
+  - verdict/corroborated
+  - strength/moderate
+  - type/methodology
+  - source/kakao
+  - person/박서준
+  - person/한지훈
+  - cross-layer
+---
 # 박서준이 시험평가 기간 중 WiSC 학술대회 참석 — 억압 서사와 모순
 
 **Source:** raw/03. Kakao talk data /Korean/카타오톡 자료(4년 동안 자료 2019.3.7~2023.3.25).txt line 2735 (lines 2735)

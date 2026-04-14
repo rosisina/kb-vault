@@ -1,3 +1,59 @@
+---
+lang: ko
+title-ko: "2단계(2020~2021): 80건 추가 요구사항을 빌미로 문제를 확산시키고 책임을 사업관리팀장에게 전가하였다"
+title-en: ""
+aliases:
+  - FR-L6-PHASE2-BLAME-SHIFT-001
+  - "2단계(2020~2021): 80건 추가 요구사항을 빌미로 문제를 확산시키고 책임을"
+
+layer: 6
+secondary-layers: [1]
+claimType: human_rights_violation
+claimSubtype: deliberate_blame_shift
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 8
+validity: 7
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+  - 김민수
+  - 이지영
+organizations:
+  - DIDC
+  - 국전원
+  - 군검찰단
+  - MND
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L1
+  - verdict/corroborated
+  - strength/strong
+  - type/human-rights-violation
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - person/김민수
+  - person/이지영
+  - org/DIDC
+  - org/국전원
+  - org/군검찰단
+  - org/MND
+  - org/국유단
+  - cross-layer
+---
 # 2단계(2020~2021): 80건 추가 요구사항을 빌미로 문제를 확산시키고 책임을 사업관리팀장에게 전가하였다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md (§3.6.5.3.2)

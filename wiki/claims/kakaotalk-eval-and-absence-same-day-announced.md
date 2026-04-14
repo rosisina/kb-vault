@@ -1,3 +1,43 @@
+---
+lang: ko
+title-ko: "카카오톡: 시험평가 시작과 송민석 교육 부재가 동일 채널에서 동시 공유 — 조직 전체 인지"
+title-en: "카카오톡: 시험평가 시작과 송민석 교육 부재가 동일 채널에서 동시 공유 — 조직 전체 인지"
+aliases:
+  - FR-L4-KKT-EVAL-ABSENCE-SAME-DAY
+  - "카카오톡: 시험평가 시작과 송민석 교육 부재가 동일 채널에서 동시 공유 — 조직 전체 인지"
+
+layer: 4
+secondary-layers: []
+claimType: conspiracy_structure
+claimSubtype: organizational_awareness
+fracture-type: null
+source-type: kakao
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 7
+sincerity: 7
+analysisDate: 2026-04-12
+
+record-nos: [1946]
+evidence-ids: []
+event-date: 2019-09-02
+
+persons:
+  - 송민석
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - verdict/corroborated
+  - strength/moderate
+  - type/conspiracy-structure
+  - source/kakao
+  - person/송민석
+  - has/record-nos
+---
 # 카카오톡: 시험평가 시작과 송민석 교육 부재가 동일 채널에서 동시 공유 — 조직 전체 인지
 
 **Source:** raw/03. Kakao talk data /Korean/카타오톡 자료(4년 동안 자료 2019.3.7~2023.3.25).txt lines 2660-2661 (lines 2660-2661)

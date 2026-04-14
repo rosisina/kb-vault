@@ -1,3 +1,48 @@
+---
+lang: ko
+title-ko: 제2436호 (2020-06-04) is an eight-anchor cluster
+title-en: single-revision rebuild of the test-evaluation regime (expanded from six on 2026-04-11 after P6 blind re-measurement)
+aliases:
+  - FR-L4-CLUSTER-2436
+  - 제2436호 (2020-06-04) is an eight-anchor cluster
+  - single-revision rebuild of the test-evaluation
+
+layer: 1
+secondary-layers: [4]
+claimType: regulatory_manipulation
+claimSubtype: regulatory_revision_cluster
+fracture-type: F-MS
+source-type: regulation
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: 2020-06-04
+
+persons: []
+organizations:
+  - DIDC
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/regulatory-manipulation
+  - source/regulation
+  - fracture/F-MS
+  - org/DIDC
+  - org/MND
+  - cross-layer
+---
 # 제2436호 (2020-06-04) is an eight-anchor cluster — single-revision rebuild of the test-evaluation regime (expanded from six on 2026-04-11 after P6 blind re-measurement)
 
 **Source:** raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2129호)(20180205).converted.md, raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2398호)(20200213).converted.md, raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2436호)(20200604).converted.md

@@ -1,3 +1,48 @@
+---
+lang: ko
+title-ko: 국방부 홈페이지 개선 사업(2016.9.26~2017.4.24)은 과제카드에 '유지보수'로 둔갑하여 진행됨 — 보안 취약점 10대 항목 점검 사업의 정체 은폐
+title-en: 국방부 홈페이지 개선 사업(2016.9.26~2017.4.24)은 과제카드에 '유지보수'로 둔갑하여 진행됨 — 보안 취약점 10대 항목 점검 사업의 정체 은폐
+aliases:
+  - FR-L1-HOMEPAGE-DISGUISED-MAINTENANCE
+  - 국방부 홈페이지 개선 사업(2016.9.26~2017.4.24)은 과제카드에
+
+layer: 1
+secondary-layers: []
+claimType: evidence_concealment
+claimSubtype: project_identity_concealment
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 7
+analysisDate: 2026-04-11
+
+record-nos: [16]
+evidence-ids: []
+event-date: 2016-09-26
+
+persons:
+  - 한지훈
+organizations:
+  - DIDC
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - verdict/corroborated
+  - strength/strong
+  - type/evidence-concealment
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - org/DIDC
+  - org/MND
+  - has/record-nos
+---
 # 국방부 홈페이지 개선 사업(2016.9.26~2017.4.24)은 과제카드에 '유지보수'로 둔갑하여 진행됨 — 보안 취약점 10대 항목 점검 사업의 정체 은폐
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/07-3-1-31-제1층위-ActiveX.md (book §3.1.1.7)

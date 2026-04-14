@@ -1,3 +1,64 @@
+---
+lang: ko
+title-ko: 허위 갑질 신고의 3단계 조직적 공모 구조 — 주모자·실행자·도구의 역할 분담
+title-en: 허위 갑질 신고의 3단계 조직적 공모 구조 — 주모자·실행자·도구의 역할 분담
+aliases:
+  - FR-L5-B2-005
+  - 허위 갑질 신고의 3단계 조직적 공모 구조 — 주모자·실행자·도구의 역할 분담
+
+layer: 5
+secondary-layers: []
+claimType: conspiracy_structure
+claimSubtype: false_gapjil_organizational_conspiracy_structure
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 10
+analysisDate: 2026-04-11
+
+record-nos: [11407]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 박서준
+  - 이지영
+  - 김수진
+  - 이승우
+  - 양준승
+  - 김민수
+  - 양미숙
+  - 김민지
+  - 한지훈
+organizations:
+  - DIDC
+  - 국전원
+  - MND
+  - 조사본부
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/conspiracy-structure
+  - source/book
+  - fracture/F-MS
+  - person/박서준
+  - person/이지영
+  - person/김수진
+  - person/이승우
+  - person/양준승
+  - org/DIDC
+  - org/국전원
+  - org/MND
+  - org/조사본부
+  - has/record-nos
+---
 # 허위 갑질 신고의 3단계 조직적 공모 구조 — 주모자·실행자·도구의 역할 분담
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md (§3.5.1.5, lines 66–69)

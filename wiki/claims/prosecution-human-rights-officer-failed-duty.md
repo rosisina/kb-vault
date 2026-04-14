@@ -1,3 +1,49 @@
+---
+lang: ko
+title-ko: 군검찰단 인권담당감독관의 직무 해태 — 진정서 접수 후 실질적 보호 부재
+title-en: 군검찰단 인권담당감독관의 직무 해태 — 진정서 접수 후 실질적 보호 부재
+aliases:
+  - FR-L7-HUMAN-RIGHTS-OFFICER-FAILED
+  - 군검찰단 인권담당감독관의 직무 해태 — 진정서 접수 후 실질적 보호 부재
+
+layer: 7
+secondary-layers: []
+claimType: institutional_obstruction
+claimSubtype: institutional_rejection
+fracture-type: null
+source-type: book
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: [5603, 11202]
+evidence-ids: []
+event-date: 2022-10-07
+
+persons:
+  - 한지훈
+  - 안세준
+organizations:
+  - 군검찰단
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L7
+  - verdict/corroborated
+  - strength/moderate
+  - type/institutional-obstruction
+  - source/book
+  - person/한지훈
+  - person/안세준
+  - org/군검찰단
+  - org/MND
+  - has/record-nos
+---
 # 군검찰단 인권담당감독관의 직무 해태 — 진정서 접수 후 실질적 보호 부재
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/13-3-7-37-제7층위-진정서.md §3.7.1.2 (lines 20-39)

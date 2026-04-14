@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: "국가인권위원회는 참고인 조사 없이, 수천 쪽의 증거를 묵살하고 한지훈의 진정을 기각했음 — 절차적 거부를 실질적 심사로 위장한 기관 실패"
+title-en: "국가인권위원회는 참고인 조사 없이, 수천 쪽의 증거를 묵살하고 한지훈의 진정을 기각했음 — 절차적 거부를 실질적 심사로 위장한 기관 실패"
+aliases:
+  - FR-L7-INKKWONWI-REJECTION
+  - "국가인권위원회는 참고인 조사 없이, 수천 쪽의 증거를 묵살하고 한지훈의 진정을 기각했음"
+
+layer: 7
+secondary-layers: []
+claimType: institutional_obstruction
+claimSubtype: institutional_procedural_failure_human_rights_body
+fracture-type: F-AA
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 10
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+organizations:
+  - 군검찰단
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/institutional-obstruction
+  - source/book
+  - fracture/F-AA
+  - person/한지훈
+  - org/군검찰단
+  - org/MND
+---
 # 국가인권위원회는 참고인 조사 없이, 수천 쪽의 증거를 묵살하고 한지훈의 진정을 기각했음 — 절차적 거부를 실질적 심사로 위장한 기관 실패
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/13-3-7-37-제7층위-진정서.md (book §3.7.2.2)

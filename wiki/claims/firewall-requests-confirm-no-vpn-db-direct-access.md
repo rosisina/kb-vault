@@ -1,3 +1,57 @@
+---
+lang: ko
+title-ko: 방화벽 정책 요청 공문이 VPN 미사용·DB 직접접속의 추가 증거
+title-en: ""
+aliases:
+  - FR-L4-FIREWALL-CONFIRMS-NO-VPN
+  - 방화벽 정책 요청 공문이 VPN 미사용·DB 직접접속의 추가 증거
+
+layer: 4
+secondary-layers: [1]
+claimType: technical_proof
+claimSubtype: technical_evidence
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 7
+analysisDate: 2026-04-11
+
+record-nos: [1629, 6100, 6128, 6169]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 박서준
+  - 장우진
+  - 한지훈
+  - 오현수
+  - 이준호
+  - 지원호
+organizations:
+  - DIDC
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L1
+  - verdict/corroborated
+  - strength/strong
+  - type/technical-proof
+  - source/book
+  - fracture/F-CE
+  - person/박서준
+  - person/장우진
+  - person/한지훈
+  - person/오현수
+  - person/이준호
+  - org/DIDC
+  - has/record-nos
+  - cross-layer
+---
 # 방화벽 정책 요청 공문이 VPN 미사용·DB 직접접속의 추가 증거
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.2.1 (lines 53-116)

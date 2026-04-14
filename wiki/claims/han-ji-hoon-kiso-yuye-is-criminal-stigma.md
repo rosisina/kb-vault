@@ -1,3 +1,53 @@
+---
+lang: ko
+title-ko: "한지훈의 기소유예 처분은 면책이 아니라 형사 낙인이며, 32년 군 경력자에게 가해진 Layer 6 핵심 피해 그 자체이다"
+title-en: ""
+aliases:
+  - FR-L6-002
+  - "한지훈의 기소유예 처분은 면책이 아니라 형사 낙인이며, 32년 군 경력자에게 가해진"
+
+layer: 6
+secondary-layers: [7]
+claimType: human_rights_violation
+claimSubtype: criminal_disposition_harm
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 10
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: ["L6-001", "L6-002"]
+event-date: null
+
+persons:
+  - 한지훈
+  - 최영수
+  - 임형규
+  - 안세준
+organizations:
+  - 군검찰단
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/human-rights-violation
+  - source/book
+  - fracture/F-CE
+  - person/한지훈
+  - person/최영수
+  - person/임형규
+  - person/안세준
+  - org/군검찰단
+  - cross-layer
+---
 # 한지훈의 기소유예 처분은 면책이 아니라 형사 낙인이며, 32년 군 경력자에게 가해진 Layer 6 핵심 피해 그 자체이다
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[011]` recordings 140/142/144/145/146 (한지훈↔임형규 verbatim) and recording 159 (lines 3537–3577, 한지훈↔최영수 직접 토의) • raw/05. Investigation by the Military Prosecutor's Office/ (기소유예 결정문 — pending ingest) • raw/01. book-beyond-cybersecurity/ (Layer 6/7 chapters)

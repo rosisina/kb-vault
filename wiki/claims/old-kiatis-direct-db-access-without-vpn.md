@@ -1,3 +1,59 @@
+---
+lang: ko
+title-ko: 舊KIATIS는 인터넷에서 VPN 없이 DB 직접 접속 — 15년간 보안 장비 부재
+title-en: 舊KIATIS는 인터넷에서 VPN 없이 DB 직접 접속 — 15년간 보안 장비 부재
+aliases:
+  - FR-L1-DB-DIRECT-NO-VPN
+  - 舊KIATIS는 인터넷에서 VPN 없이 DB 직접 접속 — 15년간 보안 장비 부재
+
+layer: 1
+secondary-layers: [6, 7]
+claimType: procedural_violation
+claimSubtype: security_architecture_violation
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: [5240, 10303]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 장우진
+  - 한지훈
+  - 이지영
+  - 김수진
+organizations:
+  - DIDC
+  - 국전원
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - layer/L6
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/procedural-violation
+  - source/book
+  - fracture/F-CE
+  - person/장우진
+  - person/한지훈
+  - person/이지영
+  - person/김수진
+  - org/DIDC
+  - org/국전원
+  - org/국유단
+  - has/record-nos
+  - cross-layer
+---
 # 舊KIATIS는 인터넷에서 VPN 없이 DB 직접 접속 — 15년간 보안 장비 부재
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/07-3-1-31-제1층위-ActiveX.md §3.1.1.6 (lines 62–73)

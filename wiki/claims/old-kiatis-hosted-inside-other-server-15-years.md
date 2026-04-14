@@ -1,3 +1,52 @@
+---
+lang: ko
+title-ko: 舊KIATIS는 15년간 독립 서버가 아닌 타 서버 내에서 운영 — 홈페이지 게시판 기원
+title-en: 舊KIATIS는 15년간 독립 서버가 아닌 타 서버 내에서 운영 — 홈페이지 게시판 기원
+aliases:
+  - FR-L1-KIATIS-INSIDE-OTHER-SERVER
+  - 舊KIATIS는 15년간 독립 서버가 아닌 타 서버 내에서 운영 — 홈페이지 게시판 기원
+
+layer: 1
+secondary-layers: []
+claimType: evidence_concealment
+claimSubtype: system_architecture_concealment
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 7
+analysisDate: 2026-04-11
+
+record-nos: [1054, 1068, 1144, 1157, 1481, 10347]
+evidence-ids: []
+event-date: 2018-10-29
+
+persons:
+  - 강홍석
+organizations:
+  - 조사본부
+  - DCIA
+  - 국유단
+  - 조달청
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - verdict/corroborated
+  - strength/strong
+  - type/evidence-concealment
+  - source/book
+  - fracture/F-CE
+  - person/강홍석
+  - org/조사본부
+  - org/DCIA
+  - org/국유단
+  - org/조달청
+  - has/record-nos
+---
 # 舊KIATIS는 15년간 독립 서버가 아닌 타 서버 내에서 운영 — 홈페이지 게시판 기원
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/07-3-1-31-제1층위-ActiveX.md §3.1.1.1 (lines 11-18)

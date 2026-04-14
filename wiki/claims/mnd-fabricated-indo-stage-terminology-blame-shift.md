@@ -1,3 +1,48 @@
+---
+lang: ko
+title-ko: 국방부의 조작 용어 '인도 단계' 도입 — 시험평가 책임을 사업관리기관에게 전가하는 체계 구축
+title-en: 국방부의 조작 용어 '인도 단계' 도입 — 시험평가 책임을 사업관리기관에게 전가하는 체계 구축
+aliases:
+  - FR-L4-B2-004
+  - 국방부의 조작 용어 '인도 단계' 도입 — 시험평가 책임을 사업관리기관에게 전가하는 체계
+
+layer: 4
+secondary-layers: [6]
+claimType: terminology_manipulation
+claimSubtype: fabricated_terminology_indo_stage
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: [4763, 4765, 4769]
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - DIDC
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/terminology-manipulation
+  - source/book
+  - fracture/F-MS
+  - org/DIDC
+  - org/MND
+  - has/record-nos
+  - cross-layer
+---
 # 국방부의 조작 용어 '인도 단계' 도입 — 시험평가 책임을 사업관리기관에게 전가하는 체계 구축
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md (§3.4.7.3.3, lines 600–612)

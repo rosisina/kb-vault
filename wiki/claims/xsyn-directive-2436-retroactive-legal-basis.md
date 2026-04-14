@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: 제2436호 개정일(2020.6.4)이 행위시점(2019.9) 이후 — 검찰이 사후 법적 근거를 인용
+title-en: 제2436호 개정일(2020.6.4)이 행위시점(2019.9) 이후 — 검찰이 사후 법적 근거를 인용
+aliases:
+  - FR-XSYN-2436-RETROACTIVE
+  - 제2436호 개정일(2020.6.4)이 행위시점(2019.9) 이후 — 검찰이 사후 법적
+
+layer: 4
+secondary-layers: [6, 1]
+claimType: cross_layer_analysis
+claimSubtype: cross_source_synthesis
+fracture-type: F-MS
+source-type: regulation
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 10
+validity: 10
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: [1253, 7512, 8194]
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L6
+  - layer/L1
+  - verdict/corroborated
+  - strength/strong
+  - type/cross-layer-analysis
+  - source/regulation
+  - fracture/F-MS
+  - org/MND
+  - has/record-nos
+  - cross-layer
+---
 # 제2436호 개정일(2020.6.4)이 행위시점(2019.9) 이후 — 검찰이 사후 법적 근거를 인용
 
 **Source:** raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2436호)(20200604).converted.md 제58조 (lines 1677-1691)

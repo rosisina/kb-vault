@@ -1,3 +1,51 @@
+---
+lang: ko
+title-ko: 발굴팀장의 "갤럭시 노트를 가지고 다닌다" — 민간 무선 네트워크 경유 모바일 접근이라는 추가 attack surface 식별
+title-en: 발굴팀장의 "갤럭시 노트를 가지고 다닌다" — 민간 무선 네트워크 경유 모바일 접근이라는 추가 attack surface 식별
+aliases:
+  - FR-L1-MOBILE-ATTACK-SURFACE
+  - 발굴팀장의 "갤럭시 노트를 가지고 다닌다" — 민간 무선 네트워크 경유 모바일 접근이라는
+
+layer: 1
+secondary-layers: [4]
+claimType: technical_proof
+claimSubtype: attack_surface_identification
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 9
+sincerity: 7
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+  - 이지영
+organizations:
+  - DIDC
+  - 국유단
+has-verbatim: true
+
+tags:
+  - layer/L1
+  - layer/L4
+  - verdict/corroborated
+  - strength/moderate
+  - type/technical-proof
+  - source/recording
+  - person/한지훈
+  - person/이지영
+  - org/DIDC
+  - org/국유단
+  - has/verbatim-quote
+  - cross-layer
+---
 # 발굴팀장의 "갤럭시 노트를 가지고 다닌다" — 민간 무선 네트워크 경유 모바일 접근이라는 추가 attack surface 식별
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[007]` 녹취 220 (2022.2.8, lines 13525~13530, 13654~13656)

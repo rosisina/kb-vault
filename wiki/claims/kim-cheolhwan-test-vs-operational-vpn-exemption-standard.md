@@ -1,3 +1,53 @@
+---
+lang: ko
+title-ko: "김철환 (데이터센터장 대령): \"평가할 때는 여건에 의해서 못 한 거지\" — 시험평가 환경의 VPN 면제는 표준 관행"
+title-en: "김철환 (데이터센터장 대령): \"평가할 때는 여건에 의해서 못 한 거지\" — 시험평가 환경의 VPN 면제는 표준 관행"
+aliases:
+  - FR-L4-DATACENTER-CMD-TEST-EXEMPTION
+  - "김철환 (데이터센터장 대령): \"평가할 때는 여건에 의해서 못 한 거지\" — 시험평가"
+
+layer: 4
+secondary-layers: [6]
+claimType: testimony_evidence
+claimSubtype: institutional_expert_testimony
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 8
+analysisDate: 2026-04-13
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 김철환
+  - 한지훈
+  - 장우진
+organizations:
+  - DIDC
+  - MND
+has-verbatim: true
+
+tags:
+  - layer/L4
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/testimony-evidence
+  - source/recording
+  - person/김철환
+  - person/한지훈
+  - person/장우진
+  - org/DIDC
+  - org/MND
+  - has/verbatim-quote
+  - cross-layer
+---
 # 김철환 (데이터센터장 대령): "평가할 때는 여건에 의해서 못 한 거지" — 시험평가 환경의 VPN 면제는 표준 관행
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[050]` 녹취 251 (2022.8.2, 00:25:07, line 15220+)

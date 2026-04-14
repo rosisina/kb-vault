@@ -1,3 +1,45 @@
+---
+lang: ko
+title-ko: 최동욱의 '아픈 모습 보여라' 조언 vs 한지훈의 '무혐의에 집중' 선언 — 방어 전략 충돌
+title-en: 최동욱의 '아픈 모습 보여라' 조언 vs 한지훈의 '무혐의에 집중' 선언 — 방어 전략 충돌
+aliases:
+  - FR-L6-LAWYER-SHOW-WEAKNESS-STRATEGY
+  - 최동욱의 '아픈 모습 보여라' 조언 vs 한지훈의 '무혐의에 집중' 선언 — 방어 전략
+
+layer: 6
+secondary-layers: []
+claimType: attorney_misconduct
+claimSubtype: defense_strategy_conflict
+fracture-type: F-MS
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 8
+validity: 8
+sincerity: 10
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: 2022-09-02
+
+persons:
+  - 최동욱
+  - 한지훈
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/attorney-misconduct
+  - source/recording
+  - fracture/F-MS
+  - person/최동욱
+  - person/한지훈
+---
 # 최동욱의 '아픈 모습 보여라' 조언 vs 한지훈의 '무혐의에 집중' 선언 — 방어 전략 충돌
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md 녹취190-2 (lines 9427-9473)

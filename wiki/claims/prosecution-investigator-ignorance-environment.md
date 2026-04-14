@@ -1,3 +1,46 @@
+---
+lang: ko
+title-ko: 수사관의 환경 정의 무지 — 한지훈이 수사관에게 IT 기초를 교육한 녹음
+title-en: 수사관의 환경 정의 무지 — 한지훈이 수사관에게 IT 기초를 교육한 녹음
+aliases:
+  - FR-L6-INVESTIGATOR-IGNORANCE
+  - 수사관의 환경 정의 무지 — 한지훈이 수사관에게 IT 기초를 교육한 녹음
+
+layer: 6
+secondary-layers: []
+claimType: prosecution_misconduct
+claimSubtype: prosecution_incompetence
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: [11188]
+evidence-ids: []
+event-date: 2022-09-07
+
+persons:
+  - 한지훈
+organizations:
+  - 군검찰단
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/prosecution-misconduct
+  - source/book
+  - fracture/F-CE
+  - person/한지훈
+  - org/군검찰단
+  - has/record-nos
+---
 # 수사관의 환경 정의 무지 — 한지훈이 수사관에게 IT 기초를 교육한 녹음
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.3.3.2 (lines 200-211)

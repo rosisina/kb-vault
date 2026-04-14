@@ -1,3 +1,50 @@
+---
+lang: ko
+title-ko: KIATIS 사업의 의도적 업무 떠넘기기 — 행정운영팀→계획팀 이관
+title-en: KIATIS 사업의 의도적 업무 떠넘기기 — 행정운영팀→계획팀 이관
+aliases:
+  - FR-L3-KIATIS-TRANSFER
+  - KIATIS 사업의 의도적 업무 떠넘기기 — 행정운영팀→계획팀 이관
+
+layer: 3
+secondary-layers: []
+claimType: conspiracy_structure
+claimSubtype: organizational_manipulation
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: [1712, 11107]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+  - 이태호
+  - 오현수
+organizations:
+  - 국전원
+has-verbatim: false
+
+tags:
+  - layer/L3
+  - verdict/corroborated
+  - strength/strong
+  - type/conspiracy-structure
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - person/이태호
+  - person/오현수
+  - org/국전원
+  - has/record-nos
+---
 # KIATIS 사업의 의도적 업무 떠넘기기 — 행정운영팀→계획팀 이관
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/09-3-3-33-제3-층위.md §3.3.1.2 (lines 24-37)

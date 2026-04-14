@@ -1,3 +1,56 @@
+---
+lang: ko
+title-ko: "양준승 (유지보수업체 과장): 9가지 허위 갑질 사항 서명 강요 + 3인 담합 목격 증언"
+title-en: ""
+aliases:
+  - FR-L5-YANGJUNSEUNG-9POINT-FABRICATION
+  - "양준승 (유지보수업체 과장): 9가지 허위 갑질 사항 서명 강요 + 3인 담합 목격 증언"
+
+layer: 5
+secondary-layers: [7]
+claimType: witness_manipulation
+claimSubtype: third_party_witness_fabrication
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 10
+analysisDate: 2026-04-13
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 양준승
+  - 한지훈
+  - 김수진
+  - 양미숙
+  - 김민지
+  - 박서준
+organizations:
+  - 국전원
+has-verbatim: true
+
+tags:
+  - layer/L5
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/witness-manipulation
+  - source/recording
+  - person/양준승
+  - person/한지훈
+  - person/김수진
+  - person/양미숙
+  - person/김민지
+  - org/국전원
+  - has/verbatim-quote
+  - cross-layer
+---
 # 양준승 (유지보수업체 과장): 9가지 허위 갑질 사항 서명 강요 + 3인 담합 목격 증언
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[060]` 녹취 285 (2025.7.16, 02:17:02, line 16516+)

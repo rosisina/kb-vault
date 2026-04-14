@@ -1,3 +1,49 @@
+---
+lang: ko
+title-ko: DIDC는 2018-04-30부터 新KIATIS 사업 조작에 본격 개입하였다
+title-en: ""
+aliases:
+  - FR-L3-DIDC-ENTRY-20180430-001
+  - DIDC는 2018-04-30부터 新KIATIS 사업 조작에 본격 개입하였다
+
+layer: 3
+secondary-layers: [1]
+claimType: temporal_manipulation
+claimSubtype: temporal_attribution
+fracture-type: null
+source-type: book
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 8
+sincerity: 7
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - DIDC
+  - 국전원
+  - MND
+  - DCIA
+has-verbatim: false
+
+tags:
+  - layer/L3
+  - layer/L1
+  - verdict/corroborated
+  - strength/moderate
+  - type/temporal-manipulation
+  - source/book
+  - org/DIDC
+  - org/국전원
+  - org/MND
+  - org/DCIA
+  - cross-layer
+---
 # DIDC는 2018-04-30부터 新KIATIS 사업 조작에 본격 개입하였다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/09-3-3-33-제3-층위.md (§3.3.4 footnote 148)

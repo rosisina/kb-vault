@@ -1,3 +1,50 @@
+---
+lang: ko
+title-ko: 2020년 8월 국방부 시험평가 개선방안 공문은 2019년 조작을 소급 정당화하려는 위장 문서이다
+title-en: ""
+aliases:
+  - FR-L4-EVAL-IMPROVE-001
+  - 2020년 8월 국방부 시험평가 개선방안 공문은 2019년 조작을 소급 정당화하려는 위장
+
+layer: 4
+secondary-layers: []
+claimType: temporal_manipulation
+claimSubtype: retroactive_justification
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 7
+analysisDate: 2026-04-11
+
+record-nos: [4757]
+evidence-ids: ["L6-007"]
+event-date: null
+
+persons:
+  - 한지훈
+organizations:
+  - 국전원
+  - MND
+  - DCIA
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/temporal-manipulation
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - org/국전원
+  - org/MND
+  - org/DCIA
+  - has/record-nos
+---
 # 2020년 8월 국방부 시험평가 개선방안 공문은 2019년 조작을 소급 정당화하려는 위장 문서이다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md (§3.4.7.3.1)

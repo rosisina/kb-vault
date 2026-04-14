@@ -1,3 +1,60 @@
+---
+lang: ko
+title-ko: 군 검찰단 사기수사의 4대 문서·4대 키워드와 카르텔 네트워크 3단계 시간 전개
+title-en: ""
+aliases:
+  - FR-L6-B3-002
+  - 군 검찰단 사기수사의 4대 문서·4대 키워드와 카르텔 네트워크 3단계 시간 전개
+
+layer: 6
+secondary-layers: []
+claimType: conspiracy_structure
+claimSubtype: cartel_network_four_documents_four_keywords
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 10
+analysisDate: 2026-04-11
+
+record-nos: [4776, 4842, 4854, 4874, 5167]
+evidence-ids: []
+event-date: 2022-01-25
+
+persons:
+  - 한지훈
+  - 장우진
+  - 최동욱
+organizations:
+  - DIDC
+  - 국전원
+  - 군검찰단
+  - MND
+  - 조사본부
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/conspiracy-structure
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - person/장우진
+  - person/최동욱
+  - org/DIDC
+  - org/국전원
+  - org/군검찰단
+  - org/MND
+  - org/조사본부
+  - org/국유단
+  - has/record-nos
+---
 # 군 검찰단 사기수사의 4대 문서·4대 키워드와 카르텔 네트워크 3단계 시간 전개
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md (§3.6.6.1, lines 791–804)

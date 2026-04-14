@@ -1,3 +1,52 @@
+---
+lang: ko
+title-ko: 언어의 무기화와 침묵 강요 — Austin 화행이론으로 본 조직적 사회적 살인
+title-en: 언어의 무기화와 침묵 강요 — Austin 화행이론으로 본 조직적 사회적 살인
+aliases:
+  - FR-L5-LANGUAGE-WEAPONIZATION
+  - 언어의 무기화와 침묵 강요 — Austin 화행이론으로 본 조직적 사회적 살인
+
+layer: 5
+secondary-layers: []
+claimType: terminology_manipulation
+claimSubtype: human_rights_violation_linguistic
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 10
+analysisDate: 2026-04-11
+
+record-nos: [3893, 4063, 4084, 4087, 11050]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+  - 박서준
+  - 김민수
+  - 이지영
+  - 김수진
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/terminology-manipulation
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - person/박서준
+  - person/김민수
+  - person/이지영
+  - person/김수진
+  - has/record-nos
+---
 # 언어의 무기화와 침묵 강요 — Austin 화행이론으로 본 조직적 사회적 살인
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md §3.5.1.7 (lines 79-96)

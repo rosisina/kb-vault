@@ -1,3 +1,45 @@
+---
+lang: ko
+title-ko: 최동욱 변호사가 검찰의 '지연' 프레이밍을 의뢰인에게 전달 — 실제로는 일정 앞당기는 중
+title-en: 최동욱 변호사가 검찰의 '지연' 프레이밍을 의뢰인에게 전달 — 실제로는 일정 앞당기는 중
+aliases:
+  - FR-L6-LAWYER-PROSECUTION-FRAMING
+  - 최동욱 변호사가 검찰의 '지연' 프레이밍을 의뢰인에게 전달 — 실제로는 일정 앞당기는 중
+
+layer: 6
+secondary-layers: []
+claimType: attorney_misconduct
+claimSubtype: attorney_prosecution_alignment
+fracture-type: F-MS
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 8
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 최동욱
+  - 한지훈
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/attorney-misconduct
+  - source/recording
+  - fracture/F-MS
+  - person/최동욱
+  - person/한지훈
+---
 # 최동욱 변호사가 검찰의 '지연' 프레이밍을 의뢰인에게 전달 — 실제로는 일정 앞당기는 중
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md 녹취190-1 (lines 9325-9342)

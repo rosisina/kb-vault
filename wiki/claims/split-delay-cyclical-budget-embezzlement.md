@@ -1,3 +1,43 @@
+---
+lang: ko
+title-ko: 新KIATIS 전력화 지연을 통한 순환적 예산 착취 (6.25→4→3.9억)
+title-en: ""
+aliases:
+  - FR-L6-DELAY-BUDGET-CYCLE
+  - 新KIATIS 전력화 지연을 통한 순환적 예산 착취 (6.25→4→3.9억)
+
+layer: 6
+secondary-layers: [4]
+claimType: temporal_manipulation
+claimSubtype: budget_manipulation
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 8
+validity: 8
+sincerity: 7
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/temporal-manipulation
+  - source/book
+  - fracture/F-MS
+  - cross-layer
+---
 # 新KIATIS 전력화 지연을 통한 순환적 예산 착취 (6.25→4→3.9억)
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.5.2 (lines 747-761)

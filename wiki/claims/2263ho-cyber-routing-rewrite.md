@@ -1,3 +1,44 @@
+---
+lang: ko
+title-ko: 제2263호 (2019-02-26) modifies 제9조 ¶2 cyber routing language (A3 anchor first move)
+title-en: ""
+aliases:
+  - FR-L1-A3-001
+  - 제2263호 (2019-02-26) modifies 제9조 ¶2 cyber routing
+
+layer: 1
+secondary-layers: []
+claimType: regulatory_manipulation
+claimSubtype: regulatory_routing_micro_change
+fracture-type: null
+source-type: regulation
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 9
+validity: 9
+sincerity: 7
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: 2019-02-26
+
+persons: []
+organizations:
+  - DIDC
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - verdict/corroborated
+  - strength/moderate
+  - type/regulatory-manipulation
+  - source/regulation
+  - org/DIDC
+  - org/MND
+---
 # 제2263호 (2019-02-26) modifies 제9조 ¶2 cyber routing language (A3 anchor first move)
 
 **Source:** raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2129호)(20180205).converted.md, raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2263호)(20190226).converted.md

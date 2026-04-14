@@ -1,3 +1,44 @@
+---
+lang: ko
+title-ko: 삼중 벡터 완전 파괴 — 사회적+법적+경제적 존재 말살 ('언퍼슨' 만들기)
+title-en: 삼중 벡터 완전 파괴 — 사회적+법적+경제적 존재 말살 ('언퍼슨' 만들기)
+aliases:
+  - FR-L5-TOTAL-DESTRUCTION-UNPERSON
+  - 삼중 벡터 완전 파괴 — 사회적+법적+경제적 존재 말살 ('언퍼슨' 만들기)
+
+layer: 5
+secondary-layers: [6, 7]
+claimType: cross_layer_analysis
+claimSubtype: cross_layer_synthesis
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 7
+validity: 5
+sincerity: 10
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - layer/L6
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/cross-layer-analysis
+  - source/book
+  - fracture/F-MS
+  - cross-layer
+---
 # 삼중 벡터 완전 파괴 — 사회적+법적+경제적 존재 말살 ('언퍼슨' 만들기)
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/14-4-4-한나-아렌트.md §4.2.3 (lines 35-37)

@@ -1,3 +1,56 @@
+---
+lang: ko
+title-ko: "최동욱 변호사 + 국전원: \"휴직해라, 정신병원 가라\" — 한지훈을 '비정상'으로 프레이밍하는 조직적 가스라이팅"
+title-en: "최동욱 변호사 + 국전원: \"휴직해라, 정신병원 가라\" — 한지훈을 '비정상'으로 프레이밍하는 조직적 가스라이팅"
+aliases:
+  - FR-L5-PSYCHIATRIC-GASLIGHTING
+  - "최동욱 변호사 + 국전원: \"휴직해라, 정신병원 가라\" — 한지훈을 '비정상'으로"
+
+layer: 5
+secondary-layers: [7]
+claimType: human_rights_violation
+claimSubtype: gaslighting_psychiatric_abuse
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 10
+analysisDate: 2026-04-13
+
+record-nos: [11252]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+  - 최동욱
+  - 천하경
+  - 박서준
+  - 김동욱
+organizations:
+  - 국전원
+has-verbatim: true
+
+tags:
+  - layer/L5
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/human-rights-violation
+  - source/recording
+  - person/한지훈
+  - person/최동욱
+  - person/천하경
+  - person/박서준
+  - person/김동욱
+  - org/국전원
+  - has/verbatim-quote
+  - has/record-nos
+  - cross-layer
+---
 # 최동욱 변호사 + 국전원: "휴직해라, 정신병원 가라" — 한지훈을 '비정상'으로 프레이밍하는 조직적 가스라이팅
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[016]` 녹취 187-1 (녹취 타, 2022.8.17, 00:33:36, line 8571+)

@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: 국방 정보화 훈령 제2129호의 시험평가 분리 원칙 — 新KIATIS 사업 적용 기준
+title-en: 국방 정보화 훈령 제2129호의 시험평가 분리 원칙 — 新KIATIS 사업 적용 기준
+aliases:
+  - FR-L4-010
+  - 국방 정보화 훈령 제2129호의 시험평가 분리 원칙 — 新KIATIS 사업 적용 기준
+
+layer: 4
+secondary-layers: [2, 6]
+claimType: regulatory_manipulation
+claimSubtype: regulatory_baseline
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 5
+analysisDate: 2026-04-11
+
+record-nos: [1510, 4887]
+evidence-ids: ["L4-001", "L4-010"]
+event-date: 2019-02-26
+
+persons: []
+organizations:
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L2
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/regulatory-manipulation
+  - source/book
+  - fracture/F-CE
+  - org/MND
+  - has/record-nos
+  - cross-layer
+---
 # 국방 정보화 훈령 제2129호의 시험평가 분리 원칙 — 新KIATIS 사업 적용 기준
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md (book §3.4.1.1)

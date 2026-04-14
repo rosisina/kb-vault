@@ -1,3 +1,49 @@
+---
+lang: ko
+title-ko: 99.73점 성공작의 '부실개발' 재프레이밍 — 사기수사의 핵심 서사 조작
+title-en: 99.73점 성공작의 '부실개발' 재프레이밍 — 사기수사의 핵심 서사 조작
+aliases:
+  - FR-L6-997-REFRAMED-DEFICIENT
+  - 99.73점 성공작의 '부실개발' 재프레이밍 — 사기수사의 핵심 서사 조작
+
+layer: 6
+secondary-layers: []
+claimType: human_rights_violation
+claimSubtype: narrative_manipulation
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: ["L6-997"]
+event-date: null
+
+persons: []
+organizations:
+  - DIDC
+  - 군검찰단
+  - MND
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/human-rights-violation
+  - source/book
+  - fracture/F-MS
+  - org/DIDC
+  - org/군검찰단
+  - org/MND
+  - org/국유단
+---
 # 99.73점 성공작의 '부실개발' 재프레이밍 — 사기수사의 핵심 서사 조작
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.3.3.5 (lines 245-290)

@@ -1,3 +1,44 @@
+---
+lang: ko
+title-ko: KIDA 업무흐름도에서 국방부 역할 완전 누락
+title-en: ""
+aliases:
+  - FR-L4-KIDA-WORKFLOW-NO-MND
+  - KIDA 업무흐름도에서 국방부 역할 완전 누락
+
+layer: 4
+secondary-layers: []
+claimType: methodology
+claimSubtype: academic_fraud_omission
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 7
+analysisDate: 2026-04-11
+
+record-nos: [6709, 6712, 6731]
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/methodology
+  - source/book
+  - fracture/F-MS
+  - org/MND
+  - has/record-nos
+---
 # KIDA 업무흐름도에서 국방부 역할 완전 누락
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.3.3 (lines 277-282)

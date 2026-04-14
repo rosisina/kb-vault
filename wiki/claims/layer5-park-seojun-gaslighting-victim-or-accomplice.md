@@ -1,3 +1,55 @@
+---
+lang: ko
+title-ko: 박서준의 발화는 자발적 신고가 아니라 조종된 발화(coached speech)임을 시사한다
+title-en: ""
+aliases:
+  - FR-L5-010
+  - 박서준의 발화는 자발적 신고가 아니라 조종된 발화(coached speech)임을 시사한다
+
+layer: 5
+secondary-layers: [7]
+claimType: witness_manipulation
+claimSubtype: coached_speech_nominal_complainant
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 7
+sincerity: 10
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: ["L5-010"]
+event-date: null
+
+persons:
+  - 박서준
+  - 한지훈
+  - 김민수
+  - 곽민철
+  - 이지영
+organizations:
+  - 군검찰단
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/witness-manipulation
+  - source/book
+  - fracture/F-MS
+  - person/박서준
+  - person/한지훈
+  - person/김민수
+  - person/곽민철
+  - person/이지영
+  - org/군검찰단
+  - cross-layer
+---
 # 박서준의 발화는 자발적 신고가 아니라 조종된 발화(coached speech)임을 시사한다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md (§3.5.3.1.3)

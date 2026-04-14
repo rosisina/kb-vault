@@ -1,3 +1,51 @@
+---
+lang: ko
+title-ko: 2019-08-26 방화벽 정책 변경 요청서는 정보보호과장 승인 없이 행정정보화과장에 의해 승인됨 — DIDC SOP 제12호 제37조 ① 위반
+title-en: 2019-08-26 방화벽 정책 변경 요청서는 정보보호과장 승인 없이 행정정보화과장에 의해 승인됨 — DIDC SOP 제12호 제37조 ① 위반
+aliases:
+  - FR-L1-DIDC-007
+  - 2019-08-26 방화벽 정책 변경 요청서는 정보보호과장 승인 없이 행정정보화과장에
+
+layer: 1
+secondary-layers: [4, 6]
+claimType: procedural_violation
+claimSubtype: procedural_artifact_approval_chain_violation
+fracture-type: null
+source-type: investigation
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 9
+validity: 8
+sincerity: 7
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: 2019-08-26
+
+persons:
+  - 최영수
+  - 이준호
+  - 한지훈
+organizations:
+  - DIDC
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - layer/L4
+  - layer/L6
+  - verdict/corroborated
+  - strength/moderate
+  - type/procedural-violation
+  - source/investigation
+  - person/최영수
+  - person/이준호
+  - person/한지훈
+  - org/DIDC
+  - cross-layer
+---
 # 2019-08-26 방화벽 정책 변경 요청서는 정보보호과장 승인 없이 행정정보화과장에 의해 승인됨 — DIDC SOP 제12호 제37조 ① 위반
 
 **Source:** raw/05. Investigation by the Military Prosecutor's Office/Bilingual(English, Korean)/(20221014) Fraudulent Proof of Notification of the Reason for Non-Prosecution(English, Korean).converted.md (lines 73-97 — 불기소이유서 verbatim narrative of the firewall change approval chain) • raw/06/01.(Korean) DIDC_사이버방호_예규.md (제37조 ① — verbatim 정보보호과장 승인 요구)

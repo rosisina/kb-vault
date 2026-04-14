@@ -1,3 +1,53 @@
+---
+lang: ko
+title-ko: 2022-05-23 국방부 법무관리관실 경고장은 한지훈의 실제 보직과 다른 존재하지 않는 직함을 기재했다
+title-en: ""
+aliases:
+  - FR-L5-004
+  - 2022-05-23 국방부 법무관리관실 경고장은 한지훈의 실제 보직과 다른 존재하지 않는
+
+layer: 5
+secondary-layers: []
+claimType: document_fabrication
+claimSubtype: fabricated_official_document_title
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: ["L5-004"]
+event-date: 2022-05-23
+
+persons:
+  - 한지훈
+  - 박서준
+  - 이지영
+organizations:
+  - 국전원
+  - MND
+  - 조사본부
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/document-fabrication
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - person/박서준
+  - person/이지영
+  - org/국전원
+  - org/MND
+  - org/조사본부
+---
 # 2022-05-23 국방부 법무관리관실 경고장은 한지훈의 실제 보직과 다른 존재하지 않는 직함을 기재했다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md (book §3.5.1.3 / §3.5.2.1.1)

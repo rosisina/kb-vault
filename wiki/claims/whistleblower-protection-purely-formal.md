@@ -1,3 +1,46 @@
+---
+lang: ko
+title-ko: 공익신고자 보호법은 형식적 수준 — 32년 군간부도 조직적 공격에 무력
+title-en: 공익신고자 보호법은 형식적 수준 — 32년 군간부도 조직적 공격에 무력
+aliases:
+  - FR-L7-WHISTLEBLOWER-LAW-FORMAL
+  - 공익신고자 보호법은 형식적 수준 — 32년 군간부도 조직적 공격에 무력
+
+layer: 7
+secondary-layers: [5, 6]
+claimType: methodology
+claimSubtype: policy_claim
+fracture-type: F-AA
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 6
+validity: 8
+sincerity: 10
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L7
+  - layer/L5
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/methodology
+  - source/book
+  - fracture/F-AA
+  - person/한지훈
+  - cross-layer
+---
 # 공익신고자 보호법은 형식적 수준 — 32년 군간부도 조직적 공격에 무력
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/15-5-5-결론-및.md §5.2.3 (lines 36-38)

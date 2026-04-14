@@ -1,3 +1,53 @@
+---
+lang: ko
+title-ko: 집단적 증인 이탈 — 오현수의 '엮기기 싫다'와 이태호의 '선택적 기억' 진단
+title-en: 집단적 증인 이탈 — 오현수의 '엮기기 싫다'와 이태호의 '선택적 기억' 진단
+aliases:
+  - FR-L5-COLLECTIVE-WITNESS-ABANDONMENT
+  - 집단적 증인 이탈 — 오현수의 '엮기기 싫다'와 이태호의 '선택적 기억' 진단
+
+layer: 5
+secondary-layers: []
+claimType: witness_manipulation
+claimSubtype: witness_behavior_pattern
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 오현수
+  - 이태호
+  - 이준호
+  - 윤도현
+  - 장우진
+  - 최영규
+  - 한지훈
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/witness-manipulation
+  - source/book
+  - fracture/F-MS
+  - person/오현수
+  - person/이태호
+  - person/이준호
+  - person/윤도현
+  - person/장우진
+---
 # 집단적 증인 이탈 — 오현수의 '엮기기 싫다'와 이태호의 '선택적 기억' 진단
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md §3.5.3.3.3 (lines 408-421)

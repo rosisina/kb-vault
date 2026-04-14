@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: 7층위 증명 체계는 국면별 데이터 분류에 기초한 귀납적 구조물이다
+title-en: ""
+aliases:
+  - FR-META-7LAYER-DESIGN
+  - 7층위 증명 체계는 국면별 데이터 분류에 기초한 귀납적 구조물이다
+
+layer: 1
+secondary-layers: [2, 3, 4, 5, 6, 7]
+claimType: methodology
+claimSubtype: methodology_claim
+fracture-type: null
+source-type: book
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 6
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - layer/L2
+  - layer/L3
+  - layer/L4
+  - layer/L5
+  - layer/L6
+  - layer/L7
+  - verdict/corroborated
+  - strength/moderate
+  - type/methodology
+  - source/book
+  - cross-layer
+---
 # 7층위 증명 체계는 국면별 데이터 분류에 기초한 귀납적 구조물이다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/04-1-1-서론.md §1.2.2 (lines 37-48)

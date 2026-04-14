@@ -1,3 +1,44 @@
+---
+lang: ko
+title-ko: "제2263호 별표1: 국방통합정보관리소→국방통합데이터센터 — 용어 정의 수준 기관명 세탁"
+title-en: "제2263호 별표1: 국방통합정보관리소→국방통합데이터센터 — 용어 정의 수준 기관명 세탁"
+aliases:
+  - FR-L1-GLOSSARY-DIDC-RENAME
+  - "제2263호 별표1: 국방통합정보관리소→국방통합데이터센터 — 용어 정의 수준 기관명 세탁"
+
+layer: 1
+secondary-layers: [3]
+claimType: terminology_manipulation
+claimSubtype: terminology_entity_rename
+fracture-type: null
+source-type: regulation
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 9
+sincerity: 7
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - DIDC
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - layer/L3
+  - verdict/corroborated
+  - strength/moderate
+  - type/terminology-manipulation
+  - source/regulation
+  - org/DIDC
+  - cross-layer
+---
 # 제2263호 별표1: 국방통합정보관리소→국방통합데이터센터 — 용어 정의 수준 기관명 세탁
 
 **Source:** raw/08. 용어 변천사/(국방 정보화 업무 훈령) 용어정의 변천사(2018~2025년).converted.md Section 1 vs 2 (lines 1-985)

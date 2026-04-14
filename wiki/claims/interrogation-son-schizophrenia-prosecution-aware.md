@@ -1,3 +1,45 @@
+---
+lang: ko
+title-ko: 피의자신문조서에서 한지훈이 아들 조현병 진단 공개 — 검찰의 가족 피해 공식 인지 시점
+title-en: 피의자신문조서에서 한지훈이 아들 조현병 진단 공개 — 검찰의 가족 피해 공식 인지 시점
+aliases:
+  - FR-L6-SON-SCHIZOPHRENIA-AWARE
+  - 피의자신문조서에서 한지훈이 아들 조현병 진단 공개 — 검찰의 가족 피해 공식 인지 시점
+
+layer: 6
+secondary-layers: [7]
+claimType: testimony_evidence
+claimSubtype: documented_harm_awareness
+fracture-type: F-CE
+source-type: investigation
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 7
+validity: 7
+sincerity: 10
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: 2022-09-02
+
+persons:
+  - 한지훈
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/testimony-evidence
+  - source/investigation
+  - fracture/F-CE
+  - person/한지훈
+  - cross-layer
+---
 # 피의자신문조서에서 한지훈이 아들 조현병 진단 공개 — 검찰의 가족 피해 공식 인지 시점
 
 **Source:** raw/05. Investigation by the Military Prosecutor's Office/Bilingual(English, Korean)/(2022902) Record of interrogation of a suspect (2 September 2022(English, Korean).converted.md 신문 서두 건강 질문 (lines 1-2154)

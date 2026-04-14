@@ -1,3 +1,53 @@
+---
+lang: ko
+title-ko: "훈령 제2275호(2019-05-09)는 국가법령센터 미등재 phantom directive로, 제2436호(2020-06-04) 내용을 1년 이상 시간 역전하여 등장시켜 검찰단 신문에 사용되었다"
+title-en: ""
+aliases:
+  - FR-L1-PHANTOM-2275HO-001
+  - 훈령 제2275호(2019-05-09)는 국가법령센터 미등재 phantom
+
+layer: 1
+secondary-layers: [6]
+claimType: temporal_manipulation
+claimSubtype: phantom_directive_time_reversal
+fracture-type: null
+source-type: book
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 7
+validity: 8
+sincerity: 8
+
+record-nos: []
+evidence-ids: []
+event-date: 2019-05-09
+
+persons:
+  - 한지훈
+  - 이지영
+  - 김수진
+organizations:
+  - 국전원
+  - 군검찰단
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - layer/L6
+  - verdict/corroborated
+  - strength/moderate
+  - type/temporal-manipulation
+  - source/book
+  - person/한지훈
+  - person/이지영
+  - person/김수진
+  - org/국전원
+  - org/군검찰단
+  - org/MND
+  - cross-layer
+---
 # 훈령 제2275호(2019-05-09)는 국가법령센터 미등재 phantom directive로, 제2436호(2020-06-04) 내용을 1년 이상 시간 역전하여 등장시켜 검찰단 신문에 사용되었다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md (§3.4.3.4 KIDA 인용 추적), wiki/claims/kida-otne-citation-misrepresents-us-standard.md (Track D D1 closure 참조)

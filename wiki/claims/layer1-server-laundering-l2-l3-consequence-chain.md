@@ -1,3 +1,48 @@
+---
+lang: ko
+title-ko: 舊KIATIS 서버 세탁(L1)이 L2 사업구조 조작과 L3 제도적 개입을 순차 유발
+title-en: ""
+aliases:
+  - FR-L1-SERVER-LAUNDERING-L2-L3-CHAIN
+  - 舊KIATIS 서버 세탁(L1)이 L2 사업구조 조작과 L3 제도적 개입을 순차 유발
+
+layer: 1
+secondary-layers: [2, 3]
+claimType: cross_layer_analysis
+claimSubtype: server_laundering_consequence_chain
+fracture-type: null
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: [1054, 1068, 1120, 1140, 1573, 11107]
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - DIDC
+  - 국전원
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - layer/L2
+  - layer/L3
+  - verdict/corroborated
+  - strength/strong
+  - type/cross-layer-analysis
+  - source/book
+  - org/DIDC
+  - org/국전원
+  - has/record-nos
+  - cross-layer
+---
 # 舊KIATIS 서버 세탁(L1)이 L2 사업구조 조작과 L3 제도적 개입을 순차 유발
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/07-3-1-31-제1층위-ActiveX.md §3.1 (lines 10-19), raw/01. book-beyond-cybersecurity/vault-converted-korean/08-3-2-32-제2-층위.md §3.2

@@ -1,3 +1,42 @@
+---
+lang: ko
+title-ko: 기존 수사기관 한계로 대통령 특단의 조치 필요 — 진실규명위원회 또는 특별검사
+title-en: 기존 수사기관 한계로 대통령 특단의 조치 필요 — 진실규명위원회 또는 특별검사
+aliases:
+  - FR-L7-PRESIDENTIAL-INVESTIGATION
+  - 기존 수사기관 한계로 대통령 특단의 조치 필요 — 진실규명위원회 또는 특별검사
+
+layer: 7
+secondary-layers: [6]
+claimType: methodology
+claimSubtype: policy_claim
+fracture-type: null
+source-type: book
+
+verdict: NEEDS_MORE_EVIDENCE
+strength: MODERATE
+truthfulness: 5
+validity: 7
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L7
+  - layer/L6
+  - verdict/needs-more-evidence
+  - strength/moderate
+  - type/methodology
+  - source/book
+  - cross-layer
+---
 # 기존 수사기관 한계로 대통령 특단의 조치 필요 — 진실규명위원회 또는 특별검사
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/15-5-5-결론-및.md §5.3.3 (lines 55-57)

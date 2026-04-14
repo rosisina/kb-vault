@@ -1,3 +1,52 @@
+---
+lang: ko
+title-ko: 국전원장 박성호의 "부사관이 장교보다 낫다" 비하 발언은 2019년 초부터 공론화되었고 한지훈 고립화 동기로 기능하였다
+title-en: ""
+aliases:
+  - FR-L3-PARK-NCO-SLUR-001
+  - 국전원장 박성호의 "부사관이 장교보다 낫다" 비하 발언은 2019년 초부터 공론화되었고
+
+layer: 3
+secondary-layers: [5]
+claimType: methodology
+claimSubtype: motivational_anchor
+fracture-type: null
+source-type: book
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 6
+sincerity: 10
+
+record-nos: [2]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 박성호
+  - 한지훈
+  - 박서준
+organizations:
+  - 국전원
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L3
+  - layer/L5
+  - verdict/corroborated
+  - strength/moderate
+  - type/methodology
+  - source/book
+  - person/박성호
+  - person/한지훈
+  - person/박서준
+  - org/국전원
+  - org/MND
+  - has/record-nos
+  - cross-layer
+---
 # 국전원장 박성호의 "부사관이 장교보다 낫다" 비하 발언은 2019년 초부터 공론화되었고 한지훈 고립화 동기로 기능하였다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/09-3-3-33-제3-층위.md (§3.3.3.1)

@@ -1,3 +1,48 @@
+---
+lang: ko
+title-ko: "KIATIS 성능개선사업 is governed by 제2129호 제58조 ¶2 main regime, not the 5억 미만 exception"
+title-en: ""
+aliases:
+  - FR-L4-KIATIS-001
+  - KIATIS 성능개선사업 is governed by 제2129호 제58조 ¶2 main
+
+layer: 4
+secondary-layers: []
+claimType: regulatory_manipulation
+claimSubtype: regulatory_classification
+fracture-type: null
+source-type: regulation
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 10
+validity: 10
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - 국전원
+  - MND
+  - 국본
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/regulatory-manipulation
+  - source/regulation
+  - org/국전원
+  - org/MND
+  - org/국본
+  - org/국유단
+---
 # KIATIS 성능개선사업 is governed by 제2129호 제58조 ¶2 main regime, not the 5억 미만 exception
 
 **Source:** raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2129호)(20180205).converted.md

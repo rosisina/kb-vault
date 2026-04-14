@@ -1,3 +1,49 @@
+---
+lang: ko
+title-ko: "장호재 (개발PM): \"요구사항에는 없습니다\" — 과거 데이터 이관은 RFP 밖 + \"어떻게 점수를 조작해요 그쪽에서 다 한 건데\""
+title-en: "장호재 (개발PM): \"요구사항에는 없습니다\" — 과거 데이터 이관은 RFP 밖 + \"어떻게 점수를 조작해요 그쪽에서 다 한 건데\""
+aliases:
+  - FR-L4-DATA-MIGRATION-NOT-IN-RFP
+  - "장호재 (개발PM): \"요구사항에는 없습니다\" — 과거 데이터 이관은 RFP 밖 +"
+
+layer: 4
+secondary-layers: [6]
+claimType: technical_proof
+claimSubtype: rfp_scope_exclusion_evaluation_independence
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 7
+analysisDate: 2026-04-13
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 장호재
+  - 한지훈
+organizations:
+  - DIDC
+has-verbatim: true
+
+tags:
+  - layer/L4
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/technical-proof
+  - source/recording
+  - person/장호재
+  - person/한지훈
+  - org/DIDC
+  - has/verbatim-quote
+  - cross-layer
+---
 # 장호재 (개발PM): "요구사항에는 없습니다" — 과거 데이터 이관은 RFP 밖 + "어떻게 점수를 조작해요 그쪽에서 다 한 건데"
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[040]` 녹취 233 (2022.7.20, 00:23:21, line 14160+) • 녹취 236 (2022.7.30, 00:15:30, line 14389+)

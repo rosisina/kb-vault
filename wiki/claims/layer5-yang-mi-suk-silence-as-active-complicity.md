@@ -1,3 +1,58 @@
+---
+lang: ko
+title-ko: "양미숙의 침묵: 출퇴근 관리 담당자가 한지훈의 무죄 증명 가능한 증언을 조직적 공모로 거부했다"
+title-en: ""
+aliases:
+  - FR-L5-056
+  - "양미숙의 침묵: 출퇴근 관리 담당자가 한지훈의 무죄 증명 가능한 증언을 조직적 공모로"
+
+layer: 5
+secondary-layers: []
+claimType: witness_manipulation
+claimSubtype: yang_mi_suk_silence_complicity
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 7
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: [11412]
+evidence-ids: ["L5-056"]
+event-date: null
+
+persons:
+  - 양미숙
+  - 한지훈
+  - 양준승
+  - 김민수
+  - 이지영
+  - 김수진
+  - 지원호
+  - 김민지
+  - 박서준
+organizations:
+  - 조사본부
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/witness-manipulation
+  - source/book
+  - fracture/F-MS
+  - person/양미숙
+  - person/한지훈
+  - person/양준승
+  - person/김민수
+  - person/이지영
+  - org/조사본부
+  - has/record-nos
+---
 # 양미숙의 침묵: 출퇴근 관리 담당자가 한지훈의 무죄 증명 가능한 증언을 조직적 공모로 거부했다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md (§3.5.2.2.5)

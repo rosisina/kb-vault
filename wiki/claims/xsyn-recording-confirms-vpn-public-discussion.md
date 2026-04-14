@@ -1,3 +1,50 @@
+---
+lang: ko
+title-ko: 녹취록이 VPN 공개 논의 확인 — 검찰 '은폐' 내러티브의 독립 반박
+title-en: 녹취록이 VPN 공개 논의 확인 — 검찰 '은폐' 내러티브의 독립 반박
+aliases:
+  - FR-XSYN-VPN-PUBLIC
+  - 녹취록이 VPN 공개 논의 확인 — 검찰 '은폐' 내러티브의 독립 반박
+
+layer: 6
+secondary-layers: [4]
+claimType: cross_layer_analysis
+claimSubtype: cross_source_synthesis
+fracture-type: F-CE
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: [612, 1292]
+evidence-ids: []
+event-date: 2022-02-08
+
+persons:
+  - 한지훈
+organizations:
+  - DIDC
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/cross-layer-analysis
+  - source/recording
+  - fracture/F-CE
+  - person/한지훈
+  - org/DIDC
+  - org/국유단
+  - has/record-nos
+  - cross-layer
+---
 # 녹취록이 VPN 공개 논의 확인 — 검찰 '은폐' 내러티브의 독립 반박
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md 녹취001 (2022-02-08) (lines 478-556)

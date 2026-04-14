@@ -1,3 +1,62 @@
+---
+lang: ko
+title-ko: "조사 결과의 허위성과 공모의 증거: 6가지 독립 증명이 조사본부-법무관리관실-국전원 공모 네트워크를 입증한다"
+title-en: ""
+aliases:
+  - FR-L5-058
+  - "조사 결과의 허위성과 공모의 증거: 6가지 독립 증명이 조사본부-법무관리관실-국전원 공모"
+
+layer: 5
+secondary-layers: []
+claimType: temporal_manipulation
+claimSubtype: audit_result_falsity_collusion_proof
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 10
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: [11069]
+evidence-ids: ["L5-058"]
+event-date: null
+
+persons:
+  - 김민수
+  - 최영수
+  - 이승우
+  - 이지영
+  - 박서준
+  - 한지훈
+  - 최동욱
+  - 이근태
+  - 양미숙
+organizations:
+  - 국전원
+  - MND
+  - 조사본부
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/temporal-manipulation
+  - source/book
+  - fracture/F-CE
+  - person/김민수
+  - person/최영수
+  - person/이승우
+  - person/이지영
+  - person/박서준
+  - org/국전원
+  - org/MND
+  - org/조사본부
+  - has/record-nos
+---
 # 조사 결과의 허위성과 공모의 증거: 6가지 독립 증명이 조사본부-법무관리관실-국전원 공모 네트워크를 입증한다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md (§3.5.2.2.9)

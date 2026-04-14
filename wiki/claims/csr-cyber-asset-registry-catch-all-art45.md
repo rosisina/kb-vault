@@ -1,3 +1,43 @@
+---
+lang: ko
+title-ko: "제45조 사이버자산 현황 관리 — 미등록이면 네트워크 차단, 등록이면 취약점 탐지 필수"
+title-en: "제45조 사이버자산 현황 관리 — 미등록이면 네트워크 차단, 등록이면 취약점 탐지 필수"
+aliases:
+  - FR-CSR-011
+  - "제45조 사이버자산 현황 관리 — 미등록이면 네트워크 차단, 등록이면 취약점 탐지 필수"
+
+layer: 1
+secondary-layers: [4]
+claimType: procedural_violation
+claimSubtype: catch_all_duty
+fracture-type: F-AA
+source-type: regulation
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 5
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/procedural-violation
+  - source/regulation
+  - fracture/F-AA
+  - cross-layer
+---
 # 제45조 사이버자산 현황 관리 — 미등록이면 네트워크 차단, 등록이면 취약점 탐지 필수
 
 **Source:** raw/09. 사이버안보 훈령(당시)/cyber security reguration.md 제45조 (lines 401-409)

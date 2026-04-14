@@ -1,3 +1,57 @@
+---
+lang: ko
+title-ko: 발굴팀장의 15��� 현장 증언 — VPN·보안장비 미사용을 7개 verbatim 발언으로 독립 증명
+title-en: 발굴팀장의 15��� 현장 증언 — VPN·보안장비 미사용을 7개 verbatim 발언으로 독립 증명
+aliases:
+  - FR-L1-EXCAVATION-15YR-VPN-ABSENCE
+  - 발굴팀장의 15��� 현장 증언 — VPN·보안장비 미사용을 7개 verbatim
+
+layer: 1
+secondary-layers: [5]
+claimType: testimony_evidence
+claimSubtype: independent_field_witness_testimony
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: ["L4-002"]
+event-date: null
+
+persons:
+  - 장우진
+  - 한지훈
+  - 김민수
+  - 이지영
+organizations:
+  - DIDC
+  - 국전원
+  - 국유단
+has-verbatim: true
+
+tags:
+  - layer/L1
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/testimony-evidence
+  - source/recording
+  - person/장우진
+  - person/한지훈
+  - person/김민수
+  - person/이지영
+  - org/DIDC
+  - org/국전원
+  - org/국유단
+  - has/verbatim-quote
+  - cross-layer
+---
 # 발굴팀장의 15��� 현장 증언 — VPN·보안장비 미사용을 7개 verbatim 발언으로 독립 증명
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[007]` 녹취 220 (2022.2.8, 03:58:07, lines 13042~13598)

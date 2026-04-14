@@ -1,3 +1,57 @@
+---
+lang: ko
+title-ko: 新KIATIS 시험평가위원회가 99.7점 성공 판정과 동시에 80개 추가요구사항을 의결하여 시험평가의 본질을 위반하였다
+title-en: ""
+aliases:
+  - FR-L4-EVAL-80-001
+  - 新KIATIS 시험평가위원회가 99.7점 성공 판정과 동시에 80개 추가요구사항을
+
+layer: 4
+secondary-layers: [6]
+claimType: procedural_violation
+claimSubtype: test_evaluation_procedural_violation
+fracture-type: F-SC
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 7
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: ["L6-007"]
+event-date: 2022-10-07
+
+persons:
+  - 김경진
+  - 한지훈
+  - 정다원
+  - 배지훈
+organizations:
+  - 국전원
+  - 군검찰단
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/procedural-violation
+  - source/book
+  - fracture/F-SC
+  - person/김경진
+  - person/한지훈
+  - person/정다원
+  - person/배지훈
+  - org/국전원
+  - org/군검찰단
+  - org/국유단
+  - cross-layer
+---
 # 新KIATIS 시험평가위원회가 99.7점 성공 판정과 동시에 80개 추가요구사항을 의결하여 시험평가의 본질을 위반하였다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md (§3.4.6.1, §3.4.6.2, 정리12) • raw/05. Investigation by the Military Prosecutor's Office/Bilingual(English, Korean)/(20221014) Fraudulent Proof of Notification of the Reason for Non-Prosecution(English, Korean).converted.md

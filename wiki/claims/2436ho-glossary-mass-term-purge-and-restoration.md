@@ -1,3 +1,42 @@
+---
+lang: ko
+title-ko: 제2436호 별표1에서 ~20개 기술용어 일괄 삭제 → 제2842호에서 전면 복원 — 3년 공백
+title-en: 제2436호 별표1에서 ~20개 기술용어 일괄 삭제 → 제2842호에서 전면 복원 — 3년 공백
+aliases:
+  - FR-L4-GLOSSARY-PURGE-2436
+  - 제2436호 별표1에서 ~20개 기술용어 일괄 삭제 → 제2842호에서 전면 복원 —
+
+layer: 4
+secondary-layers: [1]
+claimType: terminology_manipulation
+claimSubtype: terminology_mass_deletion
+fracture-type: null
+source-type: regulation
+
+verdict: NEEDS_MORE_EVIDENCE
+strength: MODERATE
+truthfulness: 8
+validity: 7
+sincerity: 6
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L1
+  - verdict/needs-more-evidence
+  - strength/moderate
+  - type/terminology-manipulation
+  - source/regulation
+  - cross-layer
+---
 # 제2436호 별표1에서 ~20개 기술용어 일괄 삭제 → 제2842호에서 전면 복원 — 3년 공백
 
 **Source:** raw/08. 용어 변천사/(국방 정보화 업무 훈령) 용어정의 변천사(2018~2025년).converted.md Sections 2-6 (lines 488-2936)

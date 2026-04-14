@@ -1,3 +1,56 @@
+---
+lang: ko
+title-ko: "이태호: \"떠넘겼다고 봐야지\" — 6~7개 사업 동시 관리 + 이지영의 업무 떠넘기기 자인"
+title-en: "이태호: \"떠넘겼다고 봐야지\" — 6~7개 사업 동시 관리 + 이지영의 업무 떠넘기기 자인"
+aliases:
+  - FR-L3-WORK-DUMPING-ADMISSION
+  - "이태호: \"떠넘겼다고 봐야지\" — 6~7개 사업 동시 관리 + 이지영의 업무 떠넘기기 자인"
+
+layer: 3
+secondary-layers: [2]
+claimType: conspiracy_structure
+claimSubtype: organizational_exploitation_admission
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-13
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 이지영
+  - 이태호
+  - 한지훈
+  - 김수진
+  - 김민수
+  - 오현수
+organizations:
+  - 국전원
+has-verbatim: true
+
+tags:
+  - layer/L3
+  - layer/L2
+  - verdict/corroborated
+  - strength/strong
+  - type/conspiracy-structure
+  - source/recording
+  - person/이지영
+  - person/이태호
+  - person/한지훈
+  - person/김수진
+  - person/김민수
+  - org/국전원
+  - has/verbatim-quote
+  - cross-layer
+---
 # 이태호: "떠넘겼다고 봐야지" — 6~7개 사업 동시 관리 + 이지영의 업무 떠넘기기 자인
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[005]` 녹취 060 (2022.7.30, 00:24:50, line 4144+)

@@ -1,3 +1,55 @@
+---
+lang: ko
+title-ko: "개발업체 PM 장호재: \"VPN 없이 포트 열어줬어요\" — DIDC가 직접 포트개방 결정, 한지훈 책임 아님"
+title-en: "개발업체 PM 장호재: \"VPN 없이 포트 열어줬어요\" — DIDC가 직접 포트개방 결정, 한지훈 책임 아님"
+aliases:
+  - FR-L4-DEVELOPER-PM-DIDC-OPENED-PORT
+  - "개발업체 PM 장호재: \"VPN 없이 포트 열어줬어요\" — DIDC가 직접 포트개방"
+
+layer: 4
+secondary-layers: [6]
+claimType: testimony_evidence
+claimSubtype: third_party_technical_testimony
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 8
+analysisDate: 2026-04-13
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 장호재
+  - 한지훈
+  - 장우진
+organizations:
+  - DIDC
+  - 국전원
+  - 국유단
+has-verbatim: true
+
+tags:
+  - layer/L4
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/testimony-evidence
+  - source/recording
+  - person/장호재
+  - person/한지훈
+  - person/장우진
+  - org/DIDC
+  - org/국전원
+  - org/국유단
+  - has/verbatim-quote
+  - cross-layer
+---
 # 개발업체 PM 장호재: "VPN 없이 포트 열어줬어요" — DIDC가 직접 포트개방 결정, 한지훈 책임 아님
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[040]` 녹취 233 (2022.7.20, 00:23:21, line 14160+) • 녹취 236 (2022.7.30, 00:15:30, line 14316+)

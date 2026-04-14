@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: "한지훈은 2022-01-25 참고인 신분으로 조사받았고, 6개월 후 피의자로 재분류되었다 — 소급적 기소 설계의 절차적 역전"
+title-en: "한지훈은 2022-01-25 참고인 신분으로 조사받았고, 6개월 후 피의자로 재분류되었다 — 소급적 기소 설계의 절차적 역전"
+aliases:
+  - FR-L6-004
+  - "한지훈은 2022-01-25 참고인 신분으로 조사받았고, 6개월 후 피의자로 재분류되었다"
+
+layer: 6
+secondary-layers: [5]
+claimType: procedural_violation
+claimSubtype: procedural_inversion
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 8
+validity: 7
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: ["L6-004"]
+event-date: null
+
+persons:
+  - 한지훈
+organizations:
+  - 군검찰단
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/procedural-violation
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - org/군검찰단
+  - cross-layer
+---
 # 한지훈은 2022-01-25 참고인 신분으로 조사받았고, 6개월 후 피의자로 재분류되었다 — 소급적 기소 설계의 절차적 역전
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md (§3.6.3.2) • raw/01. book-beyond-cybersecurity/vault-converted-english/16-3-6-36-Sixth-Layer.md

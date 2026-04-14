@@ -1,3 +1,54 @@
+---
+lang: ko
+title-ko: 2019.9.2 시험평가 절차 간소화 요청의 시간적 모순 — 시간 역전 조작의 증거
+title-en: 2019.9.2 시험평가 절차 간소화 요청의 시간적 모순 — 시간 역전 조작의 증거
+aliases:
+  - FR-L4-012
+  - 2019.9.2 시험평가 절차 간소화 요청의 시간적 모순 — 시간 역전 조작의 증거
+
+layer: 4
+secondary-layers: []
+claimType: document_fabrication
+claimSubtype: temporal_manipulation_document_forgery
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: [2853, 2858]
+evidence-ids: ["L4-012"]
+event-date: null
+
+persons:
+  - 이지영
+  - 김수진
+organizations:
+  - 국전원
+  - 군검찰단
+  - MND
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - verdict/corroborated
+  - strength/strong
+  - type/document-fabrication
+  - source/book
+  - fracture/F-MS
+  - person/이지영
+  - person/김수진
+  - org/국전원
+  - org/군검찰단
+  - org/MND
+  - org/국유단
+  - has/record-nos
+---
 # 2019.9.2 시험평가 절차 간소화 요청의 시간적 모순 — 시간 역전 조작의 증거
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md (book §3.4.7.1)

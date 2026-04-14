@@ -1,3 +1,54 @@
+---
+lang: ko
+title-ko: 군검찰단은 카르텔의 공범이 아닌 주동자
+title-en: ""
+aliases:
+  - FR-L6-PROSECUTION-PRINCIPAL-ACTOR
+  - 군검찰단은 카르텔의 공범이 아닌 주동자
+
+layer: 6
+secondary-layers: []
+claimType: institutional_obstruction
+claimSubtype: institutional_criminal_role
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 10
+analysisDate: 2026-04-12
+
+record-nos: [4890, 6620, 11334]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+organizations:
+  - DIDC
+  - 국전원
+  - 군검찰단
+  - MND
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/institutional-obstruction
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - org/DIDC
+  - org/국전원
+  - org/군검찰단
+  - org/MND
+  - org/국유단
+  - has/record-nos
+---
 # 군검찰단은 카르텔의 공범이 아닌 주동자
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.6.2 (lines 806-812)

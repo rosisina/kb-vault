@@ -1,3 +1,50 @@
+---
+lang: ko
+title-ko: "3단계: 이지영의 3.9억원 추가예산 요구공문으로 함정 발동, 전력화 지연을 범죄로 전환 (2021~2022.4)"
+title-en: ""
+aliases:
+  - FR-L6-B3-002
+  - "3단계: 이지영의 3.9억원 추가예산 요구공문으로 함정 발동, 전력화 지연을 범죄로 전환"
+
+layer: 6
+secondary-layers: [5]
+claimType: temporal_manipulation
+claimSubtype: three_phase_delay_mechanism_phase3
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 8
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: [4854]
+evidence-ids: ["L6-021"]
+event-date: null
+
+persons:
+  - 이지영
+  - 한지훈
+organizations:
+  - 국전원
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/temporal-manipulation
+  - source/book
+  - fracture/F-MS
+  - person/이지영
+  - person/한지훈
+  - org/국전원
+  - has/record-nos
+  - cross-layer
+---
 # 3단계: 이지영의 3.9억원 추가예산 요구공문으로 함정 발동, 전력화 지연을 범죄로 전환 (2021~2022.4)
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md (§3.6.5.3, §3.6.5.3.3, lines 762–780)

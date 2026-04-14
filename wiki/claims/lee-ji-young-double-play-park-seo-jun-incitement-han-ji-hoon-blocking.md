@@ -1,3 +1,60 @@
+---
+lang: ko
+title-ko: "이지영의 이중 플레이: 박서준에게 신고 유도, 한지훈에게 정보 차단"
+title-en: ""
+aliases:
+  - FR-L5-053
+  - "이지영의 이중 플레이: 박서준에게 신고 유도, 한지훈에게 정보 차단"
+
+layer: 5
+secondary-layers: []
+claimType: methodology
+claimSubtype: action
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 7
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: [11063]
+evidence-ids: ["L5-053"]
+event-date: 2022-02-18
+
+persons:
+  - 이지영
+  - 박서준
+  - 한지훈
+  - 김민수
+  - 이진한
+organizations:
+  - 국전원
+  - 군검찰단
+  - MND
+  - 조사본부
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/methodology
+  - source/book
+  - fracture/F-MS
+  - person/이지영
+  - person/박서준
+  - person/한지훈
+  - person/김민수
+  - person/이진한
+  - org/국전원
+  - org/군검찰단
+  - org/MND
+  - org/조사본부
+  - has/record-nos
+---
 # 이지영의 이중 플레이: 박서준에게 신고 유도, 한지훈에게 정보 차단
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md (§3.5.3.1.2)

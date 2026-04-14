@@ -1,3 +1,54 @@
+---
+lang: ko
+title-ko: IT 상식과의 괴리 — 군검찰이 전 세계 IT 표준 실무인 방화벽 포트 개방을 범죄로 규정
+title-en: IT 상식과의 괴리 — 군검찰이 전 세계 IT 표준 실무인 방화벽 포트 개방을 범죄로 규정
+aliases:
+  - FR-L6-B2-003
+  - IT 상식과의 괴리 — 군검찰이 전 세계 IT 표준 실무인 방화벽 포트 개방을 범죄로 규정
+
+layer: 6
+secondary-layers: [5]
+claimType: prosecution_misconduct
+claimSubtype: prosecution_contradicts_it_standard_practice
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 10
+analysisDate: 2026-04-11
+
+record-nos: [4338, 4542]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 임형규
+  - 최동욱
+  - 한지훈
+organizations:
+  - DIDC
+  - 국전원
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/prosecution-misconduct
+  - source/book
+  - fracture/F-CE
+  - person/임형규
+  - person/최동욱
+  - person/한지훈
+  - org/DIDC
+  - org/국전원
+  - has/record-nos
+  - cross-layer
+---
 # IT 상식과의 괴리 — 군검찰이 전 세계 IT 표준 실무인 방화벽 포트 개방을 범죄로 규정
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md (§3.6.4.11.6, lines 690–693)

@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: "최동욱 변호사: \"입금해야 선임계를 낼 수 있다\" — 수임료 조건부 대리 + 성과 보수 구조"
+title-en: "최동욱 변호사: \"입금해야 선임계를 낼 수 있다\" — 수임료 조건부 대리 + 성과 보수 구조"
+aliases:
+  - FR-L6-LAWYER-FEE-CONTINGENT
+  - "최동욱 변호사: \"입금해야 선임계를 낼 수 있다\" — 수임료 조건부 대리 + 성과 보수"
+
+layer: 6
+secondary-layers: [5]
+claimType: attorney_misconduct
+claimSubtype: attorney_fiduciary_breach
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 7
+sincerity: 9
+analysisDate: 2026-04-13
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 최동욱
+  - 한지훈
+organizations: []
+has-verbatim: true
+
+tags:
+  - layer/L6
+  - layer/L5
+  - verdict/corroborated
+  - strength/moderate
+  - type/attorney-misconduct
+  - source/recording
+  - person/최동욱
+  - person/한지훈
+  - has/verbatim-quote
+  - cross-layer
+---
 # 최동욱 변호사: "입금해야 선임계를 낼 수 있다" — 수임료 조건부 대리 + 성과 보수 구조
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[016]` 녹취 183 (녹취 아, 2022.8.4, 00:05:40, line 8530+)

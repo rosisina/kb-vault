@@ -1,3 +1,50 @@
+---
+lang: ko
+title-ko: DIDC의 VPN OTP 카드 1년 6개월 미제공 — 舊KIATIS 은폐를 위한 의도적 지연
+title-en: DIDC의 VPN OTP 카드 1년 6개월 미제공 — 舊KIATIS 은폐를 위한 의도적 지연
+aliases:
+  - FR-L4-VPN-OTP-WITHHOLDING
+  - DIDC의 VPN OTP 카드 1년 6개월 미제공 — 舊KIATIS 은폐를 위한 의도적
+
+layer: 4
+secondary-layers: [6, 7]
+claimType: evidence_concealment
+claimSubtype: evidence_concealment_technical
+fracture-type: null
+source-type: book
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 8
+sincerity: 7
+analysisDate: 2026-04-11
+
+record-nos: [4748, 11302]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 장우진
+  - 박서준
+organizations:
+  - DIDC
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L6
+  - layer/L7
+  - verdict/corroborated
+  - strength/moderate
+  - type/evidence-concealment
+  - source/book
+  - person/장우진
+  - person/박서준
+  - org/DIDC
+  - has/record-nos
+  - cross-layer
+---
 # DIDC의 VPN OTP 카드 1년 6개월 미제공 — 舊KIATIS 은폐를 위한 의도적 지연
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.2.3 (lines 163-190)

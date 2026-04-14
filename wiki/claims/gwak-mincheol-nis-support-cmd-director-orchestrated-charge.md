@@ -1,3 +1,55 @@
+---
+lang: ko
+title-ko: "곽민철 (안보지원사 국전원 담당): \"원장님이 가짜 환경을 만들어서 속였다고\" — 김민수의 혐의 설계 구조 증언"
+title-en: "곽민철 (안보지원사 국전원 담당): \"원장님이 가짜 환경을 만들어서 속였다고\" — 김민수의 혐의 설계 구조 증언"
+aliases:
+  - FR-L6-NIS-SUPPORT-CMD-DIRECTOR-CHARGE
+  - "곽민철 (안보지원사 국전원 담당): \"원장님이 가짜 환경을 만들어서 속였다고\" —"
+
+layer: 6
+secondary-layers: [5]
+claimType: testimony_evidence
+claimSubtype: institutional_observer_testimony
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 8
+sincerity: 9
+analysisDate: 2026-04-13
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+  - 곽민철
+  - 김민수
+  - 이준호
+  - 박서준
+organizations:
+  - 국전원
+has-verbatim: true
+
+tags:
+  - layer/L6
+  - layer/L5
+  - verdict/corroborated
+  - strength/moderate
+  - type/testimony-evidence
+  - source/recording
+  - person/한지훈
+  - person/곽민철
+  - person/김민수
+  - person/이준호
+  - person/박서준
+  - org/국전원
+  - has/verbatim-quote
+  - cross-layer
+---
 # 곽민철 (안보지원사 국전원 담당): "원장님이 가짜 환경을 만들어서 속였다고" — 김민수의 혐의 설계 구조 증언
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[017]` 녹취 200 (2022.8.2, 00:12:21, line 11660+)

@@ -1,3 +1,45 @@
+---
+lang: ko
+title-ko: "제2576호 (2021-08-12): 제62조⑤ 삭제 — 사업통제기관 시험평가계획 승인 권한 완전 제거"
+title-en: "제2576호 (2021-08-12): 제62조⑤ 삭제 — 사업통제기관 시험평가계획 승인 권한 완전 제거"
+aliases:
+  - FR-L4-ART62-APPROVAL-DELETED
+  - "제2576호 (2021-08-12): 제62조⑤ 삭제 — 사업통제기관 시험평가계획 승인"
+
+layer: 4
+secondary-layers: [1]
+claimType: regulatory_manipulation
+claimSubtype: regulatory_anchor_deletion
+fracture-type: F-MS
+source-type: regulation
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 7
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L1
+  - verdict/corroborated
+  - strength/strong
+  - type/regulatory-manipulation
+  - source/regulation
+  - fracture/F-MS
+  - org/MND
+  - cross-layer
+---
 # 제2576호 (2021-08-12): 제62조⑤ 삭제 — 사업통제기관 시험평가계획 승인 권한 완전 제거
 
 **Source:** raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2576호)(20210812).converted.md 제62조⑤ (lines 1763)

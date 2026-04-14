@@ -1,3 +1,51 @@
+---
+lang: ko
+title-ko: 병사 휴대전화 보안통제 아키텍처 아이디어 절도 및 특허출원 모의
+title-en: ""
+aliases:
+  - FR-L3-IDEA-THEFT-MOBILE
+  - 병사 휴대전화 보안통제 아키텍처 아이디어 절도 및 특허출원 모의
+
+layer: 3
+secondary-layers: []
+claimType: methodology
+claimSubtype: intellectual_property_misappropriation
+fracture-type: null
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 7
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: [2359, 2364, 2374, 2418, 11077, 11176]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+  - 최영수
+  - 진상호
+organizations:
+  - 국전원
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L3
+  - verdict/corroborated
+  - strength/strong
+  - type/methodology
+  - source/book
+  - person/한지훈
+  - person/최영수
+  - person/진상호
+  - org/국전원
+  - org/MND
+  - has/record-nos
+---
 # 병사 휴대전화 보안통제 아키텍처 아이디어 절도 및 특허출원 모의
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/09-3-3-33-제3-층위.md §3.3.3.2 (lines 44-61)

@@ -1,3 +1,48 @@
+---
+lang: ko
+title-ko: DIDC 1센터(용인)가 2016 해킹의 실제 거점 — 2센터(계룡대) 아닌 1센터
+title-en: DIDC 1센터(용인)가 2016 해킹의 실제 거점 — 2센터(계룡대) 아닌 1센터
+aliases:
+  - FR-L6-DIDC-CENTER1-TRUE-HOST
+  - DIDC 1센터(용인)가 2016 해킹의 실제 거점 — 2센터(계룡대) 아닌 1센터
+
+layer: 6
+secondary-layers: [1]
+claimType: evidence_concealment
+claimSubtype: factual_concealment
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 10
+analysisDate: 2026-04-12
+
+record-nos: [6609, 6620]
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations:
+  - DIDC
+  - 군검찰단
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L1
+  - verdict/corroborated
+  - strength/strong
+  - type/evidence-concealment
+  - source/book
+  - fracture/F-CE
+  - org/DIDC
+  - org/군검찰단
+  - has/record-nos
+  - cross-layer
+---
 # DIDC 1센터(용인)가 2016 해킹의 실제 거점 — 2센터(계룡대) 아닌 1센터
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.1 (lines 6-13)

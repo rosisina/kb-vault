@@ -1,3 +1,52 @@
+---
+lang: ko
+title-ko: 김민수의 '어떻게 아니' 허위 진술 — 경력 기록과 직접 모순
+title-en: 김민수의 '어떻게 아니' 허위 진술 — 경력 기록과 직접 모순
+aliases:
+  - FR-L4-KIM-MINSU-FALSE-IGNORANCE
+  - 김민수의 '어떻게 아니' 허위 진술 — 경력 기록과 직접 모순
+
+layer: 4
+secondary-layers: [5]
+claimType: witness_manipulation
+claimSubtype: false_testimony
+fracture-type: F-SC
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: [6748, 6755, 6760, 11055, 11056]
+evidence-ids: []
+event-date: null
+
+persons:
+  - 김민수
+  - 박성호
+organizations:
+  - 국전원
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/witness-manipulation
+  - source/book
+  - fracture/F-SC
+  - person/김민수
+  - person/박성호
+  - org/국전원
+  - org/MND
+  - has/record-nos
+  - cross-layer
+---
 # 김민수의 '어떻게 아니' 허위 진술 — 경력 기록과 직접 모순
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.7.4 (lines 723-777)

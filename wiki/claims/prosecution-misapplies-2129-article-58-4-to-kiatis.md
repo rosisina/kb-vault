@@ -1,3 +1,53 @@
+---
+lang: ko
+title-ko: 불기소이유서가 제2129호 제58조 ¶4 (5억-미만 예외 조항)를 KIATIS에 잘못 적용 — 법리적 오류로 기소유예 처분 정당화 시도
+title-en: 불기소이유서가 제2129호 제58조 ¶4 (5억-미만 예외 조항)를 KIATIS에 잘못 적용 — 법리적 오류로 기소유예 처분 정당화 시도
+aliases:
+  - FR-L6-003
+  - 불기소이유서가 제2129호 제58조 ¶4 (5억-미만 예외 조항)를 KIATIS에 잘못
+
+layer: 6
+secondary-layers: []
+claimType: prosecution_misconduct
+claimSubtype: prosecution_legal_misapplication
+fracture-type: F-CE
+source-type: investigation
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 10
+validity: 10
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: ["L6-003"]
+event-date: 2022-10-07
+
+persons:
+  - 한지훈
+  - 임형규
+  - 안세준
+organizations:
+  - 국전원
+  - 군검찰단
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/prosecution-misconduct
+  - source/investigation
+  - fracture/F-CE
+  - person/한지훈
+  - person/임형규
+  - person/안세준
+  - org/국전원
+  - org/군검찰단
+  - org/MND
+---
 # 불기소이유서가 제2129호 제58조 ¶4 (5억-미만 예외 조항)를 KIATIS에 잘못 적용 — 법리적 오류로 기소유예 처분 정당화 시도
 
 **Source:** raw/05. Investigation by the Military Prosecutor's Office/Bilingual(English, Korean)/(20221014) Fraudulent Proof of Notification of the Reason for Non-Prosecution(English, Korean).converted.md (불기소이유서 verbatim, 2022-10-07, Case 2022 형제66호) • raw/04 제2129호 제58조 verbatim

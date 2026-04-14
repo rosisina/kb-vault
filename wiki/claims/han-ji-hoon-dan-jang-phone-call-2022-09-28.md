@@ -1,3 +1,55 @@
+---
+lang: ko
+title-ko: 한지훈과 군검찰단장(안세준)의 2022-09-28 녹취 전화 통화는 단장이 결함있는 기소 및 한지훈의 무혐의를 개인적으로 인지한 상태에서 기소유예를 진행했음을 입증하는 1차 증거임
+title-en: ""
+aliases:
+  - FR-L7-DANJANG-CALL
+  - 한지훈과 군검찰단장(안세준)의 2022-09-28 녹취 전화 통화는 단장이 결함있는 기소
+
+layer: 7
+secondary-layers: [6]
+claimType: testimony_evidence
+claimSubtype: decisional_awareness_primary_evidence
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 10
+validity: 8
+sincerity: 10
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: 2022-09-28
+
+persons:
+  - 한지훈
+  - 안세준
+  - 임형규
+  - 진상호
+organizations:
+  - 군검찰단
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L7
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/testimony-evidence
+  - source/book
+  - fracture/F-CE
+  - person/한지훈
+  - person/안세준
+  - person/임형규
+  - person/진상호
+  - org/군검찰단
+  - org/MND
+  - cross-layer
+---
 # 한지훈과 군검찰단장(안세준)의 2022-09-28 녹취 전화 통화는 단장이 결함있는 기소 및 한지훈의 무혐의를 개인적으로 인지한 상태에서 기소유예를 진행했음을 입증하는 1차 증거임
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/13-3-7-37-제7층위-진정서.md (book §3.7.1.2)

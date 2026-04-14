@@ -1,3 +1,45 @@
+---
+lang: ko
+title-ko: 증거인멸 프레임을 통한 행동 봉쇄 — 김민수의 단일 화행으로 달성한 전면 마비
+title-en: 증거인멸 프레임을 통한 행동 봉쇄 — 김민수의 단일 화행으로 달성한 전면 마비
+aliases:
+  - FR-L5-EVIDENCE-DESTRUCTION-FRAME
+  - 증거인멸 프레임을 통한 행동 봉쇄 — 김민수의 단일 화행으로 달성한 전면 마비
+
+layer: 5
+secondary-layers: []
+claimType: witness_manipulation
+claimSubtype: speech_act_manipulation
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 10
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 김민수
+  - 한지훈
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/witness-manipulation
+  - source/book
+  - fracture/F-MS
+  - person/김민수
+  - person/한지훈
+---
 # 증거인멸 프레임을 통한 행동 봉쇄 — 김민수의 단일 화행으로 달성한 전면 마비
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md §3.5.3.4.7 (lines 457-460)

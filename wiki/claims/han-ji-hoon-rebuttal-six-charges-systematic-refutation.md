@@ -1,3 +1,56 @@
+---
+lang: ko
+title-ko: 한지훈 반박 문서(2022.9.29)의 6개 혐의별 체계적 반박 — 각 혐의가 "비상식적이고 부조리하다"는 것을 정리·공준에 의해 증명
+title-en: 한지훈 반박 문서(2022.9.29)의 6개 혐의별 체계적 반박 — 각 혐의가 "비상식적이고 부조리하다"는 것을 정리·공준에 의해 증명
+aliases:
+  - FR-L6-SIX-CHARGES-REFUTATION
+  - 한지훈 반박 문서(2022.9.29)의 6개 혐의별 체계적 반박 — 각 혐의가
+
+layer: 6
+secondary-layers: []
+claimType: prosecution_misconduct
+claimSubtype: six_charges_systematic_refutation
+fracture-type: null
+source-type: investigation
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 10
+validity: 9
+sincerity: 10
+analysisDate: 2026-04-13
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 한지훈
+  - 이준호
+  - 김경진
+  - 김민수
+organizations:
+  - DIDC
+  - 국전원
+  - 군검찰단
+  - 조달청
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/prosecution-misconduct
+  - source/investigation
+  - person/한지훈
+  - person/이준호
+  - person/김경진
+  - person/김민수
+  - org/DIDC
+  - org/국전원
+  - org/군검찰단
+  - org/조달청
+---
 # 한지훈 반박 문서(2022.9.29)의 6개 혐의별 체계적 반박 — 각 혐의가 "비상식적이고 부조리하다"는 것을 정리·공준에 의해 증명
 
 **Source:** raw/05. Investigation by the Military Prosecutor's Office/Bilingual(English, Korean)/(20220929) Explanation and Proof Search, Seizure, and Verification Warrants Search(English, Korean).converted.md (lines 193~3100+)

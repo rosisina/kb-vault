@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: 제2436호 removes the DIDC entity-naming anchor from 제10조
+title-en: ""
+aliases:
+  - FR-L1-001
+  - 제2436호 removes the DIDC entity-naming anchor from
+
+layer: 1
+secondary-layers: []
+claimType: regulatory_manipulation
+claimSubtype: regulatory_anchor_removal
+fracture-type: F-CE
+source-type: regulation
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 7
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: ["L1-001"]
+event-date: 2020-06-04
+
+persons: []
+organizations:
+  - DIDC
+  - MND
+  - 국본
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - verdict/corroborated
+  - strength/strong
+  - type/regulatory-manipulation
+  - source/regulation
+  - fracture/F-CE
+  - org/DIDC
+  - org/MND
+  - org/국본
+---
 # 제2436호 removes the DIDC entity-naming anchor from 제10조
 
 **Source:** raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2129호)(20180205).converted.md, raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2436호)(20200604).converted.md

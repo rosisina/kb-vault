@@ -1,3 +1,52 @@
+---
+lang: ko
+title-ko: "新KIATIS 사업의 예산 필수 소요 요구 기능(SW, HW)에 대한 의도적 예산 축소"
+title-en: ""
+aliases:
+  - FR-L2-051
+  - "新KIATIS 사업의 예산 필수 소요 요구 기능(SW, HW)에 대한 의도적 예산 축소"
+
+layer: 2
+secondary-layers: [6]
+claimType: temporal_manipulation
+claimSubtype: intentional_budget_reduction
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 8
+validity: 8
+sincerity: 8
+analysisDate: 2026-04-11
+
+record-nos: [4866]
+evidence-ids: ["L2-051"]
+event-date: null
+
+persons:
+  - 한지훈
+organizations:
+  - 국전원
+  - 국유단
+  - 조달청
+has-verbatim: false
+
+tags:
+  - layer/L2
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/temporal-manipulation
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - org/국전원
+  - org/국유단
+  - org/조달청
+  - has/record-nos
+  - cross-layer
+---
 # 新KIATIS 사업의 예산 필수 소요 요구 기능(SW, HW)에 대한 의도적 예산 축소
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/08-3-2-32-제2-층위.md (§3.2.1.3)

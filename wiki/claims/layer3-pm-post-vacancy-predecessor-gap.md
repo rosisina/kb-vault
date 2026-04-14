@@ -1,3 +1,45 @@
+---
+lang: ko
+title-ko: 新KIATIS 사업관리팀장 보직은 부지불식간에 임의 변경되었고 전임자는 2개월간 공석이었다
+title-en: ""
+aliases:
+  - FR-L3-PM-POST-VACANCY-001
+  - 新KIATIS 사업관리팀장 보직은 부지불식간에 임의 변경되었고 전임자는 2개월간 공석이었다
+
+layer: 3
+secondary-layers: []
+claimType: procedural_violation
+claimSubtype: procedural_irregularity
+fracture-type: null
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 9
+
+record-nos: []
+evidence-ids: []
+event-date: 2018-12-03
+
+persons:
+  - 한지훈
+organizations:
+  - 국전원
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L3
+  - verdict/corroborated
+  - strength/strong
+  - type/procedural-violation
+  - source/book
+  - person/한지훈
+  - org/국전원
+  - org/MND
+---
 # 新KIATIS 사업관리팀장 보직은 부지불식간에 임의 변경되었고 전임자는 2개월간 공석이었다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/09-3-3-33-제3-층위.md (§3.3.1.1)

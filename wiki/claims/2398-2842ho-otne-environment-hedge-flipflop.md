@@ -1,3 +1,42 @@
+---
+lang: ko
+title-ko: "제2398호 → 제2436호 → 제2842호 OT&E environment hedge flip-flop"
+title-en: ""
+aliases:
+  - FR-L4-A8a-001
+  - "제2398호 → 제2436호 → 제2842호 OT&E environment hedge"
+
+layer: 4
+secondary-layers: []
+claimType: regulatory_manipulation
+claimSubtype: regulatory_anchor_flipflop
+fracture-type: null
+source-type: regulation
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 8
+sincerity: 7
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: 2020-02-13
+
+persons: []
+organizations:
+  - MND
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - verdict/corroborated
+  - strength/moderate
+  - type/regulatory-manipulation
+  - source/regulation
+  - org/MND
+---
 # 제2398호 → 제2436호 → 제2842호 OT&E environment hedge flip-flop
 
 **Source:** raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2129호)(20180205).converted.md, raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2398호)(20200213).converted.md, raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2436호)(20200604).converted.md, raw/04. law & regulation/Korean/국방 정보화업무 훈령(국방부훈령)(제2842호)(20230920).converted.md

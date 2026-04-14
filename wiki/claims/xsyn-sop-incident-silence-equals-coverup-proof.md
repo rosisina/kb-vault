@@ -1,3 +1,46 @@
+---
+lang: ko
+title-ko: DIDC 예규 8단계 침해대응 의무 vs. 2016 해킹 보고서 완전 부재 — 침묵=은폐 증명
+title-en: DIDC 예규 8단계 침해대응 의무 vs. 2016 해킹 보고서 완전 부재 — 침묵=은폐 증명
+aliases:
+  - FR-XSYN-SILENCE-COVERUP
+  - DIDC 예규 8단계 침해대응 의무 vs. 2016 해킹 보고서 완전 부재 — 침묵=은폐
+
+layer: 1
+secondary-layers: [6]
+claimType: cross_layer_analysis
+claimSubtype: cross_source_synthesis
+fracture-type: F-AA
+source-type: sop
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 10
+sincerity: 8
+analysisDate: 2026-04-12
+
+record-nos: [1]
+evidence-ids: []
+event-date: 2016-02-01
+
+persons: []
+organizations:
+  - DIDC
+has-verbatim: false
+
+tags:
+  - layer/L1
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/cross-layer-analysis
+  - source/sop
+  - fracture/F-AA
+  - org/DIDC
+  - has/record-nos
+  - cross-layer
+---
 # DIDC 예규 8단계 침해대응 의무 vs. 2016 해킹 보고서 완전 부재 — 침묵=은폐 증명
 
 **Source:** raw/06. DIDC SOP(국방 통합데이터 센터 예규)/01.(Korean) DIDC_사이버방호_예규.md 제17-24조 (lines 341-493)

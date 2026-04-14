@@ -1,3 +1,55 @@
+---
+lang: ko
+title-ko: "수사관 진상호: \"결국 VPN이죠\" — 전체 사건이 VPN 문제로 귀결 + \"나항\" 기재 누락 자인"
+title-en: "수사관 진상호: \"결국 VPN이죠\" — 전체 사건이 VPN 문제로 귀결 + \"나항\" 기재 누락 자인"
+aliases:
+  - FR-L6-INVESTIGATOR-VPN-ADMISSION
+  - "수사관 진상호: \"결국 VPN이죠\" — 전체 사건이 VPN 문제로 귀결 + \"나항\" 기재"
+
+layer: 6
+secondary-layers: []
+claimType: prosecution_misconduct
+claimSubtype: prosecution_admission
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 8
+analysisDate: 2026-04-13
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 진상호
+  - 한지훈
+  - 장우진
+  - 장호재
+  - 김철환
+organizations:
+  - DIDC
+  - 군검찰단
+has-verbatim: true
+
+tags:
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/prosecution-misconduct
+  - source/recording
+  - person/진상호
+  - person/한지훈
+  - person/장우진
+  - person/장호재
+  - person/김철환
+  - org/DIDC
+  - org/군검찰단
+  - has/verbatim-quote
+---
 # 수사관 진상호: "결국 VPN이죠" — 전체 사건이 VPN 문제로 귀결 + "나항" 기재 누락 자인
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[012]` 녹취 159 (2022.9.13, 00:40:02, line 7539+) • 녹취 152 (2022.8.31, 00:29:20, line 6414+)

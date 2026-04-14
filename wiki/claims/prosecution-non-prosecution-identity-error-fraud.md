@@ -1,3 +1,52 @@
+---
+lang: ko
+title-ko: 불기소 결정서가 '동일성 오류'를 기만기술로 사용하여 시험평가 환경과 수사 시점 운영 환경을 의도적으로 동일시하였다
+title-en: ""
+aliases:
+  - FR-L6-B3-001
+  - 불기소 결정서가 '동일성 오류'를 기만기술로 사용하여 시험평가 환경과 수사 시점 운영
+
+layer: 6
+secondary-layers: [2, 5, 7]
+claimType: prosecution_misconduct
+claimSubtype: prosecution_identity_error_technique
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: [1536, 4424, 8011, 9116]
+evidence-ids: ["L6-024"]
+event-date: null
+
+persons:
+  - 한지훈
+organizations:
+  - 군검찰단
+  - 조달청
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L2
+  - layer/L5
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/prosecution-misconduct
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - org/군검찰단
+  - org/조달청
+  - has/record-nos
+  - cross-layer
+---
 # 불기소 결정서가 '동일성 오류'를 기만기술로 사용하여 시험평가 환경과 수사 시점 운영 환경을 의도적으로 동일시하였다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md (§3.6.4.4, lines 382–397)

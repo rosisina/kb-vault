@@ -1,3 +1,45 @@
+---
+lang: ko
+title-ko: 新KIATIS 지연을 통한 한지훈 제거 — 2022.2.8 진실 발견 후 '개발 부실' 프레이밍
+title-en: 新KIATIS 지연을 통한 한지훈 제거 — 2022.2.8 진실 발견 후 '개발 부실' 프레이밍
+aliases:
+  - FR-L6-DELAY-LEADER-ELIMINATION
+  - 新KIATIS 지연을 통한 한지훈 제거 — 2022.2.8 진실 발견 후 '개발 부실'
+
+layer: 6
+secondary-layers: [5]
+claimType: human_rights_violation
+claimSubtype: victim_targeting
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 8
+validity: 7
+sincerity: 9
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: 2022-02-08
+
+persons:
+  - 한지훈
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L6
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/human-rights-violation
+  - source/book
+  - fracture/F-MS
+  - person/한지훈
+  - cross-layer
+---
 # 新KIATIS 지연을 통한 한지훈 제거 — 2022.2.8 진실 발견 후 '개발 부실' 프레이밍
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.5.2 (lines 747-761)

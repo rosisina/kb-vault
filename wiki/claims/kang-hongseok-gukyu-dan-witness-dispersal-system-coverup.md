@@ -1,3 +1,49 @@
+---
+lang: ko
+title-ko: "강홍석 (국유단 정보통신 상사): \"다른 사람은 전화도 안 받아\" + \"평가했던 사람들 다 다른 데로 갔어\" — 증인 분산과 시스템 은폐 지속"
+title-en: "강홍석 (국유단 정보통신 상사): \"다른 사람은 전화도 안 받아\" + \"평가했던 사람들 다 다른 데로 갔어\" — 증인 분산과 시스템 은폐 지속"
+aliases:
+  - FR-L6-WITNESS-DISPERSAL
+  - "강홍석 (국유단 정보통신 상사): \"다른 사람은 전화도 안 받아\" + \"평가했던 사람들"
+
+layer: 6
+secondary-layers: [4]
+claimType: witness_manipulation
+claimSubtype: witness_dispersal_evidence
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: MODERATE
+truthfulness: 8
+validity: 7
+sincerity: 9
+analysisDate: 2026-04-13
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 강홍석
+  - 한지훈
+organizations:
+  - 국유단
+has-verbatim: true
+
+tags:
+  - layer/L6
+  - layer/L4
+  - verdict/corroborated
+  - strength/moderate
+  - type/witness-manipulation
+  - source/recording
+  - person/강홍석
+  - person/한지훈
+  - org/국유단
+  - has/verbatim-quote
+  - cross-layer
+---
 # 강홍석 (국유단 정보통신 상사): "다른 사람은 전화도 안 받아" + "평가했던 사람들 다 다른 데로 갔어" — 증인 분산과 시스템 은폐 지속
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[023]` 녹취 221 (2022.8.25, 00:02:53, line 13976+) • 녹취 222 (2022.9.20, 00:02:41, line 14004+)

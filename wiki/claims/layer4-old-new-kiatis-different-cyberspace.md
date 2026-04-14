@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: 舊KIATIS의 실제 운영환경과 新KIATIS 사업의 시험 환경은 다른 사이버공간이다
+title-en: ""
+aliases:
+  - FR-L4-051
+  - 舊KIATIS의 실제 운영환경과 新KIATIS 사업의 시험 환경은 다른 사이버공간이다
+
+layer: 4
+secondary-layers: [7]
+claimType: technical_proof
+claimSubtype: operational_vs_test_environment_separation
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 7
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: ["L4-001", "L4-051"]
+event-date: null
+
+persons:
+  - 한지훈
+organizations:
+  - DIDC
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/technical-proof
+  - source/book
+  - fracture/F-CE
+  - person/한지훈
+  - org/DIDC
+  - cross-layer
+---
 # 舊KIATIS의 실제 운영환경과 新KIATIS 사업의 시험 환경은 다른 사이버공간이다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md (§3.4.1.2)

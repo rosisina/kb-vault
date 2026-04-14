@@ -1,3 +1,53 @@
+---
+lang: ko
+title-ko: "최동욱 변호사: \"깔끔하게 제대하겠다\" — 전역을 조건으로 신고 봉쇄 제안 + \"박서준 동의 불요\""
+title-en: "최동욱 변호사: \"깔끔하게 제대하겠다\" — 전역을 조건으로 신고 봉쇄 제안 + \"박서준 동의 불요\""
+aliases:
+  - FR-L5-LAWYER-COERCIVE-RESIGNATION
+  - "최동욱 변호사: \"깔끔하게 제대하겠다\" — 전역을 조건으로 신고 봉쇄 제안 + \"박서준"
+
+layer: 5
+secondary-layers: [6]
+claimType: attorney_misconduct
+claimSubtype: attorney_misconduct_coercion
+fracture-type: null
+source-type: recording
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 9
+sincerity: 10
+analysisDate: 2026-04-13
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons:
+  - 최동욱
+  - 박서준
+  - 한지훈
+  - 김민수
+  - 이지영
+organizations: []
+has-verbatim: true
+
+tags:
+  - layer/L5
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/attorney-misconduct
+  - source/recording
+  - person/최동욱
+  - person/박서준
+  - person/한지훈
+  - person/김민수
+  - person/이지영
+  - has/verbatim-quote
+  - cross-layer
+---
 # 최동욱 변호사: "깔끔하게 제대하겠다" — 전역을 조건으로 신고 봉쇄 제안 + "박서준 동의 불요"
 
 **Source:** raw/02. Individual recording logs/(Korean) individual_recording_logs_beyond_cybersecurity.md `[016]` 녹취 178 (녹취 다, 2022.2.18, 00:06:29, line 8118+)

@@ -1,3 +1,42 @@
+---
+lang: ko
+title-ko: "별표1 용어 수 진동 패턴: 제2436호가 최저점(138) — 본문 조작 강도와 동기화"
+title-en: "별표1 용어 수 진동 패턴: 제2436호가 최저점(138) — 본문 조작 강도와 동기화"
+aliases:
+  - FR-L4-GLOSSARY-OSCILLATION
+  - "별표1 용어 수 진동 패턴: 제2436호가 최저점(138) — 본문 조작 강도와 동기화"
+
+layer: 4
+secondary-layers: [1]
+claimType: methodology
+claimSubtype: pattern_analysis
+fracture-type: null
+source-type: regulation
+
+verdict: NEEDS_MORE_EVIDENCE
+strength: MODERATE
+truthfulness: 8
+validity: 7
+sincerity: 6
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: null
+
+persons: []
+organizations: []
+has-verbatim: false
+
+tags:
+  - layer/L4
+  - layer/L1
+  - verdict/needs-more-evidence
+  - strength/moderate
+  - type/methodology
+  - source/regulation
+  - cross-layer
+---
 # 별표1 용어 수 진동 패턴: 제2436호가 최저점(138) — 본문 조작 강도와 동기화
 
 **Source:** raw/08. 용어 변천사/(국방 정보화 업무 훈령) 용어정의 변천사(2018~2025년).converted.md 전체 8개 개정판 (lines 1-4472)

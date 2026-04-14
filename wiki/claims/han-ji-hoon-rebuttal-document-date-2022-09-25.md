@@ -1,3 +1,47 @@
+---
+lang: ko
+title-ko: "한지훈의 반박 문서 \"압수·수색·검증 영장에 대한 해명과 증명\"의 올바른 작성일자는 2022-09-25이며, raw/05의 파일명 2022-09-29는 James의 파일 명명 관례상 metadata로서 문서 interior에는 어떠한 날짜도 인쇄되어 있지 않아 책(2022-09-25)이 최종 authoritative임"
+title-en: ""
+aliases:
+  - FR-L7-DATE-MISMATCH
+  - 한지훈의 반박 문서 "압수·수색·검증 영장에 대한 해명과 증명"의 올바른 작성일자는
+
+layer: 7
+secondary-layers: [6]
+claimType: temporal_manipulation
+claimSubtype: date_discrepancy_resolved
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 7
+sincerity: 7
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: []
+event-date: 2022-09-29
+
+persons:
+  - 한지훈
+organizations:
+  - 군검찰단
+has-verbatim: false
+
+tags:
+  - layer/L7
+  - layer/L6
+  - verdict/corroborated
+  - strength/strong
+  - type/temporal-manipulation
+  - source/book
+  - fracture/F-CE
+  - person/한지훈
+  - org/군검찰단
+  - cross-layer
+---
 # 한지훈의 반박 문서 "압수·수색·검증 영장에 대한 해명과 증명"의 올바른 작성일자는 2022-09-25이며, raw/05의 파일명 2022-09-29는 James의 파일 명명 관례상 metadata로서 문서 interior에는 어떠한 날짜도 인쇄되어 있지 않아 책(2022-09-25)이 최종 authoritative임
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/13-3-7-37-제7층위-진정서.md (book §3.7.1.1)

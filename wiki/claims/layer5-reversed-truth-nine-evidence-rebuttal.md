@@ -1,3 +1,49 @@
+---
+lang: ko
+title-ko: 역전된 진실 — 한지훈의 소명서·반박논증에서 나타난 9개 증거 기반 반박
+title-en: 역전된 진실 — 한지훈의 소명서·반박논증에서 나타난 9개 증거 기반 반박
+aliases:
+  - FR-L5-REVERSED-TRUTH-9PROOFS
+  - 역전된 진실 — 한지훈의 소명서·반박논증에서 나타난 9개 증거 기반 반박
+
+layer: 5
+secondary-layers: []
+claimType: evidence_concealment
+claimSubtype: evidence_rebuttal
+fracture-type: F-CE
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 8
+sincerity: 10
+analysisDate: 2026-04-12
+
+record-nos: []
+evidence-ids: []
+event-date: 2022-04-04
+
+persons:
+  - 한지훈
+  - 박서준
+organizations:
+  - 국전원
+  - 조사본부
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - verdict/corroborated
+  - strength/strong
+  - type/evidence-concealment
+  - source/book
+  - fracture/F-CE
+  - person/한지훈
+  - person/박서준
+  - org/국전원
+  - org/조사본부
+---
 # 역전된 진실 — 한지훈의 소명서·반박논증에서 나타난 9개 증거 기반 반박
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md §3.5.3.4.1 (lines 427-430)

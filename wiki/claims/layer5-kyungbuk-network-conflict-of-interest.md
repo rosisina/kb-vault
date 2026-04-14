@@ -1,3 +1,66 @@
+---
+lang: ko
+title-ko: 경북대 동문 네트워크는 2016 DIDC 해킹 은폐의 핵심 공모 구조이며 최동욱은 이를 의도적으로 은폐했다
+title-en: ""
+aliases:
+  - FR-L5-008
+  - 경북대 동문 네트워크는 2016 DIDC 해킹 은폐의 핵심 공모 구조이며 최동욱은 이를
+
+layer: 5
+secondary-layers: [7]
+claimType: evidence_concealment
+claimSubtype: network_concealment_conflict_of_interest
+fracture-type: F-MS
+source-type: book
+
+verdict: CORROBORATED
+strength: STRONG
+truthfulness: 9
+validity: 7
+sincerity: 9
+analysisDate: 2026-04-11
+
+record-nos: []
+evidence-ids: ["L5-008"]
+event-date: null
+
+persons:
+  - 최동욱
+  - 이근태
+  - 한지훈
+  - 박성호
+  - 최영수
+  - 김민수
+  - 황만수
+  - 권중현
+organizations:
+  - DIDC
+  - 국전원
+  - 군검찰단
+  - MND
+  - 국유단
+has-verbatim: false
+
+tags:
+  - layer/L5
+  - layer/L7
+  - verdict/corroborated
+  - strength/strong
+  - type/evidence-concealment
+  - source/book
+  - fracture/F-MS
+  - person/최동욱
+  - person/이근태
+  - person/한지훈
+  - person/박성호
+  - person/최영수
+  - org/DIDC
+  - org/국전원
+  - org/군검찰단
+  - org/MND
+  - org/국유단
+  - cross-layer
+---
 # 경북대 동문 네트워크는 2016 DIDC 해킹 은폐의 핵심 공모 구조이며 최동욱은 이를 의도적으로 은폐했다
 
 **Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md (§3.5.2.1.3)
