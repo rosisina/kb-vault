@@ -78,3 +78,67 @@ export interface CytoscapeElements {
   nodes: CytoscapeNode[];
   edges: CytoscapeEdge[];
 }
+
+// ── CP-2: Atom Detail (from detail.json) ──────────────────────────
+
+export interface AtomTakeaway {
+  text: string;
+  axes: ('진리성' | '타당성' | '진실성')[];
+}
+
+export interface AtomEvidence {
+  raw: string;
+  recordNos?: string[];
+  layerIds?: string[];
+}
+
+export interface AtomRelated {
+  slug: string;
+  display: string;
+  type: 'CAUSES' | 'OPPOSES' | 'CORROBORATES' | 'SUPERSEDES' | 'RELATED' | 'PART_OF_LAYER' | 'ABOUT';
+}
+
+export interface AtomDetail {
+  id: string;
+  stem: string;
+  title: string;
+  source: string;
+  layer: number;
+  claim: string;
+  keyTakeaways: AtomTakeaway[];
+  supportingEvidence: AtomEvidence[];
+  counterHypothesis: string;
+  falsificationCondition: string;
+  verdictProse: string;
+  spotCheck: string;
+  related: AtomRelated[];
+  allRecordNos: string[];
+}
+
+export interface DetailJson {
+  _meta: { generator: string; atomCount: number };
+  atoms: Record<string, AtomDetail>;
+}
+
+// ── CP-2: Proof Chain ─────────────────────────────────────────────
+
+export interface ChainNode {
+  node: GraphNode;
+  detail?: AtomDetail;
+  depth: number;            // 0 = root (earliest cause)
+  direction: 'ancestor' | 'self' | 'descendant';
+}
+
+export interface ChainEdge {
+  source: string;
+  target: string;
+  type: string;
+}
+
+export interface ProofChain {
+  focus: string;            // resultId of the selected atom
+  nodes: ChainNode[];
+  edges: ChainEdge[];
+  maxDepth: number;
+  layerSpan: number[];      // sorted unique layers in chain
+}

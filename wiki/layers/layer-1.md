@@ -29,7 +29,7 @@ The Layer 1 cover-up is **structurally provable by absence**: DIDC SOPs mandate 
 
 ## Contradictions
 
-- [[../_contradictions]] entries C-L1-02 through C-L1-09 — directly anchored on the atoms above. SOP-trail cluster (C-L1-03 through C-L1-06) is the strongest Layer 1 finding: each is a binary modus-tollens contradiction (mandatory artifact ↔ proven absence).
+- [[../_fractures]] entries C-L1-02 through C-L1-09 — directly anchored on the atoms above. SOP-trail cluster (C-L1-03 through C-L1-06) is the strongest Layer 1 finding: each is a binary modus-tollens contradiction (mandatory artifact ↔ proven absence).
 
 ## Regulations
 
@@ -79,6 +79,6 @@ This hub corresponds to Aurora `:Layer {layer: 1}` node and aggregates all `:Fal
 
 - [[_index|Layers index]]
 - [[../_master-index|Master index]]
-- [[../_contradictions|Contradictions]]
+- [[../_fractures|Fractures]]
 - [[../claims/_index|Claims]]
 - [[layer-2|Layer 2 →]]

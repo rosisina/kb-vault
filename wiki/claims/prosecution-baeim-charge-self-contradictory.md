@@ -65,6 +65,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[prosecution-non-prosecution-internal-contradiction]] — L6 불기소 모순 (CORROBORATES)
+- [[prosecution-non-prosecution-self-contradiction]] — L6 불기소 모순 (CORROBORATES)
 - [[layer6-997-reframed-as-deficient-development]] — L6 부실개발 재프레이밍 (RELATED)
 - [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

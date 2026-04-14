@@ -107,9 +107,9 @@ A **P6 focused blind re-measurement** was dispatched to resolve the contradictio
 
 **Resolution:** The wiki's three-step flip-flop claim is fully corroborated by direct verbatim text in raw/04. The book's Article 57 comparative table §3.4.4.2.3 **omits the 제2398호 hedge insertion** — the summary table column grouping does not capture the hedge-phrase diff at that revision. This is a book-side gap, not a wiki error.
 
-**Verdict transition: UNCLEAR → BOOK_NEEDS_FOLLOWUP** (the wiki is grounded in primary-evidence verbatim text that contradicts the book's summary table — this is the authority-principle exception defined in `.claude/commands/reverify.md`: "a propositional disagreement where the book conflicts with directly-cited primary evidence (e.g., directive verbatim text) — that exception becomes a `_contradictions.md` entry escalated to a dedicated claim atom"). The underlying NEEDS_MORE_EVIDENCE verdict on the atom's substantive-intent question is unchanged — P6 did not address the clerical counter-hypothesis.
+**Verdict transition: UNCLEAR → BOOK_NEEDS_FOLLOWUP** (the wiki is grounded in primary-evidence verbatim text that contradicts the book's summary table — this is the authority-principle exception defined in `.claude/commands/reverify.md`: "a propositional disagreement where the book conflicts with directly-cited primary evidence (e.g., directive verbatim text) — that exception becomes a `_fractures.md` entry escalated to a dedicated claim atom"). The underlying NEEDS_MORE_EVIDENCE verdict on the atom's substantive-intent question is unchanged — P6 did not address the clerical counter-hypothesis.
 
-This atom has been logged in [[../_contradictions|_contradictions.md]] as entry C-L4-01.
+This atom has been logged in [[../_fractures|_fractures.md]] as entry C-L4-01.
 
 ## Spot-check (raw/01 book)
 

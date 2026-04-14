@@ -63,6 +63,6 @@ SET fr.layer = 6,
 ## Related
 
 - [[prosecution-fraud-meets-criminal-elements]] — L6 사기수사 범죄 성립 (RELATED)
-- [[prosecution-non-prosecution-internal-contradiction]] — L6 불기소 모순 (RELATED)
+- [[prosecution-non-prosecution-self-contradiction]] — L6 불기소 모순 (RELATED)
 - [[prosecution-knew-innocence-continued-case]] — L6 무혐의 인지 (RELATED)
 - [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

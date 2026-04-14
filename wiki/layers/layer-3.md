@@ -39,7 +39,7 @@ Two distinct manipulation patterns operate at Layer 3: (a) **role-tier renaming*
 
 ## Contradictions
 
-- [[../_contradictions]] entries C-L3-01, C-L3-02, C-B-01, C-B-02 — see Bridge category for the legal-framework contradictions that span Layers 3/4/6.
+- [[../_fractures]] entries C-L3-01, C-L3-02, C-B-01, C-B-02 — see Bridge category for the legal-framework contradictions that span Layers 3/4/6.
 
 ## Regulations
 
@@ -91,6 +91,6 @@ Maps to Aurora `:Layer {layer: 3}` node + connected `:Organization {name: "국�
 
 - [[_index|Layers index]]
 - [[../_master-index|Master index]]
-- [[../_contradictions|Contradictions]]
+- [[../_fractures|Fractures]]
 - [[../claims/_index|Claims]]
 - [[layer-2|← Layer 2]] | [[layer-4|Layer 4 →]]

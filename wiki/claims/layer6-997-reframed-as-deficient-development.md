@@ -59,6 +59,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[prosecution-non-prosecution-internal-contradiction]] — L6 불기소 모순 (RELATED)
+- [[prosecution-non-prosecution-self-contradiction]] — L6 불기소 모순 (RELATED)
 - [[80-items-violate-national-contract-law]] — L4 80건 국가계약법 위반 (RELATED)
 - [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

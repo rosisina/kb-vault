@@ -1,4 +1,4 @@
-<!-- Aurora v2 — 우측 패널: Layer 대시보드 + 그룹 목차(진행률) + atom 상세 -->
+<!-- Aurora v2 CP-2 — 우측 패널: 대시보드 + 그룹 목차 + 관계 맵 -->
 <div class="evidence-panel">
 
   <!-- Layer 대시보드 (진행률 바) -->
@@ -14,6 +14,103 @@
         <div class="progress-fill" [style.width.%]="overallPct()"></div>
       </div>
       <span class="overall-pct">{{ overallPct() }}%</span>
+    </div>
+  }
+
+  <!-- ═══════════════════════════════════ -->
+  <!-- CP-2: 답변 context (검색 시) -->
+  <!-- ═══════════════════════════════════ -->
+  @if (answerContext && !selectedAtom()) {
+    <div class="section answer-ctx">
+      <div class="section-label">
+        {{ lang.lang() === 'kr' ? '답변 요약' : 'Answer Summary' }}
+      </div>
+      <div class="answer-ctx-stats">
+        <span>{{ answerContext.directResults.length }}{{ lang.lang() === 'kr' ? '건의 발견사항' : ' findings' }}</span>
+        <span class="stat-sep">·</span>
+        <span>{{ answerContext.allRecordNos.length }} Record Nos</span>
+      </div>
+      <!-- 답변 atom 목록 (클릭→이동) -->
+      @for (item of answerContext.directResults.slice(0, 8); track $index) {
+        <div class="answer-ctx-item" (click)="onAtomClick(item.node.id)">
+          <span class="layer-dot" [style.background]="'var(--aurora-layer-' + item.node.layer + ')'"></span>
+          <span class="ctx-title">{{ item.node.title }}</span>
+        </div>
+      }
+      <!-- 관련 atom (CORROBORATES/OPPOSES) -->
+      @if (answerContext.corroboratingResults.length > 0) {
+        <div class="ctx-rel-label corr">{{ lang.lang() === 'kr' ? '뒷받침' : 'Corroborates' }} ({{ answerContext.corroboratingResults.length }})</div>
+        @for (r of answerContext.corroboratingResults.slice(0, 3); track $index) {
+          <div class="answer-ctx-item" (click)="onAtomClick(r.node.id)">
+            <span class="layer-dot" [style.background]="'var(--aurora-layer-' + r.node.layer + ')'"></span>
+            <span class="ctx-title">{{ r.node.title }}</span>
+          </div>
+        }
+      }
+      @if (answerContext.opposingResults.length > 0) {
+        <div class="ctx-rel-label opp">{{ lang.lang() === 'kr' ? '모순' : 'Opposes' }} ({{ answerContext.opposingResults.length }})</div>
+        @for (r of answerContext.opposingResults.slice(0, 3); track $index) {
+          <div class="answer-ctx-item" (click)="onAtomClick(r.node.id)">
+            <span class="layer-dot" [style.background]="'var(--aurora-layer-' + r.node.layer + ')'"></span>
+            <span class="ctx-title">{{ r.node.title }}</span>
+          </div>
+        }
+      }
+    </div>
+  }
+
+  <!-- ═══════════════════════════════════ -->
+  <!-- CP-2: 관계 맵 (atom 선택 시) -->
+  <!-- ═══════════════════════════════════ -->
+  @if (selectedAtom(); as atom) {
+    <div class="section relation-map">
+      <div class="section-label">
+        {{ lang.lang() === 'kr' ? '관계 맵' : 'Relationship Map' }}
+      </div>
+
+      <div class="relation-atom-header">
+        <span class="layer-chip" [style.background]="'var(--aurora-layer-' + atom.layer + ')'">
+          L{{ atom.layer }}
+        </span>
+        <span class="relation-atom-title">{{ atom.title }}</span>
+      </div>
+
+      @for (group of relationGroups(); track group.type) {
+        <div class="rel-group" [class]="'rel-type-' + group.type.toLowerCase()">
+          <div class="rel-type-header">
+            <span class="rel-type-label">{{ group.typeLabel }}</span>
+            <span class="rel-count">{{ group.items.length }}</span>
+          </div>
+          @for (item of group.items; track item.slug) {
+            <div class="rel-item"
+                 [class.clickable]="!!item.node"
+                 (click)="item.node ? onRelatedClick(item.slug) : null">
+              @if (item.node) {
+                <span class="layer-dot" [style.background]="'var(--aurora-layer-' + item.node.layer + ')'"></span>
+                <span class="rel-layer">L{{ item.node.layer }}</span>
+              }
+              <span class="rel-title">{{ item.display }}</span>
+            </div>
+          }
+        </div>
+      }
+
+      <!-- Record Nos -->
+      @if (selectedDetail(); as detail) {
+        @if (detail.allRecordNos.length > 0) {
+          <div class="rel-group rel-records">
+            <div class="rel-type-header">
+              <span class="rel-type-label">Record Nos.</span>
+              <span class="rel-count">{{ detail.allRecordNos.length }}</span>
+            </div>
+            <div class="record-nos">
+              @for (r of detail.allRecordNos; track r) {
+                <span class="record-tag">{{ r }}</span>
+              }
+            </div>
+          </div>
+        }
+      }
     </div>
   }
 
@@ -33,12 +130,10 @@
               <span class="group-name">{{ group.label }}</span>
               <span class="group-count">{{ group.count }}</span>
             </div>
-            <!-- 미니 진행률 -->
             <div class="mini-progress">
               <div class="mini-fill" [style.width.%]="group.corroboratedPct"></div>
             </div>
 
-            <!-- 하부 atom 목록 (펼친 상태) -->
             @if (group.expanded) {
               <div class="group-items">
                 @for (atom of group.atomTitles; track atom.id) {
@@ -65,38 +160,6 @@
         <div class="person-row">
           <span class="person-name">{{ person.name }}</span>
           <span class="person-count">{{ person.count }}건</span>
-        </div>
-      }
-    </div>
-  }
-
-  <!-- atom 선택 시 상세 -->
-  @if (selectedAtom(); as atom) {
-    <div class="section atom-section">
-      <div class="section-label">
-        {{ lang.lang() === 'kr' ? '선택된 증명' : 'Selected Proof' }}
-      </div>
-      <div class="atom-info">
-        <span class="layer-chip" [style.background]="'var(--aurora-layer-' + atom.layer + ')'">
-          L{{ atom.layer }}
-        </span>
-        <span class="atom-title">{{ atom.title }}</span>
-      </div>
-
-      <!-- 교차 층위 연결 -->
-      @if (crossLayerLinks().length > 0) {
-        <div class="cross-section">
-          <div class="cross-label">
-            {{ lang.lang() === 'kr' ? '다른 층위와 연결' : 'Cross-layer links' }}
-          </div>
-          @for (link of crossLayerLinks(); track link.layer) {
-            <div class="cross-item">
-              <span class="layer-chip-sm" [style.background]="'var(--aurora-layer-' + link.layer + ')'">
-                L{{ link.layer }}
-              </span>
-              <span class="cross-count">{{ link.count }}건</span>
-            </div>
-          }
         </div>
       }
     </div>

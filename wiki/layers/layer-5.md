@@ -23,7 +23,7 @@ Layer 5 is also the layer with the **most uniformly strong evidence in the vault
 
 ## Contradictions
 
-- [[../_contradictions]] entries C-L5-01 through C-L5-06 — all six are direct externalization of the atoms above. **All six are promotable-to-Open (strong)** — Track B mechanical promotion will move them from candidate to Open with no further evidence work required.
+- [[../_fractures]] entries C-L5-01 through C-L5-06 — all six are direct externalization of the atoms above. **All six are promotable-to-Open (strong)** — Track B mechanical promotion will move them from candidate to Open with no further evidence work required.
 
 ## Regulations
 
@@ -76,6 +76,6 @@ Maps to Aurora `:Layer {layer: 5}` node + 6 `:FalsificationResult` nodes (one pe
 
 - [[_index|Layers index]]
 - [[../_master-index|Master index]]
-- [[../_contradictions|Contradictions]]
+- [[../_fractures|Fractures]]
 - [[../claims/_index|Claims]]
 - [[layer-4|← Layer 4]] | [[layer-6|Layer 6 →]]

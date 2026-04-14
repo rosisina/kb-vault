@@ -10,16 +10,16 @@ This vault is the **narrative / Zettelkasten layer** of a two-project investigat
 
 | Layer | Project | Owns | Format |
 |---|---|---|---|
-| Narrative | `knowledge-base` (this vault) | Human-readable articles, Zettelkasten notes, topical indexes, contradictions, claim pages | Obsidian markdown |
+| Narrative | `knowledge-base` (this vault) | Human-readable articles, Zettelkasten notes, topical indexes, fractures (균열), claim pages | Obsidian markdown |
 | Graph | `defense-kg-platform` | Neo4j ontology (Person/Organization/Layer/Evidence/Directive/CriminalAct/Timeline/Contradiction/FalsificationResult), agents, GraphRAG index, Cypher queries, Angular UI | Cypher + Python + TypeScript |
 
 Both layers are compiled from the same `raw/` corpus. A wiki article corresponds to one or more Aurora nodes; an Aurora node should always have a wiki article explaining its significance. **A fact should never live in only one of the two layers.** Every new wiki claim is a candidate for an Aurora `MERGE`, and every new Aurora node should surface a wiki article (or an `## Open Questions` entry explaining why not).
 
 ### Primary goals of this vault
 
-1. Compile raw evidence into a navigable wiki of entities, events, regulations, claims, and contradictions — organized by the **7-layer proof system** defined in Aurora.
+1. Compile raw evidence into a navigable wiki of entities, events, regulations, claims, and fractures (균열) — organized by the **7-layer proof system** defined in Aurora.
 2. Track how Defense Information Technology Operations Directives were revised (2017–2025) to conceal the incident.
-3. Surface contradictions between official narratives and primary sources, and route them toward Popper-style falsification (claim pages → Aurora `FalsificationResult` nodes).
+3. Surface fractures (균열) between official narratives and primary sources, and route them toward Popper-style falsification (claim pages → Aurora `FalsificationResult` nodes).
 4. Preserve book-level evidence-record traceability (`Record No. 1–13495`) so every wiki claim can be audited back to a scanned page.
 
 When in doubt about scope, favor traceability to primary sources over narrative polish.
@@ -79,7 +79,7 @@ When compiling regulation text, **explicit naming of a specific organization, fa
 - 제11조 paragraph 4 explicitly names `국전원` as 사업관리기관 for 국본 systems → direct Layer 3 anchor.
 - 제9조 paragraph 2 explicitly names `국방사이버안보훈령` as the governing directive for cyber protection → Layer 1 jurisdictional hinge (routing mechanism, not just a procedural detail).
 
-For every regulation article ingested, **scan for explicit entity names and prioritize them in `## Key Takeaways`**. On subsequent revisions of the same regulation, **any change to an entity-naming anchor** (removal, rewording, broadening, substitution) is a direct manipulation signal and must be flagged immediately in `## Open Questions` and in `wiki/_contradictions.md`. Entity-naming anchors are more diagnostic than procedural changes because they can redirect accountability with a single word substitution while leaving all surrounding text apparently intact.
+For every regulation article ingested, **scan for explicit entity names and prioritize them in `## Key Takeaways`**. On subsequent revisions of the same regulation, **any change to an entity-naming anchor** (removal, rewording, broadening, substitution) is a direct manipulation signal and must be flagged immediately in `## Open Questions` and in `wiki/_fractures.md`. Entity-naming anchors are more diagnostic than procedural changes because they can redirect accountability with a single word substitution while leaving all surrounding text apparently intact.
 
 ### Three-dimensional truth (진리성 / 타당성 / 진실성)
 
@@ -207,7 +207,13 @@ The log is append-only. Never rewrite existing lines.
 - **Use `[[wikilinks]]` for every cross-reference.** Never use raw paths or markdown links for internal references.
 - **Bullets over paragraphs.** Keep articles scannable. Long paragraphs go into a `## Details` section.
 - **Never invent claims.** Every sentence in a wiki article must trace back to a raw source. Flag gaps in a `## Open Questions` section rather than filling them with speculation.
-- **Flag contradictions when found.** If an ingest pass finds a new source that contradicts an existing article, update the article, add an entry to `wiki/_contradictions.md`, and write or update the relevant [[claims/_index|claim]] page.
+- **Flag fractures (균열) when found.** If an ingest pass finds a new source that contradicts an existing article, update the article, add an entry to `wiki/_fractures.md`, and write or update the relevant [[claims/_index|claim]] page. Classify the fracture using the 5-subtype system:
+  - **F-SC (자기모순, self-contradiction):** A∧¬A within a single document. The only type that is a genuine logical contradiction. Strongest evidence — provable from the document alone.
+  - **F-CE (반증, counter-evidence):** Evidence that falsifies the official hypothesis. Not a contradiction — one source refutes another's claim.
+  - **F-MS (조작 징후, manipulation signal):** Temporal/pattern anomalies indicating deliberate manipulation. Not logically impossible, but inexplicable as natural policy evolution.
+  - **F-SE (선별 적용, selective enforcement):** Same standard applied differentially to different actors. Evidence of targeted prosecution.
+  - **F-AA (부재 논증, argument from absence):** Mandatory artifact absent — modus tollens. Regulation requires X; X does not exist; therefore non-compliance.
+  - Reserve the term '모순' (contradiction) **exclusively for F-SC**. All other types use their specific Korean/English names.
 - **Max article length.** 400 lines. When an article exceeds this, split it — do not compress. Long paragraphs belong in `## Details`.
 
 ## Measurement vs interpretation — blind principle scope
@@ -255,8 +261,8 @@ Work toward it incrementally with these mechanisms — all of which can be imple
 
 1. **Evidence-record as the universal join key.** `Record No. NNNNN` is the only identifier that threads book, scanned page, wiki atom, and Aurora `Evidence` node together. Every atom indexes its evidence records. A `scripts/build-record-index.py` (to be added) reads every wiki file and outputs `wiki/_record-index.md` — a flat `Record No. → [atoms citing it]` reverse index. With this, answering "what does the wiki say about Record No. 10,347?" is a single file read, not a grep over the whole vault.
 2. **Atoms are self-describing.** Each atom carries its own Aurora `MERGE` block. A `scripts/atoms-to-cypher.py` (to be added) walks `wiki/claims/`, extracts the blocks, and produces a Cypher file Aurora can `:source` to ingest. Round-trip: wiki atom → Cypher → Neo4j → GraphRAG index. No re-reading.
-3. **Hub pages are generated, not authored.** A `scripts/rebuild-hubs.py` (to be added) regenerates `_index.md`, `_master-index.md`, `timeline.md`, and `_contradictions.md` from atom metadata. The human (or Claude) edits atoms; hubs follow automatically. This reverses the default Karpathy loop — instead of touching 10 files per ingest to update indexes, you touch 1 atom and rebuild.
-4. **Lint as a compiler pass.** Lint is not a quality report — it's a type-checker. It verifies: every atom has an Aurora block, every `Record No.` resolves to a layer range, every pseudonym is in the mapping, every hub links only to atoms that exist, every contradiction is adjudicated by a claim. A failing lint is a broken build.
+3. **Hub pages are generated, not authored.** A `scripts/rebuild-hubs.py` (to be added) regenerates `_index.md`, `_master-index.md`, `timeline.md`, and `_fractures.md` from atom metadata. The human (or Claude) edits atoms; hubs follow automatically. This reverses the default Karpathy loop — instead of touching 10 files per ingest to update indexes, you touch 1 atom and rebuild.
+4. **Lint as a compiler pass.** Lint is not a quality report — it's a type-checker. It verifies: every atom has an Aurora block, every `Record No.` resolves to a layer range, every pseudonym is in the mapping, every hub links only to atoms that exist, every fracture is adjudicated by a claim. A failing lint is a broken build.
 5. **Slash commands replace magic words.** `/compile`, `/lint`, `/research {topic}`, `/promote-to-aurora {atom}` — each is a concrete contract the human invokes. The trigger-phrase table above remains as fallback.
 6. **Hooks enforce the contract at write time.** `.claude/hooks/validate-wiki.sh` runs on every Write/Edit and rejects articles missing `**Source:**`, `**Layer:**`, `## Key Takeaways`, or `## Related`. Catches drift before it lands — much cheaper than lint-time fixes.
 7. **Subagent fan-out for expensive operations.** Lint, research, and bulk ingests dispatch to Explore subagents partitioned by layer (1–7). Main context merges sub-reports. The main agent never holds the whole vault in context.
@@ -284,7 +290,7 @@ vault/
 ├── ai-research/                 (AI-discovered sources, immutable once saved)
 ├── wiki/
 │   ├── _master-index.md         (catalog of all topics)
-│   ├── _contradictions.md       (flat index of flagged contradictions)
+│   ├── _fractures.md            (flat index of flagged fractures / 균열 — cover-up structural cracks)
 │   ├── timeline.md              (generated chronological spine of events)
 │   ├── log.md                   (append-only operation log)
 │   ├── _examples/               (reference templates for new pages)

@@ -67,6 +67,6 @@ SET fr.layer = 4,
 
 - [[old-kiatis-direct-db-access-without-vpn]] — L1 舊KIATIS DB 직접접속 (RELATED)
 - [[gukjeonwon-pre-evaluation-team-leader-exclusion]] — L4 팀장 배제 (RELATED)
-- [[prosecution-firewall-port-opening-contradicts-it-standard-practice]] — L6 방화벽 개방 관련 (OPPOSES)
+- [[prosecution-firewall-port-opening-vs-it-standard-practice]] — L6 방화벽 개방 관련 (OPPOSES)
 - [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)
 - [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)

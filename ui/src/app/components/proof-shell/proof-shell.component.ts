@@ -4,8 +4,11 @@ import { LandingViewComponent } from '../landing/landing.component';
 import { LayerNavigatorComponent } from '../layer-navigator/layer-navigator.component';
 import { ProofBodyComponent } from '../proof-body/proof-body.component';
 import { EvidenceContextComponent } from '../evidence-context/evidence-context.component';
+import { GraphComponent } from '../graph/graph.component';
 import { GraphDataService } from '../../services/graph-data.service';
 import { LanguageService } from '../../services/language.service';
+import { ProofChain, GraphNode } from '../../models/graph.models';
+import { QueryAnswer } from '../../models/query-answer.models';
 
 export type ShellState = 'landing' | 'proof';
 
@@ -22,6 +25,7 @@ interface ChatHistory {
     LayerNavigatorComponent,
     ProofBodyComponent,
     EvidenceContextComponent,
+    GraphComponent,
   ],
   templateUrl: './proof-shell.component.html',
   styleUrl: './proof-shell.component.scss',
@@ -31,8 +35,12 @@ export class ProofShellComponent {
   activeLayer = signal<number | null>(null);
   selectedAtomId = signal<string | null>(null);
   showGraphModal = signal(false);
+  graphChain = signal<ProofChain | null>(null);
   scrollToGroup = signal<string | null>(null);
   chatHistory = signal<ChatHistory[]>([]);
+  searchResults = signal<GraphNode[]>([]);
+  searchQuery = signal<string | null>(null);
+  answerForContext = signal<QueryAnswer | null>(null);
 
   isLanding = computed(() => this.state() === 'landing');
   isProof = computed(() => this.state() === 'proof');
@@ -42,6 +50,8 @@ export class ProofShellComponent {
     public lang: LanguageService,
   ) {
     this.loadChatHistory();
+    // CP-2: load detail.json for atom body content
+    this.graphData.loadDetail();
   }
 
   // 상단 검색바에서 이벤트 수신
@@ -63,6 +73,10 @@ export class ProofShellComponent {
 
   onSearch(query: string): void {
     this.addChatHistory(query);
+    this.searchQuery.set(query);
+    const results = this.graphData.searchAtoms(query, this.activeLayer() ?? undefined);
+    this.searchResults.set(results);
+    this.selectedAtomId.set(null);
     this.setState('proof');
   }
 
@@ -74,6 +88,8 @@ export class ProofShellComponent {
     this.setState('landing');
     this.activeLayer.set(null);
     this.selectedAtomId.set(null);
+    this.searchResults.set([]);
+    this.searchQuery.set(null);
   }
 
   private setState(s: ShellState): void {
@@ -88,10 +104,21 @@ export class ProofShellComponent {
   }
 
   onOpenGraph(): void {
+    // Build chain for selected atom, or show full proof level
+    if (this.selectedAtomId()) {
+      this.graphChain.set(this.graphData.getChain(this.selectedAtomId()!));
+    } else {
+      this.graphChain.set(null);
+    }
     this.showGraphModal.set(true);
   }
 
   onCloseGraph(): void {
+    this.showGraphModal.set(false);
+  }
+
+  onGraphNodeSelect(atomId: string): void {
+    this.selectedAtomId.set(atomId);
     this.showGraphModal.set(false);
   }
 

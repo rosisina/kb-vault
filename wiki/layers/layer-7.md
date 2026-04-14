@@ -25,7 +25,7 @@ The **인권위 procedural-duty violation** is the second diagnostic Layer 7 ato
 
 ## Contradictions
 
-- [[../_contradictions]] entries C-L7-01 through C-L7-05.
+- [[../_fractures]] entries C-L7-01 through C-L7-05.
 
 ## Regulations
 
@@ -78,6 +78,6 @@ Maps to Aurora `:Layer {layer: 7}` node + 6 `:FalsificationResult` nodes (with h
 
 - [[_index|Layers index]]
 - [[../_master-index|Master index]]
-- [[../_contradictions|Contradictions]]
+- [[../_fractures|Fractures]]
 - [[../claims/_index|Claims]]
 - [[layer-6|← Layer 6]]

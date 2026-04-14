@@ -1,4 +1,4 @@
-// Aurora v2 — Proof Body (직관성 개선: 요약 + 통계 + 순번 + 선택 강조)
+// Aurora v2 CP-2 — Proof Body (체인 뷰 + 상세 본문 + 모순 나열)
 
 .proof-body {
   display: flex;
@@ -75,20 +75,61 @@
 .stat-dot { color: #bdbdbd; }
 .stat-pct { color: var(--aurora-success); font-weight: 600; }
 
-// ── Atom 상세 ──
-.atom-detail {
-  background: #f8f9fe;
-  border: 1px solid #e8eaf6;
-  border-left: 4px solid var(--aurora-primary);
+// ── 뷰 모드 토글 ──
+.view-mode-toggle {
+  display: flex;
+  gap: 4px;
+  background: #f5f5f5;
   border-radius: 8px;
-  padding: 20px;
+  padding: 3px;
+}
+
+.mode-btn {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--aurora-text-secondary);
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  .material-icons { font-size: 16px; }
+
+  &.active {
+    background: white;
+    color: var(--aurora-text);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+
+  &:hover:not(.active) {
+    color: var(--aurora-text);
+  }
+}
+
+// ═══════════════════════════════════════════════════════════
+// Atom 상세 본문 (CP-2 B방식)
+// ═══════════════════════════════════════════════════════════
+
+.atom-full-detail {
+  border-left: 4px solid var(--aurora-primary);
+  padding: 20px 24px;
+  background: #fafbfe;
+  border-radius: 0 8px 8px 0;
 }
 
 .atom-detail-header {
   display: flex;
   gap: 8px;
   align-items: center;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
 }
 
 .layer-chip {
@@ -106,18 +147,18 @@
 }
 
 .atom-title {
-  font-size: 1rem;
+  font-size: 1.05rem;
   font-weight: 600;
   color: var(--aurora-text);
   margin-bottom: 12px;
-  line-height: 1.5;
+  line-height: 1.55;
 }
 
 .truth-axes {
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 
 .truth-badge {
@@ -133,26 +174,345 @@
   .dots { letter-spacing: 2px; font-size: 0.72rem; }
 }
 
-.atom-meta {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  margin-bottom: 8px;
-}
-
 .strength {
   font-size: 0.78rem;
   color: var(--aurora-text-secondary);
   text-transform: uppercase;
 }
 
-.atom-detail-hint {
+// Detail sections
+.detail-section {
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #eef0f5;
+}
+
+.section-label {
   font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--aurora-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+}
+
+.claim-body {
+  font-size: 0.92rem;
+  color: var(--aurora-text);
+  line-height: 1.7;
+}
+
+.takeaways {
+  list-style: none;
+  padding: 0;
+  li {
+    position: relative;
+    padding-left: 16px;
+    margin-bottom: 6px;
+    font-size: 0.88rem;
+    line-height: 1.6;
+    color: var(--aurora-text);
+    &::before {
+      content: '•';
+      position: absolute;
+      left: 0;
+      color: var(--aurora-primary-light);
+      font-weight: 700;
+    }
+  }
+}
+
+.evidence-list {
+  list-style: none;
+  padding: 0;
+}
+
+.evidence-item {
+  padding: 6px 0 6px 16px;
+  font-size: 0.85rem;
+  font-family: 'JetBrains Mono', 'Noto Sans KR', monospace;
+  color: var(--aurora-text);
+  line-height: 1.5;
+  border-left: 2px solid #e0e3eb;
+  margin-bottom: 4px;
+}
+
+.counter-section {
+  background: rgba(#f57f17, 0.04);
+  border-left: 3px solid #f57f17;
+  border-bottom: none;
+  padding: 12px 16px;
+  border-radius: 0 6px 6px 0;
+  margin-left: -24px;
+  margin-right: -24px;
+  padding-left: 40px;
+}
+
+.counter-text {
+  font-size: 0.88rem;
+  color: #795548;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.falsification-text {
+  font-size: 0.88rem;
+  color: var(--aurora-text);
+  line-height: 1.6;
+}
+
+// Detail — Related atoms (atom links)
+.detail-related {
+  border-bottom: none;
+}
+
+.detail-rel-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 3px 0 3px 12px;
+  border-left: 2px solid #e0e3eb;
+  margin-bottom: 2px;
+}
+
+.detail-rel-type {
+  font-size: 0.68rem;
+  font-family: 'JetBrains Mono', monospace;
   color: #9e9e9e;
+  min-width: 90px;
+  flex-shrink: 0;
+}
+
+.detail-rel-link {
+  font-size: 0.82rem;
+  font-family: 'JetBrains Mono', monospace;
+  color: hsl(195, 100%, 40%);
+  cursor: pointer;
+  &:hover { text-decoration: underline; }
+}
+
+.rel-type-causes .detail-rel-type { color: #1565c0; }
+.rel-type-causes { border-left-color: rgba(#1565c0, 0.3); }
+.rel-type-corroborates .detail-rel-type { color: #2e7d32; }
+.rel-type-corroborates { border-left-color: rgba(#2e7d32, 0.3); }
+.rel-type-opposes .detail-rel-type { color: #f57f17; }
+.rel-type-opposes { border-left-color: rgba(#f57f17, 0.3); }
+
+.detail-nav {
+  font-size: 0.78rem;
+  color: #bdbdbd;
   margin-top: 8px;
 }
 
-// ── 그룹 ──
+.detail-source {
+  font-size: 0.75rem;
+  color: #9e9e9e;
+  margin-top: 12px;
+  .source-label { font-weight: 600; }
+}
+
+// ═══════════════════════════════════════════════════════════
+// 증명 체인 뷰
+// ═══════════════════════════════════════════════════════════
+
+.chain-view {
+  border: 1px solid #e8eaf6;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.chain-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: #f5f6fa;
+  border-bottom: 1px solid #e8eaf6;
+}
+
+.chain-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--aurora-text);
+}
+
+.chain-meta {
+  font-size: 0.78rem;
+  color: var(--aurora-text-secondary);
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.chain-body {
+  padding: 16px;
+}
+
+.chain-node {
+  padding: 12px 16px;
+  border-left: 3px solid #e0e3eb;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.15s;
+  margin-bottom: 0;
+
+  &:hover {
+    background: #f8f9fa;
+    border-left-color: var(--aurora-primary-light);
+  }
+
+  &.chain-focus {
+    border-left-color: var(--aurora-primary);
+    border-left-width: 4px;
+    background: rgba(#534bae, 0.04);
+  }
+
+  &.chain-ancestor {
+    opacity: 0.85;
+  }
+}
+
+.chain-node-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 4px;
+  flex-wrap: wrap;
+}
+
+.layer-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.chain-layer-label {
+  font-size: 0.75rem;
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--aurora-text-secondary);
+  font-weight: 600;
+}
+
+// (legacy) chain-node-title — replaced by chain-node-title-link
+.chain-node-title { font-size: 0.9rem; color: var(--aurora-text); line-height: 1.5; margin: 0; }
+
+.chain-node-title-link {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--aurora-text);
+  line-height: 1.4;
+  cursor: pointer;
+  flex: 1;
+  &:hover { color: var(--aurora-primary); text-decoration: underline; }
+}
+
+.chain-claim-excerpt {
+  font-size: 0.85rem;
+  color: #616161;
+  line-height: 1.6;
+  margin: 4px 0 4px 16px;
+  padding-left: 10px;
+  border-left: 2px solid #e8eaf6;
+}
+
+.chain-records {
+  font-size: 0.72rem;
+  font-family: 'JetBrains Mono', monospace;
+  color: #9e9e9e;
+  margin: 2px 0 4px 16px;
+}
+
+.chain-nav {
+  font-size: 0.75rem;
+  color: #bdbdbd;
+  margin-left: 16px;
+  padding-top: 2px;
+}
+
+.chain-sub-link {
+  display: flex;
+  gap: 8px;
+  padding: 4px 0 4px 20px;
+  font-size: 0.8rem;
+  color: var(--aurora-text-secondary);
+  cursor: pointer;
+  transition: color 0.15s;
+
+  &:hover { color: var(--aurora-primary); }
+
+  &.opposes {
+    .sub-link-type { color: #f57f17; }
+  }
+}
+
+.sub-link-type {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  color: #9e9e9e;
+  white-space: nowrap;
+}
+
+.sub-link-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.chain-arrow {
+  padding: 4px 0 4px 16px;
+}
+
+.arrow-line {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  color: #bdbdbd;
+  letter-spacing: 0.5px;
+}
+
+// Chain roots
+.chain-roots {
+  padding: 8px 0;
+}
+
+.roots-label {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--aurora-text);
+  margin-bottom: 12px;
+}
+
+.roots-count {
+  font-weight: 400;
+  color: var(--aurora-text-secondary);
+  font-size: 0.82rem;
+}
+
+.root-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  border-left: 3px solid transparent;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+
+  &:hover {
+    border-left-color: var(--aurora-primary-light);
+    background: #f8f9fa;
+  }
+}
+
+.root-title {
+  font-size: 0.88rem;
+  color: var(--aurora-text);
+  line-height: 1.4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// ═══════════════════════════════════════════════════════════
+// 모순 나열 (CP-1 유지)
+// ═══════════════════════════════════════════════════════════
+
 .claim-group {
   border-bottom: 1px solid #f2f2f2;
   padding-bottom: 12px;
@@ -191,7 +551,6 @@
   color: var(--aurora-success);
 }
 
-// ── 모순 쌍 (순번 + 선택 강조) ──
 .contradiction-pair {
   margin-bottom: 8px;
   border-radius: 8px;
@@ -201,7 +560,6 @@
   position: relative;
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 
-  // 선택 강조
   &.selected {
     border-color: var(--aurora-primary-light);
     box-shadow: 0 0 0 2px rgba(#534bae, 0.15);
@@ -234,12 +592,6 @@
   font-family: 'JetBrains Mono', monospace;
   color: var(--aurora-text-secondary);
   margin-bottom: 3px;
-}
-
-.layer-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
 }
 
 .claim-text {
@@ -278,6 +630,396 @@
 .verdict-corroborated { background: rgba(#4caf50, 0.1); color: #2e7d32; }
 .verdict-needs_more_evidence { background: rgba(#ffc107, 0.1); color: #f57f17; }
 .verdict-weakened { background: rgba(#f44336, 0.1); color: #c62828; }
+
+// ═══════════════════════════════════════════════════════════
+// 답변 뷰 (atom 기반 구조화된 답변)
+// ═══════════════════════════════════════════════════════════
+
+.search-count {
+  font-size: 0.7rem;
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--aurora-text-secondary);
+  background: #f0f0f0;
+  padding: 1px 6px;
+  border-radius: 8px;
+  margin-left: 2px;
+}
+
+.answer-view {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+// Answer header
+.answer-header {
+  padding-bottom: 12px;
+  border-bottom: 2px solid #e0e3eb;
+  margin-bottom: 8px;
+}
+
+.answer-summary {
+  font-size: 0.85rem;
+  color: var(--aurora-text-secondary);
+  margin: 4px 0 0;
+}
+
+.answer-query {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 12px 0;
+  margin-bottom: 4px;
+}
+
+.answer-q-label {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--aurora-primary);
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.answer-q-text {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--aurora-text);
+}
+
+.answer-q-count {
+  font-size: 0.75rem;
+  color: var(--aurora-text-secondary);
+}
+
+// Section divider (── 제목 ──)
+.answer-section {
+  margin-bottom: 8px;
+}
+
+.answer-section-divider {
+  display: flex;
+  align-items: center;
+  padding: 10px 0 6px;
+  border-top: 2px solid #e0e3eb;
+}
+
+.section-title {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #737373;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+// Thematic group
+.answer-theme {
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.theme-header {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 12px 0 6px;
+}
+
+.theme-number {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--aurora-text);
+}
+
+.theme-label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--aurora-text);
+}
+
+// Atom block (Claude CLI 서사 스타일)
+.answer-atom-block {
+  padding: 8px 0 12px 16px;
+  border-left: 2px solid #e0e3eb;
+  margin-bottom: 4px;
+  margin-left: 8px;
+}
+
+.atom-ref {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+
+.atom-ref-bracket {
+  color: var(--aurora-primary-light);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.atom-ref-link {
+  font-size: 0.82rem;
+  font-family: 'JetBrains Mono', monospace;
+  color: hsl(195, 100%, 40%);
+  cursor: pointer;
+  &:hover { text-decoration: underline; }
+}
+
+.atom-claim-full {
+  font-size: 0.9rem;
+  color: var(--aurora-text);
+  line-height: 1.7;
+  margin-bottom: 8px;
+}
+
+.atom-takeaways-inline {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 6px;
+  li {
+    position: relative;
+    padding-left: 14px;
+    font-size: 0.85rem;
+    color: #616161;
+    line-height: 1.5;
+    margin-bottom: 2px;
+    &::before {
+      content: '-';
+      position: absolute;
+      left: 0;
+      color: #9e9e9e;
+    }
+  }
+}
+
+.atom-records-inline {
+  font-size: 0.78rem;
+  font-family: 'JetBrains Mono', monospace;
+  color: #9e9e9e;
+  margin-bottom: 4px;
+}
+
+.atom-nav-inline {
+  font-size: 0.75rem;
+  color: #bdbdbd;
+}
+
+// (legacy) Answer atom — keep for backward compat
+.answer-atom {
+  padding: 12px 16px;
+  border-left: 3px solid #e0e3eb;
+  margin-bottom: 2px;
+  transition: border-color 0.15s, background 0.15s;
+
+  &:hover {
+    border-left-color: var(--aurora-primary-light);
+    background: #fafbfe;
+  }
+
+  &.selected {
+    border-left-color: var(--aurora-primary);
+    background: rgba(#534bae, 0.04);
+  }
+}
+
+.answer-atom-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.answer-atom-title {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--aurora-text);
+  line-height: 1.4;
+  cursor: pointer;
+  transition: color 0.15s;
+  &:hover { color: var(--aurora-primary); text-decoration: underline; }
+}
+
+.answer-verdict-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+
+.truth-mini {
+  font-size: 0.65rem;
+  font-family: 'JetBrains Mono', monospace;
+  padding: 1px 4px;
+  border-radius: 3px;
+  &.truthfulness { background: rgba(#1565c0, 0.08); color: #1565c0; }
+  &.validity { background: rgba(#6a1b9a, 0.08); color: #6a1b9a; }
+  &.sincerity { background: rgba(#c62828, 0.08); color: #c62828; }
+}
+
+.answer-excerpt {
+  font-size: 0.85rem;
+  color: #616161;
+  line-height: 1.6;
+  font-style: italic;
+  margin: 0 0 6px;
+  padding-left: 12px;
+  border-left: 2px solid #e8eaf6;
+}
+
+.answer-records {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+  margin-bottom: 4px;
+}
+
+.records-label {
+  font-size: 0.72rem;
+  font-family: 'JetBrains Mono', monospace;
+  color: #9e9e9e;
+  font-weight: 600;
+}
+
+.record-link {
+  font-size: 0.72rem;
+  font-family: 'JetBrains Mono', monospace;
+  color: #737373;
+  cursor: pointer;
+  &:hover { color: var(--aurora-primary); text-decoration: underline; }
+}
+
+.record-sep {
+  font-size: 0.72rem;
+  color: #bdbdbd;
+}
+
+.answer-nav-links {
+  display: flex;
+  gap: 8px;
+  padding-top: 4px;
+}
+
+.nav-link {
+  font-size: 0.78rem;
+  color: hsl(195, 100%, 40%);
+  cursor: pointer;
+  &:hover { text-decoration: underline; }
+}
+
+// Chain summary
+.answer-chain {
+  padding: 8px 0 8px 4px;
+}
+
+.chain-step {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0 4px 12px;
+  border-left: 2px solid #e0e3eb;
+}
+
+.step-layer {
+  font-size: 0.72rem;
+  font-family: 'JetBrains Mono', monospace;
+  color: #9e9e9e;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.step-title {
+  font-size: 0.85rem;
+  color: var(--aurora-text);
+  cursor: pointer;
+  &:hover { color: var(--aurora-primary); text-decoration: underline; }
+}
+
+.chain-step-arrow {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: #bdbdbd;
+  padding: 2px 0 2px 16px;
+}
+
+// Counter-hypotheses
+.answer-counter {
+  padding: 8px 16px;
+  border-left: 3px solid #f57f17;
+  margin-bottom: 4px;
+  background: rgba(#f57f17, 0.03);
+}
+
+.counter-hypo {
+  font-size: 0.85rem;
+  color: #795548;
+  line-height: 1.5;
+  font-style: italic;
+  margin: 0 0 4px;
+}
+
+.counter-source {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.78rem;
+}
+
+// Related atoms (corroborating/opposing)
+.answer-rel-group {
+  margin-bottom: 8px;
+}
+
+.rel-group-label {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  padding: 2px 0;
+  margin-bottom: 4px;
+
+  &.corroborates { color: #2e7d32; }
+  &.opposes { color: #f57f17; }
+}
+
+.answer-rel-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 6px 5px 12px;
+  border-left: 2px solid #e0e3eb;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+
+  &:hover {
+    border-left-color: var(--aurora-primary-light);
+    background: #fafafa;
+  }
+}
+
+.answer-records-all {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 6px 0;
+}
+
+.record-tag {
+  font-size: 0.7rem;
+  font-family: 'JetBrains Mono', monospace;
+  color: #737373;
+  background: #f5f5f5;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+.rel-atom-title {
+  font-size: 0.82rem;
+  color: #737373;
+  line-height: 1.3;
+  &:hover { color: var(--aurora-text); }
+}
 
 // ── Empty State ──
 .empty-state {

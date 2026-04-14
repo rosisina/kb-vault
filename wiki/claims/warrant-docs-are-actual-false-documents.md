@@ -61,5 +61,5 @@ SET fr.layer = 6,
 ## Related
 
 - [[prosecution-false-document-charge-self-contradiction]] — L6 허위공문서 자기모순 (OPPOSES)
-- [[prosecution-non-prosecution-internal-contradiction]] — L6 불기소 모순 (OPPOSES)
+- [[prosecution-non-prosecution-self-contradiction]] — L6 불기소 모순 (OPPOSES)
 - [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

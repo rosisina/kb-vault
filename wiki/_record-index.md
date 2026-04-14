@@ -59,13 +59,13 @@ Files that cite a Record No. from a layer range OUTSIDE their claimed `**Layer:*
 | wiki/claims/audit-dtot-report-hidden-from-team-leader.md | 5,852 | Layer 7 | 4 |
 | wiki/claims/cartel-requirement-inflation-80-items-delay.md | 11,322 | Layer 7 | 4,6 |
 | wiki/claims/cartel-requirement-inflation-80-items-delay.md | 11,345 | Layer 7 | 4,6 |
-| wiki/claims/contradiction-article-58-five-year-stability-then-reversal.md | 7,512 | Layer 7 | 1,4 |
-| wiki/claims/contradiction-article-58-five-year-stability-then-reversal.md | 8,194 | Layer 7 | 1,4 |
-| wiki/claims/contradiction-evaluation-post-completion-temporal-impossibility.md | 4,757 | Layer 6 | 4,7 |
-| wiki/claims/contradiction-fabricated-warning-wrong-title.md | 1,584 | Layer 2 | 5,6 |
-| wiki/claims/contradiction-fabricated-warning-wrong-title.md | 1,586 | Layer 2 | 5,6 |
-| wiki/claims/contradiction-intranet-link-attack-surface.md | 1,117 | Layer 2 | 1,4,6 |
-| wiki/claims/contradiction-intranet-link-attack-surface.md | 1,125 | Layer 2 | 1,4,6 |
+| wiki/claims/article-58-five-year-stability-then-reversal.md | 7,512 | Layer 7 | 1,4 |
+| wiki/claims/article-58-five-year-stability-then-reversal.md | 8,194 | Layer 7 | 1,4 |
+| wiki/claims/evaluation-post-completion-temporal-impossibility.md | 4,757 | Layer 6 | 4,7 |
+| wiki/claims/fabricated-warning-wrong-title.md | 1,584 | Layer 2 | 5,6 |
+| wiki/claims/fabricated-warning-wrong-title.md | 1,586 | Layer 2 | 5,6 |
+| wiki/claims/intranet-link-attack-surface.md | 1,117 | Layer 2 | 1,4,6 |
+| wiki/claims/intranet-link-attack-surface.md | 1,125 | Layer 2 | 1,4,6 |
 | wiki/claims/cross-layer-witness-destroy-then-summon-pipeline.md | 10,034 | Layer 7 | 5,6 |
 | wiki/claims/cross-layer-witness-destroy-then-summon-pipeline.md | 11,162 | Layer 7 | 5,6 |
 | wiki/claims/deliberate-absence-key-personnel-during-evaluation.md | 1,946 | Layer 3 | 4 |
@@ -349,7 +349,7 @@ Files that cite a Record No. from a layer range OUTSIDE their claimed `**Layer:*
 | wiki/claims/layer3-server-sw-separation-enables-l4-evaluation-manipulation.md | 8,012 | Layer 7 | 3,4 |
 | wiki/claims/layer3-server-sw-separation-enables-l4-evaluation-manipulation.md | 8,086 | Layer 7 | 3,4 |
 | wiki/claims/layer3-server-sw-separation-enables-l4-evaluation-manipulation.md | 8,179 | Layer 7 | 3,4 |
-| wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md | 1,073 | Layer 2 | 1,3,4 |
+| wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md | 1,073 | Layer 2 | 1,3,4 |
 | wiki/claims/layer4-dtot-separation-principle-violated.md | 8,012 | Layer 7 | 4 |
 | wiki/claims/layer4-dtot-separation-principle-violated.md | 9,003 | Layer 7 | 4 |
 | wiki/claims/layer4-evaluation-committee-80-items-violation.md | 394 | Layer 1 | 4,6 |
@@ -432,9 +432,9 @@ Files that cite a Record No. from a layer range OUTSIDE their claimed `**Layer:*
 | wiki/claims/lee-jiyoung-kim-sujin-single-point-of-control.md | 2,853 | Layer 4 | 2 |
 | wiki/claims/lee-jiyoung-kim-sujin-single-point-of-control.md | 3,485 | Layer 4 | 2 |
 | wiki/claims/lee-jiyoung-kim-sujin-single-point-of-control.md | 3,487 | Layer 4 | 2 |
-| wiki/claims/lee-junho-false-testimony-contradicted-by-own-doc.md | 1,171 | Layer 2 | 6 |
-| wiki/claims/lee-junho-false-testimony-contradicted-by-own-doc.md | 1,239 | Layer 2 | 6 |
-| wiki/claims/lee-junho-false-testimony-contradicted-by-own-doc.md | 6,168 | Layer 7 | 6 |
+| wiki/claims/lee-junho-false-testimony-self-contradiction.md | 1,171 | Layer 2 | 6 |
+| wiki/claims/lee-junho-false-testimony-self-contradiction.md | 1,239 | Layer 2 | 6 |
+| wiki/claims/lee-junho-false-testimony-self-contradiction.md | 6,168 | Layer 7 | 6 |
 | wiki/claims/mnd-control-agency-role-evasion-deployment-delay.md | 1 | Layer 1 | 6,7 |
 | wiki/claims/mnd-intentional-separation-server-sw-projects.md | 4,890 | Layer 6 | 1,4 |
 | wiki/claims/mnd-intentional-separation-server-sw-projects.md | 4,891 | Layer 6 | 1,4 |
@@ -569,11 +569,11 @@ Files that cite a Record No. from a layer range OUTSIDE their claimed `**Layer:*
 | wiki/claims/prosecution-misapplies-2129-article-58-4-to-kiatis.md | 1,253 | Layer 2 | 6 |
 | wiki/claims/prosecution-non-prosecution-identity-error-fraud.md | 8,011 | Layer 7 | 2,5,6 |
 | wiki/claims/prosecution-non-prosecution-identity-error-fraud.md | 9,116 | Layer 7 | 2,5,6 |
-| wiki/claims/prosecution-non-prosecution-internal-contradiction.md | 1,033 | Layer 2 | 6 |
-| wiki/claims/prosecution-non-prosecution-internal-contradiction.md | 1,129 | Layer 2 | 6 |
-| wiki/claims/prosecution-non-prosecution-internal-contradiction.md | 1,535 | Layer 2 | 6 |
-| wiki/claims/prosecution-non-prosecution-internal-contradiction.md | 6,818 | Layer 7 | 6 |
-| wiki/claims/prosecution-non-prosecution-internal-contradiction.md | 6,819 | Layer 7 | 6 |
+| wiki/claims/prosecution-non-prosecution-self-contradiction.md | 1,033 | Layer 2 | 6 |
+| wiki/claims/prosecution-non-prosecution-self-contradiction.md | 1,129 | Layer 2 | 6 |
+| wiki/claims/prosecution-non-prosecution-self-contradiction.md | 1,535 | Layer 2 | 6 |
+| wiki/claims/prosecution-non-prosecution-self-contradiction.md | 6,818 | Layer 7 | 6 |
+| wiki/claims/prosecution-non-prosecution-self-contradiction.md | 6,819 | Layer 7 | 6 |
 | wiki/claims/prosecution-principal-actor-in-cartel.md | 6,609 | Layer 7 | 6 |
 | wiki/claims/prosecution-principal-actor-in-cartel.md | 6,620 | Layer 7 | 6 |
 | wiki/claims/prosecution-principal-actor-in-cartel.md | 6,632 | Layer 7 | 6 |
@@ -656,7 +656,7 @@ Files that cite a Record No. from a layer range OUTSIDE their claimed `**Layer:*
 | 745 | L1 | `wiki/events/2022-10-07-non-prosecution-decision.md` |
 | 831 | — | `wiki/claims/prosecution-baeim-charge-self-contradictory.md`, `wiki/events/2022-10-07-non-prosecution-decision.md` |
 | 1,019 | L2 | `wiki/claims/kiatis-homepage-co-managed-by-admin-ops-team.md` |
-| 1,033 | L2 | `wiki/claims/prosecution-non-prosecution-internal-contradiction.md` |
+| 1,033 | L2 | `wiki/claims/prosecution-non-prosecution-self-contradiction.md` |
 | 1,042 | L2 | `wiki/claims/kiatis-mnd-controlled-not-delegated.md`, `wiki/claims/new-kiatis-is-mnd-controlled-not-delegated-project.md` |
 | 1,051 | L2 | `wiki/claims/active-x-removal-as-project-goal-confirms-vulnerability.md` |
 | 1,054 | L2 | `wiki/claims/layer1-server-laundering-l2-l3-consequence-chain.md`, `wiki/claims/old-kiatis-hosted-inside-other-server-15-years.md`, `wiki/events/2016-didc-north-korean-hacking.md` |
@@ -664,13 +664,13 @@ Files that cite a Record No. from a layer range OUTSIDE their claimed `**Layer:*
 | 1,057 | L2 | `wiki/claims/kiatis-mnd-controlled-not-delegated.md`, `wiki/claims/layer2-delegation-falsification-triggers-l3-transfer.md` |
 | 1,064 | L2 | `wiki/claims/kiatis-mnd-controlled-not-delegated.md`, `wiki/claims/new-kiatis-is-mnd-controlled-not-delegated-project.md` |
 | 1,068 | L2 | `wiki/claims/layer1-server-laundering-l2-l3-consequence-chain.md`, `wiki/claims/old-kiatis-hosted-inside-other-server-15-years.md` |
-| 1,073 | L2 | `wiki/claims/kiatis-mkia-multi-cap-inscription.md`, `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
+| 1,073 | L2 | `wiki/claims/kiatis-mkia-multi-cap-inscription.md`, `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
 | 1,074 | L2 | `wiki/claims/layer2-budget-compression-enables-l3-task-transfer.md`, `wiki/claims/layer2-intentional-budget-reduction-sw-hw.md` |
-| 1,117 | L2 | `wiki/claims/contradiction-intranet-link-attack-surface.md`, `wiki/claims/old-kiatis-intranet-data-link-confirmed.md` |
+| 1,117 | L2 | `wiki/claims/intranet-link-attack-surface.md`, `wiki/claims/old-kiatis-intranet-data-link-confirmed.md` |
 | 1,119 | L2 | `wiki/claims/kiatis-mkia-multi-cap-inscription.md`, `wiki/claims/layer2-delegation-falsification-triggers-l3-transfer.md`, `wiki/claims/new-kiatis-is-mnd-controlled-not-delegated-project.md` |
 | 1,120 | L2 | `wiki/claims/layer1-server-laundering-l2-l3-consequence-chain.md`, `wiki/claims/old-kiatis-hosted-inside-other-server-15-years.md` |
-| 1,125 | L2 | `wiki/claims/contradiction-intranet-link-attack-surface.md`, `wiki/claims/old-kiatis-intranet-data-link-confirmed.md` |
-| 1,129 | L2 | `wiki/claims/prosecution-non-prosecution-internal-contradiction.md` |
+| 1,125 | L2 | `wiki/claims/intranet-link-attack-surface.md`, `wiki/claims/old-kiatis-intranet-data-link-confirmed.md` |
+| 1,129 | L2 | `wiki/claims/prosecution-non-prosecution-self-contradiction.md` |
 | 1,131 | L2 | `wiki/claims/gukyu-dan-dual-cap-unprecedented-structure.md` |
 | 1,140 | L2 | `wiki/claims/gukyu-dan-dual-cap-unprecedented-structure.md`, `wiki/claims/kiatis-mkia-multi-cap-inscription.md`, `wiki/claims/layer1-server-laundering-l2-l3-consequence-chain.md`, `wiki/claims/layer2-delegation-falsification-triggers-l3-transfer.md`, `wiki/claims/new-kiatis-is-mnd-controlled-not-delegated-project.md` |
 | 1,141 | L2 | `wiki/claims/kiatis-server-laundering-to-integrated-mail-server.md` |
@@ -679,11 +679,11 @@ Files that cite a Record No. from a layer range OUTSIDE their claimed `**Layer:*
 | 1,157 | L2 | `wiki/claims/active-x-removal-as-project-goal-confirms-vulnerability.md`, `wiki/claims/old-kiatis-hosted-inside-other-server-15-years.md` |
 | 1,165 | L2 | `wiki/claims/active-x-removal-as-project-goal-confirms-vulnerability.md` |
 | 1,168 | L2 | `wiki/claims/kiatis-rfp-tech-table-proves-sw-only-internet-structure.md` |
-| 1,171 | L2 | `wiki/claims/lee-junho-false-testimony-contradicted-by-own-doc.md`, `wiki/events/2022-10-07-non-prosecution-decision.md` |
+| 1,171 | L2 | `wiki/claims/lee-junho-false-testimony-self-contradiction.md`, `wiki/events/2022-10-07-non-prosecution-decision.md` |
 | 1,173 | L2 | `wiki/events/2022-10-07-non-prosecution-decision.md` |
 | 1,178 | L2 | `wiki/events/2022-10-07-non-prosecution-decision.md` |
 | 1,200 | L2 | `wiki/claims/non-prosecution-mitigating-factors-describe-normal-work.md`, `wiki/events/2022-10-07-non-prosecution-decision.md` |
-| 1,239 | L2 | `wiki/claims/lee-junho-false-testimony-contradicted-by-own-doc.md`, `wiki/events/2022-10-07-non-prosecution-decision.md` |
+| 1,239 | L2 | `wiki/claims/lee-junho-false-testimony-self-contradiction.md`, `wiki/events/2022-10-07-non-prosecution-decision.md` |
 | 1,253 | L2 | `wiki/claims/non-prosecution-admits-test-not-actual-but-blames-only-victim.md`, `wiki/claims/prosecution-misapplies-2129-article-58-4-to-kiatis.md`, `wiki/claims/xsyn-directive-2436-retroactive-legal-basis.md`, `wiki/events/2022-10-07-non-prosecution-decision.md` |
 | 1,292 | L2 | `wiki/claims/xsyn-recording-confirms-vpn-public-discussion.md`, `wiki/events/2022-10-07-non-prosecution-decision.md` |
 | 1,308 | L2 | `wiki/claims/layer2-intentional-budget-reduction-sw-hw.md` |
@@ -698,16 +698,16 @@ Files that cite a Record No. from a layer range OUTSIDE their claimed `**Layer:*
 | 1,487 | L2 | `wiki/claims/active-x-removal-as-project-goal-confirms-vulnerability.md` |
 | 1,510 | L2 | `wiki/claims/layer4-test-evaluation-separation-principle-directive-2129.md` |
 | 1,515 | L2 | `wiki/claims/active-x-removal-as-project-goal-confirms-vulnerability.md` |
-| 1,535 | L2 | `wiki/claims/layer2-budget-compression-enables-l3-task-transfer.md`, `wiki/claims/layer2-intentional-budget-reduction-sw-hw.md`, `wiki/claims/prosecution-non-prosecution-internal-contradiction.md` |
+| 1,535 | L2 | `wiki/claims/layer2-budget-compression-enables-l3-task-transfer.md`, `wiki/claims/layer2-intentional-budget-reduction-sw-hw.md`, `wiki/claims/prosecution-non-prosecution-self-contradiction.md` |
 | 1,536 | L2 | `wiki/claims/kiatis-rfp-tech-table-proves-sw-only-internet-structure.md`, `wiki/claims/layer2-intentional-budget-reduction-sw-hw.md`, `wiki/claims/prosecution-non-prosecution-identity-error-fraud.md` |
 | 1,551 | L2 | `wiki/claims/han-ji-hoon-three-braking-devices-active-defense.md` |
 | 1,557 | L2 | `wiki/claims/layer3-pm-post-vacancy-predecessor-gap.md`, `wiki/layers/layer-3.md` |
 | 1,567 | L2 | `wiki/claims/layer3-pm-post-vacancy-predecessor-gap.md` |
 | 1,568 | L2 | `wiki/claims/layer3-pm-post-vacancy-predecessor-gap.md` |
 | 1,573 | L2 | `wiki/claims/kim-min-su-central-cross-layer-cartel-figure.md`, `wiki/claims/layer1-server-laundering-l2-l3-consequence-chain.md`, `wiki/claims/layer3-park-seong-ho-didc-director-l1-l3-bridge.md`, `wiki/claims/layer3-pm-post-vacancy-predecessor-gap.md` |
-| 1,584 | L2 | `wiki/claims/contradiction-fabricated-warning-wrong-title.md`, `wiki/claims/layer5-fabricated-warning-letter.md` |
+| 1,584 | L2 | `wiki/claims/fabricated-warning-wrong-title.md`, `wiki/claims/layer5-fabricated-warning-letter.md` |
 | 1,585 | L2 | `wiki/claims/layer5-fabricated-warning-letter.md` |
-| 1,586 | L2 | `wiki/claims/contradiction-fabricated-warning-wrong-title.md`, `wiki/claims/layer5-fabricated-warning-letter.md`, `wiki/claims/warning-letter-reflects-only-lee-jiyoung.md` |
+| 1,586 | L2 | `wiki/claims/fabricated-warning-wrong-title.md`, `wiki/claims/layer5-fabricated-warning-letter.md`, `wiki/claims/warning-letter-reflects-only-lee-jiyoung.md` |
 | 1,629 | L3 | `wiki/claims/firewall-requests-confirm-no-vpn-db-direct-access.md`, `wiki/claims/old-kiatis-web-facade-masking-cs-direct-db.md` |
 | 1,630 | L3 | `wiki/claims/firewall-requests-confirm-no-vpn-db-direct-access.md`, `wiki/claims/old-kiatis-web-facade-masking-cs-direct-db.md` |
 | 1,631 | L3 | `wiki/claims/firewall-requests-confirm-no-vpn-db-direct-access.md`, `wiki/claims/old-kiatis-web-facade-masking-cs-direct-db.md` |
@@ -775,85 +775,85 @@ Files that cite a Record No. from a layer range OUTSIDE their claimed `**Layer:*
 | 1,712 | L3 | `wiki/claims/kiatis-project-deliberately-transferred-to-han-ji-hoon.md` |
 | 1,720 | L3 | `wiki/claims/layer3-pc-evaluation-chair-replaced.md`, `wiki/layers/layer-3.md` |
 | 1,723 | L3 | `wiki/claims/layer3-pm-post-vacancy-predecessor-gap.md` |
-| 1,767 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,768 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,769 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,770 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,771 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,772 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,773 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,774 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,775 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,776 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,777 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,778 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,779 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,780 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,781 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,782 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,783 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,784 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,785 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,786 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,787 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,788 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,789 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,790 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,791 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,792 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,793 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,794 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,795 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,796 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,797 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,798 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,799 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,800 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,801 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,802 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,803 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,804 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,805 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,806 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,807 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,808 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,809 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,810 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,811 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,812 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,813 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,814 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,815 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,816 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,817 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,818 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,819 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,820 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,821 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,822 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,823 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,824 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,825 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,826 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,827 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,828 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,829 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,830 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,831 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,832 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,833 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,834 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,835 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,836 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,837 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,838 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,839 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,840 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,841 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,842 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,843 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,850 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
-| 1,851 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md` |
+| 1,767 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,768 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,769 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,770 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,771 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,772 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,773 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,774 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,775 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,776 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,777 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,778 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,779 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,780 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,781 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,782 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,783 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,784 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,785 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,786 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,787 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,788 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,789 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,790 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,791 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,792 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,793 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,794 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,795 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,796 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,797 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,798 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,799 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,800 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,801 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,802 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,803 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,804 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,805 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,806 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,807 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,808 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,809 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,810 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,811 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,812 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,813 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,814 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,815 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,816 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,817 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,818 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,819 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,820 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,821 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,822 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,823 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,824 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,825 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,826 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,827 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,828 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,829 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,830 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,831 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,832 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,833 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,834 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,835 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,836 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,837 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,838 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,839 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,840 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,841 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,842 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,843 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,850 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
+| 1,851 | L3 | `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md` |
 | 1,874 | L3 | `wiki/claims/didc-falsely-records-old-kiatis-as-vpn-user.md` |
 | 1,875 | L3 | `wiki/claims/didc-falsely-records-old-kiatis-as-vpn-user.md` |
 | 1,881 | L3 | `wiki/claims/layer5-kakaotalk-silence-proves-normal-attendance.md`, `wiki/claims/layer5-yang-mi-suk-silence-as-active-complicity.md` |
@@ -970,15 +970,15 @@ Files that cite a Record No. from a layer range OUTSIDE their claimed `**Layer:*
 | 2,850 | L4 | `wiki/claims/audit-dtot-report-hidden-from-team-leader.md`, `wiki/claims/supervision-report-concealment-selective-circulation.md` |
 | 2,851 | L4 | `wiki/claims/audit-dtot-report-hidden-from-team-leader.md`, `wiki/claims/supervision-report-concealment-selective-circulation.md` |
 | 2,852 | L4 | `wiki/claims/audit-dtot-report-hidden-from-team-leader.md`, `wiki/claims/supervision-report-concealment-selective-circulation.md` |
-| 2,853 | L4 | `wiki/claims/layer4-evaluation-item-change-after-completion.md`, `wiki/claims/layer4-procedure-simplification-temporal-contradiction-2019-09.md`, `wiki/claims/lee-jiyoung-kim-sujin-single-point-of-control.md`, `wiki/claims/mnd-test-eval-simplification-timed-to-evaluation-day.md` |
-| 2,854 | L4 | `wiki/claims/layer4-procedure-simplification-temporal-contradiction-2019-09.md` |
-| 2,855 | L4 | `wiki/claims/layer4-procedure-simplification-temporal-contradiction-2019-09.md` |
-| 2,856 | L4 | `wiki/claims/layer4-procedure-simplification-temporal-contradiction-2019-09.md` |
-| 2,857 | L4 | `wiki/claims/layer4-procedure-simplification-temporal-contradiction-2019-09.md` |
-| 2,858 | L4 | `wiki/claims/layer4-evaluation-item-change-after-completion.md`, `wiki/claims/layer4-procedure-simplification-temporal-contradiction-2019-09.md`, `wiki/claims/split-temporal-reversal-2019-09-02-forgery.md` |
+| 2,853 | L4 | `wiki/claims/layer4-evaluation-item-change-after-completion.md`, `wiki/claims/layer4-procedure-simplification-temporal-manipulation-2019-09.md`, `wiki/claims/lee-jiyoung-kim-sujin-single-point-of-control.md`, `wiki/claims/mnd-test-eval-simplification-timed-to-evaluation-day.md` |
+| 2,854 | L4 | `wiki/claims/layer4-procedure-simplification-temporal-manipulation-2019-09.md` |
+| 2,855 | L4 | `wiki/claims/layer4-procedure-simplification-temporal-manipulation-2019-09.md` |
+| 2,856 | L4 | `wiki/claims/layer4-procedure-simplification-temporal-manipulation-2019-09.md` |
+| 2,857 | L4 | `wiki/claims/layer4-procedure-simplification-temporal-manipulation-2019-09.md` |
+| 2,858 | L4 | `wiki/claims/layer4-evaluation-item-change-after-completion.md`, `wiki/claims/layer4-procedure-simplification-temporal-manipulation-2019-09.md`, `wiki/claims/split-temporal-reversal-2019-09-02-forgery.md` |
 | 3,039 | L4 | `wiki/claims/80-items-violate-national-contract-law.md`, `wiki/claims/cartel-requirement-inflation-80-items-delay.md`, `wiki/claims/cross-atom-99-7-plus-80items-plus-data-absence.md`, `wiki/claims/gukyu-dan-data-absence-delays-new-kiatis.md`, `wiki/claims/layer4-evaluation-committee-80-items-violation.md` |
-| 3,041 | L4 | `wiki/claims/cartel-requirement-inflation-80-items-delay.md`, `wiki/claims/cross-atom-99-7-plus-80items-plus-data-absence.md`, `wiki/claims/layer4-997-military-adequate-verdict-contradicted-by-sabotage.md`, `wiki/claims/layer4-evaluation-committee-80-items-violation.md` |
-| 3,068 | L4 | `wiki/claims/contradiction-evaluation-post-completion-temporal-impossibility.md`, `wiki/claims/layer4-activex-removal-request-during-evaluation-conspiracy.md` |
+| 3,041 | L4 | `wiki/claims/cartel-requirement-inflation-80-items-delay.md`, `wiki/claims/cross-atom-99-7-plus-80items-plus-data-absence.md`, `wiki/claims/layer4-997-military-adequate-verdict-vs-sabotage.md`, `wiki/claims/layer4-evaluation-committee-80-items-violation.md` |
+| 3,068 | L4 | `wiki/claims/evaluation-post-completion-temporal-impossibility.md`, `wiki/claims/layer4-activex-removal-request-during-evaluation-conspiracy.md` |
 | 3,229 | L4 | `wiki/claims/layer5-excavation-team-old-kiatis-internet-proof.md` |
 | 3,236 | L4 | `wiki/claims/old-kiatis-apt-optimal-vulnerability-structure.md`, `wiki/claims/victim-blaming-structural-to-individual.md` |
 | 3,237 | L4 | `wiki/claims/victim-blaming-structural-to-individual.md` |
@@ -1049,7 +1049,7 @@ Files that cite a Record No. from a layer range OUTSIDE their claimed `**Layer:*
 | 3,944 | L5 | `wiki/claims/layer3-mkiss-abnormal-operation-gaslighting-pretext.md`, `wiki/claims/layer5-park-seojun-gaslighting-victim-or-accomplice.md` |
 | 3,945 | L5 | `wiki/claims/layer5-lee-ji-young-false-dinner-testimony-three-witnesses.md`, `wiki/claims/layer5-park-seojun-nominal-complainant.md`, `wiki/claims/warning-letter-reflects-only-lee-jiyoung.md` |
 | 3,946 | L5 | `wiki/claims/layer5-lee-ji-young-false-dinner-testimony-three-witnesses.md`, `wiki/claims/layer5-park-seojun-nominal-complainant.md`, `wiki/claims/warning-letter-reflects-only-lee-jiyoung.md` |
-| 3,948 | L5 | `wiki/claims/contradiction-selective-criminalization-approval-chain.md`, `wiki/claims/prosecution-selective-criminalization-firewall-approval-chain.md` |
+| 3,948 | L5 | `wiki/claims/selective-criminalization-approval-chain.md`, `wiki/claims/prosecution-selective-criminalization-firewall-approval-chain.md` |
 | 3,952 | L5 | `wiki/claims/layer5-park-seojun-gaslighting-victim-or-accomplice.md` |
 | 3,965 | L5 | `wiki/claims/cross-layer-predetermined-conclusion-L5-L6-L7.md`, `wiki/claims/layer5-48hr-retaliation-causal-link.md`, `wiki/claims/layer5-predetermined-audit-conclusion.md` |
 | 3,966 | L5 | `wiki/claims/harassment-complaint-48hrs-premeditated-isolation.md` |
@@ -1075,17 +1075,17 @@ Files that cite a Record No. from a layer range OUTSIDE their claimed `**Layer:*
 | 4,053 | L5 | `wiki/claims/layer5-lee-ji-young-false-dinner-testimony-three-witnesses.md` |
 | 4,054 | L5 | `wiki/claims/layer5-lee-ji-young-false-dinner-testimony-three-witnesses.md`, `wiki/claims/layer5-park-seojun-gaslighting-victim-or-accomplice.md` |
 | 4,063 | L5 | `wiki/claims/investigation-bureau-fake-harassment-7-phase-process.md`, `wiki/claims/layer5-language-weaponization-silence-as-murder.md`, `wiki/claims/layer5-park-seojun-48hr-cooperation-to-hostility.md` |
-| 4,064 | L5 | `wiki/claims/contradiction-fabricated-warning-wrong-title.md`, `wiki/claims/warning-letter-reflects-only-lee-jiyoung.md` |
+| 4,064 | L5 | `wiki/claims/fabricated-warning-wrong-title.md`, `wiki/claims/warning-letter-reflects-only-lee-jiyoung.md` |
 | 4,078 | L5 | `wiki/claims/layer5-fabricated-warning-letter.md`, `wiki/claims/layer5-park-seojun-48hr-cooperation-to-hostility.md`, `wiki/claims/layer5-park-seojun-nominal-complainant.md` |
 | 4,084 | L5 | `wiki/claims/layer5-language-weaponization-silence-as-murder.md`, `wiki/claims/layer5-six-month-isolation-human-rights.md`, `wiki/claims/layer5-six-month-witness-destruction-tactics.md` |
 | 4,087 | L5 | `wiki/claims/layer5-language-weaponization-silence-as-murder.md`, `wiki/claims/layer5-park-seojun-48hr-cooperation-to-hostility.md`, `wiki/claims/layer5-six-month-isolation-human-rights.md`, `wiki/claims/layer5-six-month-witness-destruction-tactics.md`, `wiki/claims/layer6-judicial-murder-permanent-family-destruction.md` |
 | 4,088 | L5 | `wiki/claims/layer5-language-weaponization-silence-as-murder.md`, `wiki/claims/layer5-park-seojun-48hr-cooperation-to-hostility.md` |
 | 4,089 | L5 | `wiki/claims/layer5-language-weaponization-silence-as-murder.md`, `wiki/claims/layer5-park-seojun-48hr-cooperation-to-hostility.md` |
 | 4,090 | L5 | `wiki/claims/layer5-language-weaponization-silence-as-murder.md`, `wiki/claims/layer5-park-seojun-48hr-cooperation-to-hostility.md` |
-| 4,338 | L5 | `wiki/claims/layer5-kyungbuk-network-conflict-of-interest.md`, `wiki/claims/prosecution-firewall-port-opening-contradicts-it-standard-practice.md` |
+| 4,338 | L5 | `wiki/claims/layer5-kyungbuk-network-conflict-of-interest.md`, `wiki/claims/prosecution-firewall-port-opening-vs-it-standard-practice.md` |
 | 4,352 | L5 | `wiki/claims/layer5-choi-dongwook-dual-role-lawyer-or-conspirator.md` |
 | 4,424 | L5 | `wiki/claims/kiatis-rfp-tech-table-proves-sw-only-internet-structure.md`, `wiki/claims/prosecution-non-prosecution-identity-error-fraud.md` |
-| 4,542 | L5 | `wiki/claims/layer5-choi-dongwook-dual-role-lawyer-or-conspirator.md`, `wiki/claims/layer5-kyungbuk-network-conflict-of-interest.md`, `wiki/claims/prosecution-firewall-port-opening-contradicts-it-standard-practice.md` |
+| 4,542 | L5 | `wiki/claims/layer5-choi-dongwook-dual-role-lawyer-or-conspirator.md`, `wiki/claims/layer5-kyungbuk-network-conflict-of-interest.md`, `wiki/claims/prosecution-firewall-port-opening-vs-it-standard-practice.md` |
 | 4,671 | L6 | `wiki/claims/layer6-phase2-blame-shift-2020-2021.md` |
 | 4,672 | L6 | `wiki/claims/layer6-phase2-blame-shift-2020-2021.md` |
 | 4,673 | L6 | `wiki/claims/layer6-phase2-blame-shift-2020-2021.md` |
@@ -1102,7 +1102,7 @@ Files that cite a Record No. from a layer range OUTSIDE their claimed `**Layer:*
 | 4,723 | L6 | `wiki/claims/kiatis-homepage-co-managed-by-admin-ops-team.md` |
 | 4,748 | L6 | `wiki/claims/didc-falsely-records-old-kiatis-as-vpn-user.md`, `wiki/claims/didc-vpn-otp-18month-withholding.md` |
 | 4,756 | L6 | `wiki/claims/supervision-report-concealment-selective-circulation.md` |
-| 4,757 | L6 | `wiki/claims/contradiction-evaluation-post-completion-temporal-impossibility.md`, `wiki/claims/fabricated-document-2020-produced-in-2022.md`, `wiki/claims/layer4-evaluation-item-change-after-completion.md`, `wiki/claims/layer4-software-install-to-system-install-terminology-fabrication.md`, `wiki/claims/mnd-test-evaluation-improvement-retroactive-justification.md` |
+| 4,757 | L6 | `wiki/claims/evaluation-post-completion-temporal-impossibility.md`, `wiki/claims/fabricated-document-2020-produced-in-2022.md`, `wiki/claims/layer4-evaluation-item-change-after-completion.md`, `wiki/claims/layer4-software-install-to-system-install-terminology-fabrication.md`, `wiki/claims/mnd-test-evaluation-improvement-retroactive-justification.md` |
 | 4,758 | L6 | `wiki/claims/fabricated-document-recipients-admin-only.md` |
 | 4,759 | L6 | `wiki/claims/layer4-evaluation-item-change-after-completion.md`, `wiki/claims/mnd-test-evaluation-definition-manipulation.md`, `wiki/claims/mnd-test-evaluation-improvement-retroactive-justification.md` |
 | 4,760 | L6 | `wiki/claims/mnd-test-evaluation-improvement-retroactive-justification.md` |
@@ -1128,19 +1128,19 @@ Files that cite a Record No. from a layer range OUTSIDE their claimed `**Layer:*
 | 4,831 | L6 | `wiki/claims/fabricated-document-2020-produced-in-2022.md` |
 | 4,832 | L6 | `wiki/claims/fabricated-document-2020-produced-in-2022.md` |
 | 4,833 | L6 | `wiki/claims/fabricated-document-2020-produced-in-2022.md` |
-| 4,842 | L6 | `wiki/claims/contradiction-selective-criminalization-approval-chain.md`, `wiki/claims/han-ji-hoon-suspect-interrogation-2022-09-02.md`, `wiki/claims/layer3-vpn-otp-card-used-2021-not-2019.md`, `wiki/claims/layer6-cartel-network-structure-four-documents-four-keywords.md`, `wiki/claims/prosecution-distorts-operational-vs-test-environment.md` |
+| 4,842 | L6 | `wiki/claims/selective-criminalization-approval-chain.md`, `wiki/claims/han-ji-hoon-suspect-interrogation-2022-09-02.md`, `wiki/claims/layer3-vpn-otp-card-used-2021-not-2019.md`, `wiki/claims/layer6-cartel-network-structure-four-documents-four-keywords.md`, `wiki/claims/prosecution-distorts-operational-vs-test-environment.md` |
 | 4,854 | L6 | `wiki/claims/han-ji-hoon-investigation-notification-2022-07-21.md`, `wiki/claims/han-ji-hoon-suspect-interrogation-2022-09-02.md`, `wiki/claims/han-ji-hoon-witness-statement-2022-01-25.md`, `wiki/claims/investigation-bureau-fake-harassment-7-phase-process.md`, `wiki/claims/layer6-cartel-network-structure-four-documents-four-keywords.md`, `wiki/claims/layer6-phase3-trap-activation-criminalization-2021-2022.md`, `wiki/claims/prosecution-distorts-operational-vs-test-environment.md`, `wiki/claims/xsyn-prosecutor-post-warrant-arrival-predetermination.md` |
 | 4,855 | L6 | `wiki/claims/old-kiatis-apt-optimal-vulnerability-structure.md`, `wiki/claims/victim-blaming-structural-to-individual.md` |
 | 4,859 | L6 | `wiki/claims/han-ji-hoon-investigation-notification-2022-07-21.md`, `wiki/claims/han-ji-hoon-witness-statement-2022-01-25.md` |
-| 4,866 | L6 | `wiki/claims/kiatis-rfp-tech-table-proves-sw-only-internet-structure.md`, `wiki/claims/layer2-budget-compression-enables-l3-task-transfer.md`, `wiki/claims/layer2-intentional-budget-reduction-sw-hw.md`, `wiki/claims/prosecution-non-prosecution-internal-contradiction.md` |
-| 4,867 | L6 | `wiki/claims/layer2-budget-compression-enables-l3-task-transfer.md`, `wiki/claims/layer2-intentional-budget-reduction-sw-hw.md`, `wiki/claims/prosecution-non-prosecution-internal-contradiction.md` |
-| 4,868 | L6 | `wiki/claims/layer2-budget-compression-enables-l3-task-transfer.md`, `wiki/claims/layer2-intentional-budget-reduction-sw-hw.md`, `wiki/claims/prosecution-non-prosecution-internal-contradiction.md` |
-| 4,869 | L6 | `wiki/claims/layer2-budget-compression-enables-l3-task-transfer.md`, `wiki/claims/layer2-intentional-budget-reduction-sw-hw.md`, `wiki/claims/prosecution-non-prosecution-internal-contradiction.md` |
-| 4,870 | L6 | `wiki/claims/layer2-budget-compression-enables-l3-task-transfer.md`, `wiki/claims/layer2-intentional-budget-reduction-sw-hw.md`, `wiki/claims/prosecution-non-prosecution-internal-contradiction.md` |
-| 4,871 | L6 | `wiki/claims/layer2-budget-compression-enables-l3-task-transfer.md`, `wiki/claims/layer2-intentional-budget-reduction-sw-hw.md`, `wiki/claims/prosecution-non-prosecution-internal-contradiction.md` |
-| 4,872 | L6 | `wiki/claims/prosecution-non-prosecution-internal-contradiction.md` |
+| 4,866 | L6 | `wiki/claims/kiatis-rfp-tech-table-proves-sw-only-internet-structure.md`, `wiki/claims/layer2-budget-compression-enables-l3-task-transfer.md`, `wiki/claims/layer2-intentional-budget-reduction-sw-hw.md`, `wiki/claims/prosecution-non-prosecution-self-contradiction.md` |
+| 4,867 | L6 | `wiki/claims/layer2-budget-compression-enables-l3-task-transfer.md`, `wiki/claims/layer2-intentional-budget-reduction-sw-hw.md`, `wiki/claims/prosecution-non-prosecution-self-contradiction.md` |
+| 4,868 | L6 | `wiki/claims/layer2-budget-compression-enables-l3-task-transfer.md`, `wiki/claims/layer2-intentional-budget-reduction-sw-hw.md`, `wiki/claims/prosecution-non-prosecution-self-contradiction.md` |
+| 4,869 | L6 | `wiki/claims/layer2-budget-compression-enables-l3-task-transfer.md`, `wiki/claims/layer2-intentional-budget-reduction-sw-hw.md`, `wiki/claims/prosecution-non-prosecution-self-contradiction.md` |
+| 4,870 | L6 | `wiki/claims/layer2-budget-compression-enables-l3-task-transfer.md`, `wiki/claims/layer2-intentional-budget-reduction-sw-hw.md`, `wiki/claims/prosecution-non-prosecution-self-contradiction.md` |
+| 4,871 | L6 | `wiki/claims/layer2-budget-compression-enables-l3-task-transfer.md`, `wiki/claims/layer2-intentional-budget-reduction-sw-hw.md`, `wiki/claims/prosecution-non-prosecution-self-contradiction.md` |
+| 4,872 | L6 | `wiki/claims/prosecution-non-prosecution-self-contradiction.md` |
 | 4,874 | L6 | `wiki/claims/han-ji-hoon-suspect-interrogation-2022-09-02.md`, `wiki/claims/han-ji-hoon-witness-statement-2022-01-25.md`, `wiki/claims/layer3-vpn-otp-card-used-2021-not-2019.md`, `wiki/claims/layer6-cartel-network-structure-four-documents-four-keywords.md`, `wiki/claims/prosecution-distorts-operational-vs-test-environment.md` |
-| 4,878 | L6 | `wiki/claims/contradiction-fabricated-warning-wrong-title.md`, `wiki/claims/warning-letter-reflects-only-lee-jiyoung.md` |
+| 4,878 | L6 | `wiki/claims/fabricated-warning-wrong-title.md`, `wiki/claims/warning-letter-reflects-only-lee-jiyoung.md` |
 | 4,879 | L6 | `wiki/claims/kiatis-homepage-co-managed-by-admin-ops-team.md` |
 | 4,882 | L6 | `wiki/claims/kiatis-mkia-multi-cap-inscription.md` |
 | 4,887 | L6 | `wiki/claims/layer4-test-evaluation-separation-principle-directive-2129.md`, `wiki/events/2018-2019-kiatis-performance-improvement-project.md` |
@@ -1285,7 +1285,7 @@ Files that cite a Record No. from a layer range OUTSIDE their claimed `**Layer:*
 | 5,851 | L7 | `wiki/claims/audit-dtot-report-hidden-from-team-leader.md` |
 | 5,852 | L7 | `wiki/claims/audit-dtot-report-hidden-from-team-leader.md` |
 | 5,853 | L7 | `wiki/claims/gukyu-dan-dual-cap-unprecedented-structure.md` |
-| 5,950 | L7 | `wiki/claims/contradiction-evaluation-post-completion-temporal-impossibility.md`, `wiki/claims/layer4-activex-removal-request-during-evaluation-conspiracy.md`, `wiki/claims/layer4-evaluation-item-change-after-completion.md`, `wiki/claims/xsyn-80items-additional-not-defects-triangulated.md` |
+| 5,950 | L7 | `wiki/claims/evaluation-post-completion-temporal-impossibility.md`, `wiki/claims/layer4-activex-removal-request-during-evaluation-conspiracy.md`, `wiki/claims/layer4-evaluation-item-change-after-completion.md`, `wiki/claims/xsyn-80items-additional-not-defects-triangulated.md` |
 | 5,951 | L7 | `wiki/claims/layer4-activex-removal-request-during-evaluation-conspiracy.md` |
 | 5,952 | L7 | `wiki/claims/layer4-activex-removal-request-during-evaluation-conspiracy.md` |
 | 5,953 | L7 | `wiki/claims/layer4-activex-removal-request-during-evaluation-conspiracy.md` |
@@ -1307,7 +1307,7 @@ Files that cite a Record No. from a layer range OUTSIDE their claimed `**Layer:*
 | 6,153 | L7 | `wiki/claims/gukjeonwon-pre-evaluation-team-leader-exclusion.md` |
 | 6,154 | L7 | `wiki/claims/gukjeonwon-pre-evaluation-team-leader-exclusion.md` |
 | 6,155 | L7 | `wiki/claims/gukjeonwon-pre-evaluation-team-leader-exclusion.md` |
-| 6,168 | L7 | `wiki/claims/lee-junho-false-testimony-contradicted-by-own-doc.md` |
+| 6,168 | L7 | `wiki/claims/lee-junho-false-testimony-self-contradiction.md` |
 | 6,169 | L7 | `wiki/claims/firewall-requests-confirm-no-vpn-db-direct-access.md` |
 | 6,171 | L7 | `wiki/claims/firewall-requests-confirm-no-vpn-db-direct-access.md` |
 | 6,240 | L7 | `wiki/claims/kida-otne-citation-misrepresents-us-standard.md`, `wiki/claims/kida-recommends-gukjeonwon-centered-integration.md` |
@@ -1349,8 +1349,8 @@ Files that cite a Record No. from a layer range OUTSIDE their claimed `**Layer:*
 | 6,755 | L7 | `wiki/claims/kim-min-su-central-cross-layer-cartel-figure.md`, `wiki/claims/split-kim-min-su-false-ignorance-vs-career.md` |
 | 6,759 | L7 | `wiki/claims/kiatis-homepage-co-managed-by-admin-ops-team.md` |
 | 6,760 | L7 | `wiki/claims/kim-min-su-central-cross-layer-cartel-figure.md`, `wiki/claims/split-kim-min-su-false-ignorance-vs-career.md` |
-| 6,818 | L7 | `wiki/claims/prosecution-non-prosecution-internal-contradiction.md` |
-| 6,819 | L7 | `wiki/claims/prosecution-non-prosecution-internal-contradiction.md` |
+| 6,818 | L7 | `wiki/claims/prosecution-non-prosecution-self-contradiction.md` |
+| 6,819 | L7 | `wiki/claims/prosecution-non-prosecution-self-contradiction.md` |
 | 6,916 | L7 | `wiki/claims/warning-letter-reflects-only-lee-jiyoung.md` |
 | 6,917 | L7 | `wiki/claims/layer5-predetermined-audit-conclusion.md`, `wiki/claims/warning-letter-reflects-only-lee-jiyoung.md` |
 | 6,918 | L7 | `wiki/claims/layer5-predetermined-audit-conclusion.md` |
@@ -1363,7 +1363,7 @@ Files that cite a Record No. from a layer range OUTSIDE their claimed `**Layer:*
 | 7,486 | L7 | `wiki/claims/layer4-post-evaluation-illegal-control-transfer-to-gukyu-dan.md` |
 | 7,495 | L7 | `wiki/claims/kiatis-mnd-controlled-not-delegated.md`, `wiki/claims/new-kiatis-is-mnd-controlled-not-delegated-project.md` |
 | 7,496 | L7 | `wiki/claims/kiatis-mkia-multi-cap-inscription.md`, `wiki/claims/kiatis-mnd-controlled-not-delegated.md`, `wiki/claims/layer2-delegation-falsification-triggers-l3-transfer.md`, `wiki/claims/new-kiatis-is-mnd-controlled-not-delegated-project.md` |
-| 7,512 | L7 | `wiki/claims/article-58-separation-to-integration-2020-directive-manipulation.md`, `wiki/claims/contradiction-article-58-five-year-stability-then-reversal.md`, `wiki/claims/directive-article-11-control-functions-stripped.md`, `wiki/claims/xsyn-directive-2436-retroactive-legal-basis.md` |
+| 7,512 | L7 | `wiki/claims/article-58-separation-to-integration-2020-directive-manipulation.md`, `wiki/claims/article-58-five-year-stability-then-reversal.md`, `wiki/claims/directive-article-11-control-functions-stripped.md`, `wiki/claims/xsyn-directive-2436-retroactive-legal-basis.md` |
 | 7,995 | L7 | `wiki/claims/kiatis-mnd-controlled-not-delegated.md`, `wiki/claims/new-kiatis-is-mnd-controlled-not-delegated-project.md` |
 | 7,996 | L7 | `wiki/claims/kiatis-mnd-controlled-not-delegated.md`, `wiki/claims/new-kiatis-is-mnd-controlled-not-delegated-project.md` |
 | 8,011 | L7 | `wiki/claims/prosecution-non-prosecution-identity-error-fraud.md` |
@@ -1373,7 +1373,7 @@ Files that cite a Record No. from a layer range OUTSIDE their claimed `**Layer:*
 | 8,087 | L7 | `wiki/claims/directive-article-11-control-functions-stripped.md` |
 | 8,168 | L7 | `wiki/claims/directive-article-11-control-functions-stripped.md` |
 | 8,179 | L7 | `wiki/claims/layer3-server-sw-separation-enables-l4-evaluation-manipulation.md` |
-| 8,194 | L7 | `wiki/claims/article-58-separation-to-integration-2020-directive-manipulation.md`, `wiki/claims/contradiction-article-58-five-year-stability-then-reversal.md`, `wiki/claims/xsyn-directive-2436-retroactive-legal-basis.md` |
+| 8,194 | L7 | `wiki/claims/article-58-separation-to-integration-2020-directive-manipulation.md`, `wiki/claims/article-58-five-year-stability-then-reversal.md`, `wiki/claims/xsyn-directive-2436-retroactive-legal-basis.md` |
 | 8,260 | L7 | `wiki/claims/directive-article-11-control-functions-stripped.md`, `wiki/claims/split-article-11-vocabulary-erasure.md`, `wiki/claims/terminology-manipulation-role-concept-distortion.md` |
 | 8,272 | L7 | `wiki/claims/directive-article-11-control-functions-stripped.md` |
 | 8,371 | L7 | `wiki/claims/kiatis-mkia-multi-cap-inscription.md`, `wiki/claims/layer4-post-evaluation-illegal-control-transfer-to-gukyu-dan.md` |
@@ -1585,7 +1585,7 @@ Files that cite a Record No. from a layer range OUTSIDE their claimed `**Layer:*
 | L1-006 | `wiki/layers/layer-1.md` |
 | L1-008 | `wiki/layers/layer-1.md` |
 | L1-009 | `wiki/layers/layer-1.md` |
-| L1-011 | `wiki/claims/contradiction-intranet-link-attack-surface.md` |
+| L1-011 | `wiki/claims/intranet-link-attack-surface.md` |
 | L1-2016 | `wiki/claims/jeong-hyeonwoo-2016-hacking-scapegoat-admission.md` |
 | L1-2946 | `wiki/claims/2946ho-entity-naming-second-generation-shift.md` |
 | L2-001 | `wiki/claims/han-ji-hoon-officer-personal-record-manipulation.md`, `wiki/claims/han-ji-hoon-three-braking-devices-active-defense.md`, `wiki/claims/kiatis-mkia-multi-cap-inscription.md`, `wiki/claims/kiatis-server-laundering-dcia-to-didc1.md`, `wiki/claims/lee-jiyoung-kim-sujin-single-point-of-control.md`, `wiki/layers/layer-2.md` |
@@ -1604,9 +1604,9 @@ Files that cite a Record No. from a layer range OUTSIDE their claimed `**Layer:*
 | L4-008 | `wiki/layers/layer-4.md` |
 | L4-010 | `wiki/claims/layer4-test-evaluation-separation-principle-directive-2129.md` |
 | L4-011 | `wiki/claims/layer4-activex-removal-request-during-evaluation-conspiracy.md` |
-| L4-012 | `wiki/claims/layer4-procedure-simplification-temporal-contradiction-2019-09.md` |
-| L4-013 | `wiki/claims/contradiction-evaluation-post-completion-temporal-impossibility.md`, `wiki/claims/layer4-post-evaluation-illegal-control-transfer-to-gukyu-dan.md` |
-| L4-019 | `wiki/claims/contradiction-article-58-five-year-stability-then-reversal.md` |
+| L4-012 | `wiki/claims/layer4-procedure-simplification-temporal-manipulation-2019-09.md` |
+| L4-013 | `wiki/claims/evaluation-post-completion-temporal-impossibility.md`, `wiki/claims/layer4-post-evaluation-illegal-control-transfer-to-gukyu-dan.md` |
+| L4-019 | `wiki/claims/article-58-five-year-stability-then-reversal.md` |
 | L4-031 | `wiki/claims/supervision-report-concealment-selective-circulation.md` |
 | L4-051 | `wiki/claims/layer4-old-new-kiatis-different-cyberspace.md` |
 | L4-052 | `wiki/claims/layer4-evaluation-item-change-after-completion.md` |
@@ -1614,7 +1614,7 @@ Files that cite a Record No. from a layer range OUTSIDE their claimed `**Layer:*
 | L5-001 | `wiki/claims/layer5-48hr-retaliation-causal-link.md`, `wiki/entities/people/han-ji-hoon.md`, `wiki/layers/layer-5.md` |
 | L5-002 | `wiki/claims/han-ji-hoon-officer-personal-record-manipulation.md`, `wiki/claims/layer5-six-month-isolation-human-rights.md`, `wiki/entities/people/han-ji-hoon.md` |
 | L5-003 | `wiki/claims/layer5-predetermined-audit-conclusion.md`, `wiki/entities/people/han-ji-hoon.md`, `wiki/layers/layer-5.md` |
-| L5-004 | `wiki/claims/contradiction-fabricated-warning-wrong-title.md`, `wiki/claims/han-ji-hoon-officer-personal-record-manipulation.md`, `wiki/claims/layer5-fabricated-warning-letter.md`, `wiki/entities/people/han-ji-hoon.md` |
+| L5-004 | `wiki/claims/fabricated-warning-wrong-title.md`, `wiki/claims/han-ji-hoon-officer-personal-record-manipulation.md`, `wiki/claims/layer5-fabricated-warning-letter.md`, `wiki/entities/people/han-ji-hoon.md` |
 | L5-005 | `wiki/claims/layer5-park-seojun-nominal-complainant.md`, `wiki/entities/people/han-ji-hoon.md`, `wiki/layers/layer-5.md` |
 | L5-006 | `wiki/claims/layer5-isolation-office-premeditated.md`, `wiki/entities/people/han-ji-hoon.md`, `wiki/layers/layer-5.md` |
 | L5-007 | `wiki/claims/layer5-choi-dongwook-dual-role-lawyer-or-conspirator.md` |
@@ -1639,7 +1639,7 @@ Files that cite a Record No. from a layer range OUTSIDE their claimed `**Layer:*
 | L6-006 | `wiki/claims/han-ji-hoon-suspect-interrogation-2022-09-02.md` |
 | L6-007 | `wiki/claims/cartel-requirement-inflation-80-items-delay.md`, `wiki/claims/gukyu-dan-data-absence-delays-new-kiatis.md`, `wiki/claims/layer4-evaluation-committee-80-items-violation.md`, `wiki/claims/mnd-test-evaluation-improvement-retroactive-justification.md` |
 | L6-014 | `wiki/claims/layer6-prosecutor-violated-anti-corruption-five-principles.md` |
-| L6-016 | `wiki/claims/contradiction-selective-criminalization-approval-chain.md` |
+| L6-016 | `wiki/claims/selective-criminalization-approval-chain.md` |
 | L6-018 | `wiki/claims/layer6-prosecutor-violated-anti-corruption-five-principles.md` |
 | L6-021 | `wiki/claims/layer6-phase1-success-result-neutralization-2019-2020.md`, `wiki/claims/layer6-phase3-trap-activation-criminalization-2021-2022.md` |
 | L6-024 | `wiki/claims/prosecution-non-prosecution-identity-error-fraud.md` |
@@ -1654,5 +1654,5 @@ Files that cite a Record No. from a layer range OUTSIDE their claimed `**Layer:*
 
 - **Source mapping:** `defense-kg-platform/kg/evidence_record_mapping.json`
 - **Script:** `scripts/build-record-index.py`
-- **Scan scope:** every `.md` under `wiki/` except navigation files (`_index.md`, `_master-index.md`, `_contradictions.md`, `log.md`, `timeline.md`, `_examples/`)
+- **Scan scope:** every `.md` under `wiki/` except navigation files (`_index.md`, `_master-index.md`, `_fractures.md`, `log.md`, `timeline.md`, `_examples/`)
 

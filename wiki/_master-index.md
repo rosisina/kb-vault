@@ -24,8 +24,8 @@ Atomic Popper-falsifiable claim Zettels. Each claim atom maps 1:1 to an Aurora `
 ### [[topics/_index|Topics]]
 Conceptual / narrative synthesis pages — the reading layer of the wiki. 8 pages derived from the vault-legacy topic articles, covering the 7-Layer Proof System, APT-Style Individual Targeting, Defense Informatization Cartel, KIATIS Systems, Test Evaluation Manipulation, Fraud Investigation, Banality vs Sophistication of Evil, and Whistleblower Protection and Reform.
 
-### [[_contradictions|Contradictions]]
-Flat index of flagged contradictions awaiting adjudication by a claim page.
+### [[_fractures|Fractures (균열)]]
+Flat index of flagged fractures — structural cracks in the cover-up narrative, classified by subtype (F-SC self-contradiction, F-CE counter-evidence, F-MS manipulation signal, F-SE selective enforcement, F-AA argument from absence).
 
 ### [[_record-index|Record Number Reverse Index]]
 Auto-generated reverse index: `Record No. NNNNN → [atoms citing it]` plus layer coverage rollup and layer-assignment mismatch report. Built by `scripts/build-record-index.py`. Rerun the script after any ingest to refresh.

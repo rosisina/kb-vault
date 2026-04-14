@@ -44,7 +44,10 @@
           [activeLayer]="activeLayer()"
           [selectedAtomId]="selectedAtomId()"
           [scrollToGroup]="scrollToGroup()"
+          [searchResults]="searchResults()"
+          [searchQuery]="searchQuery()"
           (atomSelect)="onAtomSelect($event)"
+          (answerReady)="answerForContext.set($event)"
         />
       </main>
 
@@ -53,6 +56,7 @@
         <app-evidence-context
           [activeLayer]="activeLayer()"
           [selectedAtomId]="selectedAtomId()"
+          [answerContext]="answerForContext()"
           (openGraph)="onOpenGraph()"
           (atomSelect)="onAtomSelect($event)"
           (groupSelect)="onGroupSelect($event)"
@@ -76,9 +80,13 @@
           </button>
         </div>
         <div class="modal-body">
-          <p style="color: var(--aurora-text-secondary); text-align: center; padding: 40px; font-size: 1rem;">
-            Cytoscape.js Proof Level visualization (CP-2)
-          </p>
+          <app-graph
+            [chainMode]="!!graphChain()"
+            [chainData]="graphChain()"
+            [focusAtomId]="selectedAtomId()"
+            [layerFilter]="activeLayer()"
+            (nodeSelect)="onGraphNodeSelect($event)"
+          />
         </div>
       </div>
     </div>

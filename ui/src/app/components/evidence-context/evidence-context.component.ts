@@ -1,10 +1,11 @@
-// Aurora v2 — Evidence Context (우측 패널)
-// Layer 대시보드 + 그룹 목차(진행률) + atom 상세 + 교차 층위
+// Aurora v2 CP-2 — Evidence Context (우측 패널)
+// Layer 대시보드 + 그룹 목차 + 관계 맵 (CAUSES/CORROBORATES/OPPOSES/인물)
 import { Component, Input, Output, EventEmitter, OnChanges, signal } from '@angular/core';
 import { GraphDataService } from '../../services/graph-data.service';
 import { LanguageService } from '../../services/language.service';
 import { ClaimTypeService } from '../../services/claim-type.service';
-import { GraphNode, GraphEdge } from '../../models/graph.models';
+import { GraphNode, GraphEdge, AtomDetail, AtomRelated } from '../../models/graph.models';
+import { QueryAnswer } from '../../models/query-answer.models';
 
 interface ContradictionPair {
   edge: GraphEdge;
@@ -27,9 +28,10 @@ interface PersonCount {
   count: number;
 }
 
-interface CrossLayerLink {
-  layer: number;
-  count: number;
+interface RelationGroup {
+  type: string;
+  typeLabel: string;
+  items: Array<{ node?: GraphNode; slug: string; display: string }>;
 }
 
 @Component({
@@ -41,6 +43,7 @@ interface CrossLayerLink {
 export class EvidenceContextComponent implements OnChanges {
   @Input() selectedAtomId: string | null = null;
   @Input() activeLayer: number | null = null;
+  @Input() answerContext: QueryAnswer | null = null;
   @Output() openGraph = new EventEmitter<void>();
   @Output() atomSelect = new EventEmitter<string>();
   @Output() groupSelect = new EventEmitter<string>();
@@ -54,14 +57,25 @@ export class EvidenceContextComponent implements OnChanges {
 
   // atom 선택 시
   selectedAtom = signal<GraphNode | null>(null);
-  crossLayerLinks = signal<CrossLayerLink[]>([]);
+  selectedDetail = signal<AtomDetail | null>(null);
+  relationGroups = signal<RelationGroup[]>([]);
 
-  // 주요 pseudonym 목록 (graph.json title에서 추출 가능한 것들)
+  // 주요 pseudonym 목록
   private knownNames = [
     '김민수', '이지영', '한지훈', '박성호', '이준호', '김수진',
     '장우진', '이태호', '오현수', '최영수', '최동욱', '임형규',
     '안세준', '진상호', '양준승', '도지호', '양미숙', '박서준',
   ];
+
+  private relTypeLabels: Record<string, { kr: string; en: string }> = {
+    'CAUSES': { kr: '원인 (↑↓)', en: 'Causes (↑↓)' },
+    'CORROBORATES': { kr: '뒷받침', en: 'Corroborates' },
+    'OPPOSES': { kr: '모순', en: 'Opposes' },
+    'SUPERSEDES': { kr: '대체', en: 'Supersedes' },
+    'RELATED': { kr: '관련', en: 'Related' },
+    'PART_OF_LAYER': { kr: '소속 층위', en: 'Part of Layer' },
+    'ABOUT': { kr: '관련 대상', en: 'About' },
+  };
 
   constructor(
     private graphData: GraphDataService,
@@ -85,6 +99,15 @@ export class EvidenceContextComponent implements OnChanges {
     this.atomSelect.emit(id);
   }
 
+  onRelatedClick(slug: string): void {
+    // Find the node by slug (stem)
+    const nodes = this.graphData.getNodes();
+    const found = nodes.find(n => n.wikiSlug === slug || n.stem === slug);
+    if (found) {
+      this.atomSelect.emit(found.id);
+    }
+  }
+
   private buildDashboard(): void {
     let pairs = this.graphData.getContradictions();
     if (this.activeLayer) {
@@ -93,7 +116,6 @@ export class EvidenceContextComponent implements OnChanges {
       );
     }
 
-    // 그룹별 요약
     const groupMap = new Map<string, ContradictionPair[]>();
     for (const pair of pairs) {
       const ct = pair.source.claimType || 'unknown';
@@ -129,7 +151,6 @@ export class EvidenceContextComponent implements OnChanges {
     this.totalCorroborated.set(totalCorr);
     this.overallPct.set(pairs.length > 0 ? Math.round((totalCorr / pairs.length) * 100) : 0);
 
-    // 주요 인물 추출
     this.extractPersons(pairs);
   }
 
@@ -153,29 +174,53 @@ export class EvidenceContextComponent implements OnChanges {
   private updateSelectedAtom(): void {
     if (!this.selectedAtomId) {
       this.selectedAtom.set(null);
-      this.crossLayerLinks.set([]);
+      this.selectedDetail.set(null);
+      this.relationGroups.set([]);
       return;
     }
+
     const atom = this.graphData.getNodeById(this.selectedAtomId);
     this.selectedAtom.set(atom ?? null);
 
-    if (atom) {
-      const edges = this.graphData.getEdgesForNode(atom.id);
-      const relatedIds = new Set(
-        edges.flatMap(e => [e.source, e.target]).filter(id => id !== atom.id)
-      );
-      const crossMap = new Map<number, number>();
-      for (const id of relatedIds) {
-        const related = this.graphData.getNodeById(id);
-        if (related && related.layer !== atom.layer) {
-          crossMap.set(related.layer, (crossMap.get(related.layer) || 0) + 1);
-        }
-      }
-      this.crossLayerLinks.set(
-        [...crossMap.entries()]
-          .map(([layer, count]) => ({ layer, count }))
-          .sort((a, b) => a.layer - b.layer)
-      );
+    const detail = this.graphData.getDetail(this.selectedAtomId);
+    this.selectedDetail.set(detail ?? null);
+
+    // Build relation groups from detail.json related links
+    if (detail) {
+      this.buildRelationGroups(detail);
+    } else {
+      this.relationGroups.set([]);
     }
+  }
+
+  private buildRelationGroups(detail: AtomDetail): void {
+    const lang = this.lang.lang();
+    const grouped = new Map<string, Array<{ node?: GraphNode; slug: string; display: string }>>();
+
+    for (const rel of detail.related) {
+      if (!grouped.has(rel.type)) grouped.set(rel.type, []);
+      const node = this.graphData.getNodes().find(n => n.stem === rel.slug || n.wikiSlug === rel.slug);
+      grouped.get(rel.type)!.push({
+        node: node,
+        slug: rel.slug,
+        display: node?.title || rel.display,
+      });
+    }
+
+    // Order: CAUSES → CORROBORATES → OPPOSES → SUPERSEDES → RELATED → PART_OF_LAYER
+    const order = ['CAUSES', 'CORROBORATES', 'OPPOSES', 'SUPERSEDES', 'RELATED', 'PART_OF_LAYER', 'ABOUT'];
+    const result: RelationGroup[] = [];
+    for (const type of order) {
+      const items = grouped.get(type);
+      if (items && items.length > 0) {
+        const labels = this.relTypeLabels[type] || { kr: type, en: type };
+        result.push({
+          type,
+          typeLabel: lang === 'kr' ? labels.kr : labels.en,
+          items,
+        });
+      }
+    }
+    this.relationGroups.set(result);
   }
 }

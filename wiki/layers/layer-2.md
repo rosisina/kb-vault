@@ -46,7 +46,7 @@ The Layer 2 compile pass extracted 6 initial atoms from the Korean original (`va
 
 ## Contradictions
 
-- [[../_contradictions]] entries C-L2-01 through C-L2-06 — added during Track C compile pass. All 6 candidates promotable-to-Open (strong), can join Track B promotion batch.
+- [[../_fractures]] entries C-L2-01 through C-L2-06 — added during Track C compile pass. All 6 candidates promotable-to-Open (strong), can join Track B promotion batch.
 
 ## Regulations
 
@@ -89,6 +89,6 @@ Aurora `:Layer {layer: 2}` node will be empty until the compile pass produces at
 
 - [[_index|Layers index]]
 - [[../_master-index|Master index]]
-- [[../_contradictions|Contradictions]]
+- [[../_fractures|Fractures]]
 - [[../claims/_index|Claims]]
 - [[layer-1|← Layer 1]] | [[layer-3|Layer 3 →]]

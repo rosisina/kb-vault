@@ -53,6 +53,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[prosecution-firewall-port-opening-contradicts-it-standard-practice]] (CAUSES)
+- [[prosecution-firewall-port-opening-vs-it-standard-practice]] (CAUSES)
 - [[prosecution-selective-criminalization-firewall-approval-chain]] (CAUSES)
 - [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

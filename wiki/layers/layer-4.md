@@ -33,7 +33,7 @@ The single most diagnostic finding is the **제2436호 cluster** (2020-06-04): a
 
 ## Contradictions
 
-- [[../_contradictions]] entries C-L4-01 (already Open, OT&E hedge flip-flop) and C-L4-02 through C-L4-08. The bridge contradictions C-B-01 and C-B-02 also feed Layer 4.
+- [[../_fractures]] entries C-L4-01 (already Open, OT&E hedge flip-flop) and C-L4-02 through C-L4-08. The bridge contradictions C-B-01 and C-B-02 also feed Layer 4.
 
 ## Regulations
 
@@ -81,7 +81,7 @@ Maps to Aurora `:Layer {layer: 4}` node + the directive `:Regulation` nodes for 
 - [진리성] **The 제2436호 cluster is statistically anomalous** — single-revision concentration of this magnitude does not happen by accident. Expected single-revision change rate: ~1 anchor; observed: 8.
 - [진리성] **Three temporal phases (전·중·후)**: directive rewrites (before) → execution violations (during) → academic retrospective framing (after, via KIDA report).
 - [타당성] **Bridge atoms (KIATIS legal framework)** make Layer 4 manipulations actionable at Layer 6: the 行為時法主義 anchor means the original 제2129호 text — not the manipulated successors — controls the legal evaluation.
-- [진리성] **C-L4-01 (OT&E hedge flip-flop)** is the only currently-promoted Open contradiction in `_contradictions.md`; the other 7 Layer 4 candidates await mechanical promotion.
+- [진리성] **C-L4-01 (OT&E hedge flip-flop)** is the only currently-promoted Open contradiction in `_fractures.md`; the other 7 Layer 4 candidates await mechanical promotion.
 - [진리성] **Layer 4 = 지시문 조작의 진앙**. 13 anchor 중 8개가 시험평가 regime, 그 중 6개가 단일 개정(제2436호)에 집중.
 - [진리성] **제2436호 클러스터는 통계적 이상치** — 단일 개정 평균 변경률 1 anchor 대비 8 anchor 관찰.
 
@@ -89,6 +89,6 @@ Maps to Aurora `:Layer {layer: 4}` node + the directive `:Regulation` nodes for 
 
 - [[_index|Layers index]]
 - [[../_master-index|Master index]]
-- [[../_contradictions|Contradictions]]
+- [[../_fractures|Fractures]]
 - [[../claims/_index|Claims]]
 - [[layer-3|← Layer 3]] | [[layer-5|Layer 5 →]]

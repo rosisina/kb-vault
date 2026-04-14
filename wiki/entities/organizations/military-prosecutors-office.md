@@ -24,7 +24,7 @@
 
 - [[../../claims/prosecution-fraud-meets-criminal-elements]] — 사기수사가 형사·사이버범죄 성립요소 충족
 - [[../../claims/prosecution-identity-fallacy-deception-technique]] — 동일성 오류 기만기술
-- [[../../claims/prosecution-non-prosecution-internal-contradiction]] — 불기소 이유서 내적 모순
+- [[../../claims/prosecution-non-prosecution-self-contradiction]] — 불기소 이유서 내적 모순
 - [[../../claims/prosecution-baeim-charge-self-contradictory]] — 배임 혐의 자기모순
 - [[../../claims/warrant-docs-are-actual-false-documents]] — 영장·통보 자체가 허위공문서
 - [[../../claims/prosecution-principal-actor-in-cartel]] — 카르텔 주동자

@@ -63,5 +63,5 @@ SET fr.layer = 6,
 ## Related
 
 - [[prosecution-identity-fallacy-deception-technique]] — L6 동일성 오류 (CORROBORATES)
-- [[prosecution-non-prosecution-internal-contradiction]] — L6 불기소 모순 (CORROBORATES)
+- [[prosecution-non-prosecution-self-contradiction]] — L6 불기소 모순 (CORROBORATES)
 - [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

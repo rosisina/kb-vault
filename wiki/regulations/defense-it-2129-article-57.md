@@ -52,7 +52,7 @@ Three of the five (A11, A12, A8b) combine to strip the DT&E definition of both r
 
 A11 and A12 were discovered on 2026-04-11 during A.6 P6 blind re-measurement; the original A8b atom (OT&E-only) did not capture the DT&E-side symmetry.
 
-**Note on the book's Article 57 comparative table:** Book §3.4.4.2.3 / Main text record—Layer 4—010 presents an Article 57 comparative table that appears to omit the 제2398호 environment hedge insertion (showing 제2129호 / 제2263호 / 제2398호 as identical). The pilot L4 subagent flagged this as UNCLEAR; the P6 blind re-measurement resolved it in favor of the wiki's raw/04-based reading. See [[../claims/2398-2842ho-otne-environment-hedge-flipflop]] Book-side audit note and [[../_contradictions|_contradictions.md]] C-L4-01 for the full audit trail.
+**Note on the book's Article 57 comparative table:** Book §3.4.4.2.3 / Main text record—Layer 4—010 presents an Article 57 comparative table that appears to omit the 제2398호 environment hedge insertion (showing 제2129호 / 제2263호 / 제2398호 as identical). The pilot L4 subagent flagged this as UNCLEAR; the P6 blind re-measurement resolved it in favor of the wiki's raw/04-based reading. See [[../claims/2398-2842ho-otne-environment-hedge-flipflop]] Book-side audit note and [[../_fractures|_fractures.md]] C-L4-01 for the full audit trail.
 
 ## Related claim atoms
 

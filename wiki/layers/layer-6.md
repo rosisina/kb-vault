@@ -27,7 +27,7 @@ Two legally-decisive Layer 6 facts anchor the thesis: (a) under 훈령 제2129�
 
 ## Contradictions
 
-- [[../_contradictions]] — L6 entries track the gap between the book's fraud-investigation thesis and the prosecution's stated legal reasoning. The 제58조 ¶4 misapplication finding is the strongest L6 contradiction: a single textual error in the 불기소이유서 that the prosecution itself cannot defend without admitting the charge foundation collapses.
+- [[../_fractures]] — L6 entries track the gap between the book's fraud-investigation thesis and the prosecution's stated legal reasoning. The 제58조 ¶4 misapplication finding is the strongest L6 contradiction: a single textual error in the 불기소이유서 that the prosecution itself cannot defend without admitting the charge foundation collapses.
 
 ## Regulations
 
@@ -79,7 +79,7 @@ This hub corresponds to Aurora `:Layer {layer: 6}` node and aggregates all `:Fal
 
 - [[_index|Layers index]]
 - [[../_master-index|Master index]]
-- [[../_contradictions|Contradictions]]
+- [[../_fractures|Fractures]]
 - [[../claims/_index|Claims]]
 - [[layer-5|← Layer 5]]
 - [[layer-7|Layer 7 →]]

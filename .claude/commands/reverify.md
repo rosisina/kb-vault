@@ -12,7 +12,7 @@ Target layers: $ARGUMENTS (if empty, run all 7 layers in parallel).
 
 The Re-verify operation treats `raw/01. book-beyond-cybersecurity/` (the book *Beyond Cybersecurity*, authored by James) as the **authoritative narrative source** against which every wiki file must be checked for consistency. The book is the integrated 1~13,000+ Record No. proof structure; the wiki is the analytical decomposition of that structure into atomic claims and hub pages.
 
-**When the wiki diverges from the book on a propositional matter, the wiki is patched to conform to the book.** The only exception is a propositional disagreement where the book conflicts with directly-cited primary evidence (e.g., directive verbatim text) — that exception becomes a `_contradictions.md` entry escalated to a dedicated claim atom.
+**When the wiki diverges from the book on a propositional matter, the wiki is patched to conform to the book.** The only exception is a propositional disagreement where the book conflicts with directly-cited primary evidence (e.g., directive verbatim text) — that exception becomes a `_fractures.md` entry escalated to a dedicated claim atom.
 
 Adopted as a formal operation 2026-04-11 per James's approval following the A.5 framing-correction incident, which demonstrated that comparator-side measurement without book-anchored cross-check can produce framing errors that propagate into atom verdicts.
 
@@ -45,7 +45,7 @@ Before dispatching the formal pass, set environment variable `CLAUDE_CODE_SUBAGE
 5. Merge the seven subagent reports into `output/reverification-report-YYYY-MM-DD.md` with sections per layer plus a top-level rollup of counts by verdict.
 6. For each `WIKI_NEEDS_PATCH` row, ask the user to confirm before applying patches. The book is authoritative; the wiki conforms to it. Log each patch as `fix` in `wiki/log.md`.
 7. For each `NEW_ATOM_NEEDED` row, draft the atom under `wiki/claims/` and link from the relevant hub.
-8. For each `BOOK_NEEDS_FOLLOWUP` row, escalate to `wiki/_contradictions.md` and a dedicated claim atom.
+8. For each `BOOK_NEEDS_FOLLOWUP` row, escalate to `wiki/_fractures.md` and a dedicated claim atom.
 9. Append one entry to `wiki/log.md` in the form:
    ```
    ## [YYYY-MM-DD HH:MM] reverify | layers: <list> | output/reverification-report-YYYY-MM-DD.md

@@ -100,7 +100,7 @@ DIDC SOP-based procedural-trace atoms. The 2016 DIDC hacking incident must have 
 
 - [[prosecution-omits-saup-tongje-gigwan-from-rfp-structure]] — **§3.6.4.6.1 (L6+L2)**: 군검사가 제안요청서 사업통제기관 역할 의도적 누락 — MECE 위반으로 국유단의 불법 사업통제기관 지정 은폐 (Record No. 1,483). **CORROBORATED (strong)**
 - [[prosecution-selective-criminalization-firewall-approval-chain]] — **§3.6.4.11.4 (L6+L5)**: 방화벽 공문 결재 3인(기안자 이준호·검토자 한지훈·결재자 최영수) 중 검토자만 피의자 지정. 최영수 5시간 기술 정당성 증언 반박 불가 (Record No. 3,948). **CORROBORATED (strong)**
-- [[prosecution-firewall-port-opening-contradicts-it-standard-practice]] — **§3.6.4.11.6 (L6+L5)**: 전 세계 IT 표준 실무인 방화벽 포트 개방을 범죄로 규정. 참고인 진술서·피의자 신문조서(Record No. 4,338ff, 4,542ff)에서 기술적 무지 입증. 검사 임형규 "기술적 문제 아니다" 자인. **CORROBORATED (strong)**
+- [[prosecution-firewall-port-opening-vs-it-standard-practice]] — **§3.6.4.11.6 (L6+L5)**: 전 세계 IT 표준 실무인 방화벽 포트 개방을 범죄로 규정. 참고인 진술서·피의자 신문조서(Record No. 4,338ff, 4,542ff)에서 기술적 무지 입증. 검사 임형규 "기술적 문제 아니다" 자인. **CORROBORATED (strong)**
 - [[mnd-fabricated-indo-stage-terminology-blame-shift]] — **§3.4.7.3.3 (L4+L6)**: 국방부 2020.8.20 조작공문에서 기존 훈령에 없는 신규 용어 '인도 단계' 도입 — DT&E/OT&E 양쪽에 적용하여 시스템 설치 책임을 사업관리기관에 전가 (Record No. 4,763). **CORROBORATED (strong)**
 - [[layer5-false-gapjil-report-organizational-conspiracy-structure]] — **§3.5.1.5 (L5)**: 허위 갑질 신고의 3단계 공모 구조 (주모자: 김민수+이지영 → 실행자: 김수진+이승우 → 도구: 박서준). 양준승 증언(Record No. 11,407–11,415). 경고장에 박서준 주장 미반영. **CORROBORATED (strong)**
 
@@ -177,7 +177,7 @@ Six initial atoms closing the Layer 2 gap (previously 0 atoms). Compiled from `v
 - [[layer4-evaluation-item-change-after-completion]] — **§3.4.7.2**: 평가 항목 변경 요청(9/5)→시험평가 종료(9/11)→변경 승인(9/19). 게임 종료 후 규칙 변경 = 시간 역전 조작. 기록 제5,950쪽. **CORROBORATED (strong)**
 - [[layer4-test-evaluation-separation-principle-directive-2129]] — **§3.4.1.1**: 훈령 제2129호 제57·58·62조 시험평가 분리 원칙 — 新KIATIS 적용 기준. 제안요청서(기록 제1,510쪽/L2) + 검찰 신문조서(기록 제4,887쪽/L6) 교차 확인. 제2436호(2020-06-04)부터 조작 시작. L4-001. **CORROBORATED (strong)**
 - [[layer4-activex-removal-request-during-evaluation-conspiracy]] — **§3.4.6.3**: 평가 중 Active-X 제거 요청(기록 제5,950~5,953쪽/L7) + 국유단장 즉시 승인(기록 제3,068쪽/L4) = 사전 합의 시나리오. 평가 독립성 훼손. **CORROBORATED (strong)**
-- [[layer4-procedure-simplification-temporal-contradiction-2019-09]] — **§3.4.7.1**: 시험평가 시작 당일(2019-09-02) 절차 간소화 요청 + 09-03 시간 역전(기록 제2,853~2,858쪽). 국전원장 08-29 승인 후 사후 무력화 시도. 이지영(공문결재자-1)·김수진(행정담당자-1). **CORROBORATED (strong)**
+- [[layer4-procedure-simplification-temporal-manipulation-2019-09]] — **§3.4.7.1**: 시험평가 시작 당일(2019-09-02) 절차 간소화 요청 + 09-03 시간 역전(기록 제2,853~2,858쪽). 국전원장 08-29 승인 후 사후 무력화 시도. 이지영(공문결재자-1)·김수진(행정담당자-1). **CORROBORATED (strong)**
 
 ## Layer 5 — Fraud investigation process (added section-walking batch 2026-04-11)
 
@@ -263,7 +263,7 @@ Six initial atoms closing the Layer 2 gap (previously 0 atoms). Compiled from `v
 
 ### Layer 4 — Test-evaluation score vs. sabotage (§3.4.6)
 
-- [[layer4-997-military-adequate-verdict-contradicted-by-sabotage]] — **§3.4.6.1 (L4+L1+L3)**: 99.7% '군사용 적합' 판정(Record No. 3,041) = 한지훈 성공적 사업관리 공식 인증. 그러나 카르텔의 이중 전략: 공식 성공 + 내부 파괴 공작(80건 추가 요구사항/훈령 조작/시스템 설치 용어 조작). Record No. 1,073/1,767/1,850/1,851/3,041. **CORROBORATED (strong)**
+- [[layer4-997-military-adequate-verdict-vs-sabotage]] — **§3.4.6.1 (L4+L1+L3)**: 99.7% '군사용 적합' 판정(Record No. 3,041) = 한지훈 성공적 사업관리 공식 인증. 그러나 카르텔의 이중 전략: 공식 성공 + 내부 파괴 공작(80건 추가 요구사항/훈령 조작/시스템 설치 용어 조작). Record No. 1,073/1,767/1,850/1,851/3,041. **CORROBORATED (strong)**
 
 **Batch 3 MODERATE-4: +5 atoms (all CORROBORATED strong). Cross-layer record placement: rec 118/126/187→규정(sub-L1), rec 1073→L1, rec 1767/1850/1851→L3, rec 3041/3271→L4, rec 4053/4776/4842/4854/4874/4979→L6, rec 5167→L6, rec 6270/6282/9018/11112/11113/11157→L7. Total: 87→92 atoms.**
 
@@ -320,7 +320,7 @@ Six initial atoms closing the Layer 2 gap (previously 0 atoms). Compiled from `v
 
 ### Layer 6 — prosecution fraud proof
 
-- [[prosecution-non-prosecution-internal-contradiction]] — 불기소 이유서 기소유예+99.73점 모순. **CORROBORATED (strong)**
+- [[prosecution-non-prosecution-self-contradiction]] — 불기소 이유서 기소유예+99.73점 모순. **CORROBORATED (strong)**
 - [[prosecution-fraud-meets-criminal-elements]] — 사기수사가 형사·사이버범죄 성립요소 충족. **CORROBORATED (strong)**
 - [[four-kiatis-environments-non-identical]] — 4개 환경 비동일 (정리04). **CORROBORATED (strong)**
 - [[firewall-port-opening-standard-it-procedure]] — 방화벽 포트 개방은 표준 IT 절차. **CORROBORATED (strong)**
@@ -328,7 +328,7 @@ Six initial atoms closing the Layer 2 gap (previously 0 atoms). Compiled from `v
 - [[layer6-997-reframed-as-deficient-development]] — 99.73점 성공의 부실개발 재프레이밍. **CORROBORATED (strong)**
 - [[prosecution-knew-innocence-continued-case]] — 무혐의 인지 후 수사 계속. **CORROBORATED (strong)**
 - [[prosecutor-shifted-charge-vpn-to-firewall]] — VPN→방화벽 기소 근거 전환. **CORROBORATED (strong)**
-- [[lee-junho-false-testimony-contradicted-by-own-doc]] — 이준호 허위 진술 자기 공문 반박. **CORROBORATED (strong)**
+- [[lee-junho-false-testimony-self-contradiction]] — 이준호 허위 진술 자기 공문 반박. **CORROBORATED (strong)**
 - [[prosecution-baeim-charge-self-contradictory]] — 배임 혐의 자기모순. **CORROBORATED (strong)**
 - [[layer6-gis-server-budget-intentional-omission]] — GIS 서버 예산 의도적 미반영. **CORROBORATED (strong)**
 - [[prosecution-principal-actor-in-cartel]] — 군검찰단은 카르텔 주동자. **CORROBORATED (strong)**
@@ -437,7 +437,7 @@ Six initial atoms closing the Layer 2 gap (previously 0 atoms). Compiled from `v
 - [[cross-layer-predetermined-conclusion-L5-L6-L7]] — L5→L6→L7 결론선행 체인: 감사→기소→제도거부 3단계 동일 패턴 반복. NME
 - [[evidence-golden-time-destruction-risk]] — 증거 보전의 골든타임 — 디지털 증거 인멸과 관련자 기억 소실 위험. NME
 - [[insider-research-autoethnographic-methodology]] — 피해 당사자의 4년간 1차 자료 수집·분석에 기초한 당사자 연구(insider research). NME
-- [[kim-min-su-willful-ignorance-firewall-contradiction]] — 김민수의 '일절 모른다' 방화벽 — 1개월 전 '내가 알아서 할 거고'와 정면 모순. NME
+- [[kim-min-su-willful-ignorance-firewall-self-contradiction]] — 김민수의 '일절 모른다' 방화벽 — 1개월 전 '내가 알아서 할 거고'와 정면 모순. NME
 - [[kiso-yuye-six-charges-dishonorable-discharge]] — 기소유예 6혐의(10.11) → 불명예제대(10.31) — 20일 간격의 설계. NME
 - [[military-aide-hong-non-response-to-petition]] — 군사보좌관 홍성민의 진정서 무응답 — KakaoTalk 전달 후 침묵. NME
 - [[presidential-special-investigation-required]] — 기존 수사기관 한계로 대통령 특단의 조치 필요 — 진실규명위원회 또는 특별검사. NME
@@ -449,7 +449,7 @@ Six initial atoms closing the Layer 2 gap (previously 0 atoms). Compiled from `v
 
 ### Layer 1
 
-- [[contradiction-intranet-link-attack-surface]] — C-L1-11: 舊KIATIS 인터넷+인트라넷 이중 연동 = 2016 해킹 브릿지 공격면. CORR
+- [[intranet-link-attack-surface]] — C-L1-11: 舊KIATIS 인터넷+인트라넷 이중 연동 = 2016 해킹 브릿지 공격면. CORR
 - [[csr-2016-hacking-should-trigger-emergency-vuln-check]] — 2016 해킹은 제44조 긴급 취약점 점검 조건 2개를 동시 충족 — KIATIS 점검 필수였다. NME
 - [[csr-annual-vulnerability-assessment-duty-violated]] — DIDC의 연간 취약점 평가 의무(제40조) — 15년간 미수행으로 舊KIATIS VPN 부재 미탐지. CORR
 - [[csr-cyber-asset-registry-catch-all-art45]] — 제45조 사이버자산 현황 관리 — 미등록이면 네트워크 차단, 등록이면 취약점 탐지 필수. CORR
@@ -458,8 +458,8 @@ Six initial atoms closing the Layer 2 gap (previously 0 atoms). Compiled from `v
 
 ### Layer 4
 
-- [[contradiction-article-58-five-year-stability-then-reversal]] — C-L4-19: 제58조 분리 원칙 5년 안정(2015~2020.2) → 제2436호 4개월 만에 역전(2020.6). CORR
-- [[contradiction-evaluation-post-completion-temporal-impossibility]] — C-L4-13: 시험평가 종료(9.11) 후 평가항목 변경 승인(9.19) — 시간적 불가능. CORR
+- [[article-58-five-year-stability-then-reversal]] — C-L4-19: 제58조 분리 원칙 5년 안정(2015~2020.2) → 제2436호 4개월 만에 역전(2020.6). CORR
+- [[evaluation-post-completion-temporal-impossibility]] — C-L4-13: 시험평가 종료(9.11) 후 평가항목 변경 승인(9.19) — 시간적 불가능. CORR
 - [[kakaotalk-eval-and-absence-same-day-announced]] — 카카오톡: 시험평가 시작과 송민석 교육 부재가 동일 채널에서 동시 공유 — 조직 전체 인지. CORR
 - [[split-article-11-vocabulary-erasure]] — 훈령 제2436호의 3대 용어 교체로 불법 위임을 지칭 불가능하게 만든 어휘 조작. CORR
 - [[split-kim-min-su-false-ignorance-vs-career]] — 김민수의 '어떻게 아니' 허위 진술 — 경력 기록과 직접 모순. CORR
@@ -468,7 +468,7 @@ Six initial atoms closing the Layer 2 gap (previously 0 atoms). Compiled from `v
 
 ### Layer 5
 
-- [[contradiction-fabricated-warning-wrong-title]] — C-L5-04 확장: 경고장의 존재하지 않는 직위 기재 — 행정정보계획팀장(미존재) vs 자원정보화과 국방정보화사업담당(공식). CORR
+- [[fabricated-warning-wrong-title]] — C-L5-04 확장: 경고장의 존재하지 않는 직위 기재 — 행정정보계획팀장(미존재) vs 자원정보화과 국방정보화사업담당(공식). CORR
 - [[kakaotalk-han-ji-hoon-pre-complaint-silence-digital]] — 카카오톡: 2022.2.3~14 한지훈 메시지 부재 — 공식 신고(2.10) 이전부터 디지털 격리 시작. NME
 - [[kakaotalk-han-ji-hoon-professional-engagement-during-eval]] — 카카오톡: 한지훈이 시험평가 기간 중 전문 콘텐츠에 능동 참여 — 채팅 미사용이 아닌 보고할 이상 부재. CORR
 - [[kakaotalk-lee-jiyoung-normal-management-pre-complaint]] — 카카오톡: 이지영의 갑질 신고 직전 주간 정상적 관리자 활동 — 직장 기능장애 서사 반박. CORR
@@ -479,7 +479,7 @@ Six initial atoms closing the Layer 2 gap (previously 0 atoms). Compiled from `v
 
 ### Layer 6
 
-- [[contradiction-selective-criminalization-approval-chain]] — C-L6-16: 방화벽 결재 3인 중 중간 검토자만 피의자 — 최종 결재자·기안자 배제. CORR
+- [[selective-criminalization-approval-chain]] — C-L6-16: 방화벽 결재 3인 중 중간 검토자만 피의자 — 최종 결재자·기안자 배제. CORR
 - [[csr-prosecution-cited-appendix-not-institutional-duties]] — 검찰이 별표(기술요건)만 인용하고 제3장(기관 의무)은 무시 — 개인→기관 책임 전환의 선별적 인용. NME
 - [[split-cartel-three-phase-2016-2025]] — 카르텔 3단계 시간 전개: 은폐기반(2016~18) → 조작가동(2018~22) → 범죄완성(2022~25). CORR
 - [[split-delay-cyclical-budget-embezzlement]] — 新KIATIS 전력화 지연을 통한 순환적 예산 착취 (6.25→4→3.9억). CORR
@@ -495,7 +495,7 @@ Six initial atoms closing the Layer 2 gap (previously 0 atoms). Compiled from `v
 ## Related
 
 - [[../_master-index]]
-- [[../_contradictions|Contradictions]]
+- [[../_fractures|Fractures]]
 - [[../layers/_index|Layers]]
 - [[../regulations/defense-it-operations-directive-2129|Hub: 훈령 제2129호]]
 - [[../events/2018-2019-kiatis-performance-improvement-project|KIATIS event]]

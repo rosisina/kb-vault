@@ -8,10 +8,10 @@
   "landing.title": "2016 DIDC North Korean Hacking Incident",
   "landing.subtitle": "Organized Cover-up Crime Proof System",
   "landing.input_placeholder": "Ask anything",
-  "landing.atoms": "atoms",
+  "landing.atoms": "findings",
   "landing.records": "record citations",
   "landing.persons": "persons",
-  "landing.contradictions": "contradictions",
+  "landing.contradictions": "fractures",
 
   "layer.1": "Active-X Removal: Legacy KIATIS History Erasure",
   "layer.2": "New KIATIS Project System & Officer Record Manipulation",
@@ -40,5 +40,13 @@
   "common.layer": "Layer",
   "common.all_layers": "All Layers",
   "common.search": "Search",
-  "common.close": "Close"
+  "common.close": "Close",
+
+  "answer.evidence": "Answer Evidence",
+  "answer.chain": "Proof Chain",
+  "answer.counter": "Counter-hypotheses",
+  "answer.related": "Related Findings",
+  "answer.detail": "Detail",
+  "answer.chain_link": "Chain",
+  "answer.no_results": "No matching findings found"
 }

@@ -1,10 +1,16 @@
-// Aurora v2 — Proof Body (중앙 패널)
-// Layer 요약 + 통계 + claimType 그룹별 모순 쌍 (순번, 선택 강조, 행동 유도)
+// Aurora v2 CP-2 — Proof Body (중앙 패널)
+// 기본: 증명 체인 뷰 / 보조: 모순 나열 / 답변 뷰
 import { Component, Input, Output, EventEmitter, OnChanges, signal, ElementRef } from '@angular/core';
 import { GraphDataService } from '../../services/graph-data.service';
 import { LanguageService } from '../../services/language.service';
 import { ClaimTypeService } from '../../services/claim-type.service';
-import { GraphNode, GraphEdge } from '../../models/graph.models';
+import { QueryAnswerService } from '../../services/query-answer.service';
+import {
+  GraphNode, GraphEdge, AtomDetail, ProofChain, ChainNode,
+} from '../../models/graph.models';
+import { QueryAnswer, ScoredAtom, ChainSummary, RelatedAtomEntry, ThematicGroup } from '../../models/query-answer.models';
+
+type ViewMode = 'chain' | 'contradictions' | 'answer';
 
 interface ContradictionPair {
   edge: GraphEdge;
@@ -31,11 +37,23 @@ export class ProofBodyComponent implements OnChanges {
   @Input() activeLayer: number | null = null;
   @Input() selectedAtomId: string | null = null;
   @Input() scrollToGroup: string | null = null;
+  @Input() searchResults: GraphNode[] = [];
+  @Input() searchQuery: string | null = null;
   @Output() atomSelect = new EventEmitter<string>();
+  @Output() answerReady = new EventEmitter<QueryAnswer>();
 
+  viewMode = signal<ViewMode>('chain');
   groups = signal<ClaimGroup[]>([]);
   selectedAtom = signal<GraphNode | null>(null);
+  selectedDetail = signal<AtomDetail | null>(null);
   breadcrumb = signal<string[]>([]);
+
+  // Chain
+  chain = signal<ProofChain | null>(null);
+  chainRoots = signal<GraphNode[]>([]);
+
+  // Answer
+  answer = signal<QueryAnswer | null>(null);
 
   // Layer 통계
   totalPairs = signal(0);
@@ -67,28 +85,87 @@ export class ProofBodyComponent implements OnChanges {
     private graphData: GraphDataService,
     public lang: LanguageService,
     private claimTypeService: ClaimTypeService,
+    private queryAnswerService: QueryAnswerService,
     private el: ElementRef,
   ) {}
 
   ngOnChanges(): void {
+    // Compose answer when query arrives (wait for detail.json)
+    if (this.searchQuery) {
+      if (this.graphData.detailLoaded()) {
+        this.composeAndSetAnswer();
+      } else {
+        // Detail not loaded yet — load and retry
+        this.graphData.loadDetail().then(() => this.composeAndSetAnswer());
+        this.viewMode.set('answer'); // show loading state
+      }
+    } else if (this.viewMode() === 'answer') {
+      this.answer.set(null);
+      this.viewMode.set('chain');
+    }
+
     this.buildGroups();
     this.updateSelectedAtom();
+    this.updateChain();
     this.updateBreadcrumb();
 
     if (this.selectedAtomId) {
       setTimeout(() => {
-        this.el.nativeElement.querySelector('.atom-detail')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        this.el.nativeElement.querySelector('.atom-full-detail')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }, 50);
     }
     if (this.scrollToGroup) {
+      this.viewMode.set('contradictions');
       setTimeout(() => {
         this.el.nativeElement.querySelector(`#group-${this.scrollToGroup}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }, 50);
     }
   }
 
+  setViewMode(mode: ViewMode): void {
+    this.viewMode.set(mode);
+  }
+
   onAtomClick(id: string): void {
     this.atomSelect.emit(id);
+  }
+
+  onChainNodeClick(id: string): void {
+    this.atomSelect.emit(id);
+  }
+
+  onChainNav(id: string): void {
+    this.atomSelect.emit(id);
+    this.viewMode.set('chain');
+  }
+
+  private composeAndSetAnswer(): void {
+    if (!this.searchQuery) return;
+    const ans = this.queryAnswerService.composeAnswer(
+      this.searchQuery, this.activeLayer ?? undefined
+    );
+    console.log('[Aurora Answer]', {
+      query: ans.query,
+      direct: ans.directResults.length,
+      groups: ans.thematicGroups.map(g => `${g.label}(${g.atoms.length})`),
+      chains: ans.chainSummaries.length,
+      counters: ans.counterHypotheses.length,
+      records: ans.allRecordNos.length,
+      detailLoaded: this.graphData.detailLoaded(),
+    });
+    this.answer.set(ans);
+    this.viewMode.set('answer');
+    this.answerReady.emit(ans);
+  }
+
+  getNodeIdBySlug(slug: string): string {
+    const nodes = this.graphData.getNodes();
+    const found = nodes.find(n => n.stem === slug || n.wikiSlug === slug);
+    return found?.id ?? '';
+  }
+
+  getAnswerLayers(ans: QueryAnswer): number[] {
+    return [...new Set(ans.directResults.map(r => r.node.layer))].sort();
   }
 
   truthDots(score: number): string {
@@ -102,6 +179,67 @@ export class ProofBodyComponent implements OnChanges {
 
   isSelected(id: string): boolean {
     return this.selectedAtomId === id;
+  }
+
+  isChainFocus(node: ChainNode): boolean {
+    return node.direction === 'self';
+  }
+
+  edgeLabel(type: string): string {
+    const labels: Record<string, string> = {
+      'CAUSES': '──CAUSES──→',
+      'CORROBORATES': '  └ CORROBORATES',
+      'OPPOSES': '  └ OPPOSES',
+      'SUPERSEDES': '  └ SUPERSEDES',
+      'RELATED': '  └ RELATED',
+    };
+    return labels[type] || type;
+  }
+
+  edgeLabelKr(type: string): string {
+    const labels: Record<string, string> = {
+      'CAUSES': '──원인──→',
+      'CORROBORATES': '  └ 뒷받침',
+      'OPPOSES': '  └ 모순',
+      'SUPERSEDES': '  └ 대체',
+      'RELATED': '  └ 관련',
+    };
+    return labels[type] || type;
+  }
+
+  getCorroboratingEdges(nodeId: string): Array<{ targetNode: GraphNode; type: string }> {
+    const chain = this.chain();
+    if (!chain) return [];
+    const chainIds = new Set(chain.nodes.map(cn => cn.node.id));
+    return chain.edges
+      .filter(e => (e.source === nodeId || e.target === nodeId) && e.type !== 'CAUSES')
+      .map(e => {
+        const otherId = e.source === nodeId ? e.target : e.source;
+        const otherNode = chain.nodes.find(cn => cn.node.id === otherId);
+        return otherNode ? { targetNode: otherNode.node, type: e.type } : null;
+      })
+      .filter((x): x is { targetNode: GraphNode; type: string } => x !== null);
+  }
+
+  private updateChain(): void {
+    if (this.selectedAtomId) {
+      const c = this.graphData.getChain(this.selectedAtomId);
+      this.chain.set(c);
+    } else if (this.activeLayer) {
+      // Show chain roots for this layer
+      const roots = this.graphData.getChainRoots()
+        .filter(r => r.layer === this.activeLayer);
+      this.chainRoots.set(roots);
+      // Auto-select first root's chain if available
+      if (roots.length > 0) {
+        this.chain.set(this.graphData.getChain(roots[0].id));
+      } else {
+        this.chain.set(null);
+      }
+    } else {
+      this.chain.set(null);
+      this.chainRoots.set(this.graphData.getChainRoots());
+    }
   }
 
   private buildGroups(): void {
@@ -148,9 +286,13 @@ export class ProofBodyComponent implements OnChanges {
   }
 
   private updateSelectedAtom(): void {
-    this.selectedAtom.set(
-      this.selectedAtomId ? (this.graphData.getNodeById(this.selectedAtomId) ?? null) : null
-    );
+    if (this.selectedAtomId) {
+      this.selectedAtom.set(this.graphData.getNodeById(this.selectedAtomId) ?? null);
+      this.selectedDetail.set(this.graphData.getDetail(this.selectedAtomId) ?? null);
+    } else {
+      this.selectedAtom.set(null);
+      this.selectedDetail.set(null);
+    }
   }
 
   private updateBreadcrumb(): void {

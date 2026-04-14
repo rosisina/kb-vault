@@ -8,10 +8,10 @@
   "landing.title": "2016 DIDC 북한 해킹 사건",
   "landing.subtitle": "조직적 은폐 범죄 증명 체계",
   "landing.input_placeholder": "무엇이든 물어보세요",
-  "landing.atoms": "atoms",
+  "landing.atoms": "발견사항",
   "landing.records": "record citations",
   "landing.persons": "persons",
-  "landing.contradictions": "모순",
+  "landing.contradictions": "균열",
 
   "layer.1": "Active-X 제거 사업 간 舊KIATIS 이력 제거",
   "layer.2": "新KIATIS 사업 추진체계 및 장교 개인 자력 조작",
@@ -40,5 +40,13 @@
   "common.layer": "층위",
   "common.all_layers": "전체 층위",
   "common.search": "검색",
-  "common.close": "닫기"
+  "common.close": "닫기",
+
+  "answer.evidence": "답변 근거",
+  "answer.chain": "증명 체인",
+  "answer.counter": "반대 가설",
+  "answer.related": "관련 발견사항",
+  "answer.detail": "상세",
+  "answer.chain_link": "체인",
+  "answer.no_results": "관련 발견사항을 찾지 못했습니다"
 }

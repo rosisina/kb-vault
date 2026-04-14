@@ -116,7 +116,7 @@ SET fr.layer = 6,
 - [[han-ji-hoon-rebuttal-rejected-by-eight-institutions|8개 기관 거부]] (OPPOSES)
 - [[han-ji-hoon-rebuttal-document-date-2022-09-25|반박 문서 작성일]] (OPPOSES)
 - [[prosecution-knew-innocence-continued-case|검찰 무혐의 인지 후 계속]] (OPPOSES)
-- [[prosecution-non-prosecution-internal-contradiction|불기소 내적 모순]] (OPPOSES)
+- [[prosecution-non-prosecution-self-contradiction|불기소 내적 모순]] (OPPOSES)
 - [[warrant-docs-are-actual-false-documents|영장 자체가 허위공문서]] (OPPOSES)
 - [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)
 - [[../layers/layer-7|Layer 7]] (PART_OF_LAYER)

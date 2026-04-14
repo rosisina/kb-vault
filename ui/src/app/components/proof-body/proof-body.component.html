@@ -1,4 +1,4 @@
-<!-- Aurora v2 — 중앙 패널: Layer 요약 + 통계 + 그룹별 모순 쌍 (순번, 선택 강조) -->
+<!-- Aurora v2 CP-2 — 중앙 패널: 증명 체인(기본) + 균열 (Fractures)(보조) + 발견사항 상세 본문 -->
 <div class="proof-body">
 
   <!-- Breadcrumb -->
@@ -27,7 +27,7 @@
       <div class="layer-stats">
         <span class="stat">{{ groupCount() }}{{ lang.lang() === 'kr' ? '개 유형' : ' types' }}</span>
         <span class="stat-dot">·</span>
-        <span class="stat">{{ totalPairs() }}{{ lang.lang() === 'kr' ? '건 모순' : ' contradictions' }}</span>
+        <span class="stat">{{ totalPairs() }}{{ lang.lang() === 'kr' ? '건 균열' : ' fractures' }}</span>
         <span class="stat-dot">·</span>
         <span class="stat stat-pct">
           {{ lang.lang() === 'kr' ? '입증률' : 'corroborated' }} {{ corroborationPct() }}%
@@ -36,96 +36,454 @@
     </div>
   }
 
-  <!-- atom 상세 (선택 시) -->
-  @if (selectedAtom(); as atom) {
-    <div class="atom-detail">
-      <div class="atom-detail-header">
-        <span class="layer-chip" [style.background]="'var(--aurora-layer-' + atom.layer + ')'">L{{ atom.layer }}</span>
-        <span class="atom-claim-type">{{ atom.claimType }}</span>
-      </div>
-      <h3 class="atom-title">{{ atom.title }}</h3>
-      <div class="truth-axes">
-        <span class="truth-badge truthfulness">
-          {{ lang.t('truth.truthfulness') }}
-          <span class="dots">{{ truthDots(atom.truthfulness) }}</span>
-        </span>
-        <span class="truth-badge validity">
-          {{ lang.t('truth.validity') }}
-          <span class="dots">{{ truthDots(atom.validity) }}</span>
-        </span>
-        <span class="truth-badge sincerity">
-          {{ lang.t('truth.sincerity') }}
-          <span class="dots">{{ truthDots(atom.sincerity) }}</span>
-        </span>
-      </div>
-      <div class="atom-meta">
-        <span class="verdict-badge verdict-{{ atom.verdict.toLowerCase() }}">
-          {{ lang.t('verdict.' + atom.verdict) }}
-        </span>
-        <span class="strength">{{ atom.strength }}</span>
-      </div>
-      <p class="atom-detail-hint">
-        {{ lang.lang() === 'kr' ? '※ 상세 본문은 CP-2에서 구현 예정' : '※ Full details coming in CP-2' }}
-      </p>
-    </div>
-  }
+  <!-- 뷰 모드 토글 -->
+  <div class="view-mode-toggle">
+    <button class="mode-btn" [class.active]="viewMode() === 'chain'" (click)="setViewMode('chain')">
+      <span class="material-icons">account_tree</span>
+      {{ lang.lang() === 'kr' ? '증명 체인' : 'Proof Chain' }}
+    </button>
+    <button class="mode-btn" [class.active]="viewMode() === 'contradictions'" (click)="setViewMode('contradictions')">
+      <span class="material-icons">compare_arrows</span>
+      {{ lang.lang() === 'kr' ? '균열 (Fractures)' : 'Contradictions' }}
+    </button>
+    @if (answer()) {
+      <button class="mode-btn" [class.active]="viewMode() === 'answer'" (click)="setViewMode('answer')">
+        <span class="material-icons">question_answer</span>
+        {{ lang.lang() === 'kr' ? '답변' : 'Answer' }}
+        <span class="search-count">{{ answer()!.totalMatches }}</span>
+      </button>
+    }
+  </div>
 
-  <!-- claimType별 그룹 -->
-  @for (group of groups(); track group.claimType) {
-    <section class="claim-group" [id]="'group-' + group.claimType">
-      <div class="group-header">
-        <span class="material-icons group-icon">{{ group.icon }}</span>
-        <h3 class="group-title">{{ group.label }}</h3>
-        <span class="group-count">{{ group.pairs.length }}건</span>
-        <span class="group-pct">{{ pct(group.corroboratedCount, group.totalCount) }}%</span>
-      </div>
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- 증명 체인 뷰 (기본) -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  @if (viewMode() === 'chain') {
 
-      @for (pair of group.pairs; track pair.edge.source + pair.edge.target; let i = $index) {
-        <div class="contradiction-pair"
-             [class.selected]="isSelected(pair.source.id) || isSelected(pair.target.id)">
-
-          <!-- 순번 -->
-          <div class="pair-number">{{ i + 1 }}/{{ group.pairs.length }}</div>
-
-          <div class="claim claim-a" (click)="onAtomClick(pair.source.id)">
-            <div class="claim-layer">
-              <span class="layer-dot" [style.background]="'var(--aurora-layer-' + pair.source.layer + ')'"></span>
-              L{{ pair.source.layer }}
-            </div>
-            <p class="claim-text">{{ pair.source.title }}</p>
-            <span class="verdict-badge verdict-{{ pair.source.verdict.toLowerCase() }}">
-              {{ lang.t('verdict.' + pair.source.verdict) }}
-            </span>
-          </div>
-
-          <div class="vs-divider">vs</div>
-
-          <div class="claim claim-b" (click)="onAtomClick(pair.target.id)">
-            <div class="claim-layer">
-              <span class="layer-dot" [style.background]="'var(--aurora-layer-' + pair.target.layer + ')'"></span>
-              L{{ pair.target.layer }}
-            </div>
-            <p class="claim-text">{{ pair.target.title }}</p>
-            <span class="verdict-badge verdict-{{ pair.target.verdict.toLowerCase() }}">
-              {{ lang.t('verdict.' + pair.target.verdict) }}
-            </span>
-          </div>
-
-          <!-- 행동 유도 -->
-          <div class="pair-hint">
-            → {{ lang.lang() === 'kr' ? '클릭하여 상세 보기' : 'Click for details' }}
-          </div>
+    <!-- 발견사항 상세 본문 (선택 시) -->
+    @if (selectedDetail(); as detail) {
+      <div class="atom-full-detail">
+        <div class="atom-detail-header">
+          <span class="layer-chip" [style.background]="'var(--aurora-layer-' + detail.layer + ')'">L{{ detail.layer }}</span>
+          <span class="atom-claim-type">{{ selectedAtom()?.claimType }}</span>
+          <span class="verdict-badge verdict-{{ selectedAtom()?.verdict?.toLowerCase() }}">
+            {{ lang.t('verdict.' + selectedAtom()?.verdict) }}
+          </span>
+          <span class="strength">{{ selectedAtom()?.strength }}</span>
         </div>
-      }
-    </section>
+
+        <h3 class="atom-title">{{ detail.title }}</h3>
+
+        <!-- 3축 점수 -->
+        <div class="truth-axes">
+          <span class="truth-badge truthfulness">
+            {{ lang.t('truth.truthfulness') }}
+            <span class="dots">{{ truthDots(selectedAtom()?.truthfulness || 0) }}</span>
+          </span>
+          <span class="truth-badge validity">
+            {{ lang.t('truth.validity') }}
+            <span class="dots">{{ truthDots(selectedAtom()?.validity || 0) }}</span>
+          </span>
+          <span class="truth-badge sincerity">
+            {{ lang.t('truth.sincerity') }}
+            <span class="dots">{{ truthDots(selectedAtom()?.sincerity || 0) }}</span>
+          </span>
+        </div>
+
+        <!-- Claim 본문 -->
+        <div class="detail-section">
+          <h4 class="section-label">{{ lang.lang() === 'kr' ? '발견 내용' : 'Finding' }}</h4>
+          <p class="claim-body">{{ detail.claim }}</p>
+        </div>
+
+        <!-- Key Takeaways -->
+        @if (detail.keyTakeaways.length > 0) {
+          <div class="detail-section">
+            <h4 class="section-label">{{ lang.lang() === 'kr' ? '핵심 요약' : 'Key Takeaways' }}</h4>
+            <ul class="takeaways">
+              @for (t of detail.keyTakeaways; track $index) {
+                <li>
+                  <span class="takeaway-text">{{ t.text }}</span>
+                </li>
+              }
+            </ul>
+          </div>
+        }
+
+        <!-- Supporting Evidence -->
+        @if (detail.supportingEvidence.length > 0) {
+          <div class="detail-section">
+            <h4 class="section-label">{{ lang.lang() === 'kr' ? '증거 목록' : 'Supporting Evidence' }}</h4>
+            <ul class="evidence-list">
+              @for (e of detail.supportingEvidence; track $index) {
+                <li class="evidence-item">{{ e.raw }}</li>
+              }
+            </ul>
+          </div>
+        }
+
+        <!-- Counter-hypothesis -->
+        @if (detail.counterHypothesis) {
+          <div class="detail-section counter-section">
+            <h4 class="section-label">{{ lang.lang() === 'kr' ? '반대 가설' : 'Counter-hypothesis' }}</h4>
+            <p class="counter-text">{{ detail.counterHypothesis }}</p>
+          </div>
+        }
+
+        <!-- Falsification condition -->
+        @if (detail.falsificationCondition) {
+          <div class="detail-section">
+            <h4 class="section-label">{{ lang.lang() === 'kr' ? '반증 조건' : 'Falsification Condition' }}</h4>
+            <p class="falsification-text">{{ detail.falsificationCondition }}</p>
+          </div>
+        }
+
+        <!-- Related atoms (atom link → 클릭 이동) -->
+        @if (detail.related.length > 0) {
+          <div class="detail-section detail-related">
+            <h4 class="section-label">{{ lang.lang() === 'kr' ? '관련 발견사항' : 'Related Findings' }}</h4>
+            @for (rel of detail.related; track $index) {
+              <div class="detail-rel-item" [class]="'rel-type-' + rel.type.toLowerCase()">
+                <span class="detail-rel-type">{{ rel.type }}</span>
+                <a class="detail-rel-link" (click)="onAtomClick(getNodeIdBySlug(rel.slug)); $event.stopPropagation()">[[{{ rel.slug }}]]</a>
+              </div>
+            }
+          </div>
+        }
+
+        <!-- Source -->
+        <div class="detail-source">
+          <span class="source-label">Source:</span> {{ detail.source }}
+        </div>
+
+        <!-- 네비게이션 -->
+        <div class="detail-nav">
+          → <a class="nav-link" (click)="onChainNav(selectedAtomId!)">{{ lang.lang() === 'kr' ? '체인 보기' : 'View Chain' }}</a>
+        </div>
+      </div>
+    }
+
+    <!-- 증명 체인 (Text Graph — atom 본문 포함) -->
+    @if (chain(); as c) {
+      <div class="chain-view">
+        <div class="chain-header">
+          <span class="chain-label">
+            {{ lang.lang() === 'kr' ? '증명 체인' : 'Proof Chain' }}
+          </span>
+          <span class="chain-meta">
+            {{ c.nodes.length }}{{ lang.lang() === 'kr' ? '건의 발견사항' : ' findings' }} ·
+            L{{ c.layerSpan[0] }}–L{{ c.layerSpan[c.layerSpan.length - 1] }}
+          </span>
+        </div>
+
+        <div class="chain-body">
+          @for (cn of c.nodes; track cn.node.id; let i = $index; let last = $last) {
+            <div class="chain-node"
+                 [class.chain-focus]="isChainFocus(cn)"
+                 [class.chain-ancestor]="cn.direction === 'ancestor'"
+                 [class.chain-descendant]="cn.direction === 'descendant'">
+              <!-- Header: Layer + Title (클릭→atom 상세) + Verdict -->
+              <div class="chain-node-header">
+                <span class="layer-dot" [style.background]="'var(--aurora-layer-' + cn.node.layer + ')'"></span>
+                <span class="chain-layer-label">L{{ cn.node.layer }}</span>
+                <a class="chain-node-title-link" (click)="onChainNodeClick(cn.node.id)">{{ cn.node.title }}</a>
+                <span class="verdict-badge verdict-{{ cn.node.verdict.toLowerCase() }}">
+                  {{ lang.t('verdict.' + cn.node.verdict) }} {{ cn.node.strength }}
+                </span>
+              </div>
+
+              <!-- Claim 발췌 (text graph 핵심 — 클릭 없이 내용 파악) -->
+              @if (cn.detail) {
+                <p class="chain-claim-excerpt">{{ cn.detail.claim.length > 200 ? cn.detail.claim.slice(0, 200) + '...' : cn.detail.claim }}</p>
+                <!-- Record Nos 인라인 -->
+                @if (cn.detail.allRecordNos.length > 0) {
+                  <div class="chain-records">
+                    (Record No.
+                    @for (r of cn.detail.allRecordNos.slice(0, 5); track r; let rl = $last) {
+                      <span class="record-link">{{ r }}</span>@if (!rl) {, }
+                    }
+                    @if (cn.detail.allRecordNos.length > 5) { ... +{{ cn.detail.allRecordNos.length - 5 }} }
+                    )
+                  </div>
+                }
+              }
+
+              <!-- Tree 구조: CORROBORATES/OPPOSES sub-links -->
+              @for (rel of getCorroboratingEdges(cn.node.id); track $index) {
+                <div class="chain-sub-link" [class.opposes]="rel.type === 'OPPOSES'" (click)="onChainNodeClick(rel.targetNode.id); $event.stopPropagation()">
+                  <span class="sub-link-type">{{ lang.lang() === 'kr' ? edgeLabelKr(rel.type) : edgeLabel(rel.type) }}</span>
+                  <a class="sub-link-title">{{ rel.targetNode.title }}</a>
+                </div>
+              }
+
+              <!-- 상세/체인 네비게이션 -->
+              <div class="chain-nav">
+                → <a class="nav-link" (click)="onAtomClick(cn.node.id)">{{ lang.lang() === 'kr' ? '상세' : 'Detail' }}</a>
+              </div>
+            </div>
+
+            <!-- CAUSES 화살표 -->
+            @if (!last) {
+              <div class="chain-arrow">
+                <span class="arrow-line">{{ lang.lang() === 'kr' ? '──원인──→' : '──CAUSES──→' }}</span>
+              </div>
+            }
+          }
+        </div>
+      </div>
+    } @else if (chainRoots().length > 0 && !selectedAtomId) {
+      <!-- Chain root 선택 -->
+      <div class="chain-roots">
+        <h4 class="roots-label">
+          {{ lang.lang() === 'kr' ? '증명 체인 시작점' : 'Proof Chain Roots' }}
+          <span class="roots-count">({{ chainRoots().length }})</span>
+        </h4>
+        @for (root of chainRoots(); track root.id) {
+          <div class="root-item" (click)="onAtomClick(root.id)">
+            <span class="layer-dot" [style.background]="'var(--aurora-layer-' + root.layer + ')'"></span>
+            <span class="chain-layer-label">L{{ root.layer }}</span>
+            <span class="root-title">{{ root.title }}</span>
+          </div>
+        }
+      </div>
+    } @else if (!selectedAtomId) {
+      <div class="empty-state">
+        <p>{{ lang.lang() === 'kr'
+          ? 'Layer를 선택하거나 발견사항을 클릭하면 증명 체인이 표시됩니다'
+          : 'Select a Layer or click a finding to see its proof chain' }}</p>
+      </div>
+    }
   }
 
-  @if (groups().length === 0 && !selectedAtom()) {
-    <div class="empty-state">
-      <p>{{ lang.lang() === 'kr'
-        ? 'Layer를 선택하면 해당 층위의 모순이 유형별로 표시됩니다'
-        : 'Select a Layer to see contradictions grouped by type' }}</p>
-    </div>
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- 균열 (Fractures) 뷰 (보조) -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  @if (viewMode() === 'contradictions') {
+    @for (group of groups(); track group.claimType) {
+      <section class="claim-group" [id]="'group-' + group.claimType">
+        <div class="group-header">
+          <span class="material-icons group-icon">{{ group.icon }}</span>
+          <h3 class="group-title">{{ group.label }}</h3>
+          <span class="group-count">{{ group.pairs.length }}건</span>
+          <span class="group-pct">{{ pct(group.corroboratedCount, group.totalCount) }}%</span>
+        </div>
+
+        @for (pair of group.pairs; track pair.edge.source + pair.edge.target; let i = $index) {
+          <div class="contradiction-pair"
+               [class.selected]="isSelected(pair.source.id) || isSelected(pair.target.id)">
+            <div class="pair-number">{{ i + 1 }}/{{ group.pairs.length }}</div>
+
+            <div class="claim claim-a" (click)="onAtomClick(pair.source.id)">
+              <div class="claim-layer">
+                <span class="layer-dot" [style.background]="'var(--aurora-layer-' + pair.source.layer + ')'"></span>
+                L{{ pair.source.layer }}
+              </div>
+              <p class="claim-text">{{ pair.source.title }}</p>
+              <span class="verdict-badge verdict-{{ pair.source.verdict.toLowerCase() }}">
+                {{ lang.t('verdict.' + pair.source.verdict) }}
+              </span>
+            </div>
+
+            <div class="vs-divider">vs</div>
+
+            <div class="claim claim-b" (click)="onAtomClick(pair.target.id)">
+              <div class="claim-layer">
+                <span class="layer-dot" [style.background]="'var(--aurora-layer-' + pair.target.layer + ')'"></span>
+                L{{ pair.target.layer }}
+              </div>
+              <p class="claim-text">{{ pair.target.title }}</p>
+              <span class="verdict-badge verdict-{{ pair.target.verdict.toLowerCase() }}">
+                {{ lang.t('verdict.' + pair.target.verdict) }}
+              </span>
+            </div>
+
+            <div class="pair-hint">
+              → {{ lang.lang() === 'kr' ? '클릭하여 상세 보기' : 'Click for details' }}
+            </div>
+          </div>
+        }
+      </section>
+    }
+
+    @if (groups().length === 0) {
+      <div class="empty-state">
+        <p>{{ lang.lang() === 'kr'
+          ? 'Layer를 선택하면 해당 층위의 균열이 유형별로 표시됩니다'
+          : 'Select a Layer to see fractures grouped by type' }}</p>
+      </div>
+    }
+  }
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- 답변 뷰 (Claude CLI 스타일 서사적 답변) -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  @if (viewMode() === 'answer') {
+    @if (answer(); as ans) {
+      <div class="answer-view">
+
+        <!-- 질의 + 요약 -->
+        <div class="answer-header">
+          <div class="answer-query">
+            <span class="answer-q-label">Q:</span>
+            <span class="answer-q-text">{{ ans.query }}</span>
+          </div>
+          <p class="answer-summary">
+            {{ ans.directResults.length }}{{ lang.lang() === 'kr' ? '건의 관련 발견사항에서 도출.' : ' related findings.' }}
+            @for (layer of getAnswerLayers(ans); track layer; let last = $last) {
+              Layer {{ layer }}@if (!last) {, }
+            }
+          </p>
+        </div>
+
+        <!-- ── 유형별 서사적 답변 (thematic groups) ── -->
+        @for (group of ans.thematicGroups; track group.label; let gi = $index) {
+          <div class="answer-theme">
+            <div class="theme-header">
+              <span class="theme-number">{{ gi + 1 }}.</span>
+              <span class="theme-label">{{ group.label }}</span>
+            </div>
+
+            @for (item of group.atoms; track $index) {
+              <div class="answer-atom-block">
+                <!-- atom 참조 (wikilink 스타일) -->
+                <div class="atom-ref">
+                  <span class="atom-ref-bracket">▎</span>
+                  <a class="atom-ref-link" (click)="onAtomClick(item.node.id)">[[{{ item.node.stem }}]]</a>
+                  <span class="verdict-badge verdict-{{ item.node.verdict.toLowerCase() }}">
+                    {{ lang.t('verdict.' + item.node.verdict) }}
+                  </span>
+                  <span class="strength">{{ item.node.strength }}</span>
+                </div>
+
+                <!-- 전체 claim 본문 -->
+                @if (item.detail) {
+                  <div class="atom-claim-full">{{ item.detail.claim }}</div>
+
+                  <!-- Key Takeaways (인라인) -->
+                  @if (item.detail.keyTakeaways.length > 0) {
+                    <ul class="atom-takeaways-inline">
+                      @for (t of item.detail.keyTakeaways; track $index) {
+                        <li>{{ t.text }}</li>
+                      }
+                    </ul>
+                  }
+                }
+
+                <!-- Record Nos (인라인) -->
+                @if (item.recordNos.length > 0) {
+                  <div class="atom-records-inline">
+                    (Record No.
+                    @for (r of item.recordNos; track r; let last = $last) {
+                      <a class="record-link" (click)="$event.stopPropagation()">{{ r }}</a>@if (!last) {, }
+                    })
+                  </div>
+                }
+
+                <!-- 네비게이션 -->
+                <div class="atom-nav-inline">
+                  → <a class="nav-link" (click)="onAtomClick(item.node.id)">상세</a>
+                  · <a class="nav-link" (click)="onChainNav(item.node.id)">체인</a>
+                </div>
+              </div>
+            }
+          </div>
+        }
+
+        <!-- ── 증명 체인 ── -->
+        @if (ans.chainSummaries.length > 0) {
+          <div class="answer-section">
+            <div class="answer-section-divider">
+              <span class="section-title">{{ lang.lang() === 'kr' ? '증명 체인' : 'Proof Chain' }}</span>
+            </div>
+            @for (chain of ans.chainSummaries; track chain.rootAtomId) {
+              <div class="answer-chain">
+                @for (step of chain.steps; track step.id; let last = $last) {
+                  <div class="chain-step">
+                    <span class="layer-dot" [style.background]="'var(--aurora-layer-' + step.layer + ')'"></span>
+                    <span class="step-layer">L{{ step.layer }}</span>
+                    <a class="step-title" (click)="onAtomClick(step.id)">{{ step.title }}</a>
+                  </div>
+                  @if (!last) {
+                    <div class="chain-step-arrow">──{{ lang.lang() === 'kr' ? '원인' : 'CAUSES' }}──→</div>
+                  }
+                }
+              </div>
+            }
+          </div>
+        }
+
+        <!-- ── 반대 가설 ── -->
+        @if (ans.counterHypotheses.length > 0) {
+          <div class="answer-section">
+            <div class="answer-section-divider">
+              <span class="section-title">{{ lang.lang() === 'kr' ? '반대 가설' : 'Counter-hypotheses' }}</span>
+            </div>
+            @for (ch of ans.counterHypotheses; track ch.atomId) {
+              <div class="answer-counter">
+                <p class="counter-hypo">"{{ ch.hypothesis }}"</p>
+                <div class="counter-source">
+                  → <a class="nav-link" (click)="onAtomClick(ch.atomId)">[[{{ ch.atomTitle }}]]</a>
+                  <span class="verdict-badge verdict-{{ ch.verdict.toLowerCase() }}">{{ lang.t('verdict.' + ch.verdict) }}</span>
+                </div>
+              </div>
+            }
+          </div>
+        }
+
+        <!-- ── 관련 atom (뒷받침 / 모순) ── -->
+        @if (ans.corroboratingResults.length > 0 || ans.opposingResults.length > 0) {
+          <div class="answer-section">
+            <div class="answer-section-divider">
+              <span class="section-title">{{ lang.lang() === 'kr' ? '관련 발견사항' : 'Related Findings' }}</span>
+            </div>
+            @if (ans.corroboratingResults.length > 0) {
+              <div class="answer-rel-group">
+                <span class="rel-group-label corroborates">뒷받침</span>
+                @for (r of ans.corroboratingResults; track r.node.id) {
+                  <div class="answer-rel-item" (click)="onAtomClick(r.node.id)">
+                    <span class="layer-dot" [style.background]="'var(--aurora-layer-' + r.node.layer + ')'"></span>
+                    L{{ r.node.layer }}
+                    <a class="rel-atom-title">{{ r.node.title }}</a>
+                  </div>
+                }
+              </div>
+            }
+            @if (ans.opposingResults.length > 0) {
+              <div class="answer-rel-group">
+                <span class="rel-group-label opposes">모순</span>
+                @for (r of ans.opposingResults; track r.node.id) {
+                  <div class="answer-rel-item" (click)="onAtomClick(r.node.id)">
+                    <span class="layer-dot" [style.background]="'var(--aurora-layer-' + r.node.layer + ')'"></span>
+                    L{{ r.node.layer }}
+                    <a class="rel-atom-title">{{ r.node.title }}</a>
+                  </div>
+                }
+              </div>
+            }
+          </div>
+        }
+
+        <!-- ── 종합 테이블 (Record No. 전체) ── -->
+        @if (ans.allRecordNos.length > 0) {
+          <div class="answer-section">
+            <div class="answer-section-divider">
+              <span class="section-title">Record No. ({{ ans.allRecordNos.length }}건)</span>
+            </div>
+            <div class="answer-records-all">
+              @for (r of ans.allRecordNos; track r) {
+                <span class="record-tag">{{ r }}</span>
+              }
+            </div>
+          </div>
+        }
+
+        @if (ans.directResults.length === 0) {
+          <div class="empty-state">
+            <p>{{ lang.lang() === 'kr' ? '관련 발견사항을 찾지 못했습니다' : 'No matching findings found' }}</p>
+          </div>
+        }
+      </div>
+    }
   }
 
 </div>

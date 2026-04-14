@@ -79,7 +79,7 @@ SET fr.layer = 6,
 - **메타 atom**: [[han-ji-hoon-rebuttal-20220929-meta-axiom-theorem-structure]]
 - Cross-reference: [[han-ji-hoon-prosecution-violates-2129-role-separation|역할분리 위반 — 혐의 1 반박의 핵심]]
 - Cross-reference: [[prosecution-misapplies-2129-article-58-4-to-kiatis|제58조 ¶4 오적용 — 혐의 4 반박의 핵심]]
-- Cross-reference: [[prosecution-non-prosecution-internal-contradiction|불기소 내적 모순 — 99점 성공+기소유예 모순]]
+- Cross-reference: [[prosecution-non-prosecution-self-contradiction|불기소 내적 모순 — 99점 성공+기소유예 모순]]
 
 ## Counter-hypothesis
 
@@ -103,7 +103,7 @@ SET fr.layer = 6,
 - [[han-ji-hoon-rebuttal-20220929-meta-axiom-theorem-structure|메타 atom]] (OPPOSES)
 - [[han-ji-hoon-prosecution-violates-2129-role-separation|역할분리]] (OPPOSES)
 - [[prosecution-misapplies-2129-article-58-4-to-kiatis|제58조 오적용]] (OPPOSES)
-- [[prosecution-non-prosecution-internal-contradiction|불기소 모순]] (OPPOSES)
+- [[prosecution-non-prosecution-self-contradiction|불기소 모순]] (OPPOSES)
 - [[han-ji-hoon-rebuttal-rejected-by-eight-institutions|8개 기관 거부]] (OPPOSES)
 - [[../regulations/glossary-axiom-theorem-definitions|용어 정의집]] (ABOUT)
 - [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

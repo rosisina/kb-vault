@@ -52,6 +52,6 @@ SET fr.layer = 6,
 
 ## Related
 
-- [[prosecution-non-prosecution-internal-contradiction]] (CORROBORATES)
+- [[prosecution-non-prosecution-self-contradiction]] (CORROBORATES)
 - [[prosecution-knew-innocence-continued-case]] (CORROBORATES)
 - [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)
