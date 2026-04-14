@@ -185,7 +185,9 @@ export class ProofShellComponent {
 
   onGraphNodeSelect(atomId: string): void {
     this.showGraphModal.set(false);
-    this.onAtomSelect(atomId); // push to nav trail + set selectedAtomId
+    // 미니 프리뷰 대신 직접 이동 (graph는 의도적 탐색)
+    this.previewAtomId.set(null);
+    this.onAtomSelect(atomId);
   }
 
   // 미니 프리뷰: 우측 관계맵/숨은연결 클릭 → 중앙에 프리뷰

@@ -152,6 +152,12 @@ export class ProofBodyComponent implements OnChanges {
     this.updateBreadcrumb();
 
     if (this.selectedAtomId) {
+      // 새 atom 선택 시 chain 뷰로 전환 (answer/guided 외부에서 진입한 경우)
+      // guided 내부 step 클릭은 onAtomClick에서 이미 처리
+      const mode = this.viewMode();
+      if (mode !== 'chain' && mode !== 'guided') {
+        this.viewMode.set('chain');
+      }
       setTimeout(() => {
         this.el.nativeElement.querySelector('.atom-full-detail')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }, 50);
