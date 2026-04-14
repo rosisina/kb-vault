@@ -6,6 +6,96 @@
   background: var(--aurora-bg);
 }
 
+// ═══════════════════════════════════════════════════════════
+// CP-3: Navigation Trail (Obsidian stacked panes 개념)
+// ═══════════════════════════════════════════════════════════
+.nav-trail {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 16px;
+  background: #f5f6fa;
+  border-bottom: 1px solid #e8eaf6;
+  overflow: hidden;
+}
+
+.trail-back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--aurora-text-secondary);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background 0.15s, color 0.15s;
+
+  &:hover { background: #e0e3eb; color: var(--aurora-text); }
+
+  .material-icons { font-size: 18px; }
+}
+
+.trail-items {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar { display: none; }
+}
+
+.trail-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  border: none;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--aurora-text-secondary);
+  font-size: 0.75rem;
+  font-family: 'Inter', 'Noto Sans KR', sans-serif;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+  max-width: 300px;
+  transition: background 0.15s, color 0.15s;
+
+  &:hover {
+    background: rgba(#534bae, 0.06);
+    color: var(--aurora-text);
+  }
+
+  &.trail-current {
+    background: rgba(#534bae, 0.1);
+    color: var(--aurora-text);
+    font-weight: 500;
+  }
+}
+
+.trail-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.trail-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.trail-sep {
+  color: #bdbdbd;
+  font-size: 0.72rem;
+  flex-shrink: 0;
+}
+
 // ── State B: 3-패널 레이아웃 ──
 .proof-layout {
   display: grid;
@@ -13,6 +103,11 @@
   height: calc(100vh - 64px);
   overflow: hidden;
   transition: grid-template-columns 0.2s ease;
+
+  // When nav-trail is present above, reduce height
+  .nav-trail + & {
+    height: calc(100vh - 64px - 40px);
+  }
 }
 
 // ── 좌측 패널 (v1 sidenav 스타일) ──

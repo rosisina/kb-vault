@@ -11,7 +11,7 @@
     </nav>
   }
 
-  <!-- Layer 헤더 + 요약 + 통계 -->
+  <!-- CP-3.3: Layer Narrative (논증 구조) -->
   @if (activeLayer) {
     <div class="layer-summary">
       <div class="layer-header">
@@ -33,6 +33,44 @@
           {{ lang.lang() === 'kr' ? '입증률' : 'corroborated' }} {{ corroborationPct() }}%
         </span>
       </div>
+
+      <!-- CP-3.3: Cross-layer 연결 -->
+      @if (layerCrossLinks().prev.length > 0 || layerCrossLinks().next.length > 0) {
+        <div class="cross-layer-links">
+          @if (layerCrossLinks().prev.length > 0) {
+            <div class="cross-link-row">
+              <span class="cross-label">{{ lang.lang() === 'kr' ? '선행 층위:' : 'Depends on:' }}</span>
+              @for (pl of layerCrossLinks().prev; track pl) {
+                <a class="cross-link" (click)="onLayerNav(pl)">← L{{ pl }}</a>
+              }
+            </div>
+          }
+          @if (layerCrossLinks().next.length > 0) {
+            <div class="cross-link-row">
+              <span class="cross-label">{{ lang.lang() === 'kr' ? '후행 층위:' : 'Leads to:' }}</span>
+              @for (nl of layerCrossLinks().next; track nl) {
+                <a class="cross-link" (click)="onLayerNav(nl)">→ L{{ nl }}</a>
+              }
+            </div>
+          }
+        </div>
+      }
+
+      <!-- CP-3.3: 핵심 균열 (이 Layer에서 공식 서사가 깨지는 지점) -->
+      @if (layerFractures().length > 0) {
+        <div class="layer-key-fractures">
+          <div class="fractures-label">
+            {{ lang.lang() === 'kr' ? '핵심 균열 — 이 층위에서 공식 서사가 깨지는 지점' : 'Key Fractures — where the official narrative breaks' }}
+          </div>
+          @for (frac of layerFractures().slice(0, 3); track frac.id) {
+            <div class="fracture-item" (click)="onAtomClick(frac.id)">
+              <span class="fracture-badge" [attr.data-type]="(frac | asAny).fractureType">{{ fractureLabelShort((frac | asAny).fractureType) }}</span>
+              <span class="fracture-title">{{ frac.title }}</span>
+              <span class="verdict-badge verdict-{{ frac.verdict.toLowerCase() }}">{{ frac.strength }}</span>
+            </div>
+          }
+        </div>
+      }
     </div>
   }
 
@@ -53,7 +91,87 @@
         <span class="search-count">{{ answer()!.totalMatches }}</span>
       </button>
     }
+    @if (guidedFractures().length > 0) {
+      <button class="mode-btn mode-guided" [class.active]="viewMode() === 'guided'" (click)="setViewMode('guided')">
+        <span class="material-icons">verified</span>
+        {{ lang.lang() === 'kr' ? 'Guided Proof' : 'Guided Proof' }}
+      </button>
+    }
   </div>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- CP-3.2: Guided Proof Mode -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  @if (viewMode() === 'guided') {
+    <div class="guided-proof">
+      <div class="guided-header">
+        <h3 class="guided-title">
+          {{ lang.lang() === 'kr'
+            ? '이 시스템은 조직적 은폐 범죄를 증명합니다'
+            : 'This system proves an organized cover-up crime' }}
+        </h3>
+        <p class="guided-subtitle">
+          {{ lang.lang() === 'kr'
+            ? '아래는 가장 강력한 균열 — 공식 서사가 스스로 깨지는 지점입니다. 각 항목을 클릭하면 증거 원본까지 추적할 수 있습니다.'
+            : 'Below are the strongest fractures — points where the official narrative breaks against itself. Click any item to trace it to the original evidence.' }}
+        </p>
+      </div>
+
+      <div class="guided-progress">
+        {{ guidedIndex() + 1 }} / {{ guidedFractures().length }}
+      </div>
+
+      @for (frac of guidedFractures(); track frac.id; let i = $index) {
+        <div class="guided-step" [class.guided-active]="i === guidedIndex()" [class.guided-past]="i < guidedIndex()">
+          <div class="guided-step-header" (click)="guidedIndex.set(i); onAtomClick(frac.id)">
+            <span class="guided-step-num">{{ i + 1 }}</span>
+            <span class="layer-dot" [style.background]="'var(--aurora-layer-' + frac.layer + ')'"></span>
+            <span class="guided-step-layer">L{{ frac.layer }}</span>
+            <span class="guided-fracture-badge" [attr.data-type]="(frac | asAny).fractureType">
+              {{ fractureLabelShort((frac | asAny).fractureType) }}
+            </span>
+            <span class="verdict-badge verdict-{{ frac.verdict.toLowerCase() }}">{{ frac.strength }}</span>
+          </div>
+          <h4 class="guided-step-title" (click)="guidedIndex.set(i); onAtomClick(frac.id)">{{ frac.title }}</h4>
+
+          @if (i === guidedIndex()) {
+            @if (guidedCurrentDetail(); as detail) {
+              <p class="guided-claim">{{ detail.claim.length > 300 ? detail.claim.slice(0, 300) + '...' : detail.claim }}</p>
+
+              @if (detail.falsificationCondition) {
+                <div class="guided-falsification">
+                  <span class="falsification-label">{{ lang.lang() === 'kr' ? '이 주장을 깨려면:' : 'To disprove this:' }}</span>
+                  <span class="falsification-text">{{ detail.falsificationCondition }}</span>
+                </div>
+              }
+
+              @if (detail.allRecordNos.length > 0) {
+                <div class="guided-records">
+                  Record No.
+                  @for (r of detail.allRecordNos.slice(0, 5); track r; let last = $last) {
+                    <span class="record-link" (click)="onRecordClick(r); $event.stopPropagation()">{{ r }}</span>@if (!last) {, }
+                  }
+                  @if (detail.allRecordNos.length > 5) { +{{ detail.allRecordNos.length - 5 }} }
+                </div>
+              }
+
+              <div class="guided-nav">
+                → <a class="nav-link" (click)="onAtomClick(frac.id)">{{ lang.lang() === 'kr' ? '전체 증거 보기' : 'View full evidence' }}</a>
+                · <a class="nav-link" (click)="onChainNav(frac.id)">{{ lang.lang() === 'kr' ? '증명 체인' : 'Proof chain' }}</a>
+              </div>
+            }
+          }
+        </div>
+      }
+
+      <!-- 종합 -->
+      <div class="guided-conclusion">
+        <p>{{ lang.lang() === 'kr'
+          ? '7개 층위에 걸쳐 ' + guidedFractures().length + '건의 독립적 균열이 동일한 결론을 가리킵니다: 조직적 은폐.'
+          : guidedFractures().length + ' independent fractures across 7 layers point to the same conclusion: organized cover-up.' }}</p>
+      </div>
+    </div>
+  }
 
   <!-- ═══════════════════════════════════════════════════════ -->
   <!-- 증명 체인 뷰 (기본) -->
@@ -145,7 +263,7 @@
             @for (rel of detail.related; track $index) {
               <div class="detail-rel-item" [class]="'rel-type-' + rel.type.toLowerCase()">
                 <span class="detail-rel-type">{{ rel.type }}</span>
-                <a class="detail-rel-link" (click)="onAtomClick(getNodeIdBySlug(rel.slug)); $event.stopPropagation()">[[{{ rel.slug }}]]</a>
+                <a class="detail-rel-link" [atomTooltip]="getNodeIdBySlug(rel.slug)" (click)="onAtomClick(getNodeIdBySlug(rel.slug)); $event.stopPropagation()">[[{{ rel.slug }}]]</a>
               </div>
             }
           </div>
@@ -186,7 +304,7 @@
               <div class="chain-node-header">
                 <span class="layer-dot" [style.background]="'var(--aurora-layer-' + cn.node.layer + ')'"></span>
                 <span class="chain-layer-label">L{{ cn.node.layer }}</span>
-                <a class="chain-node-title-link" (click)="onChainNodeClick(cn.node.id)">{{ cn.node.title }}</a>
+                <a class="chain-node-title-link" [atomTooltip]="cn.node.id" (click)="onChainNodeClick(cn.node.id)">{{ cn.node.title }}</a>
                 <span class="verdict-badge verdict-{{ cn.node.verdict.toLowerCase() }}">
                   {{ lang.t('verdict.' + cn.node.verdict) }} {{ cn.node.strength }}
                 </span>
@@ -212,7 +330,7 @@
               @for (rel of getCorroboratingEdges(cn.node.id); track $index) {
                 <div class="chain-sub-link" [class.opposes]="rel.type === 'OPPOSES'" (click)="onChainNodeClick(rel.targetNode.id); $event.stopPropagation()">
                   <span class="sub-link-type">{{ lang.lang() === 'kr' ? edgeLabelKr(rel.type) : edgeLabel(rel.type) }}</span>
-                  <a class="sub-link-title">{{ rel.targetNode.title }}</a>
+                  <a class="sub-link-title" [atomTooltip]="rel.targetNode.id">{{ rel.targetNode.title }}</a>
                 </div>
               }
 
@@ -348,7 +466,7 @@
                 <!-- atom 참조 (wikilink 스타일) -->
                 <div class="atom-ref">
                   <span class="atom-ref-bracket">▎</span>
-                  <a class="atom-ref-link" (click)="onAtomClick(item.node.id)">[[{{ item.node.stem }}]]</a>
+                  <a class="atom-ref-link" [atomTooltip]="item.node.id" (click)="onAtomClick(item.node.id)">[[{{ item.node.stem }}]]</a>
                   <span class="verdict-badge verdict-{{ item.node.verdict.toLowerCase() }}">
                     {{ lang.t('verdict.' + item.node.verdict) }}
                   </span>
@@ -401,7 +519,7 @@
                   <div class="chain-step">
                     <span class="layer-dot" [style.background]="'var(--aurora-layer-' + step.layer + ')'"></span>
                     <span class="step-layer">L{{ step.layer }}</span>
-                    <a class="step-title" (click)="onAtomClick(step.id)">{{ step.title }}</a>
+                    <a class="step-title" [atomTooltip]="step.id" (click)="onAtomClick(step.id)">{{ step.title }}</a>
                   </div>
                   @if (!last) {
                     <div class="chain-step-arrow">──{{ lang.lang() === 'kr' ? '원인' : 'CAUSES' }}──→</div>
@@ -422,7 +540,7 @@
               <div class="answer-counter">
                 <p class="counter-hypo">"{{ ch.hypothesis }}"</p>
                 <div class="counter-source">
-                  → <a class="nav-link" (click)="onAtomClick(ch.atomId)">[[{{ ch.atomTitle }}]]</a>
+                  → <a class="nav-link" [atomTooltip]="ch.atomId" (click)="onAtomClick(ch.atomId)">[[{{ ch.atomTitle }}]]</a>
                   <span class="verdict-badge verdict-{{ ch.verdict.toLowerCase() }}">{{ lang.t('verdict.' + ch.verdict) }}</span>
                 </div>
               </div>
@@ -484,6 +602,62 @@
         }
       </div>
     }
+  }
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- CP-3.5: Record No. 역추적 결과 오버레이 -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  @if (recordResults().length > 0) {
+    <div class="record-overlay">
+      <div class="record-overlay-header">
+        <span class="record-overlay-title">
+          Record No. {{ activeRecordNo() }}
+          {{ lang.lang() === 'kr' ? '를 인용하는 발견사항' : ' — citing findings' }}
+        </span>
+        <button class="record-overlay-close" (click)="closeRecordResults()">
+          <span class="material-icons">close</span>
+        </button>
+      </div>
+      @for (node of recordResults(); track node.id) {
+        <div class="record-result-item" (click)="onAtomClick(node.id); closeRecordResults()">
+          <span class="layer-dot" [style.background]="'var(--aurora-layer-' + node.layer + ')'"></span>
+          <span class="record-result-layer">L{{ node.layer }}</span>
+          <span class="record-result-title">{{ node.title }}</span>
+          <span class="verdict-badge verdict-{{ node.verdict.toLowerCase() }}">{{ node.strength }}</span>
+        </div>
+      }
+    </div>
+  }
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- CP-3.4: Person Proof Path 오버레이 -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  @if (personResults().length > 0) {
+    <div class="person-overlay">
+      <div class="person-overlay-header">
+        <span class="person-overlay-title">
+          {{ activePerson() }}
+          {{ lang.lang() === 'kr' ? '의 행위 추적' : ' — Activity Trace' }}
+        </span>
+        <button class="person-overlay-close" (click)="closePersonResults()">
+          <span class="material-icons">close</span>
+        </button>
+      </div>
+      <div class="person-layer-summary">
+        {{ lang.lang() === 'kr' ? '관련 층위:' : 'Layers:' }}
+        @for (l of getPersonLayers(); track l) {
+          <span class="layer-chip-mini" [style.background]="'var(--aurora-layer-' + l + ')'">L{{ l }}</span>
+        }
+        · {{ personResults().length }}{{ lang.lang() === 'kr' ? '건' : ' findings' }}
+      </div>
+      @for (node of personResults(); track node.id) {
+        <div class="person-result-item" (click)="onAtomClick(node.id); closePersonResults()">
+          <span class="layer-dot" [style.background]="'var(--aurora-layer-' + node.layer + ')'"></span>
+          <span class="person-result-layer">L{{ node.layer }}</span>
+          <span class="person-result-title">{{ node.title }}</span>
+        </div>
+      }
+    </div>
   }
 
 </div>

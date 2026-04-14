@@ -5,6 +5,7 @@ import { GraphDataService } from '../../services/graph-data.service';
 import { LanguageService } from '../../services/language.service';
 import { ClaimTypeService } from '../../services/claim-type.service';
 import { GraphNode, GraphEdge, AtomDetail, AtomRelated } from '../../models/graph.models';
+import { AtomTooltipDirective } from '../../directives/atom-tooltip.directive';
 import { QueryAnswer } from '../../models/query-answer.models';
 
 interface ContradictionPair {
@@ -26,6 +27,7 @@ interface GroupSummary {
 interface PersonCount {
   name: string;
   count: number;
+  layers: number[];
 }
 
 interface RelationGroup {
@@ -34,9 +36,16 @@ interface RelationGroup {
   items: Array<{ node?: GraphNode; slug: string; display: string }>;
 }
 
+interface UnlinkedMention {
+  node: GraphNode;
+  sharedKeys: string[];
+  reason: 'record' | 'person';
+}
+
 @Component({
   selector: 'app-evidence-context',
   standalone: true,
+  imports: [AtomTooltipDirective],
   templateUrl: './evidence-context.component.html',
   styleUrl: './evidence-context.component.scss',
 })
@@ -47,6 +56,11 @@ export class EvidenceContextComponent implements OnChanges {
   @Output() openGraph = new EventEmitter<void>();
   @Output() atomSelect = new EventEmitter<string>();
   @Output() groupSelect = new EventEmitter<string>();
+  @Output() personSelect = new EventEmitter<string>();
+
+  onPersonClick(name: string): void {
+    this.personSelect.emit(name);
+  }
 
   // Layer 대시보드
   totalPairs = signal(0);
@@ -59,6 +73,7 @@ export class EvidenceContextComponent implements OnChanges {
   selectedAtom = signal<GraphNode | null>(null);
   selectedDetail = signal<AtomDetail | null>(null);
   relationGroups = signal<RelationGroup[]>([]);
+  unlinkedMentions = signal<UnlinkedMention[]>([]);
 
   // 주요 pseudonym 목록
   private knownNames = [
@@ -163,12 +178,20 @@ export class EvidenceContextComponent implements OnChanges {
         }
       }
     }
-    this.topPersons.set(
-      [...counts.entries()]
-        .sort((a, b) => b[1] - a[1])
-        .slice(0, 5)
-        .map(([name, count]) => ({ name, count }))
-    );
+    // CP-3.4: Use structured person index from graph.json
+    const personIndex = this.graphData.getPersonIndex();
+    if (personIndex.length > 0) {
+      this.topPersons.set(
+        personIndex.slice(0, 10).map(p => ({ name: p.name, count: p.count, layers: p.layers }))
+      );
+    } else {
+      this.topPersons.set(
+        [...counts.entries()]
+          .sort((a, b) => b[1] - a[1])
+          .slice(0, 5)
+          .map(([name, count]) => ({ name, count, layers: [] }))
+      );
+    }
   }
 
   private updateSelectedAtom(): void {
@@ -176,6 +199,7 @@ export class EvidenceContextComponent implements OnChanges {
       this.selectedAtom.set(null);
       this.selectedDetail.set(null);
       this.relationGroups.set([]);
+      this.unlinkedMentions.set([]);
       return;
     }
 
@@ -191,6 +215,9 @@ export class EvidenceContextComponent implements OnChanges {
     } else {
       this.relationGroups.set([]);
     }
+
+    // CP-3: Unlinked Mentions
+    this.unlinkedMentions.set(this.graphData.getUnlinkedMentions(this.selectedAtomId));
   }
 
   private buildRelationGroups(detail: AtomDetail): void {

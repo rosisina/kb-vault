@@ -353,16 +353,180 @@ export class GraphDataService {
       });
   }
 
+  // ── CP-3: Unlinked Mentions (Obsidian 개념 적용) ────────────────
+
+  getUnlinkedMentions(atomId: string): Array<{ node: GraphNode; sharedKeys: string[]; reason: 'record' | 'person' }> {
+    const detail = this.getDetail(atomId);
+    if (!detail) return [];
+    const g = this._graph();
+    if (!g) return [];
+
+    // Build set of already-linked ids
+    const linkedIds = new Set<string>();
+    linkedIds.add(atomId);
+    for (const rel of detail.related) {
+      const found = g.nodes.find(n => n.stem === rel.slug || n.wikiSlug === rel.slug);
+      if (found) linkedIds.add(found.id);
+    }
+    for (const e of g.edges) {
+      if (e.source === atomId) linkedIds.add(e.target);
+      if (e.target === atomId) linkedIds.add(e.source);
+    }
+
+    const results: Array<{ node: GraphNode; sharedKeys: string[]; reason: 'record' | 'person' }> = [];
+    const myRecords = new Set(detail.allRecordNos);
+    const allDetails = this._detail()?.atoms;
+    if (!allDetails) return [];
+
+    const knownNames = [
+      '김민수', '이지영', '한지훈', '박성호', '이준호', '김수진',
+      '장우진', '이태호', '오현수', '최영수', '최동욱', '임형규',
+      '안세준', '진상호', '양준승', '도지호', '양미숙', '박서준',
+    ];
+    const myPersons = new Set(knownNames.filter(name =>
+      detail.title.includes(name) || detail.claim.includes(name)
+    ));
+
+    for (const [otherId, otherDetail] of Object.entries(allDetails)) {
+      if (linkedIds.has(otherId)) continue;
+      const otherNode = this._nodeById.get(otherId);
+      if (!otherNode) continue;
+
+      if (myRecords.size > 0) {
+        const shared = otherDetail.allRecordNos.filter(r => myRecords.has(r));
+        if (shared.length > 0) {
+          results.push({ node: otherNode, sharedKeys: shared, reason: 'record' });
+          continue;
+        }
+      }
+
+      if (myPersons.size > 0) {
+        const otherText = otherDetail.title + ' ' + otherDetail.claim;
+        const shared = [...myPersons].filter(name => otherText.includes(name));
+        if (shared.length > 0) {
+          results.push({ node: otherNode, sharedKeys: shared, reason: 'person' });
+        }
+      }
+    }
+
+    results.sort((a, b) => {
+      if (a.reason !== b.reason) return a.reason === 'record' ? -1 : 1;
+      return b.sharedKeys.length - a.sharedKeys.length;
+    });
+    return results.slice(0, 10);
+  }
+
   getStats() {
     const g = this._graph();
+    const nodes = g?.nodes ?? [];
+    const edges = g?.edges ?? [];
+    const corroborated = nodes.filter(n => n.verdict === 'CORROBORATED').length;
+    const strong = nodes.filter(n => n.strength === 'STRONG' && n.verdict === 'CORROBORATED').length;
+    const totalRecordNos = new Set(nodes.flatMap(n => (n as any).recordNos ?? [])).size;
+    const withFracture = nodes.filter(n => (n as any).fractureType).length;
     return {
-      nodeCount: g?.nodes.length ?? 0,
-      edgeCount: g?.edges.length ?? 0,
-      contradictionCount: (g?.edges ?? []).filter(e => e.type === 'OPPOSES').length,
-      layerCounts: [1, 2, 3, 4, 5, 6, 7].map(l => ({
-        layer: l, count: (g?.nodes ?? []).filter(n => n.layer === l).length,
-      })),
+      nodeCount: nodes.length,
+      edgeCount: edges.length,
+      contradictionCount: edges.filter(e => e.type === 'OPPOSES').length,
+      corroboratedCount: corroborated,
+      strongCount: strong,
+      corroborationPct: nodes.length > 0 ? Math.round((corroborated / nodes.length) * 100) : 0,
+      totalRecordNos,
+      fractureCount: withFracture,
+      layerCounts: [1, 2, 3, 4, 5, 6, 7].map(l => {
+        const layerNodes = nodes.filter(n => n.layer === l);
+        const layerCorr = layerNodes.filter(n => n.verdict === 'CORROBORATED').length;
+        return {
+          layer: l,
+          count: layerNodes.length,
+          corroborated: layerCorr,
+          pct: layerNodes.length > 0 ? Math.round((layerCorr / layerNodes.length) * 100) : 0,
+        };
+      }),
       generated: g?._meta?.generated,
     };
+  }
+
+  // ── CP-3: Person index ──────────────────────────────────────────────
+
+  getPersonIndex(): Array<{ name: string; count: number; layers: number[] }> {
+    const g = this._graph();
+    if (!g) return [];
+    const personMap = new Map<string, { count: number; layers: Set<number> }>();
+    for (const n of g.nodes) {
+      for (const p of ((n as any).persons ?? []) as string[]) {
+        if (!personMap.has(p)) personMap.set(p, { count: 0, layers: new Set() });
+        const entry = personMap.get(p)!;
+        entry.count++;
+        entry.layers.add(n.layer);
+      }
+    }
+    return [...personMap.entries()]
+      .map(([name, v]) => ({ name, count: v.count, layers: [...v.layers].sort() }))
+      .sort((a, b) => b.count - a.count);
+  }
+
+  getAtomsByPerson(name: string): GraphNode[] {
+    const g = this._graph();
+    if (!g) return [];
+    return g.nodes
+      .filter(n => ((n as any).persons ?? []).includes(name))
+      .sort((a, b) => a.layer - b.layer);
+  }
+
+  // ── CP-3: Record No. reverse index ──────────────────────────────────
+
+  getAtomsByRecordNo(recordNo: number): GraphNode[] {
+    const g = this._graph();
+    if (!g) return [];
+    return g.nodes.filter(n => ((n as any).recordNos ?? []).includes(recordNo));
+  }
+
+  // ── CP-3: Fracture queries ──────────────────────────────────────────
+
+  getStrongestFractures(limit: number = 7): GraphNode[] {
+    const g = this._graph();
+    if (!g) return [];
+    // Priority: F-SC first, then STRONG, then by layer order
+    const fractureOrder: Record<string, number> = {
+      'F-SC': 0, 'F-CE': 1, 'F-AA': 2, 'F-MS': 3, 'F-SE': 4,
+    };
+    return g.nodes
+      .filter(n => (n as any).fractureType && n.verdict === 'CORROBORATED')
+      .sort((a, b) => {
+        const fa = fractureOrder[(a as any).fractureType] ?? 9;
+        const fb = fractureOrder[(b as any).fractureType] ?? 9;
+        if (fa !== fb) return fa - fb;
+        if (a.strength !== b.strength) return a.strength === 'STRONG' ? -1 : 1;
+        return a.layer - b.layer;
+      })
+      .slice(0, limit);
+  }
+
+  getLayerCrossLinks(layer: number): { prev: number[]; next: number[] } {
+    const g = this._graph();
+    if (!g) return { prev: [], next: [] };
+    const prev = new Set<number>();
+    const next = new Set<number>();
+    for (const e of g.edges) {
+      if (e.type !== 'CAUSES') continue;
+      const src = this._nodeById.get(e.source);
+      const tgt = this._nodeById.get(e.target);
+      if (!src || !tgt) continue;
+      if (tgt.layer === layer && src.layer !== layer) prev.add(src.layer);
+      if (src.layer === layer && tgt.layer !== layer) next.add(tgt.layer);
+    }
+    return { prev: [...prev].sort(), next: [...next].sort() };
+  }
+
+  getLayerFractures(layer: number): GraphNode[] {
+    const g = this._graph();
+    if (!g) return [];
+    return g.nodes
+      .filter(n => n.layer === layer && (n as any).fractureType && n.verdict === 'CORROBORATED')
+      .sort((a, b) => {
+        if (a.strength !== b.strength) return a.strength === 'STRONG' ? -1 : 1;
+        return 0;
+      });
   }
 }

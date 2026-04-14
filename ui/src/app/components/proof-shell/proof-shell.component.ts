@@ -42,6 +42,9 @@ export class ProofShellComponent {
   searchQuery = signal<string | null>(null);
   answerForContext = signal<QueryAnswer | null>(null);
 
+  // CP-3: Navigation Trail (Obsidian stacked panes 개념)
+  navTrail = signal<Array<{ id: string; title: string; layer: number }>>([]);
+
   isLanding = computed(() => this.state() === 'landing');
   isProof = computed(() => this.state() === 'proof');
 
@@ -69,6 +72,37 @@ export class ProofShellComponent {
 
   onAtomSelect(atomId: string): void {
     this.selectedAtomId.set(atomId);
+    // CP-3: Push to navigation trail
+    const node = this.graphData.getNodeById(atomId);
+    if (node) {
+      const trail = this.navTrail();
+      // Avoid duplicate at tail
+      if (trail.length === 0 || trail[trail.length - 1].id !== atomId) {
+        const entry = { id: node.id, title: node.title, layer: node.layer };
+        this.navTrail.set([...trail.slice(-19), entry]); // cap at 20
+      }
+    }
+  }
+
+  onTrailClick(atomId: string): void {
+    // Navigate to a trail item and truncate trail to that point
+    const trail = this.navTrail();
+    const idx = trail.findIndex(t => t.id === atomId);
+    if (idx >= 0) {
+      this.navTrail.set(trail.slice(0, idx + 1));
+    }
+    this.selectedAtomId.set(atomId);
+  }
+
+  onTrailBack(): void {
+    const trail = this.navTrail();
+    if (trail.length > 1) {
+      this.navTrail.set(trail.slice(0, -1));
+      this.selectedAtomId.set(trail[trail.length - 2].id);
+    } else if (trail.length === 1) {
+      this.navTrail.set([]);
+      this.selectedAtomId.set(null);
+    }
   }
 
   onSearch(query: string): void {
@@ -90,6 +124,7 @@ export class ProofShellComponent {
     this.selectedAtomId.set(null);
     this.searchResults.set([]);
     this.searchQuery.set(null);
+    this.navTrail.set([]);
   }
 
   private setState(s: ShellState): void {
@@ -120,6 +155,24 @@ export class ProofShellComponent {
   onGraphNodeSelect(atomId: string): void {
     this.selectedAtomId.set(atomId);
     this.showGraphModal.set(false);
+  }
+
+  // CP-3.1: Guided proof — select strongest fracture and enter proof view
+  guidedProofMode = signal(false);
+
+  onGuidedProof(): void {
+    const strongest = this.graphData.getStrongestFractures(7);
+    if (strongest.length > 0) {
+      this.guidedProofMode.set(true);
+      this.selectedAtomId.set(strongest[0].id);
+      this.activeLayer.set(null); // cross-layer mode
+      this.setState('proof');
+    }
+  }
+
+  // CP-3.4: Person select — search for all atoms by this person
+  onPersonSelect(name: string): void {
+    this.onSearch(name);
   }
 
   private addChatHistory(query: string): void {

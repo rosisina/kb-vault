@@ -84,6 +84,7 @@
           @for (item of group.items; track item.slug) {
             <div class="rel-item"
                  [class.clickable]="!!item.node"
+                 [atomTooltip]="item.node?.id || ''"
                  (click)="item.node ? onRelatedClick(item.slug) : null">
               @if (item.node) {
                 <span class="layer-dot" [style.background]="'var(--aurora-layer-' + item.node.layer + ')'"></span>
@@ -110,6 +111,47 @@
             </div>
           </div>
         }
+      }
+    </div>
+  }
+
+  <!-- ═══════════════════════════════════ -->
+  <!-- CP-3: Unlinked Mentions (숨은 연결) -->
+  <!-- ═══════════════════════════════════ -->
+  @if (unlinkedMentions().length > 0) {
+    <div class="section unlinked-section">
+      <div class="section-label unlinked-label">
+        {{ lang.lang() === 'kr' ? '숨은 연결' : 'Hidden Connections' }}
+        <span class="unlinked-count">{{ unlinkedMentions().length }}</span>
+      </div>
+      <div class="unlinked-desc">
+        {{ lang.lang() === 'kr'
+          ? '동일 증거/인물을 언급하나 링크되지 않은 발견사항'
+          : 'Findings sharing evidence or persons but not linked' }}
+      </div>
+      @for (item of unlinkedMentions(); track item.node.id) {
+        <div class="unlinked-item"
+             [atomTooltip]="item.node.id"
+             (click)="onAtomClick(item.node.id)">
+          <div class="unlinked-item-header">
+            <span class="layer-dot" [style.background]="'var(--aurora-layer-' + item.node.layer + ')'"></span>
+            <span class="rel-layer">L{{ item.node.layer }}</span>
+            <span class="unlinked-reason"
+                  [class.reason-record]="item.reason === 'record'"
+                  [class.reason-person]="item.reason === 'person'">
+              {{ item.reason === 'record' ? 'Record' : 'Person' }}
+            </span>
+          </div>
+          <span class="unlinked-title">{{ item.node.title }}</span>
+          <div class="unlinked-shared">
+            @for (key of item.sharedKeys.slice(0, 3); track key; let last = $last) {
+              <span class="shared-tag">{{ key }}</span>
+            }
+            @if (item.sharedKeys.length > 3) {
+              <span class="shared-more">+{{ item.sharedKeys.length - 3 }}</span>
+            }
+          </div>
+        </div>
       }
     </div>
   }
@@ -150,15 +192,20 @@
     </div>
   }
 
-  <!-- 주요 인물 -->
+  <!-- 주요 인물 (CP-3.4: 클릭→인물 중심 뷰) -->
   @if (topPersons().length > 0) {
     <div class="section">
       <div class="section-label">
         {{ lang.lang() === 'kr' ? '주요 인물' : 'Key Persons' }}
       </div>
       @for (person of topPersons(); track person.name) {
-        <div class="person-row">
+        <div class="person-row person-clickable" (click)="onPersonClick(person.name)">
           <span class="person-name">{{ person.name }}</span>
+          <div class="person-layers">
+            @for (l of person.layers; track l) {
+              <span class="person-layer-dot" [style.background]="'var(--aurora-layer-' + l + ')'"></span>
+            }
+          </div>
           <span class="person-count">{{ person.count }}건</span>
         </div>
       }

@@ -8,8 +8,10 @@ import { LanguageService } from '../../services/language.service';
 interface LayerStat {
   num: number;
   count: number;
+  corroborated: number;
   color: string;
   pct: number;
+  corrPct: number;
 }
 
 @Component({
@@ -22,11 +24,15 @@ interface LayerStat {
 export class LandingViewComponent implements OnInit {
   @Output() layerSelect = new EventEmitter<number>();
   @Output() search = new EventEmitter<string>();
+  @Output() guidedProof = new EventEmitter<void>();
 
   layers = signal<LayerStat[]>([]);
   totalAtoms = signal(0);
   contradictions = signal(0);
-  persons = signal(0);
+  corroborationPct = signal(0);
+  strongCount = signal(0);
+  fractureCount = signal(0);
+  totalRecordNos = signal(0);
   searchQuery = '';
 
   // 각 층위를 대표하는 요약 기술 (호버 시 tooltip)
@@ -65,15 +71,21 @@ export class LandingViewComponent implements OnInit {
     const stats = this.graphData.getStats();
     this.totalAtoms.set(stats.nodeCount);
     this.contradictions.set(stats.contradictionCount);
+    this.corroborationPct.set(stats.corroborationPct);
+    this.strongCount.set(stats.strongCount);
+    this.fractureCount.set(stats.fractureCount);
+    this.totalRecordNos.set(stats.totalRecordNos);
 
     const max = Math.max(...stats.layerCounts.map(l => l.count), 1);
     this.layers.set(
       stats.layerCounts.map(l => ({
         num: l.layer,
         count: l.count,
+        corroborated: l.corroborated,
         color: this.layerColors[l.layer],
         pct: Math.round((l.count / max) * 100),
-      })) // 1→7 순서: 시간순, 서사적 흐름
+        corrPct: l.count > 0 ? Math.round((l.corroborated / l.count) * 100) : 0,
+      }))
     );
   }
 
@@ -85,5 +97,9 @@ export class LandingViewComponent implements OnInit {
 
   onLayerClick(layer: number): void {
     this.layerSelect.emit(layer);
+  }
+
+  onGuidedProof(): void {
+    this.guidedProof.emit();
   }
 }

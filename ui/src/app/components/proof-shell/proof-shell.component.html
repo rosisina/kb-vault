@@ -6,11 +6,36 @@
     <app-landing-view
       (layerSelect)="onLayerSelect($event)"
       (search)="onSearch($event)"
+      (guidedProof)="onGuidedProof()"
     />
   }
 
   <!-- State B: 3-패널 증명 화면 -->
   @if (isProof()) {
+
+    <!-- CP-3: Navigation Trail (Obsidian stacked panes 개념) -->
+    @if (navTrail().length > 0) {
+      <nav class="nav-trail">
+        <button class="trail-back" (click)="onTrailBack()" [attr.title]="lang.lang() === 'kr' ? '뒤로' : 'Back'">
+          <span class="material-icons">arrow_back</span>
+        </button>
+        <div class="trail-items">
+          @for (item of navTrail(); track item.id; let i = $index; let last = $last) {
+            <button class="trail-item"
+                    [class.trail-current]="last"
+                    [style.--trail-layer-color]="'var(--aurora-layer-' + item.layer + ')'"
+                    (click)="onTrailClick(item.id)">
+              <span class="trail-dot" [style.background]="'var(--aurora-layer-' + item.layer + ')'"></span>
+              <span class="trail-text">{{ item.title.length > 40 ? item.title.slice(0, 40) + '...' : item.title }}</span>
+            </button>
+            @if (!last) {
+              <span class="trail-sep">›</span>
+            }
+          }
+        </div>
+      </nav>
+    }
+
     <div class="proof-layout">
 
       <!-- 좌측: 채팅 이력 + Layer Navigator -->
@@ -46,6 +71,7 @@
           [scrollToGroup]="scrollToGroup()"
           [searchResults]="searchResults()"
           [searchQuery]="searchQuery()"
+          [guidedProofMode]="guidedProofMode()"
           (atomSelect)="onAtomSelect($event)"
           (answerReady)="answerForContext.set($event)"
         />
@@ -60,6 +86,7 @@
           (openGraph)="onOpenGraph()"
           (atomSelect)="onAtomSelect($event)"
           (groupSelect)="onGroupSelect($event)"
+          (personSelect)="onPersonSelect($event)"
         />
       </aside>
 

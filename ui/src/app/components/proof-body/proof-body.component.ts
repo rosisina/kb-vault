@@ -8,9 +8,11 @@ import { QueryAnswerService } from '../../services/query-answer.service';
 import {
   GraphNode, GraphEdge, AtomDetail, ProofChain, ChainNode,
 } from '../../models/graph.models';
+import { AtomTooltipDirective } from '../../directives/atom-tooltip.directive';
 import { QueryAnswer, ScoredAtom, ChainSummary, RelatedAtomEntry, ThematicGroup } from '../../models/query-answer.models';
+import { AsAnyPipe } from '../../pipes/as-any.pipe';
 
-type ViewMode = 'chain' | 'contradictions' | 'answer';
+type ViewMode = 'chain' | 'contradictions' | 'answer' | 'guided';
 
 interface ContradictionPair {
   edge: GraphEdge;
@@ -30,6 +32,7 @@ export interface ClaimGroup {
 @Component({
   selector: 'app-proof-body',
   standalone: true,
+  imports: [AtomTooltipDirective, AsAnyPipe],
   templateUrl: './proof-body.component.html',
   styleUrl: './proof-body.component.scss',
 })
@@ -39,10 +42,15 @@ export class ProofBodyComponent implements OnChanges {
   @Input() scrollToGroup: string | null = null;
   @Input() searchResults: GraphNode[] = [];
   @Input() searchQuery: string | null = null;
+  @Input() guidedProofMode: boolean = false;
   @Output() atomSelect = new EventEmitter<string>();
   @Output() answerReady = new EventEmitter<QueryAnswer>();
 
   viewMode = signal<ViewMode>('chain');
+
+  // CP-3.2: Guided Proof
+  guidedFractures = signal<GraphNode[]>([]);
+  guidedIndex = signal(0);
   groups = signal<ClaimGroup[]>([]);
   selectedAtom = signal<GraphNode | null>(null);
   selectedDetail = signal<AtomDetail | null>(null);
@@ -90,6 +98,13 @@ export class ProofBodyComponent implements OnChanges {
   ) {}
 
   ngOnChanges(): void {
+    // CP-3.2: Guided proof mode
+    if (this.guidedProofMode && this.guidedFractures().length === 0) {
+      this.guidedFractures.set(this.graphData.getStrongestFractures(7));
+      this.guidedIndex.set(0);
+      this.viewMode.set('guided');
+    }
+
     // Compose answer when query arrives (wait for detail.json)
     if (this.searchQuery) {
       if (this.graphData.detailLoaded()) {
@@ -124,6 +139,115 @@ export class ProofBodyComponent implements OnChanges {
 
   setViewMode(mode: ViewMode): void {
     this.viewMode.set(mode);
+  }
+
+  // CP-3.2: Guided Proof navigation
+  guidedNext(): void {
+    const fractures = this.guidedFractures();
+    const idx = this.guidedIndex();
+    if (idx < fractures.length - 1) {
+      this.guidedIndex.set(idx + 1);
+      this.atomSelect.emit(fractures[idx + 1].id);
+    }
+  }
+
+  guidedPrev(): void {
+    const idx = this.guidedIndex();
+    if (idx > 0) {
+      this.guidedIndex.set(idx - 1);
+      this.atomSelect.emit(this.guidedFractures()[idx - 1].id);
+    }
+  }
+
+  guidedCurrentDetail() {
+    const fractures = this.guidedFractures();
+    const idx = this.guidedIndex();
+    if (idx < fractures.length) {
+      return this.graphData.getDetail(fractures[idx].id);
+    }
+    return null;
+  }
+
+  guidedCrossLinks() {
+    const fractures = this.guidedFractures();
+    const idx = this.guidedIndex();
+    if (idx < fractures.length) {
+      return this.graphData.getLayerCrossLinks(fractures[idx].layer);
+    }
+    return { prev: [], next: [] };
+  }
+
+  fractureLabel(type: string): string {
+    const labels: Record<string, string> = {
+      'F-SC': '자기모순 (Self-Contradiction)',
+      'F-CE': '반증 (Counter-Evidence)',
+      'F-MS': '조작 징후 (Manipulation Signal)',
+      'F-SE': '선별 적용 (Selective Enforcement)',
+      'F-AA': '부재 논증 (Argument from Absence)',
+    };
+    return labels[type] || type;
+  }
+
+  fractureLabelShort(type: string): string {
+    const labels: Record<string, string> = {
+      'F-SC': '자기모순', 'F-CE': '반증', 'F-MS': '조작 징후',
+      'F-SE': '선별 적용', 'F-AA': '부재 논증',
+    };
+    return labels[type] || type;
+  }
+
+  // CP-3.3: Layer cross-links and fractures
+  layerCrossLinks() {
+    if (!this.activeLayer) return { prev: [], next: [] };
+    return this.graphData.getLayerCrossLinks(this.activeLayer);
+  }
+
+  layerFractures(): GraphNode[] {
+    if (!this.activeLayer) return [];
+    return this.graphData.getLayerFractures(this.activeLayer);
+  }
+
+  onLayerNav(layer: number): void {
+    const nodes = this.graphData.getNodes(layer);
+    if (nodes.length > 0) {
+      this.atomSelect.emit(nodes[0].id);
+    }
+  }
+
+  // CP-3.5: Record No. reverse lookup
+  recordResults = signal<GraphNode[]>([]);
+  activeRecordNo = signal<string | null>(null);
+
+  onRecordClick(recordNo: string): void {
+    const num = parseInt(recordNo.replace(/,/g, ''), 10);
+    if (isNaN(num)) return;
+    const results = this.graphData.getAtomsByRecordNo(num);
+    this.recordResults.set(results);
+    this.activeRecordNo.set(recordNo);
+  }
+
+  closeRecordResults(): void {
+    this.recordResults.set([]);
+    this.activeRecordNo.set(null);
+  }
+
+  // CP-3.4: Person proof path
+  personResults = signal<GraphNode[]>([]);
+  activePerson = signal<string | null>(null);
+
+  onPersonClick(name: string): void {
+    const results = this.graphData.getAtomsByPerson(name);
+    this.personResults.set(results);
+    this.activePerson.set(name);
+  }
+
+  closePersonResults(): void {
+    this.personResults.set([]);
+    this.activePerson.set(null);
+  }
+
+  getPersonLayers(): number[] {
+    return [...new Set(this.personResults().map(n => n.layer))].sort();
   }
 
   onAtomClick(id: string): void {
