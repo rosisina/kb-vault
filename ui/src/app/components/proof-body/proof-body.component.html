@@ -741,23 +741,64 @@
   <!-- ═══════════════════════════════════════════════════════ -->
   <!-- CP-3.5: Record No. 역추적 결과 오버레이 -->
   <!-- ═══════════════════════════════════════════════════════ -->
-  @if (recordResults().length > 0) {
+  @if (recordResults().length > 0 || activeRecordSource()) {
     <div class="record-overlay">
       <div class="record-overlay-header">
         <span class="record-overlay-title">
           Record No. {{ activeRecordNo() }}
-          {{ lang.lang() === 'kr' ? '를 인용하는 발견사항' : ' — citing findings' }}
         </span>
         <button class="record-overlay-close" (click)="closeRecordResults()">
           <span class="material-icons">close</span>
         </button>
       </div>
-      @for (node of recordResults(); track node.id) {
-        <div class="record-result-item" (click)="onAtomClick(node.id); closeRecordResults()">
-          <span class="layer-dot" [style.background]="'var(--aurora-layer-' + node.layer + ')'"></span>
-          <span class="record-result-layer">L{{ node.layer }}</span>
-          <span class="record-result-title">{{ node.title }}</span>
-          <span class="verdict-badge verdict-{{ node.verdict.toLowerCase() }}">{{ node.strength }}</span>
+
+      <!-- 출처 정보: Layer + PDF + 페이지 위치 -->
+      @if (activeRecordSource(); as src) {
+        <div class="record-source-info">
+          <div class="source-row">
+            <span class="source-icon material-icons">{{ src.scanned ? 'description' : 'block' }}</span>
+            <div class="source-detail">
+              <span class="source-layer">
+                <span class="layer-dot" [style.background]="'var(--aurora-layer-' + src.layerNum + ')'"></span>
+                Layer {{ src.layerNum }}
+              </span>
+              <span class="source-desc">{{ lang.lang() === 'kr' ? src.descKr : src.descEn }}</span>
+            </div>
+          </div>
+          @if (src.scanned) {
+            <div class="source-page-info">
+              <span class="material-icons page-icon">find_in_page</span>
+              {{ lang.lang() === 'kr'
+                ? 'PDF 내 약 ' + src.pageOffset + '번째 페이지 (전체 ' + src.totalPages + '페이지 중)'
+                : 'Approx. page ' + src.pageOffset + ' of ' + src.totalPages + ' in scanned PDF' }}
+            </div>
+          } @else {
+            <div class="source-unscanned">
+              <span class="material-icons">warning_amber</span>
+              {{ lang.lang() === 'kr' ? '이 구간은 미스캔 상태입니다' : 'This range is not yet scanned' }}
+            </div>
+          }
+        </div>
+      }
+
+      <!-- 이 Record를 인용하는 발견사항 -->
+      @if (recordResults().length > 0) {
+        <div class="record-citing-label">
+          {{ lang.lang() === 'kr'
+            ? '이 Record를 인용하는 발견사항 (' + recordResults().length + '건)'
+            : 'Findings citing this record (' + recordResults().length + ')' }}
+        </div>
+        @for (node of recordResults(); track node.id) {
+          <div class="record-result-item" (click)="onAtomClick(node.id); closeRecordResults()">
+            <span class="layer-dot" [style.background]="'var(--aurora-layer-' + node.layer + ')'"></span>
+            <span class="record-result-layer">L{{ node.layer }}</span>
+            <span class="record-result-title">{{ node.title }}</span>
+            <span class="verdict-badge verdict-{{ node.verdict.toLowerCase() }}">{{ node.strength }}</span>
+          </div>
+        }
+      } @else {
+        <div class="record-no-citations">
+          {{ lang.lang() === 'kr' ? '이 Record를 직접 인용하는 발견사항이 없습니다' : 'No findings directly cite this record' }}
         </div>
       }
     </div>

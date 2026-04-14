@@ -170,3 +170,33 @@ export interface AvailableFacets {
   strengths: FacetOption[];
   verdicts: FacetOption[];
 }
+
+// ── Record No. → Source Mapping ─────────────────────────────────
+
+export interface RecordLayerEntry {
+  key: string;
+  layerNum: number;
+  recordStart: number;
+  recordEnd: number;
+  descKr: string;
+  descEn: string;
+  scanned: boolean;
+  totalPages: number;
+}
+
+export interface RecordMappingJson {
+  _meta: { totalRecords: number; scannedFiles: number };
+  layers: RecordLayerEntry[];
+}
+
+export interface RecordSourceInfo {
+  layerKey: string;
+  layerNum: number;
+  descKr: string;
+  descEn: string;
+  scanned: boolean;
+  recordStart: number;
+  recordEnd: number;
+  totalPages: number;
+  pageOffset: number;  // 1-based offset within the PDF
+}

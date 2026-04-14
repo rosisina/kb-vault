@@ -1495,6 +1495,85 @@
   white-space: nowrap;
 }
 
+// Record No. source info
+.record-source-info {
+  background: #f8f9fe;
+  border: 1px solid #e8eaf6;
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+}
+
+.source-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.source-icon {
+  font-size: 20px;
+  color: var(--aurora-primary);
+  margin-top: 2px;
+}
+
+.source-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.source-layer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--aurora-text);
+}
+
+.source-desc {
+  font-size: 0.78rem;
+  color: var(--aurora-text-secondary);
+}
+
+.source-page-info {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  font-size: 0.78rem;
+  color: var(--aurora-primary);
+  font-weight: 500;
+
+  .page-icon { font-size: 16px; }
+}
+
+.source-unscanned {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  font-size: 0.78rem;
+  color: #e65100;
+
+  .material-icons { font-size: 16px; }
+}
+
+.record-citing-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--aurora-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  margin-bottom: 4px;
+}
+
+.record-no-citations {
+  font-size: 0.82rem;
+  color: var(--aurora-text-secondary);
+  padding: 8px 0;
+}
+
 // CP-3.4: Person layer summary
 .person-layer-summary {
   font-size: 0.78rem;

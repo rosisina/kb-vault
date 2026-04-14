@@ -225,9 +225,10 @@ export class ProofBodyComponent implements OnChanges {
     }
   }
 
-  // CP-3.5: Record No. reverse lookup
+  // CP-3.5: Record No. reverse lookup + source mapping
   recordResults = signal<GraphNode[]>([]);
   activeRecordNo = signal<string | null>(null);
+  activeRecordSource = signal<any>(null);
 
   onRecordClick(recordNo: string): void {
     const num = parseInt(recordNo.replace(/,/g, ''), 10);
@@ -235,11 +236,15 @@ export class ProofBodyComponent implements OnChanges {
     const results = this.graphData.getAtomsByRecordNo(num);
     this.recordResults.set(results);
     this.activeRecordNo.set(recordNo);
+    // Resolve source layer/PDF info
+    const source = this.graphData.resolveRecordSource(num);
+    this.activeRecordSource.set(source);
   }
 
   closeRecordResults(): void {
     this.recordResults.set([]);
     this.activeRecordNo.set(null);
+    this.activeRecordSource.set(null);
   }
 
   // CP-3.4: Person proof path

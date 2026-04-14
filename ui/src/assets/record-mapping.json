@@ -1,0 +1,140 @@
+{
+  "_meta": {
+    "source": "defense-kg-platform/kg/evidence_record_mapping.json",
+    "description": "Record No. → Layer/PDF mapping for UI display",
+    "totalRecords": 13495,
+    "scannedFiles": 10
+  },
+  "layers": [
+    {
+      "key": "1",
+      "layerNum": 1,
+      "recordStart": 1,
+      "recordEnd": 810,
+      "descKr": "제1층위 증거 기록 (기록 제1~810쪽)",
+      "descEn": "Layer 1 Evidence Records (Record 1–810)",
+      "scanned": true,
+      "totalPages": 810
+    },
+    {
+      "key": "2",
+      "layerNum": 2,
+      "recordStart": 1000,
+      "recordEnd": 1587,
+      "descKr": "제2층위 증거 기록 (기록 제1,000~1,587쪽)",
+      "descEn": "Layer 2 Evidence Records (Record 1,000–1,587)",
+      "scanned": true,
+      "totalPages": 588
+    },
+    {
+      "key": "3",
+      "layerNum": 3,
+      "recordStart": 1600,
+      "recordEnd": 2465,
+      "descKr": "제3층위 증거 기록 (기록 제1,600~2,465쪽)",
+      "descEn": "Layer 3 Evidence Records (Record 1,600–2,465)",
+      "scanned": true,
+      "totalPages": 866
+    },
+    {
+      "key": "4",
+      "layerNum": 4,
+      "recordStart": 2500,
+      "recordEnd": 3699,
+      "descKr": "제4층위 증거 기록 (기록 제2,500~3,699쪽)",
+      "descEn": "Layer 4 Evidence Records (Record 2,500–3,699)",
+      "scanned": true,
+      "totalPages": 1200
+    },
+    {
+      "key": "5",
+      "layerNum": 5,
+      "recordStart": 3700,
+      "recordEnd": 4555,
+      "descKr": "제5층위 증거 기록 (기록 제3,700~4,555쪽)",
+      "descEn": "Layer 5 Evidence Records (Record 3,700–4,555)",
+      "scanned": true,
+      "totalPages": 856
+    },
+    {
+      "key": "6",
+      "layerNum": 6,
+      "recordStart": 4600,
+      "recordEnd": 5248,
+      "descKr": "제6층위 증거 기록 (기록 제4,600~5,248쪽)",
+      "descEn": "Layer 6 Evidence Records (Record 4,600–5,248)",
+      "scanned": true,
+      "totalPages": 649
+    },
+    {
+      "key": "7",
+      "layerNum": 7,
+      "recordStart": 5300,
+      "recordEnd": 6760,
+      "descKr": "제7층위 증거 기록 (기록 제5,300~6,760쪽)",
+      "descEn": "Layer 7 Evidence Records (Record 5,300–6,760)",
+      "scanned": true,
+      "totalPages": 1461
+    },
+    {
+      "key": "7-gap-a",
+      "layerNum": 7,
+      "recordStart": 6761,
+      "recordEnd": 7499,
+      "descKr": "미스캔 구간 (기록 제6,761~7,499쪽)",
+      "descEn": "Unscanned gap (Record 6,761–7,499)",
+      "scanned": false,
+      "totalPages": 739
+    },
+    {
+      "key": "7-2",
+      "layerNum": 7,
+      "recordStart": 7500,
+      "recordEnd": 9441,
+      "descKr": "제7층위 제91부: 국방정보화업무 훈령 변천 (기록 제7,500~9,441쪽)",
+      "descEn": "Layer 7 Part 91: Defense IT Directive History (Record 7,500–9,441)",
+      "scanned": true,
+      "totalPages": 1942
+    },
+    {
+      "key": "7-gap-b",
+      "layerNum": 7,
+      "recordStart": 9442,
+      "recordEnd": 9999,
+      "descKr": "미스캔 구간 (기록 제9,442~9,999쪽)",
+      "descEn": "Unscanned gap (Record 9,442–9,999)",
+      "scanned": false,
+      "totalPages": 558
+    },
+    {
+      "key": "7-3",
+      "layerNum": 7,
+      "recordStart": 10000,
+      "recordEnd": 10664,
+      "descKr": "제7층위: 피의자 인적 사항 (기록 제10,000~10,664쪽)",
+      "descEn": "Layer 7: Suspect Personal Records (Record 10,000–10,664)",
+      "scanned": true,
+      "totalPages": 665
+    },
+    {
+      "key": "7-4",
+      "layerNum": 7,
+      "recordStart": 10665,
+      "recordEnd": 11999,
+      "descKr": "제7층위: 미스캔 구간 (기록 제10,665~11,999쪽)",
+      "descEn": "Layer 7: Unscanned slot (Record 10,665–11,999)",
+      "scanned": false,
+      "totalPages": 1335
+    },
+    {
+      "key": "7-5",
+      "layerNum": 7,
+      "recordStart": 12000,
+      "recordEnd": 13495,
+      "descKr": "제7층위: 개인자력 및 관련 논문 (기록 제12,000~13,495쪽)",
+      "descEn": "Layer 7: Personal Records & Papers (Record 12,000–13,495)",
+      "scanned": true,
+      "totalPages": 1496
+    }
+  ]
+}

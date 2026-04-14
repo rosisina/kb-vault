@@ -55,6 +55,8 @@ export class ProofShellComponent {
     this.loadChatHistory();
     // CP-2: load detail.json for atom body content
     this.graphData.loadDetail();
+    // Load record-mapping for source info display
+    this.graphData.loadRecordMapping();
   }
 
   // 상단 검색바에서 이벤트 수신

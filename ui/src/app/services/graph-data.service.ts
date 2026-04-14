@@ -5,6 +5,7 @@ import {
   CytoscapeElements, CytoscapeNode, CytoscapeEdge,
   DetailJson, AtomDetail, ProofChain, ChainNode, ChainEdge,
   SearchFacets, AvailableFacets,
+  RecordMappingJson, RecordSourceInfo,
 } from '../models/graph.models';
 
 const PROOF_LEVELS: ProofLevel[] = [
@@ -59,8 +60,12 @@ export class GraphDataService {
   private _causesForward = new Map<string, string[]>();   // parent → children
   private _causesReverse = new Map<string, string[]>();   // child → parents
 
+  private readonly _recordMapping = signal<RecordMappingJson | null>(null);
+  private _recordMappingPromise: Promise<void> | null = null;
+
   readonly loaded = computed(() => this._graph() !== null);
   readonly detailLoaded = computed(() => this._detail() !== null);
+  readonly recordMappingLoaded = computed(() => this._recordMapping() !== null);
   readonly meta = computed(() => this._graph()?._meta ?? null);
 
   load(): Promise<void> {
@@ -86,6 +91,42 @@ export class GraphDataService {
       })
       .then(data => this._detail.set(data));
     return this._detailPromise;
+  }
+
+  loadRecordMapping(): Promise<void> {
+    if (this._recordMappingPromise) return this._recordMappingPromise;
+    this._recordMappingPromise = fetch('/assets/record-mapping.json')
+      .then(res => {
+        if (!res.ok) throw new Error(`record-mapping.json load failed: ${res.status}`);
+        return res.json() as Promise<RecordMappingJson>;
+      })
+      .then(data => this._recordMapping.set(data));
+    return this._recordMappingPromise;
+  }
+
+  /**
+   * Resolve a Record No. to its source layer file info.
+   */
+  resolveRecordSource(recordNo: number): RecordSourceInfo | null {
+    const mapping = this._recordMapping();
+    if (!mapping) return null;
+
+    for (const layer of mapping.layers) {
+      if (recordNo >= layer.recordStart && recordNo <= layer.recordEnd) {
+        return {
+          layerKey: layer.key,
+          layerNum: layer.layerNum,
+          descKr: layer.descKr,
+          descEn: layer.descEn,
+          scanned: layer.scanned,
+          recordStart: layer.recordStart,
+          recordEnd: layer.recordEnd,
+          totalPages: layer.totalPages,
+          pageOffset: recordNo - layer.recordStart + 1,
+        };
+      }
+    }
+    return null;
   }
 
   private _buildIndexes(g: GraphJson): void {
