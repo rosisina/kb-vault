@@ -43,8 +43,14 @@ export class ProofBodyComponent implements OnChanges {
   @Input() searchResults: GraphNode[] = [];
   @Input() searchQuery: string | null = null;
   @Input() guidedProofMode: boolean = false;
+  @Input() activeFacets: any = null;
   @Output() atomSelect = new EventEmitter<string>();
   @Output() answerReady = new EventEmitter<QueryAnswer>();
+  @Output() facetChange = new EventEmitter<any>();
+
+  // Faceted search
+  availableFacets = signal<any>(null);
+  showFilters = signal(false);
 
   viewMode = signal<ViewMode>('chain');
 
@@ -98,6 +104,11 @@ export class ProofBodyComponent implements OnChanges {
   ) {}
 
   ngOnChanges(): void {
+    // Load available facets for filter UI
+    if (!this.availableFacets()) {
+      this.availableFacets.set(this.graphData.getAvailableFacets());
+    }
+
     // CP-3.2: Guided proof mode
     if (this.guidedProofMode && this.guidedFractures().length === 0) {
       this.guidedFractures.set(this.graphData.getStrongestFractures(7));
@@ -248,6 +259,44 @@ export class ProofBodyComponent implements OnChanges {
 
   getPersonLayers(): number[] {
     return [...new Set(this.personResults().map(n => n.layer))].sort();
+  }
+
+  // Faceted search helpers
+  toggleFilters(): void {
+    this.showFilters.set(!this.showFilters());
+  }
+
+  setFacet(key: string, value: string | null): void {
+    const current = this.activeFacets ? { ...this.activeFacets } : {};
+    if (value === null || current[key] === value) {
+      delete current[key];
+    } else {
+      current[key] = value;
+    }
+    this.facetChange.emit(Object.keys(current).length > 0 ? current : null);
+  }
+
+  isFacetActive(key: string, value: string): boolean {
+    return this.activeFacets?.[key] === value;
+  }
+
+  activeFacetCount(): number {
+    if (!this.activeFacets) return 0;
+    return Object.keys(this.activeFacets).length;
+  }
+
+  clearAllFacets(): void {
+    this.facetChange.emit(null);
+  }
+
+  facetLabel(key: string, value: string): string {
+    const labels: Record<string, Record<string, string>> = {
+      fractureType: { 'F-SC': '자기모순', 'F-CE': '반증', 'F-MS': '조작 징후', 'F-SE': '선별 적용', 'F-AA': '부재 논증' },
+      sourceType: { book: '책', recording: '녹취', regulation: '훈령', investigation: '수사', sop: '예규', kakao: '카톡' },
+      strength: { STRONG: '강력', MODERATE: '보통', WEAK: '약함' },
+      verdict: { CORROBORATED: '입증', WEAKENED: '약화', NEEDS_MORE_EVIDENCE: '추가증거필요', UNFALSIFIABLE: '반증불가' },
+    };
+    return labels[key]?.[value] ?? value;
   }
 
   onAtomClick(id: string): void {

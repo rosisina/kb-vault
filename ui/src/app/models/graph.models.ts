@@ -142,3 +142,31 @@ export interface ProofChain {
   maxDepth: number;
   layerSpan: number[];      // sorted unique layers in chain
 }
+
+// ── Faceted Search (CP-3 property 기반) ──────────────────────────
+
+export interface SearchFacets {
+  layer?: number;
+  person?: string;
+  organization?: string;
+  fractureType?: string;   // F-SC | F-CE | F-MS | F-SE | F-AA
+  sourceType?: string;     // book | recording | regulation | investigation | sop | kakao
+  strength?: string;       // STRONG | MODERATE | WEAK
+  verdict?: string;        // CORROBORATED | WEAKENED | UNFALSIFIABLE | NEEDS_MORE_EVIDENCE
+  claimType?: string;      // one of 16 standard categories
+}
+
+export interface FacetOption {
+  value: string;
+  count: number;
+}
+
+export interface AvailableFacets {
+  persons: FacetOption[];
+  organizations: FacetOption[];
+  fractureTypes: FacetOption[];
+  sourceTypes: FacetOption[];
+  claimTypes: FacetOption[];
+  strengths: FacetOption[];
+  verdicts: FacetOption[];
+}

@@ -97,7 +97,121 @@
         {{ lang.lang() === 'kr' ? 'Guided Proof' : 'Guided Proof' }}
       </button>
     }
+
+    <!-- Faceted Search 필터 토글 -->
+    <button class="mode-btn filter-toggle" [class.active]="showFilters()" (click)="toggleFilters()">
+      <span class="material-icons">tune</span>
+      {{ lang.lang() === 'kr' ? '필터' : 'Filter' }}
+      @if (activeFacetCount() > 0) {
+        <span class="filter-count">{{ activeFacetCount() }}</span>
+      }
+    </button>
   </div>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- Faceted Search 필터 패널 -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  @if (showFilters() && availableFacets(); as facets) {
+    <div class="facet-panel">
+      <!-- Active facets (칩 형태) -->
+      @if (activeFacetCount() > 0) {
+        <div class="active-facets">
+          @if (activeFacets?.person) {
+            <span class="facet-chip" (click)="setFacet('person', null)">{{ activeFacets.person }} ✕</span>
+          }
+          @if (activeFacets?.organization) {
+            <span class="facet-chip" (click)="setFacet('organization', null)">{{ activeFacets.organization }} ✕</span>
+          }
+          @if (activeFacets?.fractureType) {
+            <span class="facet-chip fracture" (click)="setFacet('fractureType', null)">{{ facetLabel('fractureType', activeFacets.fractureType) }} ✕</span>
+          }
+          @if (activeFacets?.sourceType) {
+            <span class="facet-chip source" (click)="setFacet('sourceType', null)">{{ facetLabel('sourceType', activeFacets.sourceType) }} ✕</span>
+          }
+          @if (activeFacets?.strength) {
+            <span class="facet-chip" (click)="setFacet('strength', null)">{{ facetLabel('strength', activeFacets.strength) }} ✕</span>
+          }
+          @if (activeFacets?.verdict) {
+            <span class="facet-chip" (click)="setFacet('verdict', null)">{{ facetLabel('verdict', activeFacets.verdict) }} ✕</span>
+          }
+          <button class="clear-facets" (click)="clearAllFacets()">
+            {{ lang.lang() === 'kr' ? '전체 해제' : 'Clear all' }}
+          </button>
+        </div>
+      }
+
+      <!-- 균열 유형 -->
+      <div class="facet-group">
+        <span class="facet-group-label">{{ lang.lang() === 'kr' ? '균열 유형' : 'Fracture Type' }}</span>
+        <div class="facet-options">
+          @for (f of facets.fractureTypes; track f.value) {
+            <button class="facet-btn" [class.active]="isFacetActive('fractureType', f.value)"
+                    [attr.data-type]="f.value" (click)="setFacet('fractureType', f.value)">
+              {{ facetLabel('fractureType', f.value) }} <span class="facet-count">{{ f.count }}</span>
+            </button>
+          }
+        </div>
+      </div>
+
+      <!-- 증거 출처 -->
+      <div class="facet-group">
+        <span class="facet-group-label">{{ lang.lang() === 'kr' ? '증거 출처' : 'Source Type' }}</span>
+        <div class="facet-options">
+          @for (s of facets.sourceTypes; track s.value) {
+            <button class="facet-btn" [class.active]="isFacetActive('sourceType', s.value)"
+                    (click)="setFacet('sourceType', s.value)">
+              {{ facetLabel('sourceType', s.value) }} <span class="facet-count">{{ s.count }}</span>
+            </button>
+          }
+        </div>
+      </div>
+
+      <!-- 판정 강도 -->
+      <div class="facet-group">
+        <span class="facet-group-label">{{ lang.lang() === 'kr' ? '판정' : 'Verdict' }}</span>
+        <div class="facet-options">
+          @for (v of facets.verdicts; track v.value) {
+            <button class="facet-btn" [class.active]="isFacetActive('verdict', v.value)"
+                    (click)="setFacet('verdict', v.value)">
+              {{ facetLabel('verdict', v.value) }} <span class="facet-count">{{ v.count }}</span>
+            </button>
+          }
+          @for (s of facets.strengths; track s.value) {
+            <button class="facet-btn" [class.active]="isFacetActive('strength', s.value)"
+                    (click)="setFacet('strength', s.value)">
+              {{ facetLabel('strength', s.value) }} <span class="facet-count">{{ s.count }}</span>
+            </button>
+          }
+        </div>
+      </div>
+
+      <!-- 주요 인물 (상위 10명) -->
+      <div class="facet-group">
+        <span class="facet-group-label">{{ lang.lang() === 'kr' ? '인물' : 'Person' }}</span>
+        <div class="facet-options">
+          @for (p of facets.persons.slice(0, 10); track p.value) {
+            <button class="facet-btn" [class.active]="isFacetActive('person', p.value)"
+                    (click)="setFacet('person', p.value)">
+              {{ p.value }} <span class="facet-count">{{ p.count }}</span>
+            </button>
+          }
+        </div>
+      </div>
+
+      <!-- 조직 -->
+      <div class="facet-group">
+        <span class="facet-group-label">{{ lang.lang() === 'kr' ? '조직' : 'Organization' }}</span>
+        <div class="facet-options">
+          @for (o of facets.organizations; track o.value) {
+            <button class="facet-btn" [class.active]="isFacetActive('organization', o.value)"
+                    (click)="setFacet('organization', o.value)">
+              {{ o.value }} <span class="facet-count">{{ o.count }}</span>
+            </button>
+          }
+        </div>
+      </div>
+    </div>
+  }
 
   <!-- ═══════════════════════════════════════════════════════ -->
   <!-- CP-3.2: Guided Proof Mode -->

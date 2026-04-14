@@ -105,13 +105,32 @@ export class ProofShellComponent {
     }
   }
 
-  onSearch(query: string): void {
+  activeFacets = signal<any>(null);
+
+  onSearch(query: string, facets?: any): void {
     this.addChatHistory(query);
     this.searchQuery.set(query);
-    const results = this.graphData.searchAtoms(query, this.activeLayer() ?? undefined);
+    if (facets) this.activeFacets.set(facets);
+    const results = this.graphData.searchAtoms(
+      query,
+      this.activeLayer() ?? undefined,
+      this.activeFacets() ?? undefined,
+    );
     this.searchResults.set(results);
     this.selectedAtomId.set(null);
     this.setState('proof');
+  }
+
+  onFacetChange(facets: any): void {
+    this.activeFacets.set(facets);
+    // Re-run search with current query + new facets
+    const query = this.searchQuery() ?? '';
+    const results = this.graphData.searchAtoms(
+      query,
+      this.activeLayer() ?? undefined,
+      facets,
+    );
+    this.searchResults.set(results);
   }
 
   onHistoryClick(query: string): void {

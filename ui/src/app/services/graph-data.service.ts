@@ -4,6 +4,7 @@ import {
   GraphJson, GraphNode, GraphEdge, ProofLevel,
   CytoscapeElements, CytoscapeNode, CytoscapeEdge,
   DetailJson, AtomDetail, ProofChain, ChainNode, ChainEdge,
+  SearchFacets, AvailableFacets,
 } from '../models/graph.models';
 
 const PROOF_LEVELS: ProofLevel[] = [
@@ -305,9 +306,13 @@ export class GraphDataService {
 
   // ── CP-2: Search / Filter ────────────────────────────────────────
 
-  searchAtoms(query: string, layerFilter?: number): GraphNode[] {
+  // ── Faceted Search (CP-3 property 활용) ────────────────────────
+
+  searchAtoms(query: string, layerFilter?: number, facets?: SearchFacets): GraphNode[] {
     const g = this._graph();
-    if (!g || !query.trim()) return [];
+    if (!g) return [];
+    // Allow empty query if facets are provided
+    if (!query.trim() && !facets) return [];
 
     const particles = /(?:은|는|이|가|을|를|의|에|에서|으로|로|도|만|까지|부터|와|과|라|란|이란)$/;
     const stopwords = new Set([
@@ -316,23 +321,45 @@ export class GraphDataService {
       'who', 'what', 'where', 'when', 'why', 'how', 'which',
       '대한', '대해', '대하여', '관한', '관해', '설명', '알려',
     ]);
-    const terms = query.toLowerCase()
+    const terms = query.trim() ? query.toLowerCase()
       .replace(/[?!.,;:'"()\[\]{}~`@#$%^&*+=<>\/\\]/g, '')
       .split(/\s+/)
       .map(t => t.replace(particles, ''))
-      .filter(t => t.length > 0 && !stopwords.has(t));
+      .filter(t => t.length > 0 && !stopwords.has(t)) : [];
     const detail = this._detail();
+    const layer = facets?.layer ?? layerFilter;
 
     return g.nodes
       .filter(n => {
-        if (layerFilter !== undefined && n.layer !== layerFilter) return false;
+        const nx = n as any;
 
-        // Search in title
+        // ── Facet filters (structured property match) ──
+        if (layer !== undefined && n.layer !== layer) return false;
+        if (facets?.person && !(nx.persons ?? []).includes(facets.person)) return false;
+        if (facets?.organization && !(nx.organizations ?? []).includes(facets.organization)) return false;
+        if (facets?.fractureType && nx.fractureType !== facets.fractureType) return false;
+        if (facets?.sourceType && nx.sourceType !== facets.sourceType) return false;
+        if (facets?.strength && n.strength !== facets.strength) return false;
+        if (facets?.verdict && n.verdict !== facets.verdict) return false;
+        if (facets?.claimType && n.claimType !== facets.claimType) return false;
+
+        // If no text terms, facet-only match is enough
+        if (terms.length === 0) return true;
+
+        // ── Text search (title + structured fields + body) ──
         const titleLower = n.title.toLowerCase();
-        const titleMatch = terms.every(t => titleLower.includes(t));
-        if (titleMatch) return true;
+        if (terms.every(t => titleLower.includes(t))) return true;
 
-        // Search in detail (claim text, takeaways, evidence)
+        // Search in structured property fields (persons, organizations)
+        const propCorpus = [
+          ...(nx.persons ?? []),
+          ...(nx.organizations ?? []),
+          nx.fractureType ?? '',
+          nx.sourceType ?? '',
+        ].join(' ').toLowerCase();
+        if (terms.every(t => propCorpus.includes(t))) return true;
+
+        // Search in detail body
         if (detail?.atoms[n.id]) {
           const d = detail.atoms[n.id];
           const corpus = [
@@ -346,11 +373,63 @@ export class GraphDataService {
         return false;
       })
       .sort((a, b) => {
-        // Prioritize title matches
-        const aTitle = terms.every(t => a.title.toLowerCase().includes(t)) ? 0 : 1;
-        const bTitle = terms.every(t => b.title.toLowerCase().includes(t)) ? 0 : 1;
-        return aTitle - bTitle || a.layer - b.layer;
+        // Priority: title match > property match > body match
+        const scoreMatch = (n: GraphNode): number => {
+          if (terms.length === 0) return 0;
+          if (terms.every(t => n.title.toLowerCase().includes(t))) return 0;
+          const nx = n as any;
+          const props = [...(nx.persons ?? []), ...(nx.organizations ?? [])].join(' ').toLowerCase();
+          if (terms.every(t => props.includes(t))) return 1;
+          return 2;
+        };
+        const sa = scoreMatch(a), sb = scoreMatch(b);
+        if (sa !== sb) return sa - sb;
+        return a.layer - b.layer;
       });
+  }
+
+  /**
+   * Extract available facet values from current graph for filter UI.
+   */
+  getAvailableFacets(): AvailableFacets {
+    const g = this._graph();
+    if (!g) return { persons: [], organizations: [], fractureTypes: [], sourceTypes: [], claimTypes: [], strengths: [], verdicts: [] };
+
+    const persons = new Map<string, number>();
+    const organizations = new Map<string, number>();
+    const fractureTypes = new Map<string, number>();
+    const sourceTypes = new Map<string, number>();
+    const claimTypes = new Map<string, number>();
+    const strengths = new Map<string, number>();
+    const verdicts = new Map<string, number>();
+
+    for (const n of g.nodes) {
+      const nx = n as any;
+      for (const p of (nx.persons ?? []) as string[]) {
+        persons.set(p, (persons.get(p) ?? 0) + 1);
+      }
+      for (const o of (nx.organizations ?? []) as string[]) {
+        organizations.set(o, (organizations.get(o) ?? 0) + 1);
+      }
+      if (nx.fractureType) fractureTypes.set(nx.fractureType, (fractureTypes.get(nx.fractureType) ?? 0) + 1);
+      if (nx.sourceType && nx.sourceType !== 'unknown') sourceTypes.set(nx.sourceType, (sourceTypes.get(nx.sourceType) ?? 0) + 1);
+      if (n.claimType) claimTypes.set(n.claimType, (claimTypes.get(n.claimType) ?? 0) + 1);
+      if (n.strength) strengths.set(n.strength, (strengths.get(n.strength) ?? 0) + 1);
+      if (n.verdict) verdicts.set(n.verdict, (verdicts.get(n.verdict) ?? 0) + 1);
+    }
+
+    const toSorted = (m: Map<string, number>) =>
+      [...m.entries()].sort((a, b) => b[1] - a[1]).map(([value, count]) => ({ value, count }));
+
+    return {
+      persons: toSorted(persons),
+      organizations: toSorted(organizations),
+      fractureTypes: toSorted(fractureTypes),
+      sourceTypes: toSorted(sourceTypes),
+      claimTypes: toSorted(claimTypes),
+      strengths: toSorted(strengths),
+      verdicts: toSorted(verdicts),
+    };
   }
 
   // ── CP-3: Unlinked Mentions (Obsidian 개념 적용) ────────────────

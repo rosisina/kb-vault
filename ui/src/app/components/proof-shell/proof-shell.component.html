@@ -72,8 +72,10 @@
           [searchResults]="searchResults()"
           [searchQuery]="searchQuery()"
           [guidedProofMode]="guidedProofMode()"
+          [activeFacets]="activeFacets()"
           (atomSelect)="onAtomSelect($event)"
           (answerReady)="answerForContext.set($event)"
+          (facetChange)="onFacetChange($event)"
         />
       </main>
 
