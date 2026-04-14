@@ -57,9 +57,14 @@ export class EvidenceContextComponent implements OnChanges {
   @Output() atomSelect = new EventEmitter<string>();
   @Output() groupSelect = new EventEmitter<string>();
   @Output() personSelect = new EventEmitter<string>();
+  @Output() recordSelect = new EventEmitter<string>();
 
   onPersonClick(name: string): void {
     this.personSelect.emit(name);
+  }
+
+  onRecordClick(recordNo: string): void {
+    this.recordSelect.emit(recordNo);
   }
 
   // Layer 대시보드

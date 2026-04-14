@@ -106,7 +106,7 @@
             </div>
             <div class="record-nos">
               @for (r of detail.allRecordNos; track r) {
-                <span class="record-tag">{{ r }}</span>
+                <span class="record-tag record-clickable" (click)="onRecordClick(r)">{{ r }}</span>
               }
             </div>
           </div>

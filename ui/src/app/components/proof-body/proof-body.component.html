@@ -192,17 +192,23 @@
 
         <h3 class="atom-title">{{ detail.title }}</h3>
 
-        <!-- 3축 점수 -->
+        <!-- 3축 점수 (hover tooltip 포함) -->
         <div class="truth-axes">
-          <span class="truth-badge truthfulness">
+          <span class="truth-badge truthfulness" [title]="lang.lang() === 'kr'
+            ? '진리성 (Truthfulness): 1차 자료(증거 기록, 공문서, 녹취)로 검증 가능한 사실적 주장의 강도'
+            : 'Truthfulness: Strength of factual claims verifiable against primary sources (evidence records, official documents, recordings)'">
             {{ lang.t('truth.truthfulness') }}
             <span class="dots">{{ truthDots(selectedAtom()?.truthfulness || 0) }}</span>
           </span>
-          <span class="truth-badge validity">
+          <span class="truth-badge validity" [title]="lang.lang() === 'kr'
+            ? '타당성 (Validity): 법령·훈령·규정 텍스트로 검증 가능한 법적/제도적 주장의 강도'
+            : 'Validity: Strength of legal/regulatory claims verifiable against directive and law text'">
             {{ lang.t('truth.validity') }}
             <span class="dots">{{ truthDots(selectedAtom()?.validity || 0) }}</span>
           </span>
-          <span class="truth-badge sincerity">
+          <span class="truth-badge sincerity" [title]="lang.lang() === 'kr'
+            ? '진실성 (Sincerity): 피해자 관점에서의 의도, 피해, 경험에 대한 주장의 강도'
+            : 'Sincerity: Strength of claims about intent, harm, and experience from the victim perspective'">
             {{ lang.t('truth.sincerity') }}
             <span class="dots">{{ truthDots(selectedAtom()?.sincerity || 0) }}</span>
           </span>
@@ -318,7 +324,7 @@
                   <div class="chain-records">
                     (Record No.
                     @for (r of cn.detail.allRecordNos.slice(0, 5); track r; let rl = $last) {
-                      <span class="record-link">{{ r }}</span>@if (!rl) {, }
+                      <span class="record-link" (click)="onRecordClick(r); $event.stopPropagation()">{{ r }}</span>@if (!rl) {, }
                     }
                     @if (cn.detail.allRecordNos.length > 5) { ... +{{ cn.detail.allRecordNos.length - 5 }} }
                     )
@@ -492,7 +498,7 @@
                   <div class="atom-records-inline">
                     (Record No.
                     @for (r of item.recordNos; track r; let last = $last) {
-                      <a class="record-link" (click)="$event.stopPropagation()">{{ r }}</a>@if (!last) {, }
+                      <a class="record-link" (click)="onRecordClick(r); $event.stopPropagation()">{{ r }}</a>@if (!last) {, }
                     })
                   </div>
                 }
@@ -589,7 +595,7 @@
             </div>
             <div class="answer-records-all">
               @for (r of ans.allRecordNos; track r) {
-                <span class="record-tag">{{ r }}</span>
+                <span class="record-tag record-link" (click)="onRecordClick(r)">{{ r }}</span>
               }
             </div>
           </div>

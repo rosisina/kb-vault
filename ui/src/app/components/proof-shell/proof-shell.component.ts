@@ -115,7 +115,7 @@ export class ProofShellComponent {
   }
 
   onHistoryClick(query: string): void {
-    this.state.set('proof');
+    this.onSearch(query);
   }
 
   onBackToLanding(): void {
@@ -173,6 +173,11 @@ export class ProofShellComponent {
   // CP-3.4: Person select — search for all atoms by this person
   onPersonSelect(name: string): void {
     this.onSearch(name);
+  }
+
+  // CP-3.5: Record No. select — search for Record No.
+  onRecordSelect(recordNo: string): void {
+    this.onSearch(`Record No. ${recordNo}`);
   }
 
   private addChatHistory(query: string): void {
