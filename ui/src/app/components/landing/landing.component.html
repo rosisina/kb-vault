@@ -95,9 +95,59 @@
 
   </div>
 
-  <!-- 우측: 스크롤 (5개 맥락 카드) -->
+  <!-- 우측: 7-Layer 구조도 + 사건 개요 -->
   <div class="landing-right">
+
+    <!-- 7-Layer 인과 구조도 -->
     <div class="context-label">
+      {{ lang.lang() === 'kr' ? '7층위 범죄 구조' : '7-Layer Crime Structure' }}
+    </div>
+
+    <div class="layer-structure">
+      <div class="structure-flow">
+        <div class="structure-step" (click)="onLayerClick(1)">
+          <span class="structure-num" style="color: var(--aurora-layer-1)">1</span>
+          <span class="structure-text">{{ lang.lang() === 'kr' ? '해킹 근원서버 은폐' : 'Hacking server concealment' }}</span>
+        </div>
+        <div class="structure-arrow">↓ {{ lang.lang() === 'kr' ? '이력 삭제가 가능하게 함' : 'enables' }}</div>
+        <div class="structure-step" (click)="onLayerClick(2)">
+          <span class="structure-num" style="color: var(--aurora-layer-2)">2</span>
+          <span class="structure-text">{{ lang.lang() === 'kr' ? '장교 경력 조작' : 'Officer record manipulation' }}</span>
+        </div>
+        <div class="structure-arrow">↓ {{ lang.lang() === 'kr' ? '전속 빌미 제공' : 'justifies transfer' }}</div>
+        <div class="structure-step" (click)="onLayerClick(3)">
+          <span class="structure-num" style="color: var(--aurora-layer-3)">3</span>
+          <span class="structure-text">{{ lang.lang() === 'kr' ? '사업관리 권한 장악' : 'Project control seizure' }}</span>
+        </div>
+        <div class="structure-arrow">↓ {{ lang.lang() === 'kr' ? '시험평가 통제 가능하게 함' : 'enables eval control' }}</div>
+        <div class="structure-step" (click)="onLayerClick(4)">
+          <span class="structure-num" style="color: var(--aurora-layer-4)">4</span>
+          <span class="structure-text">{{ lang.lang() === 'kr' ? '시험평가 조작' : 'Test evaluation manipulation' }}</span>
+        </div>
+        <div class="structure-arrow">↓ {{ lang.lang() === 'kr' ? '발견자를 표적으로' : 'targets discoverer' }}</div>
+        <div class="structure-step" (click)="onLayerClick(5)">
+          <span class="structure-num" style="color: var(--aurora-layer-5)">5</span>
+          <span class="structure-text">{{ lang.lang() === 'kr' ? '허위 갑질 신고 + 고립화' : 'False harassment + isolation' }}</span>
+        </div>
+        <div class="structure-arrow">↓ {{ lang.lang() === 'kr' ? '범죄자 프레이밍' : 'criminal framing' }}</div>
+        <div class="structure-step" (click)="onLayerClick(6)">
+          <span class="structure-num" style="color: var(--aurora-layer-6)">6</span>
+          <span class="structure-text">{{ lang.lang() === 'kr' ? '사기 수사 + 범죄자 낙인' : 'Fraudulent prosecution + stigma' }}</span>
+        </div>
+        <div class="structure-arrow">↓ {{ lang.lang() === 'kr' ? '제도적 봉쇄' : 'institutional blockade' }}</div>
+        <div class="structure-step" (click)="onLayerClick(7)">
+          <span class="structure-num" style="color: var(--aurora-layer-7)">7</span>
+          <span class="structure-text">{{ lang.lang() === 'kr' ? '기소유예로 범죄 정당화' : 'Suspended prosecution as justification' }}</span>
+        </div>
+      </div>
+      <p class="structure-conclusion">
+        {{ lang.lang() === 'kr'
+          ? '각 층위는 독립적 범죄이자 다음 층위의 전제조건. 클릭하면 해당 층위의 증거로 이동합니다.'
+          : 'Each layer is an independent crime AND a prerequisite for the next. Click to see evidence.' }}
+      </p>
+    </div>
+
+    <div class="context-label" style="margin-top: 16px;">
       {{ lang.lang() === 'kr' ? '사건 개요' : 'Case Overview' }}
     </div>
 

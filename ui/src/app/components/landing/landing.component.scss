@@ -288,6 +288,60 @@
   border-bottom: 1px solid #e8eaf6;
 }
 
+// ── 7-Layer 인과 구조도 ──
+.layer-structure {
+  margin-bottom: 16px;
+}
+
+.structure-flow {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.structure-step {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s;
+  &:hover {
+    background: var(--aurora-primary-pale, #f5f5ff);
+    transform: translateX(3px);
+  }
+}
+
+.structure-num {
+  font-size: 1rem;
+  font-weight: 800;
+  font-family: 'JetBrains Mono', monospace;
+  min-width: 18px;
+  text-align: center;
+}
+
+.structure-text {
+  font-size: 0.82rem;
+  color: var(--aurora-text);
+  font-weight: 500;
+}
+
+.structure-arrow {
+  font-size: 0.7rem;
+  color: var(--aurora-text-secondary);
+  padding-left: 30px;
+  line-height: 1.4;
+}
+
+.structure-conclusion {
+  font-size: 0.75rem;
+  color: var(--aurora-text-secondary);
+  margin: 10px 0 0;
+  line-height: 1.5;
+  font-style: italic;
+}
+
 // ── 텍스트 중심 섹션 (Claude support 스타일) ──
 .context-section {
   padding-bottom: 14px;
