@@ -261,6 +261,28 @@ export class ProofBodyComponent implements OnChanges {
     return [...new Set(this.personResults().map(n => n.layer))].sort();
   }
 
+  // Answer view layer filter
+  answerLayerFilter = signal<number>(0);
+
+  toggleAnswerLayerFilter(layer: number): void {
+    this.answerLayerFilter.set(this.answerLayerFilter() === layer ? 0 : layer);
+  }
+
+  getAnswerLayerCount(ans: QueryAnswer, layer: number): number {
+    return ans.directResults.filter(r => r.node.layer === layer).length;
+  }
+
+  filteredThematicGroups(ans: QueryAnswer): ThematicGroup[] {
+    const filter = this.answerLayerFilter();
+    if (!filter) return ans.thematicGroups;
+    return ans.thematicGroups
+      .map(g => ({
+        ...g,
+        atoms: g.atoms.filter(a => a.node.layer === filter),
+      }))
+      .filter(g => g.atoms.length > 0);
+  }
+
   // Faceted search helpers
   toggleFilters(): void {
     this.showFilters.set(!this.showFilters());
@@ -301,6 +323,10 @@ export class ProofBodyComponent implements OnChanges {
 
   onAtomClick(id: string): void {
     this.atomSelect.emit(id);
+    // Switch to chain view to show atom detail — but stay in guided view if guided
+    if (this.viewMode() !== 'chain' && this.viewMode() !== 'guided') {
+      this.viewMode.set('chain');
+    }
   }
 
   onChainNodeClick(id: string): void {

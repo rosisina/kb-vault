@@ -567,14 +567,28 @@
           </div>
           <p class="answer-summary">
             {{ ans.directResults.length }}{{ lang.lang() === 'kr' ? '건의 관련 발견사항에서 도출.' : ' related findings.' }}
-            @for (layer of getAnswerLayers(ans); track layer; let last = $last) {
-              Layer {{ layer }}@if (!last) {, }
-            }
           </p>
+          <div class="answer-layer-chips">
+            @for (layer of getAnswerLayers(ans); track layer) {
+              <button class="answer-layer-chip"
+                      [class.active]="answerLayerFilter() === layer"
+                      [style.--chip-color]="'var(--aurora-layer-' + layer + ')'"
+                      (click)="toggleAnswerLayerFilter(layer)">
+                <span class="layer-dot" [style.background]="'var(--aurora-layer-' + layer + ')'"></span>
+                Layer {{ layer }}
+                <span class="chip-count">{{ getAnswerLayerCount(ans, layer) }}</span>
+              </button>
+            }
+            @if (answerLayerFilter()) {
+              <button class="answer-layer-clear" (click)="toggleAnswerLayerFilter(0)">
+                {{ lang.lang() === 'kr' ? '전체 보기' : 'Show all' }}
+              </button>
+            }
+          </div>
         </div>
 
-        <!-- ── 유형별 서사적 답변 (thematic groups) ── -->
-        @for (group of ans.thematicGroups; track group.label; let gi = $index) {
+        <!-- ── 유형별 서사적 답변 (thematic groups) — Layer 필터 적용 ── -->
+        @for (group of filteredThematicGroups(ans); track group.label; let gi = $index) {
           <div class="answer-theme">
             <div class="theme-header">
               <span class="theme-number">{{ gi + 1 }}.</span>

@@ -172,8 +172,8 @@ export class ProofShellComponent {
   }
 
   onGraphNodeSelect(atomId: string): void {
-    this.selectedAtomId.set(atomId);
     this.showGraphModal.set(false);
+    this.onAtomSelect(atomId); // push to nav trail + set selectedAtomId
   }
 
   // CP-3.1: Guided proof — select strongest fracture and enter proof view
