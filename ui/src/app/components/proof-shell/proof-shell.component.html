@@ -7,6 +7,8 @@
       (layerSelect)="onLayerSelect($event)"
       (search)="onSearch($event)"
       (guidedProof)="onGuidedProof()"
+      (metricClick)="onMetricClick($event)"
+      (toolClick)="onToolClick($event)"
     />
   }
 
@@ -74,6 +76,8 @@
           [guidedProofMode]="guidedProofMode()"
           [activeFacets]="activeFacets()"
           [previewAtomId]="previewAtomId()"
+          [initialViewMode]="initialViewMode()"
+          [initialFilter]="initialFilter()"
           (atomSelect)="onAtomSelect($event)"
           (answerReady)="answerForContext.set($event)"
           (facetChange)="onFacetChange($event)"
@@ -88,6 +92,7 @@
           [activeLayer]="activeLayer()"
           [selectedAtomId]="selectedAtomId()"
           [answerContext]="answerForContext()"
+          [searchResults]="searchResults()"
           (openGraph)="onOpenGraph()"
           (atomSelect)="onAtomSelect($event)"
           (groupSelect)="onGroupSelect($event)"

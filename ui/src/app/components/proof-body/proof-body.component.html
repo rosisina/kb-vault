@@ -76,16 +76,28 @@
 
   <!-- 뷰 모드 토글 -->
   <div class="view-mode-toggle">
-    <button class="mode-btn" [class.active]="viewMode() === 'chain'" (click)="setViewMode('chain')">
+    <button class="mode-btn" [class.active]="viewMode() === 'chain'"
+            [title]="lang.lang() === 'kr' ? '선택한 발견사항의 인과 관계 체인을 추적합니다' : 'Trace the causal chain of the selected finding'"
+            (click)="setViewMode('chain')">
       <span class="material-icons">account_tree</span>
       {{ lang.lang() === 'kr' ? '증명 체인' : 'Proof Chain' }}
+      @if (chainRoots().length > 0 && !selectedAtomId) {
+        <span class="search-count">{{ chainRoots().length }}</span>
+      }
     </button>
-    <button class="mode-btn" [class.active]="viewMode() === 'contradictions'" (click)="setViewMode('contradictions')">
+    <button class="mode-btn" [class.active]="viewMode() === 'contradictions'"
+            [title]="lang.lang() === 'kr' ? '공식 서사의 균열을 유형별로 확인합니다' : 'View fractures in the official narrative by type'"
+            (click)="setViewMode('contradictions')">
       <span class="material-icons">compare_arrows</span>
       {{ lang.lang() === 'kr' ? '균열 (Fractures)' : 'Contradictions' }}
+      @if (totalPairs() > 0) {
+        <span class="search-count">{{ totalPairs() }}</span>
+      }
     </button>
     @if (answer()) {
-      <button class="mode-btn" [class.active]="viewMode() === 'answer'" (click)="setViewMode('answer')">
+      <button class="mode-btn" [class.active]="viewMode() === 'answer'"
+              [title]="lang.lang() === 'kr' ? '검색 질의에 대한 서사적 답변입니다' : 'Narrative answer for the search query'"
+              (click)="setViewMode('answer')">
         <span class="material-icons">question_answer</span>
         {{ lang.lang() === 'kr' ? '답변' : 'Answer' }}
         <span class="search-count">{{ answer()!.totalMatches }}</span>
@@ -99,7 +111,9 @@
     }
 
     <!-- Faceted Search 필터 토글 -->
-    <button class="mode-btn filter-toggle" [class.active]="showFilters()" (click)="toggleFilters()">
+    <button class="mode-btn filter-toggle" [class.active]="showFilters()"
+            [title]="lang.lang() === 'kr' ? '균열 유형, 출처, 인물 등으로 필터링합니다' : 'Filter by fracture type, source, person, etc.'"
+            (click)="toggleFilters()">
       <span class="material-icons">tune</span>
       {{ lang.lang() === 'kr' ? '필터' : 'Filter' }}
       @if (activeFacetCount() > 0) {
@@ -545,9 +559,13 @@
 
     @if (groups().length === 0) {
       <div class="empty-state">
-        <p>{{ lang.lang() === 'kr'
-          ? 'Layer를 선택하면 해당 층위의 균열이 유형별로 표시됩니다'
-          : 'Select a Layer to see fractures grouped by type' }}</p>
+        <p>{{ searchQuery
+          ? (lang.lang() === 'kr'
+              ? '검색 결과에서 관련 균열을 찾지 못했습니다'
+              : 'No fractures found in search results')
+          : (lang.lang() === 'kr'
+              ? 'Layer를 선택하면 해당 층위의 균열이 유형별로 표시됩니다'
+              : 'Select a Layer to see fractures grouped by type') }}</p>
       </div>
     }
   }

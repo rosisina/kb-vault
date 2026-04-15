@@ -45,6 +45,8 @@ export class ProofBodyComponent implements OnChanges {
   @Input() guidedProofMode: boolean = false;
   @Input() activeFacets: any = null;
   @Input() previewAtomId: string | null = null;
+  @Input() initialViewMode: string | null = null;
+  @Input() initialFilter: any = null;
   @Output() atomSelect = new EventEmitter<string>();
   @Output() answerReady = new EventEmitter<QueryAnswer>();
   @Output() facetChange = new EventEmitter<any>();
@@ -123,6 +125,18 @@ export class ProofBodyComponent implements OnChanges {
     } else {
       this.previewNode.set(null);
       this.previewDetail.set(null);
+    }
+
+    // Landing 메트릭/도구 클릭에서 진입 시 뷰 모드 + 필터 설정
+    if (this.initialViewMode) {
+      if (this.initialViewMode === 'filter') {
+        this.showFilters.set(true);
+      } else {
+        this.viewMode.set(this.initialViewMode as ViewMode);
+      }
+      if (this.initialFilter) {
+        this.facetChange.emit(this.initialFilter);
+      }
     }
 
     // CP-3.2: Guided proof mode
@@ -455,18 +469,28 @@ export class ProofBodyComponent implements OnChanges {
       this.chain.set(c);
     } else if (this.activeLayer) {
       // Show chain roots for this layer
-      const roots = this.graphData.getChainRoots()
+      let roots = this.graphData.getChainRoots()
         .filter(r => r.layer === this.activeLayer);
+      // 검색 결과가 있으면 관련 루트만
+      if (this.searchResults.length > 0) {
+        const searchIds = new Set(this.searchResults.map(n => n.id));
+        roots = roots.filter(r => searchIds.has(r.id));
+      }
       this.chainRoots.set(roots);
-      // Auto-select first root's chain if available
       if (roots.length > 0) {
         this.chain.set(this.graphData.getChain(roots[0].id));
       } else {
         this.chain.set(null);
       }
     } else {
+      let roots = this.graphData.getChainRoots();
+      // 검색 결과가 있으면 관련 루트만
+      if (this.searchResults.length > 0) {
+        const searchIds = new Set(this.searchResults.map(n => n.id));
+        roots = roots.filter(r => searchIds.has(r.id));
+      }
       this.chain.set(null);
-      this.chainRoots.set(this.graphData.getChainRoots());
+      this.chainRoots.set(roots);
     }
   }
 
@@ -475,6 +499,13 @@ export class ProofBodyComponent implements OnChanges {
     if (this.activeLayer) {
       pairs = pairs.filter(p =>
         p.source.layer === this.activeLayer || p.target.layer === this.activeLayer
+      );
+    }
+    // 검색 결과가 있으면 해당 atom과 관련된 균열만 표시
+    if (this.searchResults.length > 0) {
+      const searchIds = new Set(this.searchResults.map(n => n.id));
+      pairs = pairs.filter(p =>
+        searchIds.has(p.source.id) || searchIds.has(p.target.id)
       );
     }
 
@@ -525,6 +556,10 @@ export class ProofBodyComponent implements OnChanges {
 
   private updateBreadcrumb(): void {
     const parts: string[] = [];
+    if (this.searchQuery) {
+      parts.push(`🔍 "${this.searchQuery}"`);
+      parts.push(`${this.searchResults.length}건`);
+    }
     if (this.activeLayer) {
       parts.push(`Layer ${this.activeLayer}`);
       parts.push(this.layerNames[this.activeLayer] || '');

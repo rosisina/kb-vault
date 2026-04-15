@@ -34,6 +34,18 @@ export class App implements OnInit {
     this.proofActive = (event as CustomEvent).detail.state === 'proof';
   }
 
+  // 브랜드 클릭 → 랜딩(초기화면)으로 복귀
+  onBrandClick(event: Event): void {
+    event.preventDefault();
+    window.dispatchEvent(new CustomEvent('aurora-back-to-landing'));
+  }
+
+  // 채팅 이력에서 검색창에 질문 내용 반영 수신
+  @HostListener('window:aurora-populate-search', ['$event'])
+  onPopulateSearch(event: Event): void {
+    this.searchQuery = (event as CustomEvent).detail.query;
+  }
+
   toggleLang(): void {
     this.lang.toggle();
   }

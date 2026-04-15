@@ -69,6 +69,12 @@ export class ProofShellComponent {
     this.onSearch(query);
   }
 
+  // 브랜드 클릭 → 랜딩(초기화면)으로 복귀
+  @HostListener('window:aurora-back-to-landing')
+  onBrandBackToLanding(): void {
+    this.onBackToLanding();
+  }
+
   onLayerSelect(layer: number): void {
     this.activeLayer.set(layer);
     this.selectedAtomId.set(null);
@@ -146,7 +152,10 @@ export class ProofShellComponent {
   }
 
   onHistoryClick(query: string): void {
-    this.onSearch(query);
+    // 검색창에 질문 내용만 반영 (즉시 검색하지 않음)
+    window.dispatchEvent(new CustomEvent('aurora-populate-search', {
+      detail: { query }
+    }));
   }
 
   onBackToLanding(): void {
@@ -214,6 +223,51 @@ export class ProofShellComponent {
       this.selectedAtomId.set(strongest[0].id);
       this.activeLayer.set(null); // cross-layer mode
       this.setState('proof');
+    }
+  }
+
+  // Landing 메트릭 클릭 → State B 진입 (적절한 탭/필터 적용)
+  initialViewMode = signal<string | null>(null);
+  initialFilter = signal<any>(null);
+
+  onMetricClick(type: string): void {
+    switch (type) {
+      case 'corroboration':
+        this.initialViewMode.set('contradictions');
+        this.initialFilter.set({ verdict: 'CORROBORATED' });
+        this.setState('proof');
+        break;
+      case 'findings':
+        this.initialViewMode.set('chain');
+        this.initialFilter.set(null);
+        this.setState('proof');
+        break;
+      case 'fractures':
+        this.initialViewMode.set('contradictions');
+        this.initialFilter.set(null);
+        this.setState('proof');
+        break;
+      case 'records':
+        this.onSearch('Record No.');
+        break;
+    }
+  }
+
+  // Landing 도구 클릭 → State B 진입 (해당 탭 활성)
+  onToolClick(toolId: string): void {
+    switch (toolId) {
+      case 'chain':
+        this.initialViewMode.set('chain');
+        this.setState('proof');
+        break;
+      case 'fractures':
+        this.initialViewMode.set('contradictions');
+        this.setState('proof');
+        break;
+      case 'filter':
+        this.initialViewMode.set('filter');
+        this.setState('proof');
+        break;
     }
   }
 

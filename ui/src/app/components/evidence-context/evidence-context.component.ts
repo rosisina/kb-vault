@@ -53,6 +53,7 @@ export class EvidenceContextComponent implements OnChanges {
   @Input() selectedAtomId: string | null = null;
   @Input() activeLayer: number | null = null;
   @Input() answerContext: QueryAnswer | null = null;
+  @Input() searchResults: GraphNode[] = [];
   @Output() openGraph = new EventEmitter<void>();
   @Output() atomSelect = new EventEmitter<string>();
   @Output() groupSelect = new EventEmitter<string>();
@@ -137,6 +138,13 @@ export class EvidenceContextComponent implements OnChanges {
     if (this.activeLayer) {
       pairs = pairs.filter(p =>
         p.source.layer === this.activeLayer || p.target.layer === this.activeLayer
+      );
+    }
+    // 검색 결과가 있으면 해당 atom과 관련된 것만 표시
+    if (this.searchResults.length > 0) {
+      const searchIds = new Set(this.searchResults.map(n => n.id));
+      pairs = pairs.filter(p =>
+        searchIds.has(p.source.id) || searchIds.has(p.target.id)
       );
     }
 

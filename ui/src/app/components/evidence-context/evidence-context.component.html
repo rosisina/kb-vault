@@ -5,7 +5,9 @@
   @if (totalPairs() > 0) {
     <div class="section dashboard">
       <div class="section-label">
-        {{ lang.lang() === 'kr' ? 'Layer 요약' : 'Layer Summary' }}
+        {{ searchResults.length > 0
+          ? (lang.lang() === 'kr' ? '검색 결과 요약' : 'Search Results Summary')
+          : (lang.lang() === 'kr' ? 'Layer 요약' : 'Layer Summary') }}
       </div>
       <div class="overall-stats">
         <span class="overall-count">{{ totalPairs() }}건 중 {{ totalCorroborated() }}건 입증</span>

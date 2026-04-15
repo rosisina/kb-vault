@@ -1,201 +1,218 @@
-<!-- Aurora v2 Landing — CP-3.1: 증명 메트릭 중심 + guided proof 진입점 -->
-<div class="landing-layout">
+<!-- Aurora v2 Landing — Proof Constellation + Chain Menu -->
+<div class="landing-page">
 
-  <!-- 좌측: 고정 (Hero + 증명 메트릭 + 검색 + 7-Layer 탑) -->
-  <div class="landing-left">
-    <!-- Hero -->
-    <div class="hero-brand">
-      <img class="hero-icon-img" src="aurora-icon.png" alt="Aurora Intelligence">
-      <h1>Aurora Intelligence</h1>
-      <p class="hero-tagline">
-        {{ lang.lang() === 'kr'
-          ? '2016년 국방통합데이터센터 북한 해킹 사건 — 국방 조직의 조직적 은폐 범죄 증명 체계'
-          : '2016 DIDC North Korean Hacking Incident — Organized Cover-up Crime Proof System' }}
-      </p>
-    </div>
-
-    <!-- CP-3.1: 증명 강도 메트릭 (사건 개요보다 먼저) -->
-    <div class="proof-metrics">
-      <div class="metric-row">
-        <div class="metric">
-          <span class="metric-value">{{ corroborationPct() }}%</span>
-          <span class="metric-label">{{ lang.lang() === 'kr' ? '입증률' : 'Corroborated' }}</span>
-        </div>
-        <div class="metric">
-          <span class="metric-value">{{ totalAtoms() }}</span>
-          <span class="metric-label">{{ lang.lang() === 'kr' ? '발견사항' : 'Findings' }}</span>
-        </div>
-        <div class="metric">
-          <span class="metric-value">{{ fractureCount() }}</span>
-          <span class="metric-label">{{ lang.lang() === 'kr' ? '균열' : 'Fractures' }}</span>
-        </div>
-        <div class="metric">
-          <span class="metric-value">{{ totalRecordNos() }}</span>
-          <span class="metric-label">{{ lang.lang() === 'kr' ? '증거 기록' : 'Evidence Records' }}</span>
-        </div>
-      </div>
-      <p class="proof-summary">
-        {{ lang.lang() === 'kr'
-          ? '7개 층위에 걸쳐 ' + strongCount() + '건의 강력한 입증 완료. 모든 발견사항은 증거 기록 번호로 원본 추적 가능.'
-          : strongCount() + ' strongly corroborated findings across 7 layers. Every finding is traceable to original evidence records.' }}
-      </p>
-      <button class="guided-proof-btn" (click)="onGuidedProof()">
-        <span class="material-icons">verified</span>
-        {{ lang.lang() === 'kr' ? '가장 강력한 증거부터 보기' : 'Start with the strongest evidence' }}
-        <span class="material-icons btn-arrow">arrow_forward</span>
-      </button>
-    </div>
-
-    <!-- 검색창 -->
-    <div class="search-hero">
-      <div class="search-box">
-        <div class="search-input-row">
-          <input class="search-input-gemini"
-                 [(ngModel)]="searchQuery"
-                 (keyup.enter)="onSearch()"
-                 [placeholder]="lang.lang() === 'kr' ? '오로라에게 질문해 보세요' : 'Ask Aurora'">
-          <button class="search-submit" (click)="onSearch()">
-            <span class="material-icons">send</span>
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <!-- 7-Layer 탑 -->
-    <div class="layer-tower">
-      @for (layer of layers(); track layer.num) {
-        <div class="layer-row" (click)="onLayerClick(layer.num)"
-             [title]="layerDescriptions[layer.num]">
-          <span class="layer-num" [style.color]="layer.color">{{ layer.num }}</span>
-          <div class="layer-info">
-            <span class="layer-name">{{ lang.t('layer.' + layer.num) }}</span>
-            @if (layerSubtitles[layer.num]) {
-              <span class="layer-desc">{{ layerSubtitles[layer.num] }}</span>
-            }
-          </div>
-          <div class="layer-bar-track">
-            <div class="layer-bar-fill"
-                 [style.width.%]="layer.corrPct"
-                 [style.background]="layer.color"></div>
-          </div>
-          <span class="layer-count">{{ layer.corroborated }}/{{ layer.count }}</span>
-        </div>
-      }
-      <div class="legend">
-        <span class="legend-item">
-          <span class="legend-bar" style="background: var(--aurora-success);"></span>
-          {{ lang.lang() === 'kr' ? '입증완료' : 'Corroborated' }}
-        </span>
-        <span class="legend-item">
-          <span class="legend-bar" style="background: var(--aurora-warning);"></span>
-          {{ lang.lang() === 'kr' ? '추가증거필요' : 'Needs Evidence' }}
-        </span>
-      </div>
-    </div>
-
+  <!-- ── 타이틀 ── -->
+  <div class="page-header">
+    <h1 class="page-title">Aurora Intelligence</h1>
+    <p class="page-subtitle">
+      {{ lang.lang() === 'kr'
+        ? '2016년 국방통합데이터센터 북한 해킹 — 조직적 은폐 범죄 증명 체계'
+        : '2016 DIDC North Korean Hacking — Organized Cover-up Proof System' }}
+    </p>
   </div>
 
-  <!-- 우측: 7-Layer 구조도 + 사건 개요 -->
-  <div class="landing-right">
+  <!-- ══════════════════════════════════════════ -->
+  <!-- Main: Heptagon (좌/중) + Chain Menu (우)  -->
+  <!-- ══════════════════════════════════════════ -->
+  <div class="main-area">
 
-    <!-- 7-Layer 인과 구조도 -->
-    <div class="context-label">
-      {{ lang.lang() === 'kr' ? '7층위 범죄 구조' : '7-Layer Crime Structure' }}
-    </div>
+    <!-- ── Proof Constellation ── -->
+    <div class="constellation">
+      <div class="logo-glow"></div>
+      <img class="constellation-logo" src="aurora-icon.png" alt="Aurora">
 
-    <div class="layer-structure">
-      <div class="structure-flow">
-        <div class="structure-step" (click)="onLayerClick(1)">
-          <span class="structure-num" style="color: var(--aurora-layer-1)">1</span>
-          <span class="structure-text">{{ lang.lang() === 'kr' ? '해킹 근원서버 은폐' : 'Hacking server concealment' }}</span>
+      <!-- 방안 C: 중심 파동 (로드 시 동심원 확산) -->
+      <div class="ripple ripple-1"></div>
+      <div class="ripple ripple-2"></div>
+      <div class="ripple ripple-3"></div>
+
+      <!-- SVG: 연결선 + 정칠각형 외곽 (방안 B) -->
+      <svg class="connections-svg" [attr.viewBox]="svgViewBox()">
+        <!-- 방안 B: 정칠각형 외곽선 -->
+        <polygon [attr.points]="heptagonPoints()"
+                 class="heptagon-outline"
+                 [class.heptagon-active]="hoveredLayer() !== null" />
+
+        <!-- N:N 연결선 -->
+        @for (conn of connections(); track conn.from + '-' + conn.to) {
+          <line [attr.x1]="conn.x1" [attr.y1]="conn.y1"
+                [attr.x2]="conn.x2" [attr.y2]="conn.y2"
+                [class.highlighted]="isConnectionHighlighted(conn)"
+                [style.stroke]="connectionColor(conn)"
+                class="conn-line" />
+        }
+      </svg>
+
+      <!-- 7 Layer 노드 -->
+      @for (pos of nodePositions(); track pos.num) {
+        <div class="layer-node"
+             [style.left.px]="pos.x"
+             [style.top.px]="pos.y"
+             [style.--lc]="layerColors[pos.num]"
+             [class.node-hovered]="hoveredLayer() === pos.num"
+             [class.node-connected]="hoveredLayer() !== null && hoveredLayer() !== pos.num && layerConnections[hoveredLayer()!]?.includes(pos.num)"
+             (mouseenter)="hoveredLayer.set(pos.num)"
+             (mouseleave)="hoveredLayer.set(null)"
+             (click)="onLayerClick(pos.num)">
+          <div class="node-circle">
+            <span class="node-num">{{ pos.num }}</span>
+          </div>
+          <span class="node-label">{{ pos.num }}{{ lang.lang() === 'kr' ? '층위' : ' Layer' }}</span>
+          <span class="node-sublabel">{{ lang.lang() === 'kr' ? layerTitles[pos.num].kr : layerTitles[pos.num].en }}</span>
+
+          <!-- 호버 카드 -->
+          <div class="node-hover-card" [attr.data-dir]="pos.hoverDir">
+            <div class="card-header">
+              <span class="card-badge" [style.background]="layerColors[pos.num]">L{{ pos.num }}</span>
+              <span class="card-title">{{ pos.num }}{{ lang.lang() === 'kr' ? '층위 — ' : ' Layer — ' }}{{ lang.lang() === 'kr' ? layerTitles[pos.num].kr : layerTitles[pos.num].en }}</span>
+            </div>
+            <p class="card-body">{{ lang.lang() === 'kr' ? layerHovers[pos.num].kr : layerHovers[pos.num].en }}</p>
+            @if (getLayerStat(pos.num); as ls) {
+              <div class="card-stat">
+                <span class="card-stat-bar">
+                  <span class="card-stat-fill" [style.width.%]="ls.corrPct" [style.background]="ls.color"></span>
+                </span>
+                <span class="card-stat-text">{{ ls.corroborated }}/{{ ls.count }} ({{ ls.corrPct }}%)</span>
+              </div>
+            }
+          </div>
         </div>
-        <div class="structure-arrow">↓ {{ lang.lang() === 'kr' ? '이력 삭제가 가능하게 함' : 'enables' }}</div>
-        <div class="structure-step" (click)="onLayerClick(2)">
-          <span class="structure-num" style="color: var(--aurora-layer-2)">2</span>
-          <span class="structure-text">{{ lang.lang() === 'kr' ? '장교 경력 조작' : 'Officer record manipulation' }}</span>
+      }
+
+    <!-- ── Chain Menu (우측 사슬, constellation 기준 absolute) ── -->
+    <nav class="chain-menu" [style.left.px]="chainLeftPx()">
+      <div class="chain-title">{{ lang.lang() === 'kr' ? '증명 탐색' : 'Proof Explorer' }}</div>
+      <div class="chain-line"></div>
+
+      <!-- 1. Guided Proof -->
+      <div class="chain-item"
+           (mouseenter)="hoveredTool.set('guided')"
+           (mouseleave)="hoveredTool.set(null)"
+           (click)="onToolClick('guided')">
+        <div class="chain-link">◇</div>
+        <div class="chain-content">
+          <span class="material-icons chain-icon">verified</span>
+          <span class="chain-label">Guided Proof</span>
         </div>
-        <div class="structure-arrow">↓ {{ lang.lang() === 'kr' ? '전속 빌미 제공' : 'justifies transfer' }}</div>
-        <div class="structure-step" (click)="onLayerClick(3)">
-          <span class="structure-num" style="color: var(--aurora-layer-3)">3</span>
-          <span class="structure-text">{{ lang.lang() === 'kr' ? '사업관리 권한 장악' : 'Project control seizure' }}</span>
-        </div>
-        <div class="structure-arrow">↓ {{ lang.lang() === 'kr' ? '시험평가 통제 가능하게 함' : 'enables eval control' }}</div>
-        <div class="structure-step" (click)="onLayerClick(4)">
-          <span class="structure-num" style="color: var(--aurora-layer-4)">4</span>
-          <span class="structure-text">{{ lang.lang() === 'kr' ? '시험평가 조작' : 'Test evaluation manipulation' }}</span>
-        </div>
-        <div class="structure-arrow">↓ {{ lang.lang() === 'kr' ? '발견자를 표적으로' : 'targets discoverer' }}</div>
-        <div class="structure-step" (click)="onLayerClick(5)">
-          <span class="structure-num" style="color: var(--aurora-layer-5)">5</span>
-          <span class="structure-text">{{ lang.lang() === 'kr' ? '허위 갑질 신고 + 고립화' : 'False harassment + isolation' }}</span>
-        </div>
-        <div class="structure-arrow">↓ {{ lang.lang() === 'kr' ? '범죄자 프레이밍' : 'criminal framing' }}</div>
-        <div class="structure-step" (click)="onLayerClick(6)">
-          <span class="structure-num" style="color: var(--aurora-layer-6)">6</span>
-          <span class="structure-text">{{ lang.lang() === 'kr' ? '사기 수사 + 범죄자 낙인' : 'Fraudulent prosecution + stigma' }}</span>
-        </div>
-        <div class="structure-arrow">↓ {{ lang.lang() === 'kr' ? '제도적 봉쇄' : 'institutional blockade' }}</div>
-        <div class="structure-step" (click)="onLayerClick(7)">
-          <span class="structure-num" style="color: var(--aurora-layer-7)">7</span>
-          <span class="structure-text">{{ lang.lang() === 'kr' ? '기소유예로 범죄 정당화' : 'Suspended prosecution as justification' }}</span>
-        </div>
+        @if (hoveredTool() === 'guided') {
+          <div class="chain-hover-card">
+            <p class="card-body">{{ lang.lang() === 'kr' ? tools[0].hoverKr : tools[0].hoverEn }}</p>
+          </div>
+        }
       </div>
-      <p class="structure-conclusion">
-        {{ lang.lang() === 'kr'
-          ? '각 층위는 독립적 범죄이자 다음 층위의 전제조건. 클릭하면 해당 층위의 증거로 이동합니다.'
-          : 'Each layer is an independent crime AND a prerequisite for the next. Click to see evidence.' }}
-      </p>
+
+      <!-- 2. 증명 체인 -->
+      <div class="chain-item"
+           (mouseenter)="hoveredTool.set('chain')"
+           (mouseleave)="hoveredTool.set(null)"
+           (click)="onToolClick('chain')">
+        <div class="chain-link">◇</div>
+        <div class="chain-content">
+          <span class="material-icons chain-icon">account_tree</span>
+          <span class="chain-label">{{ lang.lang() === 'kr' ? '증명 체인' : 'Proof Chain' }}</span>
+        </div>
+        @if (hoveredTool() === 'chain') {
+          <div class="chain-hover-card">
+            <p class="card-body">{{ lang.lang() === 'kr' ? tools[1].hoverKr : tools[1].hoverEn }}</p>
+          </div>
+        }
+      </div>
+
+      <!-- 3. 균열 -->
+      <div class="chain-item"
+           (mouseenter)="hoveredTool.set('fractures')"
+           (mouseleave)="hoveredTool.set(null)"
+           (click)="onToolClick('fractures')">
+        <div class="chain-link">◇</div>
+        <div class="chain-content">
+          <span class="material-icons chain-icon">compare_arrows</span>
+          <span class="chain-label">{{ lang.lang() === 'kr' ? '균열' : 'Fractures' }}</span>
+        </div>
+        @if (hoveredTool() === 'fractures') {
+          <div class="chain-hover-card">
+            <p class="card-body">{{ lang.lang() === 'kr' ? tools[2].hoverKr : tools[2].hoverEn }}</p>
+          </div>
+        }
+      </div>
+
+      <!-- 4. 필터 -->
+      <div class="chain-item"
+           (mouseenter)="hoveredTool.set('filter')"
+           (mouseleave)="hoveredTool.set(null)"
+           (click)="onToolClick('filter')">
+        <div class="chain-link">◇</div>
+        <div class="chain-content">
+          <span class="material-icons chain-icon">tune</span>
+          <span class="chain-label">{{ lang.lang() === 'kr' ? '필터' : 'Filter' }}</span>
+        </div>
+        @if (hoveredTool() === 'filter') {
+          <div class="chain-hover-card">
+            <p class="card-body">{{ lang.lang() === 'kr' ? tools[3].hoverKr : tools[3].hoverEn }}</p>
+          </div>
+        }
+      </div>
+
+      <!-- 5. 사건 개요 (하위 탭 포함) -->
+      <div class="chain-item chain-case"
+           (mouseenter)="hoveredTool.set('case')"
+           (mouseleave)="hoveredTool.set(null)">
+        <div class="chain-link chain-link-last">◇</div>
+        <div class="chain-content">
+          <span class="material-icons chain-icon">menu_book</span>
+          <span class="chain-label">{{ lang.lang() === 'kr' ? '사건 개요' : 'Case Overview' }}</span>
+        </div>
+        <!-- 하위 탭 (항상 표시) -->
+        <div class="case-sub-tabs">
+          @for (tab of ['incident','coverup','evidence','structure','implications']; track tab) {
+            <button class="case-sub-tab"
+                    [class.active]="activeCase() === tab"
+                    (mouseenter)="hoveredCase.set(tab)"
+                    (mouseleave)="hoveredCase.set(null)"
+                    (click)="toggleCase(tab); $event.stopPropagation()">
+              {{ lang.lang() === 'kr'
+                ? (tab === 'incident' ? '사건' : tab === 'coverup' ? '은폐' : tab === 'evidence' ? '증거' : tab === 'structure' ? '구조' : '함의')
+                : (tab === 'incident' ? 'Incident' : tab === 'coverup' ? 'Cover-up' : tab === 'evidence' ? 'Evidence' : tab === 'structure' ? 'Structure' : 'Implications') }}
+            </button>
+          }
+        </div>
+        <!-- 사건 개요 호버 (남쪽) -->
+        @if (hoveredCase(); as hc) {
+          <div class="case-hover-preview">
+            <p>{{ lang.lang() === 'kr' ? caseContent[hc].kr : caseContent[hc].en }}</p>
+          </div>
+        }
+        <!-- 클릭 시 펼침 -->
+        @if (activeCase(); as tab) {
+          <div class="case-expanded">
+            <p>{{ lang.lang() === 'kr' ? caseContent[tab].kr : caseContent[tab].en }}</p>
+          </div>
+        }
+      </div>
+    </nav>
+    </div>  <!-- /constellation -->
+  </div>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- 검색창 + 질문 예시 -->
+  <!-- ══════════════════════════════════════════ -->
+  <div class="search-hero">
+    <div class="search-box">
+      <div class="search-input-row">
+        <input class="search-input"
+               [(ngModel)]="searchQuery"
+               (keyup.enter)="onSearch()"
+               [placeholder]="lang.lang() === 'kr' ? '오로라에게 질문해 보세요' : 'Ask Aurora'">
+        <button class="search-submit" (click)="onSearch()">
+          <span class="material-icons">send</span>
+        </button>
+      </div>
     </div>
-
-    <div class="context-label" style="margin-top: 16px;">
-      {{ lang.lang() === 'kr' ? '사건 개요' : 'Case Overview' }}
-    </div>
-
-    <!-- 텍스트 중심 사건 개요 (Claude support / Google search 스타일) -->
-
-    <div class="context-section">
-      <h4 class="context-heading">{{ lang.lang() === 'kr' ? '사건' : 'The Incident' }}</h4>
-      <p class="context-text">
-        {{ lang.lang() === 'kr'
-          ? '2016년 북한이 국방통합데이터센터(DIDC) 센터1(용인)을 해킹했다. 실제 침입 경로는 VPN 보호 없이 15년간(2007~2022) 인터넷에서 운영된 舊KIATIS(625 전사자 종합정보시스템)였다.'
-          : 'In 2016, North Korea hacked the Defense Integrated Data Center (DIDC) Center 1 (Yongin). The actual intrusion route was the old KIATIS system, operated on the Internet without VPN protection for 15 years (2007-2022).' }}
-      </p>
-    </div>
-
-    <div class="context-section">
-      <h4 class="context-heading">{{ lang.lang() === 'kr' ? '은폐' : 'The Cover-up' }}</h4>
-      <p class="context-text">
-        {{ lang.lang() === 'kr'
-          ? '이 사실을 발견한 32년 복무 장교를 범죄자로 낙인찍기 위한 조직적 공모. 2022년 2월 8일 회의에서 사실을 공개한 지 정확히 48시간 만에 허위 갑질 신고가 접수되었다.'
-          : 'An organized conspiracy to frame the 32-year officer who discovered this as a criminal. Exactly 48 hours after disclosing the facts at a meeting on February 8, 2022, a false abuse-of-authority report was filed.' }}
-      </p>
-    </div>
-
-    <div class="context-section">
-      <h4 class="context-heading">{{ lang.lang() === 'kr' ? '결정적 증거' : 'Decisive Evidence' }}</h4>
-      <p class="context-text">
-        {{ lang.lang() === 'kr'
-          ? '군 검찰이 "조작했다"고 주장하는 VPN 및 DB접근제어 시스템이 시험평가 기간과 이후 최소 18개월간 존재하지 않았음을 증명하는 공문서. 이 문서의 결재자는 카르텔 핵심 구성원 이지영이다.'
-          : 'An official document proving that the VPN and DB access control systems — which prosecutors claimed were manipulated — did not exist during the evaluation period or for at least 18 months afterward. This document was approved by Lee Ji-young, a core cartel member.' }}
-      </p>
-    </div>
-
-    <div class="context-section">
-      <h4 class="context-heading">{{ lang.lang() === 'kr' ? '조직적 범죄 구조' : 'Organized Crime Structure' }}</h4>
-      <p class="context-text">
-        {{ lang.lang() === 'kr'
-          ? 'APT(지능형 지속 위협) 표적 공격 구조: 표적 선정(48시간 내 허위 신고) → 지속성(6개월 고립 + 소급 범죄화) → 정교함(증거 파괴 → 사회적 고립 → 평판 테러 → 범죄자 낙인 → 추적 차단 인적 네트워크).'
-          : 'APT-style targeted attack: Targeting (false report within 48hrs) → Persistence (6 months isolation + retroactive criminalization) → Sophistication (evidence destruction → social isolation → reputation terrorism → criminal labeling → accountability-blocking network).' }}
-      </p>
-    </div>
-
-    <div class="context-section">
-      <h4 class="context-heading">{{ lang.lang() === 'kr' ? '함의' : 'Implications' }}</h4>
-      <p class="context-text">
-        {{ lang.lang() === 'kr'
-          ? '디지털 시대의 새로운 형태의 조직적 악. 한나 아렌트의 "악의 평범성"(다수→다수)과 달리, 이 사건은 다수→1인 구조로 국가 권력이 사이버보안 기술을 이용해 한 개인을 체계적으로 파괴한 사례. 동시에, 정보화 시대의 디지털 증거가 조직 범죄에 대한 책임 추궁을 가능케 함을 증명한다.'
-          : 'A new form of organized evil in the digital age. Unlike Arendt\'s "banality of evil" (many-to-many), this case demonstrates a many-to-one structure where state power systematically destroyed an individual using cybersecurity techniques. It also proves that digital evidence enables accountability for organized crime.' }}
-      </p>
+    <div class="example-queries">
+      @for (q of exampleQueries; track $index) {
+        <button class="example-btn" (click)="onExampleClick(q)">
+          {{ lang.lang() === 'kr' ? q.kr : q.en }}
+        </button>
+      }
     </div>
   </div>
 

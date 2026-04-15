@@ -1,10 +1,10 @@
 <!-- Aurora v2 — Toolbar: State A에서 검색 숨김, State B에서 검색 표시 (2.5배) -->
 <div class="aurora-toolbar">
-  <a class="brand-link" routerLink="/">
+  <a class="brand-link" routerLink="/" (click)="onBrandClick($event)">
     <img src="aurora-icon.png" alt="Aurora" class="brand-icon">
     <span class="title">Aurora Intelligence</span>
   </a>
-  <a class="subtitle-link" routerLink="/">
+  <a class="subtitle-link" routerLink="/" (click)="onBrandClick($event)">
     {{ lang.lang() === 'kr' ? '국가 및 국방 차원의 범죄증명 플랫폼' : 'National & Defense Crime Proof Platform' }}
   </a>
 
