@@ -215,6 +215,22 @@ The log is append-only. Never rewrite existing lines.
   - **F-AA (부재 논증, argument from absence):** Mandatory artifact absent — modus tollens. Regulation requires X; X does not exist; therefore non-compliance.
   - Reserve the term '모순' (contradiction) **exclusively for F-SC**. All other types use their specific Korean/English names.
 - **Max article length.** 400 lines. When an article exceeds this, split it — do not compress. Long paragraphs belong in `## Details`.
+- **Section headers use bilingual `## 한글 (English)` format.** New and re-anchored atoms use Korean-first headers per the D+ Bilingual Re-anchoring plan (approved 2026-04-16). Canonical mapping:
+  | Legacy English | Bilingual (Korean-first) |
+  |---|---|
+  | `## Claim` | `## 주장 (Claim)` |
+  | `## Key Takeaways` | `## 핵심 요약 (Key Takeaways)` |
+  | `## Supporting evidence` | `## 지지 증거 (Supporting Evidence)` |
+  | `## Counter-hypothesis` | `## 반대 가설 (Counter-hypothesis)` |
+  | `## Falsification condition` | `## 반증 조건 (Falsification Condition)` |
+  | `## Verdict` | `## 평결 (Verdict)` |
+  | `## Related` | `## 관련 (Related)` |
+  | `## Open Questions` | `## 미결 사항 (Open Questions)` |
+  | `## Spot-check` | `## 원전 확인 (Spot-check)` |
+  Legacy English-only headers remain valid (backward-compatible). All scripts and the validate-wiki.sh hook accept both forms. Do NOT rename legacy atoms unless executing a re-anchoring batch.
+- **English placeholder in re-anchored atoms.** When re-anchoring to Korean-first prose, add `<!-- pending: phase i18n-EN -->` under each `### English` subsection. This marks the atom for the future English phase without requiring a second editing pass.
+- **Aurora MERGE blocks are always English.** Cypher syntax must remain English regardless of the atom's prose language. Never translate property names or string literals inside fenced `cypher` blocks.
+- **Korean verbatim quotes are never translated.** Preserve the exact Korean quote and add an English gloss in parentheses: `"내가 왜 기소유예를 당합니까?" (Why am I subjected to a kiso-yuye disposition?)`. This protects 진실성 (Sincerity) axis evidentiary value.
 
 ## Measurement vs interpretation — blind principle scope
 

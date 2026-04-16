@@ -43,7 +43,7 @@ tags:
 ---
 # 이지영의 5분 3회 번복 — 조직→직권→개인 신고 변경 = 실시간 김민수 조율
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md §3.5.2.4.2 (lines 260-263)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/11-3-5-35-제-5층위.md §3.5.2.4.2 (lines 260-263)
 **Layer:** [[../layers/layer-5|Layer 5]]
 **Aurora node:**
 ```cypher
@@ -63,37 +63,36 @@ SET fr.layer = 5,
     fr.summary = "Record 11,064: 5분 3회 번복. 조직→직권→개인. 실시간 조율+증거 은폐 시도.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 2022-02-21 이지영이 5분 내 3회 번복: '원 차원에서 신고'→'직권 조사 의뢰'→'직권 조사 아니래요 없었던 걸로'(기록 제11,064쪽). 조직→직권→개인으로의 변경은 김민수와 실시간 협의하며 방침을 결정한 증거. '없었던 걸로'는 의사결정 과정 자체의 은폐 시도.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - Triple reversal in 5 minutes (org→official→individual) proves real-time coordination with Kim Min-su [진리성]
 - 'Pretend I never said that' explicitly attempts to erase evidence of organizational initiation [진리성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **Record No. 11,064**
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 절차적 불확실성에서 비롯된 정상적 재검토
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 직권조사 거부에 대한 법적 절차적 사유가 문서화된 기록
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** STRONG. 진리성 9 / 타당성 8 / 진실성 9.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/11-3-5-35-제-5층위.md` lines 260-263
 
-- `vault-converted-korean/11-3-5-35-제-5층위.md` lines 260-263
-
-## Related
-
+## 관련 (Related)
 - [[lee-jiyoung-jikgwon-josa-flip-flop-hours]] (CORROBORATES)
 - [[layer5-triangular-collusion-speech-act-timeline]] (CORROBORATES)
 - [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

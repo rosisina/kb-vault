@@ -67,7 +67,9 @@ SET fr.layer = 4,
     fr.summary = "전임 팀장+평가위원장 이태호: '팀장이 들어간 적 없어요' — 시험평가 불참은 관행, 조작 아님. 한지훈 verbatim과 직접 수렴: '사업관리팀장은 절대 평가에 들어가면 안되는 거예요'.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 전임 사업관리팀장이자 평가위원장인 이태호 (해군중령, 평가위원장-1)가 녹취 057(2022.7.30)에서 증언:
 
@@ -92,39 +94,37 @@ SET fr.layer = 4,
 - 검찰 혐의("시험평가환경을 속였다")의 전제인 "한지훈이 참여해야 했다"가 **관행에 의해 반증**
 - 이태호 자신이 평가위원장을 역임했음에도 "팀장으로서는 안 들어갔다"는 **역할 분리의 실무적 관행** 확인
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - [타당성] **전임 팀장이 "팀장이 들어간 적 없어요"** — 시험평가에 사업관리팀장이 불참하는 것은 국전원의 **확립된 관행**이며 한지훈만의 특수 행위가 아님. / The predecessor team leader confirms non-participation in test evaluation is established practice — not unique to Han Ji-hoon.
 - [진리성] 이태호는 한지훈과 **동일 직책의 전임자** — 가장 직접적인 **관행 비교 대상**. 동일 직책이 동일하게 불참했다는 사실 = 관행적 근거 최강. / Same position predecessor confirms same practice — strongest possible precedent evidence.
 - [타당성] **"사업지침서에 명기되는 않을까?"** — 이태호 자신이 법적 근거의 존재를 추정 → 훈령 제2129호 제11조 ¶3/¶4의 역할분리 원칙과 정확히 부합. / The predecessor himself suspects legal basis exists — aligning with directive Article 11.
 - [진리성] 이태호의 증언 + 한지훈의 방어 + 훈령 제11조 ¶3/¶4 = **3중 수렴** (전임자 관행 + 현임자 인식 + 법적 텍스트). / Triple convergence: predecessor practice + current holder's understanding + legal text.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **녹취 057** (2022.7.30, line 3750~3754) — 이태호 verbatim
 - Cross-reference: [[han-ji-hoon-prosecution-violates-2129-role-separation|역할분리 위반 — 한지훈의 법적 방어]]
 - Cross-reference: [[gukjeonwon-pre-evaluation-team-leader-exclusion|팀장 체계적 배제 — 조직적 설계]]
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 이태호의 경험이 KIATIS에 일반화될 수 없으며, KIATIS 특수성상 팀장 참여가 필요했을 수 있다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 국전원 다른 사업에서 팀장이 시험평가에 직접 참여한 사례.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 9 / 진실성 8.
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/10-3-4-34-제4-층위.md` — 시험평가 참여 구조
-- `vault-converted-korean/12-3-6-36-제6층위-군.md` — 검찰 혐의 구조
+- `Korean/10-3-4-34-제4-층위.md` — 시험평가 참여 구조
+- `Korean/12-3-6-36-제6층위-군.md` — 검찰 혐의 구조
 - Deferred to A.6 Re-verify.
 
-## Related
-
+## 관련 (Related)
 - [[han-ji-hoon-prosecution-violates-2129-role-separation|역할분리 위반]] (RELATED)
 - [[gukjeonwon-pre-evaluation-team-leader-exclusion|팀장 배제]] (RELATED)
 - [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

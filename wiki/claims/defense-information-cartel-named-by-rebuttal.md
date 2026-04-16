@@ -74,7 +74,9 @@ SET fr.layer = 1,
     fr.summary = "한지훈's rebuttal provides the operational definition of the 'Defense Information Cartel' term that recurs throughout the case. The 5 organizations are named explicitly. Whether they operated as a coordinated cartel (vs independent actors) is the central testable question — the topic page already exists and this atom anchors it to a primary source.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 한지훈's 2022-09-25 rebuttal document (`raw/05/(20220929)`) explicitly names and defines the term **`국방정보화카르텔` (Defense Information Cartel)** as a coordinated grouping of **5 organizations**, providing the operational definition that the case's narrative uses thereafter. The verbatim definition (raw/05 (20220929) lines 105-109):
 
@@ -92,20 +94,21 @@ The 5 organizations:
 
 This atom does **not** assert that the cartel actually operates as such — that is the substantive Layer 1 question. The atom's claim is narrower: that the term `국방정보화카르텔` has an explicit operational definition in 한지훈's primary rebuttal document, naming 5 specific organizations and a specific motive. This anchors the [[../topics/defense-informatization-cartel|Defense Informatization Cartel topic page]] to a primary source.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - 한지훈's 2022-09-25 rebuttal document (raw/05 (20220929) lines 105-109) explicitly names and defines `국방정보화카르텔` (Defense Information Cartel) as a coordinated 5-organization grouping — providing the case's primary-source operational definition of the term [진리성]
 - The 5 named organizations are: (1) 국방부 검찰단, (2) 국방부 정보화조직, (3) 국군방첩사령부 (formerly 안지사), (4) 국방연구원 (KIDA), (5) 기타 국방부 제조직 — verbatim at raw/05 (20220929) lines 105-109 [진리성]
 - The stated motive (raw/05 (20220929) line 67): conceal the root server of the 2016 DIDC hacking incident and destroy evidence of the 15+-year violation of 국방사이버안보훈령 by direct DB access without VPN due to failed Active-X removal [타당성]
 - The narrow form of this atom (definition exists in primary source) is CORROBORATED unconditionally; the substantive form (whether the cartel actually operates as coordinated entity vs rhetorical construct) is NEEDS_MORE_EVIDENCE and is the central Layer 1 substantive question [진리성]
 - The `카르텔` concept appears in all 12 book chapters (raw/01 grep CONFIRMED), making it the central organizing concept of the entire Beyond Cybersecurity narrative [진실성]
 
-## Layer
-
+## 층위 (Layer)
 [[../layers/layer-1|Layer 1]] (primary — DIDC 해킹 근원서버 은폐), [[../layers/layer-3|Layer 3]] (secondary — 국방정보화 카르텔 공모 구조), [[../layers/layer-6|Layer 6]] (secondary — 군 검찰단 prosecution as cartel action). The cartel definition cuts across multiple layers because the alleged motive is Layer 1 (cover up the hacking) but the means span Layers 3 (cartel structure), 4 (KIDA academic justification), and 6 (military prosecutor enforcement of the cover-up).
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **(20220929) verbatim definition** (raw/05 lines 105-109): full quote above
 - **The English version of the same passage** (raw/05 (20220929) lines 90-103): `2016 Defense Integrated Data Center (DIDC) hacking incident by North Korea (hereafter the DIDC hacking incident) and the destruction of that evidence by the Ministry of National Defense's Prosecutor's Office, the Ministry of National Defense's Information Organization, the Military Counterintelligence Command (formerly the Agency for National Security Planning), the Korea Institute for Defense Analyses (KIDA), and other Ministry of National Defense manufacturing organizations (hereafter the Defense Information Cartel)` — bilingual confirmation of the 5-organization definition
 - **The Active-X / VPN-bypass motive** (raw/05 (20220929) line 67): `보안이 취약한 Active-X 미 제거로 인해 15여년 간 보안기술(VPN 등)없이 직접 DB에 접근하여 국방사이버안보훈령 등을 위반한 사실을 은폐` — explicit motive statement
@@ -117,8 +120,7 @@ This atom does **not** assert that the cartel actually operates as such — that
   - 기타 국방부 제조직 → catch-all
 - **The Defense Informatization Cartel topic page exists** ([[../topics/defense-informatization-cartel]]) and uses the term but lacked a primary-source anchor; this atom provides it
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 The 'cartel' framing is a rhetorical construct by the rebuttal author and does not correspond to any actual coordinated organizational entity. Under this hypothesis:
 
 1. The 5 organizations operated independently on the matters at issue
@@ -126,8 +128,7 @@ The 'cartel' framing is a rhetorical construct by the rebuttal author and does n
 3. The term `국방정보화카르텔` is rhetorical, useful for narrative but not corresponding to a real cartel
 4. The 한지훈's allegation of coordinated cover-up is a category error
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 This claim's narrow form (operational definition exists in the rebuttal document) is **CORROBORATED** unconditionally — the verbatim text exists. The substantive form (whether the cartel actually operates as alleged) is **NEEDS_MORE_EVIDENCE** until:
 
 1. **Inter-organizational communication evidence** is produced, showing coordination (or its absence) between the 5 named organizations on KIATIS, the 2016 hacking, or the 한지훈 prosecution. Email chains, meeting minutes, joint reports, or shared personnel would support coordination.
@@ -137,8 +138,7 @@ This claim's narrow form (operational definition exists in the rebuttal document
 
 If items 1 or 2 produce coordination evidence, the substantive form upgrades to CORROBORATED. If items 3 or 4 produce independence evidence, the substantive form downgrades to WEAKENED.
 
-## Verdict
-
+## 평결 (Verdict)
 **NEEDS_MORE_EVIDENCE** for the substantive form. The atom **as written** (definition exists in primary source) is CORROBORATED unconditionally. The Verdict here applies to the substantive question (does the cartel actually exist as a coordinated entity), which is the question the topic page and the case narrative depend on.
 
 진리성 8 (the definition exists; the cartel's existence as such is unverified) / 타당성 7 (the legal/regulatory implications depend on coordination evidence) / 진실성 9 (the victim's perspective on the cartel's existence is the most-supported aspect).
@@ -150,14 +150,12 @@ If items 1 or 2 produce coordination evidence, the substantive form upgrades to 
 - This is **the central organizing concept of the entire book** — every chapter references it
 - Deferred to A.6 Re-verify. The substantive form of this atom (whether the cartel actually operates as coordinated entity vs rhetorical construct) is the question that A.6 must resolve against the book's full treatment.
 
-## Open Questions
-
+## 미결 사항 (Open Questions)
 - **What is the evidence base for inter-organizational coordination among the 5 named entities?** Pending raw/01 detailed compile and external research.
 - **Does the term `국방정보화카르텔` originate with 한지훈 or did it predate the case?** Historical/lexical research target.
 - **Are 국군방첩사령부 and 안보지원사 (formerly 안지사) the same organization at different times?** The (20220929) document suggests so but the institutional history needs verification.
 
-## Related
-
+## 관련 (Related)
 - [[../topics/defense-informatization-cartel|Defense Informatization Cartel topic page]] (ABOUT)
 - [[han-ji-hoon-rebuttal-rejected-by-eight-institutions|sister atom: 8-step rejection chain]] (OPPOSES)
 - [[kida-otne-citation-misrepresents-us-standard|KIDA's role in the cartel]] (OPPOSES)

@@ -45,7 +45,7 @@ tags:
 ---
 # 이준호의 허위 진술 — 자신의 공문이 반박
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.4.6.8 (lines 489-580)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/12-3-6-36-제6층위-군.md §3.6.4.6.8 (lines 489-580)
 **Layer:** [[../layers/layer-6|Layer 6]]
 **Aurora node:**
 ```cypher
@@ -65,7 +65,9 @@ SET fr.layer = 6,
     fr.summary = "Record 1,171에서 이준호 진술 'DB 바로 접근 불가'. Record 6,168에서 이준호 자신의 2019.10.2 요청서가 DB 직접접속 요청. 시험평가 종료(9.11) 3주 후에도 동일 구조 유지 — 진술과 행위의 직접 모순.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 이준호 (공모자-1)의 참고인 진술(기록 제1,171쪽): "실제 기반운영환경에서는 DB에 바로 접근하는 방식으로 운용할 수 없다."
 
@@ -73,36 +75,33 @@ SET fr.layer = 6,
 
 또한 최영수의 진술(기록 제1,239쪽)도 동일한 맥락을 확인한다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - 이준호's testimony "cannot access DB directly in real environment" (Record No. 1,171) is directly contradicted by his own firewall request 3 weeks after evaluation (Record No. 6,168) requesting DB direct access [진리성]
 - This self-contradiction is the strongest form of evidence — the witness's own document refutes his own testimony [진리성]
 - DB direct access continued as standard practice even after the evaluation — the prosecution's entire "test environment ≠ real environment" premise collapses [타당성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **Record No. 1,171, 1,173** — 이준호 참고인 진술
 - **Record No. 6,168** — 이준호의 2019.10.2 방화벽 정책 요청서
 - **Record No. 1,239** — 최영수 진술
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 이준호의 진술은 당위적 진술이며, 10.2 요청서는 임시 조치였다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 2019.10.2 요청이 예외적 임시 조치였음을 보여주는 DIDC 승인 기록.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 10 / 타당성 9 / 진실성 7.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/12-3-6-36-제6층위-군.md` lines 489-580
 
-- `vault-converted-korean/12-3-6-36-제6층위-군.md` lines 489-580
-
-## Related
-
+## 관련 (Related)
 - [[firewall-requests-confirm-no-vpn-db-direct-access]] — L4 방화벽 추가 증거 (OPPOSES)
 - [[prosecution-identity-fallacy-deception-technique]] — L6 동일성 오류 (OPPOSES)
 - [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

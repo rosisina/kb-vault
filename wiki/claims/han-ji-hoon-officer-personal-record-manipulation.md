@@ -58,7 +58,7 @@ tags:
 ---
 # 한지훈의 보직이 국전원 재임 동안 본인 모르게 2회 변경되었다 (장교 개인 자력 조작)
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/08-3-2-32-제2-층위.md (§3.2.3)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/08-3-2-32-제2-층위.md (§3.2.3)
 **Layer:** [[../layers/layer-2|Layer 2]]
 
 **Aurora node:**
@@ -80,7 +80,9 @@ SET fr.layer = 2,
     fr.summary = "한지훈의 본인 모르게 2회 보직 변경 사실은 책 §3.2.3 main thesis로 직접 명시; routine HR counter는 해군 집중 패턴 + 이지영/김수진 동반 이동 패턴과 결합하여 봉쇄됨";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 한지훈의 보직이 국전원 재임 동안 **본인 부지불식간에 2회 변경**되었다. 이는 단순한 인사 조작이 아니라:
 
@@ -91,12 +93,14 @@ SET fr.layer = 2,
 
 **동반 관찰**: 新KIATIS 핵심 실무자가 모두 해군 장교 — 이태호 (평가위원장-1) 해군 중령, 오현수 (실무자-5) 대위, 이준호 (공모자-1) 대위. 이는 의도적 actor 선택의 패턴이며, 단순한 routine HR로는 설명하기 어려운 집중도이다.
 
-## Layer
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 층위 (Layer)
 [[../layers/layer-2|Layer 2]] (with cross-bridge to [[../layers/layer-5|Layer 5]] and [[../layers/layer-6|Layer 6]]) — Layer 2의 두 thesis 축 (① 사업 추진체계 조작, ② 장교 개인 자력 조작) 중 두 번째 축의 토대. 본 atom은 Layer 5 (허위 갑질 신고 후 6개월 격리 — 보직 조작과 격리는 동일 메커니즘) 와 Layer 6 (검찰 기소 시 한지훈의 직책 불일치 — [[layer5-fabricated-warning-letter|경고장 fabricated 직책]] atom이 직접 증명) 의 actor 토대로 작용한다.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **한국어 원본 §3.2.3 verbatim** (line 95):
   > 부지불식간에 본인의 보직이 국전원 재임 동안 2번 이루어졌는데, 이것이 2016년 D IDC 1센터 북한 해킹의 희생자로 타겟팅하고 보직의 이력 조작을 통한 책임 전가의 메커니즘으로 장기간 지속적으로 관리한 중요한 증거이다. (footnote 116: 이에 대한 설명은 "제5 층위: (허위) 갑질 신고 후 독방 생활 강요 및 평판 테러"를 참조 바란다.)
 - **해군 장교 집중 패턴** (한국어 원본 §3.2.3 line 97):
@@ -105,12 +109,10 @@ SET fr.layer = 2,
 - **80건 추가 요구사항** — 이준호 (공모자-1) 의 과장+원장 공모를 통한 팀장 배제 결재 + 시험평가 기간 80건 추가는 한지훈이 군 검찰단 참고인 진술 (기록 제4,776, 4,784쪽)에서 직접 밝힌 사실
 - **본 atom과 [[layer5-fabricated-warning-letter|L5-04 fabricated warning letter]] 간 직접 연결**: L5-04는 한지훈의 actual post (자원정보화과)와 경고장의 non-existent post의 mismatch를 documenting. 본 atom은 그 mismatch가 "본인 모르게" 발생한 패턴의 일부임을 보임. 두 atom 결합으로 보직 조작 → 격리 → 경고장 fabrication 의 단일 전략이 드러남.
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 보직 변경 2회는 routine 인사 절차이며 본인 통보가 행정 누락된 것에 불과하다. 해군 장교 집중도는 단순히 작은 표본 (3명)의 우연한 분포이며 의도적 actor 선택을 보이지 않는다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 본 청구는 다음 일체가 제시되면 약화 또는 무효:
 1. **한지훈의 2회 보직 변경 각각에 대한 사전 통보 인사 명령서** + **본인 확인 서명**
 2. **동일 시기 동일 부서의 다른 장교에 대해서도 동일한 routine 패턴**이 적용된 사례 (2회 변경 + 본인 미통보)
@@ -118,12 +120,10 @@ SET fr.layer = 2,
 
 위 일체가 부재하면 → **CORROBORATED (strong)**.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 (한지훈 직접 진술 + Layer 5 fabricated 경고장이 cross-corroborate하지만 인사 명령서 자체의 직접 확인은 raw/05 추가 ingest 필요), 타당성 9 (인사 절차의 적법성은 군 인사 관리 규정으로 평가), 진실성 10 (피해자 관점에서 본인 모르게 보직이 2회 변경된 것은 가장 직접적인 격리 메커니즘 — 진실성 axis 최대치).
 
-## Open Questions
-
+## 미결 사항 (Open Questions)
 - **2회 보직 변경의 정확한 일자**: 한지훈이 국전원에서 어느 부서에서 어느 부서로, 언제, 누구의 결재로 이동했는가? raw/02 또는 raw/05 추가 ingest 필요.
 - **이태호의 자원정보화과 이동 일자와 한지훈의 자원정보화과 이동(2022-02-28) 간 시간 관계**: 두 사람의 이동이 같은 부서를 향한 패턴인가? Layer 5 격리 office와의 관계는?
 - **80건 추가 요구사항의 정확한 추가 시기 + 결재자**: 이준호 (공모자-1) 의 결재가 누구의 지시로 이루어졌는가? 이지영 (공문결재자-1) + 김수진 (행정담당자-1) 의 single point of control 패턴과 연결되는가?
@@ -132,13 +132,12 @@ SET fr.layer = 2,
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/08-3-2-32-제2-층위.md` lines 95–97 — primary source, §3.2.3 main paragraph
-- `vault-converted-korean/11-3-5-35-제-5층위.md` (Layer 5 chapter) — fabricated 경고장과 격리 패턴
-- `vault-converted-korean/12-3-6-36-제6층위-군.md` (Layer 6 chapter) — 검찰 기소 시 한지훈 직책의 불일치
+- `Korean/08-3-2-32-제2-층위.md` lines 95–97 — primary source, §3.2.3 main paragraph
+- `Korean/11-3-5-35-제-5층위.md` (Layer 5 chapter) — fabricated 경고장과 격리 패턴
+- `Korean/12-3-6-36-제6층위-군.md` (Layer 6 chapter) — 검찰 기소 시 한지훈 직책의 불일치
 - 영문 변환본 (`12-3-2-32-Second-Layer.md`)은 §3.2.3의 main thesis는 보유하지만 역할 anchor identifiers (이태호 평가위원장-1, 오현수 실무자-5, 이준호 공모자-1) 를 모두 누락 — Korean 우선
 
-## Key Takeaways
-
+## 핵심 요약 (Key Takeaways)
 - [진실성] **본인 부지불식간에 2회 보직 변경** = 가장 직접적인 격리 메커니즘. 진실성 axis 10/10. Layer 5 6개월 격리와 동일 메커니즘의 origin.
 - [진리성] **3명 핵심 실무자 모두 해군 장교** + 이태호의 사전 보직 이동 setup + 이준호의 80건 추가 요구사항 결재 패턴 = 의도적 actor 선택의 다층 증거. routine HR로는 설명 불가.
 - [타당성] **L5-04 fabricated warning letter atom과 직접 연결** — 본 atom의 보직 조작 패턴이 L5-04의 경고장 직책 mismatch를 사후적이 아닌 사전 setup의 결과로 변환. 두 atom 결합으로 Layer 2 → Layer 5 → Layer 6 의 연속된 격리 전략이 드러남.
@@ -146,8 +145,7 @@ SET fr.layer = 2,
 - [진실성] **80건 추가 요구사항** — 이준호 (공모자-1) 의 과장+원장 공모, 팀장 배제 결재 = Layer 4 시험평가 조작의 atomic action. 본 atom은 그 actor의 origin context를 제공.
 - [타당성] **Layer 2 sub-thesis split** 결정 필요 — 2a (사업 추진체계) / 2b (장교 자력 조작) 분리 여부는 본 atom의 promotion 시 결정.
 
-## Related
-
+## 관련 (Related)
 - [[../layers/layer-2|Layer 2 hub]] (PART_OF_LAYER)
 - [[../layers/layer-5|Layer 5 — 격리와 fabricated 경고장]] (PART_OF_LAYER)
 - [[../layers/layer-6|Layer 6 — 검찰 기소 시 직책 불일치]] (PART_OF_LAYER)

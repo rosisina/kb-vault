@@ -71,7 +71,9 @@ SET fr.layer = 5,
     fr.summary = "갑질 조사 당일 수첩 30개 Q&A: 신고 동기='교육 보복' + 경고장 허위 보직명 포착 + '욕설·성관련 없었다'(갑질 사유 부재) + 17:30석식='과장 보고 후+코로나+야근' ★복무규정 위반이라고 함.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 한지훈이 2022년 3월 25일(금) 13:30~18:00 국방부 감사관실 갑질 조사를 받으면서 **수첩에 실시간 기록한 30개 질의응답 및 결과 요약**.
 
@@ -117,41 +119,39 @@ SET fr.layer = 5,
 
 → 과장에게 보고하고, 코로나 감염 회피를 위해 30분 일찍 식사 후 **바로 복귀하여 21~22시까지 야근**한 행위를 "복무규정 위반"이라고 판정한 것에 대한 한지훈의 **즉각적 반발** 기록
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - [진리성] **갑질 신고의 실제 동기 = "교육 보복"** — 박서준이 3월 교육을 못 간 것에 대한 보복으로 신고. 이지영·김민수의 조직적 기획과 박서준의 개인적 불만이 **결합**된 구조. / Real motive = education retaliation — 박서준 filed complaint because she couldn't attend March training.
 - [진리성] **"참고인들 전부는 팀장이 욕설이나 성관련 일은 없었다"** — 조사관이 조사 **시작 시점**부터 전형적 갑질 사유 부재를 인정. 이승우의 "전혀 없는데" 자인과 **정확히 일치**. / Investigator confirmed absence of typical harassment grounds at the very start of investigation.
 - [진리성] **경고장에 "없는 보직명"** 사용 — "국방전산정보원 행정정보화**계획**팀장"은 존재하지 않는 보직. 한지훈이 즉시 포착하여 수기 메모로 기록. / Warning letter used a non-existent position title — immediately caught by Han Ji-hoon.
 - [진실성] **"★ 이게 복무규정 위반이라고 합니다"** — 평균 6시 출근~21~22시 퇴근하는 32년 군인이 코로나 회피를 위해 30분 일찍 식사한 것을 "위반"으로 판정 = **문자 그대로의 부당함**에 대한 즉각적 기록. / Judging a 30-minute early dinner (with boss approval + COVID avoidance + continued overtime until 10pm) as a "regulation violation" — documented absurdity.
 - [진리성] **수첩 기록 = 동시대 증거(contemporaneous record)** — 조사 당일 실시간으로 기록된 것이므로 사후 재구성이 아닌 **1차 증거**로서의 증거력이 극대화. / Notebook record made during investigation = contemporaneous evidence with maximum evidentiary weight.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **수첩 기록 원본** (raw/10/[20220325] 갑질 신고 조사시 질문내용 수첩기록, 결과요약.pdf, 2 pages)
 - Cross-reference: [[layer5-audit-result-falsity-and-collusion-proof|이승우 "전혀 없는데" — 조사관 첫 발언과 일치]]
 - Cross-reference: [[layer5-fabricated-warning-letter|허위 경고장 — 존재하지 않는 보직명 추가 증거]]
 - Cross-reference: [[layer5-park-seojun-nominal-complainant|박서준 명목상 신고자 — 실제 동기가 "교육 보복"]]
 - Cross-reference: [[layer5-kakaotalk-silence-proves-normal-attendance|카톡 출퇴근 기록 — 17:30 석식과 정합]]
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 수첩 기록은 한지훈의 주관적 메모이며 조사관의 실제 질문·답변과 다를 수 있다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 감사관실의 공식 조사 기록(녹취 또는 조서)이 수첩 기록과 상이한 내용을 담고 있는 경우.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 8 / 진실성 10.
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/11-3-5-35-제-5층위.md` — §3.5 갑질 조사 전체
+- `Korean/11-3-5-35-제-5층위.md` — §3.5 갑질 조사 전체
 - Deferred to A.6 Re-verify.
 
-## Related
-
+## 관련 (Related)
 - [[layer5-audit-result-falsity-and-collusion-proof|조사 결과 허위성 6가지]] (OPPOSES)
 - [[layer5-fabricated-warning-letter|허위 경고장]] (OPPOSES)
 - [[layer5-park-seojun-nominal-complainant|박서준 명목상 신고자]] (RELATED)

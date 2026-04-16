@@ -61,39 +61,38 @@ SET fr.layer = 7,
     fr.summary = "L5→L6→L7 결론선행 3단계 체인. 동일 패턴의 3회 반복 = 설계된 거부 파이프라인.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 Layer 5의 43일 결론선행(감사결론→조사), Layer 6의 무혐의 인지 후 수사 계속, Layer 7의 8개 기관 일괄 거부는 단일 패턴의 3단계 반복: 결론이 증거에 선행하고, 모순이 발견되어도 결론이 변경되지 않으며, 외부 시정 메커니즘도 동일 패턴을 답습. 3개 독립 층위에서 동일 패턴 반복 = 설계된 거부 파이프라인.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - Same predetermined-conclusion pattern repeats across L5 (audit), L6 (prosecution), L7 (institutional rejection) [진리성]
 - Three-layer repetition proves design, not coincidence — a rejection pipeline [타당성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **Record No. 3,965**
 - **Record No. 11,188**
 - **Record No. 5,679**
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 각 층위의 결과는 독립적으로 결정되었으며 패턴 유사성은 우연
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 각 층위에서 결론에 선행하는 독립적 증거 수집이 이루어졌음을 보여주는 기록
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** STRONG. 진리성 9 / 타당성 9 / 진실성 10.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/layer5-predetermined-audit-conclusion.md + prosecution-knew-innocence-continued-case.md + han-ji-hoon-rebuttal-rejected-by-eight-institutions.md` lines cross-reference
 
-- `vault-converted-korean/layer5-predetermined-audit-conclusion.md + prosecution-knew-innocence-continued-case.md + han-ji-hoon-rebuttal-rejected-by-eight-institutions.md` lines cross-reference
-
-## Related
-
+## 관련 (Related)
 - [[layer5-predetermined-audit-conclusion]] (CAUSES)
 - [[prosecution-knew-innocence-continued-case]] (CAUSES)
 - [[han-ji-hoon-rebuttal-rejected-by-eight-institutions]] (OPPOSES)

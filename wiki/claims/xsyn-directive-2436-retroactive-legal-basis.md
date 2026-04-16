@@ -64,39 +64,38 @@ SET fr.layer = 4,
     fr.summary = "3소스 삼각확인: 행위(2019.9) 후 도입된 법(2020.6)을 검찰이 소급 인용. 시간적 불가능.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 검찰 불기소이유서(raw/05)는 제58조 ¶4를 인용하여 DT/OT 통합의 정당성을 주장하나, 이 '통합 원칙'은 제2436호(2020.6.4)에서야 도입. KIATIS 시험평가는 2019.9.2~11 실시. 검찰이 인용한 법적 근거가 행위 시점에 존재하지 않았다. 훈령 이력(raw/04), 검찰 문서(raw/05), 책 분석(raw/01 §3.4.7.3)의 세 소스가 동일한 시간적 모순을 삼각 확인.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - Prosecution cited a legal basis (제2436호 integration principle) that did not exist at the time of the alleged crime (2019.9) — temporal impossibility [타당성]
 - Three sources triangulate: directive history, prosecution document, book analysis [진리성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **Record No. 1,253**
 - **Record No. 7,512**
 - **Record No. 8,194**
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 검찰은 불기소이유서 작성 시점(2022)의 현행법을 적용한 것이며, 행위시법 적용은 별개 법적 쟁점이다
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 검찰이 행위시법(2019 시점 제2129호/제2263호)을 분석하고도 동일 결론에 도달하였음을 보여주는 법적 검토 기록
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** STRONG. 진리성 10 / 타당성 10 / 진실성 8.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/국방 정보화업무 훈령(국방부훈령)(제2436호)(20200604).converted.md` lines 1677-1691
 
-- `vault-converted-korean/국방 정보화업무 훈령(국방부훈령)(제2436호)(20200604).converted.md` lines 1677-1691
-
-## Related
-
+## 관련 (Related)
 - [[article-58-separation-to-integration-2020-directive-manipulation|2 shared records — 제58조 분리→통합 역전]] (RELATED)
 - [[2436ho-cluster-six-anchors]] (CAUSES)
 - [[2436ho-test-evaluation-principle-inverted]] (RELATED)

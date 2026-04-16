@@ -64,37 +64,36 @@ SET fr.layer = 6,
     fr.summary = "14개 사업 중 VPN 측정 0건. KIATIS에만 VPN 의무 부과 = 전례 없는 차별적 적용.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 한지훈은 피의자신문에서 '2019에 수행한 14개 사업에 대해 DIDC에서 관리하는 VPN 등 보안장비의 성능을 측정한 것은 없는 것으로 알고 있습니다'라고 진술. 14개 사업 중 VPN 성능 측정을 실시한 사업이 0건이라는 것은, 검찰이 KIATIS 사업에만 VPN 관련 의무를 부과한 것이 제도적 전례 없는 차별적 적용(selective application)임을 입증한다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - Zero of 14 DCIA projects in 2019 measured VPN performance — prosecution's expectation for KIATIS was institutionally unprecedented [진리성]
 - Selective application: same standard not applied to any other project = targeting, not compliance enforcement [타당성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - *(regulation-text claim — Record No. exempt per CLAUDE.md)*
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 다른 13개 사업은 KIATIS와 다른 유형이어서 VPN 측정이 불필요했다
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 14개 사업 중 하나라도 VPN 성능 측정을 실시한 기록, 또는 KIATIS만 VPN 측정이 필요한 특수 사유가 존재함을 보여주는 규정
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** STRONG. 진리성 9 / 타당성 9 / 진실성 7.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/(2022902) Record of interrogation of a suspect (2 September 2022(English, Korean).converted.md` lines 1-2154
 
-- `vault-converted-korean/(2022902) Record of interrogation of a suspect (2 September 2022(English, Korean).converted.md` lines 1-2154
-
-## Related
-
+## 관련 (Related)
 - [[firewall-port-opening-standard-it-procedure]] (RELATED)
 - [[prosecution-selective-criminalization-firewall-approval-chain]] (CAUSES)
 - [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

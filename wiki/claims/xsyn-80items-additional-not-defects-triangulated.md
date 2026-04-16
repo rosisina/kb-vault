@@ -63,37 +63,36 @@ SET fr.layer = 4,
     fr.summary = "녹취+책+영장 3소스 삼각확인: 80건=추가요구사항≠하자.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 녹취록(raw/02)에서 한지훈은 '추가요구사항이에요 미흡사항이 아니고'라고 실시간 구분. 책(raw/01 §3.6.5.3.1)은 80건을 전력화 지연 수단으로 분석. 영장(raw/05)은 '개발상 하자를 은폐'로 규정. 3개 독립 소스(녹취, 책, 영장)가 동일 사안에 대해 삼각 확인: 80건=추가요구≠하자.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - Three independent sources triangulate: recording (추가요구사항), book (delay mechanism), warrant (하자) — the recording proves the real-time terminology was '추가요구' not '하자' [진리성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **Record No. 5,950**
 - **Record No. 3,987**
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 80건 중 상당수가 시험평가 전 이미 존재한 결함이었을 수 있다
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 80건 목록에서 50% 이상이 2019-09 평가 전부터 존재한 버그임을 보여주는 기록
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** STRONG. 진리성 9 / 타당성 8 / 진실성 8.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/(Korean) individual_recording_logs_beyond_cybersecurity.md` lines 287-311
 
-- `vault-converted-korean/(Korean) individual_recording_logs_beyond_cybersecurity.md` lines 287-311
-
-## Related
-
+## 관련 (Related)
 - [[80-items-violate-national-contract-law]] (RELATED)
 - [[cartel-requirement-inflation-80-items-delay]] (CAUSES)
 - [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

@@ -75,7 +75,9 @@ SET fr.layer = 6,
     fr.summary = "'완전 개심하네'(외부인 즉각 반응) + 'VPN은 평가대상 아냐'(기술 확인) + '고지를 안해가지고 속였다'(혐의 구조의 비전문성) — 국전원 상주 3년+ 외부 민간인의 즉각적 부당성 인식.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 유지보수업체 과장 양준승은 국전원에 **3년 이상 상주**하면서 행정정보화과의 일상을 직접 목격한 **외부 민간인**이다. 녹취 285(2025.7.16, 약 2시간 17분)에서 한지훈이 6개 혐의를 설명하자 양준승의 즉각적 반응:
 
@@ -95,37 +97,35 @@ SET fr.layer = 6,
 > "그 때 바로 그때 되셨을 때부터 **사람들이 다 그랬고**... 박서준한테 뭐라고 했더니 **사람들이 다 있는 데서 저에게 뭐라고 하더라고.**"
 > **(한지훈)** "사람들이 **의도적으로 그런다** 이거지"
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - [진리성] **"완전 개심하네"** — 국전원 상주 3년+ 외부 민간인이 6개 혐의를 듣자마자 즉각적으로 **부당함을 인식**. / An external civilian with 3+ years at DCIA immediately recognizes the absurdity.
 - [타당성] **"VPN은 평가대상도 아냐. 그건 우리 군 거지"** — VPN은 DIDC 보안 정책이지 시험평가 항목이 아님. / VPN was never an evaluation item.
 - [진실성] 양준승이 목격한 **조직적 모빙**: "사람들이 다 있는 데서 저에게 뭐라고 하더라고" — 외부 업체 직원 앞에서까지 공개적 괴롭힘. / Organizational mobbing witnessed by external contractor.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **녹취 285** (2025.7.16, line 16512~16750)
 - Cross-reference: [[yang-junseung-fabricated-9point-complaint-witness|자매 atom]]
 - Cross-reference: [[prosecution-six-charges-collapse-vpn-nonexistence|6개 혐의 VPN 붕괴]]
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 양준승은 한지훈과의 업무 친분으로 편향된 반응이다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 양준승이 혐의가 합리적이라고 판단한 기록.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 8 / 진실성 9.
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/12-3-6-36-제6층위-군.md` — 혐의 구조 분석
+- `Korean/12-3-6-36-제6층위-군.md` — 혐의 구조 분석
 - Deferred to A.6 Re-verify.
 
-## Related
-
+## 관련 (Related)
 - [[yang-junseung-fabricated-9point-complaint-witness|자매 atom]] (OPPOSES)
 - [[prosecution-six-charges-collapse-vpn-nonexistence|6개 혐의 붕괴]] (RELATED)
 - [[interrogation-zero-of-14-projects-measured-vpn|14개 중 VPN 측정 0건]] (RELATED)

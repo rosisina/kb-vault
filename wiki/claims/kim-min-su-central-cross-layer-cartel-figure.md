@@ -53,7 +53,7 @@ tags:
 ---
 # 김민수의 교차층위 카르텔 핵심 역할 — 2016 해킹 당시→국전원장→책임전가 주도
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.7.4 (lines 723-777)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/10-3-4-34-제4-층위.md §3.4.7.4 (lines 723-777)
 **Layer:** [[../layers/layer-4|Layer 4]] (primary), [[../layers/layer-5|Layer 5]] (secondary)
 **Aurora node:**
 ```cypher
@@ -73,7 +73,9 @@ SET fr.layer = 4,
     fr.summary = "김민수의 경력궤적: 국방부 정보화기획실(2016 해킹 시) → 국전원 개발관리팀장(2015-2017, 박성호와) → 국전원장. Records 6,748/6,760/6,755에서 확인. 정리11로 사전 공모 입증. '내가 어떻게 아니'는 직접 관여 사실과 모순.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 김민수 (핵심 의사결정자-1)는 국방정보화카르텔의 교차층위 핵심 인물이다:
 
@@ -85,37 +87,34 @@ SET fr.layer = 4,
 
 또한 "원에서 도와줄 수 없고 네가 책임져라"(정리11의 발언3)로 조직적 지원을 차단하여 한지훈을 고립시켰다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - 김민수 served in MND's informatization planning office during the 2016 DIDC hacking — making his claim of ignorance ("how would I know") directly contradicted by his career record [진리성]
 - His "team leader must take responsibility" statement (정리11) was premeditated through collusion — not a spontaneous management decision [진리성]
 - His simultaneous denial of knowledge and assignment of blame constitute a logical contradiction [진리성]
 - Refusing organizational support while the individual was under criminal investigation constitutes institutional abandonment [진실성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **Record No. 6,748, 6,760, 6,755** — 김민수 경력 기록
 - **Record No. 1,573** — 관련 인사 기록
 - **Record No. 11,055~11,056** — 김민수와의 대화 기록
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 김민수의 경력 이동은 정상적 인사 배치이며, 책임 배분 발언은 관리자의 일반적 판단이다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 김민수가 2016 DIDC 해킹 및 舊KIATIS 관련 업무에 관여하지 않았음을 보여주는 인사 기록.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 9 / 진실성 9.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/10-3-4-34-제4-층위.md` lines 723-777
 
-- `vault-converted-korean/10-3-4-34-제4-층위.md` lines 723-777
-
-## Related
-
+## 관련 (Related)
 - [[gukjeonwon-pre-evaluation-team-leader-exclusion]] — L4 팀장 배제 (CORROBORATES)
 - [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)
 - [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

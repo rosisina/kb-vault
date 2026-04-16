@@ -73,7 +73,9 @@ SET fr.layer = 4,
     fr.summary = "'데이터 안 줘서'(국유단 책임) + '3~4배 견적'(80건 비용초과) + 'OTP 1장'(물리적 제약) + '둘 다 했어요'(DIDC+내부 양쪽 시험) — 개발PM의 책임 귀속 명확화.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 개발업체 PM 장호재가 녹취 237(2022.9.17)에서 KIATIS 사업의 핵심 쟁점 4가지에 대한 책임 귀속을 명확히 증언:
 
@@ -97,38 +99,36 @@ SET fr.layer = 4,
 > **(장호재, line 15042~15045):**
 > "**둘 다 했어요. DIDC에 놓고도 하고 저희 내부서버로도 하고.** 그니까 그게 클라이언트 프로그램이다 보니까 그때 그때 수정해서 보여줘야 하니까"
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - [진리성] **데이터 미이관 = "국유단이 안 줘서"** — 감리 결과에서 지적된 데이터 미이관 문제의 **직접 원인**이 국유단의 데이터 미제공임을 개발PM이 명확히 증언. 한지훈 또는 개발업체의 책임이 아님. / Data migration failure directly caused by 국유단 not providing data — not Han Ji-hoon's or developer's fault.
 - [진리성] **OTP 카드 "1장"** — 장우진의 "6~10개"보다 **더 심각한 수치**. 개발PM의 기억에 의하면 DB 이관 작업에 사용 가능한 OTP가 **1장**에 불과 = VPN 적용이 물리적으로 **더욱 불가능**했음. / Developer PM recalls only 1 OTP card — even worse than 장우진's "6-10" estimate.
 - [타당성] **비용 3~4배 초과** — 80건 추가 요구로 인해 개발업체가 "적자를 포기하고 피해만 안 가게" 수준 = [[80-items-violate-national-contract-law]] atom의 **개발업체 측 교차 확인**. / Developer confirms 300-400% cost overrun from 80 additional requirements.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **녹취 237** (2022.9.17, line 14990~15089)
 - Cross-reference: [[jang-hojae-developer-pm-didc-opened-port-not-han-ji-hoon|자매 atom]]
 - Cross-reference: [[jang-hojae-data-migration-not-in-rfp-evaluation-independence|자매 atom — RFP 밖]]
 - Cross-reference: [[80-items-violate-national-contract-law|80건 국가계약법 위반]]
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 데이터 이관 지연은 개발업체의 기술적 준비 부족이나 한지훈의 관리 실패이다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 국유단이 데이터를 적시에 제공한 공문 또는 전달 기록.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 9 / 진실성 8.
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/10-3-4-34-제4-층위.md` — 감리 결과 데이터 이관 관련
+- `Korean/10-3-4-34-제4-층위.md` — 감리 결과 데이터 이관 관련
 - Deferred to A.6 Re-verify.
 
-## Related
-
+## 관련 (Related)
 - [[jang-hojae-developer-pm-didc-opened-port-not-han-ji-hoon|자매 atom]] (CORROBORATES)
 - [[jang-hojae-data-migration-not-in-rfp-evaluation-independence|자매 atom]] (RELATED)
 - [[80-items-violate-national-contract-law|80건 국가계약법 위반]] (RELATED)

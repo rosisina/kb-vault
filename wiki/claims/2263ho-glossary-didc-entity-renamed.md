@@ -61,37 +61,36 @@ SET fr.layer = 1,
     fr.summary = "별표1 기관명 세탁: 해킹 당시 명칭 제거. 제10조 삭제보다 15개월 선행. 본서 L1-L7 전반에서 DIDC 은폐를 다층 논의하며, 2020-08-20 공문 수신처에서 DIDC 배제(기록 제4,763, §3.4.7.3.3)가 의도적 기관 말소를 직접 입증.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 제2129호 별표1의 '국방통합정보관리소'가 제2263호에서 '국방통합데이터센터'로 교체. 2016 해킹 당시 기관명을 훈령 용어 정의에서 말소하여 해킹-기관 연결고리를 단절. 제10조 DIDC 앵커 제거(제2436호)보다 15개월 앞선 선행 조치.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - Glossary-level DIDC rename precedes Article 10 anchor deletion by 15 months — two-phase identity laundering [타당성]
 - Any audit referencing '국방통합정보관리소' finds no match after 제2263호 [진리성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - *(regulation-text claim — Record No. exempt per CLAUDE.md)*
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 실제 조직 명칭 변경을 반영한 정상적 업데이트
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 국방통합정보관리소→국방통합데이터센터의 공식 직제 개편 명령
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** MODERATE. 진리성 8 / 타당성 9 / 진실성 7. 본서 다층 DIDC 은폐 논의 + 2020-08-20 공문 수신처 DIDC 배제(기록 제4,763)로 의도적 기관명 말소 입증.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/(국방 정보화 업무 훈령) 용어정의 변천사(2018~2025년).converted.md` lines 1-985
 
-- `vault-converted-korean/(국방 정보화 업무 훈령) 용어정의 변천사(2018~2025년).converted.md` lines 1-985
-
-## Related
-
+## 관련 (Related)
 - [[2436ho-didc-naming-anchor-removed]] (SUPERSEDES)
 - [[2263ho-cyber-routing-rewrite]] (SUPERSEDES)
 - [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)

@@ -67,7 +67,9 @@ SET fr.layer = 6,
     fr.summary = "군검찰단장 2중 자인: '아직 모르겠다'(사건 미파악) + '해라 마라 할 수 없다'(처분 책임 회피). 최고 지휘관의 방기가 표적수사 방치의 구조적 조건.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 군검찰단장(준장) 안세준이 한지훈과의 직접 통화(녹취 174, 2022.9.29~10.6)에서 2가지 핵심 자인을 하였다:
 
@@ -76,36 +78,33 @@ SET fr.layer = 6,
 
 이 2중 자인은 군검찰단장이 사건에 대한 실질적 감독을 수행하지 않았음을 보여준다. 수사팀의 표적수사가 최고 지휘관의 방기(放棄) 속에서 진행된 것이다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - Chief Military Prosecutor (준장) admits "I don't yet know what this is about" AFTER the investigation was launched and the subject interrogated for 3 hours [진리성]
 - Chief Prosecutor claims "I can't tell them what to do" — denying authority over case disposition despite being the highest prosecutorial authority [타당성]
 - Structural oversight failure: the targeted prosecution proceeded under the chief's wilful ignorance [진리성]
 - When combined with 검사 임형규's predetermined conclusion and 수사관 진상호's admissions, this completes a 3-level prosecutorial chain of failure (단장→검사→수사관) [진리성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - 녹취 174 (2022.9.29~10.6, 00:06:38) — raw/02 `[007-1]` 안세준 section
 - 3-level prosecutorial chain: 안세준(단장, 방기) → [[lim-hyungkyu-admits-eval-environment-problems-still-charged|임형규(검사, 기정결론)]] → [[jin-sangho-investigator-vpn-admission-missing-documentation|진상호(수사관, 문서 누락)]]
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 군검찰단장은 개별 사건의 세부 내용에 직접 관여하지 않는 것이 정상적 검찰 지휘 체계이다. 수사팀에 판단을 위임한 것은 수사 독립성 보장을 위한 적절한 조치이다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 군검찰단장이 사건 실체를 파악하고 있었으나 녹취에서 의도적으로 전략적 발언을 한 것이며, 내부적으로는 적극적 감독을 수행했음을 보여주는 기록 (예: 수사 지시서, 검찰단장 결재 문서, 내부 회의록).
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** STRONG. 진리성 9 / 타당성 8 / 진실성 9. 군검찰단장의 직접 녹음. 검사·수사관의 독립 녹취와 수렴하여 3단계 검찰 체계 전체의 부실을 구성.
 
-## Spot-check
-
+## 원전 확인 (Spot-check)
 - raw/02 `[007-1]` 안세준 녹취 174 (2022.9.29~10.6)
 
-## Related
-
+## 관련 (Related)
 - [[lim-hyungkyu-admits-eval-environment-problems-still-charged|임형규 검사 3중 자인]] (CORROBORATES)
 - [[jin-sangho-investigator-vpn-admission-missing-documentation|진상호 수사관 3중 자인]] (CORROBORATES)
 - [[cross-layer-predetermined-conclusion-L5-L6-L7|기정결론 cross-layer atom]] (CORROBORATES)

@@ -60,36 +60,35 @@ SET fr.layer = 1,
     fr.summary = "KIATIS=사이버자산. 제3장 전체 보호 의무 적용의 법적 기반.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 舊KIATIS는 전력지원체계에 해당하는 국방정보시스템으로서 제3조 제7호의 '사이버자산' 정의를 충족한다. 따라서 이 훈령의 사이버보안 업무(제4조 제3항) 전체 — 보호대책(제22-26조), 취약점 평가(제39-45조), 전력지원체계 수명주기 보호(제32-36조) — 가 KIATIS에 적용된다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - KIATIS fits the cyber asset definition — all Chapter 3 protection obligations attach [타당성]
 - Once classified as cyber asset, vulnerability assessment, protection plans, and lifecycle security all apply [타당성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - *(regulation-text claim — Record No. exempt per CLAUDE.md)*
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 KIATIS의 중요도가 '현저히 떨어져' 제외 대상이다
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 KIATIS가 사이버자산 지정에서 제외된 공식 분류 기록
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** STRONG. 진리성 9 / 타당성 10 / 진실성 3.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/cyber security reguration.md` lines 110-111
 
-- `vault-converted-korean/cyber security reguration.md` lines 110-111
-
-## Related
-
+## 관련 (Related)
 - [[old-kiatis-apt-optimal-vulnerability-structure]] (RELATED)
 - [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)

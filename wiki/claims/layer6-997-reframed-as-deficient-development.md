@@ -46,7 +46,7 @@ tags:
 ---
 # 99.73점 성공작의 '부실개발' 재프레이밍 — 사기수사의 핵심 서사 조작
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.3.3.5 (lines 245-290)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/12-3-6-36-제6층위-군.md §3.6.3.3.5 (lines 245-290)
 **Layer:** [[../layers/layer-6|Layer 6]]
 **Aurora node:**
 ```cypher
@@ -66,7 +66,9 @@ SET fr.layer = 6,
     fr.summary = "99.73점은 18인 평가위원회의 공식 판정. 불기소 이유서 자체에서도 '기능 대부분 충족'을 인정(10페이지). 80건 추가 요구는 사후 부과. 전력화 지연은 DIDC의 VPN OTP 미제공 + 국유단의 데이터 미이관이 원인.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 군검찰단은 99.73점 '군사용 적합' 판정을 받은 新KIATIS를 '부실개발'로 재프레이밍하였다. 이 재프레이밍은 세 겹의 서사 조작으로 구성된다:
 
@@ -76,35 +78,32 @@ SET fr.layer = 6,
 
 불기소 이유서 자체에서도 "KIATIS는 개발·운용시험평가에서 99.73점을 받은 바 있어 제안요구서에서 요구한 기능들을 대부분 충족하는 것으로 보이고"(10페이지)라고 인정하여, 자기 모순이 발생한다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - The prosecution reframed a 99.73-point success as "deficient development" through triple narrative manipulation [진리성]
 - 80 additional requirements were post-evaluation impositions, not original contract requirements [타당성]
 - Deployment delay was caused by DIDC (VPN OTP withholding) and 국유단 (data non-migration), not development quality [진리성]
 - The non-prosecution report itself acknowledges "most functions were met" — contradicting its own "deficient development" narrative [진리성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **§3.6.3.3.5 전체** — 부실개발 재프레이밍 분석
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 99.73점은 하자있는 시험환경에서의 왜곡된 점수이며 실제 품질과 다르다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 시험평가 환경 하자가 점수에 영향을 미쳤음을 보여주는 기술적 분석.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 9 / 진실성 9.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/12-3-6-36-제6층위-군.md` lines 245-290
 
-- `vault-converted-korean/12-3-6-36-제6층위-군.md` lines 245-290
-
-## Related
-
+## 관련 (Related)
 - [[prosecution-non-prosecution-self-contradiction]] — L6 불기소 모순 (RELATED)
 - [[80-items-violate-national-contract-law]] — L4 80건 국가계약법 위반 (RELATED)
 - [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

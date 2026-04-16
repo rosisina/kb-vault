@@ -65,38 +65,37 @@ SET fr.layer = 6,
     fr.summary = "불기소결정서가 환경 미준수를 인정하면서 한지훈에게만 일방적으로 적용. 체계적 원인 미조사.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 불기소결정서 IV.1.카.(2)에서 'KIATIS 시험평가는 SSL-VPN을 적용하여 실제 조성된 기반운영 환경에서 실시되었어야 함에도 불구하고 이를 준수하지 않은 채 실시된 사실이 인정된다'고 명시. 그러나 이 인정을 한지훈에 대한 기소유예에만 사용하고, VPN 미적용 환경을 만든 주체(舊KIATIS 15년 운영자, RFP에 VPN을 '해당없음'으로 기재한 자, 사업통제기관 역할을 회피한 국방부)는 수사하지 않았다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - Non-prosecution ADMITTED the regulatory violation but weaponized it exclusively against 한지훈 [진리성]
 - WHO created the VPN-less environment (15-year operators, RFP drafters, MND) was never investigated [타당성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **Record No. 1,253**
 - **Record No. 1,392**
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 검찰의 수사 범위는 특정 혐의에 한정되며 시스템적 원인 조사는 별도 사안이다
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 검찰이 VPN 미적용 환경의 체계적 원인을 분석하고 수사 범위 제한 사유를 공식 기록한 문서
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** STRONG. 진리성 9 / 타당성 9 / 진실성 9.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/(20221014) Fraudulent Proof of Notification of the Reason for Non-Prosecution(English, Korean).converted.md` lines 1-509
 
-- `vault-converted-korean/(20221014) Fraudulent Proof of Notification of the Reason for Non-Prosecution(English, Korean).converted.md` lines 1-509
-
-## Related
-
+## 관련 (Related)
 - [[prosecution-identity-fallacy-deception-technique]] (CORROBORATES)
 - [[victim-blaming-structural-to-individual]] (RELATED)
 - [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

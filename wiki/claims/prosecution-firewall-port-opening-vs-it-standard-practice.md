@@ -51,7 +51,7 @@ tags:
 ---
 # IT 상식과의 괴리 — 군검찰이 전 세계 IT 표준 실무인 방화벽 포트 개방을 범죄로 규정
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md (§3.6.4.11.6, lines 690–693)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/12-3-6-36-제6층위-군.md (§3.6.4.11.6, lines 690–693)
 **Layer:** [[../layers/layer-6|Layer 6]] (primary), [[../layers/layer-5|Layer 5]] (secondary — Record No. 4,338 falls in L5 range)
 **Aurora node:**
 ```cypher
@@ -72,7 +72,9 @@ SET fr.layer = 6,
     fr.summary = "The prosecution criminalized a standard IT practice (firewall port opening in test environments) while demonstrating technical ignorance in its own investigation documents. Prosecutor 임형규 admitted the issue was not technical but narrative-based.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 군검찰은 시험평가 환경에서의 방화벽 포트 개방을 "위계에 의한 공무집행방해"로 규정했으나, 방화벽 포트 개방은 **전 세계 IT 업계의 표준 실무**이다. 개발 및 시험 환경에서 필요한 포트를 개방하여 테스트하고 운영 단계에서 보안을 강화하는 것은 Microsoft, Amazon, Google 등 모든 IT 기업이 사용하는 표준 방법이다. 2019년부터 2022년까지 국전원 단톡방에서도, 장애 발생 시 처리에서도 동일한 방식으로 수행되었다.
 
@@ -80,16 +82,18 @@ SET fr.layer = 6,
 
 검사 임형규는 스스로 "기술적으로 완성도가 얼마나 되느냐 잘했냐 못했냐 이게 쟁점이 아니라"라고 발언하며, 쟁점이 기술적 문제가 아니라 3년 후에 카르텔이 조작한 내용으로 "방화벽 포트가 개방"이 문제가 있다는 논리를 받아들인 것임을 자인했다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - Firewall port opening in development/test environments is universal IT standard practice (Microsoft, Amazon, Google, all enterprises) — the prosecution criminalized a routine technical operation [진리성].
 - The prosecution's own investigation documents (참고인 진술서, 피의자 신문조서, lawyer 최동욱's questions from Record No. 4,338ff and Record No. 4,542ff) demonstrate misunderstanding of firewall, VPN, and DB access concepts [진리성].
 - Prosecutor 임형규 admitted on record that the issue was "not technical" — effectively acknowledging the charge was based on the cartel's post-hoc narrative, not on technical analysis [진리성][진실성].
 - 한지훈, a 32-year IT professional, was subjected to gaslighting: forced to question whether his entire career's professional practices were wrong [진실성].
 - The prosecution applied DIDC 예규 interpretations that contradict the regulations' own purpose and standard IT practice [타당성].
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - Record No. 4,338 (L5) — 참고인 진술서·피의자 신문조서 시작 (변호사 최동욱 제공 질문지)
 - Record No. 4,542 (L5) — 추가 질문지 시작
 - §3.6.4.11.6 (제6층위 본문, lines 690–693) — IT 상식과의 괴리 분석
@@ -97,38 +101,32 @@ SET fr.layer = 6,
 - 2019–2022 국전원 단톡방 — 동일한 방화벽 포트 개방 실무가 지속적으로 수행됨
 - 행정정보화과 2019년 방화벽 포트 개방 문건 수십 건 존재
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 1. **Process vs. substance:** The prosecution's charge was not about the port opening itself being technically wrong, but about the manner of requesting it — specifically, that the request form or justification contained deceptive elements (위계). Under this hypothesis, IT industry practice is irrelevant because the charge targets the process of authorization, not the technical action.
 2. **DIDC-specific security context:** Military networks have heightened security requirements that make civilian IT practices inapplicable. The DIDC 예규 establishes a stricter standard than commercial IT environments, and the prosecution's interpretation of 예규 was within the range of reasonable legal construction.
 3. **Prosecutor's statement recontextualized:** 임형규's "not technical" statement may have meant that the legal charge transcends technical correctness — i.e., even a technically sound action can constitute 위계 if the authorization was obtained deceptively.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 This claim is CORROBORATED unless:
 1. A technical expert report commissioned or reviewed by the prosecution is produced showing that the specific port-opening action deviated from standard IT practice in a materially significant way (not just that it violated a bureaucratic form requirement).
 2. An authoritative analysis demonstrating that DIDC 예규 prohibits port opening in test environments — as distinct from operational environments — is produced.
 3. The prosecution's investigation file contains documented technical expert consultation that informed the charge, countering the claim of technical ignorance.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 8 / 진실성 10. The gap between global IT standard practice and the prosecution's position is objectively verifiable. The investigation documents (Record No. 4,338ff) serve as direct evidence of technical misunderstanding. Prosecutor 임형규's own statement undermines the technical basis of the charge. 진실성 is maximum because this pattern weaponized professional gaslighting against a 32-year IT expert.
 
-## Spot-check
-
-- `vault-converted-korean/12-3-6-36-제6층위-군.md` lines 690–693 — CONFIRMED: §3.6.4.11.6 IT 상식과의 괴리
+## 원전 확인 (Spot-check)
+- `Korean/12-3-6-36-제6층위-군.md` lines 690–693 — CONFIRMED: §3.6.4.11.6 IT 상식과의 괴리
 - Record No. 4,338 / Record No. 4,542 references verified in source text
 - Prosecutor 임형규 statement verified in footnote 560
 - Deferred to A.6 Re-verify.
 
-## Open Questions
-
+## 미결 사항 (Open Questions)
 - Can the specific questions from Record No. 4,338 and Record No. 4,542 be extracted and catalogued as individual evidence of technical misunderstanding?
 - Did the prosecution consult any independent IT security expert during the investigation? If not, the absence itself is evidence.
 - Are the 2019–2022 단톡방 messages about port opening preserved in raw/03? If so, they would corroborate that the practice was routine and organizational, not individual.
 
-## Related
-
+## 관련 (Related)
 - [[prosecution-selective-criminalization-firewall-approval-chain|L6 atom: selective targeting in approval chain]] (CAUSES)
 - [[prosecution-misapplies-2129-article-58-4-to-kiatis|L6 atom: 제58조 ¶4 misapplication]] (OPPOSES)
 - [[prosecution-distorts-operational-vs-test-environment|L6 atom: operational vs test environment distortion]] (OPPOSES)

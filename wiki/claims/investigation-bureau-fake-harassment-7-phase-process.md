@@ -62,7 +62,7 @@ tags:
 ---
 # 조사본부의 허위 갑질 조사는 7단계 사기수사 프로세스를 따랐다
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md (§3.5.2.3.2)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/11-3-5-35-제-5층위.md (§3.5.2.3.2)
 **Layer:** [[../layers/layer-5|Layer 5]] (primary), [[../layers/layer-6|Layer 6]] (secondary — Phase 7 transitions to 군 검찰 표적수사)
 
 **Aurora node:**
@@ -79,7 +79,9 @@ SET fr.layer = 5, fr.claimType = "methodology",
     fr.summary = "조사본부의 갑질 조사가 7단계 사기수사 프로세스(pretext→isolation→fabrication→coordination→failure→suppression→transition)를 따랐음을 시간순 증거로 증명";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 조사본부의 허위 갑질 조사는 7단계 프로세스를 따랐다 (§3.5.2.3.2):
 
@@ -91,33 +93,31 @@ SET fr.layer = 5, fr.claimType = "methodology",
 - **Phase 6 — 증거 은폐 (evidence suppression):** 경고장 발부되었으나 박서준 사안 누락, 한지훈의 인권침해 무시, 출퇴근 조작 실패 은폐.
 - **Phase 7 — 다음 층위 전환 (transition to Layer 6):** 갑질 조작 실패 → 군 검찰 표적수사로 전환. 국방부 직무감찰담당관실의 "감사 결과 처분요구서 통보" 생산(2022-04-22, 기록 제4,063쪽) → 국방부 검찰단의 "군인·공무원 범죄 수사개시 통보"(2022-04-25, 기록 제4,854쪽).
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - [진리성] The investigation bureau's fake harassment probe followed a 7-phase fraud investigation process: pretext creation (Feb 8–10) → target isolation (Feb 10–21) → false evidence fabrication → coordinated testimony → cover-up failure → evidence suppression → transition to Layer 6 military prosecution. / 조사본부의 허위 갑질 조사는 7단계 사기수사 프로세스를 따랐으며, 2022-02-08부터 2022-04-25까지 시간순으로 전개되었다.
 - [진실성] The 48-hour gap between the 舊KIATIS security violation exposure (Feb 8) and the harassment complaint (Feb 10) indicates the complaint was a pretext to deflect from the security breach, not a genuine grievance. / 보안위반 노출(2.8)과 갑질 신고(2.10) 사이 48시간 간격은 신고가 보안사고 은폐를 위한 구실이었음을 시사한다.
 - [타당성] Phase 7's seamless transition — 감사 결과 처분요구서 (Apr 22, Fri) → 수사개시 통보 (Apr 25, Mon) — demonstrates pre-coordinated timing between the inspection bureau and military prosecutors. / Phase 7의 금요일-월요일 연결(4.22→4.25)은 감찰부서와 검찰단 간 사전 조율된 시간표를 증명한다.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **기록 제4,063쪽** — 국방부 직무감찰담당관실 "감사 결과 처분요구서 통보" (2022-04-22)
 - **기록 제4,854쪽** — 국방부 검찰단 "군인·공무원 범죄 수사개시 통보" (2022-04-25), 국전원장에게만 통보
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 1. **대안적 해석:** 7단계는 한지훈의 사후적 패턴 부여이며, 실제로는 각 단계가 독립적인 행정 절차의 자연스러운 순차적 진행이었다.
 2. **반박 조건:** 각 단계 사이의 시간적 간격이 일반적인 행정 처리 기간과 일치하고, 단계 간 동일 인물(김민수, 이지영)의 반복적 개입이 없었음을 증명하면 반박 가능.
 3. **반대 입장:** 국방부 측은 갑질 신고가 정당한 절차에 따른 것이며, 수사 개시는 감사 결과에 따른 자연스러운 후속 조치였다고 주장할 것이다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 7단계 중 어느 하나라도 시간적 선후관계 또는 인과관계가 성립하지 않음을 증명하거나, Phase 1의 48시간 간격에 합리적 설명이 존재함을 증명하거나, Phase 7의 금-월 연결이 통상적 행정 소요 기간임을 통계적으로 증명하면 약화된다.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED** — 7단계 각각이 기록 번호로 뒷받침되며, 단계 간 시간적 연속성과 동일 인물의 반복적 개입(김민수, 이지영)이 우연의 일치로 설명하기 어려운 수준의 패턴을 형성한다. 특히 Phase 7의 금요일-월요일 연결(감사 처분요구→수사개시)은 사전 조율 없이는 불가능한 시간표이다.
 
-## Open Questions
-
+## 미결 사항 (Open Questions)
 - Phase 3에서 김수진, 양미숙, 김민지, 지원호의 구체적 역할 분담에 대한 개별 기록 번호 확인 필요.
 - Phase 5의 "업체 직원 2명"의 신원 및 해당 확인서의 기록 번호 확인 필요.
 
@@ -127,8 +127,7 @@ SET fr.layer = 5, fr.claimType = "methodology",
 - 기록 제4,063쪽 — "감사 결과 처분요구서 통보(2022년 4월 22일(금))" 원문 확인.
 - 기록 제4,854쪽 — "군인·공무원 범죄 수사개시 통보(2022년 4월 25일(월))" 원문 확인.
 
-## Related
-
+## 관련 (Related)
 - [[../layers/layer-5|Layer 5 — 허위 갑질 신고와 조사본부의 조작 감사]] (PART_OF_LAYER)
 - [[../layers/layer-6|Layer 6 — 군 검찰단의 사기 수사와 범죄자 낙인]] (PART_OF_LAYER)
 - [[../entities/people/lee-ji-young|이지영]] (ABOUT)

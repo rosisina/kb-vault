@@ -65,38 +65,37 @@ SET fr.layer = 6,
     fr.summary = "결정 검사 영장 후 부임+단장 결재 구조 = 구조적 예정. 녹취+영장+책 3소스 삼각확인.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 군검사 임형규는 녹취(raw/02)에서 '저는 8월 인사이동해서 인수인계 받아서 하는 입장'이라고 진술. 영장(raw/05)은 2022.7.18 이미 발부. 불기소 결정(2022.10.7)의 결정 검사가 영장 발부 당시 사건에 관여하지 않았다. '단장님한테 다 결재를 받습니다'와 결합하면 실질적 결정권은 군검찰단장에게 있고 담당 검사는 인수인계된 결론을 집행하는 구조.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - Deciding prosecutor arrived AFTER the warrant was issued — did not investigate the case he decided [진리성]
 - 'Everything needs the chief's approval' reveals actual decision authority is the prosecution chief [진리성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **Record No. 11,202**
 - **Record No. 4,854**
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 인사이동은 일상적이며 후임 검사의 독립적 기록 검토가 자율적 결정을 보장한다
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 임형규가 전임 검사와 다른 독립적 증인 조사나 증거 검토를 수행한 기록
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** STRONG. 진리성 9 / 타당성 8 / 진실성 9.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/(Korean) individual_recording_logs_beyond_cybersecurity.md` lines 6078-6088
 
-- `vault-converted-korean/(Korean) individual_recording_logs_beyond_cybersecurity.md` lines 6078-6088
-
-## Related
-
+## 관련 (Related)
 - [[prosecution-knew-innocence-continued-case]] (RELATED)
 - [[prosecution-chief-evades-innocence-plea]] (CAUSES)
 - [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

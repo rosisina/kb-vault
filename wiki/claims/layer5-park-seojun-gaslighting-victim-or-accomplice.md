@@ -52,7 +52,7 @@ tags:
 ---
 # 박서준의 발화는 자발적 신고가 아니라 조종된 발화(coached speech)임을 시사한다
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md (§3.5.3.1.3)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/11-3-5-35-제-5층위.md (§3.5.3.1.3)
 **Layer:** [[../layers/layer-5|Layer 5]] (primary), [[../layers/layer-7|Layer 7]] (secondary — 기록 제11,342 및 제3,889는 L7/L5 범위)
 
 **Aurora node:**
@@ -73,7 +73,9 @@ SET fr.layer = 5,
     fr.summary = "박서준의 2월 8일 정상적 기술 발화(기록 제11,342쪽)에서 2월 10일 이후 '살고 싶습니다' '명예전역 안됩니다' 공포/협박 발화로의 극적 전환은 48시간 내 외부 조종의 증거이다. 4가지 독립 증거(전날 김민수 면담, 공포 표출, 협력→돌변, 자발적 신고 의사 부재)가 조종된 발화를 뒷받침한다.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 박서준의 발화는 2022년 2월 8일 KIATIS 토의를 전후로 극적으로 변화했다. 이 변화는 박서준이 자발적 신고자가 아니라 조종된 도구(coached instrument)였음을 시사한다.
 
@@ -87,8 +89,11 @@ SET fr.layer = 5,
 
 또한 박서준은 갑질 면담에서 엉뚱하게도 감리 중간결과보고서를 한지훈에게 보여주며 `"팀장님, 이거 잘못되지 않았습니까?"`를 연발했다. 한지훈은 박서준의 이상 행동에 대해 국군방첩사령부 담당관 곽민철에게 면담을 요청했고, 그 결과는 `"이상하다"`였다(기록 제3,889쪽부터 제3,944쪽; 기록 제3,952쪽부터 제4,054쪽).
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - [진리성] 박서준의 발화가 2월 8일 정상 협력(기록 제11,342쪽)에서 2월 10일 공포/협박으로 극적 전환된 사실은 48시간 내 외부 조종의 정황 증거이다.
   - 박서준's dramatic speech-pattern shift from normal technical cooperation (2022-02-08) to fear/threat expression (2022-02-10) is circumstantial evidence of external coaching within the 48-hour window.
 - [진리성] 전날 저녁 김민수-박서준 면담 직후 `"명예전역도 안됩니다"` 발화는 김민수가 박서준을 통해 한지훈에게 위협을 전달한 구조를 시사한다.
@@ -98,33 +103,28 @@ SET fr.layer = 5,
 - [진리성] 국군방첩사령부 곽민철 담당관의 면담 결과 `"이상하다"`는 박서준의 행동이 외부에서도 비정상으로 인식되었음을 보여준다.
   - The counterintelligence counselor 곽민철's assessment of `"이상하다"` ("strange") confirms 박서준's behavior was recognized as abnormal even by external observers.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **기록 제3,889쪽~제3,944쪽** — 박서준 대위(진)의 예상 주장과 입증요지 (2022.2.25.)
 - **기록 제3,952쪽~제4,054쪽** — 한지훈의 진술 및 소명서 (2022.4.4.) — 박서준과의 상호작용 상세
 - **기록 제11,342쪽** — 2022-02-08 KIATIS 토의에서 박서준의 정상적 기술 발화 기록
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 **(a) 대안적 해석:** 박서준은 실제로 한지훈으로부터 장기간 갑질을 당해 왔으며, 2월 8일 토의에서 전문적으로 행동한 것은 직장 내 생존 전략이었다. `"살고 싶습니다"`는 갑질 피해의 진정한 호소이며, 2월 10일 신고는 마지막 인내의 한계를 넘은 자발적 결정이었다.
 
 **(b) 반박 조건:** 박서준이 2022-02-08 이전에 갑질 불만을 표명한 기록(일기, 메시지, 상담 기록, 동료 증언 등)이 확인되거나, 박서준 자신이 구체적 갑질 사례를 근거로 자발적 신고였음을 증언하는 경우 약화. 김민수와의 전날 면담 내용이 신고와 무관한 일반 업무 상담이었다는 증거가 제시되는 경우에도 재평가.
 
 **(c) 방어 가능한 반대 입장:** 갑질 피해자가 가해자 앞에서 정상적으로 행동하는 것은 직장 내 권력 역학에서 흔한 현상이며, 표면적 협력이 내면의 불만 부재를 의미하지 않는다. 다만, 경고장에 박서준의 주장이 단 하나도 반영되지 않은 사실과 결합하면, 자발적 신고 해석은 상당히 약화된다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 박서준이 2022-02-08 이전에 갑질 관련 불만을 구체적으로 표명한 독립적 기록(일기, 메시지, 상담, 동료 증언 등)이 확인되면 자발적 신고 가설이 강화되고 조종된 발화 가설이 약화. 또한 김민수-박서준 전날 면담의 내용이 녹취 등으로 확인되어 신고와 무관했다는 것이 증명되면 약화.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED (strong)**
 - 진리성 (Truthfulness): **9/10** — 발화 변화의 시계열 증거가 명확하고, 방첩사 면담 결과가 교차 검증
 - 타당성 (Validity): **7/10** — 화행 분석은 해석적이나 정황 증거와 결합 시 법적 추론 가능
 - 진실성 (Sincerity): **10/10** — 한지훈의 `"충격을 받고"` 반응과 박서준의 `"살고 싶습니다"` 호소가 피해 경험의 생생한 기록
 
-## Open Questions
-
+## 미결 사항 (Open Questions)
 - 박서준의 신고 이후 육군본부 이동 및 `"보상"`에 대한 구체적 기록 확인 필요.
 - 곽민철 담당관의 면담 결과 `"이상하다"`의 구체적 내용 확인 필요.
 - 박서준이 감리 중간결과보고서를 한지훈에게 보여준 행위와 군검찰단의 수사 개시 문서 `"위의 나 항에 따라"`의 관계 — 제6층위에서 상세 해명 예정.
@@ -136,8 +136,7 @@ SET fr.layer = 5,
 - §3.5.1.5 (lines 66–68): 허위 갑질 신고의 조직적 공모 구조 (3단계 중 제3단계로서 박서준)
 - §3.5.2.1.1 (lines 111–117): 경고장에서 박서준 주장 완전 배제
 
-## Related
-
+## 관련 (Related)
 - [[layer5-park-seojun-nominal-complainant]] — 박서준 명목상 신고자 atom (본 atom은 발화 분석으로 같은 결론에 도달) (CORROBORATES)
 - [[layer5-48hr-retaliation-causal-link]] — 48시간 보복 atom (박서준의 발화 변화가 48시간 창 내 발생) (RELATED)
 - [[layer5-predetermined-audit-conclusion]] — 사전 결론 결정 atom (김민수의 사전 결론이 박서준을 도구로 사용하는 프레임워크) (RELATED)

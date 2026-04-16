@@ -73,7 +73,9 @@ SET fr.layer = 6,
     fr.summary = "안보지원사 담당관에게 보고: '원장님이 가짜 환경을 만들어서 속였다고 했다' + '내가 사이버안보훈령을 만들었다' + '방 바깥에 있었던 사람이야' — 혐의 구조의 부당성을 보안 감독기관에 공식 보고.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 안보지원사령부 국전원 담당 사무관 곽민철에게 한지훈이 2022.8.2 통화에서 보고한 핵심 내용:
 
@@ -92,35 +94,33 @@ SET fr.layer = 6,
 > **(한지훈→곽민철, 녹취 200 line 11722~11726):**
 > "**고지를 해야 할 사람은 고지를 안 했고**, 당연히 고지를 안 했으니까 그 고지를 받아야 할 사람은 못 들었어... **나는 누구야. 그 방안에 있었던 사람이 아니고 방 바깥에 있었던 사람이야**"
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - [진리성] 한지훈이 **안보지원사령부**(국전원 보안 감독기관)에 혐의의 부당성을 **공식 보고**한 기록 — Layer 7 진정 체인의 일부. / Han Ji-hoon officially reported the charge's illegitimacy to the security oversight agency.
 - [진리성] **"내가 사이버안보훈령을 만들었다"** — 한지훈이 2013년 사이버안보훈령 제정에 기여한 사실 = 이 훈령 위반으로 기소된 것의 **역설적 부당성**. / The person who helped CREATE the directive is charged with violating it.
 - [진실성] **"방 바깥에 있었던 사람"** — 사업관리팀장은 시험평가 실행에 참여하지 않는 역할 = [[han-ji-hoon-prosecution-violates-2129-role-separation]] 역할분리 방어의 **일상어 표현**. / "I was outside the room" — plain-language expression of the role-separation defense.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **녹취 200** (2022.8.2, raw/02 line 11660+) — 곽민철과의 통화
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 한지훈이 편향된 자기 방어 서사를 전달한 것이다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 곽민철이 보고를 검증하고 혐의가 정당하다고 판단한 기록.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Moderate. 진리성 8 / 타당성 8 / 진실성 9.
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/12-3-6-36-제6층위-군.md` — 혐의 구조 분석
+- `Korean/12-3-6-36-제6층위-군.md` — 혐의 구조 분석
 - Deferred to A.6 Re-verify.
 
-## Related
-
+## 관련 (Related)
 - [[han-ji-hoon-prosecution-violates-2129-role-separation|역할분리 위반]] (RELATED)
 - [[prosecution-distorts-operational-vs-test-environment|환경 왜곡]] (RELATED)
 - [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

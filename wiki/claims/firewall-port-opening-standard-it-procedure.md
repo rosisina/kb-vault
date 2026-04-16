@@ -47,7 +47,7 @@ tags:
 ---
 # 방화벽 포트 개방은 표준 IT 절차 — 불법 접근이 아님
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.3.3.1 (lines 151-198)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/12-3-6-36-제6층위-군.md §3.6.3.3.1 (lines 151-198)
 **Layer:** [[../layers/layer-6|Layer 6]]
 **Aurora node:**
 ```cypher
@@ -67,7 +67,9 @@ SET fr.layer = 6,
     fr.summary = "그림 4-3(Record 6,128~6,138)에서 행정정보화과의 수십 건 방화벽 요청 확인. DIDC 부대예규 제12호 제37조의 '원격 접속' 규정은 민간↔국방망 간을 대상으로 하며, 국방망 내부(국전원↔DIDC)에는 적용되지 않음(Record 8,435). 국제 IT 표준에서 방화벽 정책 요청은 표준 네트워크 관리 절차.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 군검찰단이 "불법적 방화벽 개방 → 불법적 DB 접속"으로 기소한 행위는 실제로는 국전원↔DIDC 1센터 간의 표준 방화벽 정책 적용 요청 절차이다.
 
@@ -78,35 +80,32 @@ SET fr.layer = 6,
 
 군검찰단은 수십 건의 동일 유형 공문 중 한지훈이 결재에 포함된 **단 1건**만을 범죄 근거로 사용하였다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - Firewall port opening between 국전원 and DIDC is standard IT network management — dozens of identical requests processed in the same department in 2019H1 [진리성]
 - DIDC regulation Article 37's VPN requirement applies to external→internal access (internet→국방망), NOT internal-to-internal communication [타당성]
 - The prosecution used ONLY 1 out of dozens of identical firewall requests as criminal evidence — textbook selective prosecution [진리성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **Record No. 6,128~6,138** — 행정정보화과 방화벽 정책 요청 현황
 - **Record No. 8,435** — DIDC 부대예규 제12호 제37조
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 시험평가용 방화벽 개방에는 별도의 보안 심의가 필요하며, DIDC 부대예규 미준수가 위법이다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 시험평가용 방화벽 개방에 별도 보안 심의가 필요하다는 DIDC 규정.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 9 / 진실성 8.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/12-3-6-36-제6층위-군.md` lines 151-198
 
-- `vault-converted-korean/12-3-6-36-제6층위-군.md` lines 151-198
-
-## Related
-
+## 관련 (Related)
 - [[prosecution-firewall-port-opening-vs-it-standard-practice]] — L6 기존 관련 atom (OPPOSES)
 - [[prosecution-selective-criminalization-firewall-approval-chain]] — L6 선별적 범죄화 (CAUSES)
 - [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

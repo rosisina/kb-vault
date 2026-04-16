@@ -78,7 +78,9 @@ SET fr.layer = 7,
     fr.summary = "The 8-step rejection chain is the operational definition of Layer 7's `진정서 제출·수사 촉구 후 기소유예` thesis: every institutional check failed in sequence, from the original prosecution to civilian human rights bodies. James's pre-authorization confirmed the chain.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 한지훈 authored an evidence-based rebuttal document on 2022-09-25 (composition date per book §3.7.1.1; the file at `raw/05/Bilingual(English, Korean)/(20220929) Explanation and Proof Search, Seizure, and Verification Warrants Search(English, Korean).pdf` uses `(20220929)` as filename metadata only — the interior has no printed date per raw/05 interior read 2026-04-11) refuting the MND Military Prosecutor's Office's 압수수색 영장, 압수수색 실행, and 피의자 조사. The document is **not a prosecutor work product** — it is **한지훈's own evidence-based rebuttal**, refuting the targeted/fraudulent investigation point by point with primary evidence drawn from directives, official documents, and operational records.
 
@@ -98,20 +100,21 @@ After the 군 검찰단 issued the 기소유예 stigma decision on 2022-10-07 (p
 
 **ALL EIGHT institutions rejected or refused to act on the rebuttal.** This is the empirical core of Layer 7's `진정서 제출·수사 촉구 후 기소유예` thesis — institutional accountability mechanisms failed at every level, from the internal MND chain (steps 1–6) to the civilian human rights bodies (steps 7–8).
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - 한지훈 authored an evidence-based rebuttal document on 2022-09-25 refuting the Military Prosecutor's Office's 압수수색 영장 + 실행 + 피의자 조사; the document is 한지훈's own work product, not a prosecutor artifact (raw/05 `(20220929)` filename is metadata only — the interior carries no printed date) [진리성]
 - The rebuttal was submitted to 8 institutions in sequence: 국방장관 → 군사보좌관 → 군검찰단장 → 담당 검사 → 담당 수사관 → 군검찰단 인권담당 → 국가인권위원회 → 국가권익위원회 (James 2026-04-11 contextual confirmation) [진리성]
 - ALL EIGHT institutions rejected or refused to act on the rebuttal, exhausting all four functional categories of Korean institutional accountability (military internal, military political oversight, civilian human rights, civilian anti-corruption) [진실성]
 - The document itself records that the prosecution had already internally recognized 한지훈's lack of criminal liability (raw/05 (20220929) lines 163-167) yet failed to terminate the investigation — demonstrating institutional failure on the merits, not procedural disagreement [타당성]
 - The 8-step rejection chain is the operational definition of Layer 7's `진정서 제출·수사 촉구 후 기소유예` thesis and constitutes the empirical core of the institutional-failure claim [진실성]
 
-## Layer
-
+## 층위 (Layer)
 [[../layers/layer-7|Layer 7]] — 진정서 제출·수사 촉구 후 기소유예 (primary). The 8-step rejection chain is the operational definition of this layer's thesis. [[../layers/layer-6|Layer 6]] (secondary) — the rejection by steps 3–6 are continuations of the Layer 6 prosecution narrative, but the addition of steps 7–8 (civilian bodies) extends the failure into Layer 7.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **The (20220929) document itself** as primary evidence of 한지훈's rebuttal effort:
   - Title: "압수, 수색, 검증 영장에 대한 해명과 증명" (Explanation and Proof of Warrants for Seizure, Search, and Verification)
   - Author: 한지훈 (자칭 본인) — explicitly self-identified as Army Lieutenant Colonel and the suspect
@@ -123,14 +126,12 @@ After the 군 검찰단 issued the 기소유예 stigma decision on 2022-10-07 (p
 - **The document was followed by the 2022-10-07 기소유예** (raw/05 (20221014) 불기소이유서) — temporal sequence confirms the rebuttal preceded the disposition
 - **James 2026-04-11 contextual confirmation of the 8-step distribution chain and the all-rejected outcome** (memory: project_20220929_rebuttal_document.md)
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 Some of the 8 institutions performed substantive review and rejected the rebuttal on the merits, in which case the rejection is not a Layer 7 institutional failure but a normal adversarial outcome where one party's argument was considered and not accepted. Under this hypothesis, the 8-step sequence is evidence of due process functioning correctly, not evidence of institutional capture or refusal.
 
 **Alternative counter-hypothesis:** The 국가인권위원회 and 국가권익위원회 rejections were on jurisdictional grounds (e.g., the agencies determined the matter was outside their statutory authority) rather than on merits. Under this hypothesis, the rejection is procedurally compliant and not a Layer 7 failure.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 This claim is **CORROBORATED** unless one of the following is produced:
 
 1. **Any of the 8 institutions' written rejection rationale** showing substantive engagement with the rebuttal's specific evidence and legal arguments. The rationale must address (a) the 6 charges' factual basis, (b) the directive misapplication argument (per [[prosecution-misapplies-2129-article-58-4-to-kiatis]]), or (c) the role-separation argument (per [[han-ji-hoon-prosecution-violates-2129-role-separation]]). Boilerplate procedural rejections do not count.
@@ -139,28 +140,25 @@ This claim is **CORROBORATED** unless one of the following is produced:
 
 If item 1 is produced for any institution, that specific rejection is downgraded to "engaged substantively". If item 2 is produced, the verdict downgrades to NEEDS_MORE_EVIDENCE pending impact analysis. If item 3 is produced for the civilian bodies, the Layer 7 narrative still includes steps 1–6 as the institutional failure core.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 8 / **진실성 10** (peak — the rejection chain is the victim's own articulated experience and is verified by James's contextual confirmation). The strength of this atom is in the **structural exhaustion** of the institutional check options: the Korean institutional accountability ecosystem includes military internal review (군검찰단), military political oversight (국방장관), civilian human rights review (국가인권위원회), and civilian anti-corruption review (국가권익위원회). All four functional categories were exercised and rejected.
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/03-executive-summary--핵심-요약.md` — Executive summary (CONFIRMED 인권위/권익위 mention)
-- `vault-converted-korean/09-3-3-33-제3-층위.md` — Layer 3 chapter (CONFIRMED)
-- `vault-converted-korean/10-3-4-34-제4-층위.md` — Layer 4 chapter (CONFIRMED)
-- `vault-converted-korean/12-3-6-36-제6층위-군.md` — Layer 6 chapter (rejection by military prosecution; CONFIRMED)
-- `vault-converted-korean/13-3-7-37-제7층위-진정서.md` — Layer 7 chapter (primary, the petition narrative and rejection chain; CONFIRMED)
-- `vault-converted-korean/15-5-5-결론-및.md` — Conclusion (CONFIRMED institutional failure summary)
+- `Korean/03-executive-summary--핵심-요약.md` — Executive summary (CONFIRMED 인권위/권익위 mention)
+- `Korean/09-3-3-33-제3-층위.md` — Layer 3 chapter (CONFIRMED)
+- `Korean/10-3-4-34-제4-층위.md` — Layer 4 chapter (CONFIRMED)
+- `Korean/12-3-6-36-제6층위-군.md` — Layer 6 chapter (rejection by military prosecution; CONFIRMED)
+- `Korean/13-3-7-37-제7층위-진정서.md` — Layer 7 chapter (primary, the petition narrative and rejection chain; CONFIRMED)
+- `Korean/15-5-5-결론-및.md` — Conclusion (CONFIRMED institutional failure summary)
 - Deferred to A.6 Re-verify. **Six-chapter coverage** including executive summary and conclusion — this is one of the book's central narrative threads.
 
-## Open Questions
-
+## 미결 사항 (Open Questions)
 - **What were the specific rejection rationales from each of the 8 institutions?** Pending raw/05 (20220929) detailed compile and any preserved correspondence with 인권위 / 권익위.
 - **Did any institution propose any partial relief (e.g., re-investigation, supervisor involvement, mediation)?** Or were all rejections complete refusals?
 - **Are there records of 한지훈's submission dates and the institutions' response dates?** Building a temporal map of the rejection chain would strengthen the atom's procedural specificity.
 
-## Related
-
+## 관련 (Related)
 - [[han-ji-hoon|한지훈 entity hub]] (OPPOSES)
 - [[han-ji-hoon-prosecution-violates-2129-role-separation|Layer 6: prosecution role-tier misattribution]] (OPPOSES)
 - [[han-ji-hoon-kiso-yuye-is-criminal-stigma|Layer 6: 기소유예 criminal stigma]] (OPPOSES)

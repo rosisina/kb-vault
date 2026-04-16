@@ -63,36 +63,35 @@ SET fr.layer = 1,
     fr.summary = "3소스 삼각확인: SOP 의무+이행 부재+상위 근거 = 침묵=은폐의 절차적 증명.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 DIDC 예규 제12호(raw/06) 제17-24조는 침해사고 시 비상대응팀 구성→보고→탐지대응→보고(별지4호)→대책→복구→종결의 8단계 의무 절차를 규정. 예규는 2016-02-01 시행. 책(raw/01 §3.1)은 이 기록들이 일절 존재하지 않음을 문서화. 훈령(raw/04) 제2129호 제9조 ¶2가 상위 규정 근거. 법적 의무(raw/06) + 이행 부재(raw/01) + 상위 근거(raw/04) = 침묵 자체가 은폐의 절차적 증명.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - Three source types triangulate: SOP duty (raw/06) + documented absence (raw/01) + governing directive (raw/04) — silence IS the evidence [진리성, 타당성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **Record No. 1-810**
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 2016 대응 기록이 기밀 처리되어 책 저자에게 공개되지 않았을 수 있다
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 DIDC의 2016 해킹 침해대응 기록(비상대응팀·별지4호·복구보고서)의 제출
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** STRONG. 진리성 9 / 타당성 10 / 진실성 8.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/01.(Korean) DIDC_사이버방호_예규.md` lines 341-493
 
-- `vault-converted-korean/01.(Korean) DIDC_사이버방호_예규.md` lines 341-493
-
-## Related
-
+## 관련 (Related)
 - [[didc-sops-cover-2016-hacking-period]] (RELATED)
 - [[didc-sop-incident-report-mandatory]] (RELATED)
 - [[didc-sop-12-incident-scene-preservation-mandatory]] (RELATED)

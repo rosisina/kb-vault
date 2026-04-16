@@ -48,7 +48,7 @@ tags:
 ---
 # 병사 휴대전화 보안통제 아키텍처 아이디어 절도 및 특허출원 모의
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/09-3-3-33-제3-층위.md §3.3.3.2 (lines 44-61)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/09-3-3-33-제3-층위.md §3.3.3.2 (lines 44-61)
 **Layer:** [[../layers/layer-3|Layer 3]]
 **Aurora node:**
 ```cypher
@@ -68,7 +68,9 @@ SET fr.layer = 3,
     fr.summary = "상급자 인정(Record 11,077 최영수 '예예 이해하고 있죠') + 수사관 인정(Record 11,176 진상호 '훌륭하신 분이라고') + 원본 설계서(Record 2,359~2,360) + 예산·업체 기록(Record 2,374/2,377/2,396/2,399, 마크애니) — 5개 독립 증거원 수렴. 사업결과물 직접 대조 미완이나 상급자·수사관 양측 인정이 이를 상쇄.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 한지훈은 2013년 육군본부 근무 시부터 해킹 대응 모바일 서비스 연구를 수행하여 4개의 논문을 발표하였으며(기록 제2,418쪽, 기록 제12,066쪽, 기록 제6,683쪽 등), 이 연구 결과를 바탕으로 「병 휴대전화 보안 통제 체계를 위한 부대별 아키텍처 초안」(2019.3.6., ver 1.6, 기록 제2,359쪽~제2,360쪽)을 작성하여 과장에게 보고하였다.
 
@@ -76,15 +78,17 @@ SET fr.layer = 3,
 
 과장 최영수는 대화에서 이를 인정: "(병사) 휴대폰 체계 내가 디자인한 거예요?" — "(최영수) 예예 이해하고 있죠" (기록 제11,077쪽). 군검찰 수사관 진상호도 "저희도 많이 들었습니다. 훌륭하신 분이라고" 진술(기록 제11,176쪽).
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - 한지훈's mobile security architecture (Record No. 2,359~2,360) was based on years of research including 4 published papers, one cited by US War College and NATO-affiliated institutions [진리성]
 - 과장 최영수 acknowledged 한지훈's design authorship in recorded conversation (Record No. 11,077) [진리성]
 - The architecture was used for a 25.9 billion KRW government project with 마크애니 — without attribution to the original designer [진실성]
 - 과장 and 팀장 discussed patenting the design without 한지훈's knowledge [진실성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **Record No. 2,359~2,360** — 병 휴대전화 보안 통제 체계 아키텍처 초안 (2019.3.6.)
 - **Record No. 2,374, 2,377, 2,396, 2,399** — 1차 사업 예산 25.9억원
 - **Record No. 2,364** — 마크애니 업체 관련
@@ -92,23 +96,18 @@ SET fr.layer = 3,
 - **Record No. 11,077** — 최영수 대화 (디자인 인정)
 - **Record No. 11,176** — 군검찰 수사관 진상호 대화
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 병사 휴대전화 보안체계 사업은 국방부 병영문화력인팀 주관으로 별도 기획된 것이며, 한지훈의 아키텍처 초안은 참고자료 수준이었다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 국방부 사업 기술설계서와 한지훈의 아키텍처 초안을 대조하여 독립적 설계임을 확인.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** STRONG. 진리성 9 / 타당성 7 / 진실성 9. 상급자 인정(Record 11,077) + 수사관 인정(Record 11,176) + 원본 설계서 + 예산·업체 기록 — 5개 독립 증거원 수렴. 사업결과물 직접 대조 미완이나 상급자·수사관 양측 인정으로 상쇄.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/09-3-3-33-제3-층위.md` lines 44-61
 
-- `vault-converted-korean/09-3-3-33-제3-층위.md` lines 44-61
-
-## Related
-
+## 관련 (Related)
 - [[kiatis-project-deliberately-transferred-to-han-ji-hoon]] — L3 업무 떠넘기기 (RELATED)
 - [[../layers/layer-3|Layer 3]] (PART_OF_LAYER)

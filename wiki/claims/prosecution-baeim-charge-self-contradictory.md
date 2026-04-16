@@ -43,7 +43,7 @@ tags:
 ---
 # 업무상 배임 혐의의 자기모순 — 99.73점 인정하면서 손해 주장
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.4.8 (lines 612-642)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/12-3-6-36-제6층위-군.md §3.6.4.8 (lines 612-642)
 **Layer:** [[../layers/layer-6|Layer 6]]
 **Aurora node:**
 ```cypher
@@ -63,7 +63,9 @@ SET fr.layer = 6,
     fr.summary = "Record 714/717에서 준공금 지급 확인. Record 394에서 99.73점 확인. Record 1,150에서 금전관계 부재 확인. Record 704에서 장호재(개발PM) 진술. 배임 혐의를 제기하면서 스스로 증거 불충분을 인정한 모순.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 군검찰단의 업무상배임 혐의는 내적 모순으로 인해 자기 붕괴한다:
 
@@ -76,38 +78,35 @@ SET fr.layer = 6,
 
 배임 혐의의 실질적 기능: 기소유예 처분의 정당성을 보강하기 위한 보조 수단 — "6개 혐의 중 1개는 기소유예, 5개는 혐의없음"이라는 구조를 만들어 범죄자 낙인의 효과를 극대화.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - 배임 charge claims 170M won damages while acknowledging 99.73-point success and no financial relationship with developers — logically irreconcilable [진리성]
 - The charge was ultimately dropped as "insufficient evidence" — a tacit admission it was groundless from the start [타당성]
 - The charge's real function was to create a multi-count structure maximizing criminal stigma of the 기소유예 [진실성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **Record No. 714, 717** — 준공금 지급
 - **Record No. 394** — 99.73점 평가결과
 - **Record No. 1,150** — 압수수색 금전관계 부재
 - **Record No. 704** — 장호재 진술
 - **Record No. 831** — Web GIS 엔진 비용
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 준공금 지급 절차의 하자가 결과와 무관하게 배임이 될 수 있다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 준공금 지급에 구체적 위법이 있었음을 보여주는 감사 기록.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 9 / 진실성 8.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/12-3-6-36-제6층위-군.md` lines 612-642
 
-- `vault-converted-korean/12-3-6-36-제6층위-군.md` lines 612-642
-
-## Related
-
+## 관련 (Related)
 - [[prosecution-non-prosecution-self-contradiction]] — L6 불기소 모순 (CORROBORATES)
 - [[layer6-997-reframed-as-deficient-development]] — L6 부실개발 재프레이밍 (RELATED)
 - [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

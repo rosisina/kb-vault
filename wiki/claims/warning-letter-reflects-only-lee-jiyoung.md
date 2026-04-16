@@ -47,7 +47,7 @@ tags:
 ---
 # 법무관리관실 경고장에 박서준 사안 부재 — 이지영만 반영
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md §3.5.1.3 (lines 49-60)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/11-3-5-35-제-5층위.md §3.5.1.3 (lines 49-60)
 **Layer:** [[../layers/layer-5|Layer 5]]
 **Aurora node:**
 ```cypher
@@ -67,7 +67,9 @@ SET fr.layer = 5,
     fr.summary = "Record 6,916~6,917에서 박서준의 실제 주장 확인. Record 3,945~3,946/4,064에서 경고장 내용. Record 1,586/1,584에서 공식 직위. Record 4,878에서 피의자신문조서의 동일 오류 직위 사용. 이지영의 허위 주장만 반영된 것은 이지영이 실질적 주도자임을 입증.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 2022년 5월 23일 국방부 법무관리관실이 발부한 경고장(기록 제3,945쪽~제3,946쪽, 제4,064쪽)에 대한 분석 결과:
 
@@ -77,37 +79,34 @@ SET fr.layer = 5,
 
 이는 박서준이 아닌 이지영이 갑질 신고의 실질적 주도자임을 결정적으로 입증한다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - The warning letter contains NONE of 박서준's actual claims but immediately reflects 이지영's false claim — proving 이지영 was the real complainant [진리성]
 - The letter uses an incorrect job title ("행정정보계획팀장") that doesn't exist in either division — the same error appears in the prosecution's interrogation record (Record No. 4,878) [진리성]
 - The Office of Legal Affairs did not verify 한지훈's position through official personnel records — receiving it informally from cartel members instead [타당성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **Record No. 6,916~6,917** — 박서준의 실제 주장
 - **Record No. 3,945~3,946, 4,064** — 경고장 내용
 - **Record No. 1,586, 1,584** — 한지훈 공식 직위
 - **Record No. 4,878** — 피의자신문조서 (동일 오류 직위)
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 경고장은 조사 결과를 종합한 것이며, 박서준의 주장은 사실관계 확인 후 제외되었다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 박서준의 주장이 검토 후 제외된 조사 기록.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 9 / 진실성 9.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/11-3-5-35-제-5층위.md` lines 49-60
 
-- `vault-converted-korean/11-3-5-35-제-5층위.md` lines 49-60
-
-## Related
-
+## 관련 (Related)
 - [[layer5-reporter-3stage-statement-change]] — L5 신고자 3단 변화 (RELATED)
 - [[harassment-complaint-48hrs-premeditated-isolation]] — L5 48시간 사전 기획 (RELATED)
 - [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

@@ -62,7 +62,9 @@ SET fr.layer = 6,
     fr.summary = "'결국 VPN'(쟁점 수렴) + '자다가 봉창'(소급 적용 부당) + '네트워크·서버·PC 이걸 환경이라 해요'(피의자가 수사관 교육) — 40분 녹취가 수사의 기술적 기반 부재를 증명.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 진상호(수사관)와 한지훈의 40분 녹취(159, 2022.9.13)는 수사의 기술적 기반이 **근본적으로 부재**했음을 증명하는 가장 상세한 기록이다.
 
@@ -93,37 +95,35 @@ SET fr.layer = 6,
 
 → 수사관 자신이 **"환경 조성 의무가 누구에게 있는지"가 미해결 쟁점**이라고 인정 — 이 쟁점이 해결되지 않은 상태에서 한지훈을 기소유예한 것
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - [타당성] **"4년치를 소급해서"** — 2019년 시험평가에 2022년(수사 시점) 보안 기준을 소급 적용한 것은 **행위시법주의(행위 당시의 법을 적용하는 원칙)** 위반. / Retroactive application of 2022 security standards to 2019 test evaluation violates the principle of applying law at the time of the act.
 - [진리성] **수사관이 "환경"의 기본 정의를 모르는 상태**에서 "환경을 속였다"는 혐의를 수사 — [[prosecution-investigator-ignorance-environment]] atom의 **40분 분량 상세 증거**. / The investigator didn't know the basic definition of "environment" while investigating "environment manipulation."
 - [진리성] **수사관 자신이 "환경 조성 의무가 누구에게 있는지가 쟁점"**이라고 인정 — 이 쟁점이 미해결인 상태에서 한지훈에게 책임을 귀속한 것 = **결론 사전 결정**. / The investigator admits the key question (who bears environment setup duty) is unresolved — yet charged Han Ji-hoon anyway.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **녹취 159** (2022.9.13, line 7318~7800, 40분)
 - Cross-reference: [[prosecution-investigator-ignorance-environment|수사관 무지 기존 atom — 본 atom이 40분 상세판]]
 - Cross-reference: [[prosecution-identity-fallacy-deception-technique|동일성 오류 — 시간적 소급이 핵심 기법 중 하나]]
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 수사관은 전략적 질문을 던져 피의자 진술을 유도한 것이다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 수사관이 환경 3요소를 독립적으로 이해하고 분석한 내부 기록.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 9 / 진실성 9.
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/12-3-6-36-제6층위-군.md` — §3.6.4 환경 왜곡 분석
+- `Korean/12-3-6-36-제6층위-군.md` — §3.6.4 환경 왜곡 분석
 - Deferred to A.6 Re-verify.
 
-## Related
-
+## 관련 (Related)
 - [[prosecution-investigator-ignorance-environment|수사관 무지]] (CORROBORATES)
 - [[prosecution-identity-fallacy-deception-technique|동일성 오류]] (CORROBORATES)
 - [[jin-sangho-investigator-vpn-admission-missing-documentation|자매 atom — "결국 VPN"]] (CORROBORATES)

@@ -51,7 +51,7 @@ tags:
 ---
 # 갑질 신고 48시간 전 협력 회의 + 사전 준비된 독방 격리
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md §3.5.1.1 (lines 25-42)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/11-3-5-35-제-5층위.md §3.5.1.1 (lines 25-42)
 **Layer:** [[../layers/layer-5|Layer 5]]
 **Aurora node:**
 ```cypher
@@ -71,7 +71,9 @@ SET fr.layer = 5,
     fr.summary = "Record 11,026~11,027에서 2.8 회의 확인. Record 3,966에서 김민수 '준비 다 했다' 발언. Record 11,009~11,032에서 이지영의 VPN 정보 추출. Record 4,826에서 GIS 서버 문제 보고가 신고 트리거. 국유단 발굴팀장도 VPN 도입을 '해괴한'으로 평가(Record 11,334).";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 2022년 2월 8일, 新KIATIS 관련 국유단·국전원 실무자·업체 회의에서 박서준 (갑질신고자-1)은 한지훈과 정상적으로 협력하여 이지영에게 공동 보고하였다(기록 제11,026쪽~제11,027쪽). 이 회의에서 국유단 발굴팀장은 VPN 도입을 "해괴한"(absurd)으로 평가하여 舊KIATIS의 인터넷 운용을 확인하였다(기록 제11,334쪽).
 
@@ -79,39 +81,36 @@ SET fr.layer = 5,
 
 이지영 (공문결재자-1)은 회의 후 30분 디브리핑에서 VPN 관련 정보를 5회 이상 집중 추출(기록 제11,009쪽~제11,032쪽)하였으며, 이것이 한지훈에 대한 사기수사의 트리거 발사(trigger pulling)로 기능하였다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - 48 hours before the harassment complaint, 박서준 cooperated normally with 한지훈 at a joint meeting — proving no prior conflict [진리성]
 - 김민수's "preparations are all done" (2022.2.21) proves the isolation was pre-planned before the complaint was filed [진리성]
 - 이지영 extracted VPN intelligence through 5+ focused questions in a 30-min debrief — the informational trigger for the prosecution [진리성]
 - 국유단 excavation team leader called VPN introduction "absurd" — independent confirmation of 舊KIATIS internet operation [진리성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **Record No. 11,026~11,027** — 2022.2.8 회의 기록
 - **Record No. 3,966** — 김민수 '준비 다 했다' 발언
 - **Record No. 11,009~11,032** — 이지영 VPN 정보 추출
 - **Record No. 11,334** — 국유단 발굴팀장 'VPN 해괴한' 발언
 - **Record No. 4,826** — GIS 서버 문제 보고
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 48시간 근접성은 우연이며, 김민수의 '준비' 발언은 신고 후 행정조치를 의미한다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 독방 격리가 신고 접수 후 정상 행정절차로 결정된 기록.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 8 / 진실성 10.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/11-3-5-35-제-5층위.md` lines 25-42
 
-- `vault-converted-korean/11-3-5-35-제-5층위.md` lines 25-42
-
-## Related
-
+## 관련 (Related)
 - [[layer5-park-seojun-48hr-cooperation-to-hostility]] — L5 박서준 48시간 변화 (RELATED)
 - [[layer5-language-weaponization-silence-as-murder]] — L5 언어 무기화 (RELATED)
 - [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

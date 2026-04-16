@@ -77,7 +77,9 @@ SET fr.layer = 5,
     fr.summary = "5명의 독립 증인이 6개월 독방 격리를 확인. 2개월 자리 미배정+화장실 4~5시간+KIATIS 접근 차단+동료 접촉 금지 = 조직적 인권 파괴.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 한지훈은 2022년 2월 갑질 신고 이후 약 **6개월간** 국전원 내에서 **사실상의 독방 격리** 상태에 놓였다. 이 사실은 **5명의 국전원 내부자**가 각각 독립적으로 증언하여 교차 확인되었다.
 
@@ -118,45 +120,43 @@ SET fr.layer = 5,
 | **신체적 피해** | 13일간 식사 불가 + 화장실 못 감 | 김익혁 |
 | **기간** | 6개월 | 5명 전원 |
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - [진리성] **5명의 독립 증인**이 각각 다른 날짜(8.5~8.26)에 동일한 사실("6개월 독방")을 한지훈으로부터 들었다 — 한지훈이 반복적으로 호소한 것이 아닌, **각 증인에게 동일한 사실이 전달**된 것. / 5 independent witnesses on different dates all heard the same "6-month solitary" fact.
 - [진실성] **"패륜적 인권침해"** — 한지훈이 3명의 다른 증인 앞에서 동일 용어를 반복 사용. 32년 경력 군인이 이 표현을 쓸 정도의 **극단적 피해 인식**. / "Inhumane rights violation" — repeated across 3 different witnesses by a 32-year military officer.
 - [진리성] **구체적 격리 구조**: 2개월 자리 미배정 → 회의실·화장실 전전 → KIATIS 자료 접근 차단 → 보직 이동 → 동료 접촉 차단 = **단계적·체계적 고립 설계**. / Structured isolation: no desk → wandering between rooms → document access blocked → position transfer → colleague contact blocked.
 - [타당성] **"국전원도 원장님이 너 혼자 책임져라"** = 김민수(국전원장)의 **조직적 지원 거부가 격리의 제도적 배경** — [[split-kim-min-su-organizational-support-cutoff]]과 직접 연결. / The director's "take responsibility alone" order is the institutional backdrop of the isolation.
 - [진리성] 5명 모두 **국전원 내부자** — 격리 현장을 직접 목격하거나 한지훈으로부터 직접 들은 1차 증인들. / All 5 are 국전원 insiders — firsthand witnesses or direct recipients of testimony.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **녹취 091** (김민지, 2022.8.9, line 4297+)
 - **녹취 108** (김익혁, 2022.8.5, line 4851+)
 - **녹취 110** (천하경, 2022.8.10, line 4946+)
 - **녹취 119** (류서영, 2022.8.26, line 5094+)
 - **녹취 117** (최영규, 2022.8.9, line 5238+)
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 갑질 조사 기간 중 피조사자와 신고자의 물리적 분리는 표준 절차이며, 6개월은 조사 기간의 자연적 소요이다. 자리 미배정은 행정적 지연이며 의도적 격리가 아니다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 1. 갑질 조사 시 피조사자 6개월 분리가 규정된 국방부 조사 지침
 2. 한지훈이 격리 기간 중 업무·자료·동료 접근이 허용된 기록
 3. 유사한 갑질 조사에서 동일한 6개월 격리가 적용된 선례
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 10 / 타당성 8 / 진실성 10.
 
 진리성 10: 5명의 독립 증인이 교차 확인. 진실성 10: "패륜적 인권침해"라는 극단적 표현이 32년 경력 군인의 피해 수준을 반영.
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/11-3-5-35-제-5층위.md` — §3.5 전체가 허위 갑질 신고와 격리 구조를 다룸
+- `Korean/11-3-5-35-제-5층위.md` — §3.5 전체가 허위 갑질 신고와 격리 구조를 다룸
 - Deferred to A.6 Re-verify.
 
-## Related
-
+## 관련 (Related)
 - [[layer5-six-month-isolation-human-rights|6개월 격리 인권 atom (기존)]] (CORROBORATES)
 - [[split-kim-min-su-organizational-support-cutoff|김민수 조직 지원 차단]] (CORROBORATES)
 - [[layer5-false-gapjil-report-organizational-conspiracy-structure|3단계 공모 구조]] (OPPOSES)

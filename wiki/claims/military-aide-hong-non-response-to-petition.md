@@ -44,7 +44,7 @@ tags:
 ---
 # 군사보좌관 홍성민의 진정서 무응답 — KakaoTalk 전달 후 침묵
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/13-3-7-37-제7층위-진정서.md §3.7.1.1 (lines 8-18)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/13-3-7-37-제7층위-진정서.md §3.7.1.1 (lines 8-18)
 **Layer:** [[../layers/layer-7|Layer 7]]
 **Aurora node:**
 ```cypher
@@ -64,7 +64,9 @@ SET fr.layer = 7,
     fr.summary = "Record 5,669에서 KakaoTalk 전달 확인. 국방부장관에게 보낸 이메일/메모보고는 읽은 것으로 확인(Record 5,578~5,602). 그러나 군사보좌관은 무응답. 홍성민은 한지훈이 국방부 정책실 근무 시 같은 정책실 다른 과에서 근무한 인연.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 군사보좌관 홍성민(준장)에게 한지훈이 '압수·수색·검증 영장에 대한 해명과 증명'(2022.9.25., 기록 제5,393쪽~제5,577쪽)과 진정서(기록 제5,578쪽~제5,602쪽)를 KakaoTalk으로 전달하였다(기록 제5,669쪽).
 
@@ -72,36 +74,33 @@ SET fr.layer = 7,
 
 국방부장관에게는 국방망 이메일과 메모보고로 동일 자료를 발송하였으며, 해당 이메일은 읽은 것으로 확인되었다. 그럼에도 국방부장관과 군사보좌관 모두 후속 조치를 취하지 않았다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - Military aide 홍성민 received the petition via KakaoTalk (Record No. 5,669) but never responded — the 2nd link in the 8-institution rejection chain [진리성]
 - 홍성민 had a prior working relationship with 한지훈 from MND Policy Office — making the non-response a personal as well as institutional failure [진실성]
 - The MND Minister's office confirmed reading the email/memo report but took no action [진리성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **Record No. 5,669** — 군사보좌관 홍성민 KakaoTalk 전달
 - **Record No. 5,578~5,602** — 국방부장관에게 보낸 진정서
 - **Record No. 5,393~5,577** — 해명과 증명 문서
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 군사보좌관은 피의자와의 접촉을 회피해야 할 직무상 의무가 있었다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 홍성민이 진정 내용을 검토하고 후속 조치를 취한 기록.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Moderate. 진리성 8 / 타당성 7 / 진실성 9.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/13-3-7-37-제7층위-진정서.md` lines 8-18
 
-- `vault-converted-korean/13-3-7-37-제7층위-진정서.md` lines 8-18
-
-## Related
-
+## 관련 (Related)
 - [[han-ji-hoon-petition-to-mnd-minister-2022]] — L7 국방장관 진정 (CORROBORATES)
 - [[han-ji-hoon-rebuttal-rejected-by-eight-institutions]] — L7 8기관 거부 체인 (OPPOSES)
 - [[prosecution-chief-evades-innocence-plea]] — L7 검찰단장 회피 (CORROBORATES)

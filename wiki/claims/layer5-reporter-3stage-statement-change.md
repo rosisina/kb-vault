@@ -52,7 +52,7 @@ tags:
 ---
 # 신고자 진술의 3단 변화 — 박서준→국전원→다시 박서준
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md §3.5.3.2.1 (lines 335-392)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/11-3-5-35-제-5층위.md §3.5.3.2.1 (lines 335-392)
 **Layer:** [[../layers/layer-5|Layer 5]]
 **Aurora node:**
 ```cypher
@@ -72,7 +72,9 @@ SET fr.layer = 5,
     fr.summary = "3단 변화 패턴이 8개 Record No.에서 확인. 최영수(제3자)가 독립적으로 '진짜 신고자가 아니다' 확인. 김민수의 '1년 전체가 힘들었다' 허위 서사는 2.8일 정상 협력과 모순.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 갑질 신고에서 박서준 (갑질신고자-1)의 진술이 3단계로 변화한다:
 
@@ -84,33 +86,30 @@ SET fr.layer = 5,
 
 또한 김민수 (핵심 의사결정자-1)의 "1년 전체가 힘들었다"는 허위 서사는 2022.2.8일까지의 박서준과 한지훈의 정상적 협력 관계, 그리고 김동욱의 박서준에 대한 기존 정신건강 문제 증언과 모순된다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - The 3-stage shift in the complainant narrative (박서준→국전원→박서준) reveals the complaint was orchestrated, not spontaneous [진리성]
 - 최영수's independent testimony confirms 박서준 was not the real complainant [진리성]
 - 김민수's "1 year of hardship" narrative is contradicted by 박서준's normal cooperation on Feb 8 [진리성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **§3.5.3.2.1 전체** — 8개 Record No.에서 3단 변화 추적
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 진술 변화는 기억의 불확실성이나 조사 과정 혼선에 의한 것이다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 박서준의 자발적 갑질 신고 결심을 보여주는 독립적 기록.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 8 / 진실성 9.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/11-3-5-35-제-5층위.md` lines 335-392
 
-- `vault-converted-korean/11-3-5-35-제-5층위.md` lines 335-392
-
-## Related
-
+## 관련 (Related)
 - [[layer5-park-seojun-48hr-cooperation-to-hostility]] — L5 박서준 48시간 변화 (RELATED)
 - [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

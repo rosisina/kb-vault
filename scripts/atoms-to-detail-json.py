@@ -44,13 +44,22 @@ PAT_REL = re.compile(r"- \[\[([^\]|]+)(?:\|([^\]]+))?\]\].*?\(([A-Z_]+)\)\s*$")
 
 
 def _extract_section(body: str, heading: str) -> str:
-    """Extract text under a ## heading until next ## or EOF."""
-    pat = re.compile(rf"^## {re.escape(heading)}\s*\n", re.MULTILINE)
-    m = pat.search(body)
+    """Extract text under a ## heading until next ## or EOF.
+
+    Accepts both legacy English headers (e.g. '## Key Takeaways') and
+    new bilingual Korean-first headers (e.g. '## 핵심 요약 (Key Takeaways)').
+    Korean variant is tried first; falls back to English-only form.
+    """
+    # New bilingual format: ## 한글 (English) — match any prefix before "(heading)"
+    pat_ko = re.compile(
+        rf"^## [^(\n]+\({re.escape(heading)}\)\s*\n", re.MULTILINE | re.IGNORECASE
+    )
+    # Legacy English-only format
+    pat_en = re.compile(rf"^## {re.escape(heading)}\s*\n", re.MULTILINE)
+    m = pat_ko.search(body) or pat_en.search(body)
     if not m:
         return ""
     start = m.end()
-    # Find next ## heading
     next_h = re.search(r"^## ", body[start:], re.MULTILINE)
     end = start + next_h.start() if next_h else len(body)
     return body[start:end].strip()

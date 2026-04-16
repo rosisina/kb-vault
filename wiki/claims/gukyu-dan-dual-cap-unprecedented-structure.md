@@ -51,7 +51,7 @@ tags:
 ---
 # 국유단의 사업통제+주관기관 이중역할 — 전례 없는 위반 구조
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/08-3-2-32-제2-층위.md §3.2.1.2 (lines 23-70)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/08-3-2-32-제2-층위.md §3.2.1.2
 **Layer:** [[../layers/layer-2|Layer 2]]
 **Aurora node:**
 ```cypher
@@ -71,7 +71,9 @@ SET fr.layer = 2,
     fr.summary = "Record 1,131/1,140/1,474에서 국유단 이중역할 확인. 대조 사례: 조직정원체계 사업은 사업통제=정보화기획관실, DT/OT 각각 별도 승인. 이지영·김수진이 두 사업 모두의 정보화기획관실 담당 — 新KIATIS만 역할 회피는 의도적.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 新KIATIS 사업에서 국유단이 사업통제기관과 사업주관기관을 동시에 담당하는 "이중역할(Dual Cap)" 구조(사업계획서 기록 제1,131쪽, 사업계획보고 기록 제1,140쪽, 최종 제안요청서 기록 제1,474쪽)는 국방정보화사업 역사상 전례가 없는 구조이다.
 
@@ -83,36 +85,40 @@ SET fr.layer = 2,
 
 특히 정보화기획관실 담당자가 동일인물(이지영 과장, 김수진 주무관)이면서, 조직정원체계 사업에서는 4대 기능을 정상 수행하고 新KIATIS 사업에서만 전면 회피한 것은 의도적임이 명백하다.
 
-## Key Takeaways
+### English
+
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 
 - The Dual Cap structure (국유단 as both 사업통제 + 사업주관기관) is unprecedented in defense IT project history [진리성]
 - A directly comparable project in the same office at the same time followed regulations correctly — proving the violation was deliberate, not systemic [진리성]
 - The same MND officials (이지영, 김수진) performed their statutory role in one project but evaded it in KIATIS — targeting, not negligence [타당성]
 
-## Supporting evidence
+## 지지 증거 (Supporting Evidence)
 
 - **Record No. 1,131, 1,140, 1,474** — 新KIATIS 사업의 국유단 이중역할
 - **Record No. 3,331, 6,753** — 대조 사례: 조직정원체계 사업 (정상 준수)
 - **Record No. 5,853** — 시험평가 절차 간소화 공문 (시간역전)
 - **Record No. 10,053** — 피의자신문조서 (한지훈의 당황 진술)
 
-## Counter-hypothesis
+## 반대 가설 (Counter-hypothesis)
 
 국유단 이중역할은 국방부의 묵시적 위임이며, 소규모 사업의 관행이다.
 
-## Falsification condition
+## 반증 조건 (Falsification Condition)
 
 유사 이중역할 구조의 다른 국방정보화사업 사례.
 
-## Verdict
+## 평결 (Verdict)
 
 **CORROBORATED.** Strong. 진리성 9 / 타당성 10 / 진실성 8.
 
-## Spot-check
+## 원전 확인 (Spot-check)
 
-- `vault-converted-korean/08-3-2-32-제2-층위.md` lines 42-69
+- `Korean/08-3-2-32-제2-층위.md` §3.2.1.2
 
-## Related
+## 관련 (Related)
 
 - [[kiatis-mkia-multi-cap-inscription|3 shared records — 국유단 이중역할 자매 atom]] (RELATED)
 - [[new-kiatis-is-mnd-controlled-not-delegated-project]] — L2 통제사업 확인 (RELATED)

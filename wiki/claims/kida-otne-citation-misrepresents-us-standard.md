@@ -50,7 +50,7 @@ tags:
 ---
 # KIDA's citation of US DoD OT&E guidelines misrepresents the US standard by selective omission of the Level I qualifier and OTA approval requirement (verbatim distortion confirmed)
 
-**Source:** raw/04. law & regulation/English/(US Regulation) DOD Operational Test and Evaluation (OT&E) for Information and Business Systems(dod).converted.md, raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md (§3.4.3.1, §3.4.3.4.2)
+**Source:** raw/04. law & regulation/English/(US Regulation) DOD Operational Test and Evaluation (OT&E) for Information and Business Systems(dod).converted.md, raw/01. book-beyond-cybersecurity/Korean/10-3-4-34-제4-층위.md (§3.4.3.1, §3.4.3.4.2)
 **Layer:** [[../layers/layer-4|Layer 4]]
 **Aurora node:**
 ```cypher
@@ -70,7 +70,9 @@ SET fr.layer = 4,
     fr.summary = "Verbatim KIDA distortion confirmed by direct text comparison (records 6,717 vs 6,244): Level I qualifier deleted + OTA approval requirement deleted. All 5 falsification questions answered NO. Track D D1 closure 2026-04-11 — upgraded NEEDS_MORE_EVIDENCE → CORROBORATED (strong) after Korean original §3.4.3.4.2 read";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 KIDA의 연구 보고서 **「국방 정보시스템 시험평가 절차 개선 방안 연구」** (연구 기간 2020-01~2020-06, 발간 2020-07; 기록 제6,715/6,716/6,738/6,731쪽)는 미 국방부 DOT&E의 *DOD Operational Test and Evaluation for Information and Business Systems* (Michael Gilmore, 2010-09-14; 기록 제6,240/6,258쪽) 와 *DOT&E TEMP Guidebook 3.1* (2017) 두 문서를 인용하여 한국 국방 정보화 regime에서 시험평가 분리 원칙을 통합 원칙으로 변경하는 학술적 정당화를 제공했다. 본 atom은 KIDA가 **2가지 결정적 단어/구를 누락하는 selective-omission 왜곡**을 했음을 직접 verbatim 비교로 증명한다.
 
@@ -89,20 +91,21 @@ KIDA의 연구 보고서 **「국방 정보시스템 시험평가 절차 개선 
 
 제2129호 제58조 ¶2의 분리 원칙은 미군 framework를 충실히 반영한 것이며, KIDA의 인용이 정당화한다는 framework는 한국이 **이미** 가지고 있던 것 — 분리에서 떠나는 정당화가 아니다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - The 2010 US DoD DOT&E memo (Gilmore, 2010-09-14) is an OT&E-side authority document permitting OT&E to reuse DT&E data within a structured risk framework — not permission to merge DT&E/OT&E into a single activity executed by a single body (US text CORROBORATED) [진리성]
 - The US framework binds any integration with five structural requirements: (1) OTA-led risk stratification, (2) mandatory independent operational event at Level II/III, (3) DOT&E approval for Applicable Programs (MAIS), (4) irreversible-changes rule forcing Level II/III, (5) OTA structural independence from developer/program office [타당성]
 - KIATIS handles personnel and casualty data — likely "irreversible changes" under the US rule, which would require Level II or Level III OT&E with an independent operational event [타당성]
 - The 제2129호 제58조 ¶2 separation principle already encodes the US framework faithfully; the framework KIDA's citation purports to support is the framework Korea already had, not a justification for departing from it [타당성]
 - Verdict is **CORROBORATED (strong)** per Track D D1 closure 2026-04-11: Korean original §3.4.3.4.2 read confirmed verbatim KIDA distortion by direct text comparison of record 6,717 (KIDA) vs record 6,244 (US) — both gate phrases ("Level I" qualifier + OTA approval requirement) deleted [진리성]
 
-## Layer
-
+## 층위 (Layer)
 [[../layers/layer-4|Layer 4]] — 新KIATIS 개발·운영·시험평가 전·중·후 조작. KIDA's alleged misrepresentation is the **academic foundation** that the book identifies as the legitimizing layer for the directive-level changes documented in [[2436ho-cluster-six-anchors|the 2436호 cluster]]. If the citation can be shown to misrepresent the US standard, the academic-justification scaffolding for the integration regime collapses.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 **US text (CORROBORATED):**
 
 - US DoD memo 2010-09-14 explicitly permits integrated test approach as expected baseline: `It is expected a large portion of the test strategy for Information and Business Systems will utilize an integrated test approach.` ([[../regulations/us-dod-otne-info-business-systems-2010|US guidelines page §Verbatim citations]])
@@ -129,14 +132,12 @@ KIDA의 연구 보고서 **「국방 정보시스템 시험평가 절차 개선 
 - KIATIS would qualify as an "Applicable Program" under the US framework structurally (MAIS-class)
 - See [[kiatis-2129ho-main-regime-applies]] for the parallel Korean classification
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 KIDA's report cited the integration permission within its full risk-based context. KIDA presented all five structural requirements (OTA-led risk stratification, independent operational event mandate at Level II/III, DOT&E approval, irreversible-changes rule, OTA independence), correctly identified that the US document is an OT&E-side authority addressing OT&E's permission to reuse DT&E data, and confined its integration justification to that specific data-reuse meaning. The integration justification was therefore academically faithful; the substantive question of whether KIATIS specifically qualifies for that data reuse is a separate question that does not impugn the citation.
 
 **Corollary counter-hypothesis (added per James 2026-04-11 framing):** KIDA's report explicitly acknowledged that the 제2129호 제58조 ¶2 separation principle already encodes the US framework, and confined its argument to noting that the integration *exception* (the "필요시 동시에 실시" clause of ¶2) was the appropriate path for KIATIS. Under this counter-hypothesis, KIDA's report does not justify departing from 제2129호 — it justifies invoking ¶2's existing exception clause for KIATIS specifically. (If true, this would shift the falsifiable question from "did KIDA misrepresent the US text" to "did 사업통제기관 actually grant the 제58조 ¶2 written exception for KIATIS" — a different and answerable factual question.)
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 This claim is **NEEDS_MORE_EVIDENCE** until the KIDA report is produced and the following questions answered by direct text comparison:
 
 1. **Does the KIDA report cite the OTA-led risk stratification structure?** If yes, the selective-omission charge is weakened on item 1.
@@ -149,16 +150,14 @@ If items 1–5 are all answered "yes" with substantive treatment, the verdict do
 
 **Additional falsification path**: If KIDA's report cited the **2003 predecessor memo** (*Conducting OT&E of Software Intensive System Increments*, June 16, 2003) instead of or in addition to the 2010 memo, the comparator changes — the 2003 memo's text must be located and compared. The 2010 memo explicitly supersedes the 2003 memo, so a 2018-or-later KIDA citation of only the 2003 memo would itself be problematic.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 10 (verbatim text 비교 직접 확립), 타당성 10 (US framework + KIDA 누락이 모두 텍스트 차원에서 명확), 진실성 9 (학술 부정행위 + Layer 4 manipulation 정당화 도구로의 KIDA 변질이 진실성 axis 직접 지원).
 
 **Track D D1 closure 2026-04-11**: 본 atom은 NEEDS_MORE_EVIDENCE → CORROBORATED (strong) 로 upgrade. 책 §3.4.3.4.2 (한국어 원본 line 294 onwards) 에서 KIDA 분석 텍스트 (record 6,717) vs 미군 원문 (record 6,244) 의 직접 verbatim 비교가 두 가지 결정적 단어/구 ("Level I" 한정자 + "OTA 승인" 요건) 의 KIDA 측 삭제를 증명. 5가지 falsification questions 모두 "no" 답변 → CORROBORATED.
 
 이는 **comparator-establishment vs citation-verification** 분리의 가치를 입증: 2026-04-11 morning에 작성된 atom이 US 측 comparator를 완전히 확립해 두었기 때문에, 같은 날 오후의 한국어 원본 §3.4.3.4 read 1회로 즉시 verdict upgrade가 가능했다. comparator 작업이 permanent + reusable 이라는 점이 입증됨.
 
-## Open Questions
-
+## 미결 사항 (Open Questions)
 - ~~**The book is the primary source for this topic.**~~ **RESOLVED 2026-04-11 (Track D D1 closure)**: 한국어 원본 §3.4.3.4.2 read로 verbatim KIDA distortion 직접 확인. 책 records 6,717 (KIDA) vs 6,244 (US) 가 결정적 비교 쌍이며, 본 atom의 falsification condition을 모두 답변.
 - ~~Where is the KIDA research report?~~ **RESOLVED**: 보고서명 「국방 정보시스템 시험평가 절차 개선 방안 연구」, 연구 기간 2020-01~2020-06, 최종 토론회 2020-06, 발간 2020-07. records 6,715~6,738 + 6,731.
 - ~~Did MND or 국방부 검찰단 cite KIDA's report in any of the directive revisions or in the 2022 군 검찰 investigation file?~~ **RESOLVED (책 §3.4.3 + §3.4.4)**: KIDA 보고서 → 2020-04-22 의견 수렴 공문 (record 4,708, 작성자 이지영+김수진) → 제2436호 (2020-06-04) 직접 학술적 정당화 + 군 검찰단이 한지훈 신문에서 KIDA 인용 제2275호를 사용 (record 4,900). KIDA 보고서는 chain-of-citation node로 확립됨 (학술 → 훈령 개정 → 검찰 신문).
@@ -169,14 +168,13 @@ If items 1–5 are all answered "yes" with substantive treatment, the verdict do
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/07-3-1-31-제1층위-ActiveX.md` — Layer 1
-- `vault-converted-korean/10-3-4-34-제4-층위.md` — Layer 4 (primary, KIDA's research role and the citation contradiction are described in detail per James 2026-04-11)
-- `vault-converted-korean/11-3-5-35-제-5층위.md` — Layer 5
-- `vault-converted-korean/15-5-5-결론-및.md` — Conclusion
+- `Korean/07-3-1-31-제1층위-ActiveX.md` — Layer 1
+- `Korean/10-3-4-34-제4-층위.md` — Layer 4 (primary, KIDA's research role and the citation contradiction are described in detail per James 2026-04-11)
+- `Korean/11-3-5-35-제-5층위.md` — Layer 5
+- `Korean/15-5-5-결론-및.md` — Conclusion
 - Deferred to A.6 Re-verify. **This atom's Open Questions explicitly note that the book is the primary source for this topic.** A.6 will likely supply the verbatim KIDA citation, the report's title/date/author, and the 2003-vs-2010 memo question — at which point the verdict should be re-derived from scratch against the book.
 
-## Related
-
+## 관련 (Related)
 - [[kida-research-legitimizes-pre-existing-manipulation|3 shared records — KIDA 연구 자매 atom]] (CORROBORATES)
 - [[../regulations/us-dod-otne-info-business-systems-2010|US DoD OT&E guidelines (comparator regulation hub)]] (ABOUT)
 - [[../entities/organizations/kida|KIDA hub]] (ABOUT)

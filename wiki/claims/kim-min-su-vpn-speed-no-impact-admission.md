@@ -64,37 +64,36 @@ SET fr.layer = 6,
     fr.summary = "녹취013에서 김민수 '속도 안 떨어진다' 발언. 검찰 핵심 논거 자체를 국전원장이 부정.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 김민수 (핵심 의사결정자-1)는 2022-10-13 녹음에서 'VPN을 연결해서 속도가 뚝 떨어지진 않는다'고 발언. 이는 군검찰이 적용한 위계공무집행방해의 핵심 논거(VPN 미사용으로 속도 차이 발생→시험결과 왜곡)를 국전원장 본인이 부정하는 발언이다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - 김민수 stated VPN does not cause significant speed drops — undermining the prosecution's core charge premise [진리성]
 - This creates a direct contradiction: organization's top technical authority negates the technical basis of criminal charges [타당성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - *(regulation-text claim — Record No. exempt per CLAUDE.md)*
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 김민수의 VPN 발언은 일반적 견해이며 KIATIS 시험환경에 특정적으로 적용할 수 없다
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 KIATIS 시험 네트워크에서 VPN 삽입 시 유의미한 속도 저하가 발생했음을 보여주는 기술적 증거
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** STRONG. 진리성 9 / 타당성 9 / 진실성 7.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/(Korean) individual_recording_logs_beyond_cybersecurity.md` lines 2204-2208
 
-- `vault-converted-korean/(Korean) individual_recording_logs_beyond_cybersecurity.md` lines 2204-2208
-
-## Related
-
+## 관련 (Related)
 - [[prosecution-six-charges-collapse-vpn-nonexistence]] (CAUSES)
 - [[four-kiatis-environments-non-identical]] (RELATED)
 - [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

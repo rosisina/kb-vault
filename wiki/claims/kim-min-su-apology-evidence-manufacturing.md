@@ -66,38 +66,37 @@ SET fr.layer = 5,
     fr.summary = "녹취006: 감사실 사전 조율 + '사과 증거 남기라' 지시 + '모른척하고'. 이중 트랙 조작.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 2022-02-21, 김민수는 감사실과 사전 조율 후 한지훈에게 '사과하려는 증거가 되게끔 메시지 보내고', '두 번 정도 조치를 해 놔'라고 지시. '감사조치 등등은 내가 알아서 할 거고. 당신 모른척하고'로 이중 트랙(감사실 조율 + 피해자 증거 제조)을 운영.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - 김민수 pre-coordinated with inspection office BEFORE instructing 한지훈 to send apology messages — dual-track manipulation [진리성]
 - The instruction to create 'evidence of apology attempt' is explicit evidence manufacturing [진리성]
 - 'Pretend not to know' instruction proves concealment of the manipulation [진리성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - *(regulation-text claim — Record No. exempt per CLAUDE.md)*
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 김민수는 선의로 갈등 해결을 중재하였으며 사과 메시지 권유는 정상적 관리자 조치이다
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 감사실 조율이 한지훈에 유리한 방향이었음을 보여주는 기록
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** STRONG. 진리성 9 / 타당성 7 / 진실성 10.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/(Korean) individual_recording_logs_beyond_cybersecurity.md` lines 1718-1747
 
-- `vault-converted-korean/(Korean) individual_recording_logs_beyond_cybersecurity.md` lines 1718-1747
-
-## Related
-
+## 관련 (Related)
 - [[harassment-complaint-48hrs-premeditated-isolation]] (RELATED)
 - [[kim-min-su-central-cross-layer-cartel-figure]] (RELATED)
 - [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

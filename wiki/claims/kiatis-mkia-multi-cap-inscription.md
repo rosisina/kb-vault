@@ -57,7 +57,7 @@ tags:
 ---
 # 국방부 유해발굴감식단(국유단)이 사업통제기관·사업주관기관·사업수행기관 다중 cap으로 inscription되었다
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/08-3-2-32-제2-층위.md (§3.2.1.1, §3.2.1.2 + 〈표 3-2-1〉)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/08-3-2-32-제2-층위.md (§3.2.1.1, §3.2.1.2 + 〈표 3-2-1〉)
 **Layer:** [[../layers/layer-2|Layer 2]]
 
 **Aurora node:**
@@ -78,16 +78,20 @@ SET fr.layer = 2,
     fr.summary = "전례 없는 다중 cap inscription이 3개 공식 문서에서 직접 확인됨; 비교 사업이 합법 구조의 존재를 증명함으로써 '몰랐다' counter 봉쇄";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 국방부 유해발굴감식단(국유단/MKIA)이 新KIATIS 성능개선사업의 **사업통제기관 + 사업관리기관 + 사업주관기관 + 사업수행기관** 슬롯에 **다중 cap으로 inscription**되었다. 한국어 원본 〈표 3-2-1〉은 국유단이 사업통제기관 슬롯과 사업수행기관 슬롯에 모두 등장함을 직접 증명한다 (계약업체·국방전산정보원과 함께). 이는 제2129호 제11조 ¶2가 국방부 정보화기획관실의 고유 임무로 명시한 사업통제기관의 4대 핵심 임무 (① 사업소요 검토·결정, ② 사업 중기계획·예산편성 검토·반영, ③ 사업계획승인, ④ 시험평가 계획·결과 승인)를 일반 기관에 위임한 **훈령 위반이며, 국방 정보화 사업 역사상 전례가 없다**.
 
-## Layer
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 층위 (Layer)
 [[../layers/layer-2|Layer 2]] — 新KIATIS 사업 추진체계 및 장교 개인 자력 조작. 본 atom은 [[kiatis-mnd-controlled-not-delegated|L2-01]]의 법적 토대 위에서 **실행 단계의 조작 메커니즘**을 documenting한다. L2-01이 "왜 위임 사업이 될 수 없는가"를 증명하고, 본 atom은 "그럼에도 불구하고 어떻게 위임 사업처럼 inscription되었는가"를 증명한다.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **2018-08-07 사업계획 보고** (기록 제1,140쪽): 강민호 (과장-1)가 박성호 (2016해킹당시원장-1)에게 "사업 통제·주관기관: 국방부 유해발굴감식단(기관 위임 사업)" 보고 + 승인
 - **2018-08-07 사업계획서** (기록 제1,119, 1,131쪽): 통제 구분을 "기관 위임 사업"으로 설정
 - **2018-10-29 최종 제안요청서** (기록 제1,474, 1,481쪽): 국유단을 사업통제기관으로 inscription
@@ -103,15 +107,13 @@ SET fr.layer = 2,
 - **제11조 ¶2 verbatim** (기록 제7,496쪽): 사업통제기관의 4대 핵심 임무가 명시
 - **비교 사업 — 조직정원체계** (2017-04~2019-01, 같은 행정정보화과 팀): 사업통제기관 = 국방부 정보화기획관실, 사업주관기관 = 국방부 조직총괄과, 사업관리기관 = 국방전산정보원 — **합법 구조**
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 PCA·PHA 다중 cap은 다음 중 하나로 정당화된다:
 1. **업무 간소화 조항**: 일반 기관 위임 사업은 절차 간소화를 위해 다중 cap이 허용된다
 2. **소규모 기관 예외**: 6.25억 미만 소규모 사업은 일반 기관이 PCA를 겸할 수 있다
 3. **국방부 승인을 받은 정당한 위임**: 국방부 정보화기획관실이 명시적으로 국유단에 PCA 권한을 위임했다
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 본 청구는 다음 중 하나가 제시되면 약화 또는 무효:
 1. **다른 국방 정보화 사업에서 MKIA가 적법하게 PCA로 지정된 사례** — 본 청구의 "역사상 전례가 없다" 부분을 직접 반박
 2. **제2129호 또는 [별표1]의 다중 cap 허용 조항** — counter-hypothesis path 1
@@ -119,25 +121,22 @@ PCA·PHA 다중 cap은 다음 중 하나로 정당화된다:
 
 비교 사업 (조직정원체계, 2017-04~2019-01) 이 동일 행정정보화과 팀에 의해 **합법 구조**로 추진되었음을 한국어 원본 §3.2.1.2 + <그림 3-2-2>가 직접 증명하므로 "몰랐다" counter는 사실상 봉쇄됨. → **CORROBORATED (strong)**
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 10 (3개 공식 문서에서 직접 확인 + 〈표 3-2-1〉 출처 명시), 타당성 10 (제11조 ¶2 + [별표1] 용어 정의 텍스트 명확), 진실성 9 (전례 없는 inscription은 단순 실수가 아닌 의도적 구조 조작).
 
-## Open Questions
-
+## 미결 사항 (Open Questions)
 - 〈표 3-2-1〉의 사업관리기관 슬롯과 사업주관기관 슬롯에는 정확히 무엇이 inscription되어 있는가? 한국어 변환본 line 24–40이 표 구조를 linearize하면서 슬롯 매핑이 부분적으로 손실됨 — 원본 PDF 또는 raw/07. Scanned files/ 직접 확인 필요. (이중 cap vs 삼중 cap vs 사중 cap 여부 결정)
 - 강민호 (과장-1)와 박성호 (2016해킹당시원장-1)의 결재 체인 — 이들 이외에 합의자/협조자가 더 있었는가?
 - 국방부 정보화기획관실의 침묵: 본 inscription이 공식 발생한 2018-08-07 시점에 정보화기획관실의 누가 무엇을 알고 있었는가? (이지영 (공문결재자-1) + 김수진 (행정담당자-1)의 등장 시점과의 관계 — [[lee-jiyoung-kim-sujin-single-point-of-control|L2-03]] 참조)
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/08-3-2-32-제2-층위.md` lines 13–18 (강민호의 보고 + 〈정리 01〉)
-- `vault-converted-korean/08-3-2-32-제2-층위.md` lines 24–42 (〈표 3-2-1〉 + 표 본문)
-- `vault-converted-korean/08-3-2-32-제2-층위.md` lines 56, 64, 66 (검사신문조서 인용)
+- `Korean/08-3-2-32-제2-층위.md` lines 13–18 (강민호의 보고 + 〈정리 01〉)
+- `Korean/08-3-2-32-제2-층위.md` lines 24–42 (〈표 3-2-1〉 + 표 본문)
+- `Korean/08-3-2-32-제2-층위.md` lines 56, 64, 66 (검사신문조서 인용)
 - 영문 변환본 (`12-3-2-32-Second-Layer.md`)은 〈표 3-2-1〉 슬롯 매핑을 단순화하고 비교 사업 PCA 담당자 (이지영/김수진) attribution을 누락 — 한국어 원본 우선
 
-## Key Takeaways
-
+## 핵심 요약 (Key Takeaways)
 - [진리성] **3개 공식 문서**가 모두 국유단을 사업통제기관 슬롯에 inscription — 사업계획 보고 (1,140), 사업계획서 (1,131), 최종 제안요청서 (1,474). 단일 실수가 아닌 일관된 구조.
 - [타당성] **제2129호 [별표1] 용어 정의**가 명확 — 사업통제기관은 정보화기획관실 (국방부 또는 각 군). 국유단은 **정의상 사업통제기관이 될 수 없다**.
 - [타당성] **〈표 3-2-1〉의 사업수행기관 슬롯**에도 국유단 등장 — 단순 dual cap이 아닌 **다중 cap inscription**. 다중 cap = 한 기관이 통제·관리·주관·수행을 동시에 수행하는 구조 = 견제 메커니즘 완전 부재.
@@ -145,8 +144,7 @@ PCA·PHA 다중 cap은 다음 중 하나로 정당화된다:
 - [진실성] **국방 정보화 사업 역사상 전례 없는 위반** — 책의 직접 표현. "사업통제기관" 용어 자체가 한지훈에게 충격이었다는 검사신문조서 진술 (10,053).
 - [타당성] 본 atom은 [[kiatis-mnd-controlled-not-delegated|L2-01]]과 함께 Layer 2 manipulation의 **what**과 **how**를 구성. L2-01 = "그럴 자격이 없다", 본 atom = "그럼에도 그렇게 했다".
 
-## Related
-
+## 관련 (Related)
 - [[new-kiatis-is-mnd-controlled-not-delegated-project|3 shared records — MND 통제 사업 분류]] (CORROBORATES)
 - [[gukyu-dan-dual-cap-unprecedented-structure|3 shared records — 이중역할 전례 없는 구조]] (RELATED)
 - [[../layers/layer-2|Layer 2 hub]] (PART_OF_LAYER)

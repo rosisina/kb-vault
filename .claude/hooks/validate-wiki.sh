@@ -40,14 +40,17 @@ esac
 missing=()
 grep -q '^\*\*Source:\*\*' "$FILE_PATH" || missing+=("**Source:** line")
 grep -q '^\*\*Layer:\*\*'  "$FILE_PATH" || missing+=("**Layer:** line")
-grep -q '^## Key Takeaways' "$FILE_PATH" || missing+=("## Key Takeaways section")
-grep -q '^## Related'      "$FILE_PATH" || missing+=("## Related section")
+# Accept both legacy '## Key Takeaways' and bilingual '## 핵심 요약 (Key Takeaways)'
+grep -qE '^## (핵심 요약 \(Key Takeaways\)|Key Takeaways)' "$FILE_PATH" || missing+=("## Key Takeaways / 핵심 요약 (Key Takeaways) section")
+# Accept both legacy '## Related' and bilingual '## 관련 (Related)'
+grep -qE '^## (관련 \(Related\)|Related)' "$FILE_PATH" || missing+=("## Related / 관련 (Related) section")
 
 # Extra contract for claim atoms under wiki/claims/ (A.6 Re-verify requirements)
 case "$FILE_PATH" in
   */wiki/claims/*)
-    grep -q '^## Supporting evidence' "$FILE_PATH" || missing+=("## Supporting evidence section (required for claim atoms)")
-    grep -q '^## Spot-check'          "$FILE_PATH" || missing+=("## Spot-check (raw/01 book) section (required for claim atoms per A.6 spot-check rule)")
+    # Accept both legacy and bilingual forms
+    grep -qE '^## (지지 증거 \(Supporting Evidence\)|Supporting evidence)' "$FILE_PATH" || missing+=("## Supporting evidence / 지지 증거 section (required for claim atoms)")
+    grep -qE '^## (원전 확인 \(Spot-check\)|Spot-check)' "$FILE_PATH" || missing+=("## Spot-check / 원전 확인 section (required for claim atoms per A.6 rule)")
     ;;
 esac
 

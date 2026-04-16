@@ -65,38 +65,37 @@ SET fr.layer = 6,
     fr.summary = "녹취264-1 1차 음성증거: 이근태 '기소유예만 되도 문제는 없는 거니까' — 변호사 최동욱의 방어 전략 상한을 명시적으로 폭로. 피의자 한지훈에게 미전달된 전략으로 정보 비대칭 입증.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 이근태는 2022.9.21 녹취에서 최동욱 변호사를 직접 만난 결과를 전달: '증거불충분 내지는 혐의 없음으로 종결되면 좋은 거고. 기소유예만 되도 문제는 없는 거니까'. 변호사가 기소유예를 '문제 없는' 결과로 설정한 것은 피고인에게 전달되지 않은 방어 전략이다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - 최동욱 privately considered 기소유예 acceptable — defense strategy aligned with prosecution framing [진리성]
 - This was disclosed through third-party channel (이근태), not directly to 한지훈 — information asymmetry [진리성]
 - 기소유예 = permanent criminal stigma, not 'no problem' — defense lawyer fundamentally misassessed consequences [진실성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - *(regulation-text claim — Record No. exempt per CLAUDE.md)*
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 기소유예가 증거 상황에서 현실적으로 최선의 결과였다
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 검찰 증거가 완전 무혐의가 비현실적일 만큼 강력했음을 보여주는 법적 평가
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** STRONG. 진리성 9 / 타당성 7 / 진실성 9. 1차 음성증거(녹취264-1)에서 변호사의 기소유예 목표 설정이 명시적으로 확인됨.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/(Korean) individual_recording_logs_beyond_cybersecurity.md` lines 15988-16001
 
-- `vault-converted-korean/(Korean) individual_recording_logs_beyond_cybersecurity.md` lines 15988-16001
-
-## Related
-
+## 관련 (Related)
 - [[han-ji-hoon-kiso-yuye-is-criminal-stigma]] (RELATED)
 - [[prosecution-knew-innocence-continued-case]] (RELATED)
 - [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

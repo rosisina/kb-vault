@@ -51,7 +51,7 @@ tags:
 ---
 # 불기소 이유서의 내적 모순 — 기소유예와 99.73점 성공 동시 인정
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.4.1 (lines 299-310)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/12-3-6-36-제6층위-군.md §3.6.4.1 (lines 299-310)
 **Layer:** [[../layers/layer-6|Layer 6]]
 **Aurora node:**
 ```cypher
@@ -71,7 +71,9 @@ SET fr.layer = 6,
     fr.summary = "불기소 이유서 자체에 모순이 존재: '피의사실은 인정된다'(기소유예) + '기능 대부분 충족'(성공 인정). KIATIS는 조달청 제한총액 기반 SW개발용역사업(Record 4,866~4,871, Record 6,818~6,819)이며, 평가위원회 99.73점 적합판정은 국가계약법에 의한 정당한 절차.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 군 검찰단의 불기소 이유서는 사기수사의 전형적 모델을 보여주는 문서이다. 핵심 모순: 위계공무집행방해로 "피의사실은 인정된다"며 기소유예 처분을 내리면서, 동시에 "KIATIS는 개발·운용시험평가에서 99.73점을 받은 바 있어 제안요구서에서 요구한 기능들을 대부분 충족하는 것으로 보이고"(10페이지)라고 사업의 성공을 인정했다.
 
@@ -79,15 +81,17 @@ SET fr.layer = 6,
 
 나머지 5개 혐의(업무상배임, 허위공문서작성, 허위작성공문서행사, 허위보고, 허위통보)에 대해서는 "증거 불충분하여 혐의 없다"라고 하였으나, 이 역시 "동일성 오류" 기만기술을 사용하여 범죄의 소지를 남겨둔 "똘똘 말기" 법기술이다. 기소유예라는 범죄자 낙인을 남겨 실질적 처벌 효과를 달성했다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - The non-prosecution report contains an irreconcilable logical contradiction: 기소유예 (criminal finding) + 99.73% success acknowledgment (lawful completion) in the same document [진리성]
 - KIATIS was a government procurement SW development service contract under the National Contract Act — a legitimate evaluation committee's 적합 verdict cannot simultaneously be a criminal act [타당성]
 - The five other charges dismissed as "insufficient evidence" were deliberately left unresolved to preserve criminal stigma — a "rolling up" (똘똘말기) legal technique [진실성]
 - The prosecution ignored that KIATIS was a pure SW development project, not infrastructure — concealing that all VPN/샤크라맥스/OTP items were DIDC's responsibility, not 한지훈's [진리성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **Record No. 4,866~4,871** — 조달청 계약 서류 (제한총액 기반 정보시스템개발서비스 용역사업)
 - **Record No. 6,818~6,819** — 정리19 증명 (SW개발사업 확인)
 - **Record No. 1,535** — 조달청 최종 제안요청서 59페이지 (적정사업기간 10개월)
@@ -96,24 +100,19 @@ SET fr.layer = 6,
 - **Record No. 1,033, 1,048** — 국유단 사업요청 (SW대가산정 가이드라인)
 - **본문기록-제6층위-017** — 정리19 증명문
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 기소유예의 범죄사실(시험환경 구성의 절차적 하자)과 사업 결과의 성공(99.73점)은 별개의 법적 쟁점이다. 절차적 위법이 있더라도 결과가 좋을 수 있으며, 결과의 성공이 절차적 위법을 면책하지 않는다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 위계공무집행방해의 성립이 사업 성공 여부와 무관하게 순수 절차적 하자만으로 인정 가능하다는 대법원 판례 또는 학설의 제시.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 9 / 진실성 9. 불기소 이유서 자체 내의 텍스트 모순이며, 외부 증거 없이도 문서 자체에서 확인 가능한 강력한 증거.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/12-3-6-36-제6층위-군.md` lines 299-310 — §3.6.4.1 verbatim
 
-- `vault-converted-korean/12-3-6-36-제6층위-군.md` lines 299-310 — §3.6.4.1 verbatim
-
-## Related
-
+## 관련 (Related)
 - [[prosecution-identity-fallacy-deception-technique]] — L6 동일성 오류 (CORROBORATES)
 - [[prosecution-non-prosecution-identity-error-fraud]] — L6 불기소 사기 (CORROBORATES)
 - [[prosecution-distorts-operational-vs-test-environment]] — L6 환경 왜곡 (CORROBORATES)

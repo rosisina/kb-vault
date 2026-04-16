@@ -47,7 +47,7 @@ tags:
 ---
 # C-L6-16: 방화벽 결재 3인 중 중간 검토자만 피의자 — 최종 결재자·기안자 배제
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.4.11.4 (lines 680-683)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/12-3-6-36-제6층위-군.md §3.6.4.11.4 (lines 680-683)
 **Layer:** [[../layers/layer-6|Layer 6]], [[../layers/layer-5|Layer 5]] (secondary)
 **Aurora node:**
 ```cypher
@@ -67,39 +67,38 @@ SET fr.layer = 6,
     fr.summary = "결재선 3인 중 1인만 피의자. 최종 결재자=참고인, 기안자=배제. 선별적 범죄자 만들기.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 방화벽 정책적용 공문의 결재선(기안자 이준호, 검토자 한지훈, 결재자 최영수) 중 중간 검토자만 피의자 지정. 최종 결재자(30년 IT 전문가, 서기관)는 참고인, 기안자는 배제. 최영수는 5시간 참고인 조사에서 방화벽 포트 개방의 기술적 정당성을 진술하였으나 검찰은 이를 반박하지 못함. 결재선 내 선택적 범죄자 만들기 = 표적수사.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - Of 3-person approval chain (drafter/reviewer/approver), only the reviewer was charged [진리성]
 - 최영수 (final approver, 30-year IT expert) testified 5 hours the action was technically justified — prosecution could not rebut [진리성]
 - Selective targeting within single approval chain = textbook targeted prosecution [타당성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **Record No. 3,948**
 - **Record No. 4,842**
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 검토자가 기술적 검증 의무의 일차적 책임자이므로 정당한 피의자 지정
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 팀장(검토자)이 과장(결재자)보다 방화벽 결정에 대해 더 큰 형사 책임을 진다는 법리 분석
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** STRONG. 진리성 9 / 타당성 9 / 진실성 9.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/12-3-6-36-제6층위-군.md` lines 680-683
 
-- `vault-converted-korean/12-3-6-36-제6층위-군.md` lines 680-683
-
-## Related
-
+## 관련 (Related)
 - [[prosecution-firewall-port-opening-vs-it-standard-practice]] (CAUSES)
 - [[prosecution-selective-criminalization-firewall-approval-chain]] (CAUSES)
 - [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

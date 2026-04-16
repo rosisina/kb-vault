@@ -62,38 +62,37 @@ SET fr.layer = 1,
     fr.summary = "제21-23조: 현장보존+합동분석팀+탐지대응기록 3중 의무. 2016 사건에서 이 기록들이 존재해야 함.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 DIDC 부대예규 제12호 제21조①은 불법접근·해킹 흔적 발견 시 전산망 차단을 포함한 현장보존 의무를 규정. 제22조③은 정보보호과+자원관리과 합동분석팀 편성과 각 부서의 자료 협조 의무를 규정. 제23조④는 '침해사고의 탐지·대응·조치 내용을 기록하고 관리하여야 한다'고 명시. 2016 해킹 사건에서 이 세 조항에 따른 현장보존 조치, 합동분석팀 기록, 탐지·대응·조치 기록이 존재해야 한다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - 제21조① creates dual duties: immediate reporting AND scene preservation via network disconnection [타당성]
 - 제22조③ mandates joint analysis team with material cooperation from all departments [타당성]
 - 제23조④ is the most explicit evidence-preservation duty in the entire SOP [타당성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - *(regulation-text claim — Record No. exempt per CLAUDE.md)*
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 2016 사건이 사이버작전사령부에 의해 처리되어 DIDC 자체 침해대응 절차가 적용되지 않았다
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 2016 현장보존 기록, 합동분석팀 구성·운영 기록, 탐지·대응·조치 기록일지의 제시
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** STRONG. 진리성 9 / 타당성 10 / 진실성 8.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/01.(Korean) DIDC_사이버방호_예규.md` lines 384-425
 
-- `vault-converted-korean/01.(Korean) DIDC_사이버방호_예규.md` lines 384-425
-
-## Related
-
+## 관련 (Related)
 - [[didc-sops-cover-2016-hacking-period]] (CORROBORATES)
 - [[didc-sop-incident-report-mandatory]] (CORROBORATES)
 - [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)

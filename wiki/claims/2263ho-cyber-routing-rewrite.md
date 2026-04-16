@@ -61,23 +61,26 @@ SET fr.layer = 1,
     fr.summary = "Track D D2 closure 2026-04-11: verbatim diff confirms TWO substantive changes — (a) 「군사보안업무훈령」 cross-reference deletion, (b) 사이버방호→사이버보안 terminology change. Both changes narrow cybersecurity accountability scope. Counter-hypothesis (routine cross-reference update) is foreclosed because the deletion + word-change combination cannot be explained by parallel directive housekeeping. STRONG upgrade pending verification of 「군사보안업무훈령」 status circa 2019-02-26 (was it abolished, or does it still exist?)";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 제2263호 (2019-02-26) is the first revision in the 11-revision dataset to modify 제9조 ¶2's cyber-security routing language. This is the earliest movement of the A3 anchor (`국방사이버안보훈령` reference) and the only anchor movement that occurs **inside** the KIATIS legal window (2018–2019), though it occurs after KIATIS test evaluation completion in 2019-12 — wait, 2019-02-26 is *before* KIATIS test evaluation completion. The movement therefore is the only anchor change that potentially overlaps the KIATIS conduct period.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - 제2263호 (2019-02-26) is the first revision in the 11-revision dataset to micro-edit 제9조 ¶2's reference to `국방사이버안보훈령` — the cyber-security routing anchor (A3) [진리성]
 - 제2129호 baseline 제9조 ¶2 explicitly names `국방사이버안보훈령` as the governing directive for cybersecurity aspects of defense IT projects (verified during 2026-04-11 calibration ingest of 제9조) [타당성]
 - 2019-02-26 is the only A3 anchor movement potentially overlapping the KIATIS conduct window (2018–2019), making it the single candidate anchor change with temporal relevance to KIATIS-era cybersecurity accountability routing [진리성]
 - Verdict is **NEEDS_MORE_EVIDENCE** pending verbatim diff of 제2263호 제9조 ¶2 vs. 제2129호 제9조 ¶2 and 국방사이버안보훈령 contemporaneous revision history cross-check [타당성]
 
-## Layer
-
+## 층위 (Layer)
 [[../layers/layer-1|Layer 1]] — DIDC 해킹 근원서버 은폐의 출발점. 제9조 ¶2 routes cybersecurity-relevant aspects of defense IT projects to a separate directive (국방사이버안보훈령), and the routing language determines which directive's procedural framework governs cybersecurity audit trails for the project. Modifying this routing language affects which directive's procedural framework would have applied to KIATIS-related cybersecurity evidence.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 **Direct verbatim diff (Track D D2 closure 2026-04-11, main agent direct read of raw/04 converted files):**
 
 **제2129호 (2018-02-05) 제9조 ¶2 verbatim:**
@@ -97,12 +100,10 @@ SET fr.layer = 1,
 - See [[../regulations/defense-it-2129-article-9|제9조 page]]
 - See [[../../output/a3-revision-timeline-report-2026-04-11|A.3 timeline report]] §3 anchor table
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 The micro-edit is a routine cross-reference update reflecting parallel changes in 국방사이버안보훈령 itself. When directive B (here 사이버안보훈령) revises its own structure, directive A (here 정보화업무훈령) must update its cross-reference to match. Such updates are administrative housekeeping and have no substantive intent to redirect accountability.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 This claim is **NEEDS_MORE_EVIDENCE** until one of the following is produced:
 
 1. **국방사이버안보훈령 revision history.** If 국방사이버안보훈령 had a contemporaneous (within ±6 months) revision in 2018-08 to 2019-08 that justifies the cross-reference update, the housekeeping hypothesis is supported.
@@ -111,25 +112,22 @@ This claim is **NEEDS_MORE_EVIDENCE** until one of the following is produced:
 
 Item 2 is a free verification step using the converted file set and should be performed before the verdict is finalized. It is queued as an A.4-completion follow-up task.
 
-## Verdict
-
+## 평결 (Verdict)
 **NEEDS_MORE_EVIDENCE.** Weak. The most basic verification (verbatim diff) has not yet been performed by the main agent. The atom is preserved as a placeholder so the A3 anchor receives a claim atom, but the verdict cannot be elevated until the diff is verified.
 
-## Open Questions
-
+## 미결 사항 (Open Questions)
 - What is the exact verbatim difference between 제2263호 제9조 ¶2 and 제2129호 제9조 ¶2? (Free verification, queued.)
 - What is the 국방사이버안보훈령 revision history 2018–2020? (Pending raw source location.)
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/07-3-1-31-제1층위-ActiveX.md` — Layer 1 (primary, jurisdictional hinge to 사이버안보훈령)
-- `vault-converted-korean/10-3-4-34-제4-층위.md` — Layer 4
-- `vault-converted-korean/11-3-5-35-제-5층위.md` — Layer 5
-- `vault-converted-korean/13-3-7-37-제7층위-진정서.md` — Layer 7
+- `Korean/07-3-1-31-제1층위-ActiveX.md` — Layer 1 (primary, jurisdictional hinge to 사이버안보훈령)
+- `Korean/10-3-4-34-제4-층위.md` — Layer 4
+- `Korean/11-3-5-35-제-5층위.md` — Layer 5
+- `Korean/13-3-7-37-제7층위-진정서.md` — Layer 7
 - Deferred to A.6 Re-verify. Wide cross-layer book coverage suggests this anchor is a more central narrative element than the current "weak placeholder" verdict reflects — re-verification likely upgrades the verdict.
 
-## Related
-
+## 관련 (Related)
 - [[2436ho-cluster-six-anchors|2436호 cluster (A3 not in cluster)]] (CORROBORATES)
 - [[../regulations/defense-it-2129-article-9|제9조]] (ABOUT)
 - [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)

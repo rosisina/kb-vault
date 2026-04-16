@@ -44,7 +44,7 @@ tags:
 ---
 # 시험평가 기간 중 핵심인물의 의도적 부재 — 舊KIATIS 담당자와 팀장의 동시 부재
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.2.1 (lines 53-116)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/10-3-4-34-제4-층위.md §3.4.2.1 (lines 53-116)
 **Layer:** [[../layers/layer-4|Layer 4]]
 **Aurora node:**
 ```cypher
@@ -64,7 +64,9 @@ SET fr.layer = 4,
     fr.summary = "舊KIATIS 담당자와 해당 팀장이 시험평가 전체 기간에 동시 부재한 사실은 시간적 일치가 너무 정확하여 우연으로 설명하기 어렵다. 윤도현은 본인의 질문에 수첩을 펼치며 침묵한 것으로 보고됨.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 新KIATIS 개발·운용시험평가 기간(2019.9.2.~11.) 동안 두 명의 핵심인물이 완전히 부재했다:
 
@@ -74,37 +76,34 @@ SET fr.layer = 4,
 
 이 두 인물은 舊KIATIS의 인터넷 운영 사실을 가장 잘 알고 있는 인물들로, 이들의 시험평가 기간 중 부재는 舊KIATIS 관련 질문을 회피하기 위한 의도적 설계로 판단된다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - The 舊KIATIS operational administrator (윤도현) was completely absent during the entire test evaluation period — timing too precise to be coincidental [진리성]
 - The responsible team leader (송민석) was also absent for the first half of evaluation — double absence eliminated anyone who could flag 舊KIATIS internet operation facts [진리성]
 - When later questioned, 윤도현 opened a notebook and remained silent — behavior consistent with prior instruction to avoid disclosure [진실성]
 - Both absences were arranged through legitimate channels (교육, 휴가) providing plausible deniability [진리성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **Record No. 2,276** — 보안대책 검토 (2019.6.13), 윤도현의 시험평가 기간 부재 기록
 - **Record No. 1,946** — 송민석의 국방대 교육 기록 (9.2~6)
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 윤도현과 송민석의 부재는 정상적인 교육 일정과 개인 휴가의 우연한 중첩이다. 국방대 교육은 기관이 배정하는 것이며 개인이 시기를 선택할 수 없으므로 의도적 설계가 아닐 수 있다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 이 주장은 다음이 제시되면 약화된다:
 1. 국방대 교육 일정이 시험평가 일정 확정 이전에 이미 배정되었음을 보여주는 기록
 2. 윤도현의 휴가 신청이 시험평가 일정 확정 이전에 제출되었음을 보여주는 기록
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Moderate. 진리성 8 / 타당성 7 / 진실성 8. 시간적 일치는 매우 정확하나, 교육 일정 배정 과정에 대한 추가 확인이 필요하다. 윤도현의 침묵 반응은 방증이지만 결정적 증거는 아니다.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/10-3-4-34-제4-층위.md` lines 56-61 — 윤도현/송민석 부재 기술
 
-- `vault-converted-korean/10-3-4-34-제4-층위.md` lines 56-61 — 윤도현/송민석 부재 기술
-
-## Related
-
+## 관련 (Related)
 - [[gukjeonwon-pre-evaluation-team-leader-exclusion]] — L4 팀장 배제 패턴 (CORROBORATES)
 - [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

@@ -70,7 +70,9 @@ SET fr.layer = 6,
     fr.summary = "한지훈 himself stated in raw/02 line 3540 (`내가 왜 기소유예를 당합니까? 제가 문제가 없는데`) and line 3541 (`무혐의지. 기소유예는 범죄사실이 있`); his interlocutor 최영수 acknowledged the same: `기각이 되야 되는데 왜 유예는 뭐 예요`. Korean criminal procedure 기소유예 is a 불기소 처분 of the 'criminal facts exist but prosecution deferred' type, structurally distinct from 무혐의 (no facts) and 기각 (rejected). For a person whose conduct was lawful, 기소유예 is a procedural injury, not a relief.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 The 기소유예 (deferred prosecution) disposition issued against 한지훈 by 군 검찰단 in October 2022 is **not exoneration**. Under Korean criminal procedure, 기소유예 is a 불기소 처분 of the 'criminal facts exist, prosecution deferred' type — structurally distinct from 무혐의 (no criminal facts) and 기각 (case rejected). For a 32-year career officer whose underlying conduct was lawful (per [[han-ji-hoon-prosecution-violates-2129-role-separation]]), the 기소유예 outcome constitutes the central Layer 6 harm: it brands the recipient as criminal-but-undeserving-of-formal-prosecution rather than acknowledging that no criminal facts ever existed. The complete harm structure comprises:
 
@@ -82,8 +84,11 @@ The 기소유예 (deferred prosecution) disposition issued against 한지훈 by 
 6. **가족 피해** — family harm
 7. **전역 후 사회적 고립** — post-discharge social isolation
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - Under Korean criminal procedure (형사소송법 제247조 기소편의주의), 기소유예 is a 불기소 처분 of the `범죄혐의가 인정되나` (criminal suspicion recognized) discretionary type — structurally distinct from 무혐의 (no criminal facts) and 기각 (case rejected) [타당성]
 - 한지훈 himself rejects the exoneration framing (raw/02 recording 159 line 3540): `내가 왜 기소유예를 당합니까? 제가 문제가 없는데` — and articulates the structural distinction at line 3541: `무혐의지. 기소유예는 범죄사실이 있` [진실성]
 - The interlocutor 최영수 concurs (raw/02 line 3546): `사실은 기소유예 조차도 안되야 되는데` — confirming that even 기소유예 should not have been the disposition for lawful conduct [진실성]
@@ -91,12 +96,10 @@ The 기소유예 (deferred prosecution) disposition issued against 한지훈 by 
 - The 기소유예 disposition was approved by the 단장 (안세준) via 결재 chain, not solely by 임형규 (raw/02 recording 142): `이것을 할 때는 단장님한테 다 결재를 받습니다` [진리성]
 - For a 32-year career officer whose underlying conduct was lawful, the 기소유예 outcome is the central Layer 6 harm — criminal branding via deferred prosecution — not relief [진실성]
 
-## Layer
-
+## 층위 (Layer)
 [[../layers/layer-6|Layer 6]] (primary) — `군 검찰단의 사기 수사와 범죄자 낙인`. The "범죄자 낙인" (criminal branding) phrase is the layer's own framing. This atom is the explicit articulation of what that branding consists of and why the 기소유예 outcome — which a procedural surface reading might treat as protective — is in fact the branding mechanism itself. [[../layers/layer-7|Layer 7]] (secondary) — the 진정서 (petition) response in raw/02 [014] / raw/01 chapter 13 is precisely a response to the 기소유예 stigma, not to a "case dropped" outcome.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **한지훈's own framing of 기소유예 as injury (raw/02 recording 159, lines 3537–3577):**
   - Line 3537: `(최영수) 기소유예? 그래, 기소 유예가 되 야지 당연히.` — interlocutor initially treats it as a positive outcome
   - Line 3540: `(본인) 아니, 내가 왜 기소유예를 당합니까? 제가 문제가 없는데.` — 한지훈 immediately rejects the framing
@@ -117,12 +120,10 @@ The 기소유예 (deferred prosecution) disposition issued against 한지훈 by 
   - 기소유예 records appear in personal background checks and may be invoked in subsequent proceedings under specific circumstances
   - For a public servant or military officer, the disposition carries career and reputational consequences distinct from 무혐의
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 기소유예 is functionally equivalent to no-prosecution and does not constitute criminal stigma in Korean legal practice. Under this hypothesis, the 한지훈 case's reputational and social harms are independent of the 기소유예 disposition and would have followed *any* investigation outcome (including 무혐의), because the harm comes from the existence of the investigation itself, not from its disposition. The 기소유예 vs. 무혐의 distinction would then be a semantic legal nicety with no real-world consequence.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 This claim is **CORROBORATED** unless one of the following is produced:
 
 1. **Korean Supreme Court or Constitutional Court rulings** treating 기소유예 as functionally equivalent to 무혐의 for purposes of personal stigma, employment, or background checks. Specific cases would substantially weaken the claim.
@@ -132,26 +133,23 @@ This claim is **CORROBORATED** unless one of the following is produced:
 
 If items 1–3 are produced with substantive content, the verdict downgrades to WEAKENED. Item 4 cannot be falsified directly but can be argued from comparator cases.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 9 / 진실성 10. The 진실성 (sincerity / victim-perspective) score is the maximum because the harm is articulated by the victim himself in raw/02 recordings 142 and 159, and the framing (`내가 왜 기소유예를 당합니까? 제가 문제가 없는데` / `무혐의지. 기소유예는 범죄사실이 있`) is precisely the structural distinction that the atom claims. The atom is in some sense self-evidencing — 한지훈's own statement that 기소유예 is unjust to a person whose conduct was lawful is the fact the atom asserts.
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/12-3-6-36-제6층위-군.md` — Layer 6 chapter (primary, will contain detailed treatment of the 기소유예 stigma and procedural harm)
-- `vault-converted-korean/13-3-7-37-제7층위-진정서.md` — Layer 7 chapter (the petition response, framed as response to 기소유예 stigma)
-- `vault-converted-korean/15-5-5-결론-및.md` — Conclusion (will likely contain the harm-structure summary)
+- `Korean/12-3-6-36-제6층위-군.md` — Layer 6 chapter (primary, will contain detailed treatment of the 기소유예 stigma and procedural harm)
+- `Korean/13-3-7-37-제7층위-진정서.md` — Layer 7 chapter (the petition response, framed as response to 기소유예 stigma)
+- `Korean/15-5-5-결론-및.md` — Conclusion (will likely contain the harm-structure summary)
 - Deferred to A.6 Re-verify. The book is the primary source for the harm framework and should supply verbatim citations for each of the seven harm components.
 
-## Open Questions
-
+## 미결 사항 (Open Questions)
 - **Is the 기소유예 결정문 itself in raw/05?** The verbatim text of the disposition would let the wiki extract the prosecutor's stated reasoning, which is the most directly falsifiable Layer 6 evidence.
 - **Did 한지훈 file an 항소 / 헌법소원 against the 기소유예?** Per recording 159 line 3554, this was actively considered. The outcome of any appeal is queued.
 - **Is there contemporaneous Korean legal commentary** distinguishing 기소유예 from 무혐의 for stigma purposes? A.5 web research target.
 - **For atom completeness, the seven harm components should each be linked to a verbatim source citation.** This atom currently establishes the structure; A.6 Re-verify should attach a Record No. or recording reference to each numbered component.
 
-## Related
-
+## 관련 (Related)
 - [[han-ji-hoon-prosecution-violates-2129-role-separation|paired Layer 6 atom: prosecution charge structurally inapplicable to 사업관리팀장]] (RELATED)
 - [[han-ji-hoon|한지훈 entity hub]] (RELATED)
 - [[im-hyung-gyu|임형규 (담당 검사)]] (RELATED)

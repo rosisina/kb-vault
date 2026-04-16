@@ -62,7 +62,9 @@ SET fr.layer = 4,
     fr.summary = "Two independent legal doctrines (국가계약법 RFP-binding and criminal-law 행위시법주의) converge on the same conclusion: KIATIS conduct must be measured against 제2129호";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 KIATIS 성능개선사업 conduct (2018–2019) is governed by 국방정보화업무 훈령 제2129호 (effective 2018-02-05) throughout its lifecycle. Two independent legal doctrines compel this conclusion:
 
@@ -71,20 +73,21 @@ KIATIS 성능개선사업 conduct (2018–2019) is governed by 국방정보화�
 
 Therefore any 2022 군 검찰 investigation that characterizes KIATIS conduct must apply 제2129호's standards (separation principle, 사업주관기관 binding, full DT&E article framework). Application of 제2436호's standards to KIATIS conduct is doctrinally foreclosed.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - KIATIS 성능개선사업 conduct (2018–2019) is governed by 국방정보화업무 훈령 제2129호 (effective 2018-02-05) throughout its lifecycle — the directive in force at RFP issuance and during test evaluation (2019-09 to 2019-12) [타당성].
 - Two independent legal doctrines converge on this conclusion: (a) **국가계약법 RFP-binds-lifecycle** principle — the regulatory framework named at RFP issuance binds the entire contract lifecycle; and (b) **행위시법주의 (lex temporis delicti)** under 형법 Article 1 — legality of conduct is measured against rules in force at the time of conduct [타당성].
 - 제2436호 (effective 2020-06-04) is not in force until six months after KIATIS test evaluation completed, and therefore its integration principle and Article 59~61 erasures cannot apply to KIATIS conduct [타당성].
 - Any 2022 군 검찰 investigation that applies 제2436호's standards to KIATIS conduct is doctrinally foreclosed; the applicable regime is 제58조 ¶2 main separation principle under 제2129호 [진실성].
 - Verdict: **CORROBORATED**, Strong. 진리성 9 / 타당성 10 / 진실성 9 — the two converging doctrines form an unusually robust legal foundation that any counter-hypothesis must overcome simultaneously [진리성].
 
-## Layer
-
+## 층위 (Layer)
 [[../layers/layer-4|Layer 4]] (test evaluation manipulation — establishes the substantive regulatory baseline against which Layer 4 conduct is measured) and [[../layers/layer-6|Layer 6]] (military prosecutor fraud investigation — establishes the legal premise for evaluating whether the 2022 investigation applied the correct directive). This atom is the bridge between the two layers.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - KIATIS RFP issued in 2018 under 제2129호 (per James, recorded in [[../events/2018-2019-kiatis-performance-improvement-project|KIATIS event page]])
 - KIATIS test evaluation: 2019-09-01 to 2019-12 (per James)
 - 제2129호 in force from 2018-02-05 through 2019-02-25 (when 제2263호 took effect)
@@ -94,12 +97,10 @@ Therefore any 2022 군 검찰 investigation that characterizes KIATIS conduct mu
 - 행위시법주의 — Korean criminal law general principle (Article 1 of 형법: `범죄의 성립과 처벌은 행위 시의 법률에 의한다`)
 - See [[kiatis-2129ho-main-regime-applies|paired claim: 제58조 ¶2 main regime applies]]
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 Procedural directives (훈령 등) are framework rules that govern administrative review, not substantive criminal law. Under this view, the 2022 군 검찰 investigation is itself a 2022 administrative act and is correctly governed by the 2022-current directive (제2649호 by then). Whether KIATIS conduct met 2022 standards is the relevant question, not whether it met 2018 standards. Under this hypothesis, 제2436호's integration principle (¶1) applies retroactively to KIATIS evidence interpretation.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 This claim is **CORROBORATED** unless one of the following is produced:
 
 1. **Korean administrative case law** treating defense IT directives as purely procedural framework rules retroactively applicable to historical conduct review. Specific case examples would substantially weaken the claim.
@@ -109,25 +110,22 @@ This claim is **CORROBORATED** unless one of the following is produced:
 
 If items 1 or 2 are produced, the verdict downgrades to WEAKENED. Items 3 and 4 would convert the question into a substantive legal debate rather than refuting the claim per se.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. The two converging doctrines (계약법 + 형법 행위시법주의) form an unusually robust legal foundation for the temporal binding. Any counter-hypothesis must overcome both doctrines, not just one.
 
-## Open Questions
-
+## 미결 사항 (Open Questions)
 - What does the 2022 군 검찰 investigation file actually invoke as its regulatory framework? If it cites 제2129호 throughout, the temporal-binding question never arises in the case file. If it cites 제2649호 or invokes "current standards", this atom becomes central to the Layer 6 analysis. (Pending raw/05 + raw/06 ingest.)
 - Is there a Korean Supreme Court or Constitutional Court ruling on the temporal binding of administrative procurement directives to historical conduct? (Pending A.5 web research.)
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/03-executive-summary--핵심-요약.md` — Executive summary
-- `vault-converted-korean/04-1-1-서론.md` — Introduction
-- `vault-converted-korean/08-3-2-32-제2-층위.md` — Layer 2 (project structure / contracting context)
-- `vault-converted-korean/12-3-6-36-제6층위-군.md` — Layer 6 (prosecutor's framework choice; central to this atom)
+- `Korean/03-executive-summary--핵심-요약.md` — Executive summary
+- `Korean/04-1-1-서론.md` — Introduction
+- `Korean/08-3-2-32-제2-층위.md` — Layer 2 (project structure / contracting context)
+- `Korean/12-3-6-36-제6층위-군.md` — Layer 6 (prosecutor's framework choice; central to this atom)
 - Deferred to A.6 Re-verify. The 행위시법주의 doctrine application to the 2022 prosecutor case is exactly what Layer 6 of the book covers; verdict and falsification structure should be elevated to verbatim book citations.
 
-## Related
-
+## 관련 (Related)
 - [[kiatis-2129ho-main-regime-applies|paired: 제58조 ¶2 main regime]] (CORROBORATES)
 - [[2436ho-test-evaluation-principle-inverted|the principle KIATIS conduct must NOT be measured by]] (CORROBORATES)
 - [[2436ho-dtne-articles-erased|the deletion KIATIS conduct must NOT be measured by]] (CORROBORATES)

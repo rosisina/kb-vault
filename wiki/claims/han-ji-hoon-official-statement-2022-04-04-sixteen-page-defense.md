@@ -75,7 +75,9 @@ SET fr.layer = 5,
     fr.summary = "16페이지 공식 소명서: 7항목 체계적 반박 + 김민수 전역 강요('옵션은 전역') + 박서준 '저도 살고 싶습니다' 최초 서면 기록 + 급성 스트레스·초조우울증 진단서 첨부. 참고자료 8건.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 한지훈이 2022년 4월 4일 **국방부 감사관실 직무감찰담당관**에게 제출한 **16페이지 공식 "진술 및 소명서"**는 갑질 혐의에 대한 **가장 체계적인 1차 방어 문서**이다. 8건의 참고자료를 첨부하여 혐의별로 구체적 반증을 제시하였다.
 
@@ -145,8 +147,11 @@ SET fr.layer = 5,
 7. **과장보고 후 석식 확인진술서**
 8. **진단서(중령 한지훈)**
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - [진리성] **김민수의 전역 강요 verbatim**: "나도 냉철해져야겠다. 이 사안은 심각하다. **너에게는 하나의 옵션이 있는데 그것은 전역이다**" — 갑질 신고 **다음 날**(2.10) 원장이 직접 전역을 유일 옵션으로 제시. 이지영(과장)도 동석. / Director's verbatim: "You have one option — resignation." Delivered the day after the complaint with section chief present.
 - [진리성] **박서준의 "저도 살고 싶습니다"가 최초 서면 기록** — 녹취 atom에서 한지훈이 구두로 증언한 내용이 **2022.4.4 공식 소명서에 서면으로** 기록됨 = 이중 증거(서면+구두). / "I want to live too" first appears in this written statement — dual evidence with later oral testimony.
 - [진리성] **"그냥 전역 안됩니다. 명예전역도 안됩니다"** — 박서준이 한지훈의 전역 제안을 **거부하면서 더 강한 처벌을 요구** = 조종된 발화(coached speech)의 서면 증거. [[layer5-park-seojun-gaslighting-victim-or-accomplice]]의 녹취 증언과 정확히 일치. / 박서준 rejected resignation AND honorary discharge — coached speech demanding harsher punishment.
@@ -154,8 +159,7 @@ SET fr.layer = 5,
 - [진실성] **"30년 이상 군을 위해 일했던 사람을 소명도 들어보지 않고 하루 아침에 내치고 인간적 배려가 전혀 없었다"** — 한지훈의 **인간적 비애**가 공식 문서에 기록됨. / "Cast out overnight without hearing my defense after 30+ years of service" — human anguish recorded in official document.
 - [진리성] **8건의 참고자료** 첨부 — 차관보고서, 업무보고서, 문자메시지, 사무분장표, 석식 확인진술서, 의료 진단서 = **문서적 반증 패키지**. / 8 attached reference documents form a documentary rebuttal package.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **소명서 원본** (raw/10/[20220404] 진술 및 소명서(갑질, 국방부 감사관실).pdf, 16+1 pages)
 - **참고자료 #7**: 과장보고 후 석식 확인진술서 (업체 직원 2명)
 - **참고자료 #8**: 진단서 — 급성 스트레스 반응, 초조우울증
@@ -163,27 +167,23 @@ SET fr.layer = 5,
 - Cross-reference: [[layer5-48hr-retaliation-causal-link|48시간 보복 — 소명서가 2.9~2.10 시간선을 서면 확인]]
 - Cross-reference: [[six-month-solitary-confinement-five-independent-witnesses|6개월 독방 — 소명서가 격리 시작점(2.10 분리)을 기록]]
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 소명서는 가해자의 자기변호 문서이며 객관적 증거력이 제한된다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 소명서의 구체적 주장을 반박하는 제3자 증거 — 업무 대신 수행 부인, 과장 보고 부인, 전역 권고 부인 등.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 10 / 타당성 8 / 진실성 10.
 
 진리성 10: 공식 서명 문서 + 8건 참고자료 첨부 + 이후 녹취들과 verbatim 수준 일치. 진실성 10: "저도 살고 싶습니다" + "전역 안됩니다 명예전역도 안됩니다" + "30년 군인을 소명 없이 내쫓고" — 피해의 극단적 강도가 공식 기록에 보존.
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/11-3-5-35-제-5층위.md` — Layer 5 전체가 이 소명서의 맥락
+- `Korean/11-3-5-35-제-5층위.md` — Layer 5 전체가 이 소명서의 맥락
 - Deferred to A.6 Re-verify.
 
-## Related
-
+## 관련 (Related)
 - [[layer5-park-seojun-gaslighting-victim-or-accomplice|박서준 가스라이팅 — "살고 싶습니다" 이중 증거]] (RELATED)
 - [[layer5-48hr-retaliation-causal-link|48시간 보복 — 2.9~2.10 시간선 서면 확인]] (RELATED)
 - [[six-month-solitary-confinement-five-independent-witnesses|6개월 독방 — 분리 시작점 기록]] (CORROBORATES)

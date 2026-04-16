@@ -62,37 +62,36 @@ SET fr.layer = 6,
     fr.summary = "검찰의 선별적 규정 인용: 별표(개인 기술의무)만 인용, 제3장(기관 제도의무) 무시.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 검찰이 피의자 신문에서 인용한 '국방사이버안보 훈령 AS-4-3'은 별표의 기술적 보호요구사항(SS-2-3 데이터 접근 통제 등)을 지칭할 가능성이 높다. 이는 개인의 기술적 의무에 초점을 맞추고, 제3장의 기관 차원 제도적 의무(보호대책 수립 제22-26조, 취약점 평가 제39-45조, 보안관제 제54조)를 의도적으로 회피한 것이다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - Prosecution cited technical appendix (individual duty) while ignoring Chapter 3 (institutional duty) — selective citation to individualize blame [타당성]
 - Chapter 3 places duties on DIDC as institution, not on any individual officer [타당성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - *(regulation-text claim — Record No. exempt per CLAUDE.md)*
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 AS-4-3은 다른 코딩 체계를 지칭하며 검찰이 제3장도 별도 인용했을 수 있다
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 AS-4-3의 정확한 조항 참조 해독 + 검찰 기록에서 제3장 인용 여부 확인
 
-## Verdict
-
+## 평결 (Verdict)
 **NEEDS_MORE_EVIDENCE.** MODERATE. 진리성 7 / 타당성 8 / 진실성 9.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/cyber security reguration.md` lines 506-551 vs 167-398
 
-- `vault-converted-korean/cyber security reguration.md` lines 506-551 vs 167-398
-
-## Related
-
+## 관련 (Related)
 - [[xsyn-sop-vpn-mandate-vs-prosecution-cherry-pick]] (RELATED)
 - [[prosecution-selective-criminalization-firewall-approval-chain]] (CAUSES)
 - [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

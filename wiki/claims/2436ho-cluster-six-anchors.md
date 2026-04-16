@@ -69,12 +69,17 @@ SET fr.layer = 4,
 
 **The filename `2436ho-cluster-six-anchors.md` is preserved for URL stability** even though the current framing is eight anchors. The atom was originally created with the six-anchor framing during the 2026-04-11 morning A.4 calibration ingest; P6 blind re-measurement later the same day expanded the count to eight. By that time multiple hub pages and claim atoms had already wikilinked to `2436ho-cluster-six-anchors`, so renaming would require a coordinated update of ~15 inbound references. The title and body were updated in-place; the filename slug remains the permanent URL. Per Luhmann's *Zettelkasten* "names are traces of the archive's history" principle, leaving the filename visible is itself documentary.
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 The 제2436호 revision (2020-06-04) of 국방정보화업무 훈령 is a coordinated single-revision cluster moving **eight** of the thirteen baseline anchors simultaneously: A1 (DIDC naming), A2 (role-tier renaming), A8a (OT&E environment hedge), A8b (OT&E sponsor binding), **A11 (DT&E sponsor binding — symmetric to A8b)**, **A12 (DT&E `합격/불합격` result-judgment clause)**, A9 (separation-principle inversion), and A10 (DT&E article body deletion). No other revision in the 2017–2025 dataset moves more than one anchor at a time. The 제2436호 cluster reconstructs the directive's test-evaluation regime in a single edit, with six of the eight movements concentrated on 제57조~제61조 (the 시험평가 regime itself).
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - 제2436호 (2020-06-04) moves **eight of thirteen** baseline anchors simultaneously (A1, A2, A8a, A8b, A11, A12, A9, A10) in a single revision of 국방정보화업무 훈령 [진리성]
 - **Six of the eight anchors (A8a, A8b, A11, A12, A9, A10) fall within 제57조~제61조 alone** — the 시험평가 regime was the specific target of the revision, not the directive as a whole [타당성]
 - No other revision in the 2017–2025 dataset (제2263호 / 제2398호 / 제2576호 / 제2649호 / 제2842호 / 제2946호 / 제3059호 / 제3080호) moves more than one anchor at a time; the cluster ratio is at least 8:1 against the next-largest single-revision change [진리성]
@@ -83,12 +88,10 @@ The 제2436호 revision (2020-06-04) of 국방정보화업무 훈령 is a coordi
 - A11 and A12 were discovered on 2026-04-11 during A.6 P6 blind re-measurement of 제57조 full text; the original 6-anchor framing (A8b OT&E-only) missed the DT&E-side symmetry (사업관리기관 binding) and the DT&E result-judgment deletion. Both additions strengthen the cluster's "test-evaluation regime rebuild" framing [진리성]
 - Verdict CORROBORATED (strength STRONG); falsification requires producing any other revision moving ≥8 anchors simultaneously or a 제·개정 이유서 showing scheduling-convenience bundling [진리성]
 
-## Layer
-
+## 층위 (Layer)
 [[../layers/layer-1|Layer 1]] (DIDC trace removal — A1) and [[../layers/layer-4|Layer 4]] (test evaluation manipulation — A8a, A8b, A9, A10). The cluster is the regulatory pivot that links the two layers structurally: the same revision that erases the DIDC accountability hook also removes the procedural framework that would have constrained DIDC-related test evaluation.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - A1 — 제2129호 제10조 ¶1 4호 (lines 584–588) vs. 제2436호 제10조 (lines 552–589): 4호 axis entirely absent in 제2436호. See [[2436ho-didc-naming-anchor-removed]].
 - A2 — 제2129호 제11조 ¶1 (lines 602–606) names `사업통제기관·사업주관기관·사업관리기관`; 제2436호 제11조 ¶1 (line 591) renames to `정보화기획관실, 소요제기기관, 집행기관`.
 - A8a — 제2398호 제57조 ¶1 제2호 (line 1671) introduced `또는 이와 유사한 환경에서`; 제2436호 (line 1685) removes it. Net 4-month flip.
@@ -100,12 +103,10 @@ The 제2436호 revision (2020-06-04) of 국방정보화업무 훈령 is a coordi
 - Negative cluster comparator: search of all eight other revisions yields zero with multiple simultaneous movements. The next-largest single-revision change is 제2842호 (re-addition of A8a hedge after 3-year absence), a single-anchor movement.
 - See [[../regulations/defense-it-operations-directive-2129|directive hub]] §"제2436호 cluster" table.
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 The six co-occurring movements at 제2436호 are statistically expected for any "major" directive revision and reflect periodic restructuring of administrative directives rather than coordinated rebuild. Defense IT directives may receive episodic comprehensive revisions every several years; 제2436호 happens to be one such episode and the simultaneity is an artifact of the revision interval.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 This claim is **CORROBORATED** unless one of the following is produced:
 
 1. Any of the other eight revisions in the dataset (제2263호 / 제2398호 / 제2576호 / 제2649호 / 제2842호 / 제2946호 / 제3059호 / 제3080호) is shown to move six or more anchors simultaneously, demonstrating that 제2436호's cluster magnitude is not exceptional. (Easily falsifiable by re-running A.3 measurements; this has been done — none qualify.)
@@ -114,22 +115,19 @@ This claim is **CORROBORATED** unless one of the following is produced:
 
 If item 1 is produced, the verdict downgrades to WEAKENED. If item 2 is produced with credible justification, the verdict downgrades to NEEDS_MORE_EVIDENCE.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. Cluster magnitude exceeds the next-largest single-revision change by a factor of at least 6:1 in the eleven-anchor framework, and the six movements span four distinct articles (제10조, 제11조, 제57조, 제58조, 제59~61조 group), making the "scheduling convenience" counter-hypothesis structurally implausible without independent corroboration from a 입법예고 document.
 
-## Open Questions
-
+## 미결 사항 (Open Questions)
 - Does the 제2436호 입법예고 / 규제영향분석서 exist and is it publicly retrievable? (Pending A.5 web research target.)
 - Did the 2020-04 to 2020-06 timeframe contain any external trigger (e.g., audit, NIS report, internal MND directive review) that could plausibly motivate a coordinated edit of this magnitude?
 - The temporal distance from KIATIS test evaluation completion (2019-12) to 제2436호 effective date (2020-06-04) is six months. Is this consistent with a "post-incident regulatory adjustment" timeline based on comparable cases? (Empirical question requiring base-rate data.)
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/10-3-4-34-제4-층위.md` — Layer 4 chapter discusses the 2020-06 directive event cluster. Deferred to A.6 Re-verify.
+- `Korean/10-3-4-34-제4-층위.md` — Layer 4 chapter discusses the 2020-06 directive event cluster. Deferred to A.6 Re-verify.
 
-## Related
-
+## 관련 (Related)
 - [[2436ho-didc-naming-anchor-removed|A1: DIDC naming anchor removed]] (CORROBORATES)
 - [[2436ho-gukjeonwon-role-tier-renaming|A2: role-tier renaming]] (SUPERSEDES)
 - [[2398-2842ho-otne-environment-hedge-flipflop|A8a: OT&E environment hedge flip-flop]] (SUPERSEDES)

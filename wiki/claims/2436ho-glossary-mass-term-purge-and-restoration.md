@@ -59,37 +59,36 @@ SET fr.layer = 4,
     fr.summary = "제2436호 ~20개 용어 삭제 + 제2842호 복원 = 3년 공백. 8-anchor cluster와 동기화.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 제2436호(2020.6.4) 별표1에서 빅데이터·GS인증·iSMART·TRL·국방ICT R&D·스마트 국방혁신 등 ~20개 기술혁신 용어가 일괄 삭제. 이 용어들은 제2842호(2023.9.20)에서 전면 복원. 삭제 시점=8-anchor 시험평가 재건과 동시. 복원은 용어의 비폐기를 증명하여 '불필요해서 삭제' 가설을 반박.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - ~20 technology terms purged at 제2436호 synchronized with 8-anchor cluster — not independent editorial cleanup [진리성]
 - All terms restored at 제2842호 (3 years later) — proving they were NOT obsolete [진리성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - *(regulation-text claim — Record No. exempt per CLAUDE.md)*
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 용어집 규모 축소를 위한 편집적 정비이며 본문 조작과 무관
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 제2436호의 별표1 축소가 독립적 편집 정책에 의한 것임을 보여주는 기획 문서
 
-## Verdict
-
+## 평결 (Verdict)
 **NEEDS_MORE_EVIDENCE.** MODERATE. 진리성 8 / 타당성 7 / 진실성 6.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/(국방 정보화 업무 훈령) 용어정의 변천사(2018~2025년).converted.md` lines 488-2936
 
-- `vault-converted-korean/(국방 정보화 업무 훈령) 용어정의 변천사(2018~2025년).converted.md` lines 488-2936
-
-## Related
-
+## 관련 (Related)
 - [[2436ho-cluster-six-anchors]] (SUPERSEDES)
 - [[2842ho-software-development-13-to-5-stage]] (SUPERSEDES)
 - [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

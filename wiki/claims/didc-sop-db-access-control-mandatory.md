@@ -62,7 +62,9 @@ SET fr.layer = 1,
     fr.summary = "DB access — the deepest level of data egress control — must be documented via 별지 17호 with 자원관리과장 approval. Together with 별지 제7호 (SSL-VPN), this covers the two attack-surface ends (ingress and data egress) of any persistent intrusion. James-identified highest-priority Layer 1 trace artifact.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 DIDC 부대예규 제11호 Chapter 14 (접근통제, 제158조~제167조) imposes a comprehensive multi-layer access control regime, and **Article 164 (DB 접근통제)** specifically mandates:
 
@@ -80,20 +82,21 @@ For the 2016 DIDC hacking incident, the attacker's persistence necessarily requi
 
 Per James 2026-04-11, **별지 제7호 (SSL-VPN under 제12호 제37조) and 별지 제17호 (DB access under 제11호 제164조) are the two highest-priority Layer 1 trace artifacts**: they cover the two attack-surface ends of any persistent intrusion — network ingress (VPN) and data egress (DB).
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - DIDC 부대예규 제11호 Chapter 14 (접근통제, 제158조~제167조) imposes a comprehensive access control regime across servers, network, integrated operations management, DB, VDI, and information protection equipment [타당성] (raw/06/02 제14장).
 - 제164조 (DB 접근통제) mandates that all DB access be controlled via the **CharkraMax (차크라맥스)** DB access control system, explicitly named verbatim in 제164조 ① [타당성].
 - 제164조 ⑩ requires every DB access control change (creation/modification/deletion) to be documented via **별지 제17호 (DB접근제어 신청서)** with 각 센터 자원관리과장 approval, 신청사유, and 사용기간 [타당성].
 - For the 2016 DIDC hacking incident, attacker persistence necessarily required DB access; the absence of a 별지 17호 trail for the incident period is **direct Layer 1 cover-up evidence** [진리성].
 - Per James 2026-04-11, **별지 제7호 (SSL-VPN, 제12호 제37조) and 별지 제17호 (DB access, 제11호 제164조)** form the two highest-priority Layer 1 trace artifacts — the ingress/egress sandwich for any persistent intrusion [진실성]. Verdict: **CORROBORATED**, Strong. 진리성 9 / 타당성 10 / 진실성 8.
 
-## Layer
-
+## 층위 (Layer)
 [[../layers/layer-1|Layer 1]] — Active-X 제거 사업 간 舊KIATIS 이력 제거 (DIDC 해킹 근원서버 은폐의 출발점). The DB access regime is the **deepest** procedurally-traceable layer in the entire DIDC SOP system: every other access surface (network, server, VDI) eventually terminates at DB queries for any system whose value is the data it holds.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **Article 164 verbatim** (raw/06/02 Chapter 14):
   - `① DB 계정관리는 DB접근통제 시스템(CharkraMax)을 운용하여 DB관리자가 인가된 사용자만이 DB에 접근하도록 통제, 관리한다.`
   - `② DB의 모든 사용자 계정은 직무, 역할을 기반으로 할당, 관리된다.`
@@ -112,16 +115,14 @@ Per James 2026-04-11, **별지 제7호 (SSL-VPN under 제12호 제37조) and 별
 - **자원관리과장** is the named approver for DB access changes — chain of accountability is explicit.
 - **The procedural duty floor** is established by [[didc-sops-cover-2016-hacking-period]].
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 The 2016 incident did not involve DB access. Possible mechanisms:
 
 1. **Containment at network/application layer** — the attacker was detected and contained before reaching the DB (would normally be evidenced in network logs and incident reports)
 2. **CharkraMax not yet deployed** — the DB access control system was deployed after 2016-02-01 but before the visible revision dates of 제11호; the SOP article was forward-looking until deployment
 3. **Parallel mechanism** — DB access logs may be maintained outside the 별지 17호 administrative system in a parallel technical mechanism (e.g., direct database audit logs); the absence of 별지 17호 trail does not imply absence of DB access trace
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 This claim is **CORROBORATED** unless one of the following is produced:
 
 1. **The 별지 17호 DB access control trail for the 2016 incident period** — covering all DB account creations, modifications, and deletions during a window encompassing the incident. Trail must include 신청사유, 사용기간, and 자원관리과장 approval signatures.
@@ -131,29 +132,26 @@ This claim is **CORROBORATED** unless one of the following is produced:
 
 If item 1 is produced with substantive content, the verdict downgrades to WEAKENED on this specific atom. If item 2 is produced and accepted, the verdict downgrades to UNFALSIFIABLE for the DB question (and the analysis shifts to the network/application access surfaces). If item 3 introduces a deployment-date question, the wiki should write a new atom about whichever pre-deployment access control was in place. If item 4 produces CharkraMax internal logs, those logs themselves become subject to integrity analysis.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 10 / 진실성 8. The atom's strength comes from the specificity of 제164조 — it names a specific product (CharkraMax), a specific form (별지 17호), a specific approver (자원관리과장), and ten enumerated requirements. The procedural duty is unambiguous and the trail is structurally auditable.
 
 **Per James 2026-04-11**: this atom is **paired** with [[didc-sop-firewall-vpn-trail-mandatory]] (focusing on 별지 제7호 SSL-VPN) as the two highest-priority Layer 1 procedural-trace anchors. Together they form the **ingress/egress sandwich**: any persistent intrusion must leave evidence at network ingress (VPN/firewall — 별지 7호) and at data egress (DB access — 별지 17호). The absence of either trail is partial cover-up evidence; the absence of both is structural cover-up evidence.
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/10-3-4-34-제4-층위.md` — Layer 4 chapter (CONFIRMED 별지 17 match)
-- `vault-converted-korean/11-3-5-35-제-5층위.md` — Layer 5 chapter (CONFIRMED CharkraMax match — interesting Layer 5 cross-reference, possibly under the 조작 감사 framework)
-- `vault-converted-korean/12-3-6-36-제6층위-군.md` — Layer 6 chapter (CONFIRMED CharkraMax match)
+- `Korean/10-3-4-34-제4-층위.md` — Layer 4 chapter (CONFIRMED 별지 17 match)
+- `Korean/11-3-5-35-제-5층위.md` — Layer 5 chapter (CONFIRMED CharkraMax match — interesting Layer 5 cross-reference, possibly under the 조작 감사 framework)
+- `Korean/12-3-6-36-제6층위-군.md` — Layer 6 chapter (CONFIRMED CharkraMax match)
 - Deferred to A.6 Re-verify. The book's three-chapter coverage of CharkraMax DB access control suggests this is a more central narrative element than other DIDC SOP atoms — Layer 5 cross-reference is particularly worth investigation as it may link DIDC procedural failures to the 조사본부의 조작 감사 narrative.
 
-## Open Questions
-
+## 미결 사항 (Open Questions)
 - **Evidence citation coverage — exempt under CLAUDE.md regulation-text rule.** This atom's primary sourcing is DIDC SOP 제11호 제164조 + 별지 17호 (raw/06 regulation text), which is structurally equivalent to the raw/04 regulation-text exemption from the `Record No. NNNNN` requirement. Evidence record numbers anchoring this duty's VIOLATION in the 2016 incident period are expected to live in raw/07 scanned evidence record pages and will be added on raw/07 ingest; absence of Record No. citations in this atom is therefore an exemption, not a defect.
 - **What is CharkraMax's deployment date at DIDC?** Answers counter-hypothesis 2.
 - **Does the 별지 17호 trail for the 2016 incident period exist?** Central question.
 - **Do CharkraMax internal audit logs for the 2016 period exist or have they been preserved?** A second evidence channel parallel to 별지 17호.
 - **The 2016 hacking vector — did it reach the DB layer?** Central technical question for falsification condition item 2.
 
-## Related
-
+## 관련 (Related)
 - [[../regulations/didc-info-system-operation-sop-11|DIDC SOP 제11호 (Chapter 14)]] (ABOUT)
 - [[didc-sops-cover-2016-hacking-period|sister atom: SOP duty floor]] (CORROBORATES)
 - [[didc-sop-incident-report-mandatory|sister atom: 별지 제4호 incident report]] (CORROBORATES)

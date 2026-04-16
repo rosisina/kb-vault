@@ -43,7 +43,7 @@ tags:
 ---
 # 舊KIATIS의 이중구조 — 웹 외관 아래 C/S 방식 DB 직접접속
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/07-3-1-31-제1층위-ActiveX.md §3.1.1.5 (lines 45-60)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/07-3-1-31-제1층위-ActiveX.md §3.1.1.5 (lines 45-60)
 **Layer:** [[../layers/layer-1|Layer 1]]
 **Aurora node:**
 ```cypher
@@ -63,7 +63,9 @@ SET fr.layer = 1,
     fr.summary = "장우진 진술서(Record 5,164~5,165)에서 15년 VPN 미사용 확인. 피의자신문조서(Record 4,890)에서 '(구)체계는 15년 동안 DB에 직접 접속했습니다. VPN 없이' 진술. 9주간 VPN OTP 요청 후 사라진 기록(Record 1,629~1,692). 웹 외관 아래 실제 DB 직접접속 구조.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 舊KIATIS는 구조적 기만을 내포한 이중구조 시스템이다:
 
@@ -74,36 +76,33 @@ SET fr.layer = 1,
 
 9주간(2019.4.8~5.21) VPN OTP 요청이 주간업무보고(기록 제1,629쪽~제1,692쪽)에 기재되었다가 사라진 것은 VPN 적용 시도가 어떤 이유로 중단되었음을 보여준다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - 舊KIATIS had a dual architecture: web frontend masking a C/S direct DB access backend via ActiveX — no VPN, no encryption [진리성]
 - 장우진's formal written statement (Record No. 5,164-5,165) confirms 15 years of no-VPN DB direct access [진리성]
 - 9-week VPN OTP request trail in weekly reports then disappeared — someone suppressed the VPN effort [진리성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **Record No. 5,164~5,165, 10,316~10,318** — 장우진 진술서
 - **Record No. 4,890** — 피의자신문조서 (VPN 미사용 진술)
 - **Record No. 1,629~1,692** — 주간업무보고 (VPN OTP 요청 기록)
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 ActiveX C/S 구조는 2000년대 한국 정부 시스템의 일반적 관행이다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 舊KIATIS C/S 구조가 당시 보안 규정에 부합하는 승인된 아키텍처였음을 보여주는 기록.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 9 / 진실성 7.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/07-3-1-31-제1층위-ActiveX.md` lines 45-60
 
-- `vault-converted-korean/07-3-1-31-제1층위-ActiveX.md` lines 45-60
-
-## Related
-
+## 관련 (Related)
 - [[old-kiatis-hosted-inside-other-server-15-years]] — L1 타 서버 내 운용 (RELATED)
 - [[old-kiatis-direct-db-access-without-vpn]] — L1 DB 직접접속 (RELATED)
 - [[active-x-removal-as-project-goal-confirms-vulnerability]] — L1 Active-X 보안취약 (CORROBORATES)

@@ -73,7 +73,9 @@ SET fr.layer = 6,
     fr.summary = "6개 혐의 각각에 대한 정리·공준 기반 체계적 반박 + 99점 '군사용 적합' 승인 문서를 허위라 함은 표적수사 + '그 문서의 행위와는 관련이 없는 본인이 어떻게 공모를 할 수 있는지' 핵심 질문.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 한지훈의 반박 문서(2022.9.29, 3,811줄)에서 6개 혐의 각각에 대한 체계적 반박의 핵심 논거:
 
@@ -119,40 +121,38 @@ SET fr.layer = 6,
 
 이 한 문장이 6개 혐의 전체의 **구조적 결함**을 요약한다: 결재라인에 없는 사람이 결재라인 위의 문서를 "공모하여 허위 작성"할 수 없다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - [타당성] **6개 혐의 각각에 대해** 정리·공준·증거목록을 인용한 체계적 반박이 수행되었으나, 검찰은 이 반박에 대해 **어떤 재반박도 하지 않고 기소유예를 유지** — 반박 무시 = 사전 결론의 증거. / All 6 charges systematically refuted with theorems and evidence citations; prosecution maintained 기소유예 without any counter-response.
 - [진리성] **"결재라인에 없는 사람이 어떻게 공모할 수 있는지"** — 이 질문은 혐의 구조의 **논리적 불가능성**을 한 문장으로 요약. 검찰은 이 질문에 답하지 않았다. / "How can a person not in the approval chain conspire regarding documents he never signed?" — the prosecution never answered.
 - [진리성] **99점+ '군사용 적합' 승인 문서를 "허위"라 함** = 평가위원회 전체의 판단을 허위라 하는 것 — 이 경우 검찰은 18명의 평가위원 **전원**을 공범으로 기소해야 논리적 정합성. / Calling a 99+ 'military adequate' approved document "false" means calling all 18 evaluators accomplices.
 - [진실성] 이 문서는 **압수수색 후 한지훈이 "밤낮을 새우며 분석"**한 결과물 — 피의자가 스스로 증거를 분석하여 검찰보다 정밀한 반박을 수행한 것 자체가 **무혐의의 방증**. / The suspect produced a more rigorous analysis than the prosecution — itself evidence of innocence.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **반박 문서 전문** (raw/05 20220929, 3,811 lines)
 - **메타 atom**: [[han-ji-hoon-rebuttal-20220929-meta-axiom-theorem-structure]]
 - Cross-reference: [[han-ji-hoon-prosecution-violates-2129-role-separation|역할분리 위반 — 혐의 1 반박의 핵심]]
 - Cross-reference: [[prosecution-misapplies-2129-article-58-4-to-kiatis|제58조 ¶4 오적용 — 혐의 4 반박의 핵심]]
 - Cross-reference: [[prosecution-non-prosecution-self-contradiction|불기소 내적 모순 — 99점 성공+기소유예 모순]]
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 반박 문서는 피의자의 자기변호이며 검찰의 증거와 비교 검토가 필요하다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 검찰이 이 문서의 반박 논거에 대해 실질적 재반박을 수행한 기록.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 10 / 타당성 9 / 진실성 10.
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/12-3-6-36-제6층위-군.md` — §3.6 전체가 이 반박 문서의 발전형
+- `Korean/12-3-6-36-제6층위-군.md` — §3.6 전체가 이 반박 문서의 발전형
 - Deferred to A.6 Re-verify.
 
-## Related
-
+## 관련 (Related)
 - [[han-ji-hoon-rebuttal-20220929-meta-axiom-theorem-structure|메타 atom]] (OPPOSES)
 - [[han-ji-hoon-prosecution-violates-2129-role-separation|역할분리]] (OPPOSES)
 - [[prosecution-misapplies-2129-article-58-4-to-kiatis|제58조 오적용]] (OPPOSES)

@@ -53,7 +53,7 @@ tags:
 ---
 # 감리업체 DT/OT 테스트 결과보고서의 팀장 배제 — 대부분 '부적합' 결과 은폐
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.2.3 (lines 163-190)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/10-3-4-34-제4-층위.md §3.4.2.3 (lines 163-190)
 **Layer:** [[../layers/layer-4|Layer 4]]
 **Aurora node:**
 ```cypher
@@ -73,7 +73,9 @@ SET fr.layer = 4,
     fr.summary = "79페이지 감리결과보고서(Record 2,773~2,852)의 요구사항별 점검결과가 대부분 '부적합'. 감리업무일지(Record 2,767~2,771)에 최소 8명 참석 기록. 이 보고서는 이후 군검찰단 수사의 핵심 공문이 됨. 팀장 배제 패턴의 또 다른 사례.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 국유단이 2019년 9월 24일 발송한 "6.25전사자 종합정보체계 성능개선 감리용역 DT/OT 테스트 지원 결과(통보, 국유단장 결재)"를 이준호 (공모자-1)가 2019년 10월 7일 접수하여 "1인 결재" 후 개발관리팀장 한지훈에게 미보고하였다(기록 제2,762쪽).
 
@@ -81,36 +83,33 @@ SET fr.layer = 4,
 
 이 보고서는 군검찰단의 인지수사와 고소수사 사건 여부를 판단하는 핵심 공문이다. 또한 박서준·이지영, 박서준·이지영·김민수 결재로 8개월에 걸쳐 군검찰단과 수차례 공문이 송수신되었으며, 대부분 한지훈을 배제하고 결재하여 군검찰단으로 전달되었다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - The 79-page audit DT/OT test result report was hidden from the team leader via single-person approval by 이준호 — continuing the systematic exclusion pattern [진리성]
 - The audit company's inspection results were mostly "non-compliant" (부적합) — this document became central to the prosecution's case [진리성]
 - 박서준·이지영·김민수 signed off on 8 months of correspondence with the prosecution — all excluding 한지훈 from the approval chain [진리성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **Record No. 2,762** — 감리용역 DT/OT 테스트 지원 결과 공문 (이준호 1인결재)
 - **Record No. 2,767~2,771** — 감리업무일지 (8명+ 참석 기록)
 - **Record No. 2,773~2,852** — DT/OT 테스트 지원 결과보고서 79페이지
 - **Record No. 5,835~5,852, 3,938, 6,700** — 군검찰단 제출 자료 목록
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 이준호의 1인결재는 업무 효율성을 위한 일상적 결재 방식이며, 보고서 내용이 최종 감리결과에서 해소되었으므로 은폐 의도가 없었다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 이준호의 1인결재가 팀장 부재 등 정당한 사유임을 보여주는 기록.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 9 / 진실성 8.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/10-3-4-34-제4-층위.md` lines 163-180
 
-- `vault-converted-korean/10-3-4-34-제4-층위.md` lines 163-180
-
-## Related
-
+## 관련 (Related)
 - [[gukjeonwon-pre-evaluation-team-leader-exclusion]] — L4 팀장 배제 패턴 (RELATED)
 - [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

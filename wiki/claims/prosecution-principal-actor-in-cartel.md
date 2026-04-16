@@ -51,7 +51,7 @@ tags:
 ---
 # 군검찰단은 카르텔의 공범이 아닌 주동자
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.6.2 (lines 806-812)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/12-3-6-36-제6층위-군.md §3.6.6.2 (lines 806-812)
 **Layer:** [[../layers/layer-6|Layer 6]]
 **Aurora node:**
 ```cypher
@@ -71,7 +71,9 @@ SET fr.layer = 6,
     fr.summary = "Records 6,620/6,609~6,632에서 2016 해킹 관련 은닉 증거. Record 4,890에서 논고자의 발각 사실. Records 11,334/11,024에서 트리거 발사 확인. 제6층위 정리01/02로 사기수사 전범기관 판정. 32년 군인에 대한 영구적 피해: 명예실추, 경력단절, 가족 파괴.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 제6층위의 종합 정리에 따르면, 군검찰단은 국방정보화카르텔의 단순 공범이 아닌 **주동자**(principal actor)이다.
 
@@ -82,37 +84,34 @@ SET fr.layer = 6,
 
 결과: 32년 경력 군인에 대한 영구적 피해 — 명예실추, 경력단절, 정신적 트라우마, 가족 파괴.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - The military prosecution was the PRINCIPAL ACTOR (주동자) of the cartel, not merely an accessory — it led the 2016 post-hacking joint investigation and used that position to protect the cover-up [진리성]
 - DIDC 1센터(용인), not 2센터(계룡대), was the true host of the 2016 North Korean hacking — concealed by the prosecution's investigation [진리성]
 - 한지훈's discovery of the cover-up triggered the retaliatory prosecution [진실성]
 - Permanent damage: career destruction, reputation loss, family destruction, psychiatric trauma for a 32-year military officer [진실성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **Record No. 6,620, 6,609~6,632** — 2016 해킹 은닉 증거
 - **Record No. 4,890** — 한지훈의 발각
 - **Record No. 11,334, 11,024** — 트리거 발사
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 군검찰단은 정보 비대칭에 의한 수동적 판단 오류를 범한 것이다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 군검찰단이 카르텔과 독립적으로 수사했음을 보여주는 기록.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 9 / 진실성 10.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/12-3-6-36-제6층위-군.md` lines 806-812
 
-- `vault-converted-korean/12-3-6-36-제6층위-군.md` lines 806-812
-
-## Related
-
+## 관련 (Related)
 - [[prosecution-fraud-meets-criminal-elements]] — L6 사기수사 범죄 성립 (RELATED)
 - [[prosecution-non-prosecution-self-contradiction]] — L6 불기소 모순 (RELATED)
 - [[prosecution-knew-innocence-continued-case]] — L6 무혐의 인지 (RELATED)

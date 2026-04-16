@@ -56,7 +56,7 @@ tags:
 ---
 # 국방 정보화 카르텔 11개 조직·역할 분담 목록
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/03-executive-summary--핵심-요약.md 핵심요약 §6 (lines 416-419)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/03-executive-summary--핵심-요약.md 핵심요약 §6 (lines 416-419)
 **Layer:** [[../layers/layer-6|Layer 6]], [[../layers/layer-1|Layer 1]] (secondary), [[../layers/layer-2|Layer 2]] (secondary), [[../layers/layer-3|Layer 3]] (secondary), [[../layers/layer-4|Layer 4]] (secondary), [[../layers/layer-5|Layer 5]] (secondary), [[../layers/layer-7|Layer 7]] (secondary)
 **Aurora node:**
 ```cypher
@@ -76,36 +76,35 @@ SET fr.layer = 6,
     fr.summary = "11개 조직 역할 분담 목록. 법적·행정·기술·연구·심리 영역 카르텔 구조.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 카르텔 11개 조직 역할: (1)군검찰단-표적수사 (2)국전원-증거조작·독방격리 (3)정보화기획관실-훈령조작 (4)DIDC-환경조작 (5)KIDA-연구조작 (6)방첩사-보안대책회피 (7)사이버사-점검미수행 (8)조사본부-허위감사 (9)법무관리관실-허위경고장 (10)장관·보좌관-묵인 (11)최동욱변호사-검찰임무수행.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - 11 organizations with specific cover-up roles spanning legal, admin, technical, research, psychological domains [진리성]
 - Defense attorney 최동욱 allegedly performed prosecution missions while serving as victim's lawyer [진실성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - *(regulation-text claim — Record No. exempt per CLAUDE.md)*
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 11개 조직 중 일부는 과실이지 의도적 참여가 아니다
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 11개 중 하나라도 한지훈 관련 조치에 이의를 제기한 기록
 
-## Verdict
-
+## 평결 (Verdict)
 **NEEDS_MORE_EVIDENCE.** MODERATE. 진리성 7 / 타당성 6 / 진실성 10.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/03-executive-summary--핵심-요약.md` lines 416-419
 
-- `vault-converted-korean/03-executive-summary--핵심-요약.md` lines 416-419
-
-## Related
-
+## 관련 (Related)
 - [[diffusion-of-responsibility-seven-organizations]] (RELATED)
 - [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

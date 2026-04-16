@@ -43,7 +43,7 @@ tags:
 ---
 # 검사의 기소 근거 전환 — VPN에서 방화벽으로 핵심 논거 이동
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.4.3.1 (lines 328-371)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/12-3-6-36-제6층위-군.md §3.6.4.3.1 (lines 328-371)
 **Layer:** [[../layers/layer-6|Layer 6]]
 **Aurora node:**
 ```cypher
@@ -63,7 +63,9 @@ SET fr.layer = 6,
     fr.summary = "Record 11,157~11,160에서 검사의 VPN→방화벽 논거 전환 확인. Record 11,188에서 검사가 '정의롭게 했다고 생각한다'고 하면서 독립 전문가 미자문 인정. 한지훈의 40장 반박문서(Record 4,979~5,163)가 VPN 논거를 붕괴시킨 후의 전환.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 검사 임형규는 한지훈과의 녹음된 대화(2022.9.28, 기록 제11,157쪽~제11,160쪽; 2022.10.11, 기록 제11,188쪽)에서, 기소 핵심 논거를 'VPN 미사용에 의한 조작'에서 '방화벽 포트 개방'으로 전환하였음이 확인된다.
 
@@ -71,36 +73,33 @@ SET fr.layer = 6,
 
 검사는 "정의롭게 했다고 생각한다"(기록 제11,188쪽)고 진술하면서도, 외부 기술 전문가 자문 없이, 독립적 제3자 평가 없이, 카르텔 관련 참고인만으로 수사를 진행했음을 인정하였다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - Prosecutor shifted core charge from VPN non-use to firewall port opening after 한지훈's written rebuttal collapsed the VPN-based logic [진리성]
 - No independent technical expert was consulted during the entire 10+ month investigation [진리성]
 - The prosecutor claimed to have acted "justly" while admitting all witnesses were case-related parties — no neutral third-party evaluation [타당성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **Record No. 11,157~11,160** — 검사-한지훈 대화 (2022.9.28)
 - **Record No. 11,188** — 검사-한지훈 대화 (2022.10.11)
 - **Record No. 4,979~5,163** — 한지훈 '해명과 증명' 문서
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 증거 재평가에 의한 정상적 법적 판단 전환이다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 방화벽 포트 개방이 VPN과 별도로 위법함을 보여주는 분석.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 9 / 진실성 9.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/12-3-6-36-제6층위-군.md` lines 328-371
 
-- `vault-converted-korean/12-3-6-36-제6층위-군.md` lines 328-371
-
-## Related
-
+## 관련 (Related)
 - [[layer6-prosecutor-violated-anti-corruption-five-principles|2 shared records — 반부패 5원칙 위반]] (CORROBORATES)
 - [[firewall-port-opening-standard-it-procedure]] — L6 방화벽 표준 절차 (CORROBORATES)
 - [[prosecution-identity-fallacy-deception-technique]] — L6 동일성 오류 (CORROBORATES)

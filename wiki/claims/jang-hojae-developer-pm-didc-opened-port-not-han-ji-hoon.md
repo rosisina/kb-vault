@@ -73,7 +73,9 @@ SET fr.layer = 4,
     fr.summary = "개발업체 PM '포트 열어줬어요'(DIDC 결정) + 'VPN은 DIDC 규정' + '80건은 평가 후' + '점수 조작 불가능' — 4중 증언으로 검찰 혐의 구조 반증.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 新KIATIS 개발사업 개발업체 PM 장호재 (이사)는 9건의 녹취(총 2시간 21분)에서 검찰 혐의의 기술적 전제를 4가지로 반증하는 독립적 제3자 증언을 제공하였다.
 
@@ -102,44 +104,42 @@ SET fr.layer = 4,
 > **(장호재, 녹취 233 line 14160~14162):**
 > "(장호재) 그거는 안된다라고 예전 데이터가 안 보인다고 하는 게 제일 크죠. (한지훈) 요구사항에 들어가 있어요? **(장호재) 아니 요구사항에는 없습니다.** 그거는 수작업으로 할 수 밖에 없죠."
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - [진리성] **"VPN 없이 포트 열어줬어요"** — 개발업체 PM이 DIDC가 **직접** 방화벽 포트를 개방했음을 증언. 한지훈이 지시한 것이 아닌 **DIDC의 기술적 결정**. / Developer PM confirms DIDC itself opened the firewall port — not Han Ji-hoon's decision.
 - [타당성] **"VPN은 DIDC의 규정"** — VPN 적용은 DIDC의 보안 정책이지 개발사업의 요구사항이 아님을 개발업체 PM이 명확히 구분. / VPN is DIDC policy, not a project requirement — developer PM clearly distinguishes.
 - [진리성] **"어떻게 점수를 조작하고... 그쪽에서 다 한 건데"** — 평가위원들이 독립적으로 평가했으므로 개발업체나 한지훈이 점수를 조작할 수 없는 구조. / Independent evaluators made all scoring decisions — score manipulation is structurally impossible.
 - [진리성] **"요구사항에는 없습니다"** — 과거 데이터 이관 문제가 원래 RFP에 없었음 = 이것을 이유로 '사업 실패'를 주장하는 것은 **사후 기준 소급 적용**. / Past data migration was NOT in the original requirements — blaming the project for this is retroactive standard application.
 - [진실성] 개발업체 PM은 한지훈과 계약 관계에 있는 **외부 민간 업체 인물** — 국전원·국유단·DIDC 어느 조직의 이해관계에도 속하지 않는 **독립적 기술 증인**. / The developer PM is an external civilian contractor — independent from all organizational interests.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **녹취 233** (2022.7.20, line 14160+) — 과거 데이터 이관 요구사항 부재 + VPN은 DIDC 규정
 - **녹취 236** (2022.7.30, line 14316+) — "포트 열어줬어요" + 80건 추가 요구 + 점수 조작 불가능
 - Cross-reference: [[layer4-evaluation-committee-80-items-violation|80건 추가 요구 — 본 atom이 개발업체 시점에서 확인]]
 - Cross-reference: [[prosecution-distorts-operational-vs-test-environment|환경 왜곡 — VPN이 DIDC 정책임을 외부 증인이 확인]]
 - Cross-reference: [[didc-sop-firewall-vpn-trail-mandatory|DIDC 예규 제37조 — DIDC 자체가 포트개방을 실행]]
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 개발업체 PM은 자사의 개발 책임(기능 미구현, 성능 부족)을 회피하기 위해 인프라 측(DIDC)과 발주 측(한지훈)에 책임을 전가하는 것이다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 1. 개발업체가 DIDC에 포트개방을 요청한 공문
 2. 한지훈이 VPN 미적용을 개발업체에 지시한 기록
 3. 80건 추가 요구가 원래 RFP에 포함되어 있었음을 보여주는 계약서
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 9 / 진실성 8.
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/10-3-4-34-제4-층위.md` — §3.4.2 방화벽 정책 적용 요청 관련 (VPN 미사용 DB 직접접속 구조)
-- `vault-converted-korean/12-3-6-36-제6층위-군.md` — §3.6.5.1.1 80건 추가 요구사항 (정리06/정리07)
+- `Korean/10-3-4-34-제4-층위.md` — §3.4.2 방화벽 정책 적용 요청 관련 (VPN 미사용 DB 직접접속 구조)
+- `Korean/12-3-6-36-제6층위-군.md` — §3.6.5.1.1 80건 추가 요구사항 (정리06/정리07)
 - Deferred to A.6 Re-verify for cross-layer validation with book chapters.
 
-## Related
-
+## 관련 (Related)
 - [[jang-woojin-dual-evidence-vpn-absent-during-test-evaluation|장우진 이중 증거 — 국유단 실무자 시점의 동일 사실]] (CORROBORATES)
 - [[layer4-evaluation-committee-80-items-violation|80건 추가 요구 위반]] (RELATED)
 - [[prosecution-distorts-operational-vs-test-environment|검찰 환경 왜곡]] (RELATED)

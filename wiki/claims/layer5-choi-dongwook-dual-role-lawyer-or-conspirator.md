@@ -58,7 +58,7 @@ tags:
 ---
 # 최동욱 변호사는 한지훈의 변호인이 아니라 군검찰의 대리인으로서 이중적 역할을 수행했다
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md (§3.5.2.3.7)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/11-3-5-35-제-5층위.md (§3.5.2.3.7)
 **Layer:** [[../layers/layer-5|Layer 5]] (primary), [[../layers/layer-6|Layer 6]] (secondary — 군검찰 대리 역할), [[../layers/layer-7|Layer 7]] (secondary — 기록 제11,234 / 제11,252는 L7 범위)
 
 **Aurora node:**
@@ -79,7 +79,9 @@ SET fr.layer = 5,
     fr.summary = "최동욱 변호사가 한지훈에게 보낸 두 가지 답변 요청서(기록 제4,352; 제4,542)는 제2의 피의자 신문 조서 질문지와 일치하며, 경북대 동문 이근태와의 관계를 거짓 부인하고, 한지훈을 '비정상'으로 프레이밍하려 한 사실은 이중 대리(dual agency)의 직접 증거이다.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 변호사 최동욱은 표면적으로는 한지훈의 변호인으로서 대리하였으나, 실제로는 국방부 검찰단의 대리 역할을 수행하였다. 이는 다음 세 가지 증거에 의해 뒷받침된다.
 
@@ -91,8 +93,11 @@ SET fr.layer = 5,
 
 최동욱의 최소한의 형식적 협조 태도도 증거이다: `"세 시간 정도 안에서 협조할께요 방법은 오늘 미리 애기하든 그날 현장에서 하든 그거는 제가 하도록 할께요"`(기록 제11,234쪽).
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - [진리성] 최동욱이 한지훈에게 보낸 두 답변 요청서(기록 제4,352쪽; 제4,542쪽)가 피의자 신문 조서 질문지와 일치한다는 사실은 이중 대리의 물적 증거이다.
   - The two answer-request documents (Record No. 4,352; 4,542) sent by lawyer 최동욱 to 한지훈 match the content of a second suspect interrogation questionnaire — direct material evidence of dual agency.
 - [진리성] 이근태가 `"최동욱을 안다, 이 문제로 만났다"`고 폭로함으로써 최동욱의 관계 부인이 거짓임이 확인되었다.
@@ -104,34 +109,29 @@ SET fr.layer = 5,
 - [진실성] 32년 경력 중령의 독방 생활에 대해 아무런 조치도 취하지 않은 최동욱의 무조치 자체가 공모 참여의 정황 증거이다.
   - 최동욱's inaction in the face of a 32-year lieutenant colonel's solitary confinement is circumstantial evidence of complicit participation.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **기록 제4,352쪽부터** — 최동욱이 한지훈에게 보낸 제1차 답변 요청서 (피의자 신문 조서 질문지와 내용 일치)
 - **기록 제4,542쪽부터** — 최동욱이 한지훈에게 보낸 제2차 답변 요청서 (피의자 신문 조서 질문지와 내용 일치)
 - **기록 제11,234쪽** — 최동욱의 최소한의 형식적 협조 발언 (`"세 시간 정도 안에서 협조할께요"`)
 - **기록 제11,252쪽부터** — 최동욱의 한지훈 `"비정상"` 프레이밍 시도 및 한지훈의 반박
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 **(a) 대안적 해석:** 최동욱은 성실한 변호사로서, 군검찰의 질문에 사전 대비하기 위해 답변서를 준비시킨 것이며, 이근태와의 관계 부인은 실제 기억 오류에 불과하다. `"비정상"` 발언은 의뢰인의 정신 건강을 진심으로 염려한 것이다.
 
 **(b) 반박 조건:** 최동욱이 군검찰의 피의자 신문 질문지를 사전에 입수할 수 없는 위치에 있었다는 증거, 또는 답변 요청서와 피의자 신문 조서의 내용이 실질적으로 상이하다는 비교 분석 결과가 제시되면 이 주장은 약화된다.
 
 **(c) 방어 가능한 반대 입장:** 형사 변호에서 검찰 질문을 예측하여 의뢰인에게 답변 연습을 시키는 것은 일반적 변호 관행이며, 이를 이중 대리로 해석하는 것은 과도할 수 있다. 다만 이 경우, 한지훈이 수사 관련 없음을 피력하는 상황에서 오히려 피의자 신문 연장을 설득한 것은 일반적 변호 관행의 범위를 벗어난다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 최동욱이 군검찰로부터 사전에 피의자 신문 질문지를 제공받지 않았다는 증거(커뮤니케이션 로그, 수임 기록 등)가 확보되거나, 답변 요청서의 내용이 피의자 신문 질문지와 실질적으로 상이함이 비교 분석에 의해 증명되면 이 주장은 약화된다. 또한 이근태가 `"최동욱을 안다, 만났다"`는 폭로를 번복하는 경우에도 핵심 증거가 약화된다.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED (strong)**
 - 진리성 (Truthfulness): **9/10** — 물적 증거(답변 요청서 2건)와 이근태의 자백이 핵심
 - 타당성 (Validity): **8/10** — 변호사 윤리 위반은 법적 규범에 의해 판단 가능
 - 진실성 (Sincerity): **10/10** — 한지훈의 독방 경험과 가스라이팅에 대한 피해 구조가 직접 증언으로 기록됨
 
-## Open Questions
-
+## 미결 사항 (Open Questions)
 - 최동욱의 답변 요청서 2건의 전문(全文)과 실제 피의자 신문 조서 질문지의 정밀 대조가 필요하다. 현재는 책의 서술에 기반한 일치성 주장이며, 원본 대조는 미완.
 - 최동욱과 이근태의 면담 시점·내용에 대한 추가 기록이 확인되면 공모 구조의 구체적 메커니즘을 밝힐 수 있다.
 - 최동욱의 2016년 육군본부 법무관리관(장군) 시절 DIDC 해킹 사건 관여 정도에 대한 추가 조사가 필요하다.
@@ -142,8 +142,7 @@ SET fr.layer = 5,
 - §3.5.1.4 (lines 61–63): 경북대 카르텔과 최동욱-이근태 관계 최초 언급
 - §3.5.2.1.3 (lines 125–128): 경북대 네트워크와 이해 상충 상세
 
-## Related
-
+## 관련 (Related)
 - [[layer5-park-seojun-nominal-complainant]] — 박서준 명목상 신고자 atom (최동욱의 대리 역할과 동일한 조직적 프레이밍 구조) (RELATED)
 - [[layer5-predetermined-audit-conclusion]] — 사전 결론 결정 atom (최동욱이 이 결론의 실현에 기여) (RELATED)
 - [[layer5-six-month-isolation-human-rights]] — 6개월 격리 인권 침해 atom (최동욱이 이를 목격하고도 무조치) (RELATED)

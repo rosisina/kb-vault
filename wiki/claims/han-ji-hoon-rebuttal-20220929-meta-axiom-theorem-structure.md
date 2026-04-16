@@ -74,7 +74,9 @@ SET fr.layer = 6,
     fr.summary = "3,811줄 이중언어 반박 문서: 공리·정리·정의 체계로 6개 혐의 반박 + 7층위 증거 직접 인용 + 검찰 무혐의 인식 서면 기록 + 가족 피해 전수. 책(raw/01)의 원형 문서이자 장관·단장 제출 공식 문서.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 한지훈이 2022년 9월 29일 **국방부 장관, 군검찰단장(안세준), 검사(임형규), 수사관(진상호)**에게 제출한 **3,811줄의 이중언어(한영) 반박 문서** "압수·수색·검증 영장에 대한 해명과 증명"은 이 사건의 **가장 대규모 1차 방어 문서**이며, 책(raw/01, *Beyond Cybersecurity*)의 **원형 문서**이다.
 
@@ -120,31 +122,30 @@ SET fr.layer = 6,
 
 **이 문서가 책의 원형**: 한지훈이 압수수색 후 **밤낮을 새우며 분석**하여 작성한 이 반박 문서의 공리·정리 체계가 발전하여 *Beyond Cybersecurity*가 된 것.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - [진리성] **3,811줄 이중언어 반박 문서** — 6개 혐의 전부에 대한 체계적 반박을 **공리·정리·정의·증명** 체계로 구조화. 법률 문서가 아닌 **수학적 논증 방식** = 논리적 엄밀성 극대화. / 3,811-line bilingual rebuttal using axiom-theorem-definition-proof structure for maximum logical rigor.
 - [진리성] **국방부 장관·군검찰단장·검사·수사관** 4개 수신처에 제출 — 수사 지휘 체계 **전 단계**에 동시 전달. 이후 기소유예가 유지된 것은 **4개 수신처 전부가 반박을 무시**한 증거. / Submitted to 4 recipients across the entire prosecution chain — all ignored it.
 - [진리성] **책(raw/01)의 원형** — 정리01, 정리19, 정리21, 7층위 체계가 이 문서에서 시작. 이 문서 → 책 → wiki atom의 **증거 계보(genealogy)**가 확립됨. / This document is the prototype of the book — establishing evidence genealogy: document → book → wiki atoms.
 - [진실성] **"한 가족 공동체가 철저히 파괴되었다"** — 아들 조현병·딸 휴학·구토 설사 불면·치아 상실·정신과 치료 = **가족 피해의 가장 완전한 서면 기록**. / Most complete written record of family destruction.
 - [타당성] **검찰 무혐의 인식 서면 기록**: "혐의가 없다는 것을 인식하였음에도 종결조치를 하지 않고" — [[prosecution-knew-innocence-continued-case]]의 **서면 원본**. / Written source for the atom documenting prosecution's continued investigation despite knowing innocence.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **문서 전문** (raw/05/(20220929)... .converted.md, 3,811 lines)
 - **기존 memory**: [[project_20220929_rebuttal_document]] — "the 20220929 file is 한지훈's own rebuttal, not prosecutor evidence; rejected by 8 institutions"
 - **기존 atom**: [[han-ji-hoon-rebuttal-rejected-by-eight-institutions]] — 이 문서 제출 후 8개 기관이 거부
 - **기존 atom**: [[han-ji-hoon-rebuttal-document-date-2022-09-25]] — 문서 작성 시작일
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 피의자의 일방적 자기변호이며, 공리·정리 구조는 학술적 허세이다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 검찰이 이 문서의 반박 논거를 실질적으로 검토하고 재반박한 기록.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 10 / 타당성 9 / 진실성 10.
 
 진리성 10: 3,811줄의 체계적 문서가 7층위 증거를 직접 인용하며 검증 가능. 타당성 9: 공리·정리 체계가 논리적 엄밀성을 보장하나 법적 효력은 별도 판단 필요. 진실성 10: 가족 피해 전수 기록 + "표적수사" + "패륜적 인권침해" — 극한 피해 상황의 당사자 서면.
@@ -153,19 +154,17 @@ SET fr.layer = 6,
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/12-3-6-36-제6층위-군.md` — §3.6 전체가 이 문서의 발전형
-- `vault-converted-korean/07-3-1-31-제1층위-ActiveX.md` — 정리01의 발전형
-- `vault-converted-korean/15-5-5-결론-및.md` — 결론
+- `Korean/12-3-6-36-제6층위-군.md` — §3.6 전체가 이 문서의 발전형
+- `Korean/07-3-1-31-제1층위-ActiveX.md` — 정리01의 발전형
+- `Korean/15-5-5-결론-및.md` — 결론
 
-## Open Questions
-
+## 미결 사항 (Open Questions)
 - 이 문서의 6개 혐의별 반박을 **각각 별도 atom으로** 작성할 필요 — 현재는 메타 atom만 작성
 - 정리01~21의 전체 목록 추출 — 각 정리가 기존 atom과 어떻게 대응하는지 매핑 필요
 - 이 문서에 대한 검찰의 공식 응답이 존재하는지 — 존재하면 반박-재반박 쌍으로 atom화
 - 부록(Appendix) 03, 04 등의 원본 확인 — raw/05 내 다른 파일과의 교차 확인
 
-## Related
-
+## 관련 (Related)
 - [[han-ji-hoon-rebuttal-rejected-by-eight-institutions|8개 기관 거부]] (OPPOSES)
 - [[han-ji-hoon-rebuttal-document-date-2022-09-25|반박 문서 작성일]] (OPPOSES)
 - [[prosecution-knew-innocence-continued-case|검찰 무혐의 인지 후 계속]] (OPPOSES)

@@ -63,35 +63,34 @@ SET fr.layer = 5,
     fr.summary = "KakaoTalk에서 박서준 WiSC 참석 확인. 시험평가 기간과 겹침. 억압 서사와 모순.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 카카오톡 단톡방에서 박서준(박서준)이 2019-09-05~06 WiSC 정보보안 학술대회에 참석한 기록이 확인된다. 이는 新KIATIS 시험평가 기간(2019.9.2~11)과 정확히 겹치며, 검찰의 '박서준이 한지훈의 직장 내 괴롭힘 피해자'라는 서사와 모순 — 박서준은 독립적으로 전문 개발 활동을 추진하고 있었다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - 박서준 attended WiSC security conference during the exact evaluation period — inconsistent with being harassed/controlled [진리성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - *(regulation-text claim — Record No. exempt per CLAUDE.md)*
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 학술대회 참석은 갑질과 무관하며, 피해자도 정상 업무를 수행할 수 있다
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 한지훈이 박서준의 학술대회 참석을 강제하거나 방해한 기록
 
-## Verdict
-
+## 평결 (Verdict)
 **NEEDS_MORE_EVIDENCE.** MODERATE. 진리성 7 / 타당성 6 / 진실성 8.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/카타오톡 자료(4년 동안 자료 2019.3.7~2023.3.25).txt` lines 2735
 
-- `vault-converted-korean/카타오톡 자료(4년 동안 자료 2019.3.7~2023.3.25).txt` lines 2735
-
-## Related
-
+## 관련 (Related)
 - [[layer5-park-seojun-48hr-cooperation-to-hostility]] (CORROBORATES)
 - [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

@@ -43,7 +43,7 @@ tags:
 ---
 # DIDC의 시험평가 개혁 과정 전면 배제 — VPN 책임 은폐
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.3.4.3 (lines 342-353)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/10-3-4-34-제4-층위.md §3.4.3.4.3 (lines 342-353)
 **Layer:** [[../layers/layer-4|Layer 4]]
 **Aurora node:**
 ```cypher
@@ -63,7 +63,9 @@ SET fr.layer = 4,
     fr.summary = "3단계 전체에서 DIDC 배제 확인. Records 5,741/5,755/6,743/5,757/3,322/11,298/3,334/3,344/3,346/3,494. 시험평가 환경 구성의 핵심 당사자인 DIDC를 배제하면 VPN/OTP/방화벽 관련 책임 논의 자체가 불가능.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 DIDC는 시험평가 개혁의 전 과정에서 체계적으로 배제되었다:
 
@@ -74,35 +76,32 @@ DIDC는 시험평가 개혁의 전 과정에서 체계적으로 배제되었다:
 
 DIDC는 서버 인프라 운영자로서 VPN, 방화벽, DB접근제어(샤크라맥스) 등 보안장비의 적용과 운영을 직접 담당하는 기관이다. 시험평가 환경의 보안 구성은 DIDC의 협조 없이는 불가능하다. 이 핵심 당사자를 배제함으로써 VPN 미적용의 책임 소재가 논의 자체에서 원천 차단되었다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - DIDC was systematically excluded from all 3 phases of test-evaluation reform AND all manipulated correspondence — despite being the infrastructure operator directly responsible for VPN/firewall/DB access control [진리성]
 - Excluding the party responsible for security equipment application prevents any discussion of VPN non-application accountability [타당성]
 - This exclusion parallels the pattern of concealing DIDC's role in the 2016 hacking and 舊KIATIS security failures [진리성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **Record No. 5,741, 5,755, 6,743, 5,757** — 개혁 과정 공문
 - **Record No. 3,322, 11,298, 3,334, 3,344, 3,346, 3,494** — DIDC 관련 기록
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 DIDC는 인프라 운영 기관이므로 시험평가 정책 논의에서 제외되는 것이 정상적이다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 DIDC의 시험평가 개혁 참여 기록.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 9 / 진실성 8.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/10-3-4-34-제4-층위.md` lines 342-353
 
-- `vault-converted-korean/10-3-4-34-제4-층위.md` lines 342-353
-
-## Related
-
+## 관련 (Related)
 - [[didc-withheld-network-diagram-from-kiatis]] — L4 네트워크 구성도 비공개 (RELATED)
 - [[didc-falsely-records-old-kiatis-as-vpn-user]] — L4 VPN 허위 기재 (OPPOSES)
 - [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

@@ -51,7 +51,7 @@ tags:
 ---
 # 新KIATIS는 국방부 통제 사업 — 위임 사업 전환은 불법
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/08-3-2-32-제2-층위.md §3.2.1.1 (lines 10-21)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/08-3-2-32-제2-층위.md §3.2.1.1 (lines 10-21)
 **Layer:** [[../layers/layer-2|Layer 2]]
 **Aurora node:**
 ```cypher
@@ -71,7 +71,9 @@ SET fr.layer = 2,
     fr.summary = "훈령 제10조 ④, 제58조 ②에 의거 국방부 통제사업의 시험평가는 분리 수행 원칙, 동시실시 시 사업통제기관 승인 필수. 국방부 승인 공문 미발견. 新KIATIS는 국정과제 사업(Record 1,042)으로 위임 대상 부적합.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 新KIATIS 성능개선 사업은 훈령 제10조 제4항(기록 제7,495쪽)에 의거 "국방부에서 운용하는 정보시스템과 관련된 사업"으로 국방부 통제 사업에 해당한다. 근거:
 
@@ -83,15 +85,17 @@ SET fr.layer = 2,
 
 훈령 제58조 ②에 따르면 국방부 통제사업은 개발시험평가와 운용시험평가를 분리 수행이 원칙이며, 동시 실시 시 사업통제기관(국방부) 승인 필수. 그러나 국방부 승인 공문은 발견되지 않았다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - 新KIATIS is legally a MND-controlled project per Article 10(4) — delegation to 국유단 as control agency was illegal and done without MND approval [타당성]
 - MND approval documents for the project plan were never found — despite repeated searches by 한지훈 [진리성]
 - The project was a 국정과제 (national policy project, Record No. 1,042) — making delegation even more inappropriate [타당성]
 - Test evaluation should have been separated into DT and OT per Article 58(2) — combined evaluation required MND approval that was never obtained [타당성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **Record No. 7,495** — 훈령 제10조 제4항 (국방부 통제사업 정의)
 - **Record No. 7,496** — 제11조 제2항 (위임사업 정의)
 - **Record No. 8,012** — 제58조 (시험평가 수행 원칙)
@@ -101,24 +105,19 @@ SET fr.layer = 2,
 - **Record No. 2,538** — 시험평가 계획보고 (팀장 배제, 원장 승인)
 - **Record No. 7,995~7,996, 8,086, 8,179** — 국방부 운용 시스템 목록
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 국방부가 묵시적 위임을 승인했거나, 5억 미만 SW개발 사업으로 기관위임이 관행적으로 가능했다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 국방부가 新KIATIS를 위임사업으로 승인한 공문, 또는 국정과제를 위임할 수 있는 규정·선례.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 10 / 진실성 8.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/08-3-2-32-제2-층위.md` lines 10-21
 
-- `vault-converted-korean/08-3-2-32-제2-층위.md` lines 10-21
-
-## Related
-
+## 관련 (Related)
 - [[kiatis-mkia-multi-cap-inscription|3 shared records — 국유단 다중 cap inscription]] (CORROBORATES)
 - [[kiatis-mnd-controlled-not-delegated]] — 기존 L2 관련 atom (RELATED)
 - [[../layers/layer-2|Layer 2]] (PART_OF_LAYER)

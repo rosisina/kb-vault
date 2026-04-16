@@ -69,7 +69,9 @@ SET fr.layer = 6,
     fr.summary = "검사 3�� 자인: 환경 문제 인정+외부 전문가 거부+증거를 '주장'으로 격하. 기정결론 기반 기소유예의 직접 증거.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 군검찰단 검사 임형규가 한지훈과의 녹음 통화(녹취 146, 2022.10.11)에서 3가지 핵심 자인을 하였다:
 
@@ -79,38 +81,35 @@ SET fr.layer = 6,
 
 이 3중 자인은 검찰이 증거에 기반한 수사가 아니라 기정결론에 기반한 표적수사를 수행했음을 직접 보여준다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - Prosecutor admits test evaluation environment had problems yet still charges the subject with 기소유예 [진리성]
 - Prosecutor rejects external expert review request, dismissing technical evaluation as "not the issue" — bypassing required procedural safeguard [타당성]
 - Prosecutor dismisses documentary evidence (훈령, 공문서) as mere "claims" and "opinions" — textbook predetermined conclusion [진리성]
 - "세상에 안 억울한 사람이 어디 있겠어요?" reveals cynical disregard for wrongful prosecution concerns [진실성]
 - Triple admission from single recording establishes pattern, not isolated remark [진리성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - 녹취 146 (2022.10.11, 00:11:16) — raw/02 `[011]` 임형규 section
 - Converges with [[jin-sangho-investigator-vpn-admission-missing-documentation|수사관 진상호 3중 자인]] — investigator and prosecutor both make admissions against interest
 - Converges with [[kim-cheolhwan-test-vs-operational-vpn-exemption-standard|김철환 센터장 '시험평가 VPN 면제=표준관행']] — expert testimony contradicts prosecution's position
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 검사의 발언은 증거 종합 과정에서의 정상적 판단이며, 환경 문제 인정은 피의자의 직접적 과실과 별개의 사안이다. 기술적 완성도를 쟁점에서 배제한 것은 사기(위계) 혐의의 법리적 구성요건에 집중하기 위한 것이다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 검사가 (1) 시험평가 환경 문제와 한지훈의 의무/과실을 구분하는 별도 증거를 확보했거나, (2) 외부 전문가 대신 동등한 기술적 검증을 다른 방법으로 수행했거나, (3) 훈령·공문서 증거를 검토하고 반박하는 별도 수사기록이 있으면 반증.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** STRONG. 진리성 9 / 타당성 9 / 진실성 8. 녹취 원문에서 직접 확인되는 검사 자인. 3건의 자인이 단일 녹취에서 수렴하며, 수사관 진상호·센터장 김철환 등 다른 증인의 독립 증언과 수렴.
 
-## Spot-check
-
+## 원전 확인 (Spot-check)
 - raw/02 `[011]` 임형규 녹취 146 (2022.10.11)
 
-## Related
-
+## 관련 (Related)
 - [[jin-sangho-investigator-vpn-admission-missing-documentation|수사관 진상호 3중 자인]] (CORROBORATES)
 - [[jin-sangho-recording159-environment-dispute-retroactive-standards|수사관 진상호 환경 쟁점 녹취 159]] (CORROBORATES)
 - [[kim-cheolhwan-test-vs-operational-vpn-exemption-standard|김철환 센터장 VPN 면제 표준관행]] (CORROBORATES)

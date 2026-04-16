@@ -50,7 +50,7 @@ tags:
 ---
 # 집단적 증인 이탈 — 오현수의 '엮기기 싫다'와 이태호의 '선택적 기억' 진단
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md §3.5.3.3.3 (lines 408-421)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/11-3-5-35-제-5층위.md §3.5.3.3.3 (lines 408-421)
 **Layer:** [[../layers/layer-5|Layer 5]]
 **Aurora node:**
 ```cypher
@@ -70,37 +70,36 @@ SET fr.layer = 5,
     fr.summary = "오현수 '엮기기 싫다' + 이태호 '선택적 기억' 진단. 5인+ 동시 침묵 = 조직적 합의.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 오현수 (실무자-5)는 한지훈에 대한 직접적 지식이 있음에도 확인서 제공을 거부하며 '엮기기 싫다'고 진술하였다. 이태호 (평가위원장-1)는 이를 '선택적 기억'으로 진단하였다 — 동료들은 기억하지만 증언하지 않기로 선택한 것이다. 오현수, 이준호, 최영규, 윤도현, 장우진 등 5인 이상의 동시 침묵은 우연이 아닌 조직적 합의이다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - 오현수 refused testimony citing 'don't want to get involved' despite direct knowledge — organizational pressure, not memory failure [진리성]
 - 이태호 diagnosed 'selective memory' across 5+ colleagues — coordinated abandonment, not coincidence [진리성]
 - The simultaneous silence of 5+ named individuals constitutes organized witness abandonment [진실성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - *(regulation-text claim — Record No. exempt per CLAUDE.md)*
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 동료들의 침묵은 수사 사안에 대한 개인적 회피 심리이며, 조직적 합의가 아니다
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 5인 이상의 동료가 독립적으로 증언 회피 사유를 설명한 기록 (조직적 지시 없이)
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** STRONG. 진리성 9 / 타당성 8 / 진실성 9.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/11-3-5-35-제-5층위.md` lines 408-421
 
-- `vault-converted-korean/11-3-5-35-제-5층위.md` lines 408-421
-
-## Related
-
+## 관련 (Related)
 - [[layer5-yang-mi-suk-silence-as-active-complicity]] (CORROBORATES)
 - [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

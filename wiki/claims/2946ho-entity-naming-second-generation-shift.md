@@ -62,37 +62,36 @@ SET fr.layer = 1,
     fr.summary = "2세대 entity-naming anchor shift. 사업통제기관→정보화기획관실→지능정보화정책관실 3단계 연쇄. 책이 정보화기획관실을 '핵심 범죄조직'으로 명시 — 명칭 변경은 범죄 주체의 추적을 이중 매개하는 효과.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 제2946호(2024.7.17)에서 '정보화기획관실'을 '지능정보화정책관실'로 훈령 전체에 걸쳐 교체. 제2436호의 '사업통제기관→정보화기획관실' 교체에 이은 2세대 anchor 이동으로, 원래 용어가 이중 매개되어 추적이 더욱 곤란해진다. 사업통제기관→정보화기획관실→지능정보화정책관실의 3단계 연쇄.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - Second-generation entity-naming shift after 제2436호 — original term now requires two translation layers [타당성]
 - Double rename chain compounds obfuscation: any pre-2024 document/testimony uses outdated names [진리성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - *(regulation-text claim — Record No. exempt per CLAUDE.md)*
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 MND 조직개편(직제 개편)에 따른 실질적 기능 변경이며 명칭만의 변경이 아니다
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 지능정보화정책관실이 정보화기획관실과 실질적으로 다른 기능·인력을 가진 신설 조직임을 보여주는 직제 개편 명령
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** MODERATE. 진리성 8 / 타당성 8 / 진실성 6. Upgraded from NME: 책(§3.6 Layer 6)이 정보화기획관실을 "국방정보화카르텔의 핵심 범죄조직"으로 명시적 분류 — 해당 조직의 명칭 변경은 범죄 주체 추적을 이중 매개하는 효과. 직제 개편 명령이 실질적 기능 변경을 보여줄 경우 WEAKENED로 하향 가능.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/국방 정보화업무 훈령(국방부훈령)(제2946호)(20240717).converted.md` lines 597-832
 
-- `vault-converted-korean/국방 정보화업무 훈령(국방부훈령)(제2946호)(20240717).converted.md` lines 597-832
-
-## Related
-
+## 관련 (Related)
 - [[2436ho-gukjeonwon-role-tier-renaming]] (SUPERSEDES)
 - [[2436ho-didc-naming-anchor-removed]] (CORROBORATES)
 - [[directive-article-11-control-functions-stripped]] (RELATED)

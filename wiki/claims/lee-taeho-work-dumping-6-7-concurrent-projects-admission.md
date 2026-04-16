@@ -74,7 +74,9 @@ SET fr.layer = 3,
     fr.summary = "'떠넘겼다고 봐야지'(명시적 자인) + 6~7개 동시(비정상 과부하) + '일하기 싫어하는 스타일'(이지영 업무 회피) = 군인 팀에 대한 구조적 업무 착취.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 전임 팀장 이태호가 녹취 060(2022.7.30)에서 국전원 내 업무 떠넘기기 구조를 자인:
 
@@ -96,38 +98,36 @@ SET fr.layer = 3,
 > **(이태호, line 4232~4237):**
 > "**교묘히 이용하는 거지**" (공무원이 군인의 업무 수용 성향을 이용)
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - [진리성] **"떠넘겼다고 봐야지"** — 전임 팀장이 업무 떠넘기기를 **명시적으로 자인**. 한지훈만의 주장이 아닌 전임자의 **독립 확인**. / Predecessor explicitly admits work dumping — independent confirmation.
 - [진리성] **6~7개 사업 동시 관리** — 정상적 팀장의 업무량을 크게 초과하는 **비정상적 과부하**. / 6-7 concurrent projects = abnormal overload.
 - [타당성] **"이지영이 일하기 싫어하는 스타일"** — 이지영(공문결재자-1)이 업무를 군인 팀에 전가하는 **구조적 착취 패턴**을 전임자가 명명. / Predecessor names 이지영's work-avoidance as structural exploitation.
 - [진실성] 업무 과부하 → "팀장이 책임져라"(정리11) = **과다 업무 부과 후 실패 시 책임 전가**하는 카르텔 전략의 기반. / Overload → blame: dump excessive work, then blame team leader.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **녹취 060** (2022.7.30, line 4144~4237)
 - Cross-reference: [[kiatis-project-deliberately-transferred-to-han-ji-hoon|KIATIS 업무 떠넘기기]]
 - Cross-reference: [[lee-jiyoung-kim-sujin-single-point-of-control|이지영·김수진 단일 통제점]]
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 업무 재배분은 능력 있는 팀장에게 자연적으로 집중되는 현상이다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 이태호 팀의 업무량이 다른 팀과 균등했음을 보여주는 업무 분장표.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 8 / 진실성 9.
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/09-3-3-33-제3-층위.md` — Layer 3 사업관리 구조
+- `Korean/09-3-3-33-제3-층위.md` — Layer 3 사업관리 구조
 - Deferred to A.6 Re-verify.
 
-## Related
-
+## 관련 (Related)
 - [[kiatis-project-deliberately-transferred-to-han-ji-hoon|KIATIS 떠넘기기]] (CORROBORATES)
 - [[lee-jiyoung-kim-sujin-single-point-of-control|이지영·김수진 단일 통제점]] (RELATED)
 - [[kim-min-su-central-cross-layer-cartel-figure|김민수 교차층위]] (RELATED)

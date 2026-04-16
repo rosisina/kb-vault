@@ -67,7 +67,9 @@ SET fr.layer = 6,
     fr.summary = "DIDC 센터장: '시험평가≠전력화 환경'(검찰 오류) + 'VPN 승인은 과장·원장'(정책 수준) + '표적수사'(인식) + '시험평가 참석 안 한 거를 올가매서' = 정책 실패를 개인 비위로 전가한 구조.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 DIDC 센터장 김철환 대령(CISSP)이 녹취 253·254·255에서 OTP/VPN 미적용의 **책임 귀속 구조**를 명확히 증언:
 
@@ -98,38 +100,36 @@ DIDC 센터장 김철환 대령(CISSP)이 녹취 253·254·255에서 OTP/VPN 미
 > **(김철환, 녹취 255 line 15425~15426):**
 > 결과: **기소유예** + 나머지 **증거 불충분** — "실질적 위반이 증명되지 않았다"
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - [타당성] **VPN 승인 권한 = 과장·원장** — 한지훈(사업관리팀장)이 아닌 **정책 수준의 의사결정**. 정책 실패를 운영 실무자에게 전가한 것 = **책임 귀속의 구조적 오류**. / VPN authorization is at policy level (section chief/director), not operational — charging the team leader is structural misattribution.
 - [타당성] **"동일" vs "유사"** — 검찰이 요구한 "동일한 환경"은 IT 업계에서 **불가능한 기준**. CISSP 센터장이 "유사"만 가능하다고 증언 = 검찰의 기술적 전제가 **비현실적**. / "Identical" environment is technically impossible — CISSP commander confirms only "similar" is achievable.
 - [진리성] **"표적수사"** — DIDC 센터장(대령) 수준에서 현재 수사를 **"표적수사"로 인식** — 검찰 외부의 고위급 군 관계자가 동일한 판단. / DIDC commander (colonel) level recognizes the investigation as "targeted prosecution."
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **녹취 255** (2022.10.12, line 15422~15609, 37분)
 - **녹취 253** (2022.8.3, line 15355~15395)
 - **녹취 254** (2022.10.12, line 15396~15421)
 - Cross-reference: [[kim-cheolhwan-test-vs-operational-vpn-exemption-standard|자매 atom — 시험평가 VPN 면제]]
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 VPN 승인 권한이 과장·원장에게 있더라도, 한지훈이 환경 차이를 알고도 보고 안 한 것은 별도 비위이다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 한지훈이 VPN 미적용을 인지하고도 과장·원장에게 보고하지 않았음을 보여주는 기록.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 10 / 진실성 8.
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/12-3-6-36-제6층위-군.md` — 환경 왜곡 + 책임 귀속
+- `Korean/12-3-6-36-제6층위-군.md` — 환경 왜곡 + 책임 귀속
 - Deferred to A.6 Re-verify.
 
-## Related
-
+## 관련 (Related)
 - [[kim-cheolhwan-test-vs-operational-vpn-exemption-standard|자매 atom]] (RELATED)
 - [[han-ji-hoon-prosecution-violates-2129-role-separation|역할분리 위반]] (RELATED)
 - [[prosecution-identity-fallacy-deception-technique|동일성 오류]] (RELATED)

@@ -59,7 +59,7 @@ tags:
 ---
 # 조사 결과의 허위성과 공모의 증거: 6가지 독립 증명이 조사본부-법무관리관실-국전원 공모 네트워크를 입증한다
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md (§3.5.2.2.9)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/11-3-5-35-제-5층위.md (§3.5.2.2.9)
 **Layer:** [[../layers/layer-5|Layer 5]] (primary)
 **Aurora node:**
 ```cypher
@@ -79,7 +79,9 @@ SET fr.layer = 5,
     fr.summary = "Six independent proofs of audit falsity + 김민수's self-confession '감사관과 충분히 애기하고' (기록 제11,069쪽) = 조사본부-법무관리관실-국전원 operated as single conspiracy network.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 조사본부의 조사 결과는 허위이며, 이는 **6가지 독립적 증명**에 의해 입증된다:
 
@@ -92,15 +94,17 @@ SET fr.layer = 5,
 
 **핵심 자백(기록 제11,069쪽):** 김민수가 "감사관과 충분히 애기하고"라고 발언함으로써, 국전원-조사본부-법무관리관실이 **하나의 공모 네트워크로 작동**했음을 자기 입으로 증명했다. 최동욱 변호사는 경북대 동문 네트워크를 통해 이근태와 협력했다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - [진리성] 6가지 독립 증명은 각각 단독으로도 조사 결과의 허위성을 입증하며, 종합하면 체계적 조작의 결정적 증거다. / Each of the 6 independent proofs alone demonstrates audit falsity; combined, they constitute conclusive evidence of systematic fabrication.
 - [진리성] 김민수의 "감사관과 충분히 애기하고"(기록 제11,069쪽)는 3조직 공모의 직접적 자백이다 — "일체 모른다"(§3.5.2.1.2)와 정면 모순. / Kim Min-su's "I talked sufficiently with the auditors" (Record No. 11,069) is a direct self-confession of 3-organization collusion — frontally contradicting his "I know nothing at all" claim.
 - [타당성] 이승우의 "전혀 없는데" 자백은 갑질 사유 부재를 법적으로 인정한 것이며, 이후 "징계 사유" 판정과 법리적으로 양립 불가능하다. / Lee Seung-woo's "none at all" confession legally concedes absence of harassment grounds, which is legally incompatible with his subsequent "disciplinary grounds" ruling.
 - [진실성] 6가지 증명의 수렴은 한지훈이 조직적 모함의 피해자임을 입증한다 — 개별적 오류가 아닌 설계된 범죄 구조. / The convergence of 6 proofs establishes Han Ji-hoon as victim of organizational framing — a designed criminal structure, not individual errors.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **기록 제11,069쪽** — 김민수의 "감사관과 충분히 애기하고" 자백
 - **업체 직원 2명 확인서** — 한지훈의 과장 보고 후 식사를 "수십 번" 확인 (출퇴근 조작 붕괴)
 - **기록 제11,091쪽** — 최영수의 조서 조작 폭로 ("내 진술서를 안 주는 거지요")
@@ -108,35 +112,30 @@ SET fr.layer = 5,
 - **기록 제11,081쪽** — 최영수 5시간 반박 후 자필 1·2·3·4 항목 기재 후 퇴실
 - **Book §3.5.2.2.9** — 조사 결과의 허위성과 공모의 증거
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 조사는 표준 절차를 따랐으며, 개별 증언상의 불일치는 정상적인 조사 과정에서 발생하는 것이다. 경고장은 조사 결과와 독립적으로 작성되었으며, 3인의 진술 일치는 실제 사실에 기반한 것이다.
 
 **반증 조건:** 조사 과정 문서가 각 조직의 입력이 상호 소통 없이 독립적으로 수집되었음을 보여주고, 6가지 이상 현상 모두에 대한 합리적 설명이 제공될 경우.
 
 **대립 입장:** 조사본부는 접수된 신고에 따라 표준적 절차를 진행했으며, 결과에 대한 이의는 사후적 해석의 차이라는 입장.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 1. **독립 수집 증거** — 3조직(조사본부, 법무관리관실, 국전원)이 조사 과정에서 상호 소통 없이 독립적으로 증거를 수집했음을 보여주는 기록
 2. **6가지 이상 현상 설명** — 이승우 자백, 출퇴근 붕괴, 박서준 배제, 진술 일치, 반증 삭제, 조서 조작 각각에 대한 합리적 대안 설명
 3. **김민수 발언 맥락** — "감사관과 충분히 애기하고"가 사전 조율이 아닌 사후 보고를 의미함을 보여주는 대화 전체 맥락
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 10 / 타당성 8 / 진실성 9. 6가지 독립 증명의 수렴은 개별적 반박이 사실상 불가능한 구조적 증거 체계를 형성한다. 김민수의 자백(기록 제11,069쪽)은 3조직 공모의 direct evidence이며, 최영수의 독립 증언(기록 제11,091쪽)이 조서 조작 기법을 별도로 corroborate한다.
 
-## Open Questions
-
+## 미결 사항 (Open Questions)
 - 업체 직원 2명의 확인서 원본 기록 번호 미확인 (확인서가 증거 기록 어느 쪽에 해당하는지)
 - 김민수의 "감사관과 충분히 애기하고" 발언의 전체 대화 맥락 (기록 제11,069쪽 전후) 추가 확인 필요
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/11-3-5-35-제-5층위.md` §3.5.2.2.9 (lines 193–196): 6가지 증명, 김민수 자백(기록 제11,069쪽), 최동욱-이근태 협력 — 모두 일치.
+- `Korean/11-3-5-35-제-5층위.md` §3.5.2.2.9 (lines 193–196): 6가지 증명, 김민수 자백(기록 제11,069쪽), 최동욱-이근태 협력 — 모두 일치.
 
-## Related
-
+## 관련 (Related)
 - [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)
 - [[../entities/people/han-ji-hoon|한지훈]] (ABOUT)
 - [[../entities/people/kim-min-su|김민수]] (ABOUT)

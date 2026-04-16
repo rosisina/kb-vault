@@ -65,24 +65,27 @@ SET fr.layer = 4,
     fr.summary = "Contract value 6.25억 > 5억 threshold; pure 외주용역 software development; 사업관리기관 = 국전원 = main-regime configuration; 제58조 ¶2 main regime applies and separation is the statutory default";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 KIATIS 성능개선사업 (6.25억 KRW, 2018–2019) is governed by 국방정보화업무 훈령 제2129호 제58조 ¶2 main regime. Under that regime, DT&E and OT&E must be conducted separately as the regulatory default, with integration permitted **only** by explicit written approval from the 사업통제기관 (here 국본 정보화기획관실). The project does not qualify for the 제58조 ¶3 5억-미만 exception, and therefore the 제58조 ¶4 simultaneous-execution permission does not apply.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - KIATIS 성능개선사업 contract value is 6.25억 KRW, above the 5억 threshold of 제2129호 제58조 ¶3 — foreclosing the 5억-미만 exception path [진리성]
 - 제2129호 제58조 ¶2 mandates DT&E/OT&E separation as the regulatory default: `개발시험평가와 운용시험평가를 분리하는 것을 원칙으로 하되, 필요시 사업통제기관의 승인을 받아 동시에 실시할 수 있다` — integration requires explicit written approval from the 사업통제기관 (here 국본 정보화기획관실) [타당성]
 - 국전원 is KIATIS's 사업관리기관 under 제2129호 제11조 ¶4 (explicit naming for 국본 systems) — foreclosing the 기관 위임사업 counter-hypothesis path [타당성]
 - The only counter-hypothesis path not foreclosed by current evidence is production of a KIATIS 사업계획서 showing a 제46조 test-evaluation 위임 decision; absent that, 제58조 ¶2 main regime separation is the binding legal framework [타당성]
 - This atom is the foundational Layer 4 regulatory premise — any test-evaluation conduct during KIATIS that integrated DT&E/OT&E without explicit 사업통제기관 written approval is, by the directive's own terms, a procedural violation [진실성]
 
-## Layer
-
+## 층위 (Layer)
 [[../layers/layer-4|Layer 4]] — 新KIATIS 개발·운영·시험평가 전·중·후 조작. This is the foundational regulatory premise for the entire Layer 4 case: any test-evaluation conduct during KIATIS that integrated DT&E and OT&E without an explicit 사업통제기관 written approval is, by the directive's own terms, a procedural violation. Whether such an approval exists is a separable factual question; the legal premise that one was *required* is what this atom establishes.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **KIATIS contract value:** 6.25억 KRW (per James, recorded in [[../events/2018-2019-kiatis-performance-improvement-project|KIATIS event page]] and [[../../output/a3-revision-timeline-report-2026-04-11|A.3 report §10]])
 - **Project type:** 순수 소프트웨어 개발 용역사업 (pure software development service contract, 외주용역 개발 per 제2129호 제10조 ¶1 제2호 나목)
 - **사업관리기관:** 국전원 (per 제2129호 제11조 ¶4 explicit naming for 국본 systems)
@@ -95,8 +98,7 @@ KIATIS 성능개선사업 (6.25억 KRW, 2018–2019) is governed by 국방정보
 - 국전원 designation under 제11조 ¶4 → 국본 사업 → 국방부 통제 사업 → 기관 위임 path foreclosed
 - See [[../regulations/defense-it-2129-article-58|제58조 page]]
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 KIATIS qualifies for delegation under 제58조 ¶3 via one of three paths:
 
 1. **5억 미만 path:** KIATIS contract value below 5억 KRW. Foreclosed by James-supplied 6.25억 figure.
@@ -105,8 +107,7 @@ KIATIS qualifies for delegation under 제58조 ¶3 via one of three paths:
 
 Path 3 is the only counter-hypothesis path not foreclosed by current evidence. It requires production of the actual KIATIS 사업계획서 to test.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 This claim is **CORROBORATED** unless one of the following is produced:
 
 1. The KIATIS 사업계획서 (or 사업계획서 승인 문서) showing a test-evaluation 위임 decision under 제46조.
@@ -115,26 +116,23 @@ This claim is **CORROBORATED** unless one of the following is produced:
 
 If item 1 is produced, the verdict downgrades to WEAKENED. If item 1 is produced **and** the 위임 target is the same body as the 사업주관기관 or 사업관리기관 (which would be self-delegation and unusual), the verdict downgrades to NEEDS_MORE_EVIDENCE pending interpretation. Items 2–3 are unlikely on the available facts but should be explicitly checked.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 10 (text is unambiguous), 타당성 10 (legal classification is clean), 진실성 9 (the project's victim-perspective relevance to Layer 4 is direct).
 
-## Open Questions
-
+## 미결 사항 (Open Questions)
 - Has the KIATIS 사업계획서 been examined for any 위임 clause? (Pending raw/06 SOP / raw/07 scanned files / raw/01 book ingest.)
 - Did 국본 정보화기획관실 issue any written 제58조 ¶2 exception approval permitting integrated DT&E/OT&E for KIATIS? (Pending; if absent, foreclosure of integration path is complete.)
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/04-1-1-서론.md` — Introduction (KIATIS framing)
-- `vault-converted-korean/08-3-2-32-제2-층위.md` — Layer 2 (project execution structure)
-- `vault-converted-korean/09-3-3-33-제3-층위.md` — Layer 3 (국전원 management role)
-- `vault-converted-korean/11-3-5-35-제-5층위.md` — Layer 5
-- `vault-converted-korean/13-3-7-37-제7층위-진정서.md` — Layer 7
+- `Korean/04-1-1-서론.md` — Introduction (KIATIS framing)
+- `Korean/08-3-2-32-제2-층위.md` — Layer 2 (project execution structure)
+- `Korean/09-3-3-33-제3-층위.md` — Layer 3 (국전원 management role)
+- `Korean/11-3-5-35-제-5층위.md` — Layer 5
+- `Korean/13-3-7-37-제7층위-진정서.md` — Layer 7
 - Deferred to A.6 Re-verify. KIATIS legal-classification analysis is foundational to the entire case; cross-check the 5억 threshold + 사업관리기관 designation chain against the book's exact treatment.
 
-## Related
-
+## 관련 (Related)
 - [[kiatis-rfp-binds-lifecycle|KIATIS — RFP-binds-lifecycle (행위시법주의)]] (CORROBORATES)
 - [[2436ho-test-evaluation-principle-inverted|2436호 inverted the principle KIATIS was bound by]] (CORROBORATES)
 - [[2436ho-dtne-articles-erased|2436호 erased the DT&E articles KIATIS was bound by]] (CORROBORATES)

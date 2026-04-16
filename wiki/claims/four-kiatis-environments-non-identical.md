@@ -44,7 +44,7 @@ tags:
 ---
 # 4개 KIATIS 환경은 모두 비동일 — 정리04에 의한 동일성 오류 반박
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/12-3-6-36-제6층위-군.md §3.6.2.3 (lines 37-112)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/12-3-6-36-제6층위-군.md §3.6.2.3 (lines 37-112)
 **Layer:** [[../layers/layer-6|Layer 6]]
 **Aurora node:**
 ```cypher
@@ -64,7 +64,9 @@ SET fr.layer = 6,
     fr.summary = "4개 환경의 차이: Ⓐ=인터넷/VPN없음/Active-X, Ⓑ=국방망/VPN없음/2019시점, Ⓒ=국전원LAN/방화벽개방/시험용PC, Ⓓ=국방망/VPN·샤크라맥스적용/2021이후. 시간·공간·장비가 모두 다르므로 동일성 자체가 물리적 불가능.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 정리04에 따르면 4개의 KIATIS 관련 환경은 모두 서로 비동일하다:
 
@@ -77,34 +79,31 @@ SET fr.layer = 6,
 
 군검찰단이 "실제 사용자가 사용할 환경과 동일한 환경에서 평가해야 했다"고 주장한 "동일한 환경"은 Ⓓ(2021.4.15 이후)를 기준으로 한 것이나, 시험평가 시점(2019.9)에는 Ⓓ가 아직 존재하지 않았다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - 정리04 proves that ALL four KIATIS environments differ in time, cyberspace, security equipment, and PC/mobile location — physical identity is impossible [진리성]
 - The prosecution compared Ⓒ (2019 test) with Ⓓ (post-2021 operational) — comparing environments separated by 2+ years is a temporal impossibility [타당성]
 - Even 훈령 제62조 ¶3 acknowledges that test environments can only approximate, not replicate, operational environments [타당성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **§3.6.2.3 전체** — 4개 환경 비교 분석 (5 records)
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 "동일한 환경"은 "기능적 동등성"을 의미하며 물리적 동일성은 요구되지 않는다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 "실제 조성된 기반 운영환경"이 기능적 동등성으로 해석될 수 있다는 판례.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 10 / 진실성 7.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/12-3-6-36-제6층위-군.md` lines 37-112
 
-- `vault-converted-korean/12-3-6-36-제6층위-군.md` lines 37-112
-
-## Related
-
+## 관련 (Related)
 - [[prosecution-identity-fallacy-deception-technique]] — L6 동일성 오류 (RELATED)
 - [[prosecution-distorts-operational-vs-test-environment]] — L6 환경 왜곡 (RELATED)
 - [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

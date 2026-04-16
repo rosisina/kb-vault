@@ -60,37 +60,36 @@ SET fr.layer = 1,
     fr.summary = "제45조 catch-all: 미등록→차단, 등록+취약→차단. 어느 경우든 15년 방치=위반.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 제45조 제1항은 사이버자산 현황을 '수시로 관리'하고 '미등록 또는 취약점 위험도가 높은 장비·체계는 원칙적으로 네트워크 접근을 제한'하도록 의무화. 舊KIATIS가 미등록이면 네트워크 차단 대상, 등록되었으면 VPN 미적용이 취약점으로 탐지 필수. 어느 경우든 15년간 방치는 제45조 위반.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - Art. 45 creates a catch-all: unregistered systems must be network-restricted; registered high-vulnerability systems must also be restricted [타당성]
 - Either path (unregistered OR registered-but-vulnerable) should have prevented 15 years of unprotected KIATIS operation [진리성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - *(regulation-text claim — Record No. exempt per CLAUDE.md)*
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 舊KIATIS가 사이버자산 현황에 정상 등록되어 수용 가능 위험으로 분류되었다
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 DIDC의 사이버자산 현황에 舊KIATIS가 네트워크 구성과 위험 분류와 함께 등록된 기록
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** STRONG. 진리성 9 / 타당성 10 / 진실성 5.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/cyber security reguration.md` lines 401-409
 
-- `vault-converted-korean/cyber security reguration.md` lines 401-409
-
-## Related
-
+## 관련 (Related)
 - [[csr-annual-vulnerability-assessment-duty-violated]] (CORROBORATES)
 - [[old-kiatis-direct-db-access-without-vpn]] (CORROBORATES)
 - [[../layers/layer-1|Layer 1]] (PART_OF_LAYER)

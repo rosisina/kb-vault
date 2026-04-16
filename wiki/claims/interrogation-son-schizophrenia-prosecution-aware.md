@@ -62,37 +62,36 @@ SET fr.layer = 6,
     fr.summary = "피의자신문조서에 아들 조현병+가족 파괴+자살 충동 공식 기록. 검찰 인지 후 5주간 수사 계속.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 2022-09-02 피의자신문에서 건강상태 질문에 한지훈은 아들이 수사로 인해 조현병(schizophrenia) 진단을 받았고, 안동·청송에서 경찰에 발견되었으며, 가족이 '풍지 박살'났다고 진술. '죽고 싶은 마음 뿐입니다'라고 공식 기록에 남겼다. 이 공식 신문조서가 검찰의 심각한 가족 피해 인지의 공식 타임스탬프이다. 그럼에도 수사는 5주간 더 계속되어 10.07 기소유예로 종결.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - Official interrogation transcript creates dated record of prosecution's awareness of severe family harm — son's schizophrenia, family destruction [진실성]
 - 'I just want to die' recorded in official document — prosecution continued investigation for 5 more weeks after this disclosure [진실성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - *(regulation-text claim — Record No. exempt per CLAUDE.md)*
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 검찰은 피의자 가족 상황과 무관하게 수사를 진행할 법적 의무가 있다
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 군 검찰 지침에서 피의자 가족의 심각한 피해 상황을 수사 속도·방향 결정에 고려해야 한다는 규정
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** STRONG. 진리성 7 / 타당성 7 / 진실성 10.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/(2022902) Record of interrogation of a suspect (2 September 2022(English, Korean).converted.md` lines 1-2154
 
-- `vault-converted-korean/(2022902) Record of interrogation of a suspect (2 September 2022(English, Korean).converted.md` lines 1-2154
-
-## Related
-
+## 관련 (Related)
 - [[layer6-judicial-murder-permanent-family-destruction]] (RELATED)
 - [[prosecution-knew-innocence-continued-case]] (RELATED)
 - [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

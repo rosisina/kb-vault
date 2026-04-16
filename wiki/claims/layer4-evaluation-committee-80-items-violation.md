@@ -54,7 +54,7 @@ tags:
 ---
 # 新KIATIS 시험평가위원회가 99.7점 성공 판정과 동시에 80개 추가요구사항을 의결하여 시험평가의 본질을 위반하였다
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md (§3.4.6.1, §3.4.6.2, 정리12) • raw/05. Investigation by the Military Prosecutor's Office/Bilingual(English, Korean)/(20221014) Fraudulent Proof of Notification of the Reason for Non-Prosecution(English, Korean).converted.md
+**Source:** raw/01. book-beyond-cybersecurity/Korean/10-3-4-34-제4-층위.md (§3.4.6.1, §3.4.6.2, 정리12) • raw/05. Investigation by the Military Prosecutor's Office/Bilingual(English, Korean)/(20221014) Fraudulent Proof of Notification of the Reason for Non-Prosecution(English, Korean).converted.md
 **Layer:** [[../layers/layer-4|Layer 4]] (primary — 시험평가 전·중·후 조작), [[../layers/layer-6|Layer 6]] (secondary — 80건이 사기수사의 서사적 기반을 제공)
 **Aurora node:**
 ```cypher
@@ -74,7 +74,9 @@ SET fr.layer = 4,
     fr.summary = "Book §3.4.6.1 confirms 99.7점 군사용 적합 판정 (기록 제3,041쪽). Book §3.4.6.2 + 정리12 confirm 80건 추가요구사항 의결 at the same evaluation session (기록 제3,039쪽). The book characterizes the 80건 as a device to make 'a success look like a failure' (정리12). The 불기소이유서 (기록 제5,167쪽) independently confirms the 99.7점 verdict, corroborating the fact record.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 2019년 9월, 新KIATIS 개발운용시험평가위원회(비상설)는 **99.7점(99.73점)**의 고득점과 함께 **군사용 적합** 판정을 내렸다 (기록 제3,041쪽). 이 판정은 객관적 평가 기준으로 완벽에 가까운 성공 사례임을 의미한다.
 
@@ -97,22 +99,23 @@ SET fr.layer = 4,
 
 책의 §3.4.6.2 제목: `평가 계획 보고 시 팀장 배제 후 추가 요구사항 80건(예산 50%) 의결`. 정리12: `新KIATIS 개발운용시험평가의 의결된 개발요구사항 80건은 성공한 개발팀장을 희생양으로 만든 조직적 모함의 부산물이다.`
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - 시험평가위원회의 99.7점 성공 판정과 80건 추가 요구사항 의결이 **동일 세션**에서 이루어졌다는 사실이 기록 제3,039쪽~제3,041쪽으로 확인된다 [진리성]
 - 성공 판정(종결 행위)과 동시에 50% 규모의 신규 요구를 의결하는 것은 제2129호 제63조 운용시험평가 체계에서 논리적으로 허용될 수 없다 — 성공 판정이 진실이라면 80건 의결은 권한 밖이고, 80건 의결이 합법이라면 성공 판정은 허위이다 [타당성]
 - The evaluation committee's dual act — success verdict + 80 new requirements in the same session — is the Layer 4 test-evaluation manipulation signal: the cartel created a paper success while simultaneously engineering a real failure [진리성]
 - 불기소이유서(기록 제5,167쪽)는 99.7점 판정을 사실 인정하면서도 80건 의결을 수사에서 배제 — 선택적 기소 설계의 증거 [진실성]
 - L6 sister atom [[cartel-requirement-inflation-80-items-delay]]은 80건의 Layer 6 지연 메커니즘을 다룬다; 본 원자는 **Layer 4 시험평가 절차 위반** — 두 원자는 상호보완적 [진리성]
 
-## Layer
-
+## 층위 (Layer)
 [[../layers/layer-4|Layer 4]] — 新KIATIS 개발·운영·시험평가 전·중·후 조작. 기록 제3,039쪽은 Layer 4 증거 범위(2,500~3,699)에 속한다. 이 사건은 `시험평가 후 조작` 단계의 핵심이다.
 
 [[../layers/layer-6|Layer 6]] (secondary) — 80건 추가요구사항이 한지훈을 피의자로 표적화하는 `전력화 실패` 서사의 기반을 제공했다는 점에서 Layer 6와 연동된다.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **기록 제3,041쪽** — 시험평가위원회 99.7점(99.73점) 군사용 적합 판정 (§3.4.6.1 직접 인용): `新KIATIS 시험평가 위원회(비상설)는 99.7%라는 고득점과 함께 "군사용 적합" 판정을 하였다` CONFIRMED
 - **기록 제3,039쪽** — 80건 추가요구사항 위원회 의결 (§3.4.6.2, 정리12) CONFIRMED (exact page for 80건 resolution; sister L6 atom FR-L6-007 cites same page)
 - **정리12** (§3.4.7.3.6): `新KIATIS 개발운용시험평가의 의결된 개발요구사항 80건은 성공한 개발팀장을 희생양으로 만든 조직적 모함의 부산물이다` CONFIRMED
@@ -122,38 +125,33 @@ SET fr.layer = 4,
 - Cross-link: [[cartel-requirement-inflation-80-items-delay|FR-L6-007]] — Layer 6 sister atom (지연 메커니즘)
 - Cross-link: [[2436ho-test-evaluation-principle-inverted|FR-L4-A9-001]] — 시험평가 원칙 역전 (동일 Layer 4 조작 군집)
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 위원회는 99.7점으로 **평가 기준상 성공**을 인정하면서도, 실제 국유단 운용 환경에서 추가로 필요한 기능들을 발견하여 별도 사업 범위 확장으로 의결하였다. 이는 시험평가 종결과 사용자 요구 반영을 분리하여 처리한 것으로, 제63조 위반이 아닌 정상적인 사업관리 절차이다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 다음 중 하나가 입증되면 이 주장은 WEAKENED로 하향된다:
 
 1. 위원회 회의록 전문이 99.7점 판정과 80건 의결을 **별개의 안건**으로 처리했음을 보여주고, 80건이 제2129호 제63조 제2항의 사업통제기관 승인 채널을 통해 처리되었다는 승인 문서
 2. 80건이 RFP 원래 범위의 50% 미만임을 보여주는 계약서 또는 사업계획서 원본
 3. 평가위원회가 80건 의결에 대한 법적 근거를 명시한 회의 결의문 (제2129호 해당 조항 기재 포함)
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED. Strong.** 진리성 9 / 타당성 8 / 진실성 7. 기록 제3,039쪽~제3,041쪽(Layer 4 범위)에서 동시 처리 사실이 확인되고, 정리12가 조직적 모함의 부산물로 명시하며, 불기소이유서가 99.7점 사실을 독립적으로 확인한다. 타당성이 진리성보다 낮은 이유는 위원회 의결의 법적 근거가 제63조 위반인지 아니면 단순 사업관리 범위 확장인지에 대한 법리 해석 여지가 남아있기 때문이다.
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/10-3-4-34-제4-층위.md` §3.4.6.1 — 기록 제3,041쪽: `99.7%라는 고득점과 함께 "군사용 적합" 판정` — CONFIRMED
-- `vault-converted-korean/10-3-4-34-제4-층위.md` §3.4.6.2 — `평가 계획 보고 시 팀장 배제 후 추가 요구사항 80건(예산 50%) 의결` — CONFIRMED
-- `vault-converted-korean/10-3-4-34-제4-층위.md` 정리12 — `新KIATIS 개발운용시험평가의 의결된 개발요구사항 80건은 성공한 개발팀장을 희생양으로 만든 조직적 모함의 부산물이다` — CONFIRMED
+- `Korean/10-3-4-34-제4-층위.md` §3.4.6.1 — 기록 제3,041쪽: `99.7%라는 고득점과 함께 "군사용 적합" 판정` — CONFIRMED
+- `Korean/10-3-4-34-제4-층위.md` §3.4.6.2 — `평가 계획 보고 시 팀장 배제 후 추가 요구사항 80건(예산 50%) 의결` — CONFIRMED
+- `Korean/10-3-4-34-제4-층위.md` 정리12 — `新KIATIS 개발운용시험평가의 의결된 개발요구사항 80건은 성공한 개발팀장을 희생양으로 만든 조직적 모함의 부산물이다` — CONFIRMED
 - 99.73점 독립 확인: `raw/05/.../불기소이유서.converted.md` p.2 (기록 제394쪽 인용) — CONFIRMED
 
-## Open Questions
-
+## 미결 사항 (Open Questions)
 - 기록 제3,039쪽과 제3,041쪽의 관계: 두 쪽이 동일 회의 회의록의 연속 페이지인지 확인 필요 (L6 sister atom은 제3,039쪽 단독 인용; 본 원자는 §3.4.6.1이 제3,041쪽으로 군사용 적합 판정을 명시함에 따라 두 페이지를 범위로 설정함)
 - 80건 위원회 의결일 특정: 2019년 9월 시험평가 완료(9월 11일) 당일인지, 아니면 별도 날짜에 열린 위원회 회의인지 확인 필요
 - 정다원, 배지훈 참고인 신원: 불기소이유서에 등장하는 두 인물이 pseudonym_mapping.json에 미등재 상태 — 필요시 Aurora pseudonym 신규 등록 요청
 - Layer 4 군사용 부적합 경로: 제63조 제2항이 규정한 재시험 채널 대신 80건 추가 의결 채널을 선택한 결정 주체가 누구인지 (위원장 김경진인지, 국전원 상층부인지) 확인 필요
 
-## Related
-
+## 관련 (Related)
 - [[cartel-requirement-inflation-80-items-delay|FR-L6-007 — Layer 6 sister atom: 80건이 전력화 지연 메커니즘으로 작동한 과정]] (RELATED)
 - [[2436ho-test-evaluation-principle-inverted|FR-L4-A9-001 — 시험평가 원칙 역전 (분리→통합)]] (RELATED)
 - [[han-ji-hoon-prosecution-violates-2129-role-separation|역할 분리 위반 — 사업관리팀장이 시험평가 주체가 아닌 근거]] (RELATED)

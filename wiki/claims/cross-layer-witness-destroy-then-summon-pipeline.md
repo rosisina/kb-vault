@@ -60,38 +60,37 @@ SET fr.layer = 6,
     fr.summary = "L5 증인파괴→L6 증인소환 파이프라인. 독립성 파괴 후 순응적 증언 수확.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 Layer 5에서 6개월간 체계적 증인 파괴 전술(독방 격리, PC 차단, 동료 침묵 유도)을 실행한 후, Layer 6에서 동일 조직이 '파괴된' 증인들을 참고인으로 소환. L5 증인 파괴 → L6 증인 활용의 순차 파이프라인: 먼저 독립적 증언 능력을 파괴한 후, 조직 서사에 순응하는 증언만 수확.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - L5 destroyed witness independence through isolation tactics; L6 then summoned same witnesses [진리성]
 - Sequential pipeline: destroy independence first, harvest compliant testimony second [진실성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **Record No. 10,034**
 - **Record No. 11,162**
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 증인 격리와 증인 소환은 독립적 행정·법적 조치
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 검찰 증인이 강압 여부 심사를 거쳤고, 격리 전 입장과 일관된 증언을 한 기록
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** STRONG. 진리성 9 / 타당성 8 / 진실성 10.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/layer5-six-month-witness-destruction-tactics.md + prosecution-witness-list-reveals-cartel.md` lines cross-reference
 
-- `vault-converted-korean/layer5-six-month-witness-destruction-tactics.md + prosecution-witness-list-reveals-cartel.md` lines cross-reference
-
-## Related
-
+## 관련 (Related)
 - [[layer5-collective-witness-abandonment-selective-memory]] (CAUSES)
 - [[prosecution-witness-list-reveals-cartel]] (RELATED)
 - [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

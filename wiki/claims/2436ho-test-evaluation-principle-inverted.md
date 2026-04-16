@@ -60,24 +60,27 @@ SET fr.layer = 4,
     fr.summary = "Direct text comparison: 제2129호 ¶2 'separate as principle' → 제2436호 ¶1 'integrate as principle'; semantic inversion of the same article in the same directive";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 On 2020-06-04, 국방정보화업무 훈령 제2436호 inverted the test-evaluation principle in 제58조 from `개발시험평가와 운용시험평가를 분리하는 것을 원칙으로 하되` (separation as principle, integration as exception) to `시험평가는 통합하여 실시하는 것을 원칙으로 한다` (integration as principle, separation as exception). This is a semantic reversal of the regulatory default in the same article of the same directive, not a clarification or restatement.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - 제2129호 제58조 ¶2 read `개발시험평가와 운용시험평가를 분리하는 것을 원칙으로 하되, 필요시 사업통제기관의 승인을 받아 동시에 실시할 수 있다` — separation as principle, integration as sanctioned exception [타당성]
 - 제2436호 제58조 ¶1 (line 1700) inverts to `시험평가는 통합하여 실시하는 것을 원칙으로 한다. 다만, 사업의 특성이 있는 경우 분리하여 수행할 수 있으며…` — integration as principle, separation as exception, with decision delegated to 집행기관 + 소요제기기관 협의 [타당성]
 - 제2649호 (2022-05-06) 제58조 ¶1 (line 1718) carries the identical inversion text, confirming the change is a persistent structural rewrite, not a paragraph reordering [진리성]
 - Under 행위시법주의, any post-2020-06-04 review of pre-2020-06-04 KIATIS test-evaluation conduct must apply the older separation-principle default, not the inverted integration default [타당성]
 - Verdict CORROBORATED (strength STRONG, 진리성 9 / 타당성 10 / 진실성 8); falsification requires MND audit / approval records showing integrated execution was the de facto 2018–2020 norm with sanctioned exception approvals [진실성]
 
-## Layer
-
+## 층위 (Layer)
 [[../layers/layer-4|Layer 4]] — 新KIATIS 개발·운영·시험평가 전·중·후 조작. The inversion converts the regulatory default for test-evaluation execution. Any post-2020-06-04 review of pre-2020-06-04 conduct must apply the older default (separation principle) to be lawful under 행위시법주의.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - 제2129호 (2018-02-05) 제58조 ¶2 (verbatim, paragraph): `국방부 통제사업의 시험평가 절차는 제59조에서 제64조까지의 내용을 준용하며 개발시험평가와 운용시험평가를 분리하는 것을 원칙으로 하되, 필요시 사업통제기관의 승인을 받아 동시에 실시할 수 있다.`
 - 제2436호 (2020-06-04) 제58조 ¶1 (line 1700): `제57조의 구분에도 불구하고, 시험평가는 통합하여 실시하는 것을 원칙으로 한다(통합하여 실시하는 경우 이후 "시험평가"로 명칭한다.). 다만, 사업의 특성이 있는 경우 분리하여 수행할 수 있으며, 분리 수행여부는 집행기관과 소요제기기관이 협의하여 결정한다.`
 - 제2649호 (2022-05-06) 제58조 ¶1 (line 1718): identical 제2436호 inversion text — pattern persists.
@@ -85,12 +88,10 @@ On 2020-06-04, 국방정보화업무 훈령 제2436호 inverted the test-evaluat
 - See [[../regulations/defense-it-2129-article-58|제58조 page]]
 - See [[2436ho-cluster-six-anchors|2436호 cluster]] for the simultaneity context
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 The inversion is a re-statement of pre-existing practice. Integrated DT&E/OT&E execution had been the de facto norm even under 제2129호 (the "exception" was the rule), and 제2436호 merely conformed the directive text to existing practice without changing the legal default.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 This claim is **CORROBORATED** unless one of the following is produced:
 
 1. A statistically significant set of 사업통제기관 written approvals under 제2129호 제58조 ¶2 permitting integrated execution for projects 2018–2020, of a magnitude consistent with "integrated as norm". A handful of approvals would not satisfy this; "norm" requires majority practice.
@@ -99,19 +100,17 @@ This claim is **CORROBORATED** unless one of the following is produced:
 
 If item 1 or 2 is produced, the verdict downgrades to WEAKENED. If item 3 alone is produced, it does not affect the verdict (academic description is not a substitute for regulatory practice).
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. The semantic inversion is undeniable on direct text comparison; the counter-hypothesis requires producing positive evidence that does not currently exist in the corpus and cannot exist in the directive's own text (which is what the directive says, not what was practiced). 진리성 9 / 타당성 10 / 진실성 8.
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/08-3-2-32-제2-층위.md` — Layer 2 chapter
-- `vault-converted-korean/10-3-4-34-제4-층위.md` — Layer 4 chapter (primary, contains 분리/통합 원칙 narrative)
-- `vault-converted-korean/12-3-6-36-제6층위-군.md` — Layer 6 chapter (prosecutor's framework choice on the principle)
+- `Korean/08-3-2-32-제2-층위.md` — Layer 2 chapter
+- `Korean/10-3-4-34-제4-층위.md` — Layer 4 chapter (primary, contains 분리/통합 원칙 narrative)
+- `Korean/12-3-6-36-제6층위-군.md` — Layer 6 chapter (prosecutor's framework choice on the principle)
 - Deferred to A.6 Re-verify. The book likely contains the precise claim about which prosecutor framework was applied; this atom's verdict and falsification structure should be cross-checked.
 
-## Related
-
+## 관련 (Related)
 - [[2436ho-cluster-six-anchors|2436호 cluster meta-claim]] (SUPERSEDES)
 - [[2436ho-dtne-articles-erased|A10: DT&E article deletion (paired change)]] (CORROBORATES)
 - [[kiatis-2129ho-main-regime-applies|KIATIS bound by 제2129호 separation principle]] (CORROBORATES)

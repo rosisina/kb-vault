@@ -45,7 +45,7 @@ tags:
 ---
 # 新KIATIS 개발·운용시험평가 통합 실시 — 분리 원칙 위반
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4.3.2 (lines 226-275)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/10-3-4-34-제4-층위.md §3.4.3.2 (lines 226-275)
 **Layer:** [[../layers/layer-4|Layer 4]]
 **Aurora node:**
 ```cypher
@@ -65,7 +65,9 @@ SET fr.layer = 4,
     fr.summary = "훈령 제58조 ②에 의거 통제사업은 DT/OT 분리 원칙. 新KIATIS 예산 6.25억으로 5억 초과. 국방부 통합 승인 기록 미발견. 국전원이 임의로 통합 실시한 것은 제2층위의 위임사업 불법전환과 연동.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 新KIATIS 시험평가(2019.9.2~11)는 개발시험평가(DT)와 운용시험평가(OT)를 통합하여 "개발·운용시험평가"로 실시되었다. 이는 훈령 제2129호/제2263호 제58조 ②를 위반한다:
 
@@ -75,36 +77,33 @@ SET fr.layer = 4,
 
 한지훈의 피의자신문조서 진술: "정보화 훈령은 개발시험평가하고 운용시험평가를 분리하는 게 원칙입니다... 운용시험평가가 원래 없었는데 통째로 들어갔습니다" (본문기록-제4층위-015-1).
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - DT/OT integration violated Article 58(2)'s separation principle for MND-controlled projects [타당성]
 - Budget of 6.25 billion KRW exceeded the 5-billion threshold for Article 58(3) delegation [타당성]
 - No MND approval for integration was found — the integration was unilaterally executed by 국전원 [진리성]
 - 한지훈's own interrogation testimony explains the regulatory basis for separation [진리성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **Record No. 8,012** — 훈령 제58조 (시험평가 수행 원칙)
 - **Record No. 9,003, 9,010** — 훈령 용어 정의 (DT/OT)
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 新KIATIS는 기관위임 대상이며 통합 실시가 허용된다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 5억 미만 대상 확인 또는 국방부 통합 승인 기록.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 10 / 진실성 7.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/10-3-4-34-제4-층위.md` lines 226-240
 
-- `vault-converted-korean/10-3-4-34-제4-층위.md` lines 226-240
-
-## Related
-
+## 관련 (Related)
 - [[new-kiatis-is-mnd-controlled-not-delegated-project]] — L2 통제사업 확인 (RELATED)
 - [[kida-recommends-gukjeonwon-centered-integration]] — L4 KIDA 통합 권고 (RELATED)
 - [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

@@ -65,7 +65,9 @@ SET fr.layer = 6,
     fr.summary = "'입금해야 선임계' + 880/550 수임료 구조 + 2천만원 받고 기술 방어 0 = 용병적 관계.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 최동욱 변호사는 수임료 입금을 **선임계 제출의 전제조건**으로 설정하고, 성과 보수 구조(검찰단계 880만원 / 불기소 시 550만원)를 제시하였다.
 
@@ -74,36 +76,34 @@ SET fr.layer = 6,
 > **(최동욱, 녹취 아 line 8537~8542):**
 > "내가 명확하게 하는 것은 좋은데, 지금 집사님이 바쁘고 그러니까 일단은 우리한테 **송금은 입금해야** 내가 대한변협에다가 신고를 하고 **위임장을 선임계를 검찰단에 내고 그래야 내가 말할 수 있는 자격이 돼요**... **검찰단계 팔백 팔십이 되는 거예요, 불기소하면 오백 오십**을 받은 것까지만 하고"
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - [진리성] 수임료 입금을 선임계 제출의 전제조건으로 설정 — 피의자가 압수수색을 받은 긴급 상황에서 **돈이 먼저**. / Fee payment as prerequisite for filing representation — money before defense in an emergency.
 - [타당성] 2천만원+ 수임료를 받으면서 기술적 방어 노력 0 (KIATIS 발음 불가, DT/OT 구분 미이해, 훈령 미검토) = **수임료에 상응하는 성실 의무 불이행**. / 20M+ KRW fees with zero technical defense effort = fiduciary duty breach.
 - [진실성] 수임료 구조(880/550)는 **불기소가 변호사에게 유리한 구조** — 기소유예(=불기소의 일종)가 나오면 550만원만 지급 → 변호사의 경제적 인센티브가 **무혐의보다 기소유예에** 정렬. / Fee structure incentivizes deferred prosecution over acquittal.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **녹취 183** (녹취 아, 2022.8.4, line 8530~8558)
 - Cross-reference: [[choi-dongwook-technical-ignorance-despite-months|기술적 무지에도 2천만원+]]
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 수임료 선입금은 변호사 업계의 일반적 관행이다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 최동욱이 수임료와 무관하게 실질적 법률 활동을 수행한 기록.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Moderate. 진리성 8 / 타당성 7 / 진실성 9.
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/11-3-5-35-제-5층위.md` — §3.5.2.3.7
+- `Korean/11-3-5-35-제-5층위.md` — §3.5.2.3.7
 - Deferred to A.6 Re-verify.
 
-## Related
-
+## 관련 (Related)
 - [[choi-dongwook-technical-ignorance-despite-months|기술적 무지]] (CORROBORATES)
 - [[layer5-choi-dongwook-dual-role-lawyer-or-conspirator|이중 대리]] (RELATED)
 - [[../layers/layer-6|Layer 6]] (PART_OF_LAYER)

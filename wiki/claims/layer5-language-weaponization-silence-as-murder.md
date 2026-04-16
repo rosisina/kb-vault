@@ -49,7 +49,7 @@ tags:
 ---
 # 언어의 무기화와 침묵 강요 — Austin 화행이론으로 본 조직적 사회적 살인
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/11-3-5-35-제-5층위.md §3.5.1.7 (lines 79-96)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/11-3-5-35-제-5층위.md §3.5.1.7 (lines 79-96)
 **Layer:** [[../layers/layer-5|Layer 5]]
 **Aurora node:**
 ```cypher
@@ -69,7 +69,9 @@ SET fr.layer = 5,
     fr.summary = "6개월 독방 격리(2022.2~9), 정보 차단, 컴퓨터·자리 미제공, 회의실과 화장실 전전. 아들 질환, 딸 휴학, 치아 손실, 정신과 치료. 갑질 신고는 김민수·이지영·김수진의 각색에 의한 것으로 박서준은 가짜 주인공.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 국방정보화카르텔은 언어를 조직적 파괴의 무기로 사용하였다(기록 제3,700쪽 이하). Austin의 화행이론(Speech Act Theory)의 세 차원에서 분석:
 
@@ -79,39 +81,36 @@ SET fr.layer = 5,
 
 물리적 결과: 6개월 독방 격리(2022.2~9월), 컴퓨터와 자리 미제공, 회의실과 화장실을 전전, 정보 완전 차단. 가족에 대한 파급: 아들 질환, 딸 휴학, 전가족 극심한 스트레스. 한지훈 본인: 치아 탈락, 정신과 치료.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - The defense informatization cartel weaponized language through Austin's three speech-act dimensions: labeling (illocutionary), isolation (perlocutionary), silencing (forced silence) [진실성]
 - 6-month solitary confinement (2022.2-9) with systematic information blockade and denial of workspace constitutes extreme human rights violation [진실성]
 - The false harassment complaint was scripted by 김민수·이지영·김수진 — 박서준 was the nominal complainant, not the actual initiator [진리성]
 - Family destruction (child's illness, daughter's leave of absence, psychiatric treatment) as collateral damage of institutional targeting [진실성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **Record No. 4,084** — 독방 격리 관련
 - **Record No. 3,893** — 갑질 대응 문서
 - **Record No. 4,063, 4,078** — 인권침해 기록
 - **Record No. 4,087~4,090** — 추가 증거
 - **Record No. 11,050, 11,111** — 대화 기록
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 갑질 신고는 박서준의 자발적 신고이며, 한지훈의 격리는 수사 과정의 일반적 조치이다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 한지훈이 갑질 혐의에 대해 공정한 청문 기회를 받았고, 조직 내 소통 채널이 유지되었음을 보여주는 기록.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 8 / 진실성 10.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/11-3-5-35-제-5층위.md` lines 79-96
 
-- `vault-converted-korean/11-3-5-35-제-5층위.md` lines 79-96
-
-## Related
-
+## 관련 (Related)
 - [[layer5-six-month-isolation-human-rights|격리 인권침해 — 침묵 무기화의 물리적 토대]] (RELATED)
 - [[layer5-six-month-witness-destruction-tactics|6개월 증인 파괴 전술 — 언어 무기화의 물리적 실행]] (RELATED)
 - [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

@@ -64,37 +64,36 @@ SET fr.layer = 5,
     fr.summary = "녹취019→020: 직권조사 권고→수시간 내 철회→'없었던 걸로'. 상위 의사결정의 은폐 경로 차단.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 이지영은 2022-02-21 녹취019에서 '인사TF장이 직권조사 의뢰를 하는 게 맞다고 조언했다'고 전달. 수시간 후 녹취020에서 '그건 또 아니래요. 제가 한 말은 없었던 거로 하시죠'로 완전 번복. 상위 의사결정에 의해 직권조사 경로가 즉시 차단됨.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - 직권조사 was formally considered then vetoed within hours — higher-level suppression [진리성]
 - 'Pretend I never said it' explicitly attempts to erase the decision trail [진리성]
 - 국전원 chose NOT to investigate through official channels despite internal recognition [타당성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - *(regulation-text claim — Record No. exempt per CLAUDE.md)*
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 번복은 절차적 요건 확인 후 정상적 재검토이다
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 직권조사가 법적 사유로 거부된 기록
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** STRONG. 진리성 9 / 타당성 8 / 진실성 8.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/(Korean) individual_recording_logs_beyond_cybersecurity.md` lines 2344-2399
 
-- `vault-converted-korean/(Korean) individual_recording_logs_beyond_cybersecurity.md` lines 2344-2399
-
-## Related
-
+## 관련 (Related)
 - [[layer5-false-gapjil-report-organizational-conspiracy-structure]] (OPPOSES)
 - [[../layers/layer-5|Layer 5]] (PART_OF_LAYER)

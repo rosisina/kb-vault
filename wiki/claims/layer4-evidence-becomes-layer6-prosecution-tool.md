@@ -42,7 +42,7 @@ tags:
 ---
 # 제4층위의 조작 결과가 제6층위 검찰의 범죄자 낙인 도구로 전용 — 자기모순 구조
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md §3.4 (lines 3)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/10-3-4-34-제4-층위.md §3.4 (lines 3)
 **Layer:** [[../layers/layer-4|Layer 4]], [[../layers/layer-6|Layer 6]] (secondary)
 **Aurora node:**
 ```cypher
@@ -62,38 +62,37 @@ SET fr.layer = 4,
     fr.summary = "L4 조작→L6 기소 도구 전용의 공급 체인. L4 조작 입증=L6 기소 자동 붕괴의 자기모순 구조.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 국방정보화카르텔의 제4층위 조작 결과를 이어받은 군검찰단이 제6층위에서 희생양 만들기의 도구로 사용하였다. 그러나 제4층위의 조작을 증명하면 제6층위의 기소가 자동으로 붕괴하는 자기모순적 구조(self-trapping logic)가 형성된다. 검찰단이 자신들이 세운 논리에 스스로 갇히게 되는 것이다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - L4 fabricated test evaluation results were repurposed by L6 prosecution as criminal evidence [진리성]
 - Self-trapping logic: proving L4 manipulation automatically proves L6 prosecution fraud [타당성]
 - The cross-layer pipeline (L4 fabrication → L6 criminalization) is a complete evidence-to-prosecution supply chain [진리성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - *(regulation-text claim — Record No. exempt per CLAUDE.md)*
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 검찰이 L4 카르텔 산출물이 아닌 독립적으로 수집한 증거에 기반하여 L6 사건을 구축했다
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 L6 기소 증거가 독립적으로 확보되었고 L4에서 조작된 시험평가 결과에 의존하지 않음을 보여주는 기록
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** STRONG. 진리성 9 / 타당성 9 / 진실성 9.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/10-3-4-34-제4-층위.md` lines 3
 
-- `vault-converted-korean/10-3-4-34-제4-층위.md` lines 3
-
-## Related
-
+## 관련 (Related)
 - [[layer6-997-reframed-as-deficient-development]] (CAUSES)
 - [[prosecution-fraud-meets-criminal-elements]] (CAUSES)
 - [[../layers/layer-4|Layer 4]] (PART_OF_LAYER)

@@ -44,7 +44,7 @@ tags:
 ---
 # 7층위 증명 체계는 국면별 데이터 분류에 기초한 귀납적 구조물이다
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/04-1-1-서론.md §1.2.2 (lines 37-48)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/04-1-1-서론.md §1.2.2 (lines 37-48)
 **Layer:** [[../layers/layer-1|Layer 1]], [[../layers/layer-2|Layer 2]] (secondary), [[../layers/layer-3|Layer 3]] (secondary), [[../layers/layer-4|Layer 4]] (secondary), [[../layers/layer-5|Layer 5]] (secondary), [[../layers/layer-6|Layer 6]] (secondary), [[../layers/layer-7|Layer 7]] (secondary)
 **Aurora node:**
 ```cypher
@@ -64,36 +64,35 @@ SET fr.layer = 1,
     fr.summary = "본서 §1.2.2에서 7층위 설계 근거를 명시: 13,495쪽 증거기록에서 귀납적으로 도출된 국면별 분류. Aurora 프로젝트의 독립 ontology 구축(Neo4j 7-layer schema)이 동일 분류 체계를 재현하여 외부 검증 사례를 구성.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 7층위 증명 체계는 2025년 5월부터 과거 증거 기록을 재검토하여 국면별로 분류한 결과물이다. 각 층위는 독립적이면서도 상호 연관된 증거 체계를 구성하며, 전체적으로는 하나의 거대한 조직범죄 구조를 완성한다. 이 체계는 연역적이 아니라 귀납적으로 데이터에서 발견된 구조다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - The 7-layer proof system was built inductively from ~13,500 pages [진리성]
 - Each layer is independently evidenced yet cross-linked [진리성]
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - *(regulation-text claim — Record No. exempt per CLAUDE.md)*
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 7층위는 사후적 서사 프레임워크이며 중립적 분석으로는 다른 구조가 도출될 수 있다
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 독립 분석가의 재분류로 실질적으로 다른 층위 구조가 도출됨
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** MODERATE. 진리성 8 / 타당성 6 / 진실성 8. 본서 §1.2.2 명시적 설계 근거 + Aurora 독립 ontology의 동일 구조 재현이 외부 검증 사례.
 
-## Spot-check
+## 원전 확인 (Spot-check)
+- `Korean/04-1-1-서론.md` lines 37-48
 
-- `vault-converted-korean/04-1-1-서론.md` lines 37-48
-
-## Related
-
+## 관련 (Related)
 - [[layer1-foundation-of-seven-layer-system]] (CORROBORATES)
 - [[seven-layer-organic-crime-system-proven]] (RELATED)

@@ -71,7 +71,9 @@ SET fr.layer = 5,
     fr.summary = "변호사가 '깔끔하게 제대'로 사건 종결 제안 + '신고 봉쇄 가능' + '박서준 동의 불요' — 의뢰인 방어가 아닌 사건 은폐를 위한 전역 강요.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 최동욱 변호사는 한지훈을 수임한 지 불과 **3일 후**(2022.2.18)에 이미 무혐의 방어 대신 **전역을 조건으로 한 사건 종결**을 제안하였다.
 
@@ -106,38 +108,36 @@ SET fr.layer = 5,
 
 수임 3일 만에 전역을 제안하고 신고 봉쇄를 언급하는 것은 의뢰인의 **무혐의 방어권**을 포기하고 카르텔의 **은폐 목표**에 부합하는 행위이다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - [타당성] 수임 **3일 후** 전역 제안 = 무혐의 방어를 위한 **최소한의 노력도 없이** 사건 종결을 추구 — 변호사 윤리법 위반. / Proposing resignation 3 days after engagement — without any defense effort — violates attorney ethics.
 - [진리성] **"신고를 봉쇄할 수도 있죠"** — 변호사가 갑질 신고 자체를 억제할 권한이 있다는 발언 = 조사기관과의 **사전 조율 능력** 시사. / "Can suppress the complaint" implies pre-coordination with investigation authorities.
 - [진리성] **"박서준 동의 불요"** — 신고자의 동의 없이 사건을 종결할 수 있다는 주장 = 변호사가 **조직(김민수·이지영) 측의 의사를 대행**하는 구조. / Claiming complainant's consent unnecessary = attorney acting on organizational (not client) behalf.
 - [진실성] 한지훈은 32년 경력 중령으로 **무혐의를 확신**하는 상태 — 변호사가 전역을 권유하는 것은 의뢰인의 **자기방어 의지를 꺾는** 행위. / Han Ji-hoon was confident of innocence; the lawyer's resignation proposal undermined client's will to fight.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **녹취 178** (녹취 다, 2022.2.18, line 8118~8180)
 - Cross-reference: [[layer5-choi-dongwook-dual-role-lawyer-or-conspirator|이중 대리 본 atom]]
 - Cross-reference: [[choi-dongwook-resignation-threat-coercive-control|사임 위협]]
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 선의의 현실적 법적 조언이며, 증거 상황이 불리할 때 전역을 통한 조기 종결은 합리적 선택지이다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 최동욱이 전역 제안 전에 무혐의 방어를 위한 실질적 법적 노력을 수행한 기록.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 9 / 진실성 10.
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/11-3-5-35-제-5층위.md` — §3.5.2.3.7 최동욱 이중 역할
+- `Korean/11-3-5-35-제-5층위.md` — §3.5.2.3.7 최동욱 이중 역할
 - Deferred to A.6 Re-verify.
 
-## Related
-
+## 관련 (Related)
 - [[layer5-choi-dongwook-dual-role-lawyer-or-conspictor|이중 대리]] (RELATED)
 - [[choi-dongwook-resignation-threat-coercive-control|사임 위협]] (RELATED)
 - [[layer5-kyungbuk-network-conflict-of-interest|경북대 네트워크]] (RELATED)

@@ -45,7 +45,7 @@ tags:
 ---
 # 국방부의 조작 용어 '인도 단계' 도입 — 시험평가 책임을 사업관리기관에게 전가하는 체계 구축
 
-**Source:** raw/01. book-beyond-cybersecurity/vault-converted-korean/10-3-4-34-제4-층위.md (§3.4.7.3.3, lines 600–612)
+**Source:** raw/01. book-beyond-cybersecurity/Korean/10-3-4-34-제4-층위.md (§3.4.7.3.3, lines 600–612)
 **Layer:** [[../layers/layer-4|Layer 4]] (primary), [[../layers/layer-6|Layer 6]] (secondary — Record No. 4,763 falls in L6 range)
 **Aurora node:**
 ```cypher
@@ -66,7 +66,9 @@ SET fr.layer = 4,
     fr.summary = "MND introduced a fabricated term '인도 단계' in a 2020 policy document that shifts system installation responsibility entirely to 사업관리기관 across both DT&E and OT&E, creating a retroactive blame mechanism. No prior directive version contains this term.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 국방부가 2020년 8월 20일자 조작 공문 "국방정보시스템 시험평가 개선방안 의견수렴"에서 **기존 국방정보화업무훈령 어디에도 존재하지 않는 신규 용어 '인도 단계'를 도입**했다 (Record No. 4,763).
 
@@ -76,16 +78,18 @@ SET fr.layer = 4,
 
 또한 이 공문의 수신처에 **DIDC가 누락**되어 있는데, DIDC는 국방 기반운영 환경의 유일한 기관이자 新KIATIS 서버 구축의 당사자 기관이다. DIDC를 수신처에서 제외한 것은 DIDC를 은폐하려는 의도로 보인다.
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - The MND's 2020-08-20 document introduced a fabricated term '인도 단계' (delivery stage) — absent from all prior versions of the 국방정보화업무훈령 — that shifts system installation responsibility entirely to 사업관리기관 [진리성].
 - The '인도 단계' applies to both DT&E and OT&E, creating a structural blame mechanism: if deployment fails, the executing agency is solely responsible, regardless of operational-environment issues [타당성].
 - The document simultaneously inverts the test-evaluation principle from separation-as-default to integration-as-default, contradicting 제58조 ¶2 of the directive [타당성].
 - DIDC — the sole infrastructure operations facility and the entity that built 新KIATIS servers — was excluded from the distribution list of all related MND test-evaluation reform documents [진리성].
 - 新KIATIS is identified as the direct victim of this fabricated framework — the terminology manipulation was designed to retroactively justify the blame placed on the 사업관리기관 [진실성].
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - Record No. 4,763 (L6 range, but L4 primary content) — "현 국방정보시스템 시험평가 절차" 도표 in 조작공문
 - §3.4.7.3.3 (제4층위 본문, lines 600–612) — '인도 단계' 도입 분석
 - Record No. 4,765 — 시험평가 수준 및 적용 절차(안) 도표
@@ -93,37 +97,31 @@ SET fr.layer = 4,
 - 그림 4-7 — 조작 공문 수신처에 DIDC 부재
 - 국방정보화업무훈령 제58조 ¶2 — 분리 원칙 (기존 훈령)
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 1. **Genuine improvement:** The '인도 단계' was a genuine procedural improvement developed by KIDA based on international defense acquisition best practices, not targeted at any specific project. The term may correspond to standard acquisition lifecycle terminology (e.g., "delivery" or "acceptance" phases in US DoD or NATO frameworks).
 2. **Independent timing:** The 2020-08-20 document was part of a routine reform cycle and its timing near the KIATIS evaluation controversy was coincidental, not causal.
 3. **DIDC exclusion explained:** DIDC may have been excluded from the distribution list because the document addressed policy-level matters outside DIDC's operational scope.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 This claim is CORROBORATED unless:
 1. Pre-2020 MND or KIDA documentation is produced that uses '인도 단계' as a standard test-evaluation term — demonstrating the term existed before the alleged fabrication.
 2. An international defense acquisition framework (US DoD, NATO, or equivalent) is produced that uses an equivalent 'delivery stage' concept within test-evaluation procedures, demonstrating the term has legitimate precedent.
 3. A documented rationale for DIDC's exclusion from the distribution list is produced, unrelated to concealment.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 10 / 진실성 8. The term '인도 단계' is verifiably absent from all prior directive versions (2129호, 2263호, 2398호). Its introduction in a document that simultaneously inverts the test-evaluation separation principle creates a coherent blame-shift mechanism. 타당성 is maximum because the legal manipulation is structurally detectable by comparing the document with the directive text.
 
-## Spot-check
-
-- `vault-converted-korean/10-3-4-34-제4-층위.md` lines 600–612 — CONFIRMED: §3.4.7.3.3 describes '인도 단계' introduction
+## 원전 확인 (Spot-check)
+- `Korean/10-3-4-34-제4-층위.md` lines 600–612 — CONFIRMED: §3.4.7.3.3 describes '인도 단계' introduction
 - Cross-reference with [[article-58-separation-to-integration-2020-directive-manipulation]] — CONFIRMED: test-evaluation inversion pattern
 - Deferred to A.6 Re-verify.
 
-## Open Questions
-
+## 미결 사항 (Open Questions)
 - Can the exact language introducing '인도 단계' be extracted from the scanned document at Record No. 4,763 for verbatim citation?
 - Does KIDA's original research report (before MND editing) contain '인도 단계', or was it added during MND's revision process?
 - How does '인도 단계' interact with the subsequent directive revision (훈령 제2436호, 2020-12-31)? Was the term incorporated into the formal directive text?
 
-## Related
-
+## 관련 (Related)
 - [[article-58-separation-to-integration-2020-directive-manipulation|L4 atom: test-evaluation separation→integration inversion]] (OPPOSES)
 - [[mnd-test-evaluation-definition-manipulation|L4 atom: test-evaluation definition manipulation]] (OPPOSES)
 - [[mnd-test-evaluation-improvement-retroactive-justification|L4 atom: retroactive justification]] (OPPOSES)

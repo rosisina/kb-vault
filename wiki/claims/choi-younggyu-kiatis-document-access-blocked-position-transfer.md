@@ -73,7 +73,9 @@ SET fr.layer = 5,
     fr.summary = "보직 이동(행정정보화→자원관리)으로 KIATIS 자료 접근 전면 차단 + DIDC·국유단·국전원 3방향 지원 거부 = 방어 자료 접근 구조적 봉쇄.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 국전원 장비운용센터장 최영규 (10년 근무)에게 한지훈이 녹취 117(2022.8.9)에서 증언한 내용:
 
@@ -101,38 +103,36 @@ SET fr.layer = 5,
 
 피의자가 **자기 방어를 위해 필요한 자료에 접근할 수 없게** 3개 기관이 동시에 차단 = **방어권의 구조적 봉쇄**
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - [타당성] 보직 이동이 **갑질 조사 분리 목적**이라면 KIATIS 자료 접근까지 차단할 이유가 없음 — 자료 접근 차단은 **방어권 침해의 별도 행위**. / If the position transfer was for investigation separation, there's no reason to block KIATIS document access — document blocking is a separate defense-right violation.
 - [진리성] **3개 기관**(DIDC·국유단·국전원)이 동시에 지원을 거부 = **조직 간 조율**에 의한 차단. 하나의 기관만 차단하면 다른 경로로 자료 확보 가능 — 3개 동시 차단은 **완벽한 봉쇄 설계**. / Three organizations simultaneously blocking = coordinated obstruction by design.
 - [진실성] **"너 혼자 책임져라 우리 조직에서 안 해준다"** = 김민수의 조직적 유기 선언 — [[split-kim-min-su-organizational-support-cutoff]]과 직접 연결. / "Take responsibility alone, the organization won't help" = institutional abandonment.
 - [진리성] **"여기에 뭔가 의도가 있는 거 같애"** — 한지훈 자신이 보직 이동의 **진짜 목적이 자료 접근 차단**임을 실시간으로 인식. / Han Ji-hoon recognized in real-time that the true purpose of the transfer was document access blocking.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **녹취 117** (2022.8.9, line 5238~5307)
 - Cross-reference: [[split-kim-min-su-organizational-support-cutoff|김민수 지원 차단]]
 - Cross-reference: [[six-month-solitary-confinement-five-independent-witnesses|6개월 독방 — 보직 이동이 격리의 일부]]
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 보직 이동은 갑질 조사 기간 중 표준 분리 절차이다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 자원관리과 이동 후에도 KIATIS 자료에 접근한 기록.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 9 / 진실성 10.
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/11-3-5-35-제-5층위.md` — 격리 구조
+- `Korean/11-3-5-35-제-5층위.md` — 격리 구조
 - Deferred to A.6 Re-verify.
 
-## Related
-
+## 관련 (Related)
 - [[split-kim-min-su-organizational-support-cutoff|김민수 지원 차단]] (RELATED)
 - [[six-month-solitary-confinement-five-independent-witnesses|6개월 독방]] (CORROBORATES)
 - [[didc-withheld-network-diagram-from-kiatis|DIDC 네트워크 비공개]] (RELATED)

@@ -74,7 +74,9 @@ SET fr.layer = 5,
     fr.summary = "천하경 '휴직해라 정신병원 가라' + 최동욱 '정상적이지 않다' = 피해자를 비정상으로 프레이밍하는 이중 가스라이팅. 한지훈: '정상적이지 않은 것은 제가 아니예요'.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 국전원 관리과 천하경(주무관)과 최동욱 변호사가 각각 한지훈에게 **정신건강 문제를 제기**하여 한지훈을 '비정상'으로 프레이밍하였다. 이는 6개월 독방 격리의 피해자를 **가스라이팅**하여 증언 신뢰도를 사전 훼손하려는 조직적 전술이다.
 
@@ -102,38 +104,36 @@ SET fr.layer = 5,
 
 두 방향에서 동시에 한지훈의 정신 상태를 문제시 → 한지훈이 **정상적 판단력이 없는 사람**이라는 프레이밍 구축 → 이후 한지훈의 모든 증언과 반박의 **신뢰도를 사전 훼손**
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - [진실성] 6개월 독방 + 압수수색 + 아들 조현병이라는 **극한 스트레스의 원인을 만든 조직**이 피해자에게 "정신병원 가라"고 하는 것은 **가해자가 피해자를 비정상으로 만드는 전형적 가스라이팅**. / The organization causing extreme stress tells the victim to "go to a mental hospital" — classic abuser gaslighting.
 - [진리성] **변호사와 조직 내부자가 동일한 프레이밍**을 사용 = 독립적 우려가 아닌 **조율된 전략**의 정황 증거. / Lawyer and internal staff using identical framing = coordinated strategy, not independent concern.
 - [진실성] **"정상적이지 않은 것은 제가 아니예요"** — 한지훈의 반박은 가스라이팅의 본질을 정확히 지적: 비정상적인 것은 한지훈이 아니라 **6개월 독방 격리를 실행한 조직**. / Han Ji-hoon's rebuttal precisely identifies the gaslighting: the abnormality is the organization's conduct, not his mental state.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **녹취 187-1** (녹취 타, 2022.8.17, line 8625~8635)
 - **Record No. 11,252** — 최동욱 "정상적이지 않다" (기존 atom에서 인용)
 - Cross-reference: [[layer5-choi-dongwook-dual-role-lawyer-or-conspirator|최동욱 이중 대리 — 가스라이팅 포함]]
 - Cross-reference: [[six-month-solitary-confinement-five-independent-witnesses|6개월 독방 — 가스라이팅의 배경]]
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 천하경과 최동욱은 진심으로 한지훈의 정신건강을 우려했다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 한지훈이 '비정상' 판정을 받은 공식 의료 기록.
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Strong. 진리성 9 / 타당성 8 / 진실성 10.
 
 ## Spot-check (raw/01 book)
 
-- `vault-converted-korean/11-3-5-35-제-5층위.md` — §3.5.2.3.7 최동욱 가스라이팅
+- `Korean/11-3-5-35-제-5층위.md` — §3.5.2.3.7 최동욱 가스라이팅
 - Deferred to A.6 Re-verify.
 
-## Related
-
+## 관련 (Related)
 - [[layer5-choi-dongwook-dual-role-lawyer-or-conspirator|이중 대리]] (RELATED)
 - [[six-month-solitary-confinement-five-independent-witnesses|6개월 독방]] (CORROBORATES)
 - [[kim-dongwook-nis-testimony-park-seojun-mental-health|김동욱 NIS 증언 — 비정상은 한지훈이 아닌 박서준이었음]] (RELATED)

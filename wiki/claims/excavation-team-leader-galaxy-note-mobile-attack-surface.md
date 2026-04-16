@@ -69,7 +69,9 @@ SET fr.layer = 1,
     fr.summary = "갤럭시 노트(민간 모바일 기기)로 KIATIS 데이터에 접근하는 구조 = PC(Active-X) 외의 추가 attack surface. DIDC 예규의 VPN·ChakraMax 의무가 모바일 경로에 적용 불가능한 설계적 허점.";
 ```
 
-## Claim
+## 주장 (Claim)
+
+### 한국어
 
 2022년 2월 8일 KIATIS 정상화 회의(녹취 220)에서 발굴팀장은 현장에서 **갤럭시 노트**(대화면 스마트폰/팹릿)를 가지고 다니며 KIATIS 데이터에 접근한다고 진술하였다. 한지훈은 이 내용을 이지영에게 보고하면서 "**태블릿은 아니고 휴대폰 비슷한 거** 하나 갖고 가고. **피씨에서 VPN을 이용해서 해야 하는데**"라고 설명하였다.
 
@@ -107,8 +109,11 @@ Oracle DB (인사·사망자·유가족 정보 = irreversible data)
 | 제11호 | **제164조** | ChakraMax DB접근제어 통과 | 모바일에서 ChakraMax **미적용** → 위반 |
 | 제12호 | **제37조①** | 방화벽 변경 별지 6호 문서화 | 모바일 접근 별지 **미처리** → 위반 |
 
-## Key Takeaways
+### English
 
+<!-- pending: phase i18n-EN -->
+
+## 핵심 요약 (Key Takeaways)
 - [진리성] 발굴팀장이 "갤럭시 노트를 가지고 다닙니다"라고 공식 회의에서 진술 — **민간 모바일 기기로 KIATIS 데이터에 접근**하는 구조가 존재했음의 직접 증거. / The excavation team leader stated in an official meeting that he carries a Galaxy Note to access KIATIS data — direct evidence of mobile access via civilian wireless networks.
 - [진리성] "피씨에서 VPN을 이용해서 해야 하는데" — VPN이 **PC 전용**으로 설계되어 모바일 접근은 보안 체계 **밖** = **설계적 허점**. / VPN was designed for PC only, leaving mobile access outside the security perimeter — a design gap.
 - [타당성] DIDC 예규 제37조②(VPN)와 제164조(ChakraMax)는 PC 기반 접속을 전제 → 모바일 접근은 두 조항을 **동시 우회** → 보안 체계에 **구멍**. / Both DIDC SOP articles presume PC-based access; mobile access bypasses both simultaneously.
@@ -116,8 +121,7 @@ Oracle DB (인사·사망자·유가족 정보 = irreversible data)
 - [진리성] PC 경로(Active-X) + 모바일 경로(갤럭시 노트) = **복수의 비보호 진입점** → 2016 북한 APT 공격의 **공격 성공 확률 극대화** 구조. / PC path + mobile path = multiple unprotected entry points, maximizing attack success probability for the 2016 NK APT.
 - [진실성] 인사·사망자·유가족 정보(irreversible data)가 민간 무선 네트워크를 통해 접근 가능한 구조 = 군사 보안의 **근본적 실패**. / Personnel/casualty/bereaved family data accessible via civilian wireless = fundamental military security failure.
 
-## Supporting evidence
-
+## 지지 증거 (Supporting Evidence)
 - **녹취 220 line 13527~13529** — 발굴팀장: "갤럭시 노트를 가지고 다닙니다. 거기에서 전체적인 데이터가 필요"
 - **녹취 220 line 13654~13656** — 한지훈→이지영 보고: "태블릿은 아니고 휴대폰 비슷한 거 하나 갖고 가고. 피씨에서 VPN을 이용해서 해야 하는데"
 - Cross-reference: [[excavation-team-leader-15yr-vpn-absence-field-testimony]] — 동일 회의, 동일 발굴팀장의 VPN 미사용 7개 발언 (자매 atom)
@@ -125,42 +129,36 @@ Oracle DB (인사·사망자·유가족 정보 = irreversible data)
 - Cross-reference: [[didc-sop-firewall-vpn-trail-mandatory]] — 제37조② VPN 의무 (모바일 접근은 이 의무의 적용 밖)
 - Cross-reference: [[didc-sop-db-access-control-mandatory]] — 제164조 ChakraMax 의무 (모바일 접근은 이 통제의 적용 밖)
 
-## Counter-hypothesis
-
+## 반대 가설 (Counter-hypothesis)
 1. **일반 업무용**: 갤럭시 노트는 KIATIS DB 접근용이 아닌 사진 촬영·메모 등 일반 현장 업무용이며, KIATIS 서버에 실제로 접속한 적이 없다.
 2. **군용 MDM 적용**: 갤럭시 노트에 군용 MDM(Mobile Device Management) 또는 모바일 VPN이 설치되어 보안 접속만 가능했다.
 3. **오프라인 데이터**: "전체적인 데이터"는 사전에 다운로드한 오프라인 데이터를 조회하는 것이지 실시간 서버 접속이 아니다.
 
 이 반가설이 성립하려면: (1) KIATIS 서버 접속 로그에서 모바일 기기의 접속 기록이 0건임이 확인되어야 하고, (2) 갤럭시 노트에 군용 MDM/VPN이 설치된 기록이 있어야 하며, (3) KIATIS의 오프라인 데이터 동기화 기능이 존재하는 설계 문서가 있어야 한다.
 
-## Falsification condition
-
+## 반증 조건 (Falsification Condition)
 1. **서버 접속 로그** — 모바일 기기(갤럭시 노트 IP/MAC)가 KIATIS 서버에 접속한 적이 없음을 보여주는 기록
 2. **MDM/모바일 VPN 배포** — 발굴팀에 군용 모바일 보안 솔루션이 배포된 기록
 3. **오프라인 기능 설계** — KIATIS에 오프라인 데이터 동기화 기능이 있었음을 보여주는 사업계획서 또는 기능 명세서
 
-## Verdict
-
+## 평결 (Verdict)
 **CORROBORATED.** Moderate. 진리성 8 / 타당성 9 / 진실성 7.
 
 진리성이 STRONG이 아닌 MODERATE인 이유: 발굴팀장의 발언만으로는 갤럭시 노트가 KIATIS **서버에 직접 접속**했는지, 아니면 오프라인 데이터를 조회했는지 확정할 수 없다. "전체적인 데이터가 필요한 이유는 주변의 데이터를 같이 볼려다가"라는 문맥은 서버 접속을 시사하지만 명시적이지 않다. 그러나 타당성 9: "피씨에서 VPN을 이용해서 해야 하는데"라는 한지훈의 보고는 **VPN이 PC 전용**이어서 모바일에 적용되지 않는 설계적 허점을 명확히 지적.
 
 이 atom은 **KIATIS의 공격면(attack surface) 분석을 PC 경로에서 모바일 경로로 확장**하는 최초의 증거이다. 기존의 모든 atom은 PC 기반 Active-X/DB 직접접속만 다루었으나, 본 atom은 **제2의 비보호 경로**를 식별한다.
 
-## Open Questions
-
+## 미결 사항 (Open Questions)
 - 발굴팀장의 갤럭시 노트에서 KIATIS에 실제 접속한 서버 로그가 존재하는지 — 존재하면 STRONG 상향, 부존재하면 counter-hypothesis 1이 부분 성립
 - KIATIS의 모바일 접근 기능이 사업계획서(RFP)에 포함되어 있었는지 — 포함되어 있으면 모바일 경로가 **설계된 기능**이었음이 확인
 - 군용 MDM이 국유단 발굴팀에 배포된 이력이 있는지 — 미배포면 모바일 접근이 완전 비보호 경로 확정
 - "큰 역할을 하지 못하는 거죠" — 접근은 시도했으나 기능 제한이 있었다면, 어떤 데이터까지 접근 가능했는지
 
-## Spot-check
-
+## 원전 확인 (Spot-check)
 - `raw/02/(Korean) individual_recording_logs_beyond_cybersecurity.md` lines 13525~13535 — 발굴팀장 "갤럭시 노트" verbatim
 - `raw/02/(Korean) individual_recording_logs_beyond_cybersecurity.md` lines 13654~13656 — 한지훈→이지영 "태블릿 아니고 휴대폰 비슷한 거"
 
-## Related
-
+## 관련 (Related)
 - [[excavation-team-leader-15yr-vpn-absence-field-testimony|자매 atom: 발굴팀장 15년 VPN 미사용 7개 발언]] (RELATED)
 - [[old-kiatis-direct-db-access-without-vpn|PC 경로 DB 직접접속 — 본 atom이 모바일이라는 추가 경로를 식별]] (RELATED)
 - [[didc-sop-firewall-vpn-trail-mandatory|DIDC 예규 제37조② — PC 전용 VPN의 모바일 적용 불가능]] (RELATED)
