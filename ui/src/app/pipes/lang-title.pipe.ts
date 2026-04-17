@@ -11,8 +11,7 @@ export class LangTitlePipe implements PipeTransform {
   transform(node: GraphNode | null | undefined): string {
     if (!node) return '';
     if (this.lang.lang() === 'kr') return node.title;
-    // EN mode: use titleEn if available; otherwise apply name substitution to Korean title
-    const base = node.titleEn || node.title;
-    return node.titleEn ? base : this.lang.translateNamesInText(base);
+    // EN mode: always apply translateNamesInText (titleEn may still contain Korean org/term names)
+    return this.lang.translateNamesInText(node.titleEn || node.title);
   }
 }

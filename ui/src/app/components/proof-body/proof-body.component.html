@@ -355,7 +355,7 @@
             <ul class="takeaways">
               @for (t of takeawayList(detail); track $index) {
                 <li>
-                  <span class="takeaway-text">{{ t.text }}</span>
+                  <span class="takeaway-text">{{ lang.lang() === 'en' ? lang.translateNamesInText(t.text) : t.text }}</span>
                 </li>
               }
             </ul>
@@ -368,7 +368,7 @@
             <h4 class="section-label">{{ lang.lang() === 'kr' ? '증거 목록' : 'Supporting Evidence' }}</h4>
             <ul class="evidence-list">
               @for (e of detail.supportingEvidence; track $index) {
-                <li class="evidence-item">{{ lang.lang() === 'en' ? (e.raw_en || e.raw) : e.raw }}</li>
+                <li class="evidence-item">{{ lang.lang() === 'en' ? lang.translateNamesInText(e.raw_en || e.raw) : e.raw }}</li>
               }
             </ul>
           </div>
@@ -633,7 +633,7 @@
                   @if (takeawayList(item.detail).length > 0) {
                     <ul class="atom-takeaways-inline">
                       @for (t of takeawayList(item.detail); track $index) {
-                        <li>{{ t.text }}</li>
+                        <li>{{ lang.lang() === 'en' ? lang.translateNamesInText(t.text) : t.text }}</li>
                       }
                     </ul>
                   }
@@ -779,7 +779,7 @@
         @if (takeawayList(pDetail).length > 0) {
           <ul class="preview-takeaways">
             @for (t of takeawayList(pDetail).slice(0, 2); track $index) {
-              <li>{{ t.text.length > 100 ? t.text.slice(0, 100) + '...' : t.text }}</li>
+              <li>{{ lang.lang() === 'en' ? (lang.translateNamesInText(t.text).slice(0, 100) + (t.text.length > 100 ? '...' : '')) : (t.text.length > 100 ? t.text.slice(0, 100) + '...' : t.text) }}</li>
             }
           </ul>
         }
