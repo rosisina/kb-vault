@@ -32,6 +32,9 @@ function detectLayer(title: string): number | null {
   if (/layer[-\s]?5|5th[-\s]layer|fifth[-\s]layer/.test(t)) return 5;
   if (/layer[-\s]?6|6th[-\s]layer|sixth[-\s]layer/.test(t)) return 6;
   if (/layer[-\s]?7|7th[-\s]layer|seventh[-\s]layer/.test(t)) return 7;
+  // Section-number prefix: 3.N.xxx → Layer N (matches Python script logic)
+  const m = title.match(/^3\.(\d)[.\s]/);
+  if (m && +m[1] >= 1 && +m[1] <= 7) return +m[1];
   return null;
 }
 
@@ -89,7 +92,7 @@ export class DocumentViewerComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     this.http.get<PaperData>('assets/paper.json').subscribe(data => {
-      data.sections = data.sections.map(s => ({ ...s, layer: detectLayer(s.title) ?? undefined }));
+      data.sections = data.sections.map(s => ({ ...s, layer: s.layer ?? detectLayer(s.title) ?? undefined }));
       for (const s of data.sections) {
         if (s.layer && !this.layerSectionMap[s.layer]) this.layerSectionMap[s.layer] = s.id;
       }
