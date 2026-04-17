@@ -1,0 +1,44 @@
+# Netlify deployment configuration for Aurora Intelligence UI
+# Deploy: connect Netlify to the GitHub repo (rosisina/kb-vault)
+# Base directory: ui/
+# Build command: npm run build
+# Publish directory: ui/dist/ui/browser
+
+[build]
+  base    = "ui/"
+  command = "npm run build"
+  publish = "dist/ui/browser"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Angular SPA: redirect all routes to index.html
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
+
+# Security headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options        = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy        = "strict-origin-when-cross-origin"
+    Permissions-Policy     = "camera=(), microphone=(), geolocation=()"
+
+# Cache: long-lived for hashed assets, no-cache for index.html
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
