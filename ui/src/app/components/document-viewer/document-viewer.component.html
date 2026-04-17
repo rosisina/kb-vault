@@ -1,0 +1,106 @@
+<!-- Aurora v2 — Beyond Cybersecurity Paper Viewer -->
+<div class="paper-overlay" (click)="close.emit()">
+  <div class="paper-modal" (click)="$event.stopPropagation()">
+
+    <!-- 헤더 -->
+    <div class="paper-header">
+      <div class="paper-header-left">
+        <span class="material-icons paper-icon">article</span>
+        <div>
+          <div class="paper-title">
+            {{ lang.lang() === 'kr' ? '사건 입증 논문' : 'Evidence-Based Treatise' }}
+          </div>
+          @if (paper(); as p) {
+            <div class="paper-meta">{{ p.author }} · {{ p.date }}</div>
+          }
+        </div>
+      </div>
+      <div class="paper-header-right">
+        <div class="paper-search-wrap">
+          <span class="material-icons paper-search-icon">search</span>
+          <input class="paper-search"
+                 [value]="searchQuery()"
+                 (input)="searchQuery.set($any($event.target).value)"
+                 [placeholder]="lang.lang() === 'kr' ? '논문 내 검색...' : 'Search paper...'">
+        </div>
+        <button class="paper-close" (click)="close.emit()">
+          <span class="material-icons">close</span>
+        </button>
+      </div>
+    </div>
+
+    @if (paper(); as p) {
+      <div class="paper-body">
+
+        <!-- 좌측 TOC -->
+        <nav class="paper-toc" [class.toc-hidden]="!tocOpen()">
+          <div class="toc-toggle" (click)="tocOpen.update(v => !v)">
+            <span class="material-icons">{{ tocOpen() ? 'menu_open' : 'menu' }}</span>
+            <span>{{ lang.lang() === 'kr' ? '목차' : 'Contents' }}</span>
+          </div>
+          @if (tocOpen()) {
+            <div class="toc-list">
+              @for (entry of p.toc; track entry.id) {
+                <button class="toc-item"
+                        [class.toc-h1]="entry.level === 1"
+                        [class.toc-h2]="entry.level === 2"
+                        [class.toc-active]="activeSection() === entry.id"
+                        (click)="scrollTo(entry.id)">
+                  {{ entry.title | slice:0:50 }}{{ entry.title.length > 50 ? '…' : '' }}
+                </button>
+              }
+            </div>
+          }
+        </nav>
+
+        <!-- 본문 -->
+        <article class="paper-content">
+
+          <!-- 타이틀 블록 -->
+          <div class="paper-cover">
+            <h1 class="cover-title">{{ p.title }}</h1>
+            <p class="cover-subtitle">{{ p.subtitle }}</p>
+            <p class="cover-meta">{{ p.author }} · {{ p.date }}</p>
+            <div class="cover-badge">
+              {{ lang.lang() === 'kr'
+                ? '7층위 증명 체계 기반 논문'
+                : '7-Layer Proof System Treatise' }}
+            </div>
+          </div>
+
+          @for (section of filteredSections(); track section.id) {
+            <div class="paper-section"
+                 [id]="'paper-section-' + section.id"
+                 [class.section-h1]="section.level === 1"
+                 [class.section-h2]="section.level === 2"
+                 [class.section-h3]="section.level === 3">
+              <div class="section-heading" (click)="activeSection.set(section.id)">
+                @if (section.level === 1) { <h2>{{ section.title }}</h2> }
+                @if (section.level === 2) { <h3>{{ section.title }}</h3> }
+                @if (section.level === 3) { <h4>{{ section.title }}</h4> }
+              </div>
+              <!-- body 렌더링: img 태그 포함 허용, record-link 클릭 처리 -->
+              <div class="section-body"
+                   [innerHTML]="renderBody(section.body)"
+                   (click)="handleBodyClick($event)">
+              </div>
+            </div>
+          }
+
+          @if (filteredSections().length === 0) {
+            <div class="paper-empty">
+              {{ lang.lang() === 'kr' ? '검색 결과 없음' : 'No results found' }}
+            </div>
+          }
+        </article>
+
+      </div>
+    } @else {
+      <div class="paper-loading">
+        <span class="material-icons spin">refresh</span>
+        {{ lang.lang() === 'kr' ? '논문 로딩 중...' : 'Loading paper...' }}
+      </div>
+    }
+
+  </div>
+</div>

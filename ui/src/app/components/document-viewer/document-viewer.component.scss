@@ -1,0 +1,187 @@
+// Aurora v2 — Document Viewer (Beyond Cybersecurity Paper) — light theme
+$text:        var(--aurora-text, #212121);
+$text-muted:  #757575;
+$bg:          #ffffff;
+$bg-toc:      #f5f5f5;
+$border:      var(--aurora-border, #e0e0e0);
+$accent:      var(--aurora-accent, #ff6f00);
+
+.paper-overlay {
+  position: fixed; inset: 0; z-index: 1000;
+  background: rgba(0,0,0,.55);
+  display: flex; align-items: center; justify-content: center;
+  padding: 24px;
+  animation: fadeIn .18s ease;
+}
+
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+.paper-modal {
+  background: $bg;
+  border: 1px solid $border;
+  border-radius: 12px;
+  width: 100%; max-width: 1100px;
+  height: 88vh;
+  display: flex; flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 16px 60px rgba(0,0,0,.25);
+}
+
+// ── Header ──
+.paper-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 14px 20px;
+  border-bottom: 1px solid $border;
+  background: #fafafa;
+  flex-shrink: 0;
+}
+.paper-header-left { display: flex; align-items: center; gap: 12px; }
+.paper-icon { color: $accent; font-size: 22px; }
+.paper-title { font-size: 13px; font-weight: 600; color: $text; }
+.paper-meta { font-size: 11px; color: $text-muted; margin-top: 2px; }
+.paper-header-right { display: flex; align-items: center; gap: 12px; }
+
+.paper-search-wrap {
+  display: flex; align-items: center; gap: 6px;
+  background: #fff;
+  border: 1px solid $border;
+  border-radius: 6px; padding: 4px 10px;
+}
+.paper-search-icon { font-size: 16px; color: $text-muted; }
+.paper-search {
+  background: transparent; border: none; outline: none;
+  color: $text; font-size: 13px; width: 180px;
+  &::placeholder { color: $text-muted; }
+}
+.paper-close {
+  background: transparent; border: none; cursor: pointer;
+  color: $text-muted; padding: 4px;
+  border-radius: 4px; display: flex; align-items: center;
+  &:hover { color: $text; background: #f5f5f5; }
+}
+
+// ── Body layout ──
+.paper-body { display: flex; flex: 1; overflow: hidden; }
+
+// ── TOC ──
+.paper-toc {
+  width: 240px; min-width: 240px;
+  border-right: 1px solid $border;
+  display: flex; flex-direction: column;
+  background: $bg-toc;
+  flex-shrink: 0;
+  transition: width .2s;
+  &.toc-hidden { width: 48px; min-width: 48px; }
+}
+.toc-toggle {
+  display: flex; align-items: center; gap: 8px;
+  padding: 10px 14px; cursor: pointer;
+  font-size: 11px; font-weight: 600; text-transform: uppercase;
+  color: $text-muted;
+  border-bottom: 1px solid $border;
+  &:hover { color: $text; }
+  .material-icons { font-size: 18px; }
+}
+.toc-list {
+  flex: 1; overflow-y: auto; padding: 8px 0;
+  scrollbar-width: thin;
+}
+.toc-item {
+  display: block; width: 100%; text-align: left;
+  background: transparent; border: none; cursor: pointer;
+  font-size: 11px; line-height: 1.4;
+  padding: 5px 14px; color: $text-muted;
+  transition: all .12s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  &:hover { color: $text; background: rgba(0,0,0,.04); }
+  &.toc-h1 { font-weight: 600; color: $text; padding-left: 14px; }
+  &.toc-h2 { padding-left: 24px; }
+  &.toc-active {
+    color: $accent;
+    background: rgba(255,111,0,.06);
+    border-left: 2px solid $accent;
+    padding-left: 12px;
+  }
+}
+
+// ── Content ──
+.paper-content {
+  flex: 1; overflow-y: auto; padding: 32px 44px;
+  scrollbar-width: thin;
+  background: $bg;
+}
+
+.paper-cover {
+  text-align: center; padding: 28px 0 36px;
+  border-bottom: 2px solid rgba(255,111,0,.15);
+  margin-bottom: 36px;
+}
+.cover-title {
+  font-size: 22px; font-weight: 700; color: $text; margin-bottom: 10px;
+}
+.cover-subtitle {
+  font-size: 13px; color: $text-muted;
+  max-width: 600px; margin: 0 auto 12px; line-height: 1.6;
+}
+.cover-meta { font-size: 11px; color: $text-muted; margin-bottom: 16px; }
+.cover-badge {
+  display: inline-block;
+  background: rgba(255,111,0,.08);
+  border: 1px solid rgba(255,111,0,.3);
+  border-radius: 20px; padding: 5px 14px;
+  font-size: 11px; font-weight: 600; color: $accent;
+}
+
+.paper-section {
+  margin-bottom: 28px;
+  &.section-h1 { margin-top: 36px; }
+  &.section-h2 { margin-top: 24px; }
+  &.section-h3 { margin-top: 16px; }
+}
+.section-heading {
+  cursor: pointer;
+  h2 {
+    font-size: 17px; font-weight: 700; color: $text;
+    border-bottom: 1px solid $border;
+    padding-bottom: 6px; margin-bottom: 14px;
+  }
+  h3 {
+    font-size: 14px; font-weight: 600; color: $accent;
+    margin-bottom: 10px;
+  }
+  h4 {
+    font-size: 12px; font-weight: 600; color: $text-muted;
+    text-transform: uppercase; letter-spacing: .5px; margin-bottom: 8px;
+  }
+}
+
+.section-body {
+  font-size: 13px; line-height: 1.8; color: $text;
+  word-break: break-word;
+
+  // Record No. links (innerHTML — ::ng-deep)
+  ::ng-deep .record-link {
+    cursor: pointer; color: $accent;
+    border-bottom: 1px dashed rgba(255,111,0,.5);
+    border-radius: 2px; padding: 0 2px;
+    &:hover { background: rgba(255,111,0,.08); }
+  }
+
+  img {
+    max-width: 100%; height: auto;
+    display: block; margin: 20px auto;
+    border-radius: 6px; border: 1px solid $border;
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+  }
+}
+
+.paper-empty {
+  text-align: center; padding: 60px 0;
+  color: $text-muted; font-size: 14px;
+}
+
+.paper-loading {
+  flex: 1; display: flex; align-items: center; justify-content: center; gap: 8px;
+  color: $text-muted; font-size: 14px;
+}
+.spin { animation: spin 1s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
