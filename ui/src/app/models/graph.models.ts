@@ -90,6 +90,7 @@ export interface AtomTakeaway {
 
 export interface AtomEvidence {
   raw: string;
+  raw_en?: string;
   recordNos?: string[];
   layerIds?: string[];
 }
@@ -110,6 +111,7 @@ export interface AtomDetail {
   claim_ko?: string;
   claim_en?: string;
   keyTakeaways: AtomTakeaway[];
+  keyTakeaways_ko?: AtomTakeaway[];
   keyTakeaways_en?: AtomTakeaway[];
   supportingEvidence: AtomEvidence[];
   counterHypothesis: string;

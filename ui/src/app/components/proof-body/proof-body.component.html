@@ -368,7 +368,7 @@
             <h4 class="section-label">{{ lang.lang() === 'kr' ? '증거 목록' : 'Supporting Evidence' }}</h4>
             <ul class="evidence-list">
               @for (e of detail.supportingEvidence; track $index) {
-                <li class="evidence-item">{{ e.raw }}</li>
+                <li class="evidence-item">{{ lang.lang() === 'en' ? (e.raw_en || e.raw) : e.raw }}</li>
               }
             </ul>
           </div>

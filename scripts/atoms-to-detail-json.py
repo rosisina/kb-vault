@@ -163,7 +163,8 @@ def _extract_evidence_ids(text: str) -> list[dict]:
         line = line.strip()
         if not line.startswith("- "):
             continue
-        entry: dict = {"raw": line[2:].strip()}
+        raw = line[2:].strip()
+        entry: dict = {"raw": raw, "raw_en": _term_sub(raw)}
         recs = PAT_RECORD.findall(line)
         if recs:
             entry["recordNos"] = [r.replace(",", "") for r in recs]
@@ -197,6 +198,33 @@ def _extract_takeaways(text: str) -> list[dict]:
             if f"[{tag}]" in bullet:
                 axes.append(tag)
         items.append({"text": bullet, "axes": axes})
+    return items
+
+
+def _extract_takeaways_ko(text: str) -> list[dict]:
+    """Parse Korean key takeaways.
+
+    For bilingual bullets (Korean / English), extract the Korean part before ' / '.
+    For Korean-dominant bullets, keep as-is.
+    For English-only bullets, keep as-is (fallback — no Korean available).
+    """
+    items = []
+    for line in text.split("\n"):
+        line = line.strip()
+        if not line.startswith("- "):
+            continue
+        bullet = line[2:].strip()
+        if " / " in bullet:
+            left = bullet.split(" / ", 1)[0].strip()
+            # Only treat as bilingual split if left side is Korean-dominant
+            ko_part = left if _is_mostly_korean(left) else bullet
+        else:
+            ko_part = bullet
+        axes = []
+        for tag in ("진리성", "타당성", "진실성"):
+            if f"[{tag}]" in ko_part:
+                axes.append(tag)
+        items.append({"text": ko_part, "axes": axes})
     return items
 
 
@@ -333,6 +361,7 @@ def main() -> int:
 
         # Parse structured data
         takeaways = _extract_takeaways(takeaways_raw)
+        takeaways_ko = _extract_takeaways_ko(takeaways_raw)
         takeaways_en = _extract_takeaways_en(takeaways_raw)
         evidence = _extract_evidence_ids(evidence_raw)
         related = _extract_related(related_raw)
@@ -366,8 +395,9 @@ def main() -> int:
             "claim": claim,
             "claim_ko": claim_ko,
             "claim_en": claim_en,
-            # key takeaways: Korean (original) + English
+            # key takeaways: Korean + English
             "keyTakeaways": takeaways,
+            "keyTakeaways_ko": takeaways_ko,
             "keyTakeaways_en": takeaways_en,
             "supportingEvidence": evidence,
             # counter-hypothesis

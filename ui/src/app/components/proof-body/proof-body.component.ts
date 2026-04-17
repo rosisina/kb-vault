@@ -476,7 +476,7 @@ export class ProofBodyComponent implements OnChanges {
 
   takeawayList(detail: AtomDetail): AtomDetail['keyTakeaways'] {
     if (this.lang.lang() === 'en') return detail.keyTakeaways_en || detail.keyTakeaways;
-    return detail.keyTakeaways;
+    return detail.keyTakeaways_ko || detail.keyTakeaways;
   }
 
   counterText(detail: AtomDetail): string {
