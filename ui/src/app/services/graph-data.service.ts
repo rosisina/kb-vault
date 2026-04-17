@@ -70,7 +70,7 @@ export class GraphDataService {
 
   load(): Promise<void> {
     if (this._loadPromise) return this._loadPromise;
-    this._loadPromise = fetch('/assets/graph.json')
+    this._loadPromise = fetch('assets/graph.json')
       .then(res => {
         if (!res.ok) throw new Error(`graph.json load failed: ${res.status}`);
         return res.json() as Promise<GraphJson>;
@@ -84,7 +84,7 @@ export class GraphDataService {
 
   loadDetail(): Promise<void> {
     if (this._detailPromise) return this._detailPromise;
-    this._detailPromise = fetch('/assets/detail.json')
+    this._detailPromise = fetch('assets/detail.json')
       .then(res => {
         if (!res.ok) throw new Error(`detail.json load failed: ${res.status}`);
         return res.json() as Promise<DetailJson>;
@@ -95,7 +95,7 @@ export class GraphDataService {
 
   loadRecordMapping(): Promise<void> {
     if (this._recordMappingPromise) return this._recordMappingPromise;
-    this._recordMappingPromise = fetch('/assets/record-mapping.json')
+    this._recordMappingPromise = fetch('assets/record-mapping.json')
       .then(res => {
         if (!res.ok) throw new Error(`record-mapping.json load failed: ${res.status}`);
         return res.json() as Promise<RecordMappingJson>;

@@ -8,8 +8,8 @@ export class LanguageService {
 
   async init(): Promise<void> {
     const [kr, en] = await Promise.all([
-      fetch('/assets/i18n/kr.json').then(r => r.json()),
-      fetch('/assets/i18n/en.json').then(r => r.json()),
+      fetch('assets/i18n/kr.json').then(r => r.json()),
+      fetch('assets/i18n/en.json').then(r => r.json()),
     ]);
     this.translations['kr'] = kr;
     this.translations['en'] = en;
