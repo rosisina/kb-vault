@@ -102,7 +102,23 @@ After the 군 검찰단 issued the 기소유예 stigma decision on 2022-10-07 (p
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+한지훈 authored an evidence-based rebuttal document on 2022-09-25 (composition date per book §3.7.1.1; the file at `raw/05/Bilingual(English, Korean)/(20220929) Explanation and Proof Search, Seizure, and Verification Warrants Search(English, Korean).pdf` uses `(20220929)` as filename metadata only — the interior has no printed date per raw/05 interior read 2026-04-11) refuting the MND Military Prosecutor's Office's 압수수색 영장, 압수수색 실행, and 피의자 조사. The document is **not a prosecutor work product** — it is **한지훈's own evidence-based rebuttal**, refuting the targeted/fraudulent investigation point by point with primary evidence drawn from directives, official documents, and operational records.
+
+Per James 2026-04-11, 한지훈 submitted the document to **8 institutions in sequence**:
+
+1. **국방부 국방장관** (최우진)
+2. **국방부장관 군사보좌관** (홍성민)
+3. **군 검찰단장** ([[../entities/people/ahn-se-jun|안세준]])
+4. **담당 검사** ([[../entities/people/im-hyung-gyu|임형규]])
+5. **담당 수사관** ([[../entities/people/jin-sang-ho|진상호]])
+6. **군 검찰단 인권담당** (raw/02 [013-2] — 준위 및 대령, names pending)
+
+After the 군 검찰단 issued the 기소유예 stigma decision on 2022-10-07 (per [[han-ji-hoon-kiso-yuye-is-criminal-stigma]]), 한지훈 escalated the rebuttal to civilian human rights and anti-corruption bodies:
+
+7. **국가인권위원회** (National Human Rights Commission of Korea)
+8. **국가권익위원회** (Anti-Corruption and Civil Rights Commission)
+
+**ALL EIGHT institutions rejected or refused to act on the rebuttal.** This is the empirical core of Layer 7's `진정서 제출·수사 촉구 후 기소유예` thesis — institutional accountability mechanisms failed at every level, from the internal MND chain (steps 1–6) to the civilian human rights bodies (steps 7–8).
 
 ## 핵심 요약 (Key Takeaways)
 - 한지훈 authored an evidence-based rebuttal document on 2022-09-25 refuting the Military Prosecutor's Office's 압수수색 영장 + 실행 + 피의자 조사; the document is 한지훈's own work product, not a prosecutor artifact (raw/05 `(20220929)` filename is metadata only — the interior carries no printed date) [진리성]

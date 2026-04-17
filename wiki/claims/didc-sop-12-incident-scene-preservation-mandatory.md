@@ -70,7 +70,7 @@ DIDC 부대예규 제12호 제21조①은 불법접근·해킹 흔적 발견 시
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+DIDC Unit Regulation No. 12 Article 21① mandates scene preservation — including network disconnection — upon discovery of unauthorized access or hacking traces. Article 22③ requires formation of a joint analysis team comprising 정보보호과 (information protection section) and 자원관리과 (resource management section), with documentary cooperation obligations for each department. Article 23④ explicitly states 'the detection, response, and remediation of cyber intrusion incidents must be recorded and managed.' For the 2016 hacking incident, these three articles required contemporaneous scene preservation actions, joint analysis team records, and incident detection/response/remediation records to exist.
 
 ## 핵심 요약 (Key Takeaways)
 - 제21조① creates dual duties: immediate reporting AND scene preservation via network disconnection [타당성]

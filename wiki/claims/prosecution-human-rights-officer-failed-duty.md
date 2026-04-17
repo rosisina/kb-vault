@@ -81,7 +81,14 @@ SET fr.layer = 7,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+한지훈 submitted a petition to the Military Prosecutor's Office Human Rights Officer (Record No. 5,603, 5,628), describing "the concealment of the fact that their violation of cyber security directives for over 10 years, similar to the 2016 DIDC North Korean hacking incident" — written with the hope that the MND would resolve the matter internally.
+
+The Human Rights Officer informed 한지훈 that the petition contents had been reported to the Prosecution Chief. However:
+1. Prosecution Chief 안세준 stated in a call with 한지훈 (2022-09-28, Record No. 11,202–11,204): "I have not yet been briefed" — contradiction between the Human Rights Officer's claim of reporting and the Prosecution Chief's statement.
+2. The Prosecutorial Deferral decision (2022-10-07) was not changed.
+3. Zero substantive human rights protection measures were taken.
+
+Although the prosecutor and investigator acknowledged in the suspect interrogation that 舊KIATIS had operated without VPN for 15 years, this fact was not reflected in the non-prosecution decision document.
 
 ## 핵심 요약 (Key Takeaways)
 - 군검찰단 인권담당감독관이 진정서를 접수(Record No. 5,603/5,628)하고 검찰단장에게 보고했다고 주장 — 그러나 어떤 보호 조치도 뒤따르지 않음 [진리성]

@@ -67,7 +67,7 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The 'operational test and evaluation plan/execution/corrective action' framework (Articles 62–64) under Directive No. 2075 was changed in Directive No. 2576 to 'test evaluation plan/execution/corrective action.' The deletion of Articles 59–61 (DT&E) combined with removal of the '운용 (operational)' prefix from Articles 62–64 completely eliminates the institutional distinction between developmental and operational test evaluation. Together with the Article 58 integration-as-principle shift and the Article 57 arbitrary classification, this represents a three-layer coordinated attack.
 
 ## 핵심 요약 (Key Takeaways)
 - 6 separate test-eval articles (59-64) collapsed to 3 generic ones (62-64 without '운용' prefix) [타당성]

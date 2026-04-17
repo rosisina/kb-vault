@@ -94,7 +94,16 @@ SET fr.layer = 7,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+한지훈 submitted a petition to the Anti-Corruption and Civil Rights Commission on 2022-09-25 (Record No. 5,314–5,326). The petition includes:
+
+1. **Background**: "To expose the conspiracy, deception, and manipulation to conceal the fact that defense informatization officials under the MND and their sympathizers violated cyber security directives for over 10 years — similar to the 2016 DIDC North Korean hacking incident — along with the anti-human rights crimes committed."
+2. **6 criminal charges**: breach of trust, creation of false official documents, use of false official documents, obstruction of official duties by deception, false reporting, false notification — all described as "unreasonable and absurd charge names, and although I proved there is clearly no criminal cause, the case has not been processed."
+3. **Human rights violations**: over one month isolated in empty conference rooms, no computer provided, reassignment without consent, no opportunity for rebuttal, pressure to discharge.
+4. **Family harm**: son's illness, daughter's leave of absence from university, family experiencing vomiting, diarrhea, and insomnia for over 3 months.
+5. **Personal harm**: multiple tooth loss, psychiatric treatment (acute stress reaction, agitated depression).
+6. **김민수 (Director)·이지영 (Section Chief)·김수진 (Staff Officer)** as principals of the false workplace harassment report.
+
+The Commission received thousands of pages of evidence but did not even summon 한지훈 as a witness, and instead attempted to transfer his materials to the MND.
 
 ## 핵심 요약 (Key Takeaways)
 - 한지훈's 2022-09-25 petition to 국가권익위 (Record No. 5,314–5,326) is a primary-source document written by 한지훈 himself, detailing the full 6-charge complaint and human-rights harm [진실성]

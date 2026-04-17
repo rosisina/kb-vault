@@ -68,7 +68,7 @@ SET fr.layer = 1,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+舊KIATIS qualifies as a 'cyber asset' under Article 3 Item 7 of the directive as a defense information system constituting a force support system. Therefore, the directive's full cyber security regime (Article 4 Paragraph 3) — protection measures (Articles 22–26), vulnerability assessment (Articles 39–45), and force support system lifecycle protection (Articles 32–36) — all applied to KIATIS.
 
 ## 핵심 요약 (Key Takeaways)
 - KIATIS는 사이버자산 정의를 충족 — 제3장의 모든 보호 의무가 적용 [타당성]

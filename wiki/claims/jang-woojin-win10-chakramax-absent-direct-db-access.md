@@ -120,7 +120,11 @@ DB 접속 방법: VPN 터널링 + ChakraMax → 불가능
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+장우진 (사업실무자-1, Project-Officer-1) testified in Recordings 211 (2022-07-22) and 212 (2022-09-27) regarding the **specific technical mechanism** of VPN/ChakraMax non-application:
+
+### Core 1: ChakraMax module absent at Windows 10 transition
+
+> **(장우진, Recording 211, lines 12565–12576):** '윈도우7에서 윈도우10으로 하는 것을 국방부에서 8월부터 12월달까지 하라고 해서... **샤크라맥스**라는 거야. 그런데 그 때 당시에 **윈도우10이라서 샤크라맥스... 네가 말하는 모듈이 없었어. 그래서 디비접속을 다이렉트로 한 거야.**' ("The MND ordered upgrading from Windows 7 to Windows 10 from August to December... **ChakraMax**. But at that time, **because it was Windows 10, ChakraMax... the module you're referring to didn't exist. So direct DB access was done.**")
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] **ChakraMax가 Windows 10을 미지원**하여 DB 다이렉트 접속이 **불가피**했다는 기술적 증거 — 이는 기존 어떤 atom에서도 확인되지 않은 **새로운 구체적 메커니즘**. / ChakraMax did not support Windows 10, making direct DB access unavoidable — a new specific mechanism not identified in any existing atom.

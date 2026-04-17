@@ -73,7 +73,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+이근태 conveyed in a recording (2022.9.21) the result of directly meeting attorney 최동욱: 'It would be good if it ends as insufficient evidence or no probable cause. Even just getting Prosecutorial Deferral is not a problem.' The attorney setting Prosecutorial Deferral as a 'not a problem' outcome is a defense strategy that was not conveyed to the defendant.
 
 ## 핵심 요약 (Key Takeaways)
 - 최동욱 privately considered 기소유예 acceptable — defense strategy aligned with prosecution framing [진리성]

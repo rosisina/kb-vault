@@ -76,7 +76,9 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The 국유단's core mission — excavating remains — is performed outdoors in the DMZ and mountainous areas. Since connecting to the defense intranet is physically impossible in the field, data entry and photo uploads from the field **necessarily had to go through the internet**.
+
+This demonstrates the operational necessity for Legacy KIATIS to be run as an internet-based system, and operationally corroborates Layer 1's Propositions 01–03 (internet operation, server laundering, intranet linkage) at the practical level.
 
 ## 핵심 요약 (Key Takeaways)
 - Excavation teams operated in DMZ/mountain areas where 국방망 access was physically impossible — internet-based KIATIS was operationally mandatory [진리성]

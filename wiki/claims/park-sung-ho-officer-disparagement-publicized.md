@@ -75,7 +75,9 @@ SET fr.layer = 3, fr.claimType = "methodology",
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+In the early period of 한지훈's assignment at the Defense Information Agency, 6–7 junior officers (lieutenants and captains) came to 한지훈 complaining that Director 박성호 (Director-During-2016-Hack-1) was frequently making the remark "non-commissioned officers are better than officers," causing them stress, and requested that he resolve the problem (Record No. 11,134–11,135) (§3.3.3.1).
+
+한지훈 initially did not believe this, but several months later when 박성호 made the same remark directly in 한지훈's presence at a director-chaired meeting, 한지훈 clearly pointed out that this was wrong and debated the director for approximately 20 minutes in front of other attendees. Thereafter, 박성호 continued making disparaging remarks about the military, and 한지훈 continued to challenge them. This pattern is the direct precursor to the Layer 5 false workplace harassment report.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 국전원장 박성호 (2016해킹당시원장-1) repeatedly made "NCOs are better than officers" remarks, causing stress to 6–7 junior officers who sought 한지훈's intervention (Record No. 11,134–11,135). 한지훈 publicly confronted 박성호 in a director's meeting with a 20-minute debate. / 박성호 원장의 반복적 장교 비하 발언이 초급장교 6~7명의 하소연과 한지훈의 공개적 반박으로 기록되어 있다.

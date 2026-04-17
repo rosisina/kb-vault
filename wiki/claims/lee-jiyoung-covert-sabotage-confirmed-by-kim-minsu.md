@@ -74,7 +74,7 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+On 2022-02-23, 김민수 disclosed to 한지훈 이지영's behind-the-scenes actions: 'What do you think the section chief is actually doing? She's doing the opposite of what you say,' 'What shows on the surface and what she's actually doing are completely opposite.' The fact that 김민수 knows this is itself evidence of a conspiracy relationship.
 
 ## 핵심 요약 (Key Takeaways)
 - 김민수 himself confirmed 이지영 was acting 'the exact opposite' of what she told 한지훈 [진리성]

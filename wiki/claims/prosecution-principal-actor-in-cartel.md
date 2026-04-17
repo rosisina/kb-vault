@@ -86,7 +86,14 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Per Layer 6's comprehensive conclusion, the military prosecutors' office is not a mere accomplice of the Defense Informatization Cartel but its **principal actor**.
+
+Grounds:
+1. **Key player in 2016 joint investigation team**: The military prosecutors' office was the key player leading the joint investigation team after the DIDC hacking incident (Records 6,620, 6,609–6,632)
+2. **Legal protection provided**: Using prosecutorial authority to provide legal protection to 국전원, DIDC, and 국유단, completing the concealment structure
+3. **DIDC 1st Center (Yongin) concealment**: Concealing that the actual main base of the 2016 hacking was DIDC 1st Center (Yongin), and 한지훈 discovering this (Record No. 4,890) being the trigger for the fraud investigation (Records 11,334, 11,024)
+
+Result: Permanent harm to a 32-year career military officer — damaged honor, career disruption, psychological trauma, family destruction.
 
 ## 핵심 요약 (Key Takeaways)
 - The military prosecution was the PRINCIPAL ACTOR (주동자) of the cartel, not merely an accessory — it led the 2016 post-hacking joint investigation and used that position to protect the cover-up [진리성]

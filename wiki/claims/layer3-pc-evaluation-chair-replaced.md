@@ -76,7 +76,12 @@ SET fr.layer = 3,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+During 한지훈's tenure at the Defense Information Agency, **a pattern in which independent decision-makers who raised specification or procedural issues during evaluation and discussion were removed from their roles** occurred in 2 documented cases:
+
+1. **PC project evaluation chair replacement** — After 한지훈 raised specification problems in a specific PC project where he had been selected as evaluation chair, the evaluation committee itself was cancelled and the evaluation chair was replaced by different personnel.
+2. **Defense Personnel Information System Enhancement Project (20.99 billion KRW, Record No. 1,720) discussion exclusion** — After attending multiple times as general manager and pointing out problems with UML development tools and their unnecessary introduction, 한지훈 was effectively excluded from the discussion process.
+
+Both cases demonstrate a structural pattern of removing those who challenge the manipulation.
 
 ## 층위 (Layer)
 [[../layers/layer-3|Layer 3]] — 국전원 재직 기간 중 한지훈의 평가·토의 역할에서 발생한 사건. 본 atom은 Layer 4의 시험평가 조작이 갑작스러운 사건이 아닌 Layer 3 단계부터 지속된 패턴임을 보인다.

@@ -81,7 +81,7 @@ SET fr.layer = 3,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The search, seizure, and investigation launched by the Military Prosecutor's Office naming 한지훈 as a suspect on 6 charges with the explicit basis of "September 2019 test evaluation environment manipulation" is predicated on a fact that does not hold — namely, that the VPN OTP card should have been in operation during the New KIATIS test evaluation period (2019-09-02 to 2019-09-11) but 한지훈 had manipulated it to remain unused. In reality, the VPN OTP card was **first used only after April 15, 2021** by 국유단 (MND Military Remains Investigation Agency), the Project Control Agency. The prosecution's premise that the VPN OTP card was in operation during the 2019 test evaluation period represents a 2-year temporal reversal.
 
 ## 층위 (Layer)
 [[../layers/layer-3|Layer 3]] (primary) — 국전원 전속 후 新KIATIS SW 개발·운영 기간에 발생한 실제 사실관계. VPN OTP 카드 운용 이력은 사업통제기관(국유단)의 운영 사실이므로 Layer 3의 국전원–국유단 책임 경계 안에서 확정된다.

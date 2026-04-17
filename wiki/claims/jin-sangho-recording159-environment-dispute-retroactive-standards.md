@@ -97,7 +97,24 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The 40-minute recording between investigator 진상호 and 한지훈 (Recording 159, 2022.9.13) is the most detailed record proving that the technical foundation of the investigation was **fundamentally absent**.
+
+### Core 1: "Ultimately VPN or Whatever" — Issue Converges on VPN
+
+> **(한지훈, lines 7539–7541):** "From everything I've heard so far, **it seems you're talking about VPN. Right?**"
+> **(진상호)** "Yeah"
+> **(한지훈)** "It's VPN. Related to VPN"
+> **(진상호)** "**Yes, ultimately in conclusion it's VPN or whatever it is.**"
+
+### Core 2: "Nonsensical Talk" — Injustice of Retroactive Application
+
+> **(한지훈, lines 7612–7614):** "That is, to put it bluntly, **'nonsensical talk.' It doesn't fit this project. Because — retroactively applying 4 years back, that's also wrong.**"
+
+→ 한지훈 points out the injustice of **retroactively applying 2022 (investigation time) standards** rather than the security standards at the time of the 2019 test evaluation — the investigator cannot rebut
+
+### Core 3: "Network, Server, PC — These Are What We Call an Environment" — Suspect Educating the Investigator
+
+Han Ji-hoon had to directly teach the investigator the 3-element IT environment model (network, server, PC), demonstrating the prosecution had initiated an investigation without understanding basic technical facts.
 
 ## 핵심 요약 (Key Takeaways)
 - [타당성] **"4년치를 소급해서"** — 2019년 시험평가에 2022년(수사 시점) 보안 기준을 소급 적용한 것은 **행위시법주의(행위 당시의 법을 적용하는 원칙)** 위반. / Retroactive application of 2022 security standards to 2019 test evaluation violates the principle of applying law at the time of the act.

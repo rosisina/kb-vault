@@ -81,7 +81,13 @@ Moreover, the timing is notable: the 2024 upgrade occurred **after** 한지훈's
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+한지훈 submitted his Layer 7 petitions via the **온-나라 행정업무 시스템** (the Korean government's integrated administrative management system) using **메모보고** (memo-reports) and email through the 국방망 intranet. He explicitly noted that memo-reports on 온-나라 are permanent, non-deletable records: `메모보고는 온-나라에서 지워지지 않으며 기록에 남는 문서이다.`
+
+The book (§3.7.1.1) then flags a critical concern: `염려가 되는 것은 2024년에 국방부에서 온-나라 개선사업(40여억원)을 단행하였는데, 이 시기에 자료가 인멸되지 않았는지 우려가 된다.` — "What worries me is that in 2024 the MND carried out an 온-나라 improvement project (approximately 40억원), and I am concerned that records may have been destroyed in the process."
+
+The significance is structural: 한지훈 had sent petitions, evidence packages, and correspondence to the 국방장관, 군사보좌관, 군검찰단 검사, 수사관, and forensics investigators via 온-나라 메모보고. These are the administrative-layer contemporaneous records of his Layer 7 petition timeline — the same timeline that the 8-institution rejection chain depends on. If the 2024 upgrade destroyed these records, the primary verification path for the Layer 7 petition timeline is compromised.
+
+Moreover, the timing is notable: the 2024 upgrade occurred **after** 한지훈's 기소유예 (2022-10-07) and **after** the full 8-institution rejection chain was exhausted. An upgrade that selectively or accidentally erases the 2022 memo-report trail at this juncture would function as a Layer 7 concealment event — not necessarily by design, but by effect.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] Book §3.7.1.1 explicitly states 한지훈's petitions were sent via 온-나라 메모보고 and that 메모보고는 온-나라에서 지워지지 않으며 기록에 남는 문서 — the permanence of the record makes the 2024 upgrade the primary destruction vector [진리성]

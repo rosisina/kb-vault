@@ -71,7 +71,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+When 한지훈 asked to move the suspect interrogation date forward from Wednesday to Friday (3 days earlier), 최동욱 repeated the prosecution's narrative: 'From the perspective of the investigators, they've been giving you delays up until now.' 한지훈: 'I'm the one proposing we move it 3 days forward to Friday from the Wednesday they set.' The attorney plays the role of internalizing the prosecution's framing into the client.
 
 ## 핵심 요약 (Key Takeaways)
 - 최동욱 accused 한지훈 of 'delaying' the investigation when he was actually trying to ADVANCE the schedule by 3 days [진리성]

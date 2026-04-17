@@ -75,7 +75,9 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+On January 25, 2022, 한지훈 submitted to a military prosecutors' investigation as a **reference witness** (Records 4,776–4,796). In this reference witness statement, 한지훈 explained his role as Development Management Team Chief for the New KIATIS project and the overall project progress. Approximately 6 months later, on July 18, 2022, the military prosecutors issued a search and seizure warrant and investigation commencement notice for the **suspect** on the same matter.
+
+This reference witness → suspect transition sequence represents the procedural inversion of the **retroactive prosecution design** where the military prosecutors first utilized 한지훈 as a cooperating witness, then retroactively converted his statements into the basis for charges. That is, the charge setting preceded evidence discovery, and the reference witness statement became the foundation of suspect charges. This structure is a core procedural element of Layer 6's "fraud investigation" constitution.
 
 ## 핵심 요약 (Key Takeaways)
 - 한지훈이 2022-01-25에 **참고인** 자격으로 조사받은 사실은 기록 제4,776쪽으로 확인된다 — 피의자 전환보다 6개월 앞선 시점 [진리성]

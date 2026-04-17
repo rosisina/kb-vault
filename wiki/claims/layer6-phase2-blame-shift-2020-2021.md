@@ -87,7 +87,9 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+In the second stage of deployment delay from 2020 to 2021, using the 80 additional requirements as pretext, GIS performance issues, Active-X removal speed reduction, 국유단's negative view of VPN, DIDC's intentional failure to provide OTP cards (2019.8–2021.4.15, over 1 year 8 months) — **technical issues that were actually solvable through hardware upgrades or optimization** — were all transferred as the full responsibility of the Development Management Team Chief (Records 4,671–4,682). Under the leadership of 김민수 (핵심 의사결정자-1) and 이지영 (공문결재자-1), 국전원 manipulated official documents to attribute responsibility to the Development Management Team Chief who was not even a test evaluation participant, provided a complete set of fabricated documents to the MND Prosecutor's Office, and the MND Prosecutor's Office, knowing it was fabricated, conspired to turn him into a criminal.
+
+Meanwhile, 한지훈's return report (Records 4,671–4,682) describes solutions for defense IT infrastructure problems derived from participation in Operation Iraqi Freedom (2003), and Record No. 4,676 contains problem diagnoses arising from over 10 years of experience in information organizations.
 
 ## 핵심 요약 (Key Takeaways)
 - OTP 카드가 2019.8~2021.4.15 (1년 8개월 이상) 국유단에 제공되지 않은 것은 DIDC의 의도적 미제공이며, 훈령 제17조·제18조 위반이다 [타당성]

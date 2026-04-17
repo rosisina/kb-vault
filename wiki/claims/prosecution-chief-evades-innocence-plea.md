@@ -78,7 +78,13 @@ SET fr.layer = 7,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+한지훈 telephoned Military Prosecutor's Office Chief 안세준 (Brigadier General) on 2022-09-28 urging a No Probable Cause disposition (Record No. 11,202–11,204). 한지훈 explained his 32-year military career, his son's serious illness, family destruction, and ongoing psychiatric treatment, pleading: "I am innocent. I am not a proper subject of this investigation."
+
+The Prosecution Chief's response: "I have not yet been briefed," "The investigation team must reach a conclusion," "This is not something I can direct them on" — effectively evasive.
+
+Despite subsequently filing a formal petition with the Prosecution Chief on 2022-10-04 (Record No. 5,671–5,675), the Prosecutorial Deferral decision was maintained. Petitions also filed with the Military Prosecutor's Human Rights Officer (Record No. 5,603, 5,628) produced no change in outcome.
+
+Although the prosecutor and investigator acknowledged in the suspect interrogation that 舊KIATIS had operated without VPN for 15 years, this fact was not reflected in the non-prosecution decision document.
 
 ## 핵심 요약 (Key Takeaways)
 - The prosecution chief (안세준, brigadier general) deflected 한지훈's innocence plea by claiming procedural boundaries — despite having received detailed evidence documentation [진리성]

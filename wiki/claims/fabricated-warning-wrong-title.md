@@ -73,7 +73,7 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The Legal Affairs Office warning letter (2022.5.23) records 한지훈's position as '행정정보계획팀장' (Administrative Information Planning Team Chief), a title that exists in neither 자원정보화과 nor 행정정보화과. 한지훈's official position as of 2022.2.28 was '자원정보화과 국방정보화사업담당' (Record No. 1,586). The identical error also appears in the suspect interrogation transcript (Record No. 4,878) — indicating that a cartel member transmitted the unofficial title simultaneously to both the Legal Affairs Office and the Military Prosecutor's Office.
 
 ## 핵심 요약 (Key Takeaways)
 - Warning letter uses non-existent job title '행정정보계획팀장' — this title exists in NEITHER division [진리성]

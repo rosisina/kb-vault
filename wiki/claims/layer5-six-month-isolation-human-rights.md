@@ -80,7 +80,11 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+From immediately after the harassment complaint was filed on February 10, 2022 through September 2022 — approximately 6 months — 한지훈 was placed in 4 consecutive isolation offices. In each office, he was systematically deprived of normal work access — a desk, a PC, daily contact with colleagues.
+
+The book (§3.5.1.6) names this period `6-Month Unconscionable Human Rights Violation: Witness Destruction Tactics.` Core proposition (§3.5.1.7) P5: `The 6-month solitary confinement is an unconscionable human rights violation.` The book (§3.5.3.3.1) concretizes the reality of this period with the section title `The Reality of 6 Months in Solitary: 5 Hours in the Bathroom and Lost Combat Boots.`
+
+The 6-month isolation placement was not a simple personnel measure but a **witness destruction tactic**: a structure that physically blocked 한지훈 from contacting colleagues to verify evidence or build a support network. The book (§3.5.2.3.4) also explains this as `6-Month Delay Tactic: Memory Dilution and Psychological Destruction.`
 
 ## 핵심 요약 (Key Takeaways)
 - [진실성] 한지훈은 2022-02에서 2022-09까지 4개의 연속 독방 사무실에 배치되었으며, 각 사무실에서 정상적인 업무 환경(책상, PC, 동료 접촉)이 박탈되었다. 기록 제4,084쪽 및 제4,087쪽에 해당 기간의 배치 기록이 있다.

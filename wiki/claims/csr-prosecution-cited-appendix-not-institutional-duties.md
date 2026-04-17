@@ -70,7 +70,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The 'Defense Cybersecurity Directive AS-4-3' cited by the prosecution in the suspect interrogation likely refers to the technical protection requirements in the appendix (SS-2-3 data access control, etc.). This focuses on individual technical duties while intentionally evading Chapter 3's institutional-level duties (Article 22–26 on protection measures, Articles 39–45 on vulnerability assessment, Article 54 on security operations).
 
 ## 핵심 요약 (Key Takeaways)
 - 검찰은 기술적 별표(개인 의무)를 인용하면서 제3장(기관 의무)을 무시 — 책임을 개인화하기 위한 선별적 인용 [타당성]

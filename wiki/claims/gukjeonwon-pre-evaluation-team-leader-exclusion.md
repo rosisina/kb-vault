@@ -87,7 +87,12 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+On 2019-08-29, 국전원 unprecedented excluded development management team leader (Lieutenant Colonel 한지훈) from the New KIATIS development and operational test evaluation plan report — Navy Captain 이준호 (공모자-1, Conspirator-1) reported directly to the 국전원 president. This is the starting point of organized manipulation to remove the team leader from the entire test evaluation decision-making chain.
+
+Three project staff members (오현수 (실무자-5), 지원호 (실무자-6), 이준호 (공모자-1)) were rotated during development management, and team leader approval was systematically excluded from all 'firewall policy application request' communications:
+- Captain 지원호: Firewall policy application cooperation (2019-05-29, Records No. 6,134–6,135) — '지원호-과장 최영수' approval, team leader excluded
+- Captain 이준호: PC installation/IP allocation request communications — team leader excluded, section chief direct approval
+- Only the firewall policy request (2019-08-26, Records No. 6,150–6,155) used '이준호-한지훈-최영수' approval chain — the only communication the Military Prosecutor's Office used as crime evidence
 
 ## 핵심 요약 (Key Takeaways)
 - 국전원 systematically excluded the development management team leader (한지훈) from ALL decision-making documents during KIATIS test evaluation preparation [진리성]

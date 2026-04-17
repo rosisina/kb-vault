@@ -72,7 +72,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+In the suspect interrogation, 한지훈 stated: "For the 14 projects conducted in 2019, I am not aware of any instance where the performance of security equipment such as VPN managed by DIDC was measured." The fact that 0 out of 14 projects had VPN performance measurements proves that the prosecution's imposition of VPN-related obligations only on the KIATIS project constitutes differential application (selective application) with no institutional precedent.
 
 ## 핵심 요약 (Key Takeaways)
 - 2019년 14개 사업 중 VPN 성능 측정 수행 건수: 0 — 검찰의 KIATIS 요구는 제도적 전례 없음 [진리성]

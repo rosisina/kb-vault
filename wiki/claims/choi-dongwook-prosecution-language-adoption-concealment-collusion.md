@@ -97,7 +97,22 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+On the **day of the search and seizure** (2022.7.19), attorney 최동욱, in a phone call with 한지훈, **uncritically repeated language from prosecution documents** without independent verification, **admitted the absence of technical defense capability**, while suppressing the client's independent defense efforts.
+
+### Key Statement 1: Uncritical Repetition of Prosecution's "Concealment/Conspiracy" Language
+
+> **(최동욱, Recording 사 lines 8336–8346):**
+> "So looking here too, **'they concealed, they conspired'** — that's... **this is legal terminology, and it means they discussed.**"
+
+### Key Statement 2: "What do we know about computers?"
+
+> **(최동욱, Recording 사 lines 8478–8490):**
+> "From the 국유단 side saying 'oh, that's not it. That's not it.' So the problem isn't the 국유단, the problem is this side. That's what I thought... **What do we know about computers. We're not computer specialists.**"
+
+### Key Statement 3: Can't Even Pronounce KIATIS
+
+> **(최동욱, Recording 사 lines 8308–8315):**
+> "**Is it called KIATIS (키아티스)?**... If KIATIS is intranet-based, operating this system through the DIDC side — **the speed would be slow... Lieutenant Colonel Han and 이준호 concealed that.**" 
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] **"은폐·모의"를 "법률용어고 의논했다는 취지"로 축소** — 검찰의 핵심 혐의를 무해한 것으로 재해석하여 의뢰인의 위기 인식을 **약화**. / Reframing prosecution's "concealment and conspiracy" as mere "legal terminology for discussion" — undermining client's urgency.

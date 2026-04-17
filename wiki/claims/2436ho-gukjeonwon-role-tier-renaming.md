@@ -75,7 +75,7 @@ On 2020-06-04, 국방정보화업무 훈령 제2436호 renamed the three-tier ro
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+On 2020-06-04, 국방정보화업무 훈령 제2436호 renamed the three-tier role nomenclature in 제11조 ¶1 from `사업통제기관·사업주관기관·사업관리기관` to `정보화기획관실, 소요제기기관, 집행기관`. The rename is structural, not cosmetic — the new vocabulary reorganizes accountability around an organizational name (정보화기획관실) rather than around a project-control function (사업통제기관), which makes accountability tracing dependent on which office holds a name at a given moment rather than on which office holds a regulatory function.
 
 ## 핵심 요약 (Key Takeaways)
 - 제2436호 (2020-06-04) 제11조 ¶1 renamed the three-tier role nomenclature from `사업통제기관·사업주관기관·사업관리기관` to `정보화기획관실, 소요제기기관, 집행기관` [진리성] (verified by direct text read of raw/04 제2129호 vs 제2436호).

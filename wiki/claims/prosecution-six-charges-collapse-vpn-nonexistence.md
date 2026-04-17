@@ -72,7 +72,7 @@ SET fr.layer = 1,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The six charges imposed on 한지훈 by the Military Prosecutor's Office — obstruction of official duties by deception (위계공무집행방해), occupational breach of trust (업무상배임), falsification of official documents (허위공문서작성), use of falsified official documents (허위작성공문서행사), false reporting (허위보고), and false notification (허위통보) — all presuppose manipulation of the test evaluation environment. However, a single official document proves that VPN and DB access control were not applied to New KIATIS from 2019-08-27 through at least 2021-04-23. The prosecution's logic that 'deactivating' non-existent security measures constitutes a crime is structurally impossible. This is a victim-blaming (victim-blame) tactic.
 
 ## 핵심 요약 (Key Takeaways)
 - ALL six prosecution charges presuppose manipulation of security measures that DID NOT EXIST — structural impossibility [진리성]

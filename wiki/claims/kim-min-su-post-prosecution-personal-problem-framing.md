@@ -74,7 +74,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+국전원 director 김민수 (핵심 의사결정자-1) evaluated the Prosecutorial Deferral as 'it seems the best outcome came out' in a recorded conversation on 2022-10-13, and refused organizational responsibility with 'this is the end of it.' Simultaneously, he demanded an apology from 한지훈 with 'don't you have anything to say sorry to me for this?' and made a threatening remark with 'take care of yourself first.' This is the cartel leader using the Prosecutorial Deferral outcome to maintain ongoing control over the victim.
 
 ## 핵심 요약 (Key Takeaways)
 - 김민수 called the 기소유예 'the best possible outcome' — revealing he viewed criminal stigma as a success for the cartel [진리성]

@@ -93,7 +93,15 @@ KIDA의 연구 보고서 **「국방 정보시스템 시험평가 절차 개선 
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+KIDA's research report 'Research on Improvement of Defense Information System Test and Evaluation Procedures' (research period January–June 2020, published July 2020; Records No. 6,715/6,716/6,738/6,731) cited two U.S. DoD documents to provide academic justification for changing Korea's defense information test evaluation regime from a separation principle to an integration principle. This atom proves through direct verbatim comparison that KIDA made a **selective-omission distortion of 2 critical words/phrases**.
+
+**KIDA's analysis text** (Record No. 6,717):
+> OT&E Level: instead of independent OT, replaced by DT or certification with OT environment or data
+
+**U.S. original text** (Record No. 6,244):
+> **Level I** OT&E — An assessment primarily using data from integrated test events other than a dedicated independent operational test event... Even for programs under DOT&E oversight, the assessment plan is **approved by the lead Service or agency OTA**.
+
+KIDA omitted 'Level I' (prerequisite condition) and 'approved by the lead Service or agency OTA' (independent OTA approval requirement) — two critical constraints that define when integration is permissible.
 
 ## 핵심 요약 (Key Takeaways)
 - The 2010 US DoD DOT&E memo (Gilmore, 2010-09-14) is an OT&E-side authority document permitting OT&E to reuse DT&E data within a structured risk framework — not permission to merge DT&E/OT&E into a single activity executed by a single body (US text CORROBORATED) [진리성]

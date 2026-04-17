@@ -85,7 +85,19 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The 4 core investigation documents produced by the military prosecutors commonly distorted the identity and difference between 'actual operational vs. test evaluation' environments:
+
+1. **Search, Seizure and Verification Warrant** (2022.7.18, from Record No. 4,842)
+2. **Military/Civil Servant Criminal Investigation Commencement Notice** (2022.7.21, from Record No. 4,854)
+3. **Suspect Interrogation Transcript** (2022.9.2, from Record No. 4,874)
+4. **Non-Prosecution Reason Notice** (2022.10.11, from Record No. 5,167)
+
+Per §3.6.3.1, the false manipulation techniques in these 4 documents are:
+- **Selective cherry-picking of directives**: Applying only articles favorable to themselves
+- **Identity error**: Confusing different environments as identical, or distorting identical things as different
+- **Violating physical law of time reversal**: Retroactively applying post-hoc standards to past conduct
+- **Subject concealment**: Hiding the subject of a sentence to conceal the locus of responsibility
+- **Reference relationship error**: Subtly converting the reference target
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 4개 핵심 수사 문서(기록 제4,842쪽·제4,854쪽·제4,874쪽·제5,167쪽)가 모두 '실제 운영 대 시험평가 환경' 차이를 공통 논거로 사용하고 있음이 확인된다 / All four key investigation documents use the "operational vs. test environment" difference as a common argument

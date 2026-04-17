@@ -76,7 +76,13 @@ This is direct evidence of **institutional capture** at the level of a civilian 
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+On 2022-10-04, a 국가권익위원회 실무자 engaged 한지훈 in a recorded telephone call lasting approximately 30 minutes. During this call, the staff member made multiple attempts to **legally transfer 한지훈's submitted evidence** — thousands of pages documenting alleged corruption by the Ministry of National Defense — **to the MND itself**, the institution that was the subject of the petition.
+
+The book (§3.7.2.1) records: `그 실무자는 논고자가 제공한 수 천 페이지에 달하는 국방부에 대한 부폐 정보를 합법적으로 국방부에게 주려고 온갖 시도를 하였다. 일반의 상상을 초월한다. 놀람과 충격을 넘어` — "The staff member made every attempt to legally transfer to the MND the corruption information about the MND, consisting of thousands of pages, that the petitioner had provided. This exceeds ordinary imagination. Beyond shock and astonishment."
+
+The book explicitly invites readers to consult the recorded evidence directly: `2022.10.4.일에 논고자와 권익위 실무자의 30여분의 대화내용을 들어보기를 요청드린다` — the audio recording is part of the submitted evidence record (기록 제5,644쪽 onwards, per book §3.7 table of contents).
+
+This is direct evidence of **institutional capture** at the level of a civilian anti-corruption body: the designated watchdog responded to a petition against an institution by attempting to funnel the petitioner's own evidence back to that institution. The attempt was made openly, over a recorded phone call, suggesting the staff member either did not know the call was recorded or was operating under an institutional norm that treated such referrals as routine.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] A 권익위 실무자 attempted to legally transfer 한지훈's thousands of pages of MND corruption evidence to the MND during a recorded 30-minute call on 2022-10-04 — 기록 제5,644쪽+ (book §3.7.2.1) [진리성]

@@ -76,7 +76,11 @@ SET fr.layer = 7,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+한지훈 transmitted the "Explanation and Proof Regarding Search, Seizure, and Verification Warrants" (2022-09-25, Record No. 5,393–5,577) and the petition (Record No. 5,578–5,602) to Military Aide 홍성민 (Brigadier General) via KakaoTalk (Record No. 5,669).
+
+홍성민 had a prior acquaintance with 한지훈, having worked in a different section of the same policy division when 한지훈 was stationed at the MND Policy Bureau. Yet no contact was made regarding the petition's contents.
+
+The same materials were transmitted to the MND Minister via defense intranet email and memo-report, and those emails were confirmed as having been read. Despite this, neither the MND Minister nor the Military Aide took any follow-up action.
 
 ## 핵심 요약 (Key Takeaways)
 - Military aide 홍성민 received the petition via KakaoTalk (Record No. 5,669) but never responded — the 2nd link in the 8-institution rejection chain [진리성]

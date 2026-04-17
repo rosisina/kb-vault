@@ -74,7 +74,7 @@ SET fr.layer = 7,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Analysis of 12,495 pages of primary and secondary sources has proven a systematic criminal structure spanning 6 years (2017–2023) through the 7-Layer Proof System. Figure 6-1 (Record No. 6,445) and Figure 6-2 (Record No. 6,446) constitute decisive evidence that visually proves the complex criminal structure.
 
 ## 핵심 요약 (Key Takeaways)
 - 12,495쪽의 증거가 7층위 증명체계를 통해 6년간의 체계적 범죄 구조를 입증 [진리성]

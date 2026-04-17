@@ -75,7 +75,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+From the approval chain (drafter 이준호, reviewer 한지훈, approver 최영수) of the firewall policy application document, only the middle reviewer is designated as suspect. Final approver (30-year IT expert, senior officer) was reference witness; drafter was excluded. 최영수 testified in a 5-hour reference witness investigation on the technical legitimacy of firewall port opening, but the prosecution could not rebut this. Selectively making one person a criminal within the approval chain = targeted investigation.
 
 ## 핵심 요약 (Key Takeaways)
 - Of 3-person approval chain (drafter/reviewer/approver), only the reviewer was charged [진리성]

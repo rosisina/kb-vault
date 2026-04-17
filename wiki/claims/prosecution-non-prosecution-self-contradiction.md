@@ -83,7 +83,11 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The military prosecutors' non-prosecution reason document is a document showing the typical model of fraud investigation. Core contradiction: while issuing a Prosecutorial Deferral stating "the suspected facts are acknowledged" for obstruction of official duties by deception, simultaneously acknowledging the project's success: "KIATIS received 99.73 points in developmental and operational test evaluation and appears to largely satisfy the functions required in the RFP" (page 10).
+
+This is a logically irreconcilable contradiction. The New KIATIS project was a fixed-ceiling information system development service contract concluded through negotiated bidding per government procurement regulations (Records 4,866–4,871), and a normal and lawful act that received a 99.73-point suitable rating from the evaluation committee under the National Procurement Act cannot be criminal.
+
+For the remaining 5 charges (breach of trust, false official document creation, uttering false official documents, false reporting, false notification), they stated "insufficient evidence, no probable cause," but this also uses the "identity error" deception technique to leave the possibility of criminality — a legal technique of "tightly wrapping up" that achieves the practical punishment effect of leaving the Prosecutorial Deferral criminal branding.
 
 ## 핵심 요약 (Key Takeaways)
 - The non-prosecution report contains an irreconcilable logical contradiction: 기소유예 (criminal finding) + 99.73% success acknowledgment (lawful completion) in the same document [진리성]

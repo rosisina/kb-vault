@@ -86,7 +86,9 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+After the New KIATIS developmental/operational test evaluation completed on 2019-09-11, evaluation item changes were approved **under 국유단 commander's name 8 days later, on September 19th**. This constitutes 국유단 **assuming the project control authority role**, suggesting a **prior agreement between MND, 국유단, and 국전원 regarding transfer of project control authority powers before the New KIATIS project** (L4-013).
+
+Per Directive No. 2129 (2018-02-05, Record No. 7,486), the project control authority is applicable **only to the MND Information Planning Division and each military branch's information planning divisions**. 국유단 assuming this role is **an authority transfer without legal basis and a directive violation**.
 
 ## 핵심 요약 (Key Takeaways)
 - 국유단장 approved evaluation item changes 8 days after evaluation ended (2019-09-19) — exercising 사업통제기관 authority it did not legally possess [타당성].

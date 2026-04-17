@@ -83,7 +83,13 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Military prosecutor 임형규 made 3 key admissions in a recorded phone call with 한지훈 (Recording 146, 2022.10.11):
+
+1. **Admitting environment problems**: "Combining all that — the intent is that it is recognized that there were problems with the environment in which that test evaluation was conducted" — while admitting problems with the test evaluation environment itself, still issued a Prosecutorial Deferral against 한지훈
+2. **Refusing external expert verification**: "Whether the program was well-made or not is not the important thing here. Whether the technical completeness is high or not — that's not the issue" — effectively refused the independent external expert verification 한지훈 requested
+3. **Downgrading evidence to 'claims'**: "That's Lieutenant Colonel 한지훈's claim. Is there anyone in the world who doesn't feel wronged?" — downgrading directive/official document-based evidence to 'opinion'/'claim' and maintaining predetermined conclusions
+
+These triple admissions directly show the prosecution was conducting a targeted investigation based on predetermined conclusions, not an evidence-based investigation.
 
 ## 핵심 요약 (Key Takeaways)
 - Prosecutor admits test evaluation environment had problems yet still charges the subject with 기소유예 [진리성]

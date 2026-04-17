@@ -88,7 +88,11 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The third structural cause of New KIATIS deployment delay is the **intentional evasion** of roles by **MND Information Planning Division** as the project control agency and by **국전원** as the project management agency. According to the Defense IT Operations Directive, the project control agency is responsible for coordination, control, and support during project execution, bearing ultimate responsibility for the project's successful completion and fielding (Directive Articles 11, 23, 24).
+
+In particular, the **MND Information Planning Division's intentional evasion** of the "appropriateness of information security" judgment at the demand submission stage was the core factor in deployment delay. This was not a technical judgment but a **political judgment** — an **intentional evasion** motivated by concern that Legacy KIATIS's 15-year security vulnerability would be exposed if New KIATIS was fielded.
+
+**장우진 (사업실무자-1)**, who had managed KIATIS at 국유단 for over 10 years, identified the cause of deployment delay as "linked data" and VPN (Record No. 11,303). If the project control agency abandons its role, fielding is impossible.
 
 ## 핵심 요약 (Key Takeaways)
 - 국방부 정보화기획관실 deliberately evaded the "정보보호의 적절성" assessment at the 소요제기 stage (훈령 제23조·제24조) — the assessment that would have exposed 舊KIATIS's 15-year VPN-less operation [타당성].

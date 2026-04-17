@@ -73,7 +73,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The non-prosecution decision document IV.1.카.(2) explicitly states: 'It is recognized that the KIATIS test evaluation was conducted without applying SSL-VPN in the actual operational base environment in which it should have been conducted.' However, this admission is used only for the Prosecutorial Deferral against 한지훈, while those who created the VPN non-applied environment (the 15-year Legacy KIATIS operators, those who marked VPN as 'not applicable' in the RFP, the MND that evaded its project control agency role) were not investigated.
 
 ## 핵심 요약 (Key Takeaways)
 - Non-prosecution ADMITTED the regulatory violation but weaponized it exclusively against 한지훈 [진리성]

@@ -68,7 +68,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The criminal facts section of the search and seizure warrant completely omits the fact that Legacy KIATIS was operated without VPN and with direct DB access for 15 years (2007–2022). If the judge had known this fact, the element of 'deception' (위계) would be weakened — the evaluation committee members likely already knew that direct DB access was standard practice. The warrant's criminal facts were built on the premise of false novelty.
 
 ## 핵심 요약 (Key Takeaways)
 - Warrant secured judicial authorization by omitting 15-year VPN-free operation history — constructing a false novelty premise [진리성]

@@ -73,7 +73,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Military prosecutor 임형규 stated in a recording (raw/02): "I was transferred in August and took over from the handover." The warrant (raw/05) was already issued on 2022.7.18. The deciding prosecutor for the non-prosecution decision (2022.10.7) was not involved in the case when the warrant was issued. Combined with "I report all decisions to the chief," the actual decision-making authority lies with the Military Prosecutor's Office chief, and the handling prosecutor is a structure executing conclusions handed over in the handover.
 
 ## 핵심 요약 (Key Takeaways)
 - 결정 검사는 영장 발부 이후 부임 — 자신이 결정한 사건을 직접 수사하지 않음 [진리성]

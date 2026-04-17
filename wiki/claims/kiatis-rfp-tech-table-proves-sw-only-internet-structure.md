@@ -84,7 +84,11 @@ SET fr.layer = 1,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+In the New KIATIS project's RFP technical application table security sector (page 62, Record No. 4,424), dozens of information security systems — including VPN and DB access control — are checked as **'Not Applicable.'** According to the Ministry of the Interior and Safety's response on 2025-07-24 (Records No. 5,697–5,701): 'if there is no task to purchase, install, or construct security equipment in a software development project, marking it as Not Applicable is appropriate,' and 'items marked Not Applicable are not subject to audit inspection, so marking the result as Not Applicable is also appropriate.'
+
+This confirms that the New KIATIS Performance Improvement Project was a **pure software development project** (Records No. 1,536 and 4,866). However, the technical application table's infrastructure showing Unix/Linux servers and relational databases as 'applied' while VPN, DB access control, and network access control are 'not applicable' represents an **operating environment that directly accesses the DB from the internet without passing through security equipment (bypassed)** — the identical structure under which 舊KIATIS operated for 15 years.
+
+The 국유단's draft RFP review included constraint COR-008 (Record No. 1,168): 'the technical standards in the technical application table must be reviewed to determine whether they suit this project, and open, non-vendor-dependent technology must be used' — but **this content was deleted from the final RFP prepared by 국전원**.
 
 ## 핵심 요약 (Key Takeaways)
 - 新KIATIS RFP 기술 적용 표에서 VPN·DB접근통제 등이 "해당 없음"으로 표기된 것은 순수 SW 개발사업의 정당한 표기이다 — 행안부 공식 답변으로 확인 [타당성]

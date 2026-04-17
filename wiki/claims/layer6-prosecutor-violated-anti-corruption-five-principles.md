@@ -86,7 +86,19 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The military prosecutors' New KIATIS investigation violated **all 5 anti-corruption investigation principles of the "Military Investigation Procedure Human Rights Protection Directive" (No. 2502, 2020-12-30, Records 00118/00187)** — its own governing norms — in the exact opposite direction:
+
+| Principle | Normal Investigation | Actual Performance |
+|---|---|---|
+| ① Truth finding | Determine facts as they are | Conceal truth |
+| ② Evidence-based | Resolve with objective evidence | Investigation to match conclusions |
+| ③ Suspect human rights | Presumption of innocence, due process | Condoning human rights violations (L6-014, L6-014-2, L6-018-2) |
+| ④ Fairness/transparency | Pursue public interest | Bias/secrecy (Table 3-5-1) |
+| ⑤ Accountability | Equality before the law regardless of rank | Creating a scapegoat (Records 11,157–11,164) |
+
+Particularly, Directive No. 2502 **Article 7 (Fair Investigation)** (Record No. 00126) stipulates: "Investigation must be conducted fairly from an objective position, with no preconceptions, and in a neutral manner; authority granted must not be exercised arbitrarily or abused." The military prosecutors directly violated this provision.
+
+Even more serious is that the military prosecutors abused the justification of anti-corruption investigation — "eradicating deficient development," "punishing the responsible party," "establishing military discipline" — to actually **conceal the real corruption** (15-year security vulnerability neglect at Layer 1, hacking risk from Active-X non-removal at Layer 1, test evaluation procedure manipulation at Layer 4) **and criminalize 한지훈 who revealed the truth** (Records 4,979–5,163).
 
 ## 핵심 요약 (Key Takeaways)
 - [타당성] 훈령 제2502호 제7조(공정한 수사)는 "예단 없이 중립적 수사, 권한 남용 금지"를 명시 — 군 검찰단은 이를 정면 위반. / 훈령 제2502호 Article 7 mandates "impartial, unprejudiced investigation without authority abuse" — the prosecution directly violated this.

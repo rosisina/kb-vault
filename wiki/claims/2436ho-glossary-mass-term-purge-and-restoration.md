@@ -67,7 +67,7 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+In Directive No. 2436 (2020-06-04) Annex 1, approximately 20 technology innovation terms — including Big Data, GS certification, iSMART, TRL, Defense ICT R&D, and Smart Defense Innovation — were collectively deleted. These terms were fully restored in Directive No. 2842 (2023-09-20). The deletion timing coincides with the 8-anchor test evaluation reconstruction cluster. The restoration proves the terms were not obsolete, refuting the 'deleted as unnecessary' hypothesis.
 
 ## 핵심 요약 (Key Takeaways)
 - ~20 technology terms purged at 제2436호 synchronized with 8-anchor cluster — not independent editorial cleanup [진리성]

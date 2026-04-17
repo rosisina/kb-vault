@@ -72,7 +72,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+김민수 (핵심 의사결정자-1) stated in the October 13, 2022 recording that 'connecting VPN doesn't dramatically drop the speed.' This statement by 국전원 director himself negates the military prosecution's core argument for obstruction of official duties (VPN non-use causes speed difference → distorts test results).
 
 ## 핵심 요약 (Key Takeaways)
 - 김민수 stated VPN does not cause significant speed drops — undermining the prosecution's core charge premise [진리성]

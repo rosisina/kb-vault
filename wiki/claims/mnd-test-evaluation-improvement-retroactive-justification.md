@@ -87,7 +87,11 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The MND 'Opinion Collection on Defense Information System Test Evaluation Improvement Plan' communication dated 2020-08-20 (Record No. 4,757) attempts to retroactively justify through 2020 research results the manipulations committed during the ordering stage of the 2019 New KIATIS project.
+
+Core manipulative content:
+1. **Elimination of test evaluation plan/result approval procedure**: Removes MND's project control authority approval obligation, blocking traceability of manipulation
+2. **Removal of project plan approval**: Dismantles the control mechanism at project inception
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 2020.8.20. "시험평가 개선방안 의견수렴" 공문(기록 제4,757쪽)이 존재하며, 시험평가 승인 절차 생략·사업계획 승인 제거·개발운영 시험평가 통합을 내용으로 한다 / The Aug 2020 "test evaluation improvement" document (Record No. 4,757) exists and proposes eliminating approval procedures, removing project plan approval, and merging DT/OT

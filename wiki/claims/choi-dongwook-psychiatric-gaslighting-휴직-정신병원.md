@@ -106,7 +106,26 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+국전원 administrative officer 천하경 and attorney 최동욱 each raised **mental health concerns** about 한지훈, framing him as 'abnormal.' This is an organized tactic to pre-damage the credibility of a 6-month solitary-confinement victim through **gaslighting**.
+
+### 천하경's Repeated "Go to a Psychiatric Hospital" Advice
+
+> **(한지훈→최동욱, Recording 타 lines 8625–8635):**
+> "천하경 keeps telling me — **'Take a leave of absence,' 'Why don't you go there (to a psychiatric hospital)?'**..."
+
+### 최동욱's "Not Normal" Framing
+
+> **(최동욱, Record No. 11,252):**
+> "**Your judgment and thinking are not normal right now because of this stress.**"
+
+### 한지훈's Rebuttal
+
+> **(한지훈):**
+> "**I am not the one who is not normal.**... A 32-year veteran — what he's going through right now (solitary confinement) shocked you, didn't it? Elder, you're shocked, but **you're not taking any action.**"
+
+### The Dual Structure of Gaslighting
+
+The framing of a 6-month solitary confinement victim as 'not normal' serves two purposes: (1) preemptively undermining the credibility of 한지훈's testimony against the cartel, and (2) providing a pseudo-legal basis for the cartel's "discharge" conclusion. Both 천하경 and 최동욱 deploying the same framing independently demonstrates coordinated gaslighting. [진실성]
 
 ## 핵심 요약 (Key Takeaways)
 - [진실성] 6개월 독방 + 압수수색 + 아들 조현병이라는 **극한 스트레스의 원인을 만든 조직**이 피해자에게 "정신병원 가라"고 하는 것은 **가해자가 피해자를 비정상으로 만드는 전형적 가스라이팅**. / The organization causing extreme stress tells the victim to "go to a mental hospital" — classic abuser gaslighting.

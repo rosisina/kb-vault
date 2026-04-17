@@ -74,7 +74,7 @@ SET fr.layer = 3,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+박성호 (Director-During-2016-Hack-1) was the director at the time of the 2016 DIDC Center 1 North Korean hacking (book §3.3 line 11: "targeted as the victim of the 2016 DIDC Center 1 North Korean hacking"), and subsequently changed his post to Defense Information Agency Director, intervening in the New KIATIS Enhancement Project management (Record No. 1,573, 11,107). The same individual personally connects Layer 1 (field responsibility for server concealment) and Layer 3 (institutional decision authority for project management intervention), and this continuity suggests institutional design rather than coincidence in the concealment structure.
 
 ## 핵심 요약 (Key Takeaways)
 - 박성호 (2016해킹당시원장-1) bridges L1 (DIDC hacking concealment) and L3 (국전원 project management intervention) through institutional role continuity [진리성]

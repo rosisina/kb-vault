@@ -79,7 +79,7 @@ SET fr.layer = 3,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Defense Information Agency Director 박성호 (Director-During-2016-Hack-1)'s disparaging remark "non-commissioned officers are better than officers" was made frequently to 6–7 junior officers from early 2019 (Record No. 11,134–11,135), and was repeated in 한지훈's presence at a director-chaired meeting months later, triggering a 20-minute public debate between the director and 한지훈. The note the director gave 한지훈 before his departure (Record No. 1,473) also contains traces of this conflict. This incident functions as the **subjective motivation anchor** for Layer 5's [[layer5-isolation-office-premeditated|6-month solitary confinement]] and false workplace harassment report.
 
 ## 층위 (Layer)
 [[../layers/layer-3|Layer 3]] (primary) — 국전원 재직 기간 중 원장-사업관리팀장 간 직접 갈등 사건. [[../layers/layer-5|Layer 5]] (secondary) — 본 사건은 이후 Layer 5의 고립화·갑질 신고 mechanism의 주관적 동기로 참조된다.

@@ -87,7 +87,13 @@ SET fr.layer = 2,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The New KIATIS Enhancement Project falls under MND-controlled project status as a "project related to information systems operated by the MND" under Directive Article 10 ¶4 (Record No. 7,495). Grounds:
+
+1. 舊KIATIS was operated with servers at the Defense Information Agency from 2007–2014 (Record No. 10,302)
+2. The 2021–2022 maintenance budget includes it as an "information system operated by MND headquarters" (Record No. 7,995–7,996)
+3. New KIATIS is a national agenda project (Record No. 1,042, 1,064)
+
+However, Defense Information Agency Section Chief 강민호 (Section-Chief-1) reported to Director 박성호 (Director-During-2016-Hack-1) and obtained approval with "Project Control/Lead Agency: MND Defense Information Systems Unit (delegated project)" (2018-08-07, Record No. 1,140). The project plan was also drafted as a "delegated project." This false classification is the structural starting point for all subsequent Layer 2–4 manipulations.
 
 ## 핵심 요약 (Key Takeaways)
 - 新KIATIS is legally a MND-controlled project per Article 10(4) — delegation to 국유단 as control agency was illegal and done without MND approval [타당성]

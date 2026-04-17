@@ -79,7 +79,13 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The New KIATIS test evaluation (2019-09-02 to 09-11) was conducted by integrating DT and OT as a 'developmental/operational test evaluation.' This violates Directive No. 2129/2263 Article 58②:
+
+> '② The principle shall be to conduct developmental test evaluation and operational test evaluation separately, but they may be conducted simultaneously **with project control authority approval** when necessary.'
+
+The New KIATIS project budget of 625 million KRW exceeds the under-500 million threshold of Article 58③. No MND approval record for integrated execution was found.
+
+한지훈's suspect interrogation statement: '정보화 훈령은 개발시험평가하고 운용시험평가를 분리하는 게 원칙입니다... 운용시험평가가 원래 없었는데 통째로 들어갔습니다' ("The principle is separation... Operational test evaluation was not originally included but was put in wholesale.") (Book Record Layer 4-015-1).
 
 ## 핵심 요약 (Key Takeaways)
 - DT/OT integration violated Article 58(2)'s separation principle for MND-controlled projects [타당성]

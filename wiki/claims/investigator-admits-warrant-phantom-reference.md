@@ -74,7 +74,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+In a phone call on 2022-08-31, investigator 진상호 admitted that while the 'Section 가. Obstruction of Official Duties by Deception' item in the warrant references 'the above 1.나 item,' the said '1.나 item' does not exist in the warrant. He stated: "We didn't feel it was necessary to include it." It was also confirmed that although the investigation commencement notice is legally required to be delivered only to the commanding officer (김민수), 김민수 directly handed it to 한지훈 with the notification "you take full responsibility." 
 
 ## 핵심 요약 (Key Takeaways)
 - Investigator admits warrant references non-existent 'Section 1.Na' — structural defect in charging document [타당성]

@@ -80,7 +80,16 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The military prosecutors' breach of trust charge self-destructs through internal contradiction:
+
+1. **Damage claimed:** Payment of 170 million won in completion payment as state damage (Records 714, 717)
+2. **Success acknowledged:** 99.73-point Militarily Suitable rating (Record No. 394) achieving project goals
+3. **No financial impropriety:** No financial relationship with development company found in search and seizure (Record No. 1,150)
+4. **Self-withdrawal:** Finally processed as "insufficient evidence, no probable cause"
+
+장호재's (development PM) statement (Record No. 704) also confirmed technical matters such as Web GIS engine costs (Record No. 831), but criminal intent for breach of trust was not proven.
+
+Actual function of breach of trust charge: An auxiliary means to reinforce the legitimacy of the Prosecutorial Deferral — creating a structure of "1 out of 6 charges = Prosecutorial Deferral, 5 = no probable cause" to maximize the criminal branding effect.
 
 ## 핵심 요약 (Key Takeaways)
 - 배임 charge claims 170M won damages while acknowledging 99.73-point success and no financial relationship with developers — logically irreconcilable [진리성]

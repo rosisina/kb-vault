@@ -70,7 +70,7 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Directive No. 2075 Article 62⑤ — 'the project control authority shall review and approve the validity and appropriateness of the operational test and evaluation plan' — was deleted in Directive No. 2576. This eliminates all project control authority approval checkpoints from the test evaluation regime in a three-step chain: Article 11② (Directive No. 2398) → Article 59④ (Directive No. 2436) → Article 62⑤ (Directive No. 2576).
 
 ## 핵심 요약 (Key Takeaways)
 - Final approval checkpoint deletion — completes erasure of ALL plan-approval gates from test-evaluation regime [타당성]

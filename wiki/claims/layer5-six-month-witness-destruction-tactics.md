@@ -103,7 +103,19 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+From February 21 to September 2022 — 6 months — 한지훈 was subjected to physical, psychological, and social abuse across 4 successive isolation offices. This was not a simple separation measure during a harassment investigation, but a systematic tactic to destroy a witness who knew the truth about the 2016 DIDC hacking incident.
+
+**1st Isolation Room: Former CyberCommand Building 3F Room 110.** The PC 한지훈 used was intentionally not provided, and through an unilateral position change, access to KIATIS-related materials and information was fundamentally blocked.
+
+**2nd Isolation: No Desk (5 Hours in Bathroom).** He spent extended periods without an office or desk, with situations continuing where he spent 5 hours at a time in the bathroom. Combat boots were lost — a humiliation recorded in Record No. 4,084. 한지훈 testified to attorney 최동욱: "I had no seat, no desk, nothing — I was in the bathroom for 5 hours. For 2 months."
+
+**3rd Isolation Room: AI Contractor's Office.** 이근태 continuously contacted him trying to get information: "Please tell me about the AI-related research being conducted there, related to the LG CNS project they're trying to do" — attempting to set a trap (Record No. 4,087).
+
+**4th Stage: Search and Seizure.** The harassment investigation officially concluded on April 22, 2022, and the military prosecutors opened an investigation on April 25. As soon as the AI contractor vacated the office, the military prosecutors conducted a search and seizure against 한지훈. This search and seizure was illegal: (1) the military prosecutors had already secured all KIATIS materials from 국전원's 행정정보화과; (2) the warrant stated "defendant's workspace in 자원정보화과 office" but 한지훈 was actually in the contractor's office; (3) the PC 한지훈 used was a new one received after 이지영 blocked his original, containing no KIATIS materials — only materials provided by 이지영 through 김민지 via USB (Records 11,111–11,114).
+
+김민수's repeated threat "be careful of evidence tampering" created a state of complete isolation through gaslighting — redefining all of 한지훈's legitimate actions (contacting colleagues, checking materials, phone calls) as criminal acts. 한지훈 told 이태호: "When director 김민수 says something, he's been scaring me enormously about evidence tampering — just taking a sheet of paper — trying to make me unable to move."
+
+The loss of combat boots was not a simple lost item but a symbolic deprivation of military identity. The repeated mention of "I lost my combat boots. Director, director — I lost my combat boots!" is evidence of dignity destruction.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 32년 경력 중령에게 2개월간 사무실/책상을 제공하지 않은 것은 전례가 없는 일이었으며, 이는 기록 제4,084쪽에 문서화되어 있다.

@@ -81,7 +81,11 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The **Military/Civil Servant Criminal Investigation Commencement Notice** issued on July 21, 2022 (Records 4,854–4,859) is the document that officially initiates suspect procedural protections under the Military Courts Act. When this notice is issued, two protection mechanisms should automatically activate: ① Notice and application of suspect rights under the Military Courts Act (right to silence, right to counsel assistance, detention requirements, etc.); ② Commencement of the **Military Human Rights Officer** review procedure under MND directives.
+
+However, as confirmed in §3.6.3.3's main text and subsequent descriptions, neither mechanism actually functioned. Even after the investigation commencement notice, 한지훈 continued multiple informal conversations with the investigator without substantive defensive advice (e.g., 2022.8.31, 2022.9.13), and there is no confirmed record of Military Human Rights Officer review being initiated.
+
+This notice performed a **dual function** — forming the procedural façade of the Layer 6 fraud investigation while simultaneously hollowing out its protective mechanisms from within.
 
 ## 핵심 요약 (Key Takeaways)
 - 군인·공무원 수사개시 통보는 기록 제4,854쪽~제4,859쪽으로 문서 존재가 확인된다 — 피의자 전환의 공식 시점 [진리성]

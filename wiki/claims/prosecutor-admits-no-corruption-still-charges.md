@@ -73,7 +73,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Military prosecutor 임형규 in phone calls on 2022-09-28/10-11: (1) admitted "we also know there is nothing related to the company from the search and seizure results," (2) maintained Prosecutorial Deferral on grounds that test evaluation environment problems were acknowledged, (3) repeatedly dismissed 한지훈's "I was not the subject" argument as "Lieutenant Colonel 한지훈's claim," (4) self-evaluated "I think I acted justly." Fingerprint registration (criminal record) remains, and 한지훈 asked about employment impact.
 
 ## 핵심 요약 (Key Takeaways)
 - Prosecutor explicitly acknowledges no vendor corruption/financial misconduct found during search & seizure [진리성]

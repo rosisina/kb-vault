@@ -82,7 +82,13 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Before the harassment complaint was filed on February 10, 2022 — or before an official investigation was initiated immediately after the complaint — a solitary confinement office to house 한지훈 was already prepared. 국전원 director **김민수** said "everything is ready" in a statement recorded on February 21, 2022, documented in Record No. 3,900.
+
+The book (§3.5.1.5) analyzes this as part of the "organized conspiracy structure of the false harassment complaint." The pre-prepared isolation office is physical evidence proving that the harassment complaint was not the **cause** but the **pretext** for administrative retaliation: the space was prepared first, and the complaint was used as the legal basis to legitimately confine 한지훈 in that space.
+
+The book (§3.5.2.3.5) classifies this as physical evidence of "predetermined conclusion" together with "김민수's 2.14 declaration." The 2022-02-14 declaration ("discharge is the only option") and the 2022-02-21 "everything is ready" function as two independent pieces of predetermined conclusion evidence.
+
+Records 10,034–10,061 (§3.5.3.2.1) indicate 김민수 mentioned "1–2 weeks" in a private conversation with 한지훈 on February 9, 2022. However, the subsequent 6-month solitary confinement represents the organization implementing the long-term isolation plan already prepared after the 2022-02-10 complaint. The "everything is ready" statement confirms this plan was already at completion stage as of 2022-02-21.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 기록 제3,900쪽에 기록된 김민수의 2022-02-21 발언 `준비 다 됐다`는 독방 사전 준비를 시사하는 직접 발언 증거다. 기록 제10,033쪽과 제10,082쪽은 이 타임라인을 추가로 뒷받침한다.

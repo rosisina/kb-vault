@@ -67,7 +67,7 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Annex 1 term count: No. 2129 (143) → No. 2263 (160, +17) → No. 2398 (160) → No. 2436 (138, -22) → No. 2576 (154, +16) → No. 2842 (~160) → No. 2946 (~160) → No. 3060 (160). The maximum decrease (-22) coincides with Directive No. 2436's 8-anchor cluster. The term count oscillation is synchronized with the main article manipulation intensity, suggesting term deletions were collateral effects of body manipulation rather than independent editing.
 
 ## 핵심 요약 (Key Takeaways)
 - Sharpest glossary contraction (-22 at 제2436호) synchronized with the most concentrated article manipulation [진리성]

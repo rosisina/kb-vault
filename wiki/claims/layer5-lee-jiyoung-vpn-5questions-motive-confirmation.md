@@ -73,7 +73,7 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Section chief 이지영 (공문결재자-1), in the 30-minute debrief after the 2022-02-08 meeting, systematically confirmed through a 5-stage VPN question pattern ('Isn't it because of VPN security?' → 'What do you mean, something you weren't using?' → 'It's DB access, isn't it?' → 'VPN unconditionally') whether 한지훈 understood the connection between Legacy KIATIS's internet VPN non-usage and the 2016 hacking. This was the direct trigger for the harassment complaint 48 hours later.
 
 ## 핵심 요약 (Key Takeaways)
 - 이지영's 4-5 stage VPN questioning pattern during 30-min debrief was systematic information extraction, not casual inquiry [진리성]

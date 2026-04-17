@@ -80,7 +80,11 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+In the fabricated communication 'Opinion Collection on Defense Information System Test Evaluation Improvement Plan' dated 2020-08-20, the **MND introduced the new term '인도 단계 (delivery stage)' which does not exist anywhere in existing Defense Informatization Business Directives** (Record No. 4,763).
+
+In this communication's 'Current Defense Information System Test Evaluation Procedure' diagram, '인도 단계' applies to both developmental and operational test evaluation, causing **responsibility for 'system installation' to be wholly attributed to the project management agency (executing agency)**.
+
+Additionally, this communication presents an image of 'integrated' test evaluation without MND approval procedures, and the test evaluation classification **distorts integration as the principle** — the exact opposite of the existing directive's 'separation as principle, exceptional integration' system.
 
 ## 핵심 요약 (Key Takeaways)
 - The MND's 2020-08-20 document introduced a fabricated term '인도 단계' (delivery stage) — absent from all prior versions of the 국방정보화업무훈령 — that shifts system installation responsibility entirely to 사업관리기관 [진리성].

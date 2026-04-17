@@ -71,7 +71,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The non-prosecution document (raw/05) cites DIDC Regulation No. 12 Article 37 to claim SSL-VPN obligation. However, the same regulation (raw/06) shows Article 37 jointly regulates firewall management and SSL-VPN, with Appendix No. 7 standardizing firewall policy changes as a standard procedure. The prosecution cited only the VPN portion of the same article while ignoring the firewall management procedure portion — selective regulation citation (cherry-picking).
 
 ## 핵심 요약 (Key Takeaways)
 - DIDC SOP Article 37 governs BOTH VPN AND firewall management — prosecution cited only VPN half [타당성]

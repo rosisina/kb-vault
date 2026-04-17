@@ -69,7 +69,7 @@ SET fr.layer = 1,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Under Article 44 Item 2 ('when signs of a cyber attack are detected') and Item 3 ('when a vulnerability that could affect a critical infrastructure system is discovered'), the detection of the 2016 North Korean hacking required emergency vulnerability checks to be conducted on all DIDC-jurisdiction systems, including KIATIS. Failure to conduct these checks constitutes a violation of Article 44 and is itself a cover-up mechanism.
 
 ## 핵심 요약 (Key Takeaways)
 - 2016년 북한 해킹은 제44조의 긴급 발동 요건 두 가지를 동시에 충족 [타당성]

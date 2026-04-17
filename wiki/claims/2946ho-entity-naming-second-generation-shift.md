@@ -70,7 +70,7 @@ SET fr.layer = 1,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Directive No. 2946 (2024-07-17) replaced '정보화기획관실 (MND Information Planning Division)' with '지능정보화정책관실 (MND AI & Digital Policy Division)' throughout the directive. This is a second-generation anchor shift following Directive No. 2436's replacement of '사업통제기관 (project control authority)' with '정보화기획관실,' creating double indirection that makes tracing the original institutional accountability even harder. The three-stage chain: 사업통제기관 → 정보화기획관실 → 지능정보화정책관실.
 
 ## 핵심 요약 (Key Takeaways)
 - Second-generation entity-naming shift after 제2436호 — original term now requires two translation layers [타당성]

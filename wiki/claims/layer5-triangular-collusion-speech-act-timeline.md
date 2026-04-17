@@ -90,7 +90,14 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The conspiracy among three organizations (국전원, Investigation Bureau, Legal Affairs Office) is proven through **4-stage temporal coordination via speech patterns**:
+
+1. **2022-02-10**: 국전원 director 김민수 declares conclusion: "Discharge is the only option" (cf. Record No. 11,054; Footnote 380: "I need to become cold-headed. This matter is serious. There is one option for you, and that is discharge.")
+2. **2022-03-25**: 이지영 (공문결재자-1) gives false testimony: "I don't remember the 5:30 PM dinner report" → provides evidence to the Investigation Bureau
+3. **2022-03-25**: 이승우 immediately rules "grounds for disciplinary action" → officially formalizes 이지영's fabrication
+4. **2022-05-23**: Legal Affairs Office issues warning letter → final documentation of fabricated content
+
+**이지영's 5-minute 3-reversal (Record No. 11,064):** On February 21, 2022 at 3:56 PM — "I think it would be right to refer to the Inspector General's Office" (organizational complaint) → 4:05 PM: "They say it should be a request for ex officio investigation" → 4:10 PM: "It's not an ex officio investigation request... let's just pretend I didn't say what I said" (reversal to individual complaint). 3 reversals in 5 minutes show 이지영 urgently coordinating with 김민수 (presumed) to decide the final policy. The final choice was to **feign "individual complaint" and avoid organizational responsibility**.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 4단계 시간 조율(2월 10일→3월 25일→3월 25일→5월 23일)은 세 조직 간 사전 공모 없이는 달성 불가능한 완벽한 연쇄다. / The four-stage temporal coordination (Feb-10 → Mar-25 → Mar-25 → May-23) is a seamless chain achievable only through pre-coordination among three organizations.

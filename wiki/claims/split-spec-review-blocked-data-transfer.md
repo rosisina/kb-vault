@@ -68,7 +68,7 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The April 2018 specification re-review completely blocked transfer of 舊KIATIS applications, SW, and data to the new server (Record No. 3,324). Explicitly stated as 'application system transfer excluded, to be pursued in follow-up project' and 'data transfer excluded, to be pursued in follow-up project.' This was a measure to prevent evidence of 舊KIATIS's internet operation from being discovered through the data migration process.
 
 ## 핵심 요약 (Key Takeaways)
 - 규격 재심의가 구 서버에서 신 서버로의 모든 데이터·SW 이관을 차단 (Record No. 3,324) [진리성]

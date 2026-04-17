@@ -75,7 +75,12 @@ Therefore any 2022 군 검찰 investigation that characterizes KIATIS conduct mu
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+KIATIS 성능개선사업 conduct (2018–2019) is governed by 국방정보화업무 훈령 제2129호 (effective 2018-02-05) throughout its lifecycle. Two independent legal doctrines compel this conclusion:
+
+1. **국가계약법 RFP-binds-lifecycle principle.** The KIATIS 제안요청서 (RFP) was issued in 2018 under 제2129호. Under 국가계약법 contract administration principles, the regulatory framework named in (or in force at) the RFP issuance binds the entire contract lifecycle. Substituting a later directive mid-contract is not permitted.
+2. **행위시법주의 (lex temporis delicti).** Under Korean criminal law, the legality of conduct is measured against the rules in force at the time of the conduct, not at the time of subsequent investigation. KIATIS test evaluation occurred 2019-09 to 2019-12; the directive in force throughout that window was 제2129호.
+
+Therefore any 2022 군 검찰 investigation that characterizes KIATIS conduct must apply 제2129호's standards (separation principle, 사업주관기관 binding, full DT&E article framework). Application of 제2436호's standards to KIATIS conduct is doctrinally foreclosed.
 
 ## 핵심 요약 (Key Takeaways)
 - KIATIS 성능개선사업 conduct (2018–2019) is governed by 국방정보화업무 훈령 제2129호 (effective 2018-02-05) throughout its lifecycle — the directive in force at RFP issuance and during test evaluation (2019-09 to 2019-12) [타당성].

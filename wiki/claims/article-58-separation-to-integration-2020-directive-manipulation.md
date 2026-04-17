@@ -81,7 +81,11 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+From Directive No. 1775 (2015-01-27) through Directive No. 2398 (2020-02-13), Article 58 of the Defense Informatization Business Directive mandated: 'the principle shall be to conduct developmental test and evaluation and operational test and evaluation separately, but they may be conducted simultaneously with project control authority approval when necessary.' From Directive No. 2436 (2020-06-04), this was completely replaced with: 'the principle shall be to conduct test evaluation in an integrated manner.'
+
+This transition is not mere institutional improvement — it fundamentally destroys the essence of test evaluation as independent assessment. Simultaneously, the 'project control authority approval' control mechanism was removed and replaced with the vague procedure of 'consultation between executing agency and requirements-generating agency.' In the New KIATIS context, the terminology shift obscured the existing accountability structure (footnotes 294, 295).
+
+The book dedicates a separate chapter 'Mathematical Proof of Defense Informatization Cartel Manipulation' (§3.4.5) with logical truth-function analysis to prove this manipulation.
 
 ## 핵심 요약 (Key Takeaways)
 - 제58조 분리 원칙은 5년간(2015.1.27~2020.2.13) 안정적으로 유지되었다가 2020.6.4 제2436호에서 갑자기 통합 원칙으로 전환되었다 [진리성]

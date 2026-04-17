@@ -84,7 +84,13 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The MND Inspector General's Office, on the very day the harassment complaint was filed (February 10, 2022), **had already declared conclusions of disciplinary action and discharge against 한지훈.** This is recorded in Record No. 3,965. Subsequently, on March 25, 2022, an investigation using 29 leading-question questionnaires was conducted, with the investigation record in Records 6,917–6,924.
+
+The book (§3.5.1.2) explicitly states this inverted structure in the section title: `Defense Counterintelligence Agency's Fraud Investigation: Deciding the Conclusion First and Matching Evidence.` The book (§3.5.2.1) further defines this as `The Nature of Fraud Investigation: Evidence Manipulation after Conclusion Declaration.`
+
+The 43-day gap between 2022-02-10 and 2022-03-25 proves that the conclusion (2022-02-10) **preceded** the factual investigation (2022-03-25). This is a logical inversion of normal investigation procedure: normal investigation proceeds in the order of factual investigation → conclusion, but this investigation proceeded in the order of conclusion declaration → fact manipulation.
+
+The book (§3.5.2.2.1) separately analyzes the structure and patterns of 29 leading questions, showing that the questions themselves were designed on the premise of treating 한지훈 as guilty. Definition D3 (§3.5.1.7): `A dark fraud investigation includes evidence blockade, leading interrogation, and predetermined conclusion.`
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 2022-02-10 결론 선언(기록 제3,965쪽)은 2022-03-25 29개 유도심문 조사(기록 제6,917~6,924쪽)보다 43일 앞서 이루어졌다. 이 시간적 역전은 결론 사전 결정의 직접적 증거다.

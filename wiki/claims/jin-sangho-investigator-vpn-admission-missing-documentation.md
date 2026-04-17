@@ -103,7 +103,22 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Military Prosecutor's Office investigator 진상호 made 3 key admissions in recorded phone calls with 한지훈:
+
+### Admission 1: The Entire Case Reduces to VPN
+
+> **(Recording 159, lines 7539–7541):**
+> **(한지훈)** "From everything I've heard so far, **it seems you're talking about VPN. Right?**" **(진상호)** "Yeah" **(한지훈)** "It's VPN. It's related to VPN" **(진상호)** "**Yes, ultimately in conclusion it's VPN or whatever it is.**"
+
+### Admission 2: Missing "나 Item" in Investigation Commencement Notice
+
+> **(Recording 152, lines 6563–6564):**
+> **(진상호)** "Yes. **There is no part described as 'the above 1.나 item.'** That part — **we didn't feel it was necessary to include, so we didn't.**"
+
+### Admission 3: Avoiding Duty to Explain
+
+> **(Recording 152, line 6414):**
+> **(진상호)** "Yes, but **I don't think I have an obligation to tell you right now.**" 
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] **"결국 VPN"** — 수사관 자신이 전체 사건이 VPN 문제임을 자인. VPN은 DIDC 정책 = **한지훈 관할 밖** → 혐의 구조의 근본적 결함을 수사관이 인정. / The investigator himself admits the entire case comes down to VPN — which is DIDC policy, outside Han Ji-hoon's authority.

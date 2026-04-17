@@ -110,7 +110,28 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Attorney 최동욱, only **3 days after** being retained (2022.2.18), had already proposed **case closure contingent on discharge** rather than a no-probable-cause defense.
+
+### Key Statement 1: "Honorably discharge and be done with it"
+
+> **(최동욱, Recording 다 lines 8129–8145):**
+> "Do you have such an intention — that you, Lieutenant Colonel, would **discharge? Do you have the will?**... If there's even one blemish, an honorable discharge isn't possible... **Get out cleanly. 박서준 absolutely won't allow it.**"
+
+### Key Statement 2: "We can block the complaint"
+
+> **(최동욱, Recording 다 lines 8142–8157):**
+> "**Block the complaint? We can do that.**... If he files a complaint, if he says he won't raise the issue, it'll be hard for me too... The director also said — **get out cleanly — there's that option too.**"
+
+### Key Statement 3: "박서준's consent is not required"
+
+> **(한지훈)** "Doesn't 박서준 have to agree to this in advance?"
+> **(최동욱)** "**No. No, it doesn't matter... 박서준's discharge has nothing to do with him.**" (lines 8155–8157)
+
+### Key Statement 4: "This isn't a matter for criminal proceedings"
+
+> **(최동욱):** "This is not a matter that should go criminal."
+
+This pattern establishes that 최동욱 was acting not as 한지훈's defense attorney but as the cartel's complaint-suppression agent. [진실성]
 
 ## 핵심 요약 (Key Takeaways)
 - [타당성] 수임 **3일 후** 전역 제안 = 무혐의 방어를 위한 **최소한의 노력도 없이** 사건 종결을 추구 — 변호사 윤리법 위반. / Proposing resignation 3 days after engagement — without any defense effort — violates attorney ethics.

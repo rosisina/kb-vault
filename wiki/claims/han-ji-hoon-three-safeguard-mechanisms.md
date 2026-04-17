@@ -74,7 +74,7 @@ SET fr.layer = 3,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+After being assigned as New KIATIS project management team leader, 한지훈 recognized the risk of the abnormal structure in which 국유단 was performing the Project Control Agency function and proactively installed three braking mechanisms: (1) requiring 국유단 project officer 장우진 to be on-site at the Defense Information Agency once per week, (2) convening all stakeholders via official correspondence for requirements review meetings and obtaining mutual approval from the development contractor, (3) refusing 국유단's request for the Defense Information Agency to conduct the supervision project, thereby ensuring supervision independence. This constitutes evidence of active risk management that is the direct opposite of the prosecution's "negligence or conspiracy" narrative.
 
 ## 핵심 요약 (Key Takeaways)
 

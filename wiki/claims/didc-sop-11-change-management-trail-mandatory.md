@@ -71,7 +71,7 @@ DIDC 부대예규 제11호 Chapter 4 (변경관리) imposes an **11-gate procedu
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+DIDC 부대예규 제11호 Chapter 4 (변경관리) imposes an **11-gate procedural chain** on any change to a DIDC-hosted information system: (1) 변경 요청 접수 → (2) 변경 요청 검토 및 반려 → (3) 변경 요청 접수 및 유형 분류 → (4) 변경 계획 수립 → (5) 변경 계획 승인 → (6) 변경 작업 → (7) **보안성 검토 요청** (제30조) → (8) 변경 적용 결과 검토 → (9) 변경 적용 결과 검토 확인. Each gate generates documentary artifacts (request forms, review forms, approval signatures, security review records, result verifications). KIATIS, as the central system in this case's narrative, was hosted at DIDC during the 2018–2019 development and test evaluation period (subject to verification — see Open Questions). Any KIATIS-era system change must therefore have produced the 11-gate trail artifacts. **The absence, alteration, or post-hoc reconstruction of these artifacts for KIATIS-related changes is direct Layer 1 (DIDC procedural cover-up) + Layer 4 (KIATIS test-evaluation manipulation) evidence.**
 
 ## 핵심 요약 (Key Takeaways)
 - DIDC 부대예규 제11호 Chapter 4 제21~32조 (raw/06/02 lines 46–60) imposes a procedural chain on any change to a DIDC-hosted information system, with each gate generating documentary artifacts [타당성]

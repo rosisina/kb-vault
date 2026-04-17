@@ -71,7 +71,7 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+In recordings (raw/02), 한지훈 distinguished in real time: '추가요구사항이에요 미흡사항이 아니고' ("These are additional requirements, not deficiencies"). The book (raw/01 §3.6.5.3.1) analyzes the 80 items as a means of delaying operational deployment. The warrant (raw/05) characterizes them as 'concealing developmental defects.' Three independent sources (recordings, book, warrant) triangulate confirmation on the same matter: 80 items = additional requirements ≠ defects.
 
 ## 핵심 요약 (Key Takeaways)
 - Three independent sources triangulate: recording (추가요구사항), book (delay mechanism), warrant (하자) — the recording proves the real-time terminology was '추가요구' not '하자' [진리성]

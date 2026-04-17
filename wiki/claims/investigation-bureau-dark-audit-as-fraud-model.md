@@ -92,7 +92,15 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+§3.5.2.3.1 characterizes the Defense Counterintelligence Agency's false harassment investigation as a "깜깜이 수사" (dark investigation) and demonstrates it as a typical model of fraud investigation through three dimensions of darkness:
+
+1. **Procedural Darkness**: 한지훈 could not know the investigation procedures, charges, or investigation schedule. He was only notified on February 9, 2022 that a harassment complaint had been filed, and 이지영 gaslighted him by conveying false information that "박서준 filed the complaint" (Record No. 11,066).
+
+2. **Informational Darkness**: 한지훈 could not access statements, evidence, or investigation results concerning himself. On March 25, he answered 29 questions during the investigation but was not provided his own statement.
+
+3. **Evidential Darkness**: On February 14, 2022, 김민수 said "pack your personal belongings — you can request the PC later" while seizing the PC (Record No. 11,040). On February 22, 이지영 blocked PC transfer saying "you can't take the PC, you don't move around carrying a PC" (Record No. 11,066). 이태호 prohibited access to materials: "all three are forbidden from viewing."
+
+한지훈, as a 31-year computer officer, had retained all KIATIS-related documents from 2007 to 2022 on his PC. These documents were decisive evidence proving his innocence, but PC seizure cut off access entirely. 김민수's threat to "be careful of evidence tampering" had the effect of prohibiting contact with colleagues, checking materials, and even accessing his own books.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] PC 압수(기록 제11,040쪽)와 PC 이동 차단(기록 제11,066쪽)이 음성 녹취 기록으로 확인된다 / PC seizure (Record No. 11,040) and PC transfer blocking (Record No. 11,066) are confirmed by audio recording transcripts

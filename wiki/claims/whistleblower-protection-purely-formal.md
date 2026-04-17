@@ -71,7 +71,7 @@ SET fr.layer = 7,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The current Whistleblower Protection Act has proven to be purely formal and has failed to provide substantive protection. Even a 32-year military officer was powerless against organized attack. No protective measures were activated during the solitary confinement and reputational destruction. A system that automatically activates protective measures immediately upon petition filing is needed, along with comprehensive support (status protection, economic support, legal protection, psychological counseling).
 
 ## 핵심 요약 (Key Takeaways)
 - 공익신고자 보호법은 형식적 수준에 그침 — 수차례 진정 제출에도 실질 보호 전무 [타당성]

@@ -71,7 +71,7 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+KakaoTalk group chat records confirm 박서준 attended the WiSC Information Security Academic Conference on 2019-09-05–06. This coincides exactly with the New KIATIS test and evaluation period (2019.9.2–11), contradicting the prosecution's narrative that 박서준 was 한지훈's workplace harassment victim — 박서준 was independently pursuing professional development activities.
 
 ## 핵심 요약 (Key Takeaways)
 - 박서준 attended WiSC security conference during the exact evaluation period — inconsistent with being harassed/controlled [진리성]

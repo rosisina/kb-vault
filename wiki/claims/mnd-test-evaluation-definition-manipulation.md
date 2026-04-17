@@ -90,7 +90,9 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+In Annex 1 of the Defense Informatization Business Directive, the definition of 'test evaluation (시험평가)' has been maintained **identically without a single revision** from 2016-06-16 (Directive No. 1931) through 2025-07-09 (Directive No. 3059) (beginning Record No. 9,003), confirmed identically across 15+ directive revisions.
+
+While the definition remained unchanged, the associated procedure articles (Articles 58–68) underwent multiple rounds of manipulation — proving that the substantive evaluation requirements were weakened through procedural changes while the definitional facade was maintained intact.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 훈령 별표1의 시험평가 정의가 2016~2025년(9년간, 15개 이상 개정본) 불변임이 기록 제9,003쪽~제9,210쪽에서 확인된다 / The directive Annex 1 test-evaluation definition remained unchanged across 15+ revisions from 2016 to 2025 (Record No. 9,003–9,210)

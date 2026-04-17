@@ -72,7 +72,7 @@ SET fr.layer = 2,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Despite the New KIATIS Enhancement Project being a project directly under MND control, the project plan (Record No. 1,140) falsely classified it as a "delegated project." Under Directive No. 2129 Article 11 ¶2 (Record No. 7,496), a delegated project must satisfy specific requirements which New KIATIS did not meet. This false classification was the structural cause that institutionally enabled the transfer of project management to the Defense Information Agency in Layer 3 — had it been a direct-control project, MND headquarters would have directly controlled it and the Defense Information Agency transfer would never have occurred.
 
 ## 핵심 요약 (Key Takeaways)
 - Business plan (Record No. 1,140) falsely designated New KIATIS as "기관 위임 사업" (institutional delegation project) [진리성]

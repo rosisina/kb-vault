@@ -81,7 +81,14 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The four core functions of the project control authority were sequentially deleted through directive revisions:
+
+| Function | Deleting Directive | Date | Record |
+|---|---|---|---|
+| Test evaluation plan/result approval | No. 2398 | 2020-02-13 | 8,168 |
+| Project plan approval | No. 2436 | 2020-06-04 | 8,272 |
+
+Additionally, Directive No. 2436 replaced the institutional terminology itself to conceal the illegal delegation of authority.
 
 ## 핵심 요약 (Key Takeaways)
 - Two core control functions (test evaluation approval, project plan approval) were deleted across two consecutive directive revisions (2020.2.13, 2020.6.4) [타당성]

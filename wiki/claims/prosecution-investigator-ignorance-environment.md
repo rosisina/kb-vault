@@ -71,7 +71,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The military prosecutors' investigator failed to define what specifically the 'difference' between test evaluation environment and operational environment was in a recorded phone call with 한지훈 on 2022-09-07. 한지훈 had to directly educate the investigator on the 3-element IT environment model of network, server, and PC. This is evidence that the prosecution opened an investigation without understanding basic technical facts.
 
 ## 핵심 요약 (Key Takeaways)
 - 수사관은 2022-09-07 녹음 통화에서 '다른 환경'의 의미를 정의하지 못함 — 피의자가 3요소 IT 환경 모델을 직접 교육해야 했음 [진리성]

@@ -83,7 +83,13 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Maintenance PM 도지호 (responsible for 43 administrative information systems) directly confirmed in Recording 133-2 (2022-08-02) that ChakraMax (DB access control system) was not used during the test evaluation period:
+
+- '논란이 되니까, 그 부분이 수면에 가라앉은 상태에서 시험평가를 했고' ("Because it was controversial, the test evaluation was conducted with that matter submerged.")
+- '그 이후에 결국 디아이디씨에서 못 하니까 쓰는 걸로 간 걸로 알고 있어요' ("After that, because DIDC couldn't do it, I understand they moved to using it.")
+- '결국은 시험평가 기간에는 샤크라맥스를 안 썼는데 — 확정이 안됐으니까' ("In the end, ChakraMax was not used during the test evaluation period — because it wasn't finalized.")
+
+This shows that ChakraMax non-use was not 한지훈's intentional avoidance but an institutional unresolved matter where requirements were not finalized. DIDC itself decided to introduce it only after the test evaluation because it 'couldn't do it.'
 
 ## 핵심 요약 (Key Takeaways)
 - ChakraMax (DB access control) was NOT used during test evaluation — requirements were "not finalized" (확정이 안됐으니까) [진리성]

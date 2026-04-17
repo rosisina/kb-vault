@@ -84,7 +84,13 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+On May 23, 2022, the MND Legal Affairs Office issued a warning letter to 한지훈. This warning letter (Record No. 4,078) recorded an **actually non-existent position title** — 행정정보화계획팀장 (Administrative Information Planning Team Chief) or similar — as 한지훈's title.
+
+However, 한지훈's actual position from February 28, 2022 was **자원정보화과 (Resources Information Section)**, confirmed by the official appointment order recorded in Records 1,584–1,586. That is, his position had already changed more than 2 months before the warning letter was issued (2022-05-23).
+
+The book (§3.5.1.3) treats this situation as `Legal Affairs Office Warning Letter: Complete Absence of 박서준's Matter`, analyzing that the warning letter, rather than reflecting the actual complainant 박서준's claims, contained only 이지영's claims as another fabrication indicator. The book (§3.5.2.1.1) names this `Fabrication of the Legal Affairs Office Warning Letter: Complete Exclusion of the Complainant's Claims`.
+
+A non-existent title in an official legal document (warning letter) means the **Legal Affairs Office drafted the warning letter without accessing or refusing to access current personnel records**. Normal official document drafting procedures require checking the current position from the personnel system. The abnormal title entry structurally implies the document was produced independently according to a pre-prepared script.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 경고장(기록 제4,078쪽)에 기재된 직함은 실제 존재하지 않는 보직명이다. 한지훈의 실제 보직(자원정보화과)은 2022-02-28부터 공식 인사 발령(기록 제1,584~1,586쪽)에 의해 확정되었다.

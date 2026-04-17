@@ -85,7 +85,11 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The 'DT/OT Test Support Result Notification' for the 6.25 War Dead Comprehensive Information System Performance Improvement Supervision Service — sent by 국유단 on 2019-09-24 — was received by 이준호 (공모자-1, Conspirator-1) on 2019-10-07, processed with '1-person approval,' and not reported to development management team leader 한지훈 (Record No. 2,762).
+
+The audit firm's (한국전산감리원) inspection results in this 79-page report (Records No. 2,773–2,852) are mostly recorded as 'non-conforming.' The supervision work log (Records No. 2,767–2,771) records at least 8 attendees.
+
+This report is the key official document for determining whether the Military Prosecutor's Office's investigation was self-initiated or complaint-based. Additionally, correspondence was exchanged with the Military Prosecutor's Office over 8 months under approvals by 박서준 and 이지영, and 김민수 — most processed while excluding 한지훈.
 
 ## 핵심 요약 (Key Takeaways)
 - The 79-page audit DT/OT test result report was hidden from the team leader via single-person approval by 이준호 — continuing the systematic exclusion pattern [진리성]

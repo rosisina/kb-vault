@@ -78,7 +78,7 @@ SET fr.layer = 2,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The New KIATIS project managed by the Defense Information Agency was a pure software development service project under the Government Procurement Act (Record No. 4,866–4,871). The software development budget for the functional requirements raised by 국유단 was 625 million KRW, determined by the Public Procurement Service (Record No. 1,056, 1,074, 1,535). However, during the New KIATIS development and operational test evaluation, the evaluation committee's deliberation generated **80 additional requirements**. The scale of these 80 additional requirements was structurally impossible to fulfill within the 625 million KRW budget, and this functioned as a precondition for project delay and blame-shifting (criminal stigmatization of 한지훈).
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 新KIATIS 사업은 순수 소프트웨어 개발 용역(6.25억, 조달청 산정)이었으며 국유단의 소요 제기에 따른 것이다 (기록 제4,866~4,871, 기록 제1,056/1,074/1,535). 新KIATIS was a pure SW development contract at 6.25억 KRW as determined by the Public Procurement Service.

@@ -99,7 +99,21 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Maintenance contractor manager 양준승, who had been **stationed at 국전원 for over 3 years** and directly witnessed daily life in 행정정보화과, is an **external civilian witness**. In Recording 285 (2025.7.16, approximately 2 hours 17 minutes), when 한지훈 explained the 6 charges, 양준승's immediate reaction:
+
+### Key Statement 1: "Completely outrageous"
+
+> **(한지훈)** "I conspired with 이준호 to create a fake test environment... falsely wrote documents and made false reports... so they charged 6 things. Breach of trust..."
+> **(양준승, line 16515)** "**Wow, completely outrageous.**"
+
+### Key Statement 2: VPN Was Not a Test Evaluation Subject
+
+> **(한지훈, lines 16596–16600):**
+> "**That was never even a subject of evaluation in the original proposal evaluation. VPN wasn't. That's the military's. Not ours.** ... They say we failed to notify. The core is notification... **Among things that could make the speed slow, one I was thinking about was ChakraMax and VPN. They say we deceived the evaluators by failing to notify about those two.**"
+
+### Key Statement 3: Confirmation of Organized Mobbing
+
+양준승 confirmed that what appeared to be harassment was in fact organized mobbing — colleagues deliberately avoiding and isolating 한지훈 at the organizational level. [진실성]
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] **"완전 개심하네"** — 국전원 상주 3년+ 외부 민간인이 6개 혐의를 듣자마자 즉각적으로 **부당함을 인식**. / An external civilian with 3+ years at DCIA immediately recognizes the absurdity.

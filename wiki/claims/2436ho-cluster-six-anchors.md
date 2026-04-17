@@ -77,7 +77,7 @@ The 제2436호 revision (2020-06-04) of 국방정보화업무 훈령 is a coordi
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The 제2436호 revision (2020-06-04) of 국방정보화업무 훈령 is a coordinated single-revision cluster moving **eight** of the thirteen baseline anchors simultaneously: A1 (DIDC naming), A2 (role-tier renaming), A8a (OT&E environment hedge), A8b (OT&E sponsor binding), **A11 (DT&E sponsor binding — symmetric to A8b)**, **A12 (DT&E `합격/불합격` result-judgment clause)**, A9 (separation-principle inversion), and A10 (DT&E article body deletion). No other revision in the 2017–2025 dataset moves more than one anchor at a time. The 제2436호 cluster reconstructs the directive's test-evaluation regime in a single edit, with six of the eight movements concentrated on 제57조~제61조 (the 시험평가 regime itself).
 
 ## 핵심 요약 (Key Takeaways)
 - 제2436호 (2020-06-04) moves **eight of thirteen** baseline anchors simultaneously (A1, A2, A8a, A8b, A11, A12, A9, A10) in a single revision of 국방정보화업무 훈령 [진리성]

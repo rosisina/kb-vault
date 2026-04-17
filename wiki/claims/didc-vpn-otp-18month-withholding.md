@@ -81,7 +81,13 @@ OTP 카드 미제공의 동기: VPN OTP를 新KIATIS에 제공하면, 왜 舊KIA
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+DIDC withheld OTP cards for VPN use from New KIATIS for approximately 18 months (September 2019 to April 2021). 장우진 (사업실무자-1, Project-Officer-1) testimony (Record No. 11,302):
+
+'그전에는 VPN은 쓰지를 안 했습니다. 사업 초창기에 만약 VPN 써야 된다고 그러면 제안요청서부터 해가지고 VPN 얘기가 나왔을 건데. 그게 없었습니다.' ("Before that, VPN was not used. If VPN had been required from the beginning of the project, it would have been mentioned from the RFP stage. That didn't happen.")
+
+Even when VPN discussion began (May–July 2019), DIDC did not provide OTP cards. The addition of the 'OTP authentication medium (card type) serial number' field in DIDC Unit Regulation Annex No. 7 (SSL VPN Account Application Form) between 2019-06-04 and 2020-01-29 suggests OTP cards were introduced during this period.
+
+Motivation for withholding OTP cards: if OTP cards were provided for New KIATIS, the question of why they were not provided for 舊KIATIS for 15 years would become unavoidable, exposing DIDC's own security failures.
 
 ## 핵심 요약 (Key Takeaways)
 - DIDC withheld VPN OTP cards for ~18 months because providing them to 新KIATIS would expose that 舊KIATIS never had VPN for 15 years [진리성]

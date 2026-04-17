@@ -78,7 +78,9 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The **temporal mechanism** of New KIATIS deployment delay (§3.6.5.3) consists of 3 stages. Stage 1 (2019.9–2020) was neutralizing the 99.7-point success result, Stage 2 (2020–2021) was spreading problems and transferring responsibility, and Stage 3 (2021–2022.4) was **이지영 (공문결재자-1)**'s **additional budget demand document for 390 million won** in April 2022 activating the trap and converting deployment delay into a **criminal matter**.
+
+At this point 한지훈 was demoted from "responsible party for development failure" to "criminal suspect," and deployment was **indefinitely postponed** until investigation completion. This is the final stage of deployment delay — becoming the **perfect pretext for permanent delay**. The budget demand pattern of 625 million won (New KIATIS) → 400 million won (defect repair) → 390 million won (GIS engine) completes the "intentional budget reduction → failure → additional budget" vicious cycle structure.
 
 ## 핵심 요약 (Key Takeaways)
 - The three-phase temporal mechanism (§3.6.5.3) is the parent-level framing connecting Phase 1 (§3.6.5.3.1, success neutralization) and Phase 2 (§3.6.5.3.2, blame shift) to the terminal Phase 3 (§3.6.5.3.3, trap activation and criminalization) [진리성].

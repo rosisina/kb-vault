@@ -72,7 +72,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Every time 한지훈 asserted that he would organize the case materials independently to defend himself, attorney 최동욱 responded with a resignation threat — 'I'll resign. I won't be your representative' — systematically suppressing the client's autonomous defense activities. While forcing all defense activities to go through the attorney only, the attorney himself did not understand the technical substance of the case.
 
 ## 핵심 요약 (Key Takeaways)
 - 최동욱 repeatedly threatened resignation whenever 한지훈 tried to prepare independent defense materials — coercive suppression of client autonomy [진리성]

@@ -89,7 +89,11 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+On March 24, 2022, 이지영 (공문결재자-1) told 한지훈: "The Inspector General's Office told me not to tell either side, so there's nothing I can do" (Record No. 11,062). This statement is **false attribution** — 이지영 herself used the Investigation Bureau (조사본부) as an excuse to block information exchange between 한지훈 and 박서준. The statement "same for both sides" feigned **false neutrality**.
+
+김민수 told 한지훈 on May 4, 2022: "I don't know. I said I know nothing about the investigation. I'm not allowed to discuss it with you." However, when the audit results came out, 김민수 demanded: "Do you think this outcome happened because you did well?" **The person who claimed to "know nothing" about the investigation then spoke as if he had been involved — this is a self-confession of prior coordination with the Legal Affairs Office (Inspector General's Office).**
+
+The warning letter contents were also fabricated: even though 이승우 confessed "there was absolutely none of the verbal abuse or sexual matters," additional harassment grounds were included in the warning letter, and the fact that the attendance fabrication was collapsed by contractor statements was not even mentioned.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 이지영의 "감사관실에서 말하지 말라고 했다"는 발언(기록 제11,062쪽)은 거짓 귀속이다. 실제로는 이지영 자신이 한지훈-박서준 간 정보 교환을 차단한 것이다. / Lee Ji-young's attribution of the gag order to the Inspector General's office (Record No. 11,062) is false attribution — she herself was blocking information exchange between Han Ji-hoon and Park Seo-jun.

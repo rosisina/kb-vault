@@ -72,7 +72,7 @@ SET fr.layer = 1,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+舊KIATIS was a dual-linked structure that simultaneously operated on the internet and transmitted/received data with the intranet (defense network) (Records No. 1,117 and 1,125). It was not a simple internet homepage — it was a bridge system that provided the internet-to-defense-network attack path during the 2016 DIDC hacking. The motivation to conceal this dual-link structure is central to the cover-up.
 
 ## 핵심 요약 (Key Takeaways)
 - 舊KIATIS는 인터넷-국방망 이중 연동 구조로 2016년 해킹 당시 공격 경로(bridge) 역할 [진리성]

@@ -89,7 +89,13 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+김민수 (핵심 의사결정자-1, Key-Decision-Maker-1) is a cross-layer central figure of the Defense Informatization Cartel:
+
+1. **At the time of the 2016 DIDC hacking**: Stationed at MND Information Planning Division (Records No. 6,748, 6,760, and 6,755)
+2. **2015–2017**: Served as 국전원 development management team leader alongside 박성호 (2016해킹당시원장-1, Director-During-2016-Hack-1)
+3. **Subsequently**: Returned as 국전원 director, serving as the final decision-maker in the New KIATIS case
+
+Per Theorem 11, 김민수's statement 'if the team leader didn't verify the difference between the actual environment and the test operating environment, the team leader should take responsibility' was pre-planned through prior conspiracy. Simultaneously, 김민수 stated 'How would I know. The work happened before I arrived' (Records No. 11,055–11,056) — a false statement directly contradicting his documented career of direct involvement.
 
 ## 핵심 요약 (Key Takeaways)
 - 김민수 served in MND's informatization planning office during the 2016 DIDC hacking — making his claim of ignorance ("how would I know") directly contradicted by his career record [진리성]

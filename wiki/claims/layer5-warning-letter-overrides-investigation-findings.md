@@ -73,7 +73,7 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The Legal Affairs Office warning letter (2022-05-23) maintained content unfavorable to 한지훈 even though the attendance fabrication claim had collapsed during the Investigation Bureau's own investigation through 2 contractor statements. This is evidence that the Legal Affairs Office ignored the Investigation Bureau's actual findings and produced the conclusion 김민수 desired.
 
 ## 핵심 요약 (Key Takeaways)
 - 법무관리관실's warning letter retained unfavorable findings even after 조사본부's own investigation found the attendance fabrication collapsed [진리성]

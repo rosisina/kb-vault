@@ -73,7 +73,7 @@ SET fr.layer = 1,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Article 54 Paragraph 1 Item 2(나) explicitly designates the Defense Integrated Data Center (DIDC) as the responsible unit for 'integrated security monitoring (secondary tier),' covering 'data center jurisdiction.' DIDC bore the institutional security monitoring duty for all systems under its jurisdiction, including KIATIS — making DIDC the institutional subject of security accountability, not 한지훈 as an individual.
 
 ## 핵심 요약 (Key Takeaways)
 - Art. 54 ¶1(2)(나) explicitly names DIDC as 2nd-tier security monitoring center for its hosted systems [타당성]

@@ -81,7 +81,16 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+According to Proposition 04, the 4 KIATIS-related environments are all non-identical to each other:
+
+| Environment | Period | Network | Security Equipment | Location |
+|---|---|---|---|---|
+| Ⓐ Legacy KIATIS (actual) | ~2022.12 | Internet | No VPN, Active-X | 국유단 |
+| Ⓑ New KIATIS (actual, initial) | 2019.9~2021.4.14 | Defense intranet | No VPN, no ChakraMax | 국유단 |
+| Ⓒ New KIATIS (test evaluation) | 2019.9.2~11 | 국전원 LAN | Firewall opened, no VPN | 국전원 |
+| Ⓓ New KIATIS (actual, current) | 2021.4.15~ | Defense intranet | VPN + ChakraMax applied | 국유단 |
+
+The "identical environment" the prosecution claimed must have been used — "should have been evaluated in the environment identical to what actual users would use" — references Ⓓ (after 2021.4.15), but at the time of test evaluation (2019.9), Ⓓ did not yet exist.
 
 ## 핵심 요약 (Key Takeaways)
 - 정리04 proves that ALL four KIATIS environments differ in time, cyberspace, security equipment, and PC/mobile location — physical identity is impossible [진리성]

@@ -68,7 +68,7 @@ SET fr.layer = 7,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Prosecutorial Deferral on 6 charges (2022-10-11) → dishonorable discharge ending 32 years of military service (2022-10-31). The 20-day interval suggests the Prosecutorial Deferral was designed as the instrument of the dishonorable discharge.
 
 ## 핵심 요약 (Key Takeaways)
 - 기소유예→dishonorable discharge 20 days apart — speed suggests designed mechanism [진리성]

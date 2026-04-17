@@ -86,7 +86,14 @@ SET fr.layer = 2,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+**이지영 (Document-Approver-1)** and **김수진 (Administrative-Officer-1)** appear as the same actor pattern across four independent contexts, constituting a **single control point appearing at the start and end of all manipulations**:
+
+1. **Comparative project (Organization Staffing System, 2017-04–2019-01)** PCA officer — MND Information Planning Division Software Convergence Management Office (Korean original §3.2.1.2 fn. 85)
+2. **2019-09-02 work-simplification document** (Record No. 5,853 / 2,853) **authors and approvers** — "Approval line: MND Information Planning Division Software Convergence Management Office, Section Chief 이지영 and Staff Officer 김수진" (Korean original §3.2.2 fn. 109)
+3. **"Joint Internet Integrated Mail Project"** principal handlers
+4. **False workplace harassment report** principal initiators (Layer 5)
+
+The same two individuals appear as document authors in both the normal-compliance comparative project and the manipulated New KIATIS project — establishing direct personal continuity of the control mechanism.
 
 ## 층위 (Layer)
 [[../layers/layer-2|Layer 2]] — 新KIATIS 사업 추진체계 및 장교 개인 자력 조작. 본 atom은 Layer 2의 **유일한 actor-level 토대 atom**이며, Layer 1 (Active-X 제거 → 舊KIATIS 흔적 삭제) → Layer 4 (시험평가 조작) → Layer 6 (검찰단 카르텔) 의 actor-continuity bridge 역할을 한다. 영문 변환본은 (a)와 (b)의 두 attribution을 모두 누락하므로 본 atom은 **한국어 원본에 의해서만 작성 가능**하다.

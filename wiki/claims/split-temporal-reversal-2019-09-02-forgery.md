@@ -69,7 +69,7 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The test evaluation procedure simplification communication was produced on 2019-09-02, but the MND report date is recorded as 2019-09-03 (Record No. 2,858). A report date after the production date is physically impossible, suggesting retroactive fabrication during the 2022 investigation period. This fabrication is possible with the cooperation of On-Nara system maintenance vendor (핸디소프트).
 
 ## 핵심 요약 (Key Takeaways)
 - 2019-09-02 생산일에 2019-09-03 보고일 = 시간적 불가능 [진리성]

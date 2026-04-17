@@ -72,7 +72,7 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Unlike Eichmann's 'thoughtlessness' (Arendt's Banality of Evil), the perpetrators in this case demonstrate extreme sophistication. They linked the manipulation of the KIDA research report (Layer 4) with the revision of MND directives (Layer 1) to simultaneously fabricate academic legitimacy and legal basis, and pre-constructed evidence destruction mechanisms with calculation for future accountability. This demands a new category beyond the 'Banality of Evil' — the 'Intellectualization of Evil.'
 
 ## 핵심 요약 (Key Takeaways)
 - 가해자들은 계획된 지적 정교함을 보여줌 — 학술적 정당성(KIDA)과 법적 근거(훈령 개정)를 동시에 조작 [진리성]

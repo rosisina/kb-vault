@@ -80,7 +80,14 @@ The deletions persist through 제3080호 (2025-09-17).
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+On 2020-06-04, 국방정보화업무 훈령 제2436호 removed **two** clauses from the DT&E definition in 제57조 ¶1 제1호:
+
+1. The role-binding phrase `사업관리기관 주관 하에` — mirrors the simultaneous 제2호 deletion of `사업주관기관 주관 하에` (A8b).
+2. The result-judgment clause `합격 또는 불합격으로 결과를 판정할 것`.
+
+After the deletion, 제57조 ¶1 제1호 reads: `개발시험평가 : 체계규격서, 제안요청서 등을 기준으로 개발 소프트웨어의 기능적·설계적·통합적 관점에서 실시하는 평가` — bare descriptive phrase with no role-tier binding and no normative judgment requirement. The OT&E clause at 제2호 retains its result-judgment language (`군사용 적합 또는 부적합으로 판정할 것`) but loses its role binding.
+
+The deletions persist through 제3080호 (2025-09-17).
 
 ## 핵심 요약 (Key Takeaways)
 - 제2129호 제57조 ¶1 제1호: `개발시험평가 : 사업관리기관 주관 하에 … 실시하는 평가로서 **합격 또는 불합격으로 결과를 판정할 것**` [진리성]

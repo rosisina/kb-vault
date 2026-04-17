@@ -111,7 +111,19 @@ Oracle DB (인사·사망자·유가족 정보 = irreversible data)
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+At the KIATIS normalization meeting on 2022-02-08 (Recording 220), the excavation team leader stated that he carries a **Galaxy Note** (large-screen smartphone/phablet) in the field and accesses KIATIS data through it. 한지훈 reported this to 이지영: "It's not a tablet, it's something like a phone he carries around. They're supposed to use a PC with VPN."
+
+### Excavation team leader verbatim (01:39:38)
+
+> **(발굴팀장)** "사실 여기 부과적으로 **갤럭시 노트를 가지고 다닙니다.** 거기에서 전체적인 데이터가 필요한 이유는 주변의 데이터를 같이 볼려다가 보니까 이런 게 필요한데. **실질적으로 우리가 사용하다 보니까 발굴하는 그 당시에는 큰 역할을 하지 못하는 거죠.**" ("In practice I carry a **Galaxy Note**. I need all the data from surrounding areas, but **in reality, during excavation itself, it doesn't play a major role.**")
+
+### 한지훈's report to 이지영 (01:57:32)
+
+> **(한지훈)** "**태블릿은 아니고 휴대폰 비슷한 거 하나 갖고 가고. 피씨에서 VPN을 이용해서 해야 하는데.**" ("**It's not a tablet, it's something like a phone he carries. They're supposed to use VPN on a PC.**")
+
+### Mobile attack surface structure
+
+A Galaxy Note connected to KIATIS over the public internet without VPN represents a mobile attack vector: internet-facing endpoint → Direct DB → defense network data.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 발굴팀장이 "갤럭시 노트를 가지고 다닙니다"라고 공식 회의에서 진술 — **민간 모바일 기기로 KIATIS 데이터에 접근**하는 구조가 존재했음의 직접 증거. / The excavation team leader stated in an official meeting that he carries a Galaxy Note to access KIATIS data — direct evidence of mobile access via civilian wireless networks.

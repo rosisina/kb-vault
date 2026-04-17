@@ -95,7 +95,15 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Attorney 최동욱 nominally represented 한지훈 as defense counsel, but in reality functioned as an agent for the MND Prosecutor's Office. This is supported by three pieces of evidence:
+
+**First, drafting answer request documents matching suspect interrogation transcripts.** The two answer request documents 최동욱 sent to 한지훈 (from Record No. 4,352 and Record No. 4,542) "contain content matching a second set of suspect interrogation transcript questions." 한지훈 continuously asserted that he was "unrelated" to the MND Prosecutor's Office criminal investigation, yet 최동욱 "tried to persuade him of the need to extend interrogation time and conduct a second interrogation on behalf of the military prosecutors."
+
+**Second, concealing the Kyungbuk University alumni network.** When 한지훈 said "I'm telling you clearly — 박성호 is Kyungbuk University. 이근태 is also Kyungbuk University," 최동욱 said "I don't know." However, near the end of the investigation, 이근태 disclosed: "I know attorney 최동욱. We even met about this matter." An attorney lying to his client is a fundamental ethics violation and clear evidence of conflict of interest.
+
+**Third, attempting to frame 한지훈 as 'abnormal.'** 최동욱 said "Your judgment and thinking are not normal right now because of this stress" (from Record No. 11,252). 한지훈 countered: "I am not the one who is not normal — a 32-year veteran in solitary confinement for 6 months shocked you, Elder, but **you're not taking action.**"
+
+최동욱's minimal formal cooperation is also evidence: "I'll cooperate for about three hours inside — whether we discuss in advance today or do it on-site is for me to decide" (Record No. 11,234).
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 최동욱이 한지훈에게 보낸 두 답변 요청서(기록 제4,352쪽; 제4,542쪽)가 피의자 신문 조서 질문지와 일치한다는 사실은 이중 대리의 물적 증거이다.

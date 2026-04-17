@@ -95,7 +95,15 @@ SET fr.layer = 5, fr.claimType = "methodology",
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The Defense Counterintelligence Agency's false harassment investigation followed a 7-phase process (§3.5.2.3.2):
+
+- **Phase 1 — Pretext Creation:** 2022-02-08: Legacy KIATIS security violation exposed → 이지영 collects VPN information → 48 hours later (2022-02-10): harassment complaint used as pretext.
+- **Phase 2 — Target Isolation:** 2022-02-10: 김민수 orders solitary confinement, 2022-02-21: placement in former CyberCommand Room 110, PC seizure, materials and colleague contact blocked, "be careful of evidence tampering" threat.
+- **Phase 3 — False Evidence Fabrication:** 김수진 leads, 양미숙, 김민지, 지원호 participate in fabricating harassment grounds. 이지영's false testimony: "5:30 PM — left without reporting." 이승우's ruling: "grounds for disciplinary action." 김민수's determination: "serious, it's disciplinary."
+- **Phase 4 — Coordinated Testimony:** 이지영's false testimony, investigator's leading questions, 이승우's "disciplinary" definition, 김민수's final ruling — 3-person coordinated false testimony.
+- **Phase 5 — Cover-Up Failure:** 2 contractor employees provide statements confirming "reported dozens of times," collapsing the 5:30 PM fabrication.
+- **Phase 6 — Evidence Suppression:** Warning letter issued despite omitting 박서준's matter, ignoring 한지훈's human rights violations, concealing the attendance fabrication failure.
+- **Phase 7 — Transition to Layer 6:** Harassment fabrication fails → transition to military prosecutor targeted investigation. MND Duty Inspection Office produces "Audit Result Disciplinary Demand Notice" (2022-04-22, Record No. 4,063) → MND Prosecutor's Office issues "Military/Civil Servant Crime Investigation Commencement Notice" (2022-04-25, Record No. 4,854).
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] The investigation bureau's fake harassment probe followed a 7-phase fraud investigation process: pretext creation (Feb 8–10) → target isolation (Feb 10–21) → false evidence fabrication → coordinated testimony → cover-up failure → evidence suppression → transition to Layer 6 military prosecution. / 조사본부의 허위 갑질 조사는 7단계 사기수사 프로세스를 따랐으며, 2022-02-08부터 2022-04-25까지 시간순으로 전개되었다.

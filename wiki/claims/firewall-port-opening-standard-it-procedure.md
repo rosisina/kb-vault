@@ -82,7 +82,14 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The act prosecuted by the military as "illegal firewall opening → illegal DB access" is actually the standard firewall policy application request procedure between 국전원 and DIDC 1st Center.
+
+Evidence:
+1. **Overall 행정정보화과 status (Figure 4-3, Records 6,128–6,138):** Multiple firewall policy application requests were processed in the first half of 2019 alone (1.10–6.16). The New KIATIS-related request was just one of these.
+2. **DIDC Unit Regulation No. 12 Article 37 (Record No. 8,435):** Stipulates VPN use "when accessing remotely," but "remote" here means civilian internet → defense network access; it does not apply to intra-defense-network connections (국전원 ↔ DIDC).
+3. **COVID remote work analogy:** VPN being needed for external → internal network access during remote work, and firewall port opening being needed for inter-server communication within the internal network, are entirely different security contexts.
+
+The military prosecutors used **only 1 document** out of dozens of identical-type official documents in which 한지훈 was in the approval chain as the basis for criminal charges.
 
 ## 핵심 요약 (Key Takeaways)
 - Firewall port opening between 국전원 and DIDC is standard IT network management — dozens of identical requests processed in the same department in 2019H1 [진리성]

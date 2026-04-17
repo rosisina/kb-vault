@@ -73,7 +73,7 @@ SET fr.layer = 1,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+정현우 (2016해킹당시원장-1, Director-During-2016-Hack-1, inaugural data center unit commander) stated in a 2022-02-28 recording: 'At the time of the 2016 hacking — scapegoat, lumping all of our unit personnel together' ("희생양, 우리 부대원 모두 싸잡아가지고"). A brigadier general-level insider used the term 'scapegoat' (희생양) to acknowledge collective blame-shifting onto DIDC unit personnel.
 
 ## 핵심 요약 (Key Takeaways)
 - Retired BG 정현우 explicitly used '희생양' (scapegoat) — general-officer-level insider confirmation [진리성]

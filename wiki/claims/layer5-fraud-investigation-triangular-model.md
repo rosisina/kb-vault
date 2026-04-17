@@ -93,7 +93,21 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+§3.5.2.4 defines the triangular conspiracy between the Investigation Bureau, Legal Affairs Office, and 국전원 as a **typical model of fraud investigation**. Beyond 김민수's confession in §3.5.2.4.1 ("충분히 애기하고"), three structural elements compose this model:
+
+**1. 이지영's Role as Intermediary (§3.5.2.4.2):**
+이지영 feigned false neutrality, saying "the Inspector General's Office told me not to tell either side about the content." However, in reality she was actively conspiring by providing false testimony on attendance to the Investigation Bureau. Notably on 2022-02-21, she **reversed herself 3 times within 5 minutes**: "request a complaint at the agency level" (organizational complaint) → "they say it should be a request for an ex officio investigation" (ex officio investigation) → "it's not an ex officio investigation request — let's pretend I didn't say what I said" (individual complaint). This reversal shows she was coordinating in real time with 김민수.
+
+**2. Perfect Temporal Coordination (§3.5.2.4.3):**
+- 2022-02-14: 김민수 declares "discharge is the only option" → signals conclusion to Investigation Bureau
+- 2022-02-21: 이지영 reverses complainant identity → frame ("individual complaint") confirmed
+- 2022-03-25: 이승우's investigation → immediately rules 이지영's false testimony as "grounds for disciplinary action"
+- 2022-05-23: Legal Affairs Office issues warning letter → documents 김민수-inspector agreement
+
+This precise coordination is impossible without prior conspiracy.
+
+**3. Response after Conspiracy Collapse (§3.5.2.4.4):**
+When 2 contractor employees' statements collapsed the attendance fabrication, normally 이지영 should have been reprimanded, the warning letter withdrawn, and an apology issued. However, the organization (1) concealed the fabrication failure, (2) did not hold the responsible party accountable, (3) did not withdraw the warning letter, (4) added other grounds, and (5) **immediately transitioned to military prosecutor targeted investigation**. Investigation commenced 2022-04-25, substantive investigation began July 2022.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 이지영의 5분 3회 번복(기록 제11,064쪽 참조 — [[layer5-triangular-collusion-speech-act-timeline]])은 김민수와 실시간 소통하며 최종 방침을 결정하고 있었음의 직접 증거이다. The triple reversal in 5 minutes proves real-time coordination with 김민수, not independent decision-making.

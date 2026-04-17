@@ -69,7 +69,7 @@ SET fr.layer = 1,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The term '국방통합정보관리소' in Annex 1 of Directive No. 2129 was replaced with '국방통합데이터센터 (DIDC)' in Directive No. 2263. This erased the institutional name in effect at the time of the 2016 hacking from the directive's definitional terms, severing the hacking-to-institution link. This was a preliminary measure enacted 15 months before the removal of the DIDC naming anchor in Article 10 under Directive No. 2436.
 
 ## 핵심 요약 (Key Takeaways)
 - Glossary-level DIDC rename precedes Article 10 anchor deletion by 15 months — two-phase identity laundering [타당성]

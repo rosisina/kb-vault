@@ -72,7 +72,7 @@ SET fr.layer = 7,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+This is insider research based on primary sources (Record No. 1–13,528) directly collected and analyzed over four years by the victim. Access paradox: only the target of organized crime can document the internal processes designed to be invisible.
 
 ## 핵심 요약 (Key Takeaways)
 - 보이지 않는 조직 프로세스에 접근 가능한 고유한 당사자 연구 [진리성]

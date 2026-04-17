@@ -88,7 +88,13 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+On February 8, 2022, during a discussion about New KIATIS operations, it was revealed that Legacy KIATIS had been exposed to the internet for 15 years (2007–2022) — a security violation directly connected to the concealment of the 2016 DIDC North Korean hacking incident. Exactly **48 hours later on February 10**, 국전원 filed a harassment complaint against 한지훈.
+
+The book (§3.5.2.3.2) specifies that the false harassment investigation followed a 7-phase process and defines Phase 1 as "pretext creation": `On February 8, 2022, Legacy KIATIS's security violation was exposed; 이지영 collected VPN information; 48 hours later on February 10, the harassment complaint pretext was created.`
+
+The book's core proposition (§3.5.1.7): `<P1> On February 8, 2022, the 15-year security violation of Legacy KIATIS was exposed. <P2> The February 10 harassment complaint is a direct act of retaliation against the February 8 discussion.` And Definition D2: `The 48-hour retaliation is an organizational act occurring within 48 hours of the triggering event.`
+
+This 48-hour window is causal evidence proving not a spontaneous individual complaint but a premeditated organizational retaliation. The moment 한지훈 became the sole external observer who knew the truth about the security violation, the organization's witness elimination operation commenced.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 舊KIATIS 15년 보안 위반이 2022-02-08 토의에서 노출되었다는 사실은 기록 제11,334쪽에 기록되어 있다. 노출 시점과 갑질 신고 시점(기록 제3,965쪽) 사이의 간격은 48시간이다.

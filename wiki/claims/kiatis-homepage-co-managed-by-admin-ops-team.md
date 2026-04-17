@@ -97,7 +97,15 @@ SET fr.layer = 1,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+According to the suspect interrogation transcript (Record No. 4,879/L6) and the organization and personnel status (2019-12-17, Record No. 4,723/L6), the administrative information operations team was responsible for both the '625전사자 종합 정보체계' (舊KIATIS) and internet/intranet homepages.
+
+- Before the 2020 vice minister report: 4 teams under the administrative IT section each handled both projects and operations. The administrative information operations team was responsible for 舊KIATIS.
+- 조성민 (실무자-1, Staff-1): solely responsible for both the 6.25 war dead information system and internet/intranet work
+- As of November 2019: separated into 윤도현 (실무자-2, Staff-2) for KIATIS and a separate staff member (실무자-3, Staff-3) for homepage, but previously handled by 조성민 alone
+- Security review update history (2019-06-17) also confirms 조성민 (실무자-1) and administrative operations team staff history (Record No. 1,019/L2)
+- Detailed org chart: operations team leader 송민석 (팀장-2, Team-Leader-2), staff member 윤도현 (실무자-2)
+
+In the suspect interrogation, 한지훈 stated 'the administrative information operations team has been handling it until now, and then it was pushed off to the planning team,' and 오현수 (실무자) repeatedly complained 'this project belongs to the administrative information operations team, but they dumped it on us.'
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 피의자 신문조서(Record No. 4,879/L6)는 행정정보 운영팀이 舊KIATIS와 홈페이지를 함께 운영했음을 한지훈의 직접 진술로 증명한다. The interrogation transcript is a direct evidentiary record from a formal legal proceeding.

@@ -104,7 +104,24 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The military prosecutors' fraud investigation against 한지훈 is structurally defined by **4 key documents** and **4 key keywords**.
+
+**4 Key Documents (+ final disposition):**
+
+| # | Document | Date | Records |
+|---|---|---|---|
+| 1 | Reference Witness Statement | 2022-01-25 | Record No. 4,776ff |
+| 2 | Search, Seizure and Verification Warrant | 2022-07-18 | Record No. 4,842ff |
+| 3 | Military/Civil Servant Criminal Investigation Commencement Notice | 2022-07-21 | Record No. 4,854ff |
+| 4 | Suspect Interrogation Transcript | 2022-09-02 | Record No. 4,874ff |
+| 5 | Non-Prosecution Reason Notice | 2022-10-11 | Record No. 5,167ff |
+
+**4 Fraud Investigation Keywords:** "DIDC regulation non-compliance," "illegal firewall opening," "illegal DB access," "failure to notify"
+
+The cartel network, **centered on MND Information Planning Division**, operated with 8 institutions radially connected in a **3-stage time progression**:
+- **Stage 1 (2016–2018)**: Building concealment foundation — concealing the DIDC hacking truth, destroying evidence through the Active-X removal project, initiating directive manipulation
+- **Stage 2 (2018–2022)**: Manipulating New KIATIS project structure, distorting test evaluation, setting target on 한지훈
+- **Stage 3 (2022–2025)**: False harassment → fraud investigation → evidence concealment → transferring individual responsibility
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 4대 문서의 시간적 전개(2022-01→07→07→09→10)는 참고인→영장→수사개시→신문→처분의 체계적 사기수사 파이프라인. / The 4 documents' temporal progression (Jan→Jul→Jul→Sep→Oct 2022) forms a systematic fraud-investigation pipeline.

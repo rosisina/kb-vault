@@ -77,7 +77,7 @@ SET fr.layer = 1,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+舊KIATIS had a dual-linked structure that transmitted and received data with the intranet (defense network). The New KIATIS project plan (Record No. 1,117) written by 이태호 (평가위원장-1, Evaluation-Chair-1) in August 2018 explicitly includes 'intranet homepage integration' in the system requirements, and the 국유단 draft RFP review report specifies the integration target as '국유단 homepage (intranet)' with integration items of 'investigation, excavation, forensic analysis, and bereaved family information' (Record No. 1,125). This confirms 舊KIATIS had a dual-linked structure — internet-based while simultaneously exchanging data with the defense network — implying it functioned as an attack surface for the internet-to-defense-network attack path during the 2016 DIDC hacking.
 
 ## 핵심 요약 (Key Takeaways)
 - 舊KIATIS had documented intranet (국방망) data linkage — not a standalone internet system but a bridge into the defense network [진리성]

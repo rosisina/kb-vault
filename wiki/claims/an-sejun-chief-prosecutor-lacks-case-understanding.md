@@ -80,7 +80,12 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Military Prosecutor's Office chief (Brigadier General) 안세준 made 2 key admissions in a direct phone call with 한지훈 (Recording 174, 2022.9.29–10.6):
+
+1. **Not knowing the case content**: "Anyway, I'm not sure yet what the investigation team is doing — let me take a look at what the matter is" — at the point where the suspect had already been investigated and subjected to a 3-hour interrogation, the military prosecutor's top commander does not know the substance of the case.
+2. **Evading the disposition decision**: "This is not a matter where I can tell them to do this or that — the investigation team needs to reach a conclusion" — when 한지훈 requested a no-probable-cause disposition, the top commander denied having decision-making authority.
+
+This double admission shows that the Prosecutor's Office chief did not exercise substantive oversight of the case. The investigation team's targeted investigation proceeded within the top commander's dereliction of duty.
 
 ## 핵심 요약 (Key Takeaways)
 - Chief Military Prosecutor (준장) admits "I don't yet know what this is about" AFTER the investigation was launched and the subject interrogated for 3 hours [진리성]

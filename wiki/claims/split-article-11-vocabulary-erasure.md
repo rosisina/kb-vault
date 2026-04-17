@@ -69,7 +69,7 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Directive No. 2436 replaced three major terms: '사업통제기관 (project control authority)' → '정보화기획관실 (Information Planning Division)', '사업주관기관 (project principal agency)' → '소요제기기관 (requirements-generating agency)', '사업관리기관 (project management agency)' → '집행기관 (executing agency)' (Records No. 8,260/9,008/8,902). Once the existing terms disappear, the violation where 국유단 illegally performed the '사업통제기관' role in New KIATIS becomes unnameable in directive language. Evidence destruction at the vocabulary level.
 
 ## 핵심 요약 (Key Takeaways)
 - Three core role terms replaced — eliminating vocabulary to describe the illegal delegation [타당성]

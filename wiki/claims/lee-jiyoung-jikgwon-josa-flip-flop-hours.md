@@ -72,7 +72,7 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+이지영 conveyed in Recording 019 (2022-02-21) that 'the HR TF Chief advised that requesting an ex officio investigation is appropriate.' Within hours, in Recording 020, she completely reversed: 'That's actually not it either. Let's just pretend I didn't say what I said.' The ex officio investigation path was immediately blocked by a higher decision-making authority.
 
 ## 핵심 요약 (Key Takeaways)
 - 직권조사 was formally considered then vetoed within hours — higher-level suppression [진리성]

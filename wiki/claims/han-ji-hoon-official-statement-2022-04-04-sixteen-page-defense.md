@@ -149,7 +149,23 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The **16-page official "Statement and Defense Document"** submitted by 한지훈 to the **MND Inspector General's Office Duty Inspection Officer** on April 4, 2022, is the **most systematic primary defense document** against the harassment charges. It attached 8 reference materials and presented specific counter-evidence for each charge.
+
+### 1. Military Career and Work Ethic (pp. 1–2)
+
+- ROTC 17th cohort, commissioned as 2nd Lieutenant (Computer Officer) in 1991
+- **5 degrees**: Bachelor's (군산대 1991), Master's in Information Science (전북대 1997), Master's in Interpretation/Translation (동국대 2008), Master's in Political Science (Troy Univ. 2008), KDI Master's (2022), **PhD in Engineering** (숭실대 2018)
+- Combined Forces Command War Simulation Center (3 yrs), Army HQ Information Planning Staff (8 yrs), **MND Cyber Policy Officer** (1 yr), 국전원 (2018.12–present)
+- U.S. Army Signal School training (1998), Iraq Multinational Force/UN Force overseas service (2003)
+- "**To implement the director's operational innovation/transformation guidance and the section chief's maintenance automation and standardization directives, I submitted written reports to the director 35+ times in 2021.**"
+
+### 2. 국전원 Work Environment — Structural Overload (p. 3)
+
+- Operations work distributed across **4 teams** in 행정정보화과 was consolidated into **1 team** (Planning Operations Team)
+- Personnel: **12 → 7**, a significant reduction
+- Scope: **45+** administrative information systems across MND, joint commands, and all branches
+- "Work **unfolds unpredictably** throughout the day — an extremely busy team by nature"
+- Team composition: 1 Lieutenant, 1 2nd Lieutenant, 1 Sergeant + 3 civil servant officers — "All of **low rank and limited work experience**" [진실성]
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] **김민수의 전역 강요 verbatim**: "나도 냉철해져야겠다. 이 사안은 심각하다. **너에게는 하나의 옵션이 있는데 그것은 전역이다**" — 갑질 신고 **다음 날**(2.10) 원장이 직접 전역을 유일 옵션으로 제시. 이지영(과장)도 동석. / Director's verbatim: "You have one option — resignation." Delivered the day after the complaint with section chief present.

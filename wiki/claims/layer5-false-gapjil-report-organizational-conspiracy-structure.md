@@ -95,7 +95,13 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The false harassment complaint operated through a **3-tier conspiracy structure**:
+
+**Tier 1 — Masterminds (김민수, 이지영):** 국전원 director 김민수 (Army Academy Class 43) mentioned "temporary separation for harassment investigation" before February 10, 2022, but in reality imposed a 6-month solitary confinement. He sealed 한지훈's movements through the pressure "you take responsibility" and the threat "be careful of evidence tampering." 이지영 (section chief, senior officer, 공문결재자-1) collected VPN-related information at the February 8 discussion, pre-coordinated with the Investigation Bureau, and gave false testimony on attendance.
+
+**Tier 2 — Executors (김수진, 이승우):** 김수진, while holding duties related to directives at MND Information Planning Division, was posted to 국전원 and continuously involved in directive manipulation. According to 양준승 (Record No. 11,407–11,415), 김수진 led harassment ground fabrication with 양미숙 and 김민지. 이승우 (MND Duty Inspection Officer) immediately ruled 이지영's false testimony (the pre-6PM dinner issue) as "grounds for disciplinary action," pressuring 한지훈.
+
+**Tier 3 — Instrument (박서준):** 박서준 (Lieutenant level) is the nominal harassment complainant but was actually a gaslighting victim and accomplice. He made fear expressions ("I want to live") and threats ("honorable discharge is not possible"), and appears to have been rewarded by moving to Army HQ after the complaint. **The warning letter from the Legal Affairs Office does not reflect a single one of 박서준's claims** — proving that 박서준 was not a genuine complainant but a nominal shield used by the organization.
 
 ## 핵심 요약 (Key Takeaways)
 - The false 갑질 report was a 3-stage organizational conspiracy: masterminds (김민수 + 이지영), executors (김수진 + 이승우), and a nominal tool (박서준 as gaslighting victim) [진리성].

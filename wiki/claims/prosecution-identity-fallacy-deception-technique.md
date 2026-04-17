@@ -81,7 +81,13 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The military prosecutors systematically committed Identity Fallacy in the search and seizure warrant, investigation initiation, and non-prosecution reason documents. This deception technique operates on three dimensions:
+
+1. **Temporal identity manipulation**: Deliberately confusing the 2019 September test evaluation period with the 2022 July investigation period. Using the future tense verb "will use" to dress up a temporally retroactive demand to have evaluated in 2019 by 2022's environment as a legal obligation.
+2. **Environmental identity manipulation**: Treating Legacy KIATIS (Ⓐ), New KIATIS test environment (Ⓑ), and New KIATIS post-fielding environment (Ⓓ, built after April 15, 2021) — three different system environments — as identical. Temporal retroactive demand to have evaluated by 2021+ standards in 2019.
+3. **Conceptual identity manipulation**: Treating the evaluation committee deliberation result report (Ⓐ, the act of determining project pass/fail) and the 국전원 → 국유단 notification document (Ⓑ, the act of conveying on behalf of the evaluation committee) identically. Legal fraud technique of treating two documents of completely different nature and gravity at the same level.
+
+Defense IT Operations Directive Article 62 ¶3 (Record No. 8,013) stipulates: "The head of the unit/agency subject to operational test evaluation must designate an operational test support manager and take all necessary measures for test evaluation implementation" — normatively acknowledging that test evaluation environments cannot be completely identical to actual operational environments.
 
 ## 핵심 요약 (Key Takeaways)
 - The 군 검찰단 committed a three-dimensional Identity Fallacy: temporal (2019≠2022), environmental (舊KIATIS≠新KIATIS test≠新KIATIS deployed), and conceptual (decisional report≠transmittal notice) [진리성]

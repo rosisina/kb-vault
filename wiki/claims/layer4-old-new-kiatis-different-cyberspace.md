@@ -72,7 +72,7 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Cyberspace has different actors, missions, and roles depending on the civilian, public, and defense domains. 舊KIATIS was operated on the internet from 2007 (defense internet homepage server → military-wide internet integrated mail server). New KIATIS was constructed on the DIDC cloud-based defense network. Per Articles 57, 58, and 62 of the Defense Informatization Business Directive, operational test evaluation must be conducted in the actual operating environment (Book Record Layer 4-001). 舊KIATIS's actual operating environment (internet) and New KIATIS's test environment (defense network) are physically separate, different cyberspaces. Therefore any test evaluation that confused or equated these two environments constitutes a directive violation.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 舊KIATIS는 인터넷 기반 사이버공간, 新KIATIS는 국방망 기반 사이버공간에서 각각 운영/시험됨 — 두 시스템은 서로 다른 사이버 도메인에 존재했다 (§3.4.1.2, 기록 제12,069~13,323). 舊KIATIS ran on internet cyberspace; 新KIATIS was tested on defense-network cyberspace — these are fundamentally different cyber domains.

@@ -101,7 +101,15 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Developer PM 장호재 provided clear testimony on attribution of responsibility for four core KIATIS project issues in Recording 237 (2022-09-17):
+
+### Core 1: Data non-migration = 국유단 responsibility
+
+> **(장호재, lines 15079–15084):** '그쪽 **데이터 이관이 안 된 거는 전부 다 국유단에서 데이터를 안 줘서.** 그게 다 들어가 있어요... **데이터를 줘야 이관을 하는데. 데이터를 안 주니까** 어쩔 수 없죠' ("The **data migration failure is entirely because 국유단 did not provide the data.** It's all documented... **You need the data to do migration. Since they didn't provide the data,** there's nothing we can do.")
+
+### Core 2: 80 additional requirements = 3–4× cost overrun
+
+> Developer PM confirms costs reached 3 to 4 times the original contract budget due to the 80 additional requirements, and the developer was forced to absorb the losses.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] **데이터 미이관 = "국유단이 안 줘서"** — 감리 결과에서 지적된 데이터 미이관 문제의 **직접 원인**이 국유단의 데이터 미제공임을 개발PM이 명확히 증언. 한지훈 또는 개발업체의 책임이 아님. / Data migration failure directly caused by 국유단 not providing data — not Han Ji-hoon's or developer's fault.

@@ -93,7 +93,22 @@ Therefore, **제58조 ¶4 cannot apply to KIATIS**. The prosecution's citation o
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The 2022-10-07 불기소결정서 (Case No. 2022 형제66호) issued by the MND 보통검찰부 explicitly cites **제2129호 제58조 ¶4** as the legal basis legitimating integrated DT&E/OT&E execution in KIATIS. The verbatim citation in the 불기소이유서 (lines 152-154 of the converted file) reads:
+
+> `제58조(시험평가 수행원칙) 제4항에서는 '사업관리기관과 사업주관기관 주관 하에 개발시험평가와 운용시험평가를 운용시험평가 환경에서 동시에 실시할 수 있다.'고 정하고 있으며 (기록 제1253쪽)`
+
+**However, 제2129호 제58조 ¶4 is structurally a sub-provision of 제58조 ¶3** — it grants the simultaneous-execution permission **only** to projects that qualify under 제58조 ¶3. 제58조 ¶3 verbatim:
+
+> `기관 위임사업, 정보시스템 구축사업의 소프트웨어 개발비가 5억 원 미만 사업 및 제46조에 따라 사업계획서 승인 단계에서 시험평가가 위임된 사업은 제59조에서 제64조까지를 준용하여 수행하되, 해당 기관에서 정한 세부 절차에 따라 시험평가를 실시하고 결과를 사업통제기관에 보고한다.`
+
+KIATIS at 6.25억 KRW **does not qualify** under any 제58조 ¶3 path (already established as CORROBORATED by [[kiatis-2129ho-main-regime-applies]]):
+1. **5억 미만 path:** foreclosed (6.25억 > 5억)
+2. **기관 위임사업 path:** foreclosed (국전원 is regulation-designated 사업관리기관 per 제11조 ¶4)
+3. **제46조 위임 path:** would require a documented test-evaluation 위임 in the 사업계획서 승인 단계 (no such document produced in the case file)
+
+Therefore, **제58조 ¶4 cannot apply to KIATIS**. The prosecution's citation of ¶4 as legitimating the integrated DT&E/OT&E execution is a **textual misapplication of the directive** — citing the exception clause as if it were the main regime. The main regime for KIATIS is 제58조 ¶2 (separation as principle, integration only with 사업통제기관 written approval).
+
+**This legal misapplication is the foundation on which the entire 위계공무집행방해 기소유예 stigma stands.** If 제58조 ¶4 does not apply, the prosecution's argument that the integrated execution was permitted by directive collapses, and the underlying conduct (per the warrant's narrative) should have been treated as either (a) a 제58조 ¶2 exception requiring written 사업통제기관 approval (which would shift the inquiry to whether such approval exists), or (b) a directive violation by whoever authorized the integrated execution.
 
 ## 핵심 요약 (Key Takeaways)
 - The 2022-10-07 불기소이유서 (Case 2022 형제66호) verbatim cites **제2129호 제58조 ¶4** (기록 제1253쪽) as legal basis legitimating integrated DT&E/OT&E execution in KIATIS [진리성].

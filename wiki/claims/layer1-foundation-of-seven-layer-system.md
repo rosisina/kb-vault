@@ -73,7 +73,7 @@ SET fr.layer = 1,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Layer 1 is the foundation of the entire 7-Layer Proof System. The motive and intent behind the Defense Informatization Cartel's long-term, organized, and collective conspiracy, concealment, manipulation, cover-up, human rights violations, and criminal labeling lies in the systematic destruction of evidence regarding 舊KIATIS's 15-year operation (2007–2022) exposed to the internet without VPN.
 
 ## 핵심 요약 (Key Takeaways)
 - 제1층위는 구조적 근간 — 7개 층위 전체가 舊KIATIS의 15년 인터넷 노출 증거 인멸이라는 단일 동기로 소급됨 [진리성]

@@ -80,7 +80,9 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The military prosecutors' non-prosecution decision document (2022 Criminal Case No. 66) used Identity Error as its core deception technique, comparing the 2019 test evaluation environment (New KIATIS Ⓒ) with the 2022 investigation-time operational environment (New KIATIS Ⓓ, VPN + ChakraMax operational state after 2021.4.15) to define conducting test evaluation without VPN as criminal — stating "notwithstanding the requirement to evaluate in the environment identical to what actual users would use."
+
+However, per **Corollary 01**, New KIATIS was operated without VPN and DB access control system (ChakraMax) until at least 2021.4.14, so the 2019 test evaluation environment was **identical to the actual operational environment at the time**. Furthermore, the RFP technical application table (Record No. 4,424) shows that dozens of information protection system items including VPN and DB access control were all checked "not applicable," confirming it was a pure SW development project (Record No. 1,536 / Record No. 8,011 / Record No. 9,116).
 
 ## 핵심 요약 (Key Takeaways)
 - The 불기소결정서 compares the 2019 test-evaluation environment against the 2022 post-VPN operational environment — a temporal identity error spanning 2+ years of infrastructure change [진리성].

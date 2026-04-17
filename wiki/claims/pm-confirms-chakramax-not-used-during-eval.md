@@ -76,7 +76,7 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Maintenance PM 도지호 (responsible for 43 administrative information systems) confirmed in a 2022-08-02 call that ChakraMax (DB access control) was not used during New KIATIS test evaluation. Reason: the dispute between 국전원 and DIDC about whether it 'must be used / doesn't need to be used' had not been settled. The controversy 'why should we use it when the old system didn't use it' existed even before the test evaluation. Development management team leader 한지훈 was not informed of this non-use.
 
 ## 핵심 요약 (Key Takeaways)
 - PM confirms ChakraMax NOT used during test eval — inter-organizational agreement never finalized [진리성]

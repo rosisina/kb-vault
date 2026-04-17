@@ -78,7 +78,7 @@ KIATIS 사업은 국전원 행정정보화과의 분장사무 구조 및 2018년
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The KIATIS project was under the **Administrative Information Operations Team** based on the Defense Information Agency's administrative division of work and pre-July 2018 correspondence history, but was intentionally and forcibly transferred to the **Administrative Information Planning Team** (team leader 한지훈). The transfer did not occur in the form of an official approved document but as a practical "dumping," and multiple officers including 오현수 (Project-Officer-2) Captain and 이태호 (Evaluation-Chair-1) Navy Lieutenant Commander directly complained to 한지훈 about this multiple times. This transfer structure, combined with the position capture in [[layer3-pm-post-vacancy-predecessor-gap]], constitutes the mechanism by which the New KIATIS project management team leader role was unknowingly imposed on 한지훈.
 
 ## 층위 (Layer)
 [[../layers/layer-3|Layer 3]] (primary) — 국전원 내부의 팀 소관 이관 사건. [[../layers/layer-7|Layer 7]] (secondary) — 기록 제11,107~11,108쪽은 국전원 내부가 아니라 한지훈 작성 진정서·증언록 영역에 속하는 2차적 증거 기록으로, 국전원 내부 공문 미생산을 대체하는 1차 진술 증거이다.

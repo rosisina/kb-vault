@@ -100,7 +100,7 @@ SET fr.layer = 3,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Former team leader 이태호 admitted in Recording 060 (2022-07-30) to the work-dumping structure within the Defense Information Agency: 이태호 confirmed that 6–7 concurrent projects were imposed on 한지훈's team while acknowledging the abnormal work distribution. This constitutes a self-incriminating admission by a witness who the prosecution later summoned — the witness's own testimony contradicts the prosecution's "negligent individual" narrative.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] **"떠넘겼다고 봐야지"** — 전임 팀장이 업무 떠넘기기를 **명시적으로 자인**. 한지훈만의 주장이 아닌 전임자의 **독립 확인**. / Predecessor explicitly admits work dumping — independent confirmation.

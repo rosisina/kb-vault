@@ -69,7 +69,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The intentional delay of New KIATIS deployment operates as a cyclical budget exploitation mechanism through the 'failure → additional budget' repeated loop (625 million → 400 million → 390 million won). A self-perpetuating resource extraction device that intentionally induces test evaluation failure then secures additional budget.
 
 ## 핵심 요약 (Key Takeaways)
 - 예산 주기 6.25억→4억→3.9억이 자기 영속적 자원 착취 메커니즘을 증명 [진리성]

@@ -69,7 +69,7 @@ SET fr.layer = 1,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+제2263호 (2019-02-26) is the first revision in the 11-revision dataset to modify 제9조 ¶2's cyber-security routing language. This is the earliest movement of the A3 anchor (`국방사이버안보훈령` reference) and the only anchor movement that occurs **inside** the KIATIS legal window (2018–2019), though it occurs after KIATIS test evaluation completion in 2019-12 — wait, 2019-02-26 is *before* KIATIS test evaluation completion. The movement therefore is the only anchor change that potentially overlaps the KIATIS conduct period.
 
 ## 핵심 요약 (Key Takeaways)
 - 제2263호 (2019-02-26) is the first revision in the 11-revision dataset to micro-edit 제9조 ¶2's reference to `국방사이버안보훈령` — the cyber-security routing anchor (A3) [진리성]

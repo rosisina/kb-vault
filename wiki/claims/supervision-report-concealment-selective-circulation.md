@@ -84,7 +84,12 @@ SET fr.layer = 4, fr.claimType = "methodology",
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The project success evidence in the supervision result report (Records No. 2,594–2,751) — 'excellence of development management,' 'perfect match of required functions' (initially 150+ items), 'illegitimacy of 80 additional requirements,' 'accurate technical analysis of 국유단 data absence' — was decisive evidence objectively proving 한지훈's professionalism and successful project management (§3.4.6.5).
+
+However, these positive supervision results were:
+1. **Selectively circulated only to 이준호 (공모자-1, Conspirator-1)** (Record No. 4,756)
+2. **Completely blocked by intentional non-provision from 국유단 during the Military Prosecutor's Office investigation** (Record No. 4,756)
+3. **Intermediate DT/OT report** processed by 이준호 alone with 1-person approval (Records No. 2,762–2,852)
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] The supervision report (Record No. 2,594–2,751) documenting project success — including "excellence in development management" and "perfect match of requirements" — was circulated selectively to 이준호 alone (Record No. 4,756), while 한지훈 was blocked from accessing it during the military prosecution investigation. / 감리 결과보고서(기록 제2,594쪽~제2,751쪽)의 사업 성공 기록이 이준호에게만 선별 공람되고, 군검찰 수사 시 한지훈에게는 차단되었다.

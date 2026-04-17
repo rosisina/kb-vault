@@ -74,7 +74,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The MND Prosecutor's Office committed judicial murder through intentional targeting against a military officer who performed his duties correctly and justly, inflicting permanent harm. Against his family community, it wielded the blade of total destruction, making them live with irrecoverable pain — it is the war criminal institution of a fraud investigation.
 
 ## 핵심 요약 (Key Takeaways)
 - The prosecution committed judicial murder (사법살인) — intentionally nullifying the victim's self-worth as a military officer [진실성]

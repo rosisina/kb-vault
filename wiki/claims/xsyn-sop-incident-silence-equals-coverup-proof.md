@@ -71,7 +71,7 @@ DIDC 예규 제12호(raw/06) 제17-24조는 침해사고 시 비상대응팀 구
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+DIDC Unit Regulation No. 12 (raw/06) Articles 17–24 prescribe an 8-stage mandatory procedure for cyber intrusions: emergency response team formation → report → incident detection/response → report (별지 No. 4) → countermeasures → recovery → closure. The regulation took effect 2016-02-01. The book (raw/01 §3.1) documents that none of these records exist. Directive No. 2129 Article 9 ¶2 (raw/04) provides the higher-authority basis. Legal duty (raw/06) + non-compliance (raw/01) + higher authority (raw/04) = silence itself is the procedural proof of cover-up.
 
 ## 핵심 요약 (Key Takeaways)
 - Three source types triangulate: SOP duty (raw/06) + documented absence (raw/01) + governing directive (raw/04) — silence IS the evidence [진리성, 타당성]

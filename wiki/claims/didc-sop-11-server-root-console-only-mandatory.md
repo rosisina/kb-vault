@@ -69,7 +69,7 @@ DIDC 부대예규 제11호 제161조②는 병사·유지보수업체 직원의 
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+DIDC Unit Regulation No. 11 Article 161② prohibits soldiers and maintenance contractor personnel from using Root accounts without DIDC staff accompaniment. Article 161⑦ restricts Root access to console-only and prohibits remote access. This means any administrative access requires DIDC staff accompaniment or witnessing. Any remote Root access during the 2016 hacking would constitute an SOP violation. During the KIATIS development and maintenance period, vendor personnel's administrative access also required DIDC staff escort.
 
 ## 핵심 요약 (Key Takeaways)
 - 제161조② absolutely prohibits soldiers and maintenance contractors from using Root independently [타당성]

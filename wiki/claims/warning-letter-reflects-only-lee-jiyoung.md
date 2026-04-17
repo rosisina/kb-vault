@@ -81,7 +81,13 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Analysis of the warning letter issued by the MND Legal Affairs Office on May 23, 2022 (Records 3,945–3,946, 4,064):
+
+1. **Absence of 박서준's actual claims:** 박서준's irrational statements including "I want to live" (Records 6,916–6,917) are not reflected in the warning letter at all
+2. **Only 이지영's false claims reflected:** 이지영's claim that "she left without reporting at 5:30 PM" was immediately reflected as disciplinary grounds
+3. **False title in warning letter:** The warning letter records 한지훈's position as "행정정보계획팀장," but his official position as of 2022.2.28 was "자원정보화과 국방정보화사업담당" (Record No. 1,586). This error also appears identically in the suspect interrogation transcript (Record No. 4,878) — a cartel member transmitted the unofficial title to both parties
+
+This decisively proves that the actual driver of the harassment complaint was 이지영, not 박서준.
 
 ## 핵심 요약 (Key Takeaways)
 - The warning letter contains NONE of 박서준's actual claims but immediately reflects 이지영's false claim — proving 이지영 was the real complainant [진리성]

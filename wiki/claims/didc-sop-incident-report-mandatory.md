@@ -68,7 +68,7 @@ DIDC 부대예규 제12호 제21조 (침해사고 신고) creates an immediate, 
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+DIDC Unit Regulation No. 12 Article 21 (사이버 침해사고 신고) creates an immediate, non-discretionary duty for any DIDC department head to report unauthorized access or hacking traces to (a) the 정보보호과 (information protection section) and (b) the Cyber Operations Command upon discovery. The prescribed report form is **별지 제4호 서식 (정보시스템 위협/손상 보고서)**, with 20 mandatory fields covering incident timing, source/destination IP, system identification, incident type, response actions, and risk assessment. For the 2016 DIDC North Korean hacking incident, this 별지 제4호 form must exist as a contemporaneous documentary artifact. **The absence, alteration, post-hoc fabrication, or destruction of this form is direct Layer 1 cover-up evidence** under the procedural-trace methodology.
 
 ## 핵심 요약 (Key Takeaways)
 - DIDC 부대예규 제12호 제21조 ¶1 creates a non-discretionary duty (`즉시` + `하여야`) for each 부서장 to report unauthorized access or hacking traces to both 정보보호과 and 사이버작전사령부 upon discovery (raw/06/01 line 384) [타당성]

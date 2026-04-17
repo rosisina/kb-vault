@@ -78,7 +78,14 @@ SET fr.layer = 1,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+舊KIATIS was a dual-structure system embedding structural deception:
+
+- **Appearance:** Appeared to process work through a webpage in a web browser
+- **Reality:** After accessing a webpage via web browser, connected directly to the DB without VPN through ActiveX in client-server (C/S) mode
+
+This dual structure is the core deception that concealed security vulnerabilities for 15 years. 장우진 (사업실무자-1, Project-Officer-1)'s statement (Records No. 5,164–5,165, 10,316–10,318) confirms 15 years of VPN non-use, and 한지훈 testified explicitly in the suspect interrogation transcript (Record No. 4,890).
+
+The appearance and disappearance of VPN OTP requests in weekly work reports (Records No. 1,629–1,692) over 9 weeks (2019-04-08 to 2019-05-21) demonstrates that the VPN implementation attempt was halted for some reason.
 
 ## 핵심 요약 (Key Takeaways)
 - 舊KIATIS had a dual architecture: web frontend masking a C/S direct DB access backend via ActiveX — no VPN, no encryption [진리성]

@@ -75,7 +75,9 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The MND 'Test Evaluation Improvement Plan' official communication dated 2020-08-20 (Record No. 4,757) was actually retroactively fabricated during the Military Prosecutor's Office investigation in 2022. The term '인도 단계 (delivery stage)' appears in this communication, but '인도 단계' was first introduced only in Directive No. 2842 (2023-09-20). This term did not exist in any directive at the 2020 date, making this communication a time-reversal phenomenon violating physical laws (irreversibility of time).
+
+This is not a simple administrative error. 국전원's administrative IT division, with the cooperation of On-Nara system maintenance vendor (핸디소프트), is the only entity capable of retroactively manipulating digital documents (Records No. 4,821–4,833).
 
 ## 핵심 요약 (Key Takeaways)
 - The term '인도 단계' appears in a document dated 2020.8.20 but was only introduced in 훈령 제2842호 (2023.9.20) — a physics-law violation proving retroactive fabrication [진리성]

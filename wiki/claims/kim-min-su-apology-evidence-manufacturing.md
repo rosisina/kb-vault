@@ -74,7 +74,7 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+On 2022-02-21, after pre-coordinating with the Inspector General's Office, 김민수 instructed 한지훈 to "send a message so it becomes evidence of an apology" and "arrange things about twice." He operated a dual track — "I'll handle the audit measures etc. myself — you just act as if you don't know." [진리성]
 
 ## 핵심 요약 (Key Takeaways)
 - 김민수 pre-coordinated with inspection office BEFORE instructing 한지훈 to send apology messages — dual-track manipulation [진리성]

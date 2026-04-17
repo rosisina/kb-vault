@@ -70,7 +70,7 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The cartel's ultimate goal was not mere silencing but complete destruction of the individual. A triple destruction structure through social reputation destruction (L5), legal criminal branding (L6), and economic survival base deprivation (dishonorable discharge). Similar to Orwell's 'Unperson,' the 'negation of the existence of Jews as such' was transformed into 'negation of the existence of the individual who speaks truth.'
 
 ## 핵심 요약 (Key Takeaways)
 - 3중 벡터 완전 파괴: 사회적 평판(L5), 범죄자 낙인(L6), 경제적 생존 기반(L7) [진리성]

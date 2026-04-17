@@ -83,7 +83,13 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The Defense Informatization Cartel used language as a weapon of organizational destruction (from Record No. 3,700). Analysis across Austin's three dimensions of Speech Act Theory:
+
+1. **Illocutionary act:** Officially branding 한지훈 as "harasser," redefining his identity as that of a criminal
+2. **Perlocutionary act:** Through this branding, inducing colleagues' avoidance and exclusion behavior within the organization — achieving complete social isolation
+3. **Forced silence:** By blocking 한지훈's utterance itself, making self-defense, conveying truth, and seeking help impossible
+
+Physical consequences: 6-month solitary confinement (Feb–Sep 2022), no computer or desk provided, wandering between conference rooms and bathrooms, complete information blockade. Family impact: son's illness, daughter taking leave from university, extreme stress across the family. 한지훈 himself: tooth loss, psychiatric treatment.
 
 ## 핵심 요약 (Key Takeaways)
 - The defense informatization cartel weaponized language through Austin's three speech-act dimensions: labeling (illocutionary), isolation (perlocutionary), silencing (forced silence) [진실성]

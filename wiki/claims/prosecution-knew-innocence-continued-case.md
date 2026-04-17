@@ -77,7 +77,13 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The military prosecutors' investigator recognized 한지훈's innocence but continued the investigation (confirmed in the conversation at Record No. 11,188).
+
+Core deceptions of the investigation:
+1. **Reframing a 99.73-point success**: The fact that the evaluation committee gave a "Militarily Suitable" rating (99.73 points) was reframed as "deficient development" — constructing a narrative that a successful project was a failure
+2. **False origin of 80 additional requirements**: Treating the 80 additional requirements imposed post-hoc during the test evaluation period as if they were original contract requirements to claim "unsatisfied"
+
+The gap between the investigator himself stating "I've heard a great deal that you're an outstanding person" (Record No. 11,176) and the Prosecutorial Deferral decision shows that the conclusion of the investigation had been predetermined.
 
 ## 핵심 요약 (Key Takeaways)
 - Military prosecutor's investigator recognized 한지훈's innocence in dialogue (Record No. 11,188) but continued the investigation [진리성]

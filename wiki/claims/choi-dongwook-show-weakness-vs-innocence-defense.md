@@ -71,7 +71,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Just before the suspect interrogation (2022-09-02), 최동욱 advised 한지훈: 'As you are... you need to show what your mental state is like.' 한지훈 immediately refused: 'Are you seeing this as diminished mental capacity?... I'll focus on this investigation and focus on a no-probable-cause outcome.' 최동욱's advice is a mitigation/sympathy strategy premised on guilt — structurally incompatible with a no-probable-cause defense.
 
 ## 핵심 요약 (Key Takeaways)
 - 최동욱 advised showing weakness/illness to investigators — a mitigation strategy incompatible with innocence defense [타당성]

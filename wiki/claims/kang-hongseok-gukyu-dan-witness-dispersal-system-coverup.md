@@ -90,7 +90,22 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Sergeant 강홍석, 국유단 IT officer responsible for KIATIS field operations, testified about **witness dispersal** and **continuing system modifications** after 한지훈's investigation.
+
+### Testimony 1: Colleagues Not Answering Calls
+
+> **(한지훈, Recording 221 lines 13976–13978):**
+> "**Other people don't even answer the phone. I'm undergoing a prosecutor investigation after a search and seizure.**"
+
+### Testimony 2: All Evaluation Personnel Transferred
+
+> **(한지훈, Recording 222 lines 14004–14006):**
+> "**The people who did the old evaluation — all the evaluation personnel have moved elsewhere.**"
+
+### Testimony 3: System Modifications Continue
+
+> **(강홍석, Recording 221 lines 13980–13981):**
+> "So **in 3 months it works, right. (강홍석) Yes, **we're continuing to do that.**" 
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 압수수색 이후 동료들이 **조직적으로 연락 두절** — 한지훈의 사회적 고립이 자연적 거리두기가 아닌 **조직적 차단**임을 시사. / Colleagues systematically cutting contact after search & seizure — organizational, not individual distancing.

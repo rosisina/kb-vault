@@ -123,7 +123,23 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Core arguments of the systematic rebuttal of each of the 6 charges in 한지훈's rebuttal document (2022.9.29, 3,811 lines):
+
+### Charge 1: Obstruction of Official Duties by Deception (lines 193–1972)
+
+**Prosecution's claim**: 한지훈 and 이준호 conspired to arbitrarily manipulate the test evaluation environment to conceal KIATIS development defects described in "1.나.항"
+
+**한지훈's core rebuttal**:
+- **Theorem 21**: Test evaluation support duties and roles are outside 사업관리팀장 jurisdiction — 한지훈 was **deliberately excluded** from the approval chain, making "conspiracy" impossible
+- **Theorem 01**: Legacy KIATIS = Active-X C/S architecture, 15 years of VPN-less direct DB access — not "manipulation" but the **original structure**
+- Test evaluation was based on the test evaluation procedures written based on the RFP, project execution plan, and requirements definition document — the **same procedure as 14 other projects**
+- **Conclusion**: "It is not true and is **unreasonable and absurd** that I conspired with 이준호 to obstruct the official duties of evaluation committee chair 김경진 and 18 evaluation committee members through deception"
+
+### Charge 2: False Official Document Creation + Uttering False Official Documents (lines 1975–2380)
+
+**Prosecution's claim**: 한지훈 and 이준호 knowingly created false evaluation results as official documents despite knowing KIATIS had development defects
+
+**핵심 반박**: 불기소결정서 자체에서 "이준호가 작성한 문서는 실제 평가를 그대로 기재한 것에 불과하므로 허위라 할 수 없다"고 자인 — 허위성 자체를 검찰이 부정.
 
 ## 핵심 요약 (Key Takeaways)
 - [타당성] **6개 혐의 각각에 대해** 정리·공준·증거목록을 인용한 체계적 반박이 수행되었으나, 검찰은 이 반박에 대해 **어떤 재반박도 하지 않고 기소유예를 유지** — 반박 무시 = 사전 결론의 증거. / All 6 charges systematically refuted with theorems and evidence citations; prosecution maintained 기소유예 without any counter-response.

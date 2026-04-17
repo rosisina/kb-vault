@@ -72,7 +72,7 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+In Statement 3 of 정리11, 김민수 stated 'the agency cannot help you — you take responsibility,' cutting off organizational support and isolating 한지훈. As head of the specialized project management agency, this constitutes both an abandonment of the organizational duty to protect a subordinate officer and simultaneous full transfer of individual responsibility.
 
 ## 핵심 요약 (Key Takeaways)
 - 김민수는 조직적 지원을 차단하면서 전적인 개인 책임을 부과 — 기관에 의한 방기 [진실성]

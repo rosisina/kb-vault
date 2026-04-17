@@ -81,7 +81,13 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+In evidence records from May 4, 2022, 김민수 (원장-1) stated: "I discussed this sufficiently with the inspector, and the final warning was the inspector's" (Record No. 11,069). This statement proves three facts:
+
+1. "I discussed this sufficiently with the inspector" — 김민수 was in direct communication with the Duty Inspection Office (조사본부), and the adverb "sufficiently" means not a simple consultation but a detailed discussion.
+2. "The final warning was the inspector's" — the content and issuance of the warning letter were decided by agreement between 김민수 and the inspector.
+3. 한지훈 was completely excluded from this process.
+
+When 한지훈 immediately rebutted "Didn't you say I couldn't call or meet with the Inspector General's Office before?" 김민수 could say nothing. The book (§3.5.2.4.1) defines this as 김민수's unintended confession (admission).
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 김민수의 "충분히 애기하고" 발언(기록 제11,069쪽)은 법무관리관실과 조사본부 사이의 사전 조율이 있었다는 직접 증거(direct evidence)이다. The adverb "sufficiently" (충분히) indicates detailed prior discussion, not casual communication.

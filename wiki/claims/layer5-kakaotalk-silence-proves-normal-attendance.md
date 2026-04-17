@@ -90,7 +90,15 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Group chat records from the 행정정보화과 from 2019 to 2022 (from Record No. 1,881) show that other staff (이지영, 양미숙, 송민석, 박서준) frequently reported late arrivals, sick leave, early departures, and remote work with one-line KakaoTalk messages, yet 한지훈 has **not a single such record in 3 years**.
+
+- Other employees' patterns: "Taking afternoon off today," "Remote training this week," "Afternoon leave," "Personal matter — will arrive at 10" (including 박서준)
+- 김수진: Frequent use of "Half-day this afternoon," "Remote training this week," etc.
+- 한지훈: **0 instances** — Reason: arriving before 7 AM, leaving at 9–10 PM, 32-year average of 6 AM arrivals / 10 PM departures
+
+Speech Act analysis: Absence of utterance is actually **evidence of presence** (absence of utterance as presence of evidence). Others only reported when deviating from normal working hours. 한지훈's 0 instances over 3 years means he always adhered to normal working hours so there was nothing to report.
+
+이지영's claim to "not remember" is **statistically impossible**: if 한지훈 had left without reporting, it would have been the first time and thus would have left a stronger memory. "Not remembering" paradoxically proves that 한지훈**always** reported, so no specific date could be distinguished.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 3년간 카카오톡 단톡방에서 한지훈의 출퇴근 관련 메시지 0건(기록 제1,881쪽부터) vs. 다른 직원들의 수시 보고는 통계적으로 정상 근무 패턴의 증거이다. Zero attendance posts over 3 years while all peers routinely posted is statistically diagnostic of consistent normal attendance.

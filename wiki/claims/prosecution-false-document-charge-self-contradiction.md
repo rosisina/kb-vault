@@ -94,7 +94,14 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+In the military prosecutors' non-prosecution decision document (L6-031-1), for the **False Official Document Creation** charge, the prosecution identified 3 documents prepared by 이준호 (공모자-1):
+1. Developmental and Operational Test Evaluation Result Report (Record No. 394 / L1, 2019.9.17)
+2. Developmental and Operational Test Evaluation Result Report Electronic Document (Record No. 1,481 / L2, 2019.9.19) — Reported to 국전원 president 박성호
+3. Developmental and Operational Test Evaluation Result Notification Electronic Document (Record No. 1,483 / L2, 2019.9.20) — Notified to 국유단 planning section chief
+
+However, **within the same non-prosecution decision document**, the military prosecutors acknowledged: "The above documents prepared by Lieutenant 이준호 merely record the evaluation committee members' actual evaluations conducted from September 2, 2019 to September 11, 2019 as they were, so it cannot be said that the indicated content and truth do not correspond." They also stated regarding 한지훈: "He did not directly participate in the test evaluation process, so we cannot definitively conclude that **he approved documents knowing the content was false.**"
+
+This negates both the **objective elements** (falsity of content) and **subjective elements** (mens rea) of false official document creation while raising them as suspected facts — violating the fundamental logical principle of the **law of non-contradiction (A and ¬A simultaneously)**.
 
 ## 핵심 요약 (Key Takeaways)
 - The prosecution simultaneously labels the evaluation documents as "허위" (in the charge) and "faithfully recording actual evaluation results" (in the disposition) — a direct logical contradiction [타당성].

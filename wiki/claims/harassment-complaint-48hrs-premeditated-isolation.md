@@ -83,7 +83,11 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+On February 8, 2022, during a New KIATIS-related meeting between 국유단, 국전원 staff, and contractor, 박서준 (갑질신고자-1) cooperated normally with 한지훈 and jointly reported to 이지영 (Records 11,026–11,027). In this meeting, the 국유단 excavation team leader described the proposed VPN introduction as "absurd" (해괴한), confirming Legacy KIATIS's internet-based operation (Record No. 11,334).
+
+Exactly 48 hours later, a harassment complaint was filed. 김민수 (핵심 의사결정자-1) stated on 2022.2.21 "all arrangements are made," "everything is ready" (Record No. 3,966), admitting that the isolation office had been prepared **before** the complaint was filed.
+
+이지영 (공문결재자-1) conducted a 30-minute debrief after the meeting, systematically extracting VPN-related information 5+ times (Records 11,009–11,032). This served as the trigger-pulling mechanism for the fraud investigation targeting 한지훈.
 
 ## 핵심 요약 (Key Takeaways)
 - 48 hours before the harassment complaint, 박서준 cooperated normally with 한지훈 at a joint meeting — proving no prior conflict [진리성]

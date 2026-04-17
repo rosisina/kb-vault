@@ -72,7 +72,7 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+From December 3, 2018 to October 31, 2022 — a span of 3 years and 11 months — state institutions systematically tracked and pressured 한지훈. Unlike Eichmann, who did not personally know his victims, the perpetrators analyzed 한지훈's 32-year military career, personality type (INTJ), and background as a ROTC-style officer before launching a tailored attack. This constitutes Organizational Stalking.
 
 ## 핵심 요약 (Key Takeaways)
 

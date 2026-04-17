@@ -88,7 +88,13 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The warning letter issued by the MND Legal Affairs Office on May 23, 2022 (Record No. 4,078) **did not reflect a single one of 박서준's claims** out of the two people listed as harassment complainants. In contrast, 이지영's single claim was immediately included in the warning letter. The content 박서준 described in his complaint (Records 3,945–3,946) is completely absent from the warning letter.
+
+The book (§3.5.1.3) treats this section separately under the title `Legal Affairs Office Warning Letter: Complete Absence of 박서준's Matter` and analyzes that this `complete absence` is key evidence of fabrication. If 박서준's claims were too legally weak to be included in the warning letter, the content itself proves the nominal complainant had no substantive harm.
+
+The book (§3.5.3.2) analyzes the 3-stage change in complainant identity: `박서준 → 국전원 → back to 박서준`. This change pattern suggests 박서준 was not a substantive complainant but a legal shield used by the organization (led by 이지영 and 김민수). 이지영 herself induced 박서준 to file rather than filing directly: "They requested that the agency file the complaint" (§3.5.3.1.2 이지영 statement).
+
+The book's core proposition (§3.5.1.7) P3: `The true false complainant is not an individual but the organization led by 김민수, 이지영, and 김수진.`
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 경고장(기록 제4,078쪽)에는 박서준의 신고서(기록 제3,945~3,946쪽) 내용이 단 하나도 반영되지 않았다. 이지영의 주장 하나만 반영되었다. 선택적 반영의 비대칭성은 신고자 의도의 구조적 차이를 보여준다.

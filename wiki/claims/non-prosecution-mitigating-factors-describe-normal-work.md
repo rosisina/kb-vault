@@ -71,7 +71,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The non-prosecution decision document's mitigating factors (IV.1.카.(8)) state: 'The suspect has no prior criminal record, it is recognized that he continuously communicated with development companies to complete KIATIS development, and there are mitigating circumstances in the motive aimed at completing the program and meeting the project schedule.' These mitigating factors describe normal project management activities such as 'continuous communication with companies,' 'program completion,' and 'meeting schedules' — which itself is a self-admission of the absence of criminal intent (mens rea).
 
 ## 핵심 요약 (Key Takeaways)
 - 불기소 결정의 참작사유는 표준적 사업관리 행위를 기술 — 업체 소통, 프로그램 완성, 일정 준수 [진리성]

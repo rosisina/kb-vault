@@ -96,7 +96,16 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The Defense Counterintelligence Agency's investigation findings are false, proven by **6 independent pieces of evidence**:
+
+1. **Self-admission of no harassment grounds**: 이승우 confessed "there was **absolutely none** of the verbal abuse or sexual matters" — self-admitting the absence of typical harassment grounds
+2. **Attendance fabrication collapse**: The sole basis — the attendance issue — was founded on 이지영's false testimony and **collapsed through statements from 2 contractor employees**
+3. **Nominal complainant excluded**: Not a single one of 박서준's claims is **reflected in the warning letter** — proving he was not the actual complainant
+4. **Statistical proof of collusion**: The coordinated false testimonies of 이지영, 이승우, and 김민수 **statistically prove prior conspiracy**
+5. **Counter-evidence concealment**: The part where fabrication failed (attendance) is **completely deleted** from official documents
+6. **Transcript manipulation**: 최영수's testimony exposes the **systematic technique** of transcript manipulation (no statement provided, rebuttal → question conversion, yes/no reduction)
+
+**Key confession (Record No. 11,069):** 김민수's statement "충분히 애기하고" (after sufficiently discussing with the inspector) proves that 국전원-조사본부-법무관리관실 **operated as a single conspiracy network**. Attorney 최동욱 cooperated with 이근태 through the Kyungbuk University alumni network.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 6가지 독립 증명은 각각 단독으로도 조사 결과의 허위성을 입증하며, 종합하면 체계적 조작의 결정적 증거다. / Each of the 6 independent proofs alone demonstrates audit falsity; combined, they constitute conclusive evidence of systematic fabrication.

@@ -71,7 +71,9 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The 80 additional requirements voted on by the evaluation committee during the New KIATIS test evaluation period (Record No. 3,039) amount to approximately 50% of the project budget (625 million KRW). This violates Articles 10, 11, 19, and 26 of the National Contract Act and Directive Articles 57 and 60. The evaluation committee's role is to assess whether requirements are met — it has no authority to add new requirements.
+
+Developer PM 장호재's statement (Record No. 4,776): The 80 additional requirements caused costs to reach 3 to 4 times the original contract budget, and the developer was forced to absorb the losses.
 
 ## 핵심 요약 (Key Takeaways)
 - 80 additional requirements (50% of budget) imposed during evaluation exceeded the committee's legal authority [타당성]

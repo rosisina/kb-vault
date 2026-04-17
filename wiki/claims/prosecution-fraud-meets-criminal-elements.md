@@ -78,7 +78,17 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The military prosecutors' fraud investigation meets the constitutive elements of both criminal offenses and cybercrime simultaneously, classified as a hybrid state crime.
+
+**Criminal offense elements:**
+- Fraud: Deliberately using identity errors to deceive legal judgment
+- Abuse of authority: Using investigative power to criminalize someone with no probable cause
+- Evidence destruction: Intentional omission of key evidence including Legacy KIATIS's 15-year VPN non-use
+- False official document creation: Recording false facts in the search and seizure warrant, investigation commencement notice, etc.
+
+**Cybercrime elements:**
+- Digital evidence manipulation: Time-reversal manipulation of On-Nara system documents
+- Unauthorized system access/modification: Document alteration with the acquiescence of the On-Nara maintenance company (HandySoft)
 
 ## 핵심 요약 (Key Takeaways)
 - 군검찰단의 사기수사는 형사범죄(사기·직권남용·증거인멸·허위공문서작성)와 사이버범죄(디지털 증거 조작) 성립요소를 동시에 충족 [타당성]

@@ -80,7 +80,7 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Evaluation item change request (2019-09-05) → test evaluation completion (2019-09-11) → evaluation item change approval (2019-09-19, 국유단 commander). The approval request communication (Record No. 5,950) approved changes to the game rules after the game was over — a time-reversal manipulation that fundamentally destroys the fairness of evaluation, which the book describes as 'defying physical laws.' The August 2020 MND test evaluation improvement plan communication (Record No. 4,757) then attempted to retroactively justify this 2019 manipulation as 'institutional improvement.'
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 평가 항목 변경 승인(2019-09-19)이 시험평가 종료(2019-09-11) 이후에 이루어졌다는 시간적 순서는 기록 제5,950쪽에 의해 확인된다 (§3.4.7.2). The evaluation-item change was approved 8 days after the test-evaluation had already concluded — a documented temporal impossibility.

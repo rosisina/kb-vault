@@ -89,7 +89,15 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Former 행정정보화과장 최영수 (Soongsil University PhD, IT expert) testified on October 12, 2022 about transcript manipulation in the military prosecutor's reference witness investigation. His testimony exposes three systematic manipulation techniques:
+
+**First, withholding statements.** 최영수 said: "They don't give me my statement from the investigation reference witness materials. They don't give me my statement — I can't see my own statement" (Record No. 11,091). The investigated party was deprived of the opportunity to verify and correct their own testimony.
+
+**Second, dismissing rebuttals and converting to questions.** 최영수 testified: "They just write what they want to say — it would've all been like that when 이준호 and I went — they take my rebuttal and turn it into their question, and for me they only write yes/no — if you read through it, it looks like I agreed — I'm going crazy" (Record No. 11,083). The investigator dismissed the subject's rebuttals and twisted them into the investigator's questions.
+
+**Third, completely ignoring technical rebuttals.** 최영수 rebutted the difference between DIDC regulations and security directives: "That's DIDC's own internal regulations — is this the MND-wide security directive? For that, you'd need to follow the directive at 정보본부" (Record No. 11,080). He also argued: "Why is the CS system less secure? I think the CS system is better than VPN." He rebutted from 9 AM to 2 PM for 5 hours but the military prosecutors did not listen at all, and he ultimately wrote items 1, 2, 3, 4 by hand and left the interrogation room (Record No. 11,081).
+
+The military prosecutor's heated reaction of "you're taking 이중령's side" means 최영수's technical rebuttals were dismantling the prosecution's logic.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 최영수의 증언은 조서 조작의 세 가지 기법(진술서 미제공, 반박→질문 전환, 예스/노 축소)을 독립적 참고인의 직접 경험으로 증언한 것이다.

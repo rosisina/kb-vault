@@ -81,7 +81,12 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The MND intentionally separated New KIATIS into a server construction project (DIDC Center 1, cloud) and a software development project (국전원) and pursued them as separate projects. Server construction was led by DIDC Center 1 and the administrative IT operations team, with pre-specification review completed in April 2018 (Records No. 3,318–3,324).
+
+Concealment effects of this separation:
+1. SW development team leader (한지훈) was prevented from participating in server construction, blocking opportunity to discover 舊KIATIS's internet operation structure
+2. DIDC concealed its own failure regarding 舊KIATIS's VPN-absent, security-vulnerable structure during server construction
+3. The specification re-review completely blocked transfer of 舊KIATIS applications, SW, and data to the New KIATIS server (Record No. 3,324)
 
 ## 핵심 요약 (Key Takeaways)
 - MND intentionally separated 新KIATIS into server construction (DIDC) and SW development (국전원) — preventing the development team leader from discovering 舊KIATIS's internet operation during server work [진리성]

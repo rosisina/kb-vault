@@ -71,7 +71,9 @@ KIDA 연구의 제4 함의(기록 제6,722쪽)는 사업관리기관(국전원) 
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+KIDA's research finding 4 (Record No. 6,722) recommends 국전원 (project management agency)-centered integration of DT/OT. However, this is the exact opposite distortion of the U.S. TEMP Guidebook 3.1 (2017) principle: 'Developmental and operational testing serve different purposes and should not be combined' (Records No. 6,725–6,726).
+
+This integration structure creates a 'fox guarding the henhouse' scenario where the developer (국전원) evaluates its own product, fundamentally destroying the independence and objectivity of test evaluation. KIDA's research (Records No. 6,240, 2,721, and 6,730) was written based on directives that had already been manipulated.
 
 ## 핵심 요약 (Key Takeaways)
 - KIDA's 4th implication recommends 사업관리기관(국전원)-centered DT/OT integration — directly contradicting US TEMP Guidebook's separation principle [진리성]

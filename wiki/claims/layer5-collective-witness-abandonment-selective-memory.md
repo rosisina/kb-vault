@@ -78,7 +78,7 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+오현수 (실무자-5), despite having direct knowledge about 한지훈, refused to provide a statement, saying "I don't want to get entangled." 이태호 (평가위원장-1) diagnosed this as "selective memory" — colleagues remember but have chosen not to testify. The simultaneous silence of 5+ people including 오현수, 이준호, 최영규, 윤도현, and 장우진 is not coincidental but an organized agreement.
 
 ## 핵심 요약 (Key Takeaways)
 - 오현수 refused testimony citing 'don't want to get involved' despite direct knowledge — organizational pressure, not memory failure [진리성]

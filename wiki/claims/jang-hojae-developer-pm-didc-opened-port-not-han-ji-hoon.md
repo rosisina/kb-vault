@@ -106,7 +106,15 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Developer PM 장호재 (director) provided independent third-party testimony in 9 recordings (total 2 hours 21 minutes) refuting 4 technical premises of the prosecution charges:
+
+### Testimony 1: 'Opened port without VPN' — DIDC's direct decision
+
+> **(장호재, Recording 236, lines 14316–14324):** 'VPN으로 안 했다라는 게 제일 큰 거기서 걸고 넘어지는 건데... (한지훈) 그러면 그거 없이 어떻게 접속했어요? **(장호재) VPN 없이 포트 없이 열어줬어요.**' ("The biggest sticking point is that VPN wasn't used... (Han) Then how did you connect without it? **(장호재) They opened the port without VPN.**")
+
+### Testimony 2: 'VPN is DIDC's regulation' — not a project defect
+
+DIDC, not 한지훈, controlled and decided on the VPN application. This overturns the prosecution's premise that 한지훈 manipulated the test evaluation environment.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] **"VPN 없이 포트 열어줬어요"** — 개발업체 PM이 DIDC가 **직접** 방화벽 포트를 개방했음을 증언. 한지훈이 지시한 것이 아닌 **DIDC의 기술적 결정**. / Developer PM confirms DIDC itself opened the firewall port — not Han Ji-hoon's decision.

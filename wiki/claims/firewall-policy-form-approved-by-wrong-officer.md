@@ -88,7 +88,17 @@ However, **DIDC SOP 제12호 제37조 ①** (currently numbered 제37조 in the 
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The 2019-08-26 firewall policy change request that exceptionally permitted direct DB access for KIATIS test evaluation was processed through the following approval chain (per the 불기소이유서 verbatim narrative, raw/05 (20221014) lines 73–97):
+
+1. **Drafter:** 이준호 (대위, mapping id 10)
+2. **Reviewer:** 한지훈 (사업관리팀장) at 2019-08-26 17:38:29
+3. **Approver:** 최영수 (**행정정보화과장**, mapping id 5) at 2019-08-26 17:51:26
+
+However, **DIDC SOP No. 12 Article 37①** explicitly requires firewall policy changes (별지 제6호 서식) to be approved by **각 센터 정보보호과장** (information protection section chief), not 행정정보화과장 (administrative IT section chief).
+
+**The approval chain therefore violates the SOP's required approval authority** — 행정정보화과장 ≠ 정보보호과장. The form exists, but its approval signature is procedurally defective on its face.
+
+**This is doubly significant**: the form is the very evidence the prosecution used to charge 한지훈 with 위계공무집행방해, but the same form is — under DIDC's own SOP — improperly approved. Either (a) the SOP version in force in 2019 named a different approver (shifting this atom to NEEDS_MORE_EVIDENCE pending pre-2019 SOP ingest), or (b) the approval chain was procedurally defective and the prosecution's reliance on the form is itself based on a defective document.
 
 ## 핵심 요약 (Key Takeaways)
 - The 불기소이유서 (raw/05 (20221014) lines 90-97) verbatim documents the 2019-08-26 KIATIS firewall policy change approval chain: 대위 이준호 draft → 한지훈 review at 17:38:29 (기록 제612~613쪽) → 행정정보화과장 최영수 approval at 17:51:26 [진리성]

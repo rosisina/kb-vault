@@ -90,7 +90,13 @@ SET fr.layer = 2,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Upon recognizing problems with the New KIATIS project structure (국유단 multiple cap, Directive No. 2129 violations), 한지훈 installed **three active defense mechanisms** immediately after project launch:
+
+1. **장우진 residence requirement — surveillance mechanism**: Required Project Officer 장우진 to be on-site at the Defense Information Agency once per week during the development management period (2018-12 – 2019-09-01). Two independent attestations: service development PM statement (Record No. 11,354), Defense Information Agency first project officer indirect statement (Record No. 11,098).
+2. **Requirements review meeting + one-on-one approval trail**: Convened all possible project stakeholders via official correspondence for a requirements review meeting, conducting one-on-one approval of project requirements with each party.
+3. (Third mechanism as documented in §3.2.3)
+
+These three mechanisms constitute documented evidence that 한지훈 acted in good faith and with institutional awareness — directly contradicting the prosecution's narrative of negligent project management.
 
 ## 층위 (Layer)
 [[../layers/layer-2|Layer 2]] (with reverse-bridge to [[../layers/layer-6|Layer 6]]) — 본 atom은 Layer 2의 능동적 방어 행위 atom이지만 그 진정한 가치는 Layer 6 검찰 기소의 핵심 주장 (사기 의도)에 대한 **direct exculpatory evidence**로 작용한다는 점에 있다. Layer 6의 [[han-ji-hoon-prosecution-violates-2129-role-separation|역할 분리 위반]] 와 [[prosecution-misapplies-2129-article-58-4-to-kiatis|제58조 ¶4 오인적용]] 두 foundational atom이 prosecution의 *법적* 정당성을 무너뜨린다면, 본 atom은 prosecution의 *사실적* 정당성 (사기 의도) 을 무너뜨린다.

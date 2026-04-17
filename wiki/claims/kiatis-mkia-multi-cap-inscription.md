@@ -86,7 +86,7 @@ SET fr.layer = 2,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The Defense Information Systems Unit (국유단/MKIA) was inscribed with a **multiple cap** across the Project Control Agency + Project Management Agency + Project Lead Agency + Project Executing Agency slots in the New KIATIS Enhancement Project. The Korean original Table 3-2-1 directly proves that 국유단 appears in both the Project Control Agency slot and the Project Executing Agency slot (alongside the contracting company and Defense Information Agency). This constitutes a **violation of Directive No. 2129 Article 11 ¶2**, which designates the four core functions of the Project Control Agency as the exclusive duties of the MND Information Planning Division (① reviewing/determining project requirements, ② reviewing/reflecting mid-term planning and budget preparation, ③ approving project plans, ④ approving test evaluation plans and results), and **is unprecedented in defense informatization project history**.
 
 ## 층위 (Layer)
 [[../layers/layer-2|Layer 2]] — 新KIATIS 사업 추진체계 및 장교 개인 자력 조작. 본 atom은 [[kiatis-mnd-controlled-not-delegated|L2-01]]의 법적 토대 위에서 **실행 단계의 조작 메커니즘**을 documenting한다. L2-01이 "왜 위임 사업이 될 수 없는가"를 증명하고, 본 atom은 "그럼에도 불구하고 어떻게 위임 사업처럼 inscription되었는가"를 증명한다.

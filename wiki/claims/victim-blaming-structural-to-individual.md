@@ -74,7 +74,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The military prosecution charged VPN/DB access control non-use as 한지훈's offense (Record No. 4,855), but the relevant systems were absent from 2019.8.27 to 2021.4.23 (Records 3,236–3,270). Legacy KIATIS had been operated without security equipment for 15 years from the outset. Narrative manipulation as if the victim had intentionally disabled it — Victim Blaming.
 
 ## 핵심 요약 (Key Takeaways)
 - 검찰은 존재하지 않던 시스템의 미사용을 혐의로 제기 (기록 제4,855/3,236~3,270쪽) [진리성]

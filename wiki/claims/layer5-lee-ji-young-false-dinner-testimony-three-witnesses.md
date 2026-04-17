@@ -89,7 +89,12 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+이지영 (공문결재자-1) gave false testimony in the Investigation Bureau investigation on March 25, 2022 that 한지훈 had **"left at 5:30 PM for dinner without reporting."** 이승우 immediately ruled it "grounds for disciplinary action," and 김민수 confirmed "this is serious — it's disciplinary." However, this coordinated false testimony by 3 people was completely **collapsed by 3 independent witnesses**:
+
+1. **2 contractor employees** wrote statements that "한지훈 reported to the section chief dozens of times before leaving" (Record No. 4,053)
+2. **Sergeant 김민지's** independent testimony (Records 11,112–11,113)
+
+이지영 subsequently retreated to "I don't remember," but 한지훈's pre-written "Expected Claims and Arguments for Harassment Complaint" (Record No. 3,889) recorded 이지영's office location, her statement of confidence in her hearing, and her work style of intervening midway — all providing additional proof that 이지영 could not have failed to hear the report (Record No. 3,893).
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 이지영의 "보고 없이 나갔다" 진술은 3명의 독립 증인(업체 직원 2명 + 김민지)에 의해 허위로 입증됨. / Lee Ji-young's testimony that Han Ji-hoon left without reporting was proven false by 3 independent witnesses (2 contractors + Sgt Kim Min-ji).

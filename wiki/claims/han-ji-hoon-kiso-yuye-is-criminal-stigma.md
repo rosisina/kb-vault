@@ -86,7 +86,15 @@ The 기소유예 (deferred prosecution) disposition issued against 한지훈 by 
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The 기소유예 (deferred prosecution) disposition issued against 한지훈 by 군 검찰단 in October 2022 is **not exoneration**. Under Korean criminal procedure, 기소유예 is a 불기소 처분 of the 'criminal facts exist, prosecution deferred' type — structurally distinct from 무혐의 (no criminal facts) and 기각 (case rejected). For a 32-year career officer whose underlying conduct was lawful (per [[han-ji-hoon-prosecution-violates-2129-role-separation]]), the 기소유예 outcome constitutes the central Layer 6 harm: it brands the recipient as criminal-but-undeserving-of-formal-prosecution rather than acknowledging that no criminal facts ever existed. The complete harm structure comprises:
+
+1. **Unlawful warrant + 압수수색** — search and seizure executed on a charge structurally inapplicable to the 사업관리팀장 role
+2. **피의자 조사** — being subjected to suspect interrogation
+3. **기소유예 처분** — final disposition that brands the recipient with criminal facts despite no formal indictment
+4. **평판 손상** — reputation damage to a person who acted lawfully
+5. **32년 군 경력자에 대한 범죄자 낙인** — criminal stigma on a 32-year military career
+6. **가족 피해** — family harm
+7. **전역 후 사회적 고립** — post-discharge social isolation
 
 ## 핵심 요약 (Key Takeaways)
 - Under Korean criminal procedure (형사소송법 제247조 기소편의주의), 기소유예 is a 불기소 처분 of the `범죄혐의가 인정되나` (criminal suspicion recognized) discretionary type — structurally distinct from 무혐의 (no criminal facts) and 기각 (case rejected) [타당성]

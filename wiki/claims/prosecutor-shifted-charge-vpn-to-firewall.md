@@ -75,7 +75,11 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+In recorded conversations between prosecutor 임형규 and 한지훈 (2022.9.28, Records 11,157–11,160; 2022.10.11, Record No. 11,188), it is confirmed that the core prosecution argument shifted from 'manipulation through VPN non-use' to 'firewall port opening.'
+
+Background of this shift: 한지훈's 40-page rebuttal document 'Explanation and Proof' (Records 4,979–5,163) logically collapsed the VPN-based argument. Once it was proven that Legacy KIATIS was operated without VPN for 15 years, the very premise "VPN non-use = manipulation" became impossible to sustain.
+
+The prosecutor stated "I think I acted justly" (Record No. 11,188), yet admitted conducting the investigation without external technical expert consultation, without independent third-party evaluation, and relying only on cartel-related reference witnesses.
 
 ## 핵심 요약 (Key Takeaways)
 - Prosecutor shifted core charge from VPN non-use to firewall port opening after 한지훈's written rebuttal collapsed the VPN-based logic [진리성]

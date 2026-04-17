@@ -67,7 +67,7 @@ SET fr.layer = 7,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Because the perpetrators are directly connected to investigative agencies, normal investigative channels face structural limitations. A fully independent investigation through the establishment of a truth commission or the appointment of a special prosecutor is necessary. The Corruption Investigation Office for High-ranking Officials and the Board of Audit and Inspection are also government agencies and cannot guarantee full independence. International attention from bodies such as the UN Human Rights Council and Transparency International is also needed.
 
 ## 핵심 요약 (Key Takeaways)
 - 일반 수사기관은 구조적 이해충돌 — 가해자들이 해당 기관들과 연결됨 [타당성]

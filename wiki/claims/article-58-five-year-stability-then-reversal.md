@@ -69,7 +69,7 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Article 58's test evaluation separation principle was maintained stably for 5 years from Directive No. 1775 (2015-01-27) through Directive No. 2398 (2020-02-13), then reversed 180 degrees to the integration principle within 4 months under Directive No. 2436 (2020-06-04) (Records No. 7,512 and 8,194). A sudden reversal after 5 years of stability is temporal evidence of deliberate manipulation rather than natural policy evolution.
 
 ## 핵심 요약 (Key Takeaways)
 - 5-year stability (2015-2020.2) followed by sudden reversal at 제2436호 (2020.6.4) — 4 months [진리성]

@@ -86,7 +86,11 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+When the military prosecutor described the project promotion organization in the RFP (written September 2018), stating only "국방전산정보원 is the project management agency and 국방부 유해발굴감식단 is the project sponsor agency," he **intentionally omitted the key fact that 국유단 is explicitly named as the project control agency** (cf. Record No. 1,483 / L2, Figure 2-2, Table 2-1).
+
+According to Defense IT Operations Directive Article 11 ¶2, the project control agency can only be performed by **MND Information Planning Division (for joint command projects)** or each branch's information planning division. 국유단, as a regular institution, cannot be a project control agency. The military prosecutor's omission of this fact is an act of deception — abusing the MECE principle (collectively exhaustive — no omissions) in the exact opposite direction to create the appearance of a legitimate project structure.
+
+This is confirmed by Layer 4 Proposition 03 ("Only MND Information Planning Division and each branch's information planning division qualify as project control agencies").
 
 ## 핵심 요약 (Key Takeaways)
 - The military prosecutor quoted the 2018 RFP organizational structure but **omitted 사업통제기관**, the most legally diagnostic role — a textbook MECE violation (collectively exhaustive principle) [진리성].

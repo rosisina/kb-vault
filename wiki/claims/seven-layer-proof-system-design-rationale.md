@@ -72,7 +72,7 @@ SET fr.layer = 1,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The 7-Layer Proof System is the result of retroactive review of evidence records beginning in May 2025, classified by phase. Each layer constitutes an independent yet mutually interconnected evidence system that collectively completes a single massive organized crime structure. This system was discovered inductively from the data, not derived deductively.
 
 ## 핵심 요약 (Key Takeaways)
 - 7층위 증명체계는 약 13,500쪽의 자료로부터 귀납적으로 구축됨 [진리성]

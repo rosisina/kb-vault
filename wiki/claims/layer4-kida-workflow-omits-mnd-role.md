@@ -71,7 +71,9 @@ KIDA 연구보고서의 국방정보시스템 업무흐름도(기록 제6,712쪽
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+In the KIDA research report's defense information system workflow diagram (Record No. 6,712), the role of the MND (project control authority) is completely omitted. This workflow was based on the manipulated Directive No. 2275 (2019-05-09, not registered in the National Law Information Center).
+
+Temporal evidence: Directive No. 2398 revision (2020-02-13) occurred before KIDA research completion (June–July 2020, Record No. 6,731). The research was conducted under an already-manipulated directive, causing the results to naturally exclude the MND's role.
 
 ## 핵심 요약 (Key Takeaways)
 - KIDA's workflow diagram (Record No. 6,712) completely omits MND's role as 사업통제기관 [진리성]

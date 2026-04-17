@@ -78,7 +78,7 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Layer 5 (§3.5.1.8) has three historical significances. First, it provides empirical evidence of a new type of attack — APT-style hacking in cyberspace has crossed its boundaries to directly target individual humans in physical space. A giant state institution's organization targeting one individual over an extended period (6 months), involving multiple stakeholders (10+ people), and deploying psychological warfare techniques is a representative case. Second, as empirical evidence in organizational speech-act theory, it demonstrates through Records 11,003–11,419 the coordination mechanism of collective false testimony and how language is weaponized as an instrument of power. Third, it establishes a temporal forensics methodology, showing that the 48-hour interval itself becomes decisive evidence of causality — tempus veritas loquitur (time speaks truth).
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 제5층위는 APT 스타일 사이버 공격이 인간을 직접 표적으로 삼은 사례의 최초 학술적 당사자 연구(autoethnographic research)로서의 위상을 갖는다 (§3.5.1.8). Layer 5 is the first autoethnographic case study documenting APT-style human targeting — where cyberattack methodology crosses from digital assets to physical-space individuals.

@@ -69,7 +69,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+In the warrant (2022.7.18), the prosecution described the same test evaluation result documents as containing 'false facts' to obtain the judge's approval. However, in the non-prosecution decision (2022.10.07) IV.2.사.(1): 'The above documents prepared by Lieutenant 이준호 merely record the evaluation committee members' actual evaluations as they were, so it cannot be said that the indicated content and truth do not correspond' — the exact opposite judgment. The same prosecution made contradictory statements about the same documents: 'false' to the judge, 'exactly as the facts were' to the suspect.
 
 ## 핵심 요약 (Key Takeaways)
 - The prosecution told the JUDGE the documents contained '허위의 사실' to obtain the warrant [진리성]

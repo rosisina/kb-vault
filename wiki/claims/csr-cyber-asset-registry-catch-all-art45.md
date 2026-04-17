@@ -68,7 +68,7 @@ SET fr.layer = 1,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Article 45 Paragraph 1 mandates 'continuous management' of cyber asset status and, in principle, network access restriction for 'unregistered or high-vulnerability-risk equipment and systems.' If 舊KIATIS was unregistered, it should have been subject to network blocking; if registered, the absence of VPN would have been mandatorily detected as a critical vulnerability. Either way, 15 years of non-action constitutes a violation of Article 45.
 
 ## 핵심 요약 (Key Takeaways)
 - 제45조는 포괄적 의무 규정: 미등록 체계는 네트워크 차단 대상, 등록된 고위험 취약 체계도 동일하게 차단 대상 [타당성]

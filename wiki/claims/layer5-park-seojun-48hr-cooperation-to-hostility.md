@@ -80,7 +80,9 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+박서준 (갑질신고자-1) was in a normal cooperative relationship with 한지훈 until February 8, 2022. However, within 48 hours of 이지영's extraction of VPN-related information, his attitude toward 한지훈 changed dramatically from cooperation to hostility (Records 3,889, 3,893, 4,063, 4,078).
+
+This 48-hour change suggests 박서준 was not a voluntary harassment complainant but an instrument directed by 이지영 and 김민수. 최영수's independent third-party testimony also confirmed that "박서준 is not the real complainant." 
 
 ## 핵심 요약 (Key Takeaways)
 - 박서준's behavioral shift from cooperation to hostility occurred within exactly 48 hours of 이지영's VPN information extraction — timing too precise for coincidence [진리성]

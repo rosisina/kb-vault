@@ -73,7 +73,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+According to Layer 6 Proposition 01, the actual main host of the 2016 North Korean hacking is not the publicly announced DIDC 2nd Center (Gyeryongdae) but **DIDC 1st Center (Yongin)**. This is because Legacy KIATIS was operated for 15 years without VPN inside an internet homepage server, and this server was located at DIDC 1st Center. The military prosecutor's office is the 'war criminal institution' (Proposition 02) that committed fraud investigation to conceal this fact.
 
 ## 핵심 요약 (Key Takeaways)
 - Layer 6 Theorem 01: DIDC Center 1 (Yongin), not Center 2 (Gyeryongdae), was the true maximum host of the 2016 North Korean hacking [진리성]

@@ -97,7 +97,22 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Maintenance contractor manager 양준승, who was stationed in 국전원's 행정정보화과, is an **external civilian witness who directly observed** the harassment fabrication on the ground. In Recording 285 (2025.7.16, approximately 2 hours 17 minutes), he testified to 3 key facts:
+
+### Testimony 1: Coerced Signing of 9 False Harassment Items
+
+> **(양준승, Recording 285 lines 16516–16524):**
+> "They said there were 9 major violations — that you committed wrongdoing... and I could see **they wanted him to sign admitting this**... **The things written there made no sense. If they could find 9 things against him like that, I could find 90 things at the same level against that person.**"
+
+### Testimony 2: Direct Observation of 김수진, 양미숙, 김민지 Collusion
+
+> **(양준승, Recording 285 lines 16748–16750):**
+> **(한지훈)** "김수진. 양미숙 주무관, 김민지, then 박서준 — the three of them conspired and" **(양준승) Totally, totally. Yes.** (한지훈) conspired and kept discussing against me **(양준승) That's right, that's right. They always didn't work and just talked about that — spent the days like that.**"
+
+### Testimony 3: Confirmation of Organized Mobbing
+
+> **(양준승, Recording 285 lines 16633–16640):**
+> **(한지훈)** "Other people just ignored me, gave me the cold shoulder" **(양준승)** "Right from that time, **everyone was like that**... When 박서준 said something, **people were saying things to me in front of everyone**" (한지훈) "What did they say. **They were doing this intentionally, right?**" 
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] **"말도 안되는 것이 적혀있는데"** — 외부 유지보수업체 과장이 9가지 갑질 사항의 **허위성을 직접 판단**하고 서명을 거부. "90가지를 잡을 수 있다"는 **역공 가능성** 지적 = 9가지가 일방적·자의적 기준. / External maintenance company officer judged 9 items as fabricated and refused to sign.

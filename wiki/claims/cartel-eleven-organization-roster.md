@@ -84,7 +84,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Roles of the 11 cartel organizations: (1) Military Prosecutor's Office — targeted investigation; (2) 국전원 — evidence manipulation, solitary confinement; (3) Information Planning Division — directive manipulation; (4) DIDC — environment manipulation; (5) KIDA — research manipulation; (6) Defense Counterintelligence Agency — security measure evasion; (7) CyberCommand — inspection non-performance; (8) Investigation Bureau — false audit; (9) Legal Affairs Office — false warning letter; (10) Minister and aides — acquiescence; (11) Attorney 최동욱 — performing prosecution duties.
 
 ## 핵심 요약 (Key Takeaways)
 - 11 organizations with specific cover-up roles spanning legal, admin, technical, research, psychological domains [진리성]

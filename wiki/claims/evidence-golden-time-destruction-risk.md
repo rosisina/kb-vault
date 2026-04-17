@@ -68,7 +68,7 @@ SET fr.layer = 7,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+12,495 pages were secured, but oral directives, informal meeting records, deleted electronic documents, and private communications remained inaccessible. Since digital evidence can be permanently deleted, decisive evidence may be lost forever without immediate preservation measures. With personnel dispersed through transfers and discharges since 2018, missing the golden window makes truth-finding impossible.
 
 ## 핵심 요약 (Key Takeaways)
 

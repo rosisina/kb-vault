@@ -121,7 +121,23 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+On March 25, 2022 (Friday) from 13:30 to 18:00, 한지훈 recorded **30 Q&A items and result summaries in real time in his notebook** during the MND Inspector General's Office harassment investigation.
+
+### Preamble: Three Actual Motives Behind the Harassment Complaint
+
+Motives 한지훈 identified through the investigation:
+
+> **"1. 박서준 had planned to attend training in March but believed his team chief (including the section chief) had blocked him from going, and filed the harassment complaint as retaliation."**
+
+> **"2. The reason he didn't strongly push for a prosecutor investigation or other inquiry before joining our team — regarding how difficult things were — was that he realized he hadn't said much because he feared his own problems (avoiding report writing, solo approvals, drowsiness, friction with supervising agencies) would surface."**
+
+> **"3. Based on dissatisfaction with training, he reached for petty complaints about the team chief accumulated over time to file this harassment complaint — this is a fully sufficient explanation."**
+
+### Investigator's Opening Statement — Self-Admission of No Harassment Grounds
+
+> **"0. Investigator's opening statement: All reference witnesses said there was no verbal abuse or sexual misconduct by the team chief."**
+
+→ This **exactly matches** [[layer5-audit-result-falsity-and-collusion-proof]]'s 이승우 quote "there was **absolutely none** of the verbal abuse or sexual matters" — confirming absence of typical harassment grounds from the very **start** of the investigation.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] **갑질 신고의 실제 동기 = "교육 보복"** — 박서준이 3월 교육을 못 간 것에 대한 보복으로 신고. 이지영·김민수의 조직적 기획과 박서준의 개인적 불만이 **결합**된 구조. / Real motive = education retaliation — 박서준 filed complaint because she couldn't attend March training.

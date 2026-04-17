@@ -101,7 +101,16 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The Kyungbuk University alumni network is a critical link in both the 2016 DIDC hacking cover-up and the 2022 targeted investigation against 한지훈. The network's members and roles are:
+
+- **최동욱** (attorney, Legal Affairs Officer): Served as Army HQ Legal Affairs Officer (general officer) in 2016 handling the hacking incident, subsequently served as MND Legal Affairs Director, appointed MND Legal Affairs Officer in 2024
+- **이근태** (colonel, DIDC Center head): 2016 DIDC 1st Center head, repeatedly contacted 한지훈 during the 2022 investigation seeking information
+- **최영수** (senior officer, former section chief): Career spanning MND and 국전원
+- **박성호** (president, DIDC): 2016 DIDC president
+
+최동욱 was retained as 한지훈's attorney but intentionally concealed his relationship with fellow Kyungbuk alumni 이근태. When 한지훈 said "I'm telling you clearly — 박성호 is Kyungbuk University. 이근태 is also Kyungbuk University," 최동욱 answered "I don't know." However, near the end of the investigation, 이근태 disclosed "I know attorney 최동욱. We even met about this matter," confirming 최동욱's lie.
+
+최동욱, while feigning defense of 한지훈, actually operated on behalf of the military prosecutors. 한지훈 drew the Active-X usage and VPN absence on 최동욱's office whiteboard (from Record No. 4,338), but subsequently 최동욱 was "judged to be performing concealment operations in cooperation with the 2016 DIDC hacking incident accomplices." Evidence from Records 4,542 and 11,206 establishes that 최동욱 performed "duties as the military prosecutors' attorney rather than my attorney — a suspicion I cannot shake." 
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 경북대 동문 4인(최동욱, 이근태, 최영수, 박성호)이 2016년과 2022년 모두 국방 정보화 핵심 보직에 배치되어 있었다.

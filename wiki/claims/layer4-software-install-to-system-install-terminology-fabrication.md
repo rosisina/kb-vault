@@ -84,7 +84,11 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Item 12 of Article 76 Paragraph 1 explicitly stated **'소프트웨어 설치 (software installation)'** from Directive No. 1775 (2015-01-27) through Directive No. 2129 (2018-02-05). The grammatical structure: '(project management agency) installs (developed) software on (applicable) system.' However, Directive No. 2842 (2023-09-20) consolidated the 13-stage procedure into 5 stages, changing it to **'인도: 시스템 설치, 개발 및 운영 시험평가, 시스템 인수 지원 (delivery: system installation, development and operational test evaluation, system acceptance support).'**
+
+Core of the manipulation — shift of subject and object:
+- **'Software installation'**: installing the development product (SW) on the server → normal work of the project management agency
+- **'System installation'**: installing the entire system from PC through intranet-firewall-defense network-DIDC server → **impossible responsibility assignment** (국전원 installing the entire system is impossible since DIDC holds physical server control)
 
 ## 핵심 요약 (Key Takeaways)
 - [타당성] '소프트웨어 설치'→'시스템 설치' 변경은 단순 용어 변경이 아니라 책임 귀속의 근본적 전환: 개발 산출물 배치 → 전체 인프라 설치 책임. / The change from 'software installation' to 'system installation' fundamentally shifts accountability from deploying a development artifact to installing entire infrastructure.

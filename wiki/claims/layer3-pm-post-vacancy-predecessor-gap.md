@@ -71,7 +71,7 @@ SET fr.layer = 3,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+한지훈's appointment as New KIATIS project management team leader was made under three abnormal conditions combined: (1) His 2018-12-03 MND assignment order designated the Resource Informatization Division's logistics/facilities systems planning position, but he actually worked at the Defense Information Agency Administrative Informatization Division's general management position; (2) Although the Administrative Information Planning Team's position was designated for a Navy Lieutenant Commander, an Army Lieutenant Commander was assigned; (3) The predecessor Navy Lieutenant Commander had an approximately 2-month vacancy. 한지훈 himself was unaware of this position mismatch for approximately 6 months. The combination of three conditions functioned as the means of **unknowingly and arbitrarily assigning** the New KIATIS project management team leader role.
 
 ## 층위 (Layer)
 [[../layers/layer-3|Layer 3]] — 국전원 전속 초기의 보직 캡처 사건. [[kiatis-mnd-controlled-not-delegated|KIATIS = 국방부 통제 사업]] atom의 법적 토대 위에서, 본 atom은 그 통제 체계의 실제 집행 현장에서 일어난 임명 절차 조작을 문서화한다.

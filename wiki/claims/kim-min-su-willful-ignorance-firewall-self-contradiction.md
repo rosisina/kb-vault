@@ -72,7 +72,7 @@ SET fr.layer = 7,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+On 2022-03-23, 김민수 declared "I know absolutely nothing about the investigation" and "I have not been involved in the slightest." Yet one month earlier in Recording 006, he had stated "I will handle the audit measures myself" — directly coordinating with the audit office. The transformation from active participant to "knows nothing" within a single month constitutes the construction of a firewall to block traces of involvement.
 
 ## 핵심 요약 (Key Takeaways)
 - 녹취006 'I'll handle inspection measures' ↔ 녹취010 'I absolutely cannot be involved' — direct self-contradiction within 30 days [진리성]

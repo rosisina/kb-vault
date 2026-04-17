@@ -69,7 +69,7 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The deployment prerequisite in Directive No. 2075 Article 68① — 'military-adequate determination from operational test and evaluation results' — was changed in Directive No. 2576 to 'military-adequate determination from test evaluation results.' This allows deployment based on integrated test results without verification in the actual operating environment. The complete chain: Article 58 principle inversion → Articles 62–64 prefix removal → Article 68 condition weakening — definition → procedure → outcome, fully sequenced.
 
 ## 핵심 요약 (Key Takeaways)
 - Deployment trigger weakened from OT&E-specific to generic test result [타당성]

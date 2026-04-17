@@ -84,7 +84,7 @@ SET fr.layer = 1,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+舊KIATIS was operated for approximately 15 years (2007–2022) in a structure that directly accessed the database (DB) from the internet without VPN or security equipment. 장우진 (사업실무자-1, Project-Officer-1) testified in a conversation with 한지훈 on 2022-07-19: 'VPN 문제가 제일 클 겁니다' ("The VPN problem will be the biggest issue"), and explained why New KIATIS failed to operate normally due to VPN restrictions (Record No. 10,303). The 국유단 excavation team leader testified at the normalization meeting on 2022-02-08: 'VPN을 우리가 사용하는 이유가 군사지도 사용하는 것으로 이야기를 들었습니다' ("I heard the reason we use VPN is for military maps") and '저희는 10개월 동안 바깥에서 생활을 하는데. VPN 때문에' ("We live outside for 10 months. Because of VPN"). 장우진 confirmed: '2007년도부터 DB 직접 접속을 했다는 것을 지속적으로 얘기했고 지금도 얘기했고' ("I have continuously said, and say again now, that direct DB access has been done since 2007"). This meeting was a follow-up to the 국유단's 'KIATIS Progress Evaluation Report for January 2022' (2022-02-06, Record No. 5,240), and was immediately followed by a false harassment report against 한지훈 (Layer 5 bridge).
 
 ## 핵심 요약 (Key Takeaways)
 - 舊KIATIS used direct DB access from the internet without VPN for ~15 years (2007–2022) — a fundamental security architecture violation concealed by the cover-up [진리성]

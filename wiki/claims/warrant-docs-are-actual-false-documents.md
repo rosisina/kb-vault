@@ -80,7 +80,14 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Among the 6 charges the military prosecutors imposed on 한지훈, the charge of 'false official document creation and uttering' paradoxically applies to the military prosecutors' own documents. 한지훈 proved this in the 'Explanation and Proof Regarding the Search, Seizure and Verification Warrant' (Records 4,979–5,021) submitted to the MND Minister and Military Prosecutor's Office Chief in September 2022.
+
+Specifically, at Record No. 5,008, he presented proof that "it is not the person being prosecuted but the military prosecutors' office that committed false official document creation and uttering," and judged that it was possible to reflexively attribute not only the remaining 5 charges but dozens of crimes to the military prosecutors' office.
+
+False content of prosecution documents:
+- Search and seizure warrant: Identity error, time reversal through the future tense verb "will use"
+- Investigation commencement notice: Same identity error pattern
+- Non-prosecution reason document: Prosecutorial Deferral + 99.73-point contradiction, omission of key facts
 
 ## 핵심 요약 (Key Takeaways)
 - The prosecution's own documents (warrant, investigation notice, non-prosecution report) contain the very falsehoods they charged 한지훈 with — a supreme irony [진리성]

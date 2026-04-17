@@ -81,7 +81,11 @@ SET fr.layer = 1,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+舊KIATIS began as a simple file-attachment system created by the Army Computer Center in the form of a homepage bulletin board in 2006 (Records No. 1,054 and 1,120). Users numbered approximately 100 from 국유단, DCIA, and various military units (Record No. 1,068).
+
+Key fact: 舊KIATIS was 'installed and operated within another system's server' — not on an independent server — for 15 years. This is confirmed in the 국유단 draft RFP review report (2018-09-11, Record No. 1,157) and the Public Procurement Service's final RFP (2018-10-29, Record No. 1,481).
+
+A conversation with 국유단 staff member 강홍석 (2022-09-20, Record No. 10,347) confirmed 舊KIATIS was still in use as of December 2022, with statements including 'used via web without VPN' ("VPN 없이 웹으로 사용") and 'cannot dispose of the old server because the old system data has not been migrated' ("구 체계 자료 이관을 안 했기 때문에 구 서버를 처분할 수 없다").
 
 ## 핵심 요약 (Key Takeaways)
 - 舊KIATIS originated as a simple bulletin-board file-attachment system on a homepage server (2006, Record No. 1,054/1,120) — NOT a dedicated defense information system [진리성]

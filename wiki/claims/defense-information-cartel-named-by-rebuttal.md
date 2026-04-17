@@ -96,7 +96,21 @@ This atom does **not** assert that the cartel actually operates as such — that
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+한지훈's 2022-09-25 rebuttal document (`raw/05/(20220929)`) explicitly names and defines the term **`국방정보화카르텔` (Defense Information Cartel)** as a coordinated grouping of **5 organizations**, providing the operational definition that the case's narrative uses thereafter. The verbatim definition (raw/05 (20220929) lines 105-109):
+
+> `본 논고는 2016년 국방통합데이터센터(DIDC) 북한 해킹 사건(이하 DIDC 해킹사건) 발생 후 국방부 검찰단, 국방부 정보화조직, 국군방첩사령부(이전 안지사), 국방연구원(KIDA) 등 국방부 제조직들에(이하 국방정보화카르텔) 의한 DIDC 해킹사건의 근원서버를 은폐하고 그 증거를 인멸하는 한편 …`
+
+The 5 organizations:
+
+1. **국방부 검찰단** (MND Military Prosecutor's Office) — Layer 6 actor; investigated 한지훈
+2. **국방부 정보화조직** (MND Information Organization) — encompasses [[../entities/organizations/mnd-it-planning-office|국본 정보화기획관실]] and adjacent IT-policy bodies
+3. **국군방첩사령부** (Defense Counterintelligence Command, formerly 안보지원사 / 안지사) — Layer 1/4 cyber-security oversight body
+4. **국방연구원 (KIDA)** ([[../entities/organizations/kida|KIDA]]) — academic justification provider (Layer 4 per [[kida-otne-citation-misrepresents-us-standard]])
+5. **기타 국방부 제조직** (other MND manufacturing organizations) — open-ended catch-all
+
+**The cartel's alleged motive** (per the same passage): conceal the root server of the 2016 DIDC North Korean hacking incident and destroy its evidence, in order to cover up the 15+-year violation of 국방사이버안보훈령 by accessing databases directly without VPN due to failure to remove vulnerable Active-X components.
+
+This atom does **not** assert that the cartel actually operates as such — that is the substantive Layer 1 question. The atom's claim is narrower: that the term `국방정보화카르텔` has an explicit operational definition in 한지훈's primary rebuttal document, naming 5 specific organizations and a specific motive. This anchors the [[../topics/defense-informatization-cartel|Defense Informatization Cartel topic page]] to a primary source.
 
 ## 핵심 요약 (Key Takeaways)
 - 한지훈's 2022-09-25 rebuttal document (raw/05 (20220929) lines 105-109) explicitly names and defines `국방정보화카르텔` (Defense Information Cartel) as a coordinated 5-organization grouping — providing the case's primary-source operational definition of the term [진리성]

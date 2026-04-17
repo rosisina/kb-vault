@@ -70,7 +70,7 @@ DIDC 부대예규 제12호 제17조③-6은 긴급대응반의 '침해사고 기
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+DIDC Unit Regulation No. 12 Article 17③-6 mandates maintenance of an emergency response team's 'cyber intrusion incident logbook' and 'duty operations logbook.' A North Korean hacking incident would be expected to trigger an INFOCON elevation to at least Level II (heightened readiness), which automatically activates emergency response team formation. In conjunction with the INFOCON system under Articles 27–32, the real-time response timeline for the 2016 incident must be recorded in these logbooks.
 
 ## 핵심 요약 (Key Takeaways)
 - 제17조③-6 mandates two contemporaneous logs: situation duty log + incident record log [타당성]

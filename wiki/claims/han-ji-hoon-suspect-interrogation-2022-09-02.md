@@ -76,7 +76,9 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The **suspect interrogation transcript** produced on September 2, 2022 is the primary evidence base document for the military prosecutors' decision on October 7, 2022 to issue a Prosecutorial Deferral. In this transcript, the military prosecutor focused primarily on the **firewall port opening request approval procedure** (related to DIDC Unit Regulation Article 39). The Q&A content in [본문기록-제6층위-027-1] shows this concretely: the military prosecutor presented the DIDC regulation provision that "system users must connect through SSL-VPN before accessing information systems when accessing information systems managed by the center remotely" and pressed 한지훈 on the approval procedure for VPN non-use.
+
+However, this interrogation structure has a **designed blind spot**. The military prosecutor only problematized the fact that New KIATIS was operated without VPN (2019 to at least April 14, 2021), while completely avoiding questioning the fact that **Legacy KIATIS had been operated for 15 years before that without VPN and without DB access control** — the root vulnerability of the 2016 DIDC North Korean hacking. This structural evasion is an **intentional question framing design** to block the MND-level concealment motive that would be revealed if Legacy KIATIS's 15-year vulnerability were disclosed.
 
 ## 핵심 요약 (Key Takeaways)
 - 피의자 신문에서 군 검사는 DIDC 부대예규 제39조 VPN 요건 미준수를 핵심 혐의로 설정하였다 — [본문기록-제6층위-027-1] CONFIRMED [진리성]

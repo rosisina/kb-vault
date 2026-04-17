@@ -68,7 +68,7 @@ Layer 5에서 6개월간 체계적 증인 파괴 전술(독방 격리, PC 차단
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+After implementing systematic witness destruction tactics in Layer 5 for 6 months (solitary confinement, PC blocking, inducing colleague silence), the same organization in Layer 6 summoned the 'destroyed' witnesses as reference witnesses. An L5 Witness Destruction → L6 Witness Utilization sequential pipeline: first destroy independent testimony capacity, then harvest only testimony that conforms to the organizational narrative.
 
 ## 핵심 요약 (Key Takeaways)
 - L5가 고립 전술로 증인의 독립성을 파괴한 후, L6가 동일 증인을 소환 [진리성]

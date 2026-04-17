@@ -91,7 +91,16 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Developer PM 장호재 refuted two fundamental premises of the prosecution narrative in Recordings 233 and 236:
+
+### Refutation of Premise 1: 'Not in the requirements'
+
+> **(장호재, Recording 233, lines 14160–14162):**
+> '그거는 안된다라고 **예전 데이터가 안 보인다**고 하는 게 제일 크죠.'
+> '(한지훈) 요구사항에 들어가 있어요?'
+> '**아니 요구사항에는 없습니다.** 그거는 **수작업으로 할 수 밖에** 없죠.'
+>
+> ("The biggest issue is that **the old data is not visible.** [Han: Is it in the requirements?] **No, it's not in the requirements.** That can only be done **manually.**")
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] **과거 데이터 이관은 RFP에 없음** — 개발업체 PM이 명확히 확인. 이것을 "사업 실패"로 삼는 것은 **계약 범위 밖의 사후적 문제 제기**. / Past data migration was NOT in RFP — confirmed by developer PM. Treating this as "project failure" is post-hoc scope expansion.

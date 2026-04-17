@@ -92,7 +92,22 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+김민수, having received a report on the attendance issue from 이승우, declared "this is serious — this can only be disciplinary action — it's disciplinary." This statement demonstrates **3-stage illocutionary force amplification**:
+
+1. **"This is serious"** — emphasizing the severity of the issue
+2. **"Discharge is the only option"** — claiming no alternative exists
+3. **"It's disciplinary"** — declaring the final ruling
+
+In a conversation on August 31, 2022 (from Record No. 11,054), **김민수's self-contradictory statements** were recorded:
+
+- 한지훈: "Director, even if I was wrong, is it right to tell an individual to take responsibility?"
+- 김민수: "Did I tell you to take responsibility?" (denial)
+- 한지훈: "You did tell me to take responsibility."
+- 김민수: "I said there's a responsibility to prove that part — because I designated you" (excuse)
+- 한지훈: "I remember everything you said and I have it all."
+- 김민수: "Right, you said you could take responsibility." (admission)
+
+김민수 initially denied "did I tell you to take responsibility?" but ultimately **admitted** it when 한지훈 referenced the evidence record. This proves that 김민수, while fully aware of the substance of the attendance issue, intentionally ruled it "disciplinary" to execute a **scapegoat strategy** transferring the cartel's culpability onto 한지훈.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 김민수의 "심각하다→전역만이 옵션이다→징계다" 3단계 발화수반력 증폭은 개인적 조언이 아닌 조직적 결론 선언의 언어적 구조를 갖는다. / Kim Min-su's three-stage illocutionary escalation (serious → discharge only option → disciplinary) has the linguistic structure of an institutional conclusion, not personal advice.

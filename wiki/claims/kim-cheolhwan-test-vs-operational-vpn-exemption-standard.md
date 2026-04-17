@@ -87,7 +87,11 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Data Center Commander Colonel 김철환 (ROTC Class 29) testified in Recording 251 (2022-08-02) that the **distinction between test evaluation environment and actual operational environment is standard practice**. 김철환 holds a **CISSP (Certified Information Systems Security Professional) certification obtained in 2001**, making him a top-level security domain expert.
+
+### Key testimony
+
+> **(김철환, Recording 251, lines 15265–15276):** 'CISSP를 땄어요. 그게 2001년이야. 그때도 VPN이 있었어... **이걸 안지켰다고 사이버훈령을 내건 거구나**... **평가할 때는 여건에 의해서 못 한 거지. 실제 사용할 때는 당연히 VPN을 써야 되지 보안규정으로. 근데 평가할 때는 어떤 여건이 안되면 그걸 제외하고 하는 경우가 있잖아**' ("I got CISSP. That was 2001. VPN existed back then too... **So they cited the cyber directive for not complying with this**... **During evaluation, there were conditions that made it impossible. In actual use, you must use VPN per security regulations. But during evaluation, if some conditions aren't met, there are cases where that's excluded.**")
 
 ## 핵심 요약 (Key Takeaways)
 - [타당성] **CISSP 2001년 취득 + DIDC 센터장 대령** — 국방 보안 분야 최고위급 전문가가 "시험평가 시 VPN 면제는 여건상 표준 관행"이라고 증언. 비전문가의 의견이 아닌 **권위 있는 전문가 판단**. / The DIDC center commander with CISSP (since 2001) — the highest-ranking security expert — testifies VPN exemption during test evaluation is standard practice.

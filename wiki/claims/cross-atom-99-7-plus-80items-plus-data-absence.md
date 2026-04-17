@@ -70,7 +70,7 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The 99.7-point military-adequate determination (Record No. 3,041) + 80 additional items voted in the same session (Record No. 3,039) + absence of 국유단-linked data (Record No. 2,610) all hold simultaneously: either the success determination is false, or the 80 items represent an overreach of authority, or the data absence was intentional neglect — all three are evidence of manipulation.
 
 ## 핵심 요약 (Key Takeaways)
 - 독립적으로 문서화된 세 가지 사실이 삼중 자기모순을 형성: 99.7점 + 80건 추가 의결 + 데이터 부재가 동시에 진실일 수 없음 [진리성]

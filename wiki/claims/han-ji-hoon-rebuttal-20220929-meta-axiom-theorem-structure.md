@@ -124,7 +124,22 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The **3,811-line bilingual (Korean/English) rebuttal document** submitted by 한지훈 on September 29, 2022 to the **MND Minister, Military Prosecutor's Office Chief (안세준), Prosecutor (임형규), and Investigator (진상호)** — titled "Explanation and Proof Regarding the Search, Seizure, and Verification Warrant" — is the **largest primary defense document** in this case and the **original source document** for the book (raw/01, *Beyond Cybersecurity*).
+
+### Document Structure: Mathematical Argument System
+
+| Structural Element | Role | Examples |
+|---|---|---|
+| **Axiom** | Self-evident foundational facts | Axiom 01: 한지훈's identity, career, 6 charges |
+| **Theorem** | Propositions proven by evidence | Theorem 01: Legacy KIATIS = Active-X C/S architecture, 15 years of VPN-less direct DB access |
+| | | Theorem 19: KIATIS = fixed-ceiling SW development service contract |
+| | | Theorem 21: Test evaluation support duties and roles are outside 사업관리팀장 jurisdiction |
+| **Definition** | Legal/technical definitions of key concepts | Definition 08: 7-layer model, Definition 09: Active-X, Definition 10: conspiracy, Definition 13: 7 layers, Definition 24: concealment |
+| **Proof** | Verification path for theorems | Proof by citing evidence lists for each charge |
+
+### 6-Charge Rebuttal Structure
+
+Each of the 6 charges is systematically rebutted through axiom → theorem → definition → proof — a mathematical argument system unprecedented in a criminal defense document.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] **3,811줄 이중언어 반박 문서** — 6개 혐의 전부에 대한 체계적 반박을 **공리·정리·정의·증명** 체계로 구조화. 법률 문서가 아닌 **수학적 논증 방식** = 논리적 엄밀성 극대화. / 3,811-line bilingual rebuttal using axiom-theorem-definition-proof structure for maximum logical rigor.

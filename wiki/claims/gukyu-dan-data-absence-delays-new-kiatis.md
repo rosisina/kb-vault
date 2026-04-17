@@ -87,7 +87,14 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+According to §3.6.5.1.1, the fact that New KIATIS failed to be fielded until April 2022 despite receiving a "Militarily Suitable" rating of 99.7 points in the September 2019 Developmental and Operational Test and Evaluation is not due to technical limitations or budget shortfall, but is the result of intentional manipulation by the Defense Informatization Cartel centered on the MND Information Planning Division.
+
+The two direct causes of deployment delay are:
+
+1. **Evaluation committee's illegal vote on 80 additional requirements** (Record No. 3,039): Violating the National Procurement Act by treating features not specified in the RFP as if they were obligations within the original contract scope. Demanding additional costs equivalent to over 50% of the original project budget — effectively a new project scale.
+2. **Absence of 국유단 linked data**: The problem flagged as "linked data generation impossible" in the final supervision result report (September 2019, Records 2,610–2,623) remained unresolved until February 2022 (Records 11,322–11,345).
+
+박서준 (Lieutenant level) testified on February 8, 2022 (during the investigation) that the 80 additional requirements were still incomplete and linked data had not been built (Records 11,322–11,345). Combined with the fact that 국유단 had not pursued any additional projects based on the mid-term plan from 2019 to 2022, this demonstrates that the deployment delay was intentional neglect.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 감리결과보고서의 "연계 데이터 생성 불가" 지적(기록 제2,610쪽)이 수사 시점(2022.2.)까지 미해결 상태였음이 기록 제11,322쪽에서 확인된다 / The audit report's "linked data generation failure" finding (Record No. 2,610) remained unresolved until the investigation in Feb 2022 (Record No. 11,322)

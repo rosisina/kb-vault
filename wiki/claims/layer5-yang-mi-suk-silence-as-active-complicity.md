@@ -87,7 +87,11 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Administrative officer 양미숙 was **in charge of attendance management** for 한지훈's team. 양미숙 knew that 한지훈 arrived before 7 AM every morning and left at 9–10 PM. The entire team knew that 한지훈 reported to the section chief at 5:30 PM, had dinner, returned, and worked past 9 PM. There are records in the group chat of addressing system failures past midnight and handling failures even during vacation.
+
+Nevertheless, **양미숙 did not disclose this fact during the Investigation Bureau investigation.** As the attendance management officer, 양미숙 was the **most direct witness** who could prove 한지훈's innocence, yet she chose silence.
+
+양준승's testimony (Record No. 11,412) explicitly states that 양미숙, together with 김수진 (행정담당자-1), 김민지, and 지원호, **continuously conspired on harassment grounds from February until going in for the harassment investigation**. This proves that 양미숙's silence was not mere bystander behavior but **active complicity**.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 양미숙은 출퇴근 관리 담당으로서 한지훈의 07:00~21:00+ 근무 패턴을 직접 알고 있었음에도 조사본부 조사 시 침묵했다. / Yang Mi-suk, as attendance management officer, directly knew Han Ji-hoon's 07:00-21:00+ work pattern yet remained silent during the Investigation Bureau audit.

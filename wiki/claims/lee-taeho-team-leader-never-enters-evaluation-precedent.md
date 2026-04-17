@@ -96,7 +96,13 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Former development management team leader and evaluation committee chair 이태호 (Navy Lieutenant Colonel, 평가위원장-1, Evaluation-Chair-1) testified in Recording 057 (2022-07-30):
+
+### Key statement
+
+> **(이태호, lines 3750–3754):** '아이그 씨. **나도 지금까지 사업을 많이 했지만 팀장이 들어간 적 없어요**' ('Good grief. **I've done many projects until now, but a team leader has never entered the evaluation.**')
+
+The precedent established by the former team leader himself confirms that 한지훈's non-participation in test evaluation was standard procedure, not dereliction of duty.
 
 ## 핵심 요약 (Key Takeaways)
 - [타당성] **전임 팀장이 "팀장이 들어간 적 없어요"** — 시험평가에 사업관리팀장이 불참하는 것은 국전원의 **확립된 관행**이며 한지훈만의 특수 행위가 아님. / The predecessor team leader confirms non-participation in test evaluation is established practice — not unique to Han Ji-hoon.

@@ -86,7 +86,11 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The approval chain for the "firewall policy application request" document consisted of drafter 이준호 (공모자-1), reviewer 한지훈, and final approver 최영수. From this approval chain, the military prosecutors **designated only the middle reviewer 한지훈 as the suspect** and turned him into a criminal.
+
+Final approver 최영수, as a 30-year IT expert and senior officer, had the authority to refuse approval but was only a reference witness. 최영수 **argued for 5 hours** in the military prosecution investigation that firewall port opening was technically justified, and the military prosecution could not rebut his logic. For drafter 이준호, the investigator openly told 한지훈 "he hasn't been here long" as the reason for excluding him from the investigation.
+
+The MND Investigation Bureau separately questioned in 박서준 (Lieutenant level)'s training enrollment deferral case "the team chief blocked him from going despite not having authority" (Record No. 3,948), but in the firewall approval they exempted the section chief with even greater approval authority. The same investigative agency selectively applied the same "authority" logic.
 
 ## 핵심 요약 (Key Takeaways)
 - In the firewall policy request approval chain (drafter 이준호 → reviewer 한지훈 → approver 최영수), only the reviewer was charged — the approver with veto authority was a witness, the drafter was excluded entirely [진리성].

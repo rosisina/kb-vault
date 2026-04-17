@@ -75,7 +75,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+In the 2022-02-08 recording, 한지훈 openly discussed VPN speed problems with the DIDC officer, section chief, 국유단, maintenance PM, and all field staff. He clearly displayed VPN regulation awareness: '2018 DIDC regulation requires VPN.' However, the warrant (raw/05) states 'did not inform the test evaluation committee members of the facts at all.' The open discussion in the recording independently refutes the prosecution's 'concealment' narrative.
 
 ## 핵심 요약 (Key Takeaways)
 - Recording independently confirms VPN speed problems were publicly discussed with entire team — not concealment [진리성]

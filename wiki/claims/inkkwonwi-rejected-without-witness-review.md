@@ -78,7 +78,13 @@ The book's language (`국방부의 대변인 역할`) is a direct charge that th
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The 국가인권위원회 (National Human Rights Commission of Korea) received 한지훈's petition, along with thousands of pages of supporting evidence, and issued a formal rejection (진정사건 처리결과, preserved at **기록 제5,679~5,680쪽**) without: (a) calling 한지훈 as a witness or reference person (참고인 조사), and (b) substantively engaging with the submitted evidence.
+
+The book (§3.7.2.2) states: `국가인권위 실무자들은 진정 내용을 이리 저리 인수 인계 등을 핑계로 미루고 회피하였다` — "The 인권위 staff shuffled the petition around, delaying and evading under the pretext of handovers." The chapter continues: `참고인 조사도 없이 수천 쪽에 달하는 증거를 묵살하고 국방부의 대변인 역할을 하고 있는 그 국가인권위원회의 존재 가치는 어디에 있는 것인가?` — "Without even calling a witness, ignoring thousands of pages of evidence, acting as a spokesperson for the MND — what is the point of the National Human Rights Commission?"
+
+The 인권위's mandate under 국가인권위원회법 includes investigating human rights violations by state actors — the precise category that 한지훈's petition addressed. His documented injuries (5+ months of isolation in empty offices, denial of desk/computer access, criminal stigma via 기소유예 without evidence of criminal conduct) fall squarely within the commission's subject-matter jurisdiction. The rejection without witness review or evidence engagement is not a legitimate jurisdictional refusal — it is a substantive adjudication disguised as a procedural clearance.
+
+The book's language (`국방부의 대변인 역할`) is a direct charge that the 인권위 functioned as an advocate for the accused institution rather than as a neutral human rights arbiter.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] The 인권위 진정사건 처리결과 is preserved at 기록 제5,679~5,680쪽 — a two-page document that constitutes the commission's full written response to thousands of pages of evidence [진리성]

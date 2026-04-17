@@ -70,7 +70,7 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+After the attendance fabrication collapsed through contractor statements, normally the warning letter should have been withdrawn and 이지영 reprimanded. However, a 5-stage response was executed: concealing fabrication failure → not reprimanding 이지영 → maintaining the warning letter → adding different grounds → transitioning to military prosecutor targeted investigation (2022.4.25). A partial failure of the conspiracy led not to reduction but to escalation.
 
 ## 핵심 요약 (Key Takeaways)
 - 공모가 부분적으로 붕괴되었을 때 조직은 후퇴 대신 확대 — 군검찰 표적수사로 종결되는 5단계 대응 [진리성]

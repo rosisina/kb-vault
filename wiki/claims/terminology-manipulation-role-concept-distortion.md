@@ -86,7 +86,11 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+From Directive No. 2263 (2019-02-26), key terms in the Defense Informatization Business Directive's Annex 1 were collectively changed: **'사업관리기관 (project management agency)'** was replaced with **'집행기관 (executing agency)'** and **'사업주관기관 (project principal agency)'** was replaced with **'소요제기기관 (requirements-generating agency)'**. This appears to be an intent to erase the terms in use at the time to sever accountability from New/Old KIATIS.
+
+The term '집행기관 (executing agency)' demoted '사업관리기관' — an agency performing active technical duties from project ordering preparation through conclusion (footnote 296) — to the passive concept of mere 'execution.' In practice, 국전원's guidelines reduced it to the role of paying consideration after acceptance completion (Record No. 1,372).
+
+Despite this terminology manipulation, 국전원 director 김민수 himself stated in an August 2022 magazine interview that '국전원 aims to efficiently perform information project management (사업관리)' — effectively acknowledging the practical validity of the old term.
 
 ## 핵심 요약 (Key Takeaways)
 - "사업관리기관"→"집행기관" 변경은 능동적 관리 개념을 수동적 집행 개념으로 격하시킨 의도적 개념 왜곡이다 [타당성]

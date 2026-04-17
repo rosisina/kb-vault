@@ -124,7 +124,12 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+국유단 KIATIS 10+ year project officer 장우진 (사업실무자-1, Project-Officer-1) proved three key facts through **dual evidence** — a **written statement** (2022-10-05, raw/10) and a **recording** (2022-07-19, Recording 210):
+
+### Fact 1: 舊KIATIS used direct DB access without VPN for 15 years since 2007
+
+**Written statement (raw/10):**
+> '이 상사는 10년 넘게 KIATIS 사업 추진 및 운영을 담당한 인원으로 본 사업이 수 차례에 걸쳐 연기되었으며 **2007년 이후 현재까지 가상사설망(VPN)을 이용하지 않고 지난 15여년간 DB에 직접 접근했다는 말을 수시로 하곤 하였습니다.**' ("This Sergeant Major, responsible for KIATIS project and operations for over 10 years, repeatedly stated that **since 2007, for the past 15+ years, the system has directly accessed the DB without using VPN.**")
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] **서면 진술서(raw/10) + 녹취 210(raw/02)의 이중 증거**가 5개 핵심 사실에서 verbatim 수준으로 일치 — 10년+ 실무자의 기억이 3개월 간격(7.19 녹취 → 10.5 진술서)으로 일관됨 = **극도로 높은 신뢰성**. / Written statement and oral testimony match at verbatim level across 5 key facts over a 3-month interval.

@@ -84,7 +84,21 @@ Per James 2026-04-11, **별지 제7호 (SSL-VPN under 제12호 제37조) and 별
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+DIDC 부대예규 제11호 Chapter 14 (접근통제, 제158조~제167조) imposes a comprehensive multi-layer access control regime, and **Article 164 (DB 접근통제)** specifically mandates:
+
+1. All DB access must be controlled via the **CharkraMax (차크라맥스) DB access control system** under DB administrator supervision (제164조 ①)
+2. All DB user accounts assigned by job role and identity (제164조 ②)
+3. 3-month unused accounts are blocked (제164조 ③)
+4. 3-consecutive-failure login lockout (제164조 ④)
+5. DB administrator must verify last successful login dates (제164조 ⑤)
+6. Data access is graded by 보호등급 (protection level) per the `국방정보시스템 접근 권한 관리지침` (제164조 ⑥–⑦)
+7. 10-minute idle session lock (제164조 ⑧)
+8. No multiple sessions per account (제164조 ⑨)
+9. **Every DB access control change (creation/modification/deletion) requires 별지 제17호 서식 (DB접근제어 신청서) with 각 센터 자원관리과장 approval and explicit application reason and usage period (제164조 ⑩)**
+
+For the 2016 DIDC hacking incident, the attacker's persistence necessarily required some form of DB access (the attack target was an information system whose core asset is its database). Either pre-existing DB credentials (which must be documented under 별지 17호) or post-incident credential changes (also documented) must exist. **The absence of a 별지 17호 trail for the 2016 incident period is direct Layer 1 cover-up evidence**, in the same procedural-trace methodology as the firewall/VPN trail under [[didc-sop-firewall-vpn-trail-mandatory]].
+
+Per James 2026-04-11, **별지 제7호 (SSL-VPN under 제12호 제37조) and 별지 제17호 (DB access under 제11호 제164조) are the two highest-priority Layer 1 trace artifacts**: they cover the two attack-surface ends of any persistent intrusion — network ingress (VPN) and data egress (DB).
 
 ## 핵심 요약 (Key Takeaways)
 - DIDC 부대예규 제11호 Chapter 14 (접근통제, 제158조~제167조) imposes a comprehensive access control regime across servers, network, integrated operations management, DB, VDI, and information protection equipment [타당성] (raw/06/02 제14장).

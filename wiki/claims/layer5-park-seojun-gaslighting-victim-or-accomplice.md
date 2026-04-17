@@ -91,7 +91,17 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+박서준's utterances changed dramatically before and after the February 8, 2022 KIATIS discussion. This change suggests 박서준 was not a voluntary complainant but a coached instrument.
+
+**During the February 8 discussion — normal cooperation.** 박서준 made technically accurate and cooperative utterances: "As my team chief said," "Yes, yes," "Currently KIATIS has its server configured somewhat uniquely — the DB server only contains data, the GIS data aside, and other data along with WAS-tier applications are in the AP (application server)" (Record No. 11,342).
+
+**After February 10 — fear and threats.** According to 한지훈's testimony: "Lieutenant 박서준 was crying saying 'I want to live' — I was very shocked." 박서준 also said "It won't just go away — honorable discharge won't work either" — this utterance came right after the evening meeting with 김민수 the previous night.
+
+**Speech Act Analysis.** The locutionary content of "honorable discharge won't work" was a surface statement, but its illocutionary force was a threat/warning with intimidation intent, and its perlocutionary effect was inducing fear in 한지훈. The source of the utterance is presumed to have been transmitted 김민수 → 박서준 → 한지훈.
+
+**4 pieces of evidence of coached utterance:** (1) 박서준's meeting with 김민수 the previous evening, (2) "I want to live" — meaning someone had threatened 박서준, (3) abrupt change from normal cooperation on February 8 to hostility on February 10, (4) absence of 박서준's voluntary complaint intent throughout the evidence record.
+
+Additionally, during the harassment interview, 박서준 kept showing 한지훈 a supervision interim results report irrelevantly, repeatedly saying "Team chief, isn't this wrong?" 한지훈 requested an interview with 국군방첩사령부 담당관 곽민철 about 박서준's abnormal behavior, and the result was "strange" (Records 3,889–3,944; 3,952–4,054).
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 박서준의 발화가 2월 8일 정상 협력(기록 제11,342쪽)에서 2월 10일 공포/협박으로 극적 전환된 사실은 48시간 내 외부 조종의 정황 증거이다.

@@ -70,7 +70,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+In the health status question during the 2022-09-02 suspect interrogation, 한지훈 stated that his son had been diagnosed with schizophrenia due to the investigation, was found by police in Andong and Cheongseong, and that his family had been "completely destroyed." He stated for the official record: "I only want to die." This official interrogation transcript is the official timestamp of the prosecution's awareness of severe family harm. Yet the investigation continued for 5 more weeks until the October 7 Prosecutorial Deferral.
 
 ## 핵심 요약 (Key Takeaways)
 - 공식 신문조서는 검찰의 심각한 가족 피해 인지에 대한 날짜 기록 생성 — 아들 조현병, 가정 파괴 [진실성]

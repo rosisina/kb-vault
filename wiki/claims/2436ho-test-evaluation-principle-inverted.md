@@ -68,7 +68,7 @@ On 2020-06-04, 국방정보화업무 훈령 제2436호 inverted the test-evaluat
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+On 2020-06-04, 국방정보화업무 훈령 제2436호 inverted the test-evaluation principle in 제58조 from `개발시험평가와 운용시험평가를 분리하는 것을 원칙으로 하되` (separation as principle, integration as exception) to `시험평가는 통합하여 실시하는 것을 원칙으로 한다` (integration as principle, separation as exception). This is a semantic reversal of the regulatory default in the same article of the same directive, not a clarification or restatement.
 
 ## 핵심 요약 (Key Takeaways)
 - 제2129호 제58조 ¶2 read `개발시험평가와 운용시험평가를 분리하는 것을 원칙으로 하되, 필요시 사업통제기관의 승인을 받아 동시에 실시할 수 있다` — separation as principle, integration as sanctioned exception [타당성]

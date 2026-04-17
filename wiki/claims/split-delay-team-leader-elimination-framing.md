@@ -71,7 +71,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The third strategic objective of New KIATIS deployment delay was to frame and eliminate 한지훈 — who discovered the truth about Legacy KIATIS security violations at the 2022-02-08 meeting — as the party responsible for 'development deficiency.' Because the delay was intentional, it was possible to transfer responsibility to the Development Management Team Chief.
 
 ## 핵심 요약 (Key Takeaways)
 - 한지훈's truth discovery at 2022-02-08 meeting made his removal the cartel's most urgent objective [진실성]

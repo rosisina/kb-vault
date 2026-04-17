@@ -102,7 +102,23 @@ DIDC 센터장 김철환 대령(CISSP)이 녹취 253·254·255에서 OTP/VPN 미
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+DIDC Center Head Colonel 김철환 (CISSP) clearly testified in Recordings 253, 254, 255 about the **accountability structure** for OTP/VPN non-application:
+
+### Core 1: VPN Approval is Policy/Administrative Level
+
+> **(김철환, Recording 255 lines 15567–15569):**
+> "**The section chief or director** must approve... VPN-related approval conditions are not decided by operational staff — they're **policy/administrative-level decisions**."
+
+### Core 2: Test Evaluation ≠ Fielding — Only "Similar," Not "Identical" Possible
+
+> **(김철환, Recording 254 lines 15403–15420):**
+> Prosecution: "**It must be identical**"
+> 김철환: In reality only "**similar**" — that test evaluation environments and fielded environments **cannot be completely identical** is IT standard
+
+### Core 3: Firewall Port Opening = Standard Alternative
+
+> **(김철환, Recording 255 lines 15437–15451):**
+> Firewall port opening is a recognized and standard alternative means when VPN application is not yet possible — not a violation but a common technical measure in IT operations.
 
 ## 핵심 요약 (Key Takeaways)
 - [타당성] **VPN 승인 권한 = 과장·원장** — 한지훈(사업관리팀장)이 아닌 **정책 수준의 의사결정**. 정책 실패를 운영 실무자에게 전가한 것 = **책임 귀속의 구조적 오류**. / VPN authorization is at policy level (section chief/director), not operational — charging the team leader is structural misattribution.

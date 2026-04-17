@@ -70,7 +70,7 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Under Directive No. 2075 Article 64, all test evaluation results were reported to the project control authority. Under Directive No. 2576, only pass results are reported to the MND Information Planning Division, creating a structural blind spot where failure determinations are not reported to the supervising authority — an institutional mechanism that prevents oversight bodies from knowing about project failures.
 
 ## 핵심 요약 (Key Takeaways)
 - 부적합 results no longer reach 정보화기획관실 — structural blind spot created [타당성]

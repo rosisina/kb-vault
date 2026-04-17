@@ -88,7 +88,15 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+박서준's (갑질신고자-1) testimony undergoes a 3-stage change in the harassment complaint:
+
+1. **Stage 1:** "박서준 (voluntarily) filed a harassment complaint" — initial narrative
+2. **Stage 2:** "국전원 (the institution) filed the complaint" — responsible party shifts to the institution
+3. **Stage 3:** "박서준 filed the complaint again" — reverts back to individual after avoiding institutional responsibility
+
+This 3-stage change shows the harassment complaint was not 박서준's voluntary act but planned and scripted by 김민수, 이지영, and 김수진. 최영수's independent third-party testimony confirmed "박서준 is not the real complainant."
+
+Additionally, 김민수's false narrative of "the entire year was difficult" contradicts the normal cooperative relationship between 박서준 and 한지훈 through February 8, 2022, and 김동욱's testimony about 박서준's pre-existing mental health issues.
 
 ## 핵심 요약 (Key Takeaways)
 - The 3-stage shift in the complainant narrative (박서준→국전원→박서준) reveals the complaint was orchestrated, not spontaneous [진리성]

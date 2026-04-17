@@ -73,7 +73,7 @@ SET fr.layer = 1,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+舊KIATIS began in 2006 as a simple file-attachment system (Record No. 1,054) and was server-laundered as the 'defense integrated internet mail server' during its transfer to DIDC Center 1 from 2007 to 2014 (Book §3.1 line 19). This identity laundering provided the institutional basis for falsely classifying New KIATIS as a delegated project in Layer 2 (Record No. 1,140), which in turn enabled the transfer of project management to 국전원 in Layer 3 (Records No. 1,573 and 11,107). This three-layer causal chain appears as individual administrative decisions in isolation, but when connected sequentially, reveals a structural design to conceal the 2016 hacking.
 
 ## 핵심 요약 (Key Takeaways)
 - L1: Old KIATIS laundered to "Defense Integrated Internet Mail Server" (Record No. 1,054 / 1,120 / 1,068, 2007-2014 DIDC transfer) [진리성]

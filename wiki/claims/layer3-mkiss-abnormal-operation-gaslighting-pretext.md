@@ -81,7 +81,11 @@ M-KISS(Military Knowledge Integrated Service System) 체계 운영은 한지훈�
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+M-KISS (Military Knowledge Integrated Service System) operations revealed multiple inappropriate work patterns after 한지훈 took over as team leader, and these are connected to the premeditated workplace harassment report.
+
+Key facts:
+1. **Analytical report document (Record No. 3,879):** 한지훈 directly wrote it past 10 PM — Section Chief 이지영 had asked 박서준 to write it, but 한지훈 wrote it instead. 박서준 left early that day.
+2. **M-KISS Workshop Plan Notification (Record No. 3,882):** An official document from MND Human Resources Development Division was circulated by the Administrative Operations Team to 한지훈's team officer (박서준) with the opinion "this is not a system currently managed by our Agency" — effectively delegating responsibility to 한지훈's team leader position.
 
 ## 핵심 요약 (Key Takeaways)
 - 한지훈 wrote the M-KISS analysis report himself working past 10 PM — while 과장 이지영 demanded it from 박서준 who left early [진실성]

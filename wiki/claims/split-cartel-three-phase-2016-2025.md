@@ -74,7 +74,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Cartel 3 stages over 9 years: Stage 1 (2016–18) DIDC hacking concealment + Active-X removal + directive manipulation initiation. Stage 2 (2018–22) New KIATIS project structure manipulation + test evaluation distortion + setting target on 한지훈. Stage 3 (2022–25) false harassment → fraud investigation → evidence concealment → transferring individual responsibility. 9 years of progression is the temporal structure of a single organic criminal system.
 
 ## 핵심 요약 (Key Takeaways)
 - 9년간 3단계: 은폐 토대 구축 → 조작 실행 → 범죄 완성 [진리성]

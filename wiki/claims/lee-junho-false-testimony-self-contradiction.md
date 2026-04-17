@@ -77,7 +77,11 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+이준호's (공모자-1) reference witness statement (Record No. 1,171): "In the actual base operational environment, it is not possible to access the DB directly without going through VPN."
+
+However, the firewall policy request document (Record No. 6,168) that 이준호 himself prepared 3 weeks after the test evaluation ended (2019.9.11) — on October 2, 2019 — requests direct DB access without VPN for both Legacy KIATIS and New KIATIS servers. This means 이준호's own official document proves that direct DB access was the standard operation method even after the test evaluation.
+
+최영수's testimony (Record No. 1,239) also confirms the same context.
 
 ## 핵심 요약 (Key Takeaways)
 - 이준호's testimony "cannot access DB directly in real environment" (Record No. 1,171) is directly contradicted by his own firewall request 3 weeks after evaluation (Record No. 6,168) requesting DB direct access [진리성]

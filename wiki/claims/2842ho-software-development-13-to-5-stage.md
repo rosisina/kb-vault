@@ -70,7 +70,9 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+**Primary framing (book-anchored, per §3.4.7.3.5 of `raw/01. book-beyond-cybersecurity/English/14-3-4-34-Fourth-Layer.md` line 511):** On 2023-09-20, 국방정보화업무 훈령 제2842호 modified 제76조 Article 76's software development lifecycle terminology and phase grouping. Specifically, item 12 was renamed from `Software Installation` to `System Installation` and grouped under a newly introduced `Delivery` phase category. James characterizes this as a **responsibility-shifting rename** — the substantive work covered by item 12 is reassigned by nomenclature without changing the operational reality.
+
+**Secondary framing (wiki interpretation, pending direct raw/04 re-verification):** The book's description of terminology + grouping change may correspond to a broader 13-stage-to-5-phase consolidation at the text level of 제2842호 제76조 ¶1. Under the 13-stage reading, each stage had a defined predecessor and successor and time-reversal anomalies (out-of-order completion dates between stages) were detectable on the document trail. Under the 5-phase reading, sequencing within each phase would be flexible, weakening the time-reversal detection signal. **The 13→5 phrasing is a wiki-side interpretive step not directly stated in the book**; it requires direct re-measurement of the 제2129호 and 제2842호 제76조 ¶1 raw text before being promoted to primary framing.
 
 ## 핵심 요약 (Key Takeaways)
 - Book §3.4.7.3.5 (Fourth Layer chapter, line 511) frames the 제2842호 제76조 modification as a **terminology + grouping shift**: item 12 renamed `Software Installation` → `System Installation` and grouped under a new `Delivery` phase category — a responsibility-shifting rename [진리성]

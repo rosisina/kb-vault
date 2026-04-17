@@ -105,7 +105,30 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+한지훈's testimony to 최영규 (Equipment Operations Center head, 10 years at 국전원) in Recording 117 (2022.8.9):
+
+### Core 1: Position Transfer Blocks KIATIS Document Access
+
+> **(한지훈→최영규, lines 5260–5263):**
+> "They transferred me **from 행정정보화과 to 자원관리과 (Resources Management Section)**. This completely **cut off my access to KIATIS-related materials**. **I think there was an intent behind this.**"
+
+### Core 2: Three-Way Support Refusal — DIDC, 국유단, 국전원
+
+> **(한지훈→최영규, lines 5305–5307):**
+> "DIDC said they would help and then **blocked everything. 국유단 also blocked everything**... And at 국전원, the director said, **'You take responsibility alone — our organization won't help you.'**"
+
+### Triple Structure of Evidence Access Denial
+
+```
+한지훈 (suspect)
+    ↓ Position transfer (행정정보화과 → 자원관리과)
+    ↓ KIATIS document access blocked
+    ↓ DIDC support blocked
+    ↓ 국유단 support blocked
+    ↓ 국전원 organizational support blocked
+```
+
+[진실성] The position transfer that blocked KIATIS document access is both a testimony isolation tactic and a pre-prosecution preparation mechanism. [진리성]
 
 ## 핵심 요약 (Key Takeaways)
 - [타당성] 보직 이동이 **갑질 조사 분리 목적**이라면 KIATIS 자료 접근까지 차단할 이유가 없음 — 자료 접근 차단은 **방어권 침해의 별도 행위**. / If the position transfer was for investigation separation, there's no reason to block KIATIS document access — document blocking is a separate defense-right violation.

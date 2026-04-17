@@ -96,7 +96,22 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Key content 한지훈 reported to 안보지원사령부 국전원 담당 사무관 곽민철 in a phone call on 2022.8.2:
+
+### Core 1: How 김민수 Constructed the Charges
+
+> **(한지훈→곽민철, Recording 200 lines 11674–11677):**
+> "Director 김민수 **created a fake environment different from the actual environment for me, deceiving all the evaluation personnel. By manipulating and conspiring with Lieutenant 이준호 to deceive — that's how the evaluation proceeded.**"
+
+### Core 2: 한지훈 Himself Created the Cybersecurity Directive
+
+> **(한지훈→곽민철, Recording 200 lines 11660–11667):**
+> "**They say I violated the cybersecurity directive**... But **I created the cybersecurity directive. In 2013. I contributed to it.**"
+
+### Core 3: "A Person Who Was Outside the Room"
+
+> **(한지훈→곽민철, Recording 200 lines 11722–11726):**
+> "**The person who should have given notice didn't give notice**, and naturally because notice wasn't given the person who should have received it couldn't hear it... **Who am I? I was not a person inside that room — I was a person outside the room.**" 
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 한지훈이 **안보지원사령부**(국전원 보안 감독기관)에 혐의의 부당성을 **공식 보고**한 기록 — Layer 7 진정 체인의 일부. / Han Ji-hoon officially reported the charge's illegitimacy to the security oversight agency.

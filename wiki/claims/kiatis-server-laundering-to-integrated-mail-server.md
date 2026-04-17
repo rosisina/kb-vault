@@ -84,7 +84,11 @@ SET fr.layer = 1,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The 'Daily Audit Result Notification' from the MND Logistics Audit Division (2018-08-14, Record No. 1,141) reviewed the legitimacy of the New KIATIS Performance Improvement Project, explicitly naming it as the **'Military-wide Internet Integration Construction Project'** (Record No. 1,144). This confirms that 舊KIATIS was server-laundered and transferred/operated as the 'defense integrated internet mail server.'
+
+- Project period: 2018-11-20 to 2019-05-30 (described as 17 months, Record No. 3,470/L4)
+- The 'Military-wide Internet Mail Integration Construction Project' Integrated Test and Evaluation Result Report (2019-05-08, Record No. 5,818/L7) describes the project plan approval as 2018-07-13, total project period 192 days
+- The evaluation committee chair for this project was Navy Lieutenant Colonel 이태호 (평가위원장-1, Evaluation-Chair-1) (Records No. 5,819/L7, 3,485, and 3,491)
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] Record No. 1,141 and 1,144 (L1) provide documentary proof that 舊KIATIS was consolidated into a differently-named project ("전군 인터넷 통합 구축 사업"), constituting server laundering. The MND's own routine audit confirms the identity change.

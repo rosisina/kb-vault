@@ -101,7 +101,13 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+In September 2019, the New KIATIS developmental/operational test evaluation committee (ad hoc) rendered a 'military-adequate' determination with the high score of **99.73 points** (Record No. 3,041) — a near-perfect success case by objective standards.
+
+However, in the same session, the committee illegally voted on **80 additional requirements** outside its authority (Record No. 3,039). These 80 items are new functional development requirements not specified in the original RFP, amounting to over 50% of the original project scope.
+
+### Procedural contradiction
+
+Under Directive No. 2129 Article 63's operational test evaluation system, the evaluation committee's role is to judge whether specified requirements are met — not to generate new requirements. The simultaneous issuance of a high pass verdict and 80 new requirements in the same session is a structural contradiction indicating pre-planned manipulation.
 
 ## 핵심 요약 (Key Takeaways)
 - 시험평가위원회의 99.7점 성공 판정과 80건 추가 요구사항 의결이 **동일 세션**에서 이루어졌다는 사실이 기록 제3,039쪽~제3,041쪽으로 확인된다 [진리성]

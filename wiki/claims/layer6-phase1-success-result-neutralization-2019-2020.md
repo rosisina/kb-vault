@@ -83,7 +83,14 @@ SET fr.layer = 6, fr.claimType = "methodology",
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+After the test evaluation committee gave New KIATIS a successful evaluation of 99.7 points in September 2019, the first stage of deployment delay was neutralizing this successful result (§3.6.5.3.1).
+
+The two core mechanisms were:
+
+1. **Voting on 80 additional requirements:** The evaluation committee voting on 80 additional requirements created the frame of "evaluation succeeded but is actually incomplete."
+2. **2020 Defense IT Operations Directive deterioration:** Changed to a principle of integrating developmental and operational test evaluation, providing a legal basis to obscure future accountability and justify deployment delay.
+
+As an extension of this frame, 한지훈's duties changed from Development Management Team Chief to Maintenance Integration Team Chief. 국전원 director 김민수 substantially changed organizational personnel through MND vice-minister reporting after assuming the position (Records 3,987–4,003, resulting impact: Records 4,004–4,020). The goal of this stage was to construct a frame that the departure of the individual Development Management Team Chief caused it.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] After the evaluation committee awarded 99.7 points (September 2019), Phase 1 of the deployment delay was to neutralize this success through 80 additional requirements and the 2020 directive revision merging DT/OT evaluations. / 시험평가위원회의 99.7점 성공 평가(2019.9) 이후, 80건 추가 요구사항과 2020년 훈령 개정(DT/OT 통합)으로 성공 결과를 무력화하는 1단계 공작이 실행되었다.

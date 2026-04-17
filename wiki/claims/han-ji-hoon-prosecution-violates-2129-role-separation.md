@@ -84,7 +84,7 @@ The 2022 군 검찰단 investigation of 한지훈 — which proceeded through un
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The 2022 군 검찰단 investigation of 한지훈 — which proceeded through unlawful warrant + 압수수색 + 피의자 조사 and culminated in a **기소유예 (deferred prosecution) disposition** — charged him with `시험평가환경을 속였다` (lying about the test-evaluation environment) for KIATIS, in his capacity as 사업관리팀장 (Project Management Team Leader). 한지훈's defense — verbatim in raw/02 recording 142 — was that the 사업관리팀장 role under 제2129호 is institutionally barred from participating in test-evaluation execution because the directive's 제11조 separates project management duties (사업관리기관 = 국전원) from project sponsor / user agency duties (사업주관기관 = 국유단), and test-evaluation execution belongs to the latter. **If 한지훈's role-separation defense is a correct reading of 제2129호 제11조, the charge structurally cannot apply to anyone holding the 사업관리팀장 title — the alleged conduct (executing or controlling test evaluation) is directive-prohibited for that role, meaning the prosecution either misread the directive or applied a non-제2129호 framework retroactively to KIATIS conduct. The 기소유예 outcome is not exoneration — under Korean criminal procedure 기소유예 means the prosecutor acknowledges criminal facts exist but defers formal indictment, which constitutes a criminal stigma on a 32-year career officer who acted lawfully.** See [[han-ji-hoon-kiso-yuye-is-criminal-stigma]] for the harm-structure atom.
 
 ## 핵심 요약 (Key Takeaways)
 - The 2022 군 검찰단 charged 한지훈 with `시험평가환경을 속였다` in his capacity as **사업관리팀장**, but 제2129호 제11조 ¶3/¶4 separates 사업주관기관 (OT&E execution + 군사용 적합/부적합 판정) from 사업관리기관 (DT&E 주관 + 사업관리) — OT&E execution belongs exclusively to 사업주관기관 [타당성].

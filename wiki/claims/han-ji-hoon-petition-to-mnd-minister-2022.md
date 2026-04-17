@@ -83,7 +83,11 @@ SET fr.layer = 7,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+한지훈 transmitted a petition (Record No. 5,578–5,602) and the "Explanation and Proof Regarding Search, Seizure, and Verification Warrants" (2022-09-25, Record No. 5,393–5,577) to MND Minister 최우진 via the defense intranet by email and memo-report. **The email and memo-report sent to the MND Minister were confirmed as having been read** (fn. 589). The same materials were transmitted to Military Aide Brigadier General 홍성민 via KakaoTalk (Record No. 5,669). **No contact was made regarding the petition's contents** (fn. 590).
+
+The petition's core statement: "To expose the conspiracy, deception, and manipulation carried out to conceal the fact that defense informatization officials under the MND and their sympathizers violated cyber security directives for over 10 years — similar to the 2016 DIDC North Korean hacking incident — along with the anti-human rights crimes committed."
+
+Memo-reports on On-Nara are non-deletable permanent records. However, concern exists that records may have been destroyed during the MND's 2024 On-Nara improvement project (approximately 4 billion won) (fn. 588).
 
 ## 핵심 요약 (Key Takeaways)
 - 한지훈이 국방부장관에게 직접 진정서를 제출한 사실이 기록 제5,578~5,602쪽으로 확인된다 [진리성]

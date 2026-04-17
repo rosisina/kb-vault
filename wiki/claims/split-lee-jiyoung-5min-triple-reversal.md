@@ -71,7 +71,7 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+On 2022-02-21, 이지영 reversed herself 3 times within 5 minutes: 'report at the agency level' → 'request ex officio investigation' → 'it's not ex officio investigation — let's pretend I didn't say that' (Record No. 11,064). The change from organizational → ex officio → individual demonstrates evidence that policy was being decided through real-time consultation with 김민수. 'Let's pretend I didn't say that' is an attempt to conceal the decision-making process itself.
 
 ## 핵심 요약 (Key Takeaways)
 - 5분 내 3회 번복(조직→직권→개인)은 김민수와의 실시간 협의를 증명 [진리성]

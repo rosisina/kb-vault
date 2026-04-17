@@ -118,7 +118,25 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+**National Intelligence Service** security assessment officer 김동욱 (former 국전원 project management maintenance system support) provided 3 independent testimonies about 박서준 in a recorded phone call with 한지훈 on September 29, 2022 (Recording 122). 김동욱 is a long-term observer with a **teacher-student relationship with 박서준 since high school** (안천대학교 computer school instructor–student).
+
+> **Note — Affiliation Correction:** Listed as "국전원 관리과장" in raw/02 `[009-6]`, but this is an **erroneous entry**. The same line notes "(National Intelligence Service security assessment, 국전원 project management maintenance system support during tenure)," and the recording itself confirms 한지훈 saying "you're at 국정원 now," "I've worked a lot with 국정원, with the cyber center too" — confirming 김동욱's **actual affiliation is the National Intelligence Service**. Verified by James 2026-04-12.
+
+### Testimony 1: 박서준's Prior Mental Health History
+
+> **(김동욱)** "I can say this now — **he seemed to have been receiving some psychological treatment since long ago.**"
+> **(한지훈)** "I know. I knew too."
+> **(김동욱)** "**He was slightly outside the normal range.** I **called his mother quite a bit.**"
+> **(한지훈)** "You called his mother?"
+> **(김동욱)** "Yes. Once or twice. **His mother expressed a lot of concern and asked me to look after him** — she said something like that when I was in my freshman or sophomore year."
+
+### Testimony 2: 박서준's Unusual Connection to 국전원
+
+> **(김동욱)** "When I was at 안천대학교 — when I was working as a computer school instructor — **he was my student.** So **it's quite remarkable that he ended up at our department (국전원)** and that such a thing happened."
+
+### Testimony 3: Confirmation of 한지훈's Protective Behavior
+
+김동욱 confirms that 한지훈's protective behavior toward 박서준 was recognized externally — directly contradicting the harassment narrative. [진실성]
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] **국가정보원 보안측정 담당자**라는 완전한 외부 독립 제3자가 박서준의 기존 정신건강 이력("옛날부터 심리치료", "정상 범주에서 벗어난")을 증언하였다. 고교 시절~대학 시절의 사제 관계에 기반한 **장기적 관찰**이다. / A fully independent third party from the National Intelligence Service testified to 박서준's pre-existing mental health history based on a long-term teacher-student relationship from high school through university.

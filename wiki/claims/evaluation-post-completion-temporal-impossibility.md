@@ -73,7 +73,7 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Evaluation item change request (2019-09-05) → test evaluation completion (2019-09-11) → evaluation item change approval (2019-09-19, 국유단 commander). The approval occurring 8 days after evaluation completion is a temporal impossibility, and evidence that 국유단 illegally assumed the project control authority role. The August 2020 MND official communication (Record No. 4,757) subsequently attempted to retroactively justify this 2019 manipulation as 'institutional improvement.'
 
 ## 핵심 요약 (Key Takeaways)
 - Evaluation-item change approved 8 days AFTER evaluation ended — temporal impossibility [진리성]

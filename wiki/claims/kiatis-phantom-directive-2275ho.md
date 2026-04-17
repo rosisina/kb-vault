@@ -86,7 +86,13 @@ SET fr.layer = 1,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Directive No. 2275 (2019-05-09) is a **phantom directive** satisfying three conditions simultaneously:
+
+1. **Not registered in the National Law Information Center** — unsearchable in the official legal database.
+2. **Temporal reversal anomaly** — its content is identical to Directive No. 2436 (2020-06-04), which officially appeared over a year later, and is inconsistent with the text of intermediate revisions No. 2398 (2020-02-13) and No. 2263 (2019-02-26).
+3. **Evidence of actual use** — KIDA directly cited Directive No. 2275 in its 'Research on Improvement of Defense Information System Test and Evaluation Procedures' (January–June 2020, published July 2020), and the Military Prosecutor's Office used Directive No. 2275 during the interrogation of 한지훈 (Record No. 4,900).
+
+The combination of these three conditions cannot be explained by a single cause ('simple registration omission'). This atom requires further research to definitively establish Directive No. 2275's official source or conclude its phantom status, and in its current state is rated **CORROBORATED (moderate)**.
 
 ## 층위 (Layer)
 [[../layers/layer-1|Layer 1]] (primary) — 훈령 자체의 생성·타임라인 조작 mechanism. [[../layers/layer-6|Layer 6]] (secondary) — 제2275호의 실효적 활용이 한지훈 신문 기록 제4,900쪽에서 직접 확인.

@@ -79,7 +79,9 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The budget needed for adding GIS (Geographic Information System) server functionality to New KIATIS was intentionally not included (Record No. 4,826). This budget non-inclusion is one of the core causes of deployment delay, but in the military prosecutors' investigation it was used to attribute the cause to the Development Management Team Chief's "deficient development" (Records 4,890, 4,898, 4,903).
+
+Critical fact: 한지훈's discussion with 국유단, 국전원 staff, and contractor to identify the GIS server budget issue as an improvement direction and reporting it to section chief 이지영 (Records 11,023–11,032) became the **direct trigger** for the false harassment complaint. That is, the act of discovering a problem and reporting it itself became the target of retaliation.
 
 ## 핵심 요약 (Key Takeaways)
 - GIS server budget was intentionally not allocated — a key cause of deployment delay attributed instead to "deficient development" [진리성]

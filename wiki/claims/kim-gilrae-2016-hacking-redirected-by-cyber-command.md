@@ -73,7 +73,7 @@ SET fr.layer = 1,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+이근태 (초대 데이터센터장, Inaugural Data Center Commander) testified in a recording on 2022-09-21: '사실은 한경수(사이버사령관)이가 우리쪽으로 방향을 팍 틀어가지고' ("Actually, 한경수 (Cyber Command Commander) suddenly redirected the investigation our way"). The 2016 hacking investigation began at Cyber Command and was intentionally redirected to DIDC. 이근태 assessed this pattern as 'almost identical' (거의 비슷) to the 2022 KIATIS investigation.
 
 ## 핵심 요약 (Key Takeaways)
 - Founding DIDC commander testifies the 2016 investigation was deliberately redirected from Cyber Command to DIDC [진리성]

@@ -68,7 +68,7 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+In the KakaoTalk chat on 2019-09-02, the test evaluation committee member attendance notice and 송민석 (팀장-2, Team-Leader-2)'s National Defense University training absence notice were shared simultaneously in the same channel. All team members simultaneously became aware of 'test evaluation starting + team leader absent' — a real-time record documenting the intentional nature of the absence at the organizational level.
 
 ## 핵심 요약 (Key Takeaways)
 - 카카오톡에서 시험평가 시작과 팀장 부재가 동일 채널·동일 날 공지 — 중첩에 대한 조직 전체의 인지 [진리성]

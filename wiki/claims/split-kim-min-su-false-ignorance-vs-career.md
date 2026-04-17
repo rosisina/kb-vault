@@ -77,7 +77,7 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+김민수 stated 'How would I know that. The work happened before I arrived' (Records No. 11,055–11,056). However, the career record (Records No. 6,748/6,760/6,755) shows: stationed at MND Information Planning Division at the time of the 2016 hacking, and served as 국전원 development management team leader from 2015 to 2017 alongside 박성호. The false ignorance claim directly contradicts the career record.
 
 ## 핵심 요약 (Key Takeaways)
 - '내가 그걸 어떻게 아니'는 2016년 해킹 당시 국방부 재직을 보여주는 경력기록과 직접 모순 [진리성]

@@ -79,7 +79,13 @@ Per the Re-verify protocol (CLAUDE.md §Re-verify), the book is authoritative un
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Book §3.7.1.1 of *Beyond Cybersecurity* states: `"압수, 수색, 검증 영장에 대한 해명과 증명(2022.9.25., 기록 제5,393쪽~제5,577쪽)"` — the parenthetical `2022.9.25.` is an inline date attribution for the document that is the core of 한지훈's evidence-based rebuttal effort.
+
+The existing wiki atom `[[han-ji-hoon-rebuttal-rejected-by-eight-institutions]]` and the corresponding raw/05 source file use the date **2022-09-29** (the filename prefix `(20220929)` and all body text references). This creates a direct **2022-09-25 vs. 2022-09-29** discrepancy across two sources that describe the same document.
+
+Per the Re-verify protocol (CLAUDE.md §Re-verify), the book is authoritative unless verbatim content from directly-cited primary evidence disagrees. The raw/05 file is a primary source; its interior date (not just filename metadata) must be read before adjudicating. If the document's header or body carries `2022.9.25.`, the book is correct and the filename is a distribution-date artifact. If the body carries `2022.9.29.`, the book may contain a transcription error. A third possibility: `2022.9.25.` is the composition date and `2022.9.29.` is the submission or distribution date, which would make both accurate for different referents.
+
+**Adjudication resolved 2026-04-11:** The raw/05 `(20220929) Explanation and Proof...` document was read in full (3,811 lines). Its header, body, footer, and signature block contain NO printed date anywhere — the document does not self-date. The `(20220929)` prefix is therefore James's own filename-metadata convention (likely chosen as the date he submitted or saved the file), not a printed primary-source date. Under the Re-verify authority principle, the book (2022-09-25, §3.7.1.1) governs in the absence of directly-cited verbatim primary evidence. **The correct composition date is 2022-09-25.** The `han-ji-hoon-rebuttal-rejected-by-eight-institutions` parent atom should be updated to use 2022-09-25 in body text; the raw/05 file path reference `(20220929)` remains as-is since it is a filename and the file on disk is named with that string.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] Book §3.7.1.1 provides inline date `2022.9.25.` for the document cited as 기록 제5,393~5,577쪽 — this is the book's authoritative statement and is a direct date claim

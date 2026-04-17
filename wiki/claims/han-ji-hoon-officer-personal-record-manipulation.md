@@ -95,7 +95,14 @@ SET fr.layer = 2,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+한지훈's assignment was **changed twice without his knowledge** during his tenure at the Defense Information Agency. This is not a simple personnel manipulation, but:
+
+(a) **A mechanism for targeting 한지훈 as the victim of the 2016 DIDC North Korean hacking**
+(b) **A mechanism for shifting responsibility through assignment record manipulation**, maintained continuously as systemic evidence over a long period.
+
+This atom is the main thesis of §3.2.3 and the foundational atom for the "officer personal record manipulation" portion of Layer 2.
+
+**Accompanying observation**: All core New KIATIS project officers were naval officers — 이태호 (Evaluation-Chair-1) Navy Lieutenant Commander, 오현수 (Project-Officer-5) Captain, 이준호 (Conspirator-1) Captain. This is a pattern of intentional actor selection that is difficult to explain as routine HR.
 
 ## 층위 (Layer)
 [[../layers/layer-2|Layer 2]] (with cross-bridge to [[../layers/layer-5|Layer 5]] and [[../layers/layer-6|Layer 6]]) — Layer 2의 두 thesis 축 (① 사업 추진체계 조작, ② 장교 개인 자력 조작) 중 두 번째 축의 토대. 본 atom은 Layer 5 (허위 갑질 신고 후 6개월 격리 — 보직 조작과 격리는 동일 메커니즘) 와 Layer 6 (검찰 기소 시 한지훈의 직책 불일치 — [[layer5-fabricated-warning-letter|경고장 fabricated 직책]] atom이 직접 증명) 의 actor 토대로 작용한다.

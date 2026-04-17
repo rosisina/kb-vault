@@ -82,7 +82,7 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The Military Prosecutor's Office (criminal labeling through investigation), MND Information Planning Division (legal foundation through directive revision), KIDA (theoretical basis through research), DIDC (operating environment manipulation), DCIA (false harassment investigation), 국전원, Defense Counterintelligence Command, and other 7+ organizations each acted only within their own distinctive operational domains — creating a diffusion of responsibility structure where each can claim 'we only did our job' as a moral defense, while collectively executing a systematic cover-up.
 
 ## 핵심 요약 (Key Takeaways)
 - 7개 이상의 조직이 각자의 권한 영역 안에서 은폐의 한 조각을 담당 [진리성]

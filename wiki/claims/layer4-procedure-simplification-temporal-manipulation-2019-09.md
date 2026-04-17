@@ -86,7 +86,12 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+On 2019-09-02, MND Software Convergence Policy Officer 이지영 (공문결재자-1) and 김수진 (행정담당자-1) sent 'Request for Review of Information System Construction Test Evaluation Procedure Simplification Promotion Plan' (Records No. 2,853–2,858). Two temporal contradictions exist:
+
+1. **Simplification request on the day of test evaluation start**: Requesting simplification on the very start date of a test evaluation (2019-09-02 to 09-11) is logically impossible — intentional design to evade the approval role.
+2. **Time reversal**: The attached promotion plan report's date is '19.9.3 (Tue)' — one day after the document production date (9.2). This suggests retroactive fabrication during the Military Prosecutor's Office investigation period (January–October 2022).
+
+The clause 'if there is no response, it is deemed that you agree with the promotion plan' was a device to neutralize substantive test evaluation under the guise of formal procedural compliance.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 시험평가 시작일(2019-09-02)에 절차 간소화 요청을 발송한 사실은 기록 제2,853~2,858쪽에 기록되어 있다. The timing proves the request was not a genuine simplification effort but a device to neutralize the evaluation on its first day.

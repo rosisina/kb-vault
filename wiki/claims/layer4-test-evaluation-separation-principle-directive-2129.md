@@ -79,7 +79,12 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The test evaluation standard applied to the New KIATIS Performance Improvement Project is Defense Informatization Business Directive No. 2129 (2018-02-05), confirmed in both the RFP (Record No. 1,510) and the Military Prosecutor's Office's suspect interrogation transcript (Record No. 4,887).
+
+Key test evaluation provisions of Directive No. 2129:
+- **Article 57**: Divided into developmental test evaluation (led by project management agency, pass/fail) and operational test evaluation (led by project principal agency, military-adequate/inadequate)
+- **Article 58 ¶2**: Separation is the **principle**; simultaneous execution only **with project control authority approval**
+- **Article 62 ¶1**: The project principal agency establishes the OT&E plan reflecting the actual operating environment
 
 ## 핵심 요약 (Key Takeaways)
 - [타당성] 훈령 제2129호 제58조 ②항은 개발·운용 시험평가 **분리 원칙**을 명시하며, 통합 실시에는 **사업통제기관의 승인**이 필수적이다. Art. 58② mandates separation of dev/ops test-evaluation as the default; combination requires explicit approval from the project-control agency.

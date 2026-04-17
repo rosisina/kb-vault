@@ -73,7 +73,7 @@ KIATIS 성능개선사업 (6.25억 KRW, 2018–2019) is governed by 국방정보
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+KIATIS 성능개선사업 (6.25억 KRW, 2018–2019) is governed by 국방정보화업무 훈령 제2129호 제58조 ¶2 main regime. Under that regime, DT&E and OT&E must be conducted separately as the regulatory default, with integration permitted **only** by explicit written approval from the 사업통제기관 (here 국본 정보화기획관실). The project does not qualify for the 제58조 ¶3 5억-미만 exception, and therefore the 제58조 ¶4 simultaneous-execution permission does not apply.
 
 ## 핵심 요약 (Key Takeaways)
 - KIATIS 성능개선사업 contract value is 6.25억 KRW, above the 5억 threshold of 제2129호 제58조 ¶3 — foreclosing the 5억-미만 exception path [진리성]

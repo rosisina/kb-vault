@@ -90,7 +90,14 @@ SET fr.layer = 2,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+舊KIATIS servers were **server laundered** through the following path:
+
+1. **2007–2014**: Hosted in the Defense Information Agency (DCIA) basement
+2. **After 2014**: One hardware replacement (Oracle DB environment)
+3. **Cloud migration**: Transferred to DIDC Center 1 (Yongin) cloud cluster via the "Joint Internet Integrated Mail" infrastructure
+4. **VPN absence**: The early-stage RFP contained no VPN requirements whatsoever; VPN was only added later at the security policy stage
+
+This is not a simple cloud migration — it is a **mechanism for concealing the operational history** of a host system operated under internet exposure + Active-X + VPN absence. This server is the **attack surface at DIDC Center 1 that became the entry point for the 2016 DIDC North Korean hacking incident**.
 
 ## 층위 (Layer)
 [[../layers/layer-2|Layer 2]] (with Layer 1 cross-bridge) — Layer 2의 사업 추진체계 조작과 Layer 1의 DIDC 흔적 제거 간 **물리적 연결고리**를 구성하는 atom. 책 §3.2.2의 핵심 발견 중 하나로, 영문 변환본도 일부 내용은 보유하지만 핵심 attestation record (11,098 / 11,354) 와 footnote 113의 한지훈 능동적 방어 컨텍스트를 누락.

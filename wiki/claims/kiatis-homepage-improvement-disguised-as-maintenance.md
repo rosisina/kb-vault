@@ -80,7 +80,14 @@ SET fr.layer = 1,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The 'MND Homepage Improvement Project' conducted from 2016-09-26 to 2017-04-24 (7 months) had as its **core content the inspection of 10 major security vulnerability items**, but was recorded on the task card as **'MND Homepage Maintenance'** (Record No. 00,016) — a project (improvement) downgraded to maintenance.
+
+- Project period: 2016-09-26 to 2017-04-24 (7 months)
+- Core content: inspection of 10 major security vulnerability items
+- Task card description: 'MND Homepage Maintenance' — substantive project reclassified as maintenance
+- Temporal context: initiated within 10 days after the 2016 DIDC hacking incident
+
+The book notes in footnote 63: 'this would presumably be a follow-up measure to the 2016 DIDC North Korean hacking,' suggesting this project was a hacking response measure. Classifying a substantive security vulnerability inspection as 'maintenance' documentarily conceals the severity of the 2016 hacking incident.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] Record No. 16 (L1)의 과제카드에서 "국방부 홈페이지 유지보수"로 기재된 사업의 실제 내용은 보안 취약점 10대 항목 점검이었다. The task card classification directly contradicts the project's actual security remediation scope.

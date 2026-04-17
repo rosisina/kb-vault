@@ -84,7 +84,11 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The military prosecution characterized firewall port opening in the test evaluation environment as "obstruction of official duties by deception," but firewall port opening is **standard practice in the global IT industry**. Opening necessary ports in development and test environments for testing, then strengthening security in the operational stage, is the standard method used by all IT companies including Microsoft, Amazon, and Google. From 2019 to 2022, the same method was performed in 국전원's group chat and when handling failures.
+
+The military prosecution's technical ignorance is clearly evident in the reference witness statements, suspect interrogation transcripts, and the questionnaire provided by attorney 최동욱 (from Record No. 4,338 and Record No. 4,542) directed at 한지훈. These documents show a lack of accurate understanding of technical concepts such as firewalls, VPN, and database access.
+
+Prosecutor 임형규 himself stated "whether the program was well-made or not, whether technical completeness is high or not — that's not the issue," admitting that rather than being a technical problem, the logic that "firewall port opening is a problem" based on content the cartel fabricated 3 years later was accepted.
 
 ## 핵심 요약 (Key Takeaways)
 - Firewall port opening in development/test environments is universal IT standard practice (Microsoft, Amazon, Google, all enterprises) — the prosecution criminalized a routine technical operation [진리성].

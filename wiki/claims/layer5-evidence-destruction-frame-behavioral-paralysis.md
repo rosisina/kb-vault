@@ -70,7 +70,7 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+김민수 (핵심 의사결정자-1) achieved total behavioral paralysis by redefining all of 한지훈's legitimate actions (checking documents, contacting colleagues, reading books) as criminal acts through the speech act "be careful of evidence tampering." Three people were blocked from document access ("all three are forbidden from viewing"), and this was maintained even after the project had concluded.
 
 ## 핵심 요약 (Key Takeaways)
 - 김민수's single speech act ('watch out for evidence destruction') redefined ALL legitimate actions as criminal — achieving total behavioral paralysis [진리성]

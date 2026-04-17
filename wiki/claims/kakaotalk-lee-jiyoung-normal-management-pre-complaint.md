@@ -71,7 +71,7 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+On KakaoTalk, 이지영 conducted normal management activities during 2022-02-03–07 (3–7 days before the harassment complaint): confirming On-Nara actions completed, attending team chief meetings, submitting COVID reports. This directly contradicts the harassment complaint claiming workplace dysfunction — the work environment was functioning normally.
 
 ## 핵심 요약 (Key Takeaways)
 - 이지영's KakaoTalk activity 3-7 days before complaint shows normal supervisory functioning — no workplace dysfunction [진리성]

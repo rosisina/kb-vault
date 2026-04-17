@@ -82,7 +82,11 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Immediately after New KIATIS received a **99.7-point "Militarily Suitable" rating** in the September 2019 Developmental and Operational Test and Evaluation, the evaluation committee illegally voted on **80 additional requirements outside their authority** (Record No. 3,039). These 80 additional functional development demands were new features not specified in the original RFP, equivalent to over 50% of the original project scope and requiring a substantial additional portion of the project budget.
+
+The logical contradiction is clear: why would a system that passed with 99.7 points immediately need additional features equivalent to over 50% of the original project scope? The book's §3.6.5.1.1 (Propositions 06, 07) analyzes this contradiction as follows: to **transform a successful system into a failure** — i.e., intentional manipulation to block New KIATIS deployment, thereby preventing the 15-year security vulnerability of Legacy KIATIS (the origin of the 2016 DIDC North Korean hacking) from being revealed.
+
+Direct result of deployment delay: Deployment was continually postponed until 2022 on grounds that the additional 80 items were incomplete (confirmed by 박서준 (Lieutenant level)'s statements in February 2022, Records 11,322–11,345).
 
 ## 핵심 요약 (Key Takeaways)
 - 평가위원회의 80건 추가 요구사항 의결은 기록 제3,039쪽으로 문서 존재가 확인된다 [진리성]

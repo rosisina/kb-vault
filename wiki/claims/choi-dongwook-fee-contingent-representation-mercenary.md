@@ -78,7 +78,12 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Attorney 최동욱 set the receipt of his retainer fee as a **precondition for submitting the letter of retainer**, and presented a performance fee structure (880만원 at prosecution stage / 550만원 on non-prosecution).
+
+### Key Statement
+
+> **(최동욱, Recording 아 lines 8537–8542):**
+> "It's good that I'm being clear, but since the Elder is busy — first, **I need a remittance payment** before I can report to the Korean Bar Association and **submit the letter of attorney to the Prosecutor's Office — that's when I have the standing to speak**... **880 for the prosecution stage, taking just the 550 if non-prosecuted.**" 
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 수임료 입금을 선임계 제출의 전제조건으로 설정 — 피의자가 압수수색을 받은 긴급 상황에서 **돈이 먼저**. / Fee payment as prerequisite for filing representation — money before defense in an emergency.

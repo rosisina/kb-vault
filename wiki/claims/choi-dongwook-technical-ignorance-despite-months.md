@@ -70,7 +70,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Despite retaining 한지훈 for several months, attorney 최동욱 never grasped the technical substance of the case — the developmental vs. operational test evaluation distinction, role definitions in the Defense IT Operations Directive, or the VPN exclusion clause in the RFP. 한지훈: 'Elder, you have no idea what this is about... giving over 20 million won, and you don't know the content and can't make a judgment?' 최동욱 admitted he didn't even know what "산출물 (deliverables)" meant.
 
 ## 핵심 요약 (Key Takeaways)
 - Despite months of representation and 20M+ KRW fees, 최동욱 never learned basic case concepts — DT/OT distinction, 훈령 role definitions, RFP VPN exclusion [진리성]

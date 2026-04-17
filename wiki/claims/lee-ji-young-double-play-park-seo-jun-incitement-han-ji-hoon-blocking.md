@@ -88,7 +88,13 @@ SET fr.layer = 5, fr.claimType = "methodology",
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+이지영 (공문결재자-1) employed a differential speech strategy toward 박서준 and 한지훈 — a double play (§3.5.3.1.2).
+
+In evidence records from 2022-02-18, 이지영 induced 박서준 to file a complaint: "There's nothing like that — the director asked me to request the agency to file the complaint — she said that's not it — so it's in a state of being told to have the individual file it" (Record No. 11,063). She refused "agency-level complaint" (organizational responsibility) and directed "have the individual file it" — avoiding organizational responsibility and framing it as 박서준's individual complaint.
+
+Simultaneously, she used false attribution ("the Inspector General's Office told me not to discuss it") to block information to 한지훈. Her statement "same for both sides — same for Lieutenant 박 and same for Lieutenant Colonel 한" was false neutrality — in reality she was working closely with the Investigation Bureau and providing false testimony unfavorable to 한지훈.
+
+이지영's speech was clearly divided by target: to 박서준 — **directive** — "file an individual complaint"; to 한지훈 — **prohibition** — "don't tell either side"; to the Inspector General's Office — **coordination** — direct contact and advance preparation. Additionally, the KIATIS document transmission status between 국전원 and MND Prosecutor's/Investigation Bureau in '21–'22 (Table 3-5-3) shows 이지영, together with 박서준 (사업실무자-1), repeatedly appearing as the key approval authority for document receipt, production, and dispatch (Record No. 4,826), proving that the harassment complaint period and the prosecution investigation cooperation period overlap.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 이지영 directed 박서준 to file an individual complaint ("개인이 신청하는 걸로 해라") while blocking 한지훈 from information ("양측에 애기 말라"), constituting a directionally differentiated speech strategy documented in recording transcripts (Record No. 11,063). / 이지영은 녹취록에 기록된 대로 박서준에게는 개인 신고를 지시하고 한지훈에게는 정보를 차단하는 방향별 차별적 발화 전략을 구사했다.

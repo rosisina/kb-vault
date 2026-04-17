@@ -73,7 +73,7 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+On 2019-09-02–04, when 송민석 shared software development management training content on KakaoTalk, 한지훈 responded with "Thank you for the good information" (September 4). This shows that 한지훈 actively engaged with professional content — not that he didn't use the chat. The absence of attendance reports simply means there was nothing abnormal to report.
 
 ## 핵심 요약 (Key Takeaways)
 - 한지훈 responded to professional content in the chat during eval period — proves active chat usage, not absence [진리성]

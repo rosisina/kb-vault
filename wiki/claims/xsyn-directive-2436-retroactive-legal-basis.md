@@ -72,7 +72,7 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The prosecution's non-prosecution decision document (raw/05) cites Article 58 ¶4 to assert the legitimacy of DT/OT integration, but this 'integration principle' was only introduced in Directive No. 2436 (2020-06-04). The KIATIS test evaluation was conducted from 2019-09-02 to 09-11. The legal basis cited by the prosecution did not exist at the time of the conduct. The directive history (raw/04), prosecution documents (raw/05), and book analysis (raw/01 §3.4.7.3) from three independent sources triangulate confirmation of the same temporal contradiction.
 
 ## 핵심 요약 (Key Takeaways)
 - Prosecution cited a legal basis (제2436호 integration principle) that did not exist at the time of the alleged crime (2019.9) — temporal impossibility [타당성]

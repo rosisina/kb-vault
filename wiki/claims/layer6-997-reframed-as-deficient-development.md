@@ -80,7 +80,13 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The military prosecutors reframed New KIATIS — which received a 99.73-point "Militarily Suitable" rating — as "deficient development." This reframing consists of three layers of narrative manipulation:
+
+1. **Fabricating the origin of 80 additional requirements:** Treating the 80 items imposed post-hoc during the test evaluation period as if they were the original contract requirements to create an "unsatisfied" framing
+2. **Transferring responsibility for deployment delay:** The actual causes were DIDC's failure to provide VPN OTP (1.5 years), 국유단's data non-transfer, and GIS server budget non-inclusion (MND responsibility), but all attributed to the Development Management Team Chief's "deficient development"
+3. **Concealing GIS server budget:** MND/국유단's failure to include GIS server budget is the root cause of performance issues, but converted to developer fault
+
+Even the non-prosecution document itself admits: "KIATIS received 99.73 points in developmental and operational test evaluation and appears to largely satisfy the functions required in the RFP" (page 10) — creating a self-contradiction.
 
 ## 핵심 요약 (Key Takeaways)
 - The prosecution reframed a 99.73-point success as "deficient development" through triple narrative manipulation [진리성]

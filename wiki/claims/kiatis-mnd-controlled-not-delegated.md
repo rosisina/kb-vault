@@ -82,7 +82,7 @@ SET fr.layer = 2,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The New KIATIS Enhancement Project (contract value 625 million KRW, 2018–2019) is an **MND-controlled project** under Defense IT Operations Directive No. 2129 Article 10 ¶4 (projects related to information systems operated by MND = MND-controlled projects) and Article 11 ¶2 (the four core functions of the Project Control Agency are the exclusive duties of the MND Information Planning Division), and **cannot be subject to delegated project status**. Five independent grounds point to the same conclusion.
 
 ## 층위 (Layer)
 [[../layers/layer-2|Layer 2]] — 新KIATIS 사업 추진체계 및 장교 개인 자력 조작. 본 atom은 Layer 2의 **법적/구조적 토대 atom**으로, §3.2.1.1 정리01의 직접 근거이며, 이후의 모든 Layer 2 atom (PCA·PHA dual cap 조작, 단일 통제점 actor pattern, server laundering, 능동적 방어, 보직 조작) 이 이 토대 위에 구축된다.

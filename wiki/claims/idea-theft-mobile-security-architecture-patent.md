@@ -80,7 +80,9 @@ SET fr.layer = 3,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+한지훈 conducted research on mobile services for hacking response from his Army Headquarters posting in 2013, publishing 4 papers (Record No. 2,418, 12,066, 6,683 etc.), and based on this research wrote "Unit-Level Architecture Draft for Soldier Mobile Phone Security Control System" (2019-03-06, ver 1.6, Record No. 2,359–2,360) and reported it to the section chief.
+
+Subsequently, 한지훈 unintentionally overheard Section Chief 최영수 and Team Leader 배준호 (Team-Leader-1) discussing a patent application for this design. The first project budget was 2.59 billion KRW (Record No. 2,374, 2,377, 2,396, 2,399), and the project contractor was MarkAny.
 
 ## 핵심 요약 (Key Takeaways)
 - 한지훈's mobile security architecture (Record No. 2,359~2,360) was based on years of research including 4 published papers, one cited by US War College and NATO-affiliated institutions [진리성]

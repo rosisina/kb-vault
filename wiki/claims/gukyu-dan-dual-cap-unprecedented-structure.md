@@ -87,7 +87,15 @@ SET fr.layer = 2,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The "Dual Cap" structure in which 국유단 simultaneously served as both Project Control Agency and Project Lead Agency in the New KIATIS project — documented in the project plan (Record No. 1,131), project plan report (Record No. 1,140), and final RFP (Record No. 1,474) — is unprecedented in the history of defense informatization projects.
+
+**Comparative case:** The "Defense Organization Staffing Information System Enhancement Project" (2017-04–2019-01, Record No. 3,331, 6,753), conducted by the same division at the same time, followed the directive normally:
+- Project Control Agency: MND Information Planning Division
+- Project Lead Agency: MND Organization Management Division
+- Project Management Agency: Defense Information Agency
+- DT/OT separately approved
+
+Notably, the same MND Information Planning Division officers (Section Chief 이지영, Staff Officer 김수진) handled both projects — yet performed the four core functions normally for the organization staffing system project.
 
 ## 핵심 요약 (Key Takeaways)
 

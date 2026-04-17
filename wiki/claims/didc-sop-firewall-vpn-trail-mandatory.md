@@ -68,7 +68,7 @@ DIDC 부대예규 제12호 제37조 (방화벽 및 SSL-VPN 관리/운용) requir
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+DIDC 부대예규 제12호 제37조 (방화벽 및 SSL-VPN 관리/운용) requires that **every** firewall policy change (신규, 변경, 삭제) must be documented via 별지 제6호 서식 (방화벽 보안정책 요청서), **every** SSL-VPN account creation/change/deletion must be documented via 별지 제7호 서식 (SSL-VPN 계정 신청서), and **every** NAC policy change or exception must be documented via 별지 제8호 서식 (NAC 예외처리 요청서). Each form requires 각 센터 정보보호과장 (information protection section chief) approval. These three forms are the most security-critical auditable artifacts in the entire DIDC SOP because firewall, VPN, and NAC are the primary network-level defense mechanisms that any persistent attacker must navigate. **For the 2016 DIDC hacking incident, the attacker's persistence in the DIDC environment necessarily required either pre-existing firewall/VPN/NAC exceptions or post-incident exception removals, both of which should leave a paper trail under 제37조. The absence of such trails for the 2016 incident period is direct Layer 1 cover-up evidence.**
 
 ## 핵심 요약 (Key Takeaways)
 - DIDC 부대예규 제12호 제37조 ① requires every firewall policy change (신규/변경/삭제) to be filed via 별지 제6호 서식 and approved by 각 센터 정보보호과장 (raw/06/01 line 537) [타당성]

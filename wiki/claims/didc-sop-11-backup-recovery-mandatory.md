@@ -82,7 +82,21 @@ The absence of either preserved backups OR documented destruction is direct Laye
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+DIDC 부대예규 제11호 Chapter 8 (백업/복구관리, 제70~94조) imposes a **25-article backup management regime** that is the largest chapter in the entire DIDC SOP system. Key procedural requirements:
+
+- **제79조 백업정책 일정 수립** — backup schedule must be established as policy
+- **제81조 백업수행** — backups must be physically performed per schedule
+- **제84조 백업매체 소산** — backup media must be physically stored off-site (not in the same physical location as the source system)
+- **제85조 백업결과 확인 및 통보** — backup completion must be verified and reported
+- **제93조 백업 모니터링 결과 확인** — periodic monitoring of backup status
+- **제77조 매체 등록/변경/폐기 요청** — every backup medium's registration, modification, and **disposal** must be requested through procedure
+
+For the 2016 DIDC hacking incident period, the regime above means backups created before and during the incident must exist as physical media at off-site storage locations under DIDC's documented retention policy. **Two mutually exclusive possibilities follow, and both are testable:**
+
+1. **Backups exist** — they are physically retrievable from off-site storage and contain forensically valuable pre-tampering data of the breached systems. They are direct evidence of the 2016 incident state.
+2. **Backups have been destroyed or are missing** — in which case their destruction must itself be documented under 제77조 매체 폐기 procedures with proper authorization chain.
+
+The absence of either preserved backups OR documented destruction is direct Layer 1 cover-up evidence: the DIDC SOP regime structurally cannot produce a "backups simply don't exist" outcome that is procedurally compliant.
 
 ## 핵심 요약 (Key Takeaways)
 - DIDC 부대예규 제11호 Chapter 8 (백업/복구관리, 제70~94조) imposes a 25-article backup management regime — the largest chapter in the entire DIDC SOP system (raw/06/02 lines 107–134) [타당성]

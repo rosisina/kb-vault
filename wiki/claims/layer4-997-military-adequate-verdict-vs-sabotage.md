@@ -87,7 +87,14 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The New KIATIS test evaluation committee (ad hoc) rendered a **'military-adequate' determination with the high score of 99.7%** (Record No. 3,041). This was achieved under 한지훈's active project management, with 국유단 performance improvement TF practitioners (Record No. 1,073) participating as committee members.
+
+However, **the Defense Informatization Cartel's actual intent was the exact opposite**. A **dual strategy** simultaneously proceeded: publicly certifying success while internally engineering failure:
+
+1. **Success certification**: 99.7% score and 'military-adequate' determination = avoiding public criticism
+2. **Sabotage**: Excluding the development management team leader → imposing 80 additional requirements → manipulating directives → 'system installation' terminology manipulation → laying groundwork to reverse success into failure
+
+The cartel intentionally replicated in the New KIATIS test evaluation **the same environment** — '舊KIATIS VPN-absent direct DB access' — that was the primary cause of the DIDC hacking, then designed a trap to transfer responsibility for the environmental difference to 한지훈 individually through manipulated official communications and directives.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 99.7% '군사용 적합' 판정(Record No. 3,041)은 한지훈의 성공적 사업관리를 공식 인증하는 결정적 증거 — 군 검찰단과 개발업체도 인정. / The 99.7% 'military adequate' verdict (Record No. 3,041) is decisive evidence certifying Han Ji-hoon's successful project management — acknowledged by both prosecution and developer.

@@ -74,7 +74,7 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+한지훈's April 4, 2022 defense document and March 15, 2022 rebuttal arguments demonstrate through 9 categories of objective evidence that the false harassment complaint was an inversion of truth. The actual workplace harassment (unequal work distribution, responsibility transfer, human rights violations, psychological abuse, social isolation) was inflicted by 국전원 **onto** 한지훈, not by 한지훈 **onto** 박서준.
 
 ## 핵심 요약 (Key Takeaways)
 - 한지훈's 2022-04-04 소명서 and 2022-03-15 반박논증 documented 9 categories of objective evidence proving the real workplace abuse was perpetrated BY 국전원 AGAINST him [진리성]

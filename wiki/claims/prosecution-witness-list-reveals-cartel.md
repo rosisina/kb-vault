@@ -72,7 +72,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The list of personnel the military prosecutors summoned as reference witnesses is itself key evidence identifying cartel principals or co-conspirators. The prosecutor's statement on 2022.10.11 — "we called everyone who is relevant" (Record No. 11,162) — confirms this.
 
 ## 핵심 요약 (Key Takeaways)
 - 검찰 자신의 참고인 명단이 자기 고발적 — 소환된 인원들이 카르텔 주동자 또는 동조세력 (Record No. 11,162) [진리성]

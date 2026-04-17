@@ -70,7 +70,7 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The Military Prosecutor's Office, having inherited the results of Layer 4 manipulation, used them as tools for scapegoating in Layer 6. However, proving the Layer 4 manipulation automatically causes the Layer 6 prosecution to collapse — a self-trapping logic structure. The prosecution team becomes trapped in the very logic they themselves constructed.
 
 ## 핵심 요약 (Key Takeaways)
 - L4의 조작된 시험평가 결과를 L6 검찰이 범죄 증거로 재활용 [진리성]

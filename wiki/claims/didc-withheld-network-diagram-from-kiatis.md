@@ -77,7 +77,9 @@ DIDC는 "통합데이터센터 1센터 내 장비 비공개" 정책(기록 제2,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+Under a policy of 'non-disclosure of equipment within DIDC Center 1' (Record No. 2,311), DIDC did not provide 국전원 with the network diagram and security equipment information essential for New KIATIS test evaluation plan development. Network diagrams were absent for most of 국전원's other projects as well (Record No. 3,354 etc.).
+
+This proves that the Military Prosecutor's premise — 'team leader 한지훈 should have controlled and verified the test evaluation environment' — was physically impossible. With DIDC keeping the existence and configuration of security equipment (VPN, firewall, DB access control) undisclosed, it was impossible for the development management team leader to judge whether these systems were applied.
 
 ## 핵심 요약 (Key Takeaways)
 - DIDC's "equipment non-disclosure" policy (Record No. 2,311) made it physically impossible for 한지훈 to control or verify the test-evaluation security environment [진리성]

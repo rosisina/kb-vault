@@ -68,7 +68,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The prosecution used the manipulated directive (No. 2275, 2019.5.9) — which deleted 'under the auspices of the project sponsor agency' from the operational test evaluation definition — as the legal basis for indictment. This deletion was actually first introduced in No. 2436 (2020.6.4); its earlier appearance in No. 2275 is a time-reversal through directive laundering. Deleting 'under the auspices of the project sponsor agency' is the core manipulation that converts institutional responsibility into individual responsibility.
 
 ## 핵심 요약 (Key Takeaways)
 - Article 57(1)(2) was manipulated via the phantom directive 제2275호 to delete '사업주관기관 주관 하에' — erasing institutional accountability [타당성]

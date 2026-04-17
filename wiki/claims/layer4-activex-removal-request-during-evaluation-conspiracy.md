@@ -84,7 +84,14 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+During the New KIATIS test evaluation period, the ad hoc evaluation committee requested 'Active-X removal to be pursued by 국유단 during supervision results' (Records No. 5,950–5,953), and the 국유단 commander immediately approved (Record No. 3,068). The book (§3.4.6.3) characterizes this as 'execution of a scenario agreed upon in advance between the two organizations.'
+
+Three anomalies:
+1. **Immediate approval of new requirements during evaluation** — a new requirement raised and immediately approved during ongoing test evaluation is impossible under normal procedures, and is evidence of pre-planning.
+2. **Transfer of evaluation content from committee to 국유단** — undermines the essence of independent evaluation.
+3. **Dual nature of Active-X removal** — originally a New KIATIS project purpose, but used as a tool to conceal 舊KIATIS's security vulnerabilities.
+
+Book (§3.4.6.3) conclusion: The real reason for excluding the team leader and changing from separation to integration was to execute this pre-agreed scenario.
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] 평가위원회의 Active-X 제거 요청(기록 제5,950~5,953쪽)과 국유단장의 즉시 승인(기록 제3,068쪽)은 두 조직 간 사전 합의의 직접적 증거다. Instant approval during an ongoing evaluation is not coincidence but evidence of a pre-arranged script.

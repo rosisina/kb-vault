@@ -89,7 +89,14 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+All 'firewall policy application request' official communications processed by three project staff members (오현수, 지원호, 이준호) were for directly accessing the DB of 舊KIATIS (internet) and New KIATIS (defense network). This re-confirms the Layer 1 proof of 舊KIATIS's internet direct DB access without VPN, and simultaneously shows New KIATIS was also operated without VPN and ChakraMax DB access control until at least 2021-04-14.
+
+Key statements in suspect interrogation transcript:
+- 한지훈: '(구)체계는 15년 동안 DB에 직접 접속을 했습니다. VPN없이.' ("The old system accessed the DB directly for 15 years. Without VPN.") (Book Record Layer 4-002)
+- 장우진 (사업실무자-1): '우리(는) DB 직접 접속합니다' ("We do direct DB access") — consistent statement
+- SSL-VPN OTP requests for 9 weeks (2019-04-08 to 2019-05-21) subsequently disappeared
+
+Additionally, a 1-person approval communication by 박서준 (2022-02-18, Records No. 6,169 and 6,171) shows the direct DB access structure was still maintained in 2022.
 
 ## 핵심 요약 (Key Takeaways)
 - ALL firewall policy requests by the three project officers were for direct DB access without VPN — confirming Layer 1's 정리06 that 舊KIATIS operated on the internet without VPN for 15 years [진리성]

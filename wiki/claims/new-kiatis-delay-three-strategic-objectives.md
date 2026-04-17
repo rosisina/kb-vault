@@ -72,7 +72,7 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The intentional delay of New KIATIS deployment simultaneously achieves 3 major strategic objectives of the Defense Informatization Cartel: (1) Concealing the 2016 hacking truth — blocking replacement of Legacy KIATIS to secure the opportunity to destroy evidence; (2) Cyclical budget exploitation — repeating 'failure → additional budget' loop (625 million → 400 million → 390 million won); (3) Eliminating the Development Management Team Chief — framing 한지훈, who discovered the truth at the 2022-02-08 meeting, as the party responsible for 'development deficiency.'
 
 ## 핵심 요약 (Key Takeaways)
 - Deployment delay served three simultaneous cartel objectives: hacking concealment, cyclical budget embezzlement (6.25B→4B→3.9B), and team leader elimination [진리성]

@@ -75,7 +75,7 @@ SET fr.layer = 5,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+During the period 2022.2.3–14, 한지훈 sent 0 messages on KakaoTalk while other team members (이지영, 양미숙, 송민석, 박서준) showed normal activity. The digital-level isolation had already begun as early as February 3 — before the official harassment complaint (2.10) — potentially pushing the premeditated isolation start date from 2.10 back to early February.
 
 ## 핵심 요약 (Key Takeaways)
 - Zero messages from 한지훈 during Feb 3-14 while all other team members posted normally — digital isolation may have started BEFORE the formal complaint [진리성]

@@ -72,7 +72,7 @@ SET fr.layer = 3,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The MND intentionally separated server and software project management in the New KIATIS Enhancement Project (book §3.3.1.2). This separation created institutional space to exploit the separation between development test evaluation and operational test evaluation specified in Directive No. 2129 Article 58 'Test Evaluation Execution Principles' (Record No. 8,012). As accountability for the Project Control Agency was distributed (Record No. 8,086, 8,179), it became institutionally possible for 박성호 to exclude the test evaluation plan report in Layer 4 (Record No. 2,538) and manipulate the evaluation committee.
 
 ## 핵심 요약 (Key Takeaways)
 - MND intentionally separated server and SW project management in Layer 3 (§3.3.1.2) [진리성]

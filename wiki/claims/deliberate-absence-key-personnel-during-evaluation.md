@@ -78,7 +78,13 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+During the New KIATIS development and operational test evaluation period (2019-09-02 to 09-11), two key personnel were completely absent:
+
+1. **Staff member 윤도현** (舊KIATIS administrator): Completely absent for the entire test evaluation period on 'National Defense University training and summer leave.' Confirmed in the security countermeasures review official communication (2019-06-13, Record No. 2,276). When 한지훈 later asked 윤도현, he opened his notebook and remained tightly silent.
+
+2. **Administrative officer 송민석** (section team leader): National Defense University training from September 2 to 6 (Record No. 1,946). Exactly coincides with the first half of the test evaluation period.
+
+These two individuals were most knowledgeable about 舊KIATIS's internet operation facts. Their absence during the test evaluation period is judged to be intentional design to avoid questions about 舊KIATIS.
 
 ## 핵심 요약 (Key Takeaways)
 - The 舊KIATIS operational administrator (윤도현) was completely absent during the entire test evaluation period — timing too precise to be coincidental [진리성]

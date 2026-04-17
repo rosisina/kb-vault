@@ -92,7 +92,22 @@ SET fr.layer = 6,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+이태호 directly analyzed the **intentionality of selective amnesia** regarding 오현수's "I don't remember" statement in Recording 060 (2022.7.30):
+
+### Key Statement
+
+> **(이태호, lines 4069–4076):**
+> "He's choosing not to remember" → "**(He's selectively choosing not to remember)**" → "**Even if he does remember, since he won't testify, he's saying he doesn't remember.**"
+
+### Evidentiary Significance
+
+This statement is **meta-level** evidence — a former member of the same organization naming individual witnesses' "I don't remember" statements as not natural memory loss but an **intentional strategy**.
+
+This pattern repeats across multiple individuals:
+- **오현수**: "I don't remember"
+- **이태호 himself**: "My memory is hazy" (used selectively)
+- **이지영**: "I don't remember" (attendance-related)
+- **황만수**: "I truly don't know" (investigation awareness-related)
 
 ## 핵심 요약 (Key Takeaways)
 - [진리성] **"기억이 난다 치더라도 안 난다고 얘기하는거지"** — 조직적 기억상실 전략을 전임 팀장이 **메타 수준에서 명명**. 이것은 추측이 아닌 동일 조직에서 근무한 **내부자의 행동 패턴 인식**. / A predecessor from the same organization meta-names the selective amnesia strategy — insider behavioral pattern recognition.

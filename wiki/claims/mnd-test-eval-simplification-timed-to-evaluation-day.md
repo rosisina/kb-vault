@@ -83,7 +83,11 @@ SET fr.layer = 4,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+MND Software Convergence Policy Officer 이지영 (공문결재자-1) and 김수진 (행정담당자-1) produced and sent 'Request for Review of Information System Construction Test Evaluation Procedure Simplification Promotion Plan' on 2019-09-02 at 13:39:35 — **the very day New KIATIS test evaluation began** — (Record No. 2,853).
+
+Core content: elimination of 'test evaluation plan/result approval procedure' under Article 11 Paragraph 2. Contains a coercive consent clause: 'if there is no response, it is deemed that you agree with the promotion plan.'
+
+**Time-reversal phenomenon:** The attached promotion plan report's date is '소프트웨어 융합과, '19.9.3(화)' — one day after document production (9.2). Suggests retroactive fabrication in 2022. 국전원's administrative IT division, with On-Nara maintenance vendor (핸디소프트), is the only entity capable of this fabrication.
 
 ## 핵심 요약 (Key Takeaways)
 - The MND's test-evaluation simplification request was produced on the EXACT day KIATIS evaluation started (2019.9.2) — timing too precise to be coincidental [진리성]

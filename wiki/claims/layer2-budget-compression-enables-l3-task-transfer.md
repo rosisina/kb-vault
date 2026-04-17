@@ -72,7 +72,7 @@ SET fr.layer = 2,
 
 ### English
 
-<!-- pending: phase i18n-EN -->
+The software development budget for the New KIATIS Enhancement Project was set at 625 million KRW (Record No. 1,056, 1,074, 1,535), yet additional requirements for the development functions reached 80 items (Record No. 4,866–4,871). This budget-scope mismatch resulted from designing the hardware separation from a pure software development contract at the budgeting stage, and provided the structural cause for the forced redistribution of unfulfilled work to Layer 3 (§3.3.1.2 "Intentional Task Transfer").
 
 ## 핵심 요약 (Key Takeaways)
 - SW development budget fixed at 6.25억 (Record No. 1,056 / 1,074 / 1,535) against 80 additional requirements (Record No. 4,866~4,871) — structural mismatch [진리성]
