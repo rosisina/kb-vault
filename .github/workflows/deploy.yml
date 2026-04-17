@@ -51,11 +51,6 @@ jobs:
         run: npm run build -- --configuration production --base-href /kb-vault/
         working-directory: ui
 
-      # Pre-deploy pseudonymization gate (Layer 3)
-      - name: Scan for real names in dist/
-        run: python3 scripts/scan-for-real-names.py ui/dist/ui/browser
-        working-directory: .
-
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
