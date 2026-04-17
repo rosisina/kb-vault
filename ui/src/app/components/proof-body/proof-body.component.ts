@@ -147,7 +147,8 @@ export class ProofBodyComponent implements OnChanges {
     }
 
     // Compose answer when query arrives (wait for detail.json)
-    if (this.searchQuery) {
+    // Skip if already in guided mode — guided takes priority over answer
+    if (this.searchQuery && this.viewMode() !== 'guided') {
       if (this.graphData.detailLoaded()) {
         this.composeAndSetAnswer();
       } else {
