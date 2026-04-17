@@ -187,6 +187,10 @@ $shadow:     0 8px 32px rgba(0,0,0,.18);
       font-size: 13px; font-weight: 700; color: $text2;
       margin: 1.4em 0 .4em; text-transform: uppercase; letter-spacing: .3px;
     }
+    h5.pv-subhead5 {
+      font-size: 12px; font-weight: 600; color: $muted;
+      margin: 1.1em 0 .3em; letter-spacing: .2px;
+    }
     .record-link {
       cursor: pointer; color: $accent; font-weight: 500;
       border-bottom: 1px dashed rgba(255,111,0,.6);

@@ -194,7 +194,22 @@ export class DocumentViewerComponent implements OnInit, OnDestroy {
   renderBody(body: string): SafeHtml {
     let text = body;
 
+    // Strip TOC page-number dot-leaders (e.g. "Institutional Response…………………………1")
+    text = text.replace(/[.…·⋯]{3,}\s*\d+\s*$/gm, '');
+    // Strip orphaned bare section-number lines at start (e.g. "1.1.\n1.1.1.\n")
+    text = text.replace(/^(\d+(\.\d+)*\.?\s*\n)+/gm, '');
+
+    // Fix broken headings: "#### TITLE\n\nContinuation" (1-3 orphaned words) → merge back
+    // Covers PDF line-breaks that split a heading title across a blank line
+    text = text.replace(/^(#{3,6} .+)\n\n([A-Z][^\n]{0,40})$/gm, (m, heading, cont) => {
+      // Only merge if continuation looks like a title fragment (≤6 words, no sentence verb markers)
+      const wordCount = cont.trim().split(/\s+/).length;
+      const looksLikeSentence = /\bthe\b|\bwas\b|\bwere\b|\bhad\b|\bin\b|\bof\b|\ba\b/i.test(cont) && wordCount > 3;
+      return looksLikeSentence ? m : `${heading} ${cont}`;
+    });
+
     // Convert markdown headings before other processing
+    text = text.replace(/^##### (.+)$/gm, '§H5§$1§H5END§');
     text = text.replace(/^#### (.+)$/gm, '§H4§$1§H4END§');
     text = text.replace(/^### (.+)$/gm, '§H3§$1§H3END§');
 
@@ -210,9 +225,9 @@ export class DocumentViewerComponent implements OnInit, OnDestroy {
     // 1. Multiple blank lines → paragraph break
     text = text.replace(/\n{2,}/g, '§PARA§');
     // 2. \n before markdown-style headings → paragraph break
-    text = text.replace(/\n(§H[34]§)/g, '§PARA§$1');
+    text = text.replace(/\n(§H[345]§)/g, '§PARA§$1');
     // 3. Heading end → paragraph break
-    text = text.replace(/(§H[34]END§)\n?/g, '$1§PARA§');
+    text = text.replace(/(§H[345]END§)\n?/g, '$1§PARA§');
     // 4. \n before numbered list items (e.g. "3.1.1.2." or decimal numbers)
     text = text.replace(/\n(\d+\.)/g, '§PARA§$1');
     // 5. Single \n after sentence-ending punctuation followed by uppercase/Korean → paragraph break
@@ -222,6 +237,7 @@ export class DocumentViewerComponent implements OnInit, OnDestroy {
     // 7. Restore paragraph breaks as proper <p> tags
     text = '<p>' + text.replace(/§PARA§/g, '</p><p>') + '</p>';
     // 8. Restore headings
+    text = text.replace(/<p>§H5§(.+?)§H5END§<\/p>/g, '<h5 class="pv-subhead5">$1</h5>');
     text = text.replace(/<p>§H4§(.+?)§H4END§<\/p>/g, '<h4 class="pv-subhead">$1</h4>');
     text = text.replace(/<p>§H3§(.+?)§H3END§<\/p>/g, '<h3 class="pv-subhead3">$1</h3>');
     // 9. Clean up empty paragraphs and HR edge cases
