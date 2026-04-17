@@ -206,7 +206,7 @@
           @for (p of facets.persons.slice(0, 10); track p.value) {
             <button class="facet-btn" [class.active]="isFacetActive('person', p.value)"
                     (click)="setFacet('person', p.value)">
-              {{ p.value }} <span class="facet-count">{{ p.count }}</span>
+              {{ personDisplayName(p.value) }} <span class="facet-count">{{ p.count }}</span>
             </button>
           }
         </div>
@@ -219,7 +219,7 @@
           @for (o of facets.organizations; track o.value) {
             <button class="facet-btn" [class.active]="isFacetActive('organization', o.value)"
                     (click)="setFacet('organization', o.value)">
-              {{ o.value }} <span class="facet-count">{{ o.count }}</span>
+              {{ orgDisplayName(o.value) }} <span class="facet-count">{{ o.count }}</span>
             </button>
           }
         </div>
@@ -516,7 +516,7 @@
         <div class="group-header">
           <span class="material-icons group-icon">{{ group.icon }}</span>
           <h3 class="group-title">{{ group.label }}</h3>
-          <span class="group-count">{{ group.pairs.length }}건</span>
+          <span class="group-count">{{ group.pairs.length }}{{ lang.lang() === 'kr' ? '건' : '' }}</span>
           <span class="group-pct">{{ pct(group.corroboratedCount, group.totalCount) }}%</span>
         </div>
 

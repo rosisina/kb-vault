@@ -381,14 +381,31 @@ export class ProofBodyComponent implements OnChanges {
     this.facetChange.emit(null);
   }
 
+  personDisplayName(name: string): string {
+    return this.lang.personName(name);
+  }
+
+  orgDisplayName(name: string): string {
+    return this.lang.orgName(name);
+  }
+
   facetLabel(key: string, value: string): string {
-    const labels: Record<string, Record<string, string>> = {
+    if (this.lang.lang() === 'en') {
+      const en: Record<string, Record<string, string>> = {
+        fractureType: { 'F-SC': 'Self-Contradiction', 'F-CE': 'Counter-Evidence', 'F-MS': 'Manipulation Signal', 'F-SE': 'Selective Enforcement', 'F-AA': 'Absence Argument' },
+        sourceType: { book: 'Book', recording: 'Recording', regulation: 'Directive', investigation: 'Investigation', sop: 'SOP', kakao: 'KakaoTalk' },
+        strength: { STRONG: 'Strong', MODERATE: 'Moderate', WEAK: 'Weak' },
+        verdict: { CORROBORATED: 'Corroborated', WEAKENED: 'Weakened', NEEDS_MORE_EVIDENCE: 'Needs Evidence', UNFALSIFIABLE: 'Unfalsifiable' },
+      };
+      return en[key]?.[value] ?? value;
+    }
+    const kr: Record<string, Record<string, string>> = {
       fractureType: { 'F-SC': '자기모순', 'F-CE': '반증', 'F-MS': '조작 징후', 'F-SE': '선별 적용', 'F-AA': '부재 논증' },
       sourceType: { book: '책', recording: '녹취', regulation: '훈령', investigation: '수사', sop: '예규', kakao: '카톡' },
       strength: { STRONG: '강력', MODERATE: '보통', WEAK: '약함' },
       verdict: { CORROBORATED: '입증', WEAKENED: '약화', NEEDS_MORE_EVIDENCE: '추가증거필요', UNFALSIFIABLE: '반증불가' },
     };
-    return labels[key]?.[value] ?? value;
+    return kr[key]?.[value] ?? value;
   }
 
   onAtomClick(id: string): void {
@@ -623,13 +640,14 @@ export class ProofBodyComponent implements OnChanges {
 
   private updateBreadcrumb(): void {
     const parts: string[] = [];
+    const isEn = this.lang.lang() === 'en';
     if (this.searchQuery) {
       parts.push(`🔍 "${this.searchQuery}"`);
-      parts.push(`${this.searchResults.length}건`);
+      parts.push(isEn ? `${this.searchResults.length} results` : `${this.searchResults.length}건`);
     }
     if (this.activeLayer) {
       parts.push(`Layer ${this.activeLayer}`);
-      parts.push(this.layerNames[this.activeLayer] || '');
+      parts.push(isEn ? (this.layerNamesEn[this.activeLayer] || '') : (this.layerNames[this.activeLayer] || ''));
     }
     if (this.selectedAtom()) {
       parts.push(this.claimTypeService.getLabel(this.selectedAtom()!.claimType, this.lang.lang()));

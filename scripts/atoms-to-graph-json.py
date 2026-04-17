@@ -34,6 +34,7 @@ OUTPUT_GRAPH = REPO_ROOT / "output" / "graph.json"
 OUTPUT_STATS = REPO_ROOT / "output" / "graph-stats.json"
 TRANSLATIONS_FILE = REPO_ROOT / "scripts" / "translations-en.json"
 TRANSLATIONS_PATCH2 = REPO_ROOT / "scripts" / "translations-en-patch2.json"
+TRANSLATIONS_TITLE_PATCH = REPO_ROOT / "scripts" / "translations-title-patch.json"
 
 # ── Regex (all non-backtracking) ──────────────────────────────────────
 
@@ -114,6 +115,7 @@ def _extract_en_title(body: str) -> str:
 def _load_title_translations() -> dict:
     """Load titleEn overrides from translations files."""
     result: dict = {}
+    # Load from atoms-keyed files ({"atoms": {"id": {"titleEn": "..."}}})
     for path in (TRANSLATIONS_FILE, TRANSLATIONS_PATCH2):
         if not path.exists():
             continue
@@ -122,6 +124,15 @@ def _load_title_translations() -> dict:
             for aid, fields in data.get("atoms", {}).items():
                 if fields.get("titleEn"):
                     result[aid] = fields["titleEn"]
+        except Exception:
+            pass
+    # Load from title-patch file ({"titleEn": {"id": "..."}})
+    if TRANSLATIONS_TITLE_PATCH.exists():
+        try:
+            data = json.loads(TRANSLATIONS_TITLE_PATCH.read_text(encoding="utf-8"))
+            for aid, en in data.get("titleEn", {}).items():
+                if en:
+                    result[aid] = en
         except Exception:
             pass
     return result
@@ -283,11 +294,11 @@ def main() -> int:
         stem_to_id[stem] = result_id
         stem_to_idx[stem] = idx
 
-        # Extract relationships from ## Related
+        # Extract relationships from ## Related (or bilingual ## 관련 (Related))
         rels = []
         in_rel = False
         for line in body.split("\n"):
-            if line.startswith("## Related"):
+            if line.startswith("## Related") or line.startswith("## 관련"):
                 in_rel = True
                 continue
             if in_rel and line.startswith("## "):

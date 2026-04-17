@@ -83,7 +83,7 @@ type GraphMode = 'atom' | 'full';
             <select class="filter-select" (change)="onPersonChange($event)">
               <option value="">{{ lang.lang() === 'kr' ? '전체 인물' : 'All Persons' }}</option>
               @for (p of personList; track p) {
-                <option [value]="p">{{ p }}</option>
+                <option [value]="p">{{ personDisplayName(p) }}</option>
               }
             </select>
           </div>
@@ -177,7 +177,7 @@ export class GraphComponent implements OnInit, AfterViewInit, OnChanges, OnDestr
     { key: 'SUPERSEDES', label: 'SUPER', color: '#6a1b9a' },
     { key: 'RELATED', label: 'REL', color: '#9e9e9e' },
   ];
-  claimTypes = [
+  claimTypesKr = [
     { key: 'prosecution_misconduct', label: '검찰비위' },
     { key: 'document_fabrication', label: '문서위변조' },
     { key: 'evidence_concealment', label: '증거은폐' },
@@ -190,10 +190,28 @@ export class GraphComponent implements OnInit, AfterViewInit, OnChanges, OnDestr
     { key: 'technical_proof', label: '기술적증거' },
     { key: 'temporal_manipulation', label: '시간적조작' },
   ];
+  claimTypesEn = [
+    { key: 'prosecution_misconduct', label: 'Prosecution Misconduct' },
+    { key: 'document_fabrication', label: 'Document Fabrication' },
+    { key: 'evidence_concealment', label: 'Evidence Concealment' },
+    { key: 'regulatory_manipulation', label: 'Regulatory Manipulation' },
+    { key: 'testimony_evidence', label: 'Testimony Evidence' },
+    { key: 'conspiracy_structure', label: 'Conspiracy Structure' },
+    { key: 'human_rights_violation', label: 'Human Rights Violation' },
+    { key: 'procedural_violation', label: 'Procedural Violation' },
+    { key: 'institutional_obstruction', label: 'Institutional Obstruction' },
+    { key: 'technical_proof', label: 'Technical Proof' },
+    { key: 'temporal_manipulation', label: 'Temporal Manipulation' },
+  ];
+  get claimTypes() { return this.lang.lang() === 'en' ? this.claimTypesEn : this.claimTypesKr; }
+
   personList = [
     '한지훈', '김민수', '이지영', '이준호', '박성호', '김수진',
     '장우진', '이태호', '임형규', '안세준', '진상호', '양준승',
   ];
+  personDisplayName(name: string): string {
+    return this.lang.personName(name);
+  }
 
   private cy: Core | null = null;
 
@@ -206,7 +224,10 @@ export class GraphComponent implements OnInit, AfterViewInit, OnChanges, OnDestr
     if (this.focusAtomId) {
       this.mode.set('atom');
       const node = this.graphData.getNodeById(this.focusAtomId);
-      this.focusLabel.set(node?.title.slice(0, 50) ?? '');
+      const label = this.lang.lang() === 'en'
+        ? (node?.titleEn || node?.title || '')
+        : (node?.title || '');
+      this.focusLabel.set(label.slice(0, 50));
     }
   }
 
@@ -346,11 +367,12 @@ export class GraphComponent implements OnInit, AfterViewInit, OnChanges, OnDestr
       return;
     }
 
+    const isEn = this.lang.lang() === 'en';
     const elements: ElementDefinition[] = [
       ...nodes.map(n => ({
         data: {
           id: n.id,
-          label: n.title.slice(0, 50),
+          label: (isEn ? (n.titleEn || n.title) : n.title).slice(0, 50),
           layer: n.layer,
           color: LAYER_COLORS[n.layer] || '#999',
           isFocus: n.id === focusId,

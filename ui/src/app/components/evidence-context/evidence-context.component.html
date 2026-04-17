@@ -10,7 +10,11 @@
           : (lang.lang() === 'kr' ? 'Layer 요약' : 'Layer Summary') }}
       </div>
       <div class="overall-stats">
-        <span class="overall-count">{{ totalPairs() }}건 중 {{ totalCorroborated() }}건 입증</span>
+        <span class="overall-count">
+          {{ lang.lang() === 'kr'
+            ? totalPairs() + '건 중 ' + totalCorroborated() + '건 입증'
+            : totalCorroborated() + ' / ' + totalPairs() + ' corroborated' }}
+        </span>
       </div>
       <div class="progress-bar">
         <div class="progress-fill" [style.width.%]="overallPct()"></div>
@@ -202,13 +206,13 @@
       </div>
       @for (person of topPersons(); track person.name) {
         <div class="person-row person-clickable" (click)="onPersonClick(person.name)">
-          <span class="person-name">{{ person.name }}</span>
+          <span class="person-name">{{ lang.personName(person.name) }}</span>
           <div class="person-layers">
             @for (l of person.layers; track l) {
               <span class="person-layer-dot" [style.background]="'var(--aurora-layer-' + l + ')'"></span>
             }
           </div>
-          <span class="person-count">{{ person.count }}건</span>
+          <span class="person-count">{{ person.count }}{{ lang.lang() === 'kr' ? '건' : '' }}</span>
         </div>
       }
     </div>
