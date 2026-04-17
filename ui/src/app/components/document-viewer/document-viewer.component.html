@@ -1,0 +1,222 @@
+<!-- Aurora v2 — Annotated Evidence Reader (3-panel living document) -->
+<div class="pv-overlay" (click)="close.emit()">
+<div class="pv-modal" (click)="$event.stopPropagation()">
+
+  <!-- ══ 헤더 ══ -->
+  <div class="pv-header">
+    <div class="pv-header-left">
+      <button class="pv-back-btn" (click)="close.emit()" [title]="lang.lang() === 'kr' ? 'Aurora로 돌아가기' : 'Back to Aurora'">
+        <span class="material-icons">arrow_back</span>
+        <span class="back-label">{{ lang.lang() === 'kr' ? '돌아가기' : 'Back' }}</span>
+      </button>
+      <div class="pv-header-title">
+        <span class="pv-doc-title">{{ lang.lang() === 'kr' ? '사건 입증 논문' : 'Evidence Treatise' }}</span>
+        <span class="pv-doc-meta">Beyond Cybersecurity · Youngju, LEE · Nov 2025</span>
+      </div>
+    </div>
+    <div class="pv-header-center">
+      <!-- L1~L7 layer chips -->
+      <div class="layer-chips">
+        @for (l of allLayers; track l) {
+          <button class="layer-chip"
+                  [class.chip-active]="currentLayer() === l"
+                  [style.--lc]="layerColors[l]"
+                  (click)="jumpToLayer(l)"
+                  [title]="layerLabel(l)">
+            L{{ l }}
+          </button>
+        }
+      </div>
+    </div>
+    <div class="pv-header-right">
+      <div class="pv-search-wrap">
+        <span class="material-icons pv-search-icon">search</span>
+        <input class="pv-search" [value]="searchQuery()"
+               (input)="searchQuery.set($any($event.target).value)"
+               [placeholder]="lang.lang() === 'kr' ? '논문 내 검색...' : 'Search paper...'">
+        @if (searchQuery()) {
+          <button class="pv-search-clear" (click)="searchQuery.set('')">
+            <span class="material-icons">close</span>
+          </button>
+        }
+      </div>
+      <button class="pv-close-btn" (click)="close.emit()" title="ESC">
+        <span class="material-icons">close</span>
+      </button>
+    </div>
+  </div>
+
+  @if (paper(); as p) {
+    <div class="pv-body">
+
+      <!-- ══ 좌: TOC ══ -->
+      <nav class="pv-toc" [class.toc-closed]="!tocOpen()">
+        <button class="toc-toggle-btn" (click)="tocOpen.update(v => !v)">
+          <span class="material-icons">{{ tocOpen() ? 'menu_open' : 'menu' }}</span>
+          @if (tocOpen()) { <span>{{ lang.lang() === 'kr' ? '목차' : 'Contents' }}</span> }
+        </button>
+        @if (tocOpen()) {
+          <div class="toc-scroll">
+            @for (entry of p.toc; track entry.id) {
+              <button class="toc-entry"
+                      [class.toc-h1]="entry.level === 1"
+                      [class.toc-h2]="entry.level === 2"
+                      [class.toc-active]="activeSection() === entry.id"
+                      (click)="scrollTo(entry.id)">
+                @if (entry.layer) {
+                  <span class="toc-dot" [style.background]="layerColors[entry.layer]"></span>
+                }
+                <span class="toc-text">{{ entry.title | slice:0:48 }}{{ entry.title.length > 48 ? '…' : '' }}</span>
+              </button>
+            }
+          </div>
+        }
+      </nav>
+
+      <!-- ══ 중: 문서 본문 ══ -->
+      <article class="pv-content" (scroll)="onContentScroll($event)">
+
+        <!-- 커버 블록 -->
+        <div class="pv-cover">
+          <h1 class="pv-cover-title">Beyond Cybersecurity</h1>
+          <p class="pv-cover-subtitle">{{ p.subtitle }}</p>
+          <p class="pv-cover-author">{{ p.author }} · {{ p.date }}</p>
+          <div class="pv-cover-badge">
+            {{ lang.lang() === 'kr' ? '7층위 증명 체계 기반 논문' : '7-Layer Proof System Treatise' }}
+          </div>
+          <p class="pv-esc-hint">
+            <span class="material-icons" style="font-size:13px;vertical-align:middle">keyboard</span>
+            {{ lang.lang() === 'kr' ? 'ESC 키 또는 상단 [돌아가기] 버튼으로 Aurora로 복귀' : 'Press ESC or click [Back] to return to Aurora' }}
+          </p>
+        </div>
+
+        @if (searchQuery() && filteredSections().length === 0) {
+          <div class="pv-no-results">
+            <span class="material-icons">search_off</span>
+            {{ lang.lang() === 'kr' ? '검색 결과 없음' : 'No results found' }}
+          </div>
+        }
+
+        <!-- 섹션 렌더링 -->
+        @for (section of filteredSections(); track section.id) {
+          <div class="pv-section"
+               [id]="'pv-' + section.id"
+               [attr.data-section-id]="section.id"
+               [attr.data-section-layer]="section.layer ?? null"
+               [class.sec-l1]="section.level === 1"
+               [class.sec-l2]="section.level === 2"
+               [class.sec-l3]="section.level === 3">
+
+            <!-- 섹션 제목 (layer 도트 포함) -->
+            <div class="pv-section-head">
+              @if (section.layer) {
+                <button class="pv-layer-dot"
+                        [style.background]="layerColors[section.layer]"
+                        [title]="'Layer ' + section.layer + ' — ' + layerLabel(section.layer)"
+                        (click)="jumpToLayer(section.layer)">
+                  ●
+                </button>
+              }
+              @if (section.level === 1) { <h2>{{ section.title }}</h2> }
+              @if (section.level === 2) { <h3>{{ section.title }}</h3> }
+              @if (section.level === 3) { <h4>{{ section.title }}</h4> }
+            </div>
+
+            <!-- 본문 -->
+            @if (section.body) {
+              <div class="pv-section-body"
+                   [innerHTML]="renderBody(section.body)"
+                   (click)="handleBodyClick($event)">
+              </div>
+            }
+          </div>
+        }
+
+        <!-- 하단 복귀 안내 -->
+        <div class="pv-footer-nav">
+          <button class="pv-return-btn" (click)="close.emit()">
+            <span class="material-icons">arrow_back</span>
+            {{ lang.lang() === 'kr' ? 'Aurora 증명 체계로 돌아가기' : 'Return to Aurora Proof System' }}
+          </button>
+        </div>
+      </article>
+
+      <!-- ══ 우: 연관 atom 패널 ══ -->
+      <aside class="pv-atoms-panel">
+        @if (currentLayer(); as layer) {
+          <div class="atoms-layer-header" [style.border-color]="layerColors[layer]">
+            <span class="atoms-layer-badge" [style.background]="layerColors[layer]">L{{ layer }}</span>
+            <span class="atoms-layer-name">{{ layerLabel(layer) }}</span>
+          </div>
+          <div class="atoms-label">
+            {{ lang.lang() === 'kr' ? '관련 발견사항' : 'Related Findings' }}
+            <span class="atoms-count">({{ relatedAtoms().length }})</span>
+          </div>
+          <div class="atoms-list">
+            @for (atom of relatedAtoms(); track atom.id) {
+              <div class="atom-card"
+                   [class.atom-selected]="selectedAtom()?.id === atom.id"
+                   (click)="onAtomClick(atom)">
+                <div class="atom-card-top">
+                  <span class="atom-verdict" [class]="verdictClass(atom.verdict)">
+                    {{ verdictLabel(atom.verdict) }}
+                  </span>
+                </div>
+                <div class="atom-title">{{ atomTitle(atom) }}</div>
+                <button class="atom-goto" (click)="$event.stopPropagation(); navigateToAtom(atom.id)">
+                  <span class="material-icons">open_in_new</span>
+                  {{ lang.lang() === 'kr' ? '상세 보기' : 'View detail' }}
+                </button>
+              </div>
+            }
+          </div>
+        } @else {
+          <div class="atoms-empty">
+            <span class="material-icons">touch_app</span>
+            <p>{{ lang.lang() === 'kr'
+              ? '위의 L1~L7 칩을 클릭하거나\n해당 섹션으로 스크롤하면\n관련 발견사항이 표시됩니다'
+              : 'Click L1–L7 chips above\nor scroll to a layer section\nto see related findings' }}</p>
+          </div>
+        }
+
+        <!-- 선택된 atom 상세 -->
+        @if (selectedAtom(); as atom) {
+          <div class="atom-detail-card">
+            <div class="atom-detail-head">
+              <span class="atom-detail-badge" [style.background]="layerColors[atom.layer]">L{{ atom.layer }}</span>
+              <button class="atom-detail-close" (click)="selectedAtom.set(null)">
+                <span class="material-icons">close</span>
+              </button>
+            </div>
+            <p class="atom-detail-title">{{ atomTitle(atom) }}</p>
+            <button class="atom-detail-navigate" (click)="navigateToAtom(atom.id)">
+              <span class="material-icons">arrow_forward</span>
+              {{ lang.lang() === 'kr' ? 'Aurora에서 상세 보기' : 'View in Aurora' }}
+            </button>
+          </div>
+        }
+      </aside>
+
+    </div>
+  } @else {
+    <div class="pv-loading">
+      <span class="material-icons spin">refresh</span>
+      {{ lang.lang() === 'kr' ? '논문 로딩 중...' : 'Loading...' }}
+    </div>
+  }
+
+</div>
+</div>
+
+<!-- ══ Lightbox ══ -->
+@if (lightboxSrc(); as src) {
+  <div class="pv-lightbox" (click)="lightboxSrc.set(null)">
+    <div class="lightbox-inner" (click)="$event.stopPropagation()">
+      <button class="lightbox-close" (click)="lightboxSrc.set(null)">
+        <span class="material-icons">close</span>
+      </button>
+      <img class="lightbox-img" [src]="src" [alt]="lightboxAlt()">
+      <p class="lightbox-caption">{{ lightboxAlt() }}</p>
+    </div>
+  </div>
+}

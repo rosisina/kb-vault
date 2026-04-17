@@ -152,6 +152,25 @@
         }
       </div>
 
+      <!-- 5-1. 논문 원문 -->
+      <div class="chain-item"
+           (mouseenter)="hoveredTool.set('paper')"
+           (mouseleave)="hoveredTool.set(null)"
+           (click)="toolClick.emit('paper')">
+        <div class="chain-link">◇</div>
+        <div class="chain-content">
+          <span class="material-icons chain-icon">article</span>
+          <span class="chain-label">{{ lang.lang() === 'kr' ? '논문 원문' : 'Full Paper' }}</span>
+        </div>
+        @if (hoveredTool() === 'paper') {
+          <div class="chain-hover-card">
+            <p class="card-body">{{ lang.lang() === 'kr'
+              ? '7층위 증명 체계 원본 논문\n입증 기반 문서 — Beyond Cybersecurity'
+              : 'Original 7-layer treatise\nBeyond Cybersecurity (Nov 2025)' }}</p>
+          </div>
+        }
+      </div>
+
       <!-- 5. 사건 개요 (하위 탭 포함) -->
       <div class="chain-item chain-case"
            (mouseenter)="hoveredTool.set('case')"

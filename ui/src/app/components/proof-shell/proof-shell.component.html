@@ -137,4 +137,12 @@
     <app-about (close)="showAbout.set(false)" />
   }
 
+  <!-- Document Viewer 모달 -->
+  @if (showPaper()) {
+    <app-document-viewer
+      (close)="showPaper.set(false)"
+      (atomSelect)="showPaper.set(false); onAtomSelect($event); onToolClick('chain')"
+    />
+  }
+
 </div>

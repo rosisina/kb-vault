@@ -1,0 +1,342 @@
+// Aurora v2 — Annotated Evidence Reader SCSS (light theme, 3-panel)
+$text:       #212121;
+$text2:      #424242;
+$muted:      #757575;
+$bg:         #ffffff;
+$bg2:        #fafafa;
+$bg3:        #f5f5f5;
+$border:     #e0e0e0;
+$accent:     #ff6f00;
+$shadow:     0 8px 32px rgba(0,0,0,.18);
+
+// ══ Overlay + Modal frame ══
+.pv-overlay {
+  position: fixed; inset: 0; z-index: 1000;
+  background: rgba(0,0,0,.5);
+  display: flex; align-items: stretch; justify-content: center;
+  padding: 20px;
+  animation: pvFade .15s ease;
+}
+@keyframes pvFade { from { opacity: 0 } to { opacity: 1 } }
+
+.pv-modal {
+  background: $bg; border-radius: 10px;
+  width: 100%; max-width: 1200px;
+  display: flex; flex-direction: column;
+  overflow: hidden; box-shadow: $shadow;
+  animation: pvSlide .18s ease;
+}
+@keyframes pvSlide { from { transform: translateY(12px); opacity: 0 } to { transform: none; opacity: 1 } }
+
+// ══ Header ══
+.pv-header {
+  display: flex; align-items: center; gap: 12px;
+  padding: 10px 16px;
+  border-bottom: 1px solid $border;
+  background: $bg2; flex-shrink: 0;
+}
+.pv-header-left { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+.pv-back-btn {
+  display: flex; align-items: center; gap: 4px;
+  background: transparent; border: 1px solid $border;
+  border-radius: 6px; padding: 5px 10px; cursor: pointer;
+  color: $text2; font-size: 12px; font-weight: 500;
+  transition: all .12s;
+  .material-icons { font-size: 16px; }
+  &:hover { background: $accent; color: #fff; border-color: $accent; }
+}
+.back-label { font-size: 12px; }
+.pv-header-title { display: flex; flex-direction: column; }
+.pv-doc-title { font-size: 13px; font-weight: 600; color: $text; }
+.pv-doc-meta { font-size: 10px; color: $muted; }
+
+.pv-header-center { flex: 1; display: flex; justify-content: center; }
+
+// ── Layer chips ──
+.layer-chips { display: flex; gap: 4px; align-items: center; }
+.layer-chip {
+  padding: 3px 8px; border-radius: 4px; cursor: pointer;
+  font-size: 11px; font-weight: 600; border: 1.5px solid var(--lc);
+  background: transparent; color: var(--lc); transition: all .12s;
+  &:hover, &.chip-active {
+    background: var(--lc); color: #fff;
+  }
+}
+
+.pv-header-right { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+.pv-search-wrap {
+  display: flex; align-items: center; gap: 5px;
+  background: $bg; border: 1px solid $border;
+  border-radius: 6px; padding: 4px 8px;
+}
+.pv-search-icon { font-size: 15px; color: $muted; }
+.pv-search {
+  background: transparent; border: none; outline: none;
+  color: $text; font-size: 12px; width: 160px;
+  &::placeholder { color: $muted; }
+}
+.pv-search-clear {
+  background: transparent; border: none; cursor: pointer; padding: 0;
+  color: $muted; display: flex; align-items: center;
+  .material-icons { font-size: 14px; }
+  &:hover { color: $text; }
+}
+.pv-close-btn {
+  background: transparent; border: none; cursor: pointer; padding: 4px;
+  color: $muted; border-radius: 4px; display: flex; align-items: center;
+  .material-icons { font-size: 20px; }
+  &:hover { background: #ffebee; color: #c62828; }
+}
+
+// ══ 3-panel body ══
+.pv-body { display: flex; flex: 1; overflow: hidden; min-height: 0; }
+
+// ── TOC ──
+.pv-toc {
+  width: 220px; flex-shrink: 0;
+  border-right: 1px solid $border;
+  background: $bg3; display: flex; flex-direction: column;
+  transition: width .18s;
+  &.toc-closed { width: 42px; }
+}
+.toc-toggle-btn {
+  display: flex; align-items: center; gap: 6px;
+  padding: 10px 12px; cursor: pointer;
+  background: transparent; border: none; border-bottom: 1px solid $border;
+  font-size: 11px; font-weight: 600; color: $muted; text-transform: uppercase;
+  .material-icons { font-size: 17px; }
+  &:hover { color: $text; }
+}
+.toc-scroll { flex: 1; overflow-y: auto; padding: 6px 0; scrollbar-width: thin; }
+.toc-entry {
+  display: flex; align-items: center; gap: 5px;
+  width: 100%; text-align: left; background: transparent; border: none; cursor: pointer;
+  font-size: 11px; line-height: 1.35; padding: 5px 12px;
+  color: $muted; transition: all .1s;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  &:hover { color: $text; background: rgba(0,0,0,.04); }
+  &.toc-h1 { font-weight: 600; color: $text; }
+  &.toc-h2 { padding-left: 20px; }
+  &.toc-active { color: $accent; font-weight: 600; background: rgba(255,111,0,.07); border-left: 2px solid $accent; }
+}
+.toc-dot {
+  width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0;
+}
+.toc-text { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+// ── Document content ──
+.pv-content {
+  flex: 1; overflow-y: auto; padding: 36px 56px;
+  scroll-behavior: smooth; scrollbar-width: thin;
+  max-width: 860px;
+}
+
+.pv-cover {
+  text-align: center; padding: 24px 0 36px;
+  border-bottom: 2px solid rgba(255,111,0,.15);
+  margin-bottom: 40px;
+}
+.pv-cover-title { font-size: 24px; font-weight: 700; color: $text; margin: 0 0 10px; }
+.pv-cover-subtitle { font-size: 13px; color: $muted; max-width: 600px; margin: 0 auto 10px; line-height: 1.6; }
+.pv-cover-author { font-size: 12px; color: $muted; margin-bottom: 14px; }
+.pv-cover-badge {
+  display: inline-block; padding: 5px 16px; border-radius: 20px; margin-bottom: 14px;
+  background: rgba(255,111,0,.08); border: 1px solid rgba(255,111,0,.3);
+  font-size: 11px; font-weight: 600; color: $accent;
+}
+.pv-esc-hint { font-size: 10px; color: #bdbdbd; margin: 0; }
+
+.pv-no-results {
+  text-align: center; padding: 60px 0; color: $muted;
+  .material-icons { font-size: 36px; display: block; margin-bottom: 8px; }
+}
+
+// ── Section ──
+.pv-section { margin-bottom: 28px; }
+.sec-l1 { margin-top: 40px; padding-top: 16px; border-top: 1px solid $border; }
+.sec-l2 { margin-top: 24px; }
+.sec-l3 { margin-top: 16px; }
+
+.pv-section-head {
+  display: flex; align-items: baseline; gap: 8px; margin-bottom: 12px;
+  h2 { font-size: 18px; font-weight: 700; color: $text; margin: 0; flex: 1; }
+  h3 { font-size: 15px; font-weight: 600; color: $text2; margin: 0; flex: 1; }
+  h4 { font-size: 13px; font-weight: 600; color: $muted; margin: 0; flex: 1; text-transform: uppercase; letter-spacing: .4px; }
+}
+
+.pv-layer-dot {
+  width: 18px; height: 18px; border-radius: 50%; border: none; cursor: pointer;
+  font-size: 10px; line-height: 1; display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0; color: #fff; transition: transform .1s;
+  &:hover { transform: scale(1.25); }
+}
+
+.pv-section-body {
+  font-size: 14px; line-height: 1.85; color: $text2; word-break: break-word;
+
+  ::ng-deep {
+    p {
+      margin: 0 0 1.1em;
+      &:last-child { margin-bottom: 0; }
+    }
+    h3.pv-subhead3 {
+      font-size: 15px; font-weight: 700; color: $text;
+      margin: 1.6em 0 .5em; border-bottom: 1px solid $border; padding-bottom: 4px;
+    }
+    h4.pv-subhead {
+      font-size: 13px; font-weight: 700; color: $text2;
+      margin: 1.4em 0 .4em; text-transform: uppercase; letter-spacing: .3px;
+    }
+    h5.pv-subhead5 {
+      font-size: 12px; font-weight: 600; color: $muted;
+      margin: 1.1em 0 .3em; letter-spacing: .2px;
+    }
+    .record-link {
+      cursor: pointer; color: $accent; font-weight: 500;
+      border-bottom: 1px dashed rgba(255,111,0,.6);
+      padding: 0 2px; border-radius: 2px;
+      &:hover { background: rgba(255,111,0,.09); }
+    }
+    .md-hr { border: none; border-top: 1px solid $border; margin: 16px 0; }
+    img.paper-img {
+      max-width: 100%; height: auto; display: block;
+      margin: 20px auto 6px; border-radius: 6px; cursor: zoom-in;
+      border: 1px solid $border; box-shadow: 0 2px 8px rgba(0,0,0,.08);
+      transition: box-shadow .15s;
+      &:hover { box-shadow: 0 4px 16px rgba(0,0,0,.15); }
+    }
+    figcaption.paper-fig-caption {
+      text-align: center; font-size: 11px; color: $muted;
+      margin: 0 auto 20px; max-width: 720px;
+      font-style: italic;
+    }
+  }
+}
+
+.pv-footer-nav {
+  margin-top: 60px; padding: 24px 0; text-align: center;
+  border-top: 1px solid $border;
+}
+.pv-return-btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: $accent; color: #fff; border: none;
+  border-radius: 8px; padding: 10px 24px; cursor: pointer;
+  font-size: 14px; font-weight: 600; transition: opacity .12s;
+  .material-icons { font-size: 18px; }
+  &:hover { opacity: .9; }
+}
+
+// ── Right panel: Related atoms ──
+.pv-atoms-panel {
+  width: 260px; flex-shrink: 0;
+  border-left: 1px solid $border;
+  background: $bg3; display: flex; flex-direction: column;
+  overflow: hidden;
+}
+.atoms-layer-header {
+  display: flex; align-items: center; gap: 8px;
+  padding: 12px; border-bottom: 2px solid;
+  background: $bg2;
+}
+.atoms-layer-badge {
+  color: #fff; font-size: 11px; font-weight: 700;
+  padding: 2px 8px; border-radius: 10px;
+}
+.atoms-layer-name { font-size: 12px; font-weight: 600; color: $text; }
+.atoms-label {
+  padding: 8px 12px 4px; font-size: 10px; font-weight: 600;
+  text-transform: uppercase; color: $muted; letter-spacing: .5px;
+}
+.atoms-count { font-weight: 400; }
+.atoms-list { flex: 1; overflow-y: auto; padding: 4px 8px; scrollbar-width: thin; }
+
+.atom-card {
+  background: $bg; border: 1px solid $border; border-radius: 6px;
+  padding: 8px 10px; margin-bottom: 6px; cursor: pointer;
+  transition: all .12s;
+  &:hover { border-color: $accent; box-shadow: 0 1px 4px rgba(255,111,0,.15); }
+  &.atom-selected { border-color: $accent; background: rgba(255,111,0,.04); }
+}
+.atom-card-top { display: flex; align-items: center; gap: 4px; margin-bottom: 4px; }
+.atom-verdict {
+  font-size: 9px; font-weight: 700; padding: 1px 5px; border-radius: 3px;
+  &.v-corr { background: #e8f5e9; color: #2e7d32; }
+  &.v-weak { background: #fff8e1; color: #f57f17; }
+  &.v-nme  { background: #e3f2fd; color: #1565c0; }
+  &.v-unf  { background: #f3e5f5; color: #6a1b9a; }
+}
+.atom-title { font-size: 11px; line-height: 1.4; color: $text; margin-bottom: 6px; }
+.atom-goto {
+  display: flex; align-items: center; gap: 3px;
+  background: transparent; border: none; cursor: pointer;
+  color: $accent; font-size: 10px; padding: 0;
+  .material-icons { font-size: 12px; }
+  &:hover { text-decoration: underline; }
+}
+
+.atoms-empty {
+  flex: 1; display: flex; flex-direction: column; align-items: center;
+  justify-content: center; padding: 24px; text-align: center;
+  color: $muted;
+  .material-icons { font-size: 32px; margin-bottom: 10px; opacity: .5; }
+  p { font-size: 11px; line-height: 1.6; white-space: pre-line; }
+}
+
+.atom-detail-card {
+  border-top: 1px solid $border; padding: 12px;
+  background: $bg;
+}
+.atom-detail-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.atom-detail-badge {
+  color: #fff; font-size: 10px; font-weight: 700;
+  padding: 2px 8px; border-radius: 10px;
+}
+.atom-detail-close {
+  background: transparent; border: none; cursor: pointer; color: $muted; padding: 0;
+  .material-icons { font-size: 16px; }
+  &:hover { color: $text; }
+}
+.atom-detail-title { font-size: 12px; line-height: 1.5; color: $text; margin-bottom: 10px; }
+.atom-detail-navigate {
+  display: flex; align-items: center; gap: 4px; width: 100%;
+  background: $accent; color: #fff; border: none; border-radius: 6px;
+  padding: 7px 12px; cursor: pointer; font-size: 12px; font-weight: 600;
+  justify-content: center; transition: opacity .12s;
+  .material-icons { font-size: 14px; }
+  &:hover { opacity: .9; }
+}
+
+// ══ Loading ══
+.pv-loading {
+  flex: 1; display: flex; align-items: center; justify-content: center; gap: 8px;
+  color: $muted; font-size: 14px;
+}
+.spin { animation: spin 1s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+// ══ Lightbox ══
+.pv-lightbox {
+  position: fixed; inset: 0; z-index: 2000;
+  background: rgba(0,0,0,.88);
+  display: flex; align-items: center; justify-content: center;
+  animation: pvFade .12s ease;
+}
+.lightbox-inner {
+  position: relative; max-width: 90vw; max-height: 90vh;
+  display: flex; flex-direction: column; align-items: center;
+}
+.lightbox-close {
+  position: absolute; top: -36px; right: -4px;
+  background: transparent; border: none; cursor: pointer;
+  color: rgba(255,255,255,.8);
+  .material-icons { font-size: 28px; }
+  &:hover { color: #fff; }
+}
+.lightbox-img {
+  max-width: 90vw; max-height: 80vh; object-fit: contain;
+  border-radius: 4px; box-shadow: 0 8px 32px rgba(0,0,0,.5);
+}
+.lightbox-caption {
+  color: rgba(255,255,255,.7); font-size: 12px;
+  margin-top: 10px; text-align: center; max-width: 700px;
+}
