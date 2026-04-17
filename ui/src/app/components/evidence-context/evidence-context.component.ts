@@ -6,6 +6,7 @@ import { LanguageService } from '../../services/language.service';
 import { ClaimTypeService } from '../../services/claim-type.service';
 import { GraphNode, GraphEdge, AtomDetail, AtomRelated } from '../../models/graph.models';
 import { AtomTooltipDirective } from '../../directives/atom-tooltip.directive';
+import { LangTitlePipe } from '../../pipes/lang-title.pipe';
 import { QueryAnswer } from '../../models/query-answer.models';
 
 interface ContradictionPair {
@@ -21,7 +22,7 @@ interface GroupSummary {
   count: number;
   corroboratedPct: number;
   expanded: boolean;
-  atomTitles: { id: string; title: string; layer: number }[];
+  atomTitles: { id: string; title: string; titleEn?: string; layer: number }[];
 }
 
 interface PersonCount {
@@ -45,7 +46,7 @@ interface UnlinkedMention {
 @Component({
   selector: 'app-evidence-context',
   standalone: true,
-  imports: [AtomTooltipDirective],
+  imports: [AtomTooltipDirective, LangTitlePipe],
   templateUrl: './evidence-context.component.html',
   styleUrl: './evidence-context.component.scss',
 })
@@ -121,6 +122,10 @@ export class EvidenceContextComponent implements OnChanges {
     this.atomSelect.emit(id);
   }
 
+  slugToTitle(slug: string): string {
+    return slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+  }
+
   onRelatedClick(slug: string): void {
     const nodes = this.graphData.getNodes();
     const found = nodes.find(n => n.wikiSlug === slug || n.stem === slug);
@@ -179,6 +184,7 @@ export class EvidenceContextComponent implements OnChanges {
         atomTitles: ctPairs.map(p => ({
           id: p.source.id,
           title: p.source.title,
+          titleEn: p.source.titleEn,
           layer: p.source.layer,
         })),
       });

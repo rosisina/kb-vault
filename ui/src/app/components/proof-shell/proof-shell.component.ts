@@ -1,5 +1,6 @@
 // Aurora v2 — ProofShell: State A/B/C 전환
 import { Component, signal, computed, HostListener } from '@angular/core';
+import { SlicePipe } from '@angular/common';
 import { LandingViewComponent } from '../landing/landing.component';
 import { LayerNavigatorComponent } from '../layer-navigator/layer-navigator.component';
 import { ProofBodyComponent } from '../proof-body/proof-body.component';
@@ -28,6 +29,7 @@ interface ChatHistory {
     EvidenceContextComponent,
     GraphComponent,
     AboutComponent,
+    SlicePipe,
   ],
   templateUrl: './proof-shell.component.html',
   styleUrl: './proof-shell.component.scss',
@@ -46,7 +48,7 @@ export class ProofShellComponent {
   answerForContext = signal<QueryAnswer | null>(null);
 
   // CP-3: Navigation Trail (Obsidian stacked panes 개념)
-  navTrail = signal<Array<{ id: string; title: string; layer: number }>>([]);
+  navTrail = signal<Array<{ id: string; title: string; titleEn?: string; layer: number }>>([]);
 
   // 미니 프리뷰 (우측 패널 클릭 → 중앙 하단 프리뷰)
   previewAtomId = signal<string | null>(null);
@@ -99,7 +101,7 @@ export class ProofShellComponent {
       const trail = this.navTrail();
       // Avoid duplicate at tail
       if (trail.length === 0 || trail[trail.length - 1].id !== atomId) {
-        const entry = { id: node.id, title: node.title, layer: node.layer };
+        const entry = { id: node.id, title: node.title, titleEn: node.titleEn, layer: node.layer };
         this.navTrail.set([...trail.slice(-19), entry]); // cap at 20
       }
     }

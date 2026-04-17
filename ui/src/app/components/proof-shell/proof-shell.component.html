@@ -29,7 +29,7 @@
                     [style.--trail-layer-color]="'var(--aurora-layer-' + item.layer + ')'"
                     (click)="onTrailClick(item.id)">
               <span class="trail-dot" [style.background]="'var(--aurora-layer-' + item.layer + ')'"></span>
-              <span class="trail-text">{{ item.title.length > 40 ? item.title.slice(0, 40) + '...' : item.title }}</span>
+              <span class="trail-text">{{ (lang.lang() === 'en' ? (item.titleEn || item.title) : item.title) | slice:0:40 }}{{ (lang.lang() === 'en' ? (item.titleEn || item.title) : item.title).length > 40 ? '...' : '' }}</span>
             </button>
             @if (!last) {
               <span class="trail-sep">›</span>

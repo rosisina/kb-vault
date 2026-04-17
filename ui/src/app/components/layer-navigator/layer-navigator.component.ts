@@ -21,11 +21,11 @@ import { LanguageService } from '../../services/language.service';
         <button
           class="layer-btn"
           [class.active]="layer.num === activeLayer"
-          [title]="layer.tooltip"
+          [title]="lang.lang() === 'kr' ? layer.tooltip : layer.tooltipEn"
           (click)="layerSelect.emit(layer.num)">
           <span class="layer-num" [style.color]="layer.color">{{ layer.num }}</span>
           <span class="layer-indicator" [style.background]="layer.color"></span>
-          <span class="layer-title">{{ layer.shortName }}</span>
+          <span class="layer-title">{{ lang.lang() === 'kr' ? layer.shortName : layer.shortNameEn }}</span>
         </button>
       }
     </nav>
@@ -125,13 +125,34 @@ export class LayerNavigatorComponent {
   constructor(public lang: LanguageService) {}
 
   // 1→7 순서: 시간순, 서사적 흐름
-  layers = [
-    { num: 1, color: '#b71c1c', shortName: 'Active-X · 舊KIATIS', tooltip: 'DIDC 해킹 근원서버 은폐의 출발점 — Active-X 제거 사업 간 舊KIATIS 이력 제거' },
-    { num: 2, color: '#e65100', shortName: '新KIATIS 추진체계 조작', tooltip: '新KIATIS 사업 추진체계 및 장교 개인 자력 조작' },
-    { num: 3, color: '#f57f17', shortName: '국전원 · 사업관리', tooltip: '국방정보화카르텔 공모 구조 — 국전원 전속 후 SW개발사업관리 착수·종결' },
-    { num: 4, color: '#1b5e20', shortName: '新KIATIS 시험평가 조작', tooltip: '표적수사 설계의 기반 — 新KIATIS 개발·운영·시험평가 전·중·후 조작' },
-    { num: 5, color: '#0d47a1', shortName: '허위 갑질 · 조작 감사', tooltip: '한지훈 중령 인권침해·고립화 — 허위 갑질 신고와 조사본부의 조작 감사' },
-    { num: 6, color: '#4a148c', shortName: '군 검찰단 사기 수사', tooltip: '증거 인멸·문서 조작 — 군 검찰단의 사기 수사와 범죄자 낙인' },
-    { num: 7, color: '#880e4f', shortName: '진정서 · 기소유예', tooltip: '국방부의 지속적 범죄 정당화 — 진정서 제출·수사 촉구 후 기소유예' },
+  layers: { num: number; color: string; shortName: string; shortNameEn: string; tooltip: string; tooltipEn: string }[] = [
+    { num: 1, color: '#b71c1c',
+      shortName: 'Active-X · 舊KIATIS', shortNameEn: 'Active-X · Legacy KIATIS',
+      tooltip: 'DIDC 해킹 근원서버 은폐의 출발점 — Active-X 제거 사업 간 舊KIATIS 이력 제거',
+      tooltipEn: 'Starting point of DIDC hack server concealment — Legacy KIATIS history deleted during Active-X removal project' },
+    { num: 2, color: '#e65100',
+      shortName: '新KIATIS 추진체계 조작', shortNameEn: 'New KIATIS Structure Manipulation',
+      tooltip: '新KIATIS 사업 추진체계 및 장교 개인 자력 조작',
+      tooltipEn: 'New KIATIS procurement structure and officer career record manipulation' },
+    { num: 3, color: '#f57f17',
+      shortName: '국전원 · 사업관리', shortNameEn: 'DCIA Transfer · SW Management',
+      tooltip: '국방정보화카르텔 공모 구조 — 국전원 전속 후 SW개발사업관리 착수·종결',
+      tooltipEn: 'Defense IT cartel conspiracy — SW development management manipulation after DCIA transfer' },
+    { num: 4, color: '#1b5e20',
+      shortName: '新KIATIS 시험평가 조작', shortNameEn: 'New KIATIS T&E Manipulation',
+      tooltip: '표적수사 설계의 기반 — 新KIATIS 개발·운영·시험평가 전·중·후 조작',
+      tooltipEn: 'Foundation for targeted prosecution — New KIATIS test & evaluation manipulated before, during, and after' },
+    { num: 5, color: '#0d47a1',
+      shortName: '허위 갑질 · 조작 감사', shortNameEn: 'False Harassment · Fabricated Audit',
+      tooltip: '한지훈 중령 인권침해·고립화 — 허위 갑질 신고와 조사본부의 조작 감사',
+      tooltipEn: 'Human rights violations against Lt. Col. Han — false harassment complaints and fabricated audit' },
+    { num: 6, color: '#4a148c',
+      shortName: '군 검찰단 사기 수사', shortNameEn: 'Military Prosecution Fraud',
+      tooltip: '증거 인멸·문서 조작 — 군 검찰단의 사기 수사와 범죄자 낙인',
+      tooltipEn: 'Evidence destruction and document fabrication — fraudulent military prosecution and criminal branding' },
+    { num: 7, color: '#880e4f',
+      shortName: '진정서 · 기소유예', shortNameEn: 'Petition · Prosecutorial Deferral',
+      tooltip: '국방부의 지속적 범죄 정당화 — 진정서 제출·수사 촉구 후 기소유예',
+      tooltipEn: 'MND ongoing legitimization of crime — prosecutorial deferral despite petitions and investigation demands' },
   ];
 }

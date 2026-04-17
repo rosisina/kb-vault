@@ -6,9 +6,10 @@ import { LanguageService } from '../../services/language.service';
 import { ClaimTypeService } from '../../services/claim-type.service';
 import { QueryAnswerService } from '../../services/query-answer.service';
 import {
-  GraphNode, GraphEdge, AtomDetail, ProofChain, ChainNode,
+  GraphNode, GraphEdge, AtomDetail, ProofChain, ChainNode, AtomRelated,
 } from '../../models/graph.models';
 import { AtomTooltipDirective } from '../../directives/atom-tooltip.directive';
+import { LangTitlePipe } from '../../pipes/lang-title.pipe';
 import { QueryAnswer, ScoredAtom, ChainSummary, RelatedAtomEntry, ThematicGroup } from '../../models/query-answer.models';
 import { AsAnyPipe } from '../../pipes/as-any.pipe';
 
@@ -32,7 +33,7 @@ export interface ClaimGroup {
 @Component({
   selector: 'app-proof-body',
   standalone: true,
-  imports: [AtomTooltipDirective, AsAnyPipe],
+  imports: [AtomTooltipDirective, AsAnyPipe, LangTitlePipe],
   templateUrl: './proof-body.component.html',
   styleUrl: './proof-body.component.scss',
 })
@@ -94,6 +95,16 @@ export class ProofBodyComponent implements OnChanges {
     7: '진정서 · 기소유예',
   };
 
+  layerNamesEn: Record<number, string> = {
+    1: 'Active-X Removal · Legacy KIATIS History Deletion',
+    2: 'New KIATIS Procurement Structure Manipulation',
+    3: 'DCIA Transfer · SW Development Management',
+    4: 'New KIATIS Test & Evaluation Manipulation',
+    5: 'False Harassment Reports · Fabricated Audit',
+    6: 'Military Prosecution Fraud · Criminal Stigma',
+    7: 'Petition Submissions · Prosecutorial Deferral',
+  };
+
   layerProves: Record<number, string> = {
     1: 'Active-X 제거 사업으로 舊KIATIS 이력을 삭제하여 해킹 근원서버를 은폐한 구조',
     2: '新KIATIS 사업 추진체계를 조작하고 장교 개인 경력을 허위 편성한 구조',
@@ -102,6 +113,16 @@ export class ProofBodyComponent implements OnChanges {
     5: '허위 갑질 신고와 조작 감사를 통해 한지훈 중령을 인권침해·고립화한 구조',
     6: '군 검찰단이 증거를 인멸하고 문서를 조작하여 한지훈을 범죄자로 낙인찍은 구조',
     7: '진정서 제출·수사 촉구에도 기소유예로 범죄를 정당화하고 지속한 구조',
+  };
+
+  layerProvesEn: Record<number, string> = {
+    1: 'How the Active-X removal project deleted Legacy KIATIS history to conceal the hacking origin server',
+    2: 'How the New KIATIS procurement structure was manipulated and officer career records were falsified',
+    3: 'How post-transfer SW development management was manipulated to execute the defense IT cartel conspiracy',
+    4: 'How New KIATIS test evaluations were manipulated before, during, and after — laying the groundwork for targeted prosecution',
+    5: 'How false harassment complaints and fabricated audits were used to isolate and harm Lt. Col. Han Ji-hoon',
+    6: 'How the Military Prosecution destroyed evidence and fabricated documents to brand Han Ji-hoon as a criminal',
+    7: 'How the MND used prosecutorial deferral to legitimize and perpetuate the cover-up despite petitions and investigation demands',
   };
 
   constructor(
@@ -237,11 +258,18 @@ export class ProofBodyComponent implements OnChanges {
   }
 
   fractureLabelShort(type: string): string {
-    const labels: Record<string, string> = {
+    if (this.lang.lang() === 'en') {
+      const en: Record<string, string> = {
+        'F-SC': 'Self-Contradiction', 'F-CE': 'Counter-Evidence', 'F-MS': 'Manipulation Signal',
+        'F-SE': 'Selective Enforcement', 'F-AA': 'Absence Argument',
+      };
+      return en[type] || type;
+    }
+    const kr: Record<string, string> = {
       'F-SC': '자기모순', 'F-CE': '반증', 'F-MS': '조작 징후',
       'F-SE': '선별 적용', 'F-AA': '부재 논증',
     };
-    return labels[type] || type;
+    return kr[type] || type;
   }
 
   // CP-3.3: Layer cross-links and fractures
@@ -405,6 +433,18 @@ export class ProofBodyComponent implements OnChanges {
     const nodes = this.graphData.getNodes();
     const found = nodes.find(n => n.stem === slug || n.wikiSlug === slug);
     return found?.id ?? '';
+  }
+
+  getRelatedTitle(rel: AtomRelated): string {
+    const nodes = this.graphData.getNodes();
+    const node = nodes.find(n => n.stem === rel.slug || n.wikiSlug === rel.slug);
+    if (node) {
+      return this.lang.lang() === 'kr' ? node.title : (node.titleEn || node.title);
+    }
+    if (this.lang.lang() === 'en') {
+      return rel.slug.split('-').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+    }
+    return rel.display || rel.slug;
   }
 
   getAnswerLayers(ans: QueryAnswer): number[] {

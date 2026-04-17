@@ -36,7 +36,7 @@
       @for (item of answerContext.directResults.slice(0, 8); track $index) {
         <div class="answer-ctx-item" (click)="onAtomClick(item.node.id)">
           <span class="layer-dot" [style.background]="'var(--aurora-layer-' + item.node.layer + ')'"></span>
-          <span class="ctx-title">{{ item.node.title }}</span>
+          <span class="ctx-title">{{ item.node | langTitle }}</span>
         </div>
       }
       <!-- 관련 atom (CORROBORATES/OPPOSES) -->
@@ -45,7 +45,7 @@
         @for (r of answerContext.corroboratingResults.slice(0, 3); track $index) {
           <div class="answer-ctx-item" (click)="onAtomClick(r.node.id)">
             <span class="layer-dot" [style.background]="'var(--aurora-layer-' + r.node.layer + ')'"></span>
-            <span class="ctx-title">{{ r.node.title }}</span>
+            <span class="ctx-title">{{ r.node | langTitle }}</span>
           </div>
         }
       }
@@ -54,7 +54,7 @@
         @for (r of answerContext.opposingResults.slice(0, 3); track $index) {
           <div class="answer-ctx-item" (click)="onAtomClick(r.node.id)">
             <span class="layer-dot" [style.background]="'var(--aurora-layer-' + r.node.layer + ')'"></span>
-            <span class="ctx-title">{{ r.node.title }}</span>
+            <span class="ctx-title">{{ r.node | langTitle }}</span>
           </div>
         }
       }
@@ -74,7 +74,7 @@
         <span class="layer-chip" [style.background]="'var(--aurora-layer-' + atom.layer + ')'">
           L{{ atom.layer }}
         </span>
-        <span class="relation-atom-title">{{ atom.title }}</span>
+        <span class="relation-atom-title">{{ atom | langTitle }}</span>
       </div>
 
       @for (group of relationGroups(); track group.type) {
@@ -92,7 +92,7 @@
                 <span class="layer-dot" [style.background]="'var(--aurora-layer-' + item.node.layer + ')'"></span>
                 <span class="rel-layer">L{{ item.node.layer }}</span>
               }
-              <span class="rel-title">{{ item.display }}</span>
+              <span class="rel-title">{{ item.node ? (item.node | langTitle) : (lang.lang() === 'en' ? slugToTitle(item.slug) : item.display) }}</span>
             </div>
           }
         </div>
@@ -144,7 +144,7 @@
               {{ item.reason === 'record' ? 'Record' : 'Person' }}
             </span>
           </div>
-          <span class="unlinked-title">{{ item.node.title }}</span>
+          <span class="unlinked-title">{{ item.node | langTitle }}</span>
           <div class="unlinked-shared">
             @for (key of item.sharedKeys.slice(0, 3); track key; let last = $last) {
               <span class="shared-tag">{{ key }}</span>
@@ -183,7 +183,7 @@
                 @for (atom of group.atomTitles; track atom.id) {
                   <div class="group-item" (click)="onAtomClick(atom.id)">
                     <span class="toc-dot" [style.background]="'var(--aurora-layer-' + atom.layer + ')'"></span>
-                    <span class="item-text">{{ atom.title }}</span>
+                    <span class="item-text">{{ lang.lang() === 'kr' ? atom.title : (atom.titleEn || atom.title) }}</span>
                   </div>
                 }
               </div>

@@ -18,11 +18,11 @@
         <span class="layer-badge" [style.background]="'var(--aurora-layer-' + activeLayer + ')'">
           L{{ activeLayer }}
         </span>
-        <h2 class="layer-title">{{ layerNames[activeLayer] }}</h2>
+        <h2 class="layer-title">{{ lang.lang() === 'kr' ? layerNames[activeLayer] : layerNamesEn[activeLayer] }}</h2>
       </div>
       <p class="layer-proves">
         {{ lang.lang() === 'kr' ? '이 층위에서 증명하는 것:' : 'What this layer proves:' }}
-        "{{ layerProves[activeLayer] }}"
+        "{{ lang.lang() === 'kr' ? layerProves[activeLayer] : layerProvesEn[activeLayer] }}"
       </p>
       <div class="layer-stats">
         <span class="stat">{{ groupCount() }}{{ lang.lang() === 'kr' ? '개 유형' : ' types' }}</span>
@@ -65,7 +65,7 @@
           @for (frac of layerFractures().slice(0, 3); track frac.id) {
             <div class="fracture-item" (click)="onAtomClick(frac.id)">
               <span class="fracture-badge" [attr.data-type]="(frac | asAny).fractureType">{{ fractureLabelShort((frac | asAny).fractureType) }}</span>
-              <span class="fracture-title">{{ frac.title }}</span>
+              <span class="fracture-title">{{ frac | langTitle }}</span>
               <span class="verdict-badge verdict-{{ frac.verdict.toLowerCase() }}">{{ frac.strength }}</span>
             </div>
           }
@@ -260,7 +260,7 @@
             </span>
             <span class="verdict-badge verdict-{{ frac.verdict.toLowerCase() }}">{{ frac.strength }}</span>
           </div>
-          <h4 class="guided-step-title" (click)="guidedIndex.set(i); onAtomClick(frac.id)">{{ frac.title }}</h4>
+          <h4 class="guided-step-title" (click)="guidedIndex.set(i); onAtomClick(frac.id)">{{ frac | langTitle }}</h4>
 
           @if (i === guidedIndex()) {
             @if (guidedCurrentDetail(); as detail) {
@@ -318,7 +318,7 @@
           <span class="strength">{{ selectedAtom()?.strength }}</span>
         </div>
 
-        <h3 class="atom-title">{{ detail.title }}</h3>
+        <h3 class="atom-title">{{ lang.lang() === 'kr' ? detail.title : (selectedAtom()?.titleEn || detail.title) }}</h3>
 
         <!-- 3축 점수 (hover tooltip 포함) -->
         <div class="truth-axes">
@@ -397,7 +397,7 @@
             @for (rel of detail.related; track $index) {
               <div class="detail-rel-item" [class]="'rel-type-' + rel.type.toLowerCase()">
                 <span class="detail-rel-type">{{ rel.type }}</span>
-                <a class="detail-rel-link" [atomTooltip]="getNodeIdBySlug(rel.slug)" (click)="onAtomClick(getNodeIdBySlug(rel.slug)); $event.stopPropagation()">[[{{ rel.slug }}]]</a>
+                <a class="detail-rel-link" [atomTooltip]="getNodeIdBySlug(rel.slug)" (click)="onAtomClick(getNodeIdBySlug(rel.slug)); $event.stopPropagation()">{{ getRelatedTitle(rel) }}</a>
               </div>
             }
           </div>
@@ -438,7 +438,7 @@
               <div class="chain-node-header">
                 <span class="layer-dot" [style.background]="'var(--aurora-layer-' + cn.node.layer + ')'"></span>
                 <span class="chain-layer-label">L{{ cn.node.layer }}</span>
-                <a class="chain-node-title-link" [atomTooltip]="cn.node.id" (click)="onChainNodeClick(cn.node.id)">{{ cn.node.title }}</a>
+                <a class="chain-node-title-link" [atomTooltip]="cn.node.id" (click)="onChainNodeClick(cn.node.id)">{{ cn.node | langTitle }}</a>
                 <span class="verdict-badge verdict-{{ cn.node.verdict.toLowerCase() }}">
                   {{ lang.t('verdict.' + cn.node.verdict) }} {{ cn.node.strength }}
                 </span>
@@ -464,7 +464,7 @@
               @for (rel of getCorroboratingEdges(cn.node.id); track $index) {
                 <div class="chain-sub-link" [class.opposes]="rel.type === 'OPPOSES'" (click)="onChainNodeClick(rel.targetNode.id); $event.stopPropagation()">
                   <span class="sub-link-type">{{ lang.lang() === 'kr' ? edgeLabelKr(rel.type) : edgeLabel(rel.type) }}</span>
-                  <a class="sub-link-title" [atomTooltip]="rel.targetNode.id">{{ rel.targetNode.title }}</a>
+                  <a class="sub-link-title" [atomTooltip]="rel.targetNode.id">{{ rel.targetNode | langTitle }}</a>
                 </div>
               }
 
@@ -494,7 +494,7 @@
           <div class="root-item" (click)="onAtomClick(root.id)">
             <span class="layer-dot" [style.background]="'var(--aurora-layer-' + root.layer + ')'"></span>
             <span class="chain-layer-label">L{{ root.layer }}</span>
-            <span class="root-title">{{ root.title }}</span>
+            <span class="root-title">{{ root | langTitle }}</span>
           </div>
         }
       </div>
@@ -530,7 +530,7 @@
                 <span class="layer-dot" [style.background]="'var(--aurora-layer-' + pair.source.layer + ')'"></span>
                 L{{ pair.source.layer }}
               </div>
-              <p class="claim-text">{{ pair.source.title }}</p>
+              <p class="claim-text">{{ pair.source | langTitle }}</p>
               <span class="verdict-badge verdict-{{ pair.source.verdict.toLowerCase() }}">
                 {{ lang.t('verdict.' + pair.source.verdict) }}
               </span>
@@ -543,7 +543,7 @@
                 <span class="layer-dot" [style.background]="'var(--aurora-layer-' + pair.target.layer + ')'"></span>
                 L{{ pair.target.layer }}
               </div>
-              <p class="claim-text">{{ pair.target.title }}</p>
+              <p class="claim-text">{{ pair.target | langTitle }}</p>
               <span class="verdict-badge verdict-{{ pair.target.verdict.toLowerCase() }}">
                 {{ lang.t('verdict.' + pair.target.verdict) }}
               </span>
@@ -651,8 +651,8 @@
 
                 <!-- 네비게이션 -->
                 <div class="atom-nav-inline">
-                  → <a class="nav-link" (click)="onAtomClick(item.node.id)">상세</a>
-                  · <a class="nav-link" (click)="onChainNav(item.node.id)">체인</a>
+                  → <a class="nav-link" (click)="onAtomClick(item.node.id)">{{ lang.lang() === 'kr' ? '상세' : 'Detail' }}</a>
+                  · <a class="nav-link" (click)="onChainNav(item.node.id)">{{ lang.lang() === 'kr' ? '체인' : 'Chain' }}</a>
                 </div>
               </div>
             }
@@ -713,7 +713,7 @@
                   <div class="answer-rel-item" (click)="onAtomClick(r.node.id)">
                     <span class="layer-dot" [style.background]="'var(--aurora-layer-' + r.node.layer + ')'"></span>
                     L{{ r.node.layer }}
-                    <a class="rel-atom-title">{{ r.node.title }}</a>
+                    <a class="rel-atom-title">{{ r.node | langTitle }}</a>
                   </div>
                 }
               </div>
@@ -725,7 +725,7 @@
                   <div class="answer-rel-item" (click)="onAtomClick(r.node.id)">
                     <span class="layer-dot" [style.background]="'var(--aurora-layer-' + r.node.layer + ')'"></span>
                     L{{ r.node.layer }}
-                    <a class="rel-atom-title">{{ r.node.title }}</a>
+                    <a class="rel-atom-title">{{ r.node | langTitle }}</a>
                   </div>
                 }
               </div>
@@ -771,7 +771,7 @@
         </button>
       </div>
 
-      <h4 class="preview-title">{{ pNode.title }}</h4>
+      <h4 class="preview-title">{{ pNode | langTitle }}</h4>
 
       @if (previewDetail(); as pDetail) {
         <p class="preview-claim">{{ claimText(pDetail).length > 250 ? claimText(pDetail).slice(0, 250) + '...' : claimText(pDetail) }}</p>
@@ -860,7 +860,7 @@
           <div class="record-result-item" (click)="onAtomClick(node.id); closeRecordResults()">
             <span class="layer-dot" [style.background]="'var(--aurora-layer-' + node.layer + ')'"></span>
             <span class="record-result-layer">L{{ node.layer }}</span>
-            <span class="record-result-title">{{ node.title }}</span>
+            <span class="record-result-title">{{ node | langTitle }}</span>
             <span class="verdict-badge verdict-{{ node.verdict.toLowerCase() }}">{{ node.strength }}</span>
           </div>
         }
@@ -897,7 +897,7 @@
         <div class="person-result-item" (click)="onAtomClick(node.id); closePersonResults()">
           <span class="layer-dot" [style.background]="'var(--aurora-layer-' + node.layer + ')'"></span>
           <span class="person-result-layer">L{{ node.layer }}</span>
-          <span class="person-result-title">{{ node.title }}</span>
+          <span class="person-result-title">{{ node | langTitle }}</span>
         </div>
       }
     </div>

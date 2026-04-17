@@ -49,7 +49,7 @@
       "stem": "2263ho-glossary-didc-entity-renamed",
       "title": "제2263호 별표1: 국방통합정보관리소→국방통합데이터센터 — 용어 정의 수준 기관명 세탁",
       "titleKo": "제2263호 별표1: 국방통합정보관리소→국방통합데이터센터 — 용어 정의 수준 기관명 세탁",
-      "titleEn": "제2263호 별표1: 국방통합정보관리소→국방통합데이터센터 — 용어 정의 수준 기관명 세탁",
+      "titleEn": "제2263호 Annex 1: 국방통합정보관리소→DIDC — Entity-name laundering at definitional level",
       "layer": 1,
       "secondaryLayers": [
         3
@@ -87,7 +87,7 @@
       "stem": "2398-2842ho-otne-environment-hedge-flipflop",
       "title": "제2398호 → 제2436호 → 제2842호 OT&E environment hedge flip-flop",
       "titleKo": "제2398호 → 제2436호 → 제2842호 OT&E environment hedge flip-flop",
-      "titleEn": "The OT&E environment exclusivity clause in 제57조 ¶1 제2호 of 국방정보화업무 훈령 underwent a three-step flip-flop movement: added at",
+      "titleEn": "OT&E environment exclusivity flip-flop across 제2398호 → 제2436호 → 제2842호",
       "layer": 4,
       "secondaryLayers": [],
       "claimType": "regulatory_manipulation",
@@ -162,7 +162,7 @@
       "stem": "2436ho-didc-naming-anchor-removed",
       "title": "제2436호 removes the DIDC entity-naming anchor from 제10조",
       "titleKo": "제2436호 removes the DIDC entity-naming anchor from 제10조",
-      "titleEn": "On 2020-06-04, 국방정보화업무 훈령 제2436호 removed the entire 제10조 ¶1 제4호 axis (\"사업통제기관에 따른 구분\"), thereby eliminating the explicit",
+      "titleEn": "제2436호 removes DIDC entity-naming anchor from 제10조",
       "layer": 1,
       "secondaryLayers": [],
       "claimType": "regulatory_manipulation",
@@ -202,7 +202,7 @@
       "stem": "2436ho-dtne-articles-erased",
       "title": "제2436호 erases 제59·60·61조 (DT&E planning, execution, corrective action) from the directive body",
       "titleKo": "제2436호 erases 제59·60·61조 (DT&E planning, execution, corrective action) from the directive body",
-      "titleEn": "On 2020-06-04, 국방정보화업무 훈령 제2436호 replaced the bodies of 제59조 (개발시험평가 계획수립), 제60조 (개발시험평가 실시), and 제61조 (개발시험평가 조치) with ",
+      "titleEn": "제2436호 erases 제59–61조 (DT&E planning, execution, corrective action) from directive body",
       "layer": 4,
       "secondaryLayers": [],
       "claimType": "regulatory_manipulation",
@@ -240,7 +240,7 @@
       "stem": "2436ho-dtne-sponsor-binding-erased",
       "title": "제2436호 erases `사업관리기관 주관 하에` from the DT&E definition (A8b-sym)",
       "titleKo": "제2436호 erases `사업관리기관 주관 하에` from the DT&E definition (A8b-sym)",
-      "titleEn": "On 2020-06-04, 국방정보화업무 훈령 제2436호 removed **two** clauses from the DT&E definition in 제57조 ¶1 제1호:",
+      "titleEn": "제2436호 erases '사업관리기관 주관 하에' from DT&E definition (A8b-sym)",
       "layer": 4,
       "secondaryLayers": [],
       "claimType": "regulatory_manipulation",
@@ -278,7 +278,7 @@
       "stem": "2436ho-glossary-mass-term-purge-and-restoration",
       "title": "제2436호 별표1에서 ~20개 기술용어 일괄 삭제 → 제2842호에서 전면 복원 — 3년 공백",
       "titleKo": "제2436호 별표1에서 ~20개 기술용어 일괄 삭제 → 제2842호에서 전면 복원 — 3년 공백",
-      "titleEn": "제2436호 별표1에서 ~20개 기술용어 일괄 삭제 → 제2842호에서 전면 복원 — 3년 공백",
+      "titleEn": "제2436호 Annex 1: ~20 technical terms mass-deleted → fully restored in 제2842호 — 3-year void",
       "layer": 4,
       "secondaryLayers": [
         1
@@ -314,7 +314,7 @@
       "stem": "2436ho-gukjeonwon-role-tier-renaming",
       "title": "제2436호 retiers 사업통제/주관/관리 → 정보화기획관실/소요제기/집행",
       "titleKo": "제2436호 retiers 사업통제/주관/관리 → 정보화기획관실/소요제기/집행",
-      "titleEn": "On 2020-06-04, 국방정보화업무 훈령 제2436호 renamed the three-tier role nomenclature in 제11조 ¶1 from `사업통제기관·사업주관기관·사업관리기관` to `정보화",
+      "titleEn": "제2436호 retiers project control/lead/management to 정보화기획관실/requirements/execution",
       "layer": 3,
       "secondaryLayers": [],
       "claimType": "regulatory_manipulation",
@@ -357,7 +357,7 @@
       "stem": "2436ho-otne-sponsor-binding-erased",
       "title": "제2436호 erases `사업주관기관 주관 하에` from the OT&E definition (A8b)",
       "titleKo": "제2436호 erases `사업주관기관 주관 하에` from the OT&E definition (A8b)",
-      "titleEn": "On 2020-06-04, 국방정보화업무 훈령 제2436호 removed the phrase `사업주관기관 주관 하에` from the OT&E definition in 제57조 ¶1 제2호. After the de",
+      "titleEn": "제2436호 erases '사업주관기관 주관 하에' from OT&E definition (A8b)",
       "layer": 4,
       "secondaryLayers": [],
       "claimType": "regulatory_manipulation",
@@ -394,7 +394,7 @@
       "stem": "2436ho-test-evaluation-principle-inverted",
       "title": "제2436호 inverts 제58조 from \"separation principle\" to \"integration principle\"",
       "titleKo": "제2436호 inverts 제58조 from \"separation principle\" to \"integration principle\"",
-      "titleEn": "On 2020-06-04, 국방정보화업무 훈령 제2436호 inverted the test-evaluation principle in 제58조 from `개발시험평가와 운용시험평가를 분리하는 것을 원칙으로 하되` (",
+      "titleEn": "제2436호 inverts 제58조 from separation principle to integration principle",
       "layer": 4,
       "secondaryLayers": [],
       "claimType": "regulatory_manipulation",
@@ -430,7 +430,7 @@
       "stem": "2576ho-article-62-5-ote-approval-deleted",
       "title": "제2576호 (2021-08-12): 제62조⑤ 삭제 — 사업통제기관 시험평가계획 승인 권한 완전 제거",
       "titleKo": "제2576호 (2021-08-12): 제62조⑤ 삭제 — 사업통제기관 시험평가계획 승인 권한 완전 제거",
-      "titleEn": "제2576호 (2021-08-12): 제62조⑤ 삭제 — 사업통제기관 시험평가계획 승인 권한 완전 제거",
+      "titleEn": "제2576호 (2021-08-12): 제62조⑤ deleted — project control agency T&E plan approval authority fully removed",
       "layer": 4,
       "secondaryLayers": [
         1
@@ -468,7 +468,7 @@
       "stem": "2576ho-article-64-failure-blindspot",
       "title": "제2576호: 제64조 보고체계 재구조화 — 부적합 결과가 정보화기획관실에 보고되지 않는 구조적 사각지대",
       "titleKo": "제2576호: 제64조 보고체계 재구조화 — 부적합 결과가 정보화기획관실에 보고되지 않는 구조적 사각지대",
-      "titleEn": "제2576호: 제64조 보고체계 재구조화 — 부적합 결과가 정보화기획관실에 보고되지 않는 구조적 사각지대",
+      "titleEn": "제2576호: 제64조 reporting chain restructured — structural blind spot where deficiency results bypass 정보화기획관실",
       "layer": 4,
       "secondaryLayers": [
         1
@@ -506,7 +506,7 @@
       "stem": "2576ho-article-68-deployment-trigger-weakened",
       "title": "제2576호: 제68조 전력화 조건 완화 — '운용시험평가결과'→'시험평가결과'",
       "titleKo": "제2576호: 제68조 전력화 조건 완화 — '운용시험평가결과'→'시험평가결과'",
-      "titleEn": "제2576호: 제68조 전력화 조건 완화 — '운용시험평가결과'→'시험평가결과'",
+      "titleEn": "제2576호: 제68조 fielding condition weakened — '운용시험평가결과' → '시험평가결과'",
       "layer": 4,
       "secondaryLayers": [
         1
@@ -544,7 +544,7 @@
       "stem": "2576ho-ote-prefix-dropped-procedural-collapse",
       "title": "제2576호: 제62-64조에서 '운용' 접두어 제거 — DT/OT 제도적 구분 완전 소멸",
       "titleKo": "제2576호: 제62-64조에서 '운용' 접두어 제거 — DT/OT 제도적 구분 완전 소멸",
-      "titleEn": "제2576호: 제62-64조에서 '운용' 접두어 제거 — DT/OT 제도적 구분 완전 소멸",
+      "titleEn": "제2576호: '운용' prefix removed from 제62–64조 — institutional DT/OT distinction completely erased",
       "layer": 4,
       "secondaryLayers": [],
       "claimType": "terminology_manipulation",
@@ -616,7 +616,7 @@
       "stem": "2946ho-entity-naming-second-generation-shift",
       "title": "제2946호 (2024-07-17): 정보화기획관실→지능정보화정책관실 — 2세대 entity-naming anchor 이동",
       "titleKo": "제2946호 (2024-07-17): 정보화기획관실→지능정보화정책관실 — 2세대 entity-naming anchor 이동",
-      "titleEn": "제2946호 (2024-07-17): 정보화기획관실→지능정보화정책관실 — 2세대 entity-naming anchor 이동",
+      "titleEn": "제2946호 (2024-07-17): 정보화기획관실→지능정보화정책관실 — 2nd-generation entity-naming anchor migration",
       "layer": 1,
       "secondaryLayers": [
         3,
@@ -655,7 +655,7 @@
       "stem": "80-items-violate-national-contract-law",
       "title": "80건 추가 요구사항이 국가계약법 위반 — 평가위원회의 권한 초월",
       "titleKo": "80건 추가 요구사항이 국가계약법 위반 — 평가위원회의 권한 초월",
-      "titleEn": "80건 추가 요구사항이 국가계약법 위반 — 평가위원회의 권한 초월",
+      "titleEn": "80 additional requirements violate National Contracts Law — evaluation committee exceeded authority",
       "layer": 4,
       "secondaryLayers": [],
       "claimType": "procedural_violation",
@@ -694,7 +694,7 @@
       "stem": "active-x-removal-as-project-goal-confirms-vulnerability",
       "title": "Active-X 제거가 사업 기대효과 — 舊KIATIS 보안취약 공식 인정",
       "titleKo": "Active-X 제거가 사업 기대효과 — 舊KIATIS 보안취약 공식 인정",
-      "titleEn": "Active-X 제거가 사업 기대효과 — 舊KIATIS 보안취약 공식 인정",
+      "titleEn": "Active-X removal listed as project objective — official admission of 舊KIATIS security vulnerability",
       "layer": 1,
       "secondaryLayers": [],
       "claimType": "testimony_evidence",
@@ -738,7 +738,7 @@
       "stem": "an-sejun-chief-prosecutor-lacks-case-understanding",
       "title": "군검찰단장 안세준: \"아직은 모르겠는데\" — 기소 후에도 사건 내용 미파악 + 처분 책임 회피",
       "titleKo": "군검찰단장 안세준: \"아직은 모르겠는데\" — 기소 후에도 사건 내용 미파악 + 처분 책임 회피",
-      "titleEn": "군검찰단장 안세준: \"아직은 모르겠는데\" — 기소 후에도 사건 내용 미파악 + 처분 책임 회피",
+      "titleEn": "Military prosecution commander An Se-jun: 'I don't know yet' — case details unknown even after prosecution + evading disposition responsibility",
       "layer": 6,
       "secondaryLayers": [],
       "claimType": "prosecution_misconduct",
@@ -779,7 +779,7 @@
       "stem": "apt-human-targeting-3yr-11mo-personalized",
       "title": "3년 11개월간 국가기관의 맞춤형 개인 타겟팅 — 조직적 스토킹",
       "titleKo": "3년 11개월간 국가기관의 맞춤형 개인 타겟팅 — 조직적 스토킹",
-      "titleEn": "3년 11개월간 국가기관의 맞춤형 개인 타겟팅 — 조직적 스토킹",
+      "titleEn": "3 years 11 months of state agency personalized individual targeting — organized stalking",
       "layer": 5,
       "secondaryLayers": [
         6,
@@ -904,7 +904,7 @@
       "stem": "article-58-separation-to-integration-2020-directive-manipulation",
       "title": "제58조 시험평가 수행원칙이 \"분리 원칙\"에서 \"통합 원칙\"으로 180도 전환되었다 — 2015~2020 훈령 이력 추적",
       "titleKo": "제58조 시험평가 수행원칙이 \"분리 원칙\"에서 \"통합 원칙\"으로 180도 전환되었다 — 2015~2020 훈령 이력 추적",
-      "titleEn": "제58조 시험평가 수행원칙이 \"분리 원칙\"에서 \"통합 원칙\"으로 180도 전환되었다 — 2015~2020 훈령 이력 추적",
+      "titleEn": "제58조 T&E execution principle inverted 180° from separation to integration — 2015–2020 directive history traced",
       "layer": 4,
       "secondaryLayers": [
         7
@@ -945,7 +945,7 @@
       "stem": "audit-dtot-report-hidden-from-team-leader",
       "title": "감리업체 DT/OT 테스트 결과보고서의 팀장 배제 — 대부분 '부적합' 결과 은폐",
       "titleKo": "감리업체 DT/OT 테스트 결과보고서의 팀장 배제 — 대부분 '부적합' 결과 은폐",
-      "titleEn": "감리업체 DT/OT 테스트 결과보고서의 팀장 배제 — 대부분 '부적합' 결과 은폐",
+      "titleEn": "Audit firm DT/OT test result reports withheld from team leader — majority 'deficiency' results concealed",
       "layer": 4,
       "secondaryLayers": [],
       "claimType": "evidence_concealment",
@@ -1042,7 +1042,7 @@
       "stem": "cartel-requirement-inflation-80-items-delay",
       "title": "평가위원회가 권한 밖의 추가 요구사항 80건을 불법 의결하여 新KIATIS 전력화를 지연시켰다 — 은폐를 위한 의도적 사업 지연 메커니즘",
       "titleKo": "평가위원회가 권한 밖의 추가 요구사항 80건을 불법 의결하여 新KIATIS 전력화를 지연시켰다 — 은폐를 위한 의도적 사업 지연 메커니즘",
-      "titleEn": "평가위원회가 권한 밖의 추가 요구사항 80건을 불법 의결하여 新KIATIS 전력화를 지연시켰다 — 은폐를 위한 의도적 사업 지연 메커니즘",
+      "titleEn": "Evaluation committee illegally passed 80 out-of-scope additional requirements, delaying New KIATIS fielding — deliberate delay mechanism to conceal hack",
       "layer": 6,
       "secondaryLayers": [
         4
@@ -1087,7 +1087,7 @@
       "stem": "choi-dongwook-coercive-resignation-complaint-suppression",
       "title": "최동욱 변호사: \"깔끔하게 제대하겠다\" — 전역을 조건으로 신고 봉쇄 제안 + \"박서준 동의 불요\"",
       "titleKo": "최동욱 변호사: \"깔끔하게 제대하겠다\" — 전역을 조건으로 신고 봉쇄 제안 + \"박서준 동의 불요\"",
-      "titleEn": "최동욱 변호사: \"깔끔하게 제대하겠다\" — 전역을 조건으로 신고 봉쇄 제안 + \"박서준 동의 불요\"",
+      "titleEn": "Attorney Choe Dong-uk: 'Clean discharge guaranteed' — offers to block complaint in exchange for resignation + 'Park Seo-jun's consent not needed'",
       "layer": 5,
       "secondaryLayers": [
         6
@@ -1129,7 +1129,7 @@
       "stem": "choi-dongwook-fee-contingent-representation-mercenary",
       "title": "최동욱 변호사: \"입금해야 선임계를 낼 수 있다\" — 수임료 조건부 대리 + 성과 보수 구조",
       "titleKo": "최동욱 변호사: \"입금해야 선임계를 낼 수 있다\" — 수임료 조건부 대리 + 성과 보수 구조",
-      "titleEn": "최동욱 변호사: \"입금해야 선임계를 낼 수 있다\" — 수임료 조건부 대리 + 성과 보수 구조",
+      "titleEn": "Attorney Choe Dong-uk: 'Payment required before filing retainer' — conditional representation + contingency fee structure",
       "layer": 6,
       "secondaryLayers": [
         5
@@ -1168,7 +1168,7 @@
       "stem": "choi-dongwook-parrots-prosecution-delay-narrative",
       "title": "최동욱 변호사가 검찰의 '지연' 프레이밍을 의뢰인에게 전달 — 실제로는 일정 앞당기는 중",
       "titleKo": "최동욱 변호사가 검찰의 '지연' 프레이밍을 의뢰인에게 전달 — 실제로는 일정 앞당기는 중",
-      "titleEn": "최동욱 변호사가 검찰의 '지연' 프레이밍을 의뢰인에게 전달 — 실제로는 일정 앞당기는 중",
+      "titleEn": "Attorney Choe Dong-uk relays prosecution's 'delay' framing to client — while schedule was actually being advanced",
       "layer": 6,
       "secondaryLayers": [],
       "claimType": "attorney_misconduct",
@@ -1205,7 +1205,7 @@
       "stem": "choi-dongwook-prosecution-language-adoption-concealment-collusion",
       "title": "최동욱 변호사: 검찰의 \"은폐·모의\" 언어를 그대로 반복 — \"전산은 우리가 뭐 아나\"",
       "titleKo": "최동욱 변호사: 검찰의 \"은폐·모의\" 언어를 그대로 반복 — \"전산은 우리가 뭐 아나\"",
-      "titleEn": "최동욱 변호사: 검찰의 \"은폐·모의\" 언어를 그대로 반복 — \"전산은 우리가 뭐 아나\"",
+      "titleEn": "Attorney Choe Dong-uk verbatim repeats prosecution's 'concealment·conspiracy' language — 'What do we know about IT systems'",
       "layer": 6,
       "secondaryLayers": [
         5
@@ -1247,7 +1247,7 @@
       "stem": "choi-dongwook-psychiatric-gaslighting-휴직-정신병원",
       "title": "최동욱 변호사 + 국전원: \"휴직해라, 정신병원 가라\" — 한지훈을 '비정상'으로 프레이밍하는 조직적 가스라이팅",
       "titleKo": "최동욱 변호사 + 국전원: \"휴직해라, 정신병원 가라\" — 한지훈을 '비정상'으로 프레이밍하는 조직적 가스라이팅",
-      "titleEn": "최동욱 변호사 + 국전원: \"휴직해라, 정신병원 가라\" — 한지훈을 '비정상'으로 프레이밍하는 조직적 가스라이팅",
+      "titleEn": "Attorney Choe Dong-uk + 국전원: 'Take leave, go to psychiatric hospital' — organized gaslighting to frame Han Ji-hoon as abnormal",
       "layer": 5,
       "secondaryLayers": [
         7
@@ -1293,7 +1293,7 @@
       "stem": "choi-dongwook-resignation-threat-coercive-control",
       "title": "최동욱 변호사의 사임 위협을 통한 의뢰인 자율 방어 억제",
       "titleKo": "최동욱 변호사의 사임 위협을 통한 의뢰인 자율 방어 억제",
-      "titleEn": "Every time 한지훈 asserted that he would organize the case materials independently to defend himself, attorney 최동욱 responde",
+      "titleEn": "Attorney Choe Dong-uk's resignation threats to suppress client's autonomous defense",
       "layer": 6,
       "secondaryLayers": [
         7
@@ -1332,7 +1332,7 @@
       "stem": "choi-dongwook-show-weakness-vs-innocence-defense",
       "title": "최동욱의 '아픈 모습 보여라' 조언 vs 한지훈의 '무혐의에 집중' 선언 — 방어 전략 충돌",
       "titleKo": "최동욱의 '아픈 모습 보여라' 조언 vs 한지훈의 '무혐의에 집중' 선언 — 방어 전략 충돌",
-      "titleEn": "최동욱의 '아픈 모습 보여라' 조언 vs 한지훈의 '무혐의에 집중' 선언 — 방어 전략 충돌",
+      "titleEn": "Choe Dong-uk's 'show weakness' advice vs Han Ji-hoon's 'focus on no-probable-cause' declaration — defense strategy conflict",
       "layer": 6,
       "secondaryLayers": [],
       "claimType": "attorney_misconduct",
@@ -1369,7 +1369,7 @@
       "stem": "choi-dongwook-technical-ignorance-despite-months",
       "title": "최동욱 변호사의 수개월간 기술적 무지 — 산출물·DT/OT·훈령을 모르면서 2천만원 수임",
       "titleKo": "최동욱 변호사의 수개월간 기술적 무지 — 산출물·DT/OT·훈령을 모르면서 2천만원 수임",
-      "titleEn": "최동욱 변호사의 수개월간 기술적 무지 — 산출물·DT/OT·훈령을 모르면서 2천만원 수임",
+      "titleEn": "Attorney Choe Dong-uk retained for 20M KRW without knowing deliverables, DT/OT, or directives — months of technical ignorance",
       "layer": 6,
       "secondaryLayers": [],
       "claimType": "attorney_misconduct",
@@ -1406,7 +1406,7 @@
       "stem": "choi-younggyu-kiatis-document-access-blocked-position-transfer",
       "title": "최영규 증언: 보직 이동으로 KIATIS 자료 접근 **전면 차단** — \"여기에 뭔가 의도가 있는 거 같애\"",
       "titleKo": "최영규 증언: 보직 이동으로 KIATIS 자료 접근 **전면 차단** — \"여기에 뭔가 의도가 있는 거 같애\"",
-      "titleEn": "최영규 증언: 보직 이동으로 KIATIS 자료 접근 **전면 차단** — \"여기에 뭔가 의도가 있는 거 같애\"",
+      "titleEn": "Choe Yeong-gyu testimony: KIATIS document access fully blocked by posting transfer — 'There seems to be some intent here'",
       "layer": 5,
       "secondaryLayers": [
         6
@@ -1572,7 +1572,7 @@
       "stem": "csr-2016-hacking-should-trigger-emergency-vuln-check",
       "title": "2016 해킹은 제44조 긴급 취약점 점검 조건 2개를 동시 충족 — KIATIS 점검 필수였다",
       "titleKo": "2016 해킹은 제44조 긴급 취약점 점검 조건 2개를 동시 충족 — KIATIS 점검 필수였다",
-      "titleEn": "2016 해킹은 제44조 긴급 취약점 점검 조건 2개를 동시 충족 — KIATIS 점검 필수였다",
+      "titleEn": "2016 hack simultaneously meets both conditions for 제44조 emergency vulnerability inspection — KIATIS inspection was mandatory",
       "layer": 1,
       "secondaryLayers": [
         6
@@ -1610,7 +1610,7 @@
       "stem": "csr-annual-vulnerability-assessment-duty-violated",
       "title": "DIDC의 연간 취약점 평가 의무(제40조) — 15년간 미수행으로 舊KIATIS VPN 부재 미탐지",
       "titleKo": "DIDC의 연간 취약점 평가 의무(제40조) — 15년간 미수행으로 舊KIATIS VPN 부재 미탐지",
-      "titleEn": "DIDC의 연간 취약점 평가 의무(제40조) — 15년간 미수행으로 舊KIATIS VPN 부재 미탐지",
+      "titleEn": "DIDC's annual vulnerability assessment obligation (제40조) — 15-year non-performance meant 舊KIATIS VPN absence went undetected",
       "layer": 1,
       "secondaryLayers": [
         4
@@ -1648,7 +1648,7 @@
       "stem": "csr-cyber-asset-registry-catch-all-art45",
       "title": "제45조 사이버자산 현황 관리 — 미등록이면 네트워크 차단, 등록이면 취약점 탐지 필수",
       "titleKo": "제45조 사이버자산 현황 관리 — 미등록이면 네트워크 차단, 등록이면 취약점 탐지 필수",
-      "titleEn": "제45조 사이버자산 현황 관리 — 미등록이면 네트워크 차단, 등록이면 취약점 탐지 필수",
+      "titleEn": "제45조 cyber asset status management — if unregistered: network isolation; if registered: vulnerability detection mandatory",
       "layer": 1,
       "secondaryLayers": [
         4
@@ -1684,7 +1684,7 @@
       "stem": "csr-didc-is-2nd-tier-security-ops-center",
       "title": "DIDC는 국방사이버안보 훈령 제54조에 의한 '통합보안관제(2차)' 책임 부대 — 한지훈 아님",
       "titleKo": "DIDC는 국방사이버안보 훈령 제54조에 의한 '통합보안관제(2차)' 책임 부대 — 한지훈 아님",
-      "titleEn": "DIDC는 국방사이버안보 훈령 제54조에 의한 '통합보안관제(2차)' 책임 부대 — 한지훈 아님",
+      "titleEn": "DIDC is the unit responsible for integrated security monitoring (2nd tier) under Defense Cyber Security Directive 제54조 — not Han Ji-hoon",
       "layer": 1,
       "secondaryLayers": [
         4,
@@ -1725,7 +1725,7 @@
       "stem": "csr-kiatis-is-cyber-asset-under-directive",
       "title": "KIATIS는 국방사이버안보 훈령 제3조 제7호의 '사이버자산'에 해당 — 제3장 전체 의무 적용",
       "titleKo": "KIATIS는 국방사이버안보 훈령 제3조 제7호의 '사이버자산'에 해당 — 제3장 전체 의무 적용",
-      "titleEn": "KIATIS는 국방사이버안보 훈령 제3조 제7호의 '사이버자산'에 해당 — 제3장 전체 의무 적용",
+      "titleEn": "KIATIS qualifies as '사이버자산' under Defense Cyber Security Directive 제3조 제7호 — entire Chapter 3 obligations apply",
       "layer": 1,
       "secondaryLayers": [
         4
@@ -1761,7 +1761,7 @@
       "stem": "csr-prosecution-cited-appendix-not-institutional-duties",
       "title": "검찰이 별표(기술요건)만 인용하고 제3장(기관 의무)은 무시 — 개인→기관 책임 전환의 선별적 인용",
       "titleKo": "검찰이 별표(기술요건)만 인용하고 제3장(기관 의무)은 무시 — 개인→기관 책임 전환의 선별적 인용",
-      "titleEn": "검찰이 별표(기술요건)만 인용하고 제3장(기관 의무)은 무시 — 개인→기관 책임 전환의 선별적 인용",
+      "titleEn": "Prosecution cites only Annex (technical requirements) while ignoring Chapter 3 (agency obligations) — selective citation to shift individual→agency responsibility",
       "layer": 6,
       "secondaryLayers": [
         1,
@@ -1800,7 +1800,7 @@
       "stem": "defense-information-cartel-named-by-rebuttal",
       "title": "'Defense Information Cartel' (국방정보화카르텔)는 한지훈의 (20220929) 반박 문서에서 5개 조직으로 명시 정의됨 — 운용적 정의",
       "titleKo": "'Defense Information Cartel' (국방정보화카르텔)는 한지훈의 (20220929) 반박 문서에서 5개 조직으로 명시 정의됨 — 운용적 정의",
-      "titleEn": "'Defense Information Cartel' (국방정보화카르텔)는 한지훈의 (20220929) 반박 문서에서 5개 조직으로 명시 정의됨 — 운용적 정의",
+      "titleEn": "Defense Information Cartel defined as 5 organizations in Han Ji-hoon's 20220929 rebuttal — operational definition",
       "layer": 1,
       "secondaryLayers": [
         3,
@@ -1846,7 +1846,7 @@
       "stem": "deliberate-absence-key-personnel-during-evaluation",
       "title": "시험평가 기간 중 핵심인물의 의도적 부재 — 舊KIATIS 담당자와 팀장의 동시 부재",
       "titleKo": "시험평가 기간 중 핵심인물의 의도적 부재 — 舊KIATIS 담당자와 팀장의 동시 부재",
-      "titleEn": "시험평가 기간 중 핵심인물의 의도적 부재 — 舊KIATIS 담당자와 팀장의 동시 부재",
+      "titleEn": "Deliberate absence of key personnel during T&E period — simultaneous absence of 舊KIATIS officer and team leader",
       "layer": 4,
       "secondaryLayers": [],
       "claimType": "conspiracy_structure",
@@ -1930,7 +1930,7 @@
       "stem": "didc-excluded-from-test-eval-reform",
       "title": "DIDC의 시험평가 개혁 과정 전면 배제 — VPN 책임 은폐",
       "titleKo": "DIDC의 시험평가 개혁 과정 전면 배제 — VPN 책임 은폐",
-      "titleEn": "DIDC의 시험평가 개혁 과정 전면 배제 — VPN 책임 은폐",
+      "titleEn": "DIDC fully excluded from T&E reform process — VPN accountability concealed",
       "layer": 4,
       "secondaryLayers": [],
       "claimType": "conspiracy_structure",
@@ -1970,7 +1970,7 @@
       "stem": "didc-falsely-records-old-kiatis-as-vpn-user",
       "title": "DIDC1센터의 舊KIATIS VPN 사용자 허위 기재 — 조작된 점검계획 공문",
       "titleKo": "DIDC1센터의 舊KIATIS VPN 사용자 허위 기재 — 조작된 점검계획 공문",
-      "titleEn": "DIDC1센터의 舊KIATIS VPN 사용자 허위 기재 — 조작된 점검계획 공문",
+      "titleEn": "DIDC Center 1: 舊KIATIS VPN user falsely recorded — fabricated inspection plan document",
       "layer": 4,
       "secondaryLayers": [
         1
@@ -2015,7 +2015,7 @@
       "stem": "didc-sop-11-backup-recovery-mandatory",
       "title": "DIDC SOP 제11호 Chapter 8 (백업/복구관리, 제70~94조) mandates 25-article backup regime including off-site storage; 2016 incident p",
       "titleKo": "DIDC SOP 제11호 Chapter 8 (백업/복구관리, 제70~94조) mandates 25-article backup regime including off-site storage; 2016 incident period backups must exist or their destruction must be documented",
-      "titleEn": "DIDC 부대예규 제11호 Chapter 8 (백업/복구관리, 제70~94조) imposes a **25-article backup management regime** that is the largest chapte",
+      "titleEn": "DIDC SOP 제11호 Chapter 8 (backup/recovery, 제70–94조) mandates 25-article backup regime including off-site storage",
       "layer": 1,
       "secondaryLayers": [],
       "claimType": "procedural_violation",
@@ -2051,7 +2051,7 @@
       "stem": "didc-sop-11-change-management-trail-mandatory",
       "title": "DIDC SOP 제11호 Chapter 4 (변경관리, 제21~32조) mandates 11-gate change-management trail; KIATIS-era system changes at DIDC must",
       "titleKo": "DIDC SOP 제11호 Chapter 4 (변경관리, 제21~32조) mandates 11-gate change-management trail; KIATIS-era system changes at DIDC must have generated this trail",
-      "titleEn": "DIDC 부대예규 제11호 Chapter 4 (변경관리) imposes an **11-gate procedural chain** on any change to a DIDC-hosted information syste",
+      "titleEn": "DIDC SOP 제11호 Chapter 4 (change management, 제21–32조) mandates 11-gate change-management trail for KIATIS-era system changes",
       "layer": 1,
       "secondaryLayers": [
         4
@@ -2204,7 +2204,7 @@
       "stem": "didc-sop-12-security-system-7layer-deployment-chain",
       "title": "DIDC 부대예규 제12호 제40조+별지 제10호: 7대 보안체계 적용절차 — KIATIS에 적용되었어야",
       "titleKo": "DIDC 부대예규 제12호 제40조+별지 제10호: 7대 보안체계 적용절차 — KIATIS에 적용되었어야",
-      "titleEn": "DIDC 부대예규 제12호 제40조+별지 제10호: 7대 보안체계 적용절차 — KIATIS에 적용되었어야",
+      "titleEn": "DIDC SOP 제12호 제40조 + Annex 10: 7-domain security framework procedure — mandatory application to KIATIS",
       "layer": 1,
       "secondaryLayers": [
         4
@@ -2243,7 +2243,7 @@
       "stem": "didc-sop-db-access-control-mandatory",
       "title": "DIDC SOP 제11호 제164조 + 별지 17호 mandate DB access control via 차크라맥스 (CharkraMax) with documented application chain; absence",
       "titleKo": "DIDC SOP 제11호 제164조 + 별지 17호 mandate DB access control via 차크라맥스 (CharkraMax) with documented application chain; absence of trail for 2016 incident period is direct Layer 1 cover-up evidence",
-      "titleEn": "DIDC 부대예규 제11호 Chapter 14 (접근통제, 제158조~제167조) imposes a comprehensive multi-layer access control regime, and **Article 1",
+      "titleEn": "DIDC SOP 제11호 제164조 + Annex 17 mandate DB access control via ChakraMax with documented application chain",
       "layer": 1,
       "secondaryLayers": [],
       "claimType": "procedural_violation",
@@ -2280,7 +2280,7 @@
       "stem": "didc-sop-firewall-vpn-trail-mandatory",
       "title": "DIDC SOP 제12호 제37조 + 별지 6/7/8호 mandate firewall/VPN/NAC paper trail; absence of trail for 2016 incident period is Layer ",
       "titleKo": "DIDC SOP 제12호 제37조 + 별지 6/7/8호 mandate firewall/VPN/NAC paper trail; absence of trail for 2016 incident period is Layer 1 cover-up evidence",
-      "titleEn": "DIDC 부대예규 제12호 제37조 (방화벽 및 SSL-VPN 관리/운용) requires that **every** firewall policy change (신규, 변경, 삭제) must be documented",
+      "titleEn": "DIDC SOP 제12호 제37조 + Annex 6/7/8 mandate firewall/VPN/NAC paper trail; absence is Layer 1 cover-up evidence",
       "layer": 1,
       "secondaryLayers": [],
       "claimType": "procedural_violation",
@@ -2316,7 +2316,7 @@
       "stem": "didc-sop-incident-report-mandatory",
       "title": "DIDC SOP 제12호 제21조 + 별지 제4호 mandate immediate incident reporting; absence of the report is Layer 1 cover-up evidence",
       "titleKo": "DIDC SOP 제12호 제21조 + 별지 제4호 mandate immediate incident reporting; absence of the report is Layer 1 cover-up evidence",
-      "titleEn": "DIDC Unit Regulation No. 12 Article 21 (사이버 침해사고 신고) creates an immediate, non-discretionary duty for any DIDC departmen",
+      "titleEn": "DIDC SOP 제12호 제21조 + Annex 4 mandate immediate incident reporting; absence of report is Layer 1 cover-up evidence",
       "layer": 1,
       "secondaryLayers": [],
       "claimType": "procedural_violation",
@@ -2352,7 +2352,7 @@
       "stem": "didc-sops-cover-2016-hacking-period",
       "title": "Both DIDC SOPs (제12호 사이버방호 + 제11호 운영관리) were in force on 2016-02-01, the procedural duty floor for the 2016 DIDC hacking",
       "titleKo": "Both DIDC SOPs (제12호 사이버방호 + 제11호 운영관리) were in force on 2016-02-01, the procedural duty floor for the 2016 DIDC hacking incident",
-      "titleEn": "DIDC Unit Regulation No. 12 (사이버방호 예규) and Unit Regulation No. 11 (정보시스템 운영관리 예규) were both enacted on 2016-02-01 and ap",
+      "titleEn": "Both DIDC SOPs (제12호 cyber defense + 제11호 operations) were in force on 2016-02-01 — procedural duty floor for 2016 hack",
       "layer": 1,
       "secondaryLayers": [],
       "claimType": "procedural_violation",
@@ -2388,7 +2388,7 @@
       "stem": "didc-vpn-otp-18month-withholding",
       "title": "DIDC의 VPN OTP 카드 1년 6개월 미제공 — 舊KIATIS 은폐를 위한 의도적 지연",
       "titleKo": "DIDC의 VPN OTP 카드 1년 6개월 미제공 — 舊KIATIS 은폐를 위한 의도적 지연",
-      "titleEn": "DIDC의 VPN OTP 카드 1년 6개월 미제공 — 舊KIATIS 은폐를 위한 의도적 지연",
+      "titleEn": "DIDC's 18-month failure to provide VPN OTP cards — deliberate delay to conceal 舊KIATIS",
       "layer": 4,
       "secondaryLayers": [
         6,
@@ -2433,7 +2433,7 @@
       "stem": "didc-withheld-network-diagram-from-kiatis",
       "title": "DIDC의 네트워크 구성도 비공개 — 시험평가 환경 통제 불가능 입증",
       "titleKo": "DIDC의 네트워크 구성도 비공개 — 시험평가 환경 통제 불가능 입증",
-      "titleEn": "DIDC의 네트워크 구성도 비공개 — 시험평가 환경 통제 불가능 입증",
+      "titleEn": "DIDC withheld network diagram — proves T&E environment was uncontrollable",
       "layer": 4,
       "secondaryLayers": [],
       "claimType": "evidence_concealment",
@@ -2477,7 +2477,7 @@
       "stem": "diffusion-of-responsibility-seven-organizations",
       "title": "7개 조직의 역할 분담을 통한 책임 분산 — 악의 평범성의 현대적 구현",
       "titleKo": "7개 조직의 역할 분담을 통한 책임 분산 — 악의 평범성의 현대적 구현",
-      "titleEn": "7개 조직의 역할 분담을 통한 책임 분산 — 악의 평범성의 현대적 구현",
+      "titleEn": "Responsibility diffusion through 7-organization role division — modern embodiment of the banality of evil",
       "layer": 4,
       "secondaryLayers": [
         1,
@@ -2566,7 +2566,7 @@
       "stem": "do-jiho-sharkamax-excluded-unresolved-requirements",
       "title": "유지보수PM 도지호: ChakraMax(샤크라맥스) 시험평가 시 미사용 — \"확정이 안됐으니까\"",
       "titleKo": "유지보수PM 도지호: ChakraMax(샤크라맥스) 시험평가 시 미사용 — \"확정이 안됐으니까\"",
-      "titleEn": "유지보수PM 도지호: ChakraMax(샤크라맥스) 시험평가 시 미사용 — \"확정이 안됐으니까\"",
+      "titleEn": "Maintenance PM Do Ji-ho: ChakraMax not used during T&E — 'because it hadn't been finalized'",
       "layer": 4,
       "secondaryLayers": [
         1
@@ -2609,7 +2609,7 @@
       "stem": "evaluation-post-completion-temporal-impossibility",
       "title": "C-L4-13: 시험평가 종료(9.11) 후 평가항목 변경 승인(9.19) — 시간적 불가능",
       "titleKo": "C-L4-13: 시험평가 종료(9.11) 후 평가항목 변경 승인(9.19) — 시간적 불가능",
-      "titleEn": "C-L4-13: 시험평가 종료(9.11) 후 평가항목 변경 승인(9.19) — 시간적 불가능",
+      "titleEn": "C-L4-13: Evaluation item change approved (9.19) after T&E completion (9.11) — temporal impossibility",
       "layer": 4,
       "secondaryLayers": [
         7
@@ -2652,7 +2652,7 @@
       "stem": "evidence-golden-time-destruction-risk",
       "title": "증거 보전의 골든타임 — 디지털 증거 인멸과 관련자 기억 소실 위험",
       "titleKo": "증거 보전의 골든타임 — 디지털 증거 인멸과 관련자 기억 소실 위험",
-      "titleEn": "증거 보전의 골든타임 — 디지털 증거 인멸과 관련자 기억 소실 위험",
+      "titleEn": "Evidence preservation golden hour — risk of digital evidence destruction and witness memory loss",
       "layer": 7,
       "secondaryLayers": [
         1,
@@ -2689,7 +2689,7 @@
       "stem": "excavation-team-leader-15yr-vpn-absence-field-testimony",
       "title": "발굴팀장의 15��� 현장 증언 — VPN·보안장비 미사용을 7개 verbatim 발언으로 독립 증명",
       "titleKo": "발굴팀장의 15��� 현장 증언 — VPN·보안장비 미사용을 7개 verbatim 발언으로 독립 증명",
-      "titleEn": "발굴팀장의 15��� 현장 증언 — VPN·보안장비 미사용을 7개 verbatim 발언으로 독립 증명",
+      "titleEn": "Excavation team leader's 15-year on-site testimony — VPN and security equipment absence proven by 7 verbatim statements",
       "layer": 1,
       "secondaryLayers": [
         5
@@ -2736,7 +2736,7 @@
       "stem": "excavation-team-leader-galaxy-note-mobile-attack-surface",
       "title": "발굴팀장의 \"갤럭시 노트를 가지고 다닌다\" — 민간 무선 네트워크 경유 모바일 접근이라는 추가 attack surface 식별",
       "titleKo": "발굴팀장의 \"갤럭시 노트를 가지고 다닌다\" — 민간 무선 네트워크 경유 모바일 접근이라는 추가 attack surface 식별",
-      "titleEn": "발굴팀장의 \"갤럭시 노트를 가지고 다닌다\" — 민간 무선 네트워크 경유 모바일 접근이라는 추가 attack surface 식별",
+      "titleEn": "Excavation team leader: 'I carry a Galaxy Note' — additional attack surface: mobile access via civilian wireless network",
       "layer": 1,
       "secondaryLayers": [
         4
@@ -2778,7 +2778,7 @@
       "stem": "fabricated-document-2020-produced-in-2022",
       "title": "2020.8.20 국방부 공문의 2022년 소급 조작 — '인도 단계' 용어의 시간역전",
       "titleKo": "2020.8.20 국방부 공문의 2022년 소급 조작 — '인도 단계' 용어의 시간역전",
-      "titleEn": "2020.8.20 국방부 공문의 2022년 소급 조작 — '인도 단계' 용어의 시간역전",
+      "titleEn": "MND document dated 2020.8.20 retroactively fabricated in 2022 — temporal reversal of '인도 단계' term",
       "layer": 4,
       "secondaryLayers": [],
       "claimType": "document_fabrication",
@@ -2819,7 +2819,7 @@
       "stem": "fabricated-document-recipients-admin-only",
       "title": "조작 공문 수신자가 행정담당 인원에 국한 — DIDC 배제",
       "titleKo": "조작 공문 수신자가 행정담당 인원에 국한 — DIDC 배제",
-      "titleEn": "조작 공문 수신자가 행정담당 인원에 국한 — DIDC 배제",
+      "titleEn": "Fabricated document recipients limited to administrative staff — DIDC excluded",
       "layer": 4,
       "secondaryLayers": [],
       "claimType": "document_fabrication",
@@ -2861,7 +2861,7 @@
       "stem": "fabricated-warning-wrong-title",
       "title": "C-L5-04 확장: 경고장의 존재하지 않는 직위 기재 — 행정정보계획팀장(미존재) vs 자원정보화과 국방정보화사업담당(공식)",
       "titleKo": "C-L5-04 확장: 경고장의 존재하지 않는 직위 기재 — 행정정보계획팀장(미존재) vs 자원정보화과 국방정보화사업담당(공식)",
-      "titleEn": "C-L5-04 확장: 경고장의 존재하지 않는 직위 기재 — 행정정보계획팀장(미존재) vs 자원정보화과 국방정보화사업담당(공식)",
+      "titleEn": "C-L5-04 extension: warning letter cites non-existent job title — 행정정보계획팀장 (non-existent) vs. official 자원정보화과 국방정보화사업담당",
       "layer": 5,
       "secondaryLayers": [
         6
@@ -2906,7 +2906,7 @@
       "stem": "firewall-policy-form-approved-by-wrong-officer",
       "title": "2019-08-26 방화벽 정책 변경 요청서는 정보보호과장 승인 없이 행정정보화과장에 의해 승인됨 — DIDC SOP 제12호 제37조 ① 위반",
       "titleKo": "2019-08-26 방화벽 정책 변경 요청서는 정보보호과장 승인 없이 행정정보화과장에 의해 승인됨 — DIDC SOP 제12호 제37조 ① 위반",
-      "titleEn": "2019-08-26 방화벽 정책 변경 요청서는 정보보호과장 승인 없이 행정정보화과장에 의해 승인됨 — DIDC SOP 제12호 제37조 ① 위반",
+      "titleEn": "2019-08-26 firewall policy change request approved by IT admin director without security chief approval — DIDC SOP 제12호 제37조 ① violation",
       "layer": 1,
       "secondaryLayers": [
         4,
@@ -2949,7 +2949,7 @@
       "stem": "firewall-port-opening-standard-it-procedure",
       "title": "방화벽 포트 개방은 표준 IT 절차 — 불법 접근이 아님",
       "titleKo": "방화벽 포트 개방은 표준 IT 절차 — 불법 접근이 아님",
-      "titleEn": "방화벽 포트 개방은 표준 IT 절차 — 불법 접근이 아님",
+      "titleEn": "Firewall port opening is standard IT procedure — not unlawful access",
       "layer": 6,
       "secondaryLayers": [],
       "claimType": "prosecution_misconduct",
@@ -2992,7 +2992,7 @@
       "stem": "firewall-requests-confirm-no-vpn-db-direct-access",
       "title": "방화벽 정책 요청 공문이 VPN 미사용·DB 직접접속의 추가 증거",
       "titleKo": "방화벽 정책 요청 공문이 VPN 미사용·DB 직접접속의 추가 증거",
-      "titleEn": "All 'firewall policy application request' official communications processed by three project staff members (오현수, 지원호, 이준",
+      "titleEn": "Firewall policy request document is additional evidence of no-VPN and direct DB access",
       "layer": 4,
       "secondaryLayers": [
         1
@@ -3042,7 +3042,7 @@
       "stem": "four-kiatis-environments-non-identical",
       "title": "4개 KIATIS 환경은 모두 비동일 — 정리04에 의한 동일성 오류 반박",
       "titleKo": "4개 KIATIS 환경은 모두 비동일 — 정리04에 의한 동일성 오류 반박",
-      "titleEn": "4개 KIATIS 환경은 모두 비동일 — 정리04에 의한 동일성 오류 반박",
+      "titleEn": "All 4 KIATIS environments are non-identical — Theorem 04 refutes prosecution's identity error",
       "layer": 6,
       "secondaryLayers": [],
       "claimType": "technical_proof",
@@ -3080,7 +3080,7 @@
       "stem": "glossary-term-count-oscillation-pattern",
       "title": "별표1 용어 수 진동 패턴: 제2436호가 최저점(138) — 본문 조작 강도와 동기화",
       "titleKo": "별표1 용어 수 진동 패턴: 제2436호가 최저점(138) — 본문 조작 강도와 동기화",
-      "titleEn": "별표1 용어 수 진동 패턴: 제2436호가 최저점(138) — 본문 조작 강도와 동기화",
+      "titleEn": "Annex 1 term count oscillation: 제2436호 at minimum (138) — synchronized with body-text manipulation intensity",
       "layer": 4,
       "secondaryLayers": [
         1
@@ -3116,7 +3116,7 @@
       "stem": "gukjeonwon-pre-evaluation-team-leader-exclusion",
       "title": "국전원의 시험평가 계획보고 시 개발관리팀장 체계적 배제",
       "titleKo": "국전원의 시험평가 계획보고 시 개발관리팀장 체계적 배제",
-      "titleEn": "On 2019-08-29, 국전원 unprecedented excluded development management team leader (Lieutenant Colonel 한지훈) from the New KIATI",
+      "titleEn": "국전원's systematic exclusion of development management team leader from T&E planning reports",
       "layer": 4,
       "secondaryLayers": [],
       "claimType": "conspiracy_structure",
@@ -3215,7 +3215,7 @@
       "stem": "gukyu-dan-dual-cap-unprecedented-structure",
       "title": "국유단의 사업통제+주관기관 이중역할 — 전례 없는 위반 구조",
       "titleKo": "국유단의 사업통제+주관기관 이중역할 — 전례 없는 위반 구조",
-      "titleEn": "국유단의 사업통제+주관기관 이중역할 — 전례 없는 위반 구조",
+      "titleEn": "국유단's dual role as project control + lead agency — unprecedented violation structure",
       "layer": 2,
       "secondaryLayers": [],
       "claimType": "regulatory_manipulation",
@@ -3262,7 +3262,7 @@
       "stem": "gwak-mincheol-nis-support-cmd-director-orchestrated-charge",
       "title": "곽민철 (안보지원사 국전원 담당): \"원장님이 가짜 환경을 만들어서 속였다고\" — 김민수의 혐의 설계 구조 증언",
       "titleKo": "곽민철 (안보지원사 국전원 담당): \"원장님이 가짜 환경을 만들어서 속였다고\" — 김민수의 혐의 설계 구조 증언",
-      "titleEn": "곽민철 (안보지원사 국전원 담당): \"원장님이 가짜 환경을 만들어서 속였다고\" — 김민수의 혐의 설계 구조 증언",
+      "titleEn": "Gwak Min-cheol (Security Support Command, 국전원 liaison): 'The director created a fake environment to deceive' — testimony on Kim Min-su's charge design",
       "layer": 6,
       "secondaryLayers": [
         5
@@ -3306,7 +3306,7 @@
       "stem": "han-ji-hoon-dan-jang-phone-call-2022-09-28",
       "title": "한지훈과 군검찰단장(안세준)의 2022-09-28 녹취 전화 통화는 단장이 결함있는 기소 및 한지훈의 무혐의를 개인적으로 인지한 상태에서 기소유예를 진행했음을 입증하는 1차 증거임",
       "titleKo": "한지훈과 군검찰단장(안세준)의 2022-09-28 녹취 전화 통화는 단장이 결함있는 기소 및 한지훈의 무혐의를 개인적으로 인지한 상태에서 기소유예를 진행했음을 입증하는 1차 증거임",
-      "titleEn": "On **2022-09-28**, 한지훈 placed a recorded telephone call to the **군검찰단장** (안세준). The call is preserved in the evidence re",
+      "titleEn": "2022-09-28 recorded call: prosecution commander An Se-jun proceeded with Prosecutorial Deferral while personally aware of flawed charges and Han Ji-hoon's innocence",
       "layer": 7,
       "secondaryLayers": [
         6
@@ -3350,7 +3350,7 @@
       "stem": "han-ji-hoon-investigation-notebook-30-questions-2022-03-25",
       "title": "한지훈의 갑질 조사 수첩기록 (2022.3.25, 30개 질의응답) — 신고 동기 = 교육 보복 + 경고장 허위 보직명 + 17:30 석식 상세",
       "titleKo": "한지훈의 갑질 조사 수첩기록 (2022.3.25, 30개 질의응답) — 신고 동기 = 교육 보복 + 경고장 허위 보직명 + 17:30 석식 상세",
-      "titleEn": "한지훈의 갑질 조사 수첩기록 (2022.3.25, 30개 질의응답) — 신고 동기 = 교육 보복 + 경고장 허위 보직명 + 17:30 석식 상세",
+      "titleEn": "Han Ji-hoon's harassment investigation notebook (2022.3.25, 30 Q&As) — complaint motive: education retaliation + false job title + 17:30 dinner detail",
       "layer": 5,
       "secondaryLayers": [],
       "claimType": "testimony_evidence",
@@ -3436,7 +3436,7 @@
       "stem": "han-ji-hoon-kiso-yuye-is-criminal-stigma",
       "title": "한지훈의 기소유예 처분은 면책이 아니라 형사 낙인이며, 32년 군 경력자에게 가해진 Layer 6 핵심 피해 그 자체이다",
       "titleKo": "한지훈의 기소유예 처분은 면책이 아니라 형사 낙인이며, 32년 군 경력자에게 가해진 Layer 6 핵심 피해 그 자체이다",
-      "titleEn": "The 기소유예 (deferred prosecution) disposition issued against 한지훈 by 군 검찰단 in October 2022 is **not exoneration**. Under Ko",
+      "titleEn": "Han Ji-hoon's Prosecutorial Deferral is criminal stigma, not exoneration — the core Layer 6 harm inflicted on a 32-year military career",
       "layer": 6,
       "secondaryLayers": [
         7
@@ -3529,7 +3529,7 @@
       "stem": "han-ji-hoon-official-statement-2022-04-04-sixteen-page-defense",
       "title": "한지훈 공식 진술 및 소명서 (2022.4.4, 16페이지) — 갑질 혐의 전면 반박 + 김민수의 전역 강요 + \"저도 살고 싶습니다\" 기록",
       "titleKo": "한지훈 공식 진술 및 소명서 (2022.4.4, 16페이지) — 갑질 혐의 전면 반박 + 김민수의 전역 강요 + \"저도 살고 싶습니다\" 기록",
-      "titleEn": "한지훈 공식 진술 및 소명서 (2022.4.4, 16페이지) — 갑질 혐의 전면 반박 + 김민수의 전역 강요 + \"저도 살고 싶습니다\" 기록",
+      "titleEn": "Han Ji-hoon official statement (2022.4.4, 16 pages) — full rebuttal of harassment charges + Kim Min-su's forced discharge demand + '저도 살고 싶습니다' on record",
       "layer": 5,
       "secondaryLayers": [
         7
@@ -3617,7 +3617,7 @@
       "stem": "han-ji-hoon-prosecution-violates-2129-role-separation",
       "title": "한지훈 prosecution targets a role (사업관리팀장) that 제2129호 제11조 explicitly excludes from test-evaluation execution",
       "titleKo": "한지훈 prosecution targets a role (사업관리팀장) that 제2129호 제11조 explicitly excludes from test-evaluation execution",
-      "titleEn": "The 2022 군 검찰단 investigation of 한지훈 — which proceeded through unlawful warrant + 압수수색 + 피의자 조사 and culminated in a **기소유",
+      "titleEn": "Han Ji-hoon prosecution targets a role (사업관리팀장) that 제2129호 제11조 explicitly excludes from T&E execution",
       "layer": 6,
       "secondaryLayers": [
         4
@@ -3665,7 +3665,7 @@
       "stem": "han-ji-hoon-rebuttal-20220929-meta-axiom-theorem-structure",
       "title": "한지훈 \"압수·수색·검증 영장에 대한 해명과 증명\" (2022.9.29, 3,811줄) — 공리·정리·정의 체계로 6개 혐의 전면 반박",
       "titleKo": "한지훈 \"압수·수색·검증 영장에 대한 해명과 증명\" (2022.9.29, 3,811줄) — 공리·정리·정의 체계로 6개 혐의 전면 반박",
-      "titleEn": "한지훈 \"압수·수색·검증 영장에 대한 해명과 증명\" (2022.9.29, 3,811줄) — 공리·정리·정의 체계로 6개 혐의 전면 반박",
+      "titleEn": "Han Ji-hoon 'Explanation and Proof Regarding Search Warrant' (2022.9.29, 3,811 lines) — full rebuttal of 6 charges via axiom–theorem–definition framework",
       "layer": 6,
       "secondaryLayers": [
         7
@@ -3710,7 +3710,7 @@
       "stem": "han-ji-hoon-rebuttal-document-date-2022-09-25",
       "title": "한지훈의 반박 문서 \"압수·수색·검증 영장에 대한 해명과 증명\"의 올바른 작성일자는 2022-09-25이며, raw/05의 파일명 2022-09-29는 James의 파일 명명 관례상 metadata로서 문서 inte",
       "titleKo": "한지훈의 반박 문서 \"압수·수색·검증 영장에 대한 해명과 증명\"의 올바른 작성일자는 2022-09-25이며, raw/05의 파일명 2022-09-29는 James의 파일 명명 관례상 metadata로서 문서 interior에는 어떠한 날짜도 인쇄되어 있지 않아 책(2022-09-25)이 최종 authoritative임",
-      "titleEn": "Book §3.7.1.1 of *Beyond Cybersecurity* states: `\"압수, 수색, 검증 영장에 대한 해명과 증명(2022.9.25., 기록 제5,393쪽~제5,577쪽)\"` — the paren",
+      "titleEn": "Han Ji-hoon's rebuttal document correct authoring date is 2022-09-25; raw/05 filename 2022-09-29 is file-naming metadata, not document date",
       "layer": 7,
       "secondaryLayers": [
         6
@@ -3799,7 +3799,7 @@
       "stem": "han-ji-hoon-rebuttal-six-charges-systematic-refutation",
       "title": "한지훈 반박 문서(2022.9.29)의 6개 혐의별 체계적 반박 — 각 혐의가 \"비상식적이고 부조리하다\"는 것을 정리·공준에 의해 증명",
       "titleKo": "한지훈 반박 문서(2022.9.29)의 6개 혐의별 체계적 반박 — 각 혐의가 \"비상식적이고 부조리하다\"는 것을 정리·공준에 의해 증명",
-      "titleEn": "한지훈 반박 문서(2022.9.29)의 6개 혐의별 체계적 반박 — 각 혐의가 \"비상식적이고 부조리하다\"는 것을 정리·공준에 의해 증명",
+      "titleEn": "Han Ji-hoon's rebuttal (2022.9.29): per-charge refutation of all 6 charges — each proven 'irrational and absurd' by theorems and axioms",
       "layer": 6,
       "secondaryLayers": [],
       "claimType": "prosecution_misconduct",
@@ -3885,7 +3885,7 @@
       "stem": "han-ji-hoon-three-braking-devices-active-defense",
       "title": "한지훈은 사업 착수 시 3가지 능동적 방어 메커니즘을 설치했다 (Layer 6 검찰 기소에 대한 결정적 반대서사)",
       "titleKo": "한지훈은 사업 착수 시 3가지 능동적 방어 메커니즘을 설치했다 (Layer 6 검찰 기소에 대한 결정적 반대서사)",
-      "titleEn": "Upon recognizing problems with the New KIATIS project structure (국유단 multiple cap, Directive No. 2129 violations), 한지훈 i",
+      "titleEn": "Han Ji-hoon installed 3 active defense mechanisms at project launch — decisive counter-narrative to Layer 6 prosecution",
       "layer": 2,
       "secondaryLayers": [
         7
@@ -3931,7 +3931,7 @@
       "stem": "han-ji-hoon-three-safeguard-mechanisms",
       "title": "한지훈의 3가지 사전 제동 장치 — 사업관리팀장의 능동적 위험관리",
       "titleKo": "한지훈의 3가지 사전 제동 장치 — 사업관리팀장의 능동적 위험관리",
-      "titleEn": "한지훈의 3가지 사전 제동 장치 — 사업관리팀장의 능동적 위험관리",
+      "titleEn": "Han Ji-hoon's 3 pre-installed safeguards — project management team leader's active risk management",
       "layer": 3,
       "secondaryLayers": [],
       "claimType": "methodology",
@@ -3971,7 +3971,7 @@
       "stem": "han-ji-hoon-witness-statement-2022-01-25",
       "title": "한지훈은 2022-01-25 참고인 신분으로 조사받았고, 6개월 후 피의자로 재분류되었다 — 소급적 기소 설계의 절차적 역전",
       "titleKo": "한지훈은 2022-01-25 참고인 신분으로 조사받았고, 6개월 후 피의자로 재분류되었다 — 소급적 기소 설계의 절차적 역전",
-      "titleEn": "한지훈은 2022-01-25 참고인 신분으로 조사받았고, 6개월 후 피의자로 재분류되었다 — 소급적 기소 설계의 절차적 역전",
+      "titleEn": "Han Ji-hoon investigated as witness on 2022-01-25, reclassified as suspect 6 months later — procedural reversal of retroactive prosecution design",
       "layer": 6,
       "secondaryLayers": [
         5
@@ -4013,7 +4013,7 @@
       "stem": "harassment-complaint-48hrs-premeditated-isolation",
       "title": "갑질 신고 48시간 전 협력 회의 + 사전 준비된 독방 격리",
       "titleKo": "갑질 신고 48시간 전 협력 회의 + 사전 준비된 독방 격리",
-      "titleEn": "On February 8, 2022, during a New KIATIS-related meeting between 국유단, 국전원 staff, and contractor, 박서준 (갑질신고자-1) cooperate",
+      "titleEn": "Cooperative meeting 48 hours before harassment complaint + pre-arranged solitary isolation",
       "layer": 5,
       "secondaryLayers": [],
       "claimType": "human_rights_violation",
@@ -4109,7 +4109,7 @@
       "stem": "inkkwonwi-rejected-without-witness-review",
       "title": "국가인권위원회는 참고인 조사 없이, 수천 쪽의 증거를 묵살하고 한지훈의 진정을 기각했음 — 절차적 거부를 실질적 심사로 위장한 기관 실패",
       "titleKo": "국가인권위원회는 참고인 조사 없이, 수천 쪽의 증거를 묵살하고 한지훈의 진정을 기각했음 — 절차적 거부를 실질적 심사로 위장한 기관 실패",
-      "titleEn": "국가인권위원회는 참고인 조사 없이, 수천 쪽의 증거를 묵살하고 한지훈의 진정을 기각했음 — 절차적 거부를 실질적 심사로 위장한 기관 실패",
+      "titleEn": "National Human Rights Commission rejected Han Ji-hoon's petition without witness interviews, dismissing thousands of pages of evidence — institutional failure disguised as substantive review",
       "layer": 7,
       "secondaryLayers": [],
       "claimType": "institutional_obstruction",
@@ -4189,7 +4189,7 @@
       "stem": "interrogation-son-schizophrenia-prosecution-aware",
       "title": "피의자신문조서에서 한지훈이 아들 조현병 진단 공개 — 검찰의 가족 피해 공식 인지 시점",
       "titleKo": "피의자신문조서에서 한지훈이 아들 조현병 진단 공개 — 검찰의 가족 피해 공식 인지 시점",
-      "titleEn": "피의자신문조서에서 한지훈이 아들 조현병 진단 공개 — 검찰의 가족 피해 공식 인지 시점",
+      "titleEn": "Han Ji-hoon disclosed son's schizophrenia diagnosis in suspect interrogation record — official moment prosecution acknowledged family harm",
       "layer": 6,
       "secondaryLayers": [
         7
@@ -4227,7 +4227,7 @@
       "stem": "interrogation-zero-of-14-projects-measured-vpn",
       "title": "2019년 14개 사업 중 VPN 성능을 측정한 사업 0건 — 검찰 요구의 전례 없는 차별적 적용",
       "titleKo": "2019년 14개 사업 중 VPN 성능을 측정한 사업 0건 — 검찰 요구의 전례 없는 차별적 적용",
-      "titleEn": "2019년 14개 사업 중 VPN 성능을 측정한 사업 0건 — 검찰 요구의 전례 없는 차별적 적용",
+      "titleEn": "Zero projects measured VPN performance among 14 projects in 2019 — prosecution demand applied with unprecedented differential enforcement",
       "layer": 6,
       "secondaryLayers": [
         4
@@ -4409,7 +4409,7 @@
       "stem": "investigator-admits-warrant-phantom-reference",
       "title": "수사관이 영장 내 존재하지 않는 '위1.나항' 참조를 인정 — '기재할 필요 없어서 안 했다'",
       "titleKo": "수사관이 영장 내 존재하지 않는 '위1.나항' 참조를 인정 — '기재할 필요 없어서 안 했다'",
-      "titleEn": "수사관이 영장 내 존재하지 않는 '위1.나항' 참조를 인정 — '기재할 필요 없어서 안 했다'",
+      "titleEn": "Investigator admits phantom '위1.나항' reference not in warrant — 'Didn't record it because there was no need'",
       "layer": 6,
       "secondaryLayers": [
         7
@@ -4449,7 +4449,7 @@
       "stem": "jang-hojae-data-migration-failure-gukyu-dan-responsibility",
       "title": "장호재 (개발PM): \"데이터 이관이 안 된 거는 전부 다 국유단에서 데이터를 안 줘서\" — 데이터 미이관 책임은 국유단",
       "titleKo": "장호재 (개발PM): \"데이터 이관이 안 된 거는 전부 다 국유단에서 데이터를 안 줘서\" — 데이터 미이관 책임은 국유단",
-      "titleEn": "장호재 (개발PM): \"데이터 이관이 안 된 거는 전부 다 국유단에서 데이터를 안 줘서\" — 데이터 미이관 책임은 국유단",
+      "titleEn": "Developer PM Jang Ho-jae: 'All unmigrated data was because 국유단 didn't provide it' — data migration responsibility lies with 국유단",
       "layer": 4,
       "secondaryLayers": [
         6
@@ -4493,7 +4493,7 @@
       "stem": "jang-hojae-data-migration-not-in-rfp-evaluation-independence",
       "title": "장호재 (개발PM): \"요구사항에는 없습니다\" — 과거 데이터 이관은 RFP 밖 + \"어떻게 점수를 조작해요 그쪽에서 다 한 건데\"",
       "titleKo": "장호재 (개발PM): \"요구사항에는 없습니다\" — 과거 데이터 이관은 RFP 밖 + \"어떻게 점수를 조작해요 그쪽에서 다 한 건데\"",
-      "titleEn": "장호재 (개발PM): \"요구사항에는 없습니다\" — 과거 데이터 이관은 RFP 밖 + \"어떻게 점수를 조작해요 그쪽에서 다 한 건데\"",
+      "titleEn": "Developer PM Jang Ho-jae: 'It's not in the requirements' — legacy data migration outside RFP + 'how could the score be manipulated when they did it all'",
       "layer": 4,
       "secondaryLayers": [
         6
@@ -4534,7 +4534,7 @@
       "stem": "jang-hojae-developer-pm-didc-opened-port-not-han-ji-hoon",
       "title": "개발업체 PM 장호재: \"VPN 없이 포트 열어줬어요\" — DIDC가 직접 포트개방 결정, 한지훈 책임 아님",
       "titleKo": "개발업체 PM 장호재: \"VPN 없이 포트 열어줬어요\" — DIDC가 직접 포트개방 결정, 한지훈 책임 아님",
-      "titleEn": "개발업체 PM 장호재: \"VPN 없이 포트 열어줬어요\" — DIDC가 직접 포트개방 결정, 한지훈 책임 아님",
+      "titleEn": "Developer PM Jang Ho-jae: 'They opened the port without VPN' — DIDC directly decided port opening, not Han Ji-hoon",
       "layer": 4,
       "secondaryLayers": [
         6
@@ -4578,7 +4578,7 @@
       "stem": "jang-woojin-dual-evidence-vpn-absent-during-test-evaluation",
       "title": "장우진의 서면 진술서 + 녹취 이중 증거 — 시험평가 시 VPN 미사용 + DIDC 인프라 제약으로 국전원 대여 서버 테스트",
       "titleKo": "장우진의 서면 진술서 + 녹취 이중 증거 — 시험평가 시 VPN 미사용 + DIDC 인프라 제약으로 국전원 대여 서버 테스트",
-      "titleEn": "장우진의 서면 진술서 + 녹취 이중 증거 — 시험평가 시 VPN 미사용 + DIDC 인프라 제약으로 국전원 대여 서버 테스트",
+      "titleEn": "Jang U-jin dual evidence — written statement + recording: no VPN during T&E + testing on 국전원-loaned server due to DIDC infrastructure constraints",
       "layer": 4,
       "secondaryLayers": [
         1,
@@ -4623,7 +4623,7 @@
       "stem": "jang-woojin-win10-chakramax-absent-direct-db-access",
       "title": "장우진 녹취 211: Windows 10 전환 시 ChakraMax 모듈 부재 → VPN 없이 DB 다이렉트 접속 + OTP 6~10개 수량 제한",
       "titleKo": "장우진 녹취 211: Windows 10 전환 시 ChakraMax 모듈 부재 → VPN 없이 DB 다이렉트 접속 + OTP 6~10개 수량 제한",
-      "titleEn": "장우진 (사업실무자-1, Project-Officer-1) testified in Recordings 211 (2022-07-22) and 212 (2022-09-27) regarding the **specific ",
+      "titleEn": "Jang U-jin recording 211: ChakraMax absent during Windows 10 migration → direct DB access without VPN + OTP quantity limit of 6–10",
       "layer": 4,
       "secondaryLayers": [
         1
@@ -4667,7 +4667,7 @@
       "stem": "jeong-hyeonwoo-2016-hacking-scapegoat-admission",
       "title": "정현우 (초대 데이터센터부대장): 2016 해킹 시 DIDC 부대원 '희생양' 취급 인정",
       "titleKo": "정현우 (초대 데이터센터부대장): 2016 해킹 시 DIDC 부대원 '희생양' 취급 인정",
-      "titleEn": "정현우 (2016해킹당시원장-1, Director-During-2016-Hack-1, inaugural data center unit commander) stated in a 2022-02-28 recording: ",
+      "titleEn": "Jeong Hyeon-u (inaugural DIDC unit commander): admits DIDC personnel treated as scapegoats during 2016 hack",
       "layer": 1,
       "secondaryLayers": [
         7
@@ -4708,7 +4708,7 @@
       "stem": "jin-sangho-investigator-vpn-admission-missing-documentation",
       "title": "수사관 진상호: \"결국 VPN이죠\" — 전체 사건이 VPN 문제로 귀결 + \"나항\" 기재 누락 자인",
       "titleKo": "수사관 진상호: \"결국 VPN이죠\" — 전체 사건이 VPN 문제로 귀결 + \"나항\" 기재 누락 자인",
-      "titleEn": "수사관 진상호: \"결국 VPN이죠\" — 전체 사건이 VPN 문제로 귀결 + \"나항\" 기재 누락 자인",
+      "titleEn": "Investigator Jin Sang-ho: 'It all comes down to VPN' — entire case reduced to VPN issue + admission of '나항' omission",
       "layer": 6,
       "secondaryLayers": [],
       "claimType": "prosecution_misconduct",
@@ -4751,7 +4751,7 @@
       "stem": "jin-sangho-recording159-environment-dispute-retroactive-standards",
       "title": "진상호 녹취 159: \"자다가 봉창 두드리는 얘기\" — 4년치 소급 적용의 부당함 + 수사관이 환경 3요소(네트워크·서버·PC)를 피의자에게 배움",
       "titleKo": "진상호 녹취 159: \"자다가 봉창 두드리는 얘기\" — 4년치 소급 적용의 부당함 + 수사관이 환경 3요소(네트워크·서버·PC)를 피의자에게 배움",
-      "titleEn": "진상호 녹취 159: \"자다가 봉창 두드리는 얘기\" — 4년치 소급 적용의 부당함 + 수사관이 환경 3요소(네트워크·서버·PC)를 피의자에게 배움",
+      "titleEn": "Jin Sang-ho recording 159: 'That's nonsense out of nowhere' — injustice of 4-year retroactive application + investigator learning 3 environment components from suspect",
       "layer": 6,
       "secondaryLayers": [],
       "claimType": "prosecution_misconduct",
@@ -4788,7 +4788,7 @@
       "stem": "kakaotalk-eval-and-absence-same-day-announced",
       "title": "카카오톡: 시험평가 시작과 송민석 교육 부재가 동일 채널에서 동시 공유 — 조직 전체 인지",
       "titleKo": "카카오톡: 시험평가 시작과 송민석 교육 부재가 동일 채널에서 동시 공유 — 조직 전체 인지",
-      "titleEn": "카카오톡: 시험평가 시작과 송민석 교육 부재가 동일 채널에서 동시 공유 — 조직 전체 인지",
+      "titleEn": "KakaoTalk: T&E start and Song Min-seok's training absence simultaneously shared in same channel — organization-wide awareness",
       "layer": 4,
       "secondaryLayers": [],
       "claimType": "conspiracy_structure",
@@ -4826,7 +4826,7 @@
       "stem": "kakaotalk-han-ji-hoon-pre-complaint-silence-digital",
       "title": "카카오톡: 2022.2.3~14 한지훈 메시지 부재 — 공식 신고(2.10) 이전부터 디지털 격리 시작",
       "titleKo": "카카오톡: 2022.2.3~14 한지훈 메시지 부재 — 공식 신고(2.10) 이전부터 디지털 격리 시작",
-      "titleEn": "카카오톡: 2022.2.3~14 한지훈 메시지 부재 — 공식 신고(2.10) 이전부터 디지털 격리 시작",
+      "titleEn": "KakaoTalk: Han Ji-hoon messages absent 2022.2.3–14 — digital isolation began before official complaint (2.10)",
       "layer": 5,
       "secondaryLayers": [],
       "claimType": "technical_proof",
@@ -4866,7 +4866,7 @@
       "stem": "kakaotalk-han-ji-hoon-professional-engagement-during-eval",
       "title": "카카오톡: 한지훈이 시험평가 기간 중 전문 콘텐츠에 능동 참여 — 채팅 미사용이 아닌 보고할 이상 부재",
       "titleKo": "카카오톡: 한지훈이 시험평가 기간 중 전문 콘텐츠에 능동 참여 — 채팅 미사용이 아닌 보고할 이상 부재",
-      "titleEn": "카카오톡: 한지훈이 시험평가 기간 중 전문 콘텐츠에 능동 참여 — 채팅 미사용이 아닌 보고할 이상 부재",
+      "titleEn": "KakaoTalk: Han Ji-hoon actively engaged with professional content during T&E period — absence of reportable irregularities, not chat silence",
       "layer": 5,
       "secondaryLayers": [
         4
@@ -4905,7 +4905,7 @@
       "stem": "kakaotalk-lee-jiyoung-normal-management-pre-complaint",
       "title": "카카오톡: 이지영의 갑질 신고 직전 주간 정상적 관리자 활동 — 직장 기능장애 서사 반박",
       "titleKo": "카카오톡: 이지영의 갑질 신고 직전 주간 정상적 관리자 활동 — 직장 기능장애 서사 반박",
-      "titleEn": "카카오톡: 이지영의 갑질 신고 직전 주간 정상적 관리자 활동 — 직장 기능장애 서사 반박",
+      "titleEn": "KakaoTalk: normal managerial activity in the week before Lee Ji-young's harassment complaint — workplace dysfunction narrative refuted",
       "layer": 5,
       "secondaryLayers": [],
       "claimType": "methodology",
@@ -4942,7 +4942,7 @@
       "stem": "kakaotalk-park-seojun-wisc-conference-during-eval",
       "title": "박서준이 시험평가 기간 중 WiSC 학술대회 참석 — 억압 서사와 모순",
       "titleKo": "박서준이 시험평가 기간 중 WiSC 학술대회 참석 — 억압 서사와 모순",
-      "titleEn": "박서준이 시험평가 기간 중 WiSC 학술대회 참석 — 억압 서사와 모순",
+      "titleEn": "Park Seo-jun attended WiSC academic conference during T&E period — contradicts oppression narrative",
       "layer": 5,
       "secondaryLayers": [
         4
@@ -4981,7 +4981,7 @@
       "stem": "kang-hongseok-gukyu-dan-witness-dispersal-system-coverup",
       "title": "강홍석 (국유단 정보통신 상사): \"다른 사람은 전화도 안 받아\" + \"평가했던 사람들 다 다른 데로 갔어\" — 증인 분산과 시스템 은폐 지속",
       "titleKo": "강홍석 (국유단 정보통신 상사): \"다른 사람은 전화도 안 받아\" + \"평가했던 사람들 다 다른 데로 갔어\" — 증인 분산과 시스템 은폐 지속",
-      "titleEn": "강홍석 (국유단 정보통신 상사): \"다른 사람은 전화도 안 받아\" + \"평가했던 사람들 다 다른 데로 갔어\" — 증인 분산과 시스템 은폐 지속",
+      "titleEn": "Kang Hong-seok (국유단 IT sergeant): 'Others won't answer the phone' + 'Everyone who evaluated has moved elsewhere' — witness dispersal and system concealment continues",
       "layer": 6,
       "secondaryLayers": [
         4
@@ -5022,7 +5022,7 @@
       "stem": "kiatis-2129ho-main-regime-applies",
       "title": "KIATIS 성능개선사업 is governed by 제2129호 제58조 ¶2 main regime, not the 5억 미만 exception",
       "titleKo": "KIATIS 성능개선사업 is governed by 제2129호 제58조 ¶2 main regime, not the 5억 미만 exception",
-      "titleEn": "KIATIS 성능개선사업 (6.25억 KRW, 2018–2019) is governed by 국방정보화업무 훈령 제2129호 제58조 ¶2 main regime. Under that regime, DT&E and O",
+      "titleEn": "KIATIS performance improvement project governed by 제2129호 제58조 ¶2 main regime, not the under-500M exception",
       "layer": 4,
       "secondaryLayers": [],
       "claimType": "regulatory_manipulation",
@@ -5061,7 +5061,7 @@
       "stem": "kiatis-homepage-co-managed-by-admin-ops-team",
       "title": "舊KIATIS와 인터넷 홈페이지 서버는 행정정보 운영팀에서 공무원 팀장·실무자에 의해 함께 운용됨 — 피의자 신문조서 및 조직 현황 문서에 의한 증명",
       "titleKo": "舊KIATIS와 인터넷 홈페이지 서버는 행정정보 운영팀에서 공무원 팀장·실무자에 의해 함께 운용됨 — 피의자 신문조서 및 조직 현황 문서에 의한 증명",
-      "titleEn": "舊KIATIS와 인터넷 홈페이지 서버는 행정정보 운영팀에서 공무원 팀장·실무자에 의해 함께 운용됨 — 피의자 신문조서 및 조직 현황 문서에 의한 증명",
+      "titleEn": "舊KIATIS and internet homepage server co-managed by civilian team leader and staff in Administrative Information Operations",
       "layer": 1,
       "secondaryLayers": [
         6
@@ -5117,7 +5117,7 @@
       "stem": "kiatis-homepage-improvement-disguised-as-maintenance",
       "title": "국방부 홈페이지 개선 사업(2016.9.26~2017.4.24)은 과제카드에 '유지보수'로 둔갑하여 진행됨 — 보안 취약점 10대 항목 점검 사업의 정체 은폐",
       "titleKo": "국방부 홈페이지 개선 사업(2016.9.26~2017.4.24)은 과제카드에 '유지보수'로 둔갑하여 진행됨 — 보안 취약점 10대 항목 점검 사업의 정체 은폐",
-      "titleEn": "국방부 홈페이지 개선 사업(2016.9.26~2017.4.24)은 과제카드에 '유지보수'로 둔갑하여 진행됨 — 보안 취약점 10대 항목 점검 사업의 정체 은폐",
+      "titleEn": "MND homepage improvement project (2016.9.26–2017.4.24) disguised as 'maintenance' on task card — identity of top-10 security vulnerability project concealed",
       "layer": 1,
       "secondaryLayers": [],
       "claimType": "evidence_concealment",
@@ -5292,7 +5292,7 @@
       "stem": "kiatis-project-deliberately-transferred-to-han-ji-hoon",
       "title": "KIATIS 사업의 의도적 업무 떠넘기기 — 행정운영팀→계획팀 이관",
       "titleKo": "KIATIS 사업의 의도적 업무 떠넘기기 — 행정운영팀→계획팀 이관",
-      "titleEn": "KIATIS 사업의 의도적 업무 떠넘기기 — 행정운영팀→계획팀 이관",
+      "titleEn": "Deliberate KIATIS project work-dumping — transfer from Admin Operations Team to Planning Team",
       "layer": 3,
       "secondaryLayers": [],
       "claimType": "conspiracy_structure",
@@ -5335,7 +5335,7 @@
       "stem": "kiatis-rfp-binds-lifecycle",
       "title": "KIATIS conduct is governed by 제2129호 throughout its lifecycle (RFP-binds-lifecycle, 행위시법주의)",
       "titleKo": "KIATIS conduct is governed by 제2129호 throughout its lifecycle (RFP-binds-lifecycle, 행위시법주의)",
-      "titleEn": "KIATIS 성능개선사업 conduct (2018–2019) is governed by 국방정보화업무 훈령 제2129호 (effective 2018-02-05) throughout its lifecycle. Two ",
+      "titleEn": "KIATIS conduct governed by 제2129호 throughout its lifecycle (RFP-binds-lifecycle, 행위시법주의)",
       "layer": 4,
       "secondaryLayers": [
         6
@@ -5462,7 +5462,7 @@
       "stem": "kiatis-server-laundering-to-integrated-mail-server",
       "title": "舊KIATIS는 '국방 통합 인터넷 메일서버'로 서버 세탁되어 이전·운용됨 — 일상감사 결과 통보에 의한 서버 세탁 확인",
       "titleKo": "舊KIATIS는 '국방 통합 인터넷 메일서버'로 서버 세탁되어 이전·운용됨 — 일상감사 결과 통보에 의한 서버 세탁 확인",
-      "titleEn": "舊KIATIS는 '국방 통합 인터넷 메일서버'로 서버 세탁되어 이전·운용됨 — 일상감사 결과 통보에 의한 서버 세탁 확인",
+      "titleEn": "舊KIATIS laundered as 'Defense Integrated Internet Mail Server' — server washing confirmed by routine audit notification",
       "layer": 1,
       "secondaryLayers": [
         4,
@@ -5554,7 +5554,7 @@
       "stem": "kida-recommends-gukjeonwon-centered-integration",
       "title": "KIDA의 국전원 중심 시험평가 통합 권고 — 미군 기준 왜곡",
       "titleKo": "KIDA의 국전원 중심 시험평가 통합 권고 — 미군 기준 왜곡",
-      "titleEn": "KIDA의 국전원 중심 시험평가 통합 권고 — 미군 기준 왜곡",
+      "titleEn": "KIDA's recommendation to integrate T&E around 국전원 — distortion of US military standards",
       "layer": 4,
       "secondaryLayers": [],
       "claimType": "methodology",
@@ -5641,7 +5641,7 @@
       "stem": "kim-cheolhwan-otp-absence-policy-failure-not-operational-misconduct",
       "title": "김철환 (센터장): OTP 부재는 정책·행정 수준의 실패이지 운영자 비위가 아님 — \"과장이나 원장이 승인해야\"",
       "titleKo": "김철환 (센터장): OTP 부재는 정책·행정 수준의 실패이지 운영자 비위가 아님 — \"과장이나 원장이 승인해야\"",
-      "titleEn": "김철환 (센터장): OTP 부재는 정책·행정 수준의 실패이지 운영자 비위가 아님 — \"과장이나 원장이 승인해야\"",
+      "titleEn": "Kim Cheol-hwan (director): OTP absence is policy and administrative failure, not operator misconduct — 'Manager or director must approve'",
       "layer": 6,
       "secondaryLayers": [
         4
@@ -5682,7 +5682,7 @@
       "stem": "kim-cheolhwan-test-vs-operational-vpn-exemption-standard",
       "title": "김철환 (데이터센터장 대령): \"평가할 때는 여건에 의해서 못 한 거지\" — 시험평가 환경의 VPN 면제는 표준 관행",
       "titleKo": "김철환 (데이터센터장 대령): \"평가할 때는 여건에 의해서 못 한 거지\" — 시험평가 환경의 VPN 면제는 표준 관행",
-      "titleEn": "김철환 (데이터센터장 대령): \"평가할 때는 여건에 의해서 못 한 거지\" — 시험평가 환경의 VPN 면제는 표준 관행",
+      "titleEn": "Kim Cheol-hwan (data center commander, Colonel): 'During evaluation it just wasn't possible given the conditions' — VPN exemption in T&E is standard practice",
       "layer": 4,
       "secondaryLayers": [
         6
@@ -5725,7 +5725,7 @@
       "stem": "kim-dongwook-nis-testimony-park-seojun-mental-health",
       "title": "국가정보원 김동욱의 독립 증언 — 박서준의 기존 정신건강 이력과 한지훈의 보호적 행동 확인",
       "titleKo": "국가정보원 김동욱의 독립 증언 — 박서준의 기존 정신건강 이력과 한지훈의 보호적 행동 확인",
-      "titleEn": "국가정보원 김동욱의 독립 증언 — 박서준의 기존 정신건강 이력과 한지훈의 보호적 행동 확인",
+      "titleEn": "NIS Kim Dong-uk's independent testimony — confirms Park Seo-jun's pre-existing mental health history and Han Ji-hoon's protective behavior",
       "layer": 5,
       "secondaryLayers": [
         7
@@ -5773,7 +5773,7 @@
       "stem": "kim-gilrae-2016-hacking-redirected-by-cyber-command",
       "title": "이근태 (초대 데이터센터장): 2016 해킹 조사가 사이버사령관에 의해 DIDC로 전환",
       "titleKo": "이근태 (초대 데이터센터장): 2016 해킹 조사가 사이버사령관에 의해 DIDC로 전환",
-      "titleEn": "이근태 (초대 데이터센터장, Inaugural Data Center Commander) testified in a recording on 2022-09-21: '사실은 한경수(사이버사령관)이가 우리쪽으로 방향을 팍 ",
+      "titleEn": "Lee Geun-tae (inaugural data center commander): 2016 hacking investigation redirected to DIDC by Cyber Command",
       "layer": 1,
       "secondaryLayers": [
         6
@@ -5814,7 +5814,7 @@
       "stem": "kim-gilrae-reveals-lawyer-kiso-yuye-target",
       "title": "이근태: 최동욱 변호사가 기소유예를 최대 목표로 설정했음을 폭로",
       "titleKo": "이근태: 최동욱 변호사가 기소유예를 최대 목표로 설정했음을 폭로",
-      "titleEn": "이근태 conveyed in a recording (2022.9.21) the result of directly meeting attorney 최동욱: 'It would be good if it ends as ins",
+      "titleEn": "Lee Geun-tae exposes: Attorney Choe Dong-uk set Prosecutorial Deferral as the maximum target",
       "layer": 6,
       "secondaryLayers": [
         7
@@ -5854,7 +5854,7 @@
       "stem": "kim-min-su-apology-evidence-manufacturing",
       "title": "김민수의 사과 증거 제조 지시 — 감사실 사전 조율 후 '사과한 흔적 남기라'",
       "titleKo": "김민수의 사과 증거 제조 지시 — 감사실 사전 조율 후 '사과한 흔적 남기라'",
-      "titleEn": "김민수의 사과 증거 제조 지시 — 감사실 사전 조율 후 '사과한 흔적 남기라'",
+      "titleEn": "Kim Min-su's instruction to manufacture apology evidence — pre-coordinated with audit office: 'Leave a trace of apology'",
       "layer": 5,
       "secondaryLayers": [
         7
@@ -5895,7 +5895,7 @@
       "stem": "kim-min-su-central-cross-layer-cartel-figure",
       "title": "김민수의 교차층위 카르텔 핵심 역할 — 2016 해킹 당시→국전원장→책임전가 주도",
       "titleKo": "김민수의 교차층위 카르텔 핵심 역할 — 2016 해킹 당시→국전원장→책임전가 주도",
-      "titleEn": "김민수의 교차층위 카르텔 핵심 역할 — 2016 해킹 당시→국전원장→책임전가 주도",
+      "titleEn": "Kim Min-su's cross-layer cartel central role — from 2016 hack era → 국전원 director → orchestrating blame transfer",
       "layer": 4,
       "secondaryLayers": [
         5
@@ -5943,7 +5943,7 @@
       "stem": "kim-min-su-post-prosecution-personal-problem-framing",
       "title": "김민수의 기소유예 후 '개인 문제' 프레이밍 — 조직 책임 거부와 사과 요구",
       "titleKo": "김민수의 기소유예 후 '개인 문제' 프레이밍 — 조직 책임 거부와 사과 요구",
-      "titleEn": "김민수의 기소유예 후 '개인 문제' 프레이밍 — 조직 책임 거부와 사과 요구",
+      "titleEn": "Kim Min-su's post-deferral 'personal problem' framing — refusal of organizational responsibility and demand for apology",
       "layer": 6,
       "secondaryLayers": [
         5
@@ -5984,7 +5984,7 @@
       "stem": "kim-min-su-vpn-speed-no-impact-admission",
       "title": "김민수의 VPN 속도 무관 발언 — 위계공무집행방해 혐의 근거를 스스로 부정",
       "titleKo": "김민수의 VPN 속도 무관 발언 — 위계공무집행방해 혐의 근거를 스스로 부정",
-      "titleEn": "김민수의 VPN 속도 무관 발언 — 위계공무집행방해 혐의 근거를 스스로 부정",
+      "titleEn": "Kim Min-su's statement that VPN speed is irrelevant — self-refutation of obstructing official duties charge",
       "layer": 6,
       "secondaryLayers": [
         4
@@ -6024,7 +6024,7 @@
       "stem": "kim-min-su-willful-ignorance-firewall-self-contradiction",
       "title": "김민수의 '일절 모른다' 방화벽 — 1개월 전 '내가 알아서 할 거고'와 정면 모순",
       "titleKo": "김민수의 '일절 모른다' 방화벽 — 1개월 전 '내가 알아서 할 거고'와 정면 모순",
-      "titleEn": "김민수의 '일절 모른다' 방화벽 — 1개월 전 '내가 알아서 할 거고'와 정면 모순",
+      "titleEn": "Kim Min-su's 'I know absolutely nothing' firewall — directly contradicts 'I'll handle it myself' from one month earlier",
       "layer": 7,
       "secondaryLayers": [
         5
@@ -6064,7 +6064,7 @@
       "stem": "kiso-yuye-six-charges-dishonorable-discharge",
       "title": "기소유예 6혐의(10.11) → 불명예제대(10.31) — 20일 간격의 설계",
       "titleKo": "기소유예 6혐의(10.11) → 불명예제대(10.31) — 20일 간격의 설계",
-      "titleEn": "기소유예 6혐의(10.11) → 불명예제대(10.31) — 20일 간격의 설계",
+      "titleEn": "Prosecutorial Deferral on 6 charges (10.11) → dishonorable discharge (10.31) — 20-day interval by design",
       "layer": 7,
       "secondaryLayers": [
         6
@@ -6100,7 +6100,7 @@
       "stem": "kwonikkwi-evidence-transfer-attempt-to-mnd",
       "title": "국가권익위원회 실무자가 한지훈이 제출한 증거를 국방부에 합법적으로 이전하려 시도했음 — 민간 감시기관의 기관 포획 직접 증거",
       "titleKo": "국가권익위원회 실무자가 한지훈이 제출한 증거를 국방부에 합법적으로 이전하려 시도했음 — 민간 감시기관의 기관 포획 직접 증거",
-      "titleEn": "국가권익위원회 실무자가 한지훈이 제출한 증거를 국방부에 합법적으로 이전하려 시도했음 — 민간 감시기관의 기관 포획 직접 증거",
+      "titleEn": "Anti-Corruption and Civil Rights Commission staff attempted to legally transfer Han Ji-hoon's evidence to MND — direct evidence of civilian oversight body capture",
       "layer": 7,
       "secondaryLayers": [],
       "claimType": "institutional_obstruction",
@@ -6848,7 +6848,7 @@
       "stem": "layer4-activex-removal-request-during-evaluation-conspiracy",
       "title": "평가 기간 중 Active-X 제거 요청과 국유단장 즉시 승인 — 사전 합의된 시나리오의 증거",
       "titleKo": "평가 기간 중 Active-X 제거 요청과 국유단장 즉시 승인 — 사전 합의된 시나리오의 증거",
-      "titleEn": "평가 기간 중 Active-X 제거 요청과 국유단장 즉시 승인 — 사전 합의된 시나리오의 증거",
+      "titleEn": "Active-X removal request during evaluation period and immediate 국유단 commander approval — evidence of pre-arranged scenario",
       "layer": 4,
       "secondaryLayers": [
         7
@@ -6896,7 +6896,7 @@
       "stem": "layer4-dtot-separation-principle-violated",
       "title": "新KIATIS 개발·운용시험평가 통합 실시 — 분리 원칙 위반",
       "titleKo": "新KIATIS 개발·운용시험평가 통합 실시 — 분리 원칙 위반",
-      "titleEn": "新KIATIS 개발·운용시험평가 통합 실시 — 분리 원칙 위반",
+      "titleEn": "New KIATIS DT&E and OT&E conducted jointly — separation principle violated",
       "layer": 4,
       "secondaryLayers": [],
       "claimType": "procedural_violation",
@@ -6985,7 +6985,7 @@
       "stem": "layer4-evaluation-item-change-after-completion",
       "title": "시험평가 종료 후 평가 항목 변경 승인 — 물리법칙을 거스른 시간 역전 조작",
       "titleKo": "시험평가 종료 후 평가 항목 변경 승인 — 물리법칙을 거스른 시간 역전 조작",
-      "titleEn": "시험평가 종료 후 평가 항목 변경 승인 — 물리법칙을 거스른 시간 역전 조작",
+      "titleEn": "Evaluation item change approved after T&E completion — time-reversal manipulation defying physical law",
       "layer": 4,
       "secondaryLayers": [
         7
@@ -7031,7 +7031,7 @@
       "stem": "layer4-evidence-becomes-layer6-prosecution-tool",
       "title": "제4층위의 조작 결과가 제6층위 검찰의 범죄자 낙인 도구로 전용 — 자기모순 구조",
       "titleKo": "제4층위의 조작 결과가 제6층위 검찰의 범죄자 낙인 도구로 전용 — 자기모순 구조",
-      "titleEn": "제4층위의 조작 결과가 제6층위 검찰의 범죄자 낙인 도구로 전용 — 자기모순 구조",
+      "titleEn": "Layer 4 manipulation outcomes repurposed as Layer 6 prosecution's criminal branding tool — self-contradiction structure",
       "layer": 4,
       "secondaryLayers": [
         6
@@ -7152,7 +7152,7 @@
       "stem": "layer4-post-evaluation-illegal-control-transfer-to-gukyu-dan",
       "title": "시험평가 종료 후 국유단이 사업통제기관 역할을 불법 자임하고 국방부·국전원과의 사전 합의가 존재하였음을 시사한다",
       "titleKo": "시험평가 종료 후 국유단이 사업통제기관 역할을 불법 자임하고 국방부·국전원과의 사전 합의가 존재하였음을 시사한다",
-      "titleEn": "After the New KIATIS developmental/operational test evaluation completed on 2019-09-11, evaluation item changes were app",
+      "titleEn": "제76조 term manipulation: '소프트웨어 설치' → '시스템 설치' — evidence of blame transfer and temporal reversal",
       "layer": 4,
       "secondaryLayers": [
         7
@@ -7204,7 +7204,7 @@
       "stem": "layer4-procedure-simplification-temporal-manipulation-2019-09",
       "title": "2019.9.2 시험평가 절차 간소화 요청의 시간적 모순 — 시간 역전 조작의 증거",
       "titleKo": "2019.9.2 시험평가 절차 간소화 요청의 시간적 모순 — 시간 역전 조작의 증거",
-      "titleEn": "2019.9.2 시험평가 절차 간소화 요청의 시간적 모순 — 시간 역전 조작의 증거",
+      "titleEn": "2019.9.2 T&E procedure simplification request's temporal contradiction — evidence of time-reversal manipulation",
       "layer": 4,
       "secondaryLayers": [],
       "claimType": "document_fabrication",
@@ -7251,7 +7251,7 @@
       "stem": "layer4-software-install-to-system-install-terminology-fabrication",
       "title": "제76조 '소프트웨어 설치'에서 '시스템 설치'로의 용어 조작 — 책임 전가와 시대역전 증거",
       "titleKo": "제76조 '소프트웨어 설치'에서 '시스템 설치'로의 용어 조작 — 책임 전가와 시대역전 증거",
-      "titleEn": "제76조 '소프트웨어 설치'에서 '시스템 설치'로의 용어 조작 — 책임 전가와 시대역전 증거",
+      "titleEn": "제76조 term manipulation: '소프트웨어 설치' → '시스템 설치' — evidence of blame transfer and temporal reversal",
       "layer": 4,
       "secondaryLayers": [
         7
@@ -7298,7 +7298,7 @@
       "stem": "layer4-test-evaluation-separation-principle-directive-2129",
       "title": "국방 정보화 훈령 제2129호의 시험평가 분리 원칙 — 新KIATIS 사업 적용 기준",
       "titleKo": "국방 정보화 훈령 제2129호의 시험평가 분리 원칙 — 新KIATIS 사업 적용 기준",
-      "titleEn": "국방 정보화 훈령 제2129호의 시험평가 분리 원칙 — 新KIATIS 사업 적용 기준",
+      "titleEn": "Defense IT Operations Directive 제2129호 T&E separation principle — governing standard for New KIATIS project",
       "layer": 4,
       "secondaryLayers": [
         2,
@@ -7442,7 +7442,7 @@
       "stem": "layer5-choi-dongwook-dual-role-lawyer-or-conspirator",
       "title": "최동욱 변호사는 한지훈의 변호인이 아니라 군검찰의 대리인으로서 이중적 역할을 수행했다",
       "titleKo": "최동욱 변호사는 한지훈의 변호인이 아니라 군검찰의 대리인으로서 이중적 역할을 수행했다",
-      "titleEn": "Attorney 최동욱 nominally represented 한지훈 as defense counsel, but in reality functioned as an agent for the MND Prosecutor'",
+      "titleEn": "Attorney Choe Dong-uk performed a dual role as military prosecutor's agent rather than Han Ji-hoon's defense counsel",
       "layer": 5,
       "secondaryLayers": [
         6,
@@ -7493,7 +7493,7 @@
       "stem": "layer5-choi-youngsu-testimony-exposes-joseo-fabrication",
       "title": "최영수의 군검찰 증언은 조서 조작의 세 가지 체계적 기법을 폭로한다",
       "titleKo": "최영수의 군검찰 증언은 조서 조작의 세 가지 체계적 기법을 폭로한다",
-      "titleEn": "Former 행정정보화과장 최영수 (Soongsil University PhD, IT expert) testified on October 12, 2022 about transcript manipulation in t",
+      "titleEn": "Choe Yeong-su's military prosecution testimony exposes 3 systematic techniques of interrogation record manipulation",
       "layer": 5,
       "secondaryLayers": [
         6
@@ -7539,7 +7539,7 @@
       "stem": "layer5-collective-witness-abandonment-selective-memory",
       "title": "집단적 증인 이탈 — 오현수의 '엮기기 싫다'와 이태호의 '선택적 기억' 진단",
       "titleKo": "집단적 증인 이탈 — 오현수의 '엮기기 싫다'와 이태호의 '선택적 기억' 진단",
-      "titleEn": "집단적 증인 이탈 — 오현수의 '엮기기 싫다'와 이태호의 '선택적 기억' 진단",
+      "titleEn": "Collective witness abandonment — Oh Hyeon-su's 'don't want to get involved' and Lee Tae-ho's selective amnesia diagnosis",
       "layer": 5,
       "secondaryLayers": [],
       "claimType": "witness_manipulation",
@@ -7581,7 +7581,7 @@
       "stem": "layer5-evidence-destruction-frame-behavioral-paralysis",
       "title": "증거인멸 프레임을 통한 행동 봉쇄 — 김민수의 단일 화행으로 달성한 전면 마비",
       "titleKo": "증거인멸 프레임을 통한 행동 봉쇄 — 김민수의 단일 화행으로 달성한 전면 마비",
-      "titleEn": "증거인멸 프레임을 통한 행동 봉쇄 — 김민수의 단일 화행으로 달성한 전면 마비",
+      "titleEn": "Evidence destruction frame used to block action — total paralysis achieved through Kim Min-su's single speech act",
       "layer": 5,
       "secondaryLayers": [],
       "claimType": "witness_manipulation",
@@ -7618,7 +7618,7 @@
       "stem": "layer5-excavation-team-old-kiatis-internet-proof",
       "title": "국유단 발굴단계 업무의 인터넷 수행 — 舊KIATIS 인터넷 운용의 실무 증거",
       "titleKo": "국유단 발굴단계 업무의 인터넷 수행 — 舊KIATIS 인터넷 운용의 실무 증거",
-      "titleEn": "국유단 발굴단계 업무의 인터넷 수행 — 舊KIATIS 인터넷 운용의 실무 증거",
+      "titleEn": "국유단 excavation phase work conducted over internet — practical evidence of 舊KIATIS internet operation",
       "layer": 5,
       "secondaryLayers": [
         1,
@@ -7707,7 +7707,7 @@
       "stem": "layer5-false-gapjil-report-organizational-conspiracy-structure",
       "title": "허위 갑질 신고의 3단계 조직적 공모 구조 — 주모자·실행자·도구의 역할 분담",
       "titleKo": "허위 갑질 신고의 3단계 조직적 공모 구조 — 주모자·실행자·도구의 역할 분담",
-      "titleEn": "허위 갑질 신고의 3단계 조직적 공모 구조 — 주모자·실행자·도구의 역할 분담",
+      "titleEn": "3-stage organizational conspiracy structure of false harassment complaint — role division among mastermind, executor, and instrument",
       "layer": 5,
       "secondaryLayers": [],
       "claimType": "conspiracy_structure",
@@ -7758,7 +7758,7 @@
       "stem": "layer5-fraud-investigation-triangular-model",
       "title": "조사본부-법무관리관실-국전원 삼각 공모가 사기수사의 전형적 모델을 구성함 — 이지영 중개, 시간 조율, 공모 붕괴 후 은폐·전환",
       "titleKo": "조사본부-법무관리관실-국전원 삼각 공모가 사기수사의 전형적 모델을 구성함 — 이지영 중개, 시간 조율, 공모 붕괴 후 은폐·전환",
-      "titleEn": "조사본부-법무관리관실-국전원 삼각 공모가 사기수사의 전형적 모델을 구성함 — 이지영 중개, 시간 조율, 공모 붕괴 후 은폐·전환",
+      "titleEn": "Investigation HQ–Legal Affairs–국전원 triangular conspiracy constitutes model fraudulent investigation — Lee Ji-young as intermediary, post-collapse concealment",
       "layer": 5,
       "secondaryLayers": [],
       "claimType": "conspiracy_structure",
@@ -7848,7 +7848,7 @@
       "stem": "layer5-investigation-bureau-pre-collusion-triple-conspiracy",
       "title": "조사본부-법무관리관실-국전원의 사전 공모: 이지영의 거짓 귀속과 김민수의 자백적 발언이 삼각 공모를 증명한다",
       "titleKo": "조사본부-법무관리관실-국전원의 사전 공모: 이지영의 거짓 귀속과 김민수의 자백적 발언이 삼각 공모를 증명한다",
-      "titleEn": "On March 24, 2022, 이지영 (공문결재자-1) told 한지훈: \"The Inspector General's Office told me not to tell either side, so there's n",
+      "titleEn": "Investigation HQ–Legal Affairs–국전원 pre-coordinated conspiracy: Lee Ji-young's false attribution + Kim Min-su's self-incriminating statement prove triangular conspiracy",
       "layer": 5,
       "secondaryLayers": [],
       "claimType": "conspiracy_structure",
@@ -7941,7 +7941,7 @@
       "stem": "layer5-kakaotalk-silence-proves-normal-attendance",
       "title": "단톡방 3년간 출퇴근 보고 0건이 한지훈의 정상 근무를 역설적으로 증명함 — 발화 부재가 증거 존재(Speech Act 분석)",
       "titleKo": "단톡방 3년간 출퇴근 보고 0건이 한지훈의 정상 근무를 역설적으로 증명함 — 발화 부재가 증거 존재(Speech Act 분석)",
-      "titleEn": "단톡방 3년간 출퇴근 보고 0건이 한지훈의 정상 근무를 역설적으로 증명함 — 발화 부재가 증거 존재(Speech Act 분석)",
+      "titleEn": "Zero attendance reports in group chat over 3 years paradoxically proves Han Ji-hoon's normal work — absence of speech act is evidence of presence",
       "layer": 5,
       "secondaryLayers": [
         3
@@ -7988,7 +7988,7 @@
       "stem": "layer5-kim-min-su-conspiracy-admission-sufficiently-discussed",
       "title": "김민수의 자백: \"감사관하고도 내가 충분히 애기하고\" — 조사본부와 법무관리관실의 모의 증거",
       "titleKo": "김민수의 자백: \"감사관하고도 내가 충분히 애기하고\" — 조사본부와 법무관리관실의 모의 증거",
-      "titleEn": "김민수의 자백: \"감사관하고도 내가 충분히 애기하고\" — 조사본부와 법무관리관실의 모의 증거",
+      "titleEn": "Kim Min-su's confession: 'I've fully discussed it with the auditor too' — evidence of Investigation HQ and Legal Affairs collusion",
       "layer": 5,
       "secondaryLayers": [],
       "claimType": "conspiracy_structure",
@@ -8032,7 +8032,7 @@
       "stem": "layer5-kim-min-su-discharge-ultimatum-escalation",
       "title": "김민수의 \"심각하다 전역만이 옵션이다\" 확정: 3단계 발화수반력 증폭과 책임 전가 자백",
       "titleKo": "김민수의 \"심각하다 전역만이 옵션이다\" 확정: 3단계 발화수반력 증폭과 책임 전가 자백",
-      "titleEn": "김민수, having received a report on the attendance issue from 이승우, declared \"this is serious — this can only be disciplinar",
+      "titleEn": "Kim Min-su's 'This is serious, discharge is the only option' confirmed — 3-stage illocutionary force amplification and blame transfer confession",
       "layer": 5,
       "secondaryLayers": [],
       "claimType": "human_rights_violation",
@@ -8130,7 +8130,7 @@
       "stem": "layer5-language-weaponization-silence-as-murder",
       "title": "언어의 무기화와 침묵 강요 — Austin 화행이론으로 본 조직적 사회적 살인",
       "titleKo": "언어의 무기화와 침묵 강요 — Austin 화행이론으로 본 조직적 사회적 살인",
-      "titleEn": "언어의 무기화와 침묵 강요 — Austin 화행이론으로 본 조직적 사회적 살인",
+      "titleEn": "Weaponization of language and enforced silence — organized social death viewed through Austin Speech Act theory",
       "layer": 5,
       "secondaryLayers": [],
       "claimType": "terminology_manipulation",
@@ -8176,7 +8176,7 @@
       "stem": "layer5-lee-ji-young-false-dinner-testimony-three-witnesses",
       "title": "이지영의 거짓 식사 증언이 3명의 독립 증인에 의해 붕괴되었다",
       "titleKo": "이지영의 거짓 식사 증언이 3명의 독립 증인에 의해 붕괴되었다",
-      "titleEn": "이지영 (공문결재자-1) gave false testimony in the Investigation Bureau investigation on March 25, 2022 that 한지훈 had **\"left at 5",
+      "titleEn": "Lee Ji-young's false meal testimony demolished by 3 independent witnesses",
       "layer": 5,
       "secondaryLayers": [
         7
@@ -8228,7 +8228,7 @@
       "stem": "layer5-lee-jiyoung-vpn-5questions-motive-confirmation",
       "title": "이지영의 VPN 5단계 질문 — 동기 확인을 위한 체계적 정보 추출",
       "titleKo": "이지영의 VPN 5단계 질문 — 동기 확인을 위한 체계적 정보 추출",
-      "titleEn": "이지영의 VPN 5단계 질문 — 동기 확인을 위한 체계적 정보 추출",
+      "titleEn": "Lee Ji-young's 5-stage VPN questioning — systematic information extraction to confirm motive",
       "layer": 5,
       "secondaryLayers": [
         1
@@ -8267,7 +8267,7 @@
       "stem": "layer5-lee-taeho-testimony-work-dumping-exploitation",
       "title": "이태호의 증언 — 공무원의 군인 복종 문화 악용과 업무 떠넘기기",
       "titleKo": "이태호의 증언 — 공무원의 군인 복종 문화 악용과 업무 떠넘기기",
-      "titleEn": "이태호의 증언 — 공무원의 군인 복종 문화 악용과 업무 떠넘기기",
+      "titleEn": "Lee Tae-ho's testimony — exploitation of military obedience culture by civil servant and work-dumping",
       "layer": 5,
       "secondaryLayers": [
         3
@@ -8308,7 +8308,7 @@
       "stem": "layer5-park-seojun-48hr-cooperation-to-hostility",
       "title": "박서준의 48시간 변화 — 2월 8일 협력에서 2월 10일 적대로",
       "titleKo": "박서준의 48시간 변화 — 2월 8일 협력에서 2월 10일 적대로",
-      "titleEn": "박서준의 48시간 변화 — 2월 8일 협력에서 2월 10일 적대로",
+      "titleEn": "Park Seo-jun's 48-hour shift — from cooperation on Feb 8 to hostility on Feb 10",
       "layer": 5,
       "secondaryLayers": [],
       "claimType": "methodology",
@@ -8352,7 +8352,7 @@
       "stem": "layer5-park-seojun-gaslighting-victim-or-accomplice",
       "title": "박서준의 발화는 자발적 신고가 아니라 조종된 발화(coached speech)임을 시사한다",
       "titleKo": "박서준의 발화는 자발적 신고가 아니라 조종된 발화(coached speech)임을 시사한다",
-      "titleEn": "박서준's utterances changed dramatically before and after the February 8, 2022 KIATIS discussion. This change suggests 박서준 ",
+      "titleEn": "Park Seo-jun's statement indicates coached speech rather than voluntary complaint",
       "layer": 5,
       "secondaryLayers": [
         7
@@ -8489,7 +8489,7 @@
       "stem": "layer5-reporter-3stage-statement-change",
       "title": "신고자 진술의 3단 변화 — 박서준→국전원→다시 박서준",
       "titleKo": "신고자 진술의 3단 변화 — 박서준→국전원→다시 박서준",
-      "titleEn": "신고자 진술의 3단 변화 — 박서준→국전원→다시 박서준",
+      "titleEn": "Complainant's 3-stage testimony shift — Park Seo-jun → 국전원 → back to Park Seo-jun",
       "layer": 5,
       "secondaryLayers": [],
       "claimType": "witness_manipulation",
@@ -8533,7 +8533,7 @@
       "stem": "layer5-reversed-truth-nine-evidence-rebuttal",
       "title": "역전된 진실 — 한지훈의 소명서·반박논증에서 나타난 9개 증거 기반 반박",
       "titleKo": "역전된 진실 — 한지훈의 소명서·반박논증에서 나타난 9개 증거 기반 반박",
-      "titleEn": "역전된 진실 — 한지훈의 소명서·반박논증에서 나타난 9개 증거 기반 반박",
+      "titleEn": "Reversed truth — 9 evidence-based rebuttals in Han Ji-hoon's statements and counter-arguments",
       "layer": 5,
       "secondaryLayers": [],
       "claimType": "evidence_concealment",
@@ -8721,7 +8721,7 @@
       "stem": "layer5-warning-letter-overrides-investigation-findings",
       "title": "법무관리관실 경고장이 조사본부 자체 조사결과를 무시 — 출퇴근 조작 주장 붕괴에도 유지",
       "titleKo": "법무관리관실 경고장이 조사본부 자체 조사결과를 무시 — 출퇴근 조작 주장 붕괴에도 유지",
-      "titleEn": "법무관리관실 경고장이 조사본부 자체 조사결과를 무시 — 출퇴근 조작 주장 붕괴에도 유지",
+      "titleEn": "Legal Affairs warning letter overrides Investigation HQ's own findings — maintained despite collapse of attendance manipulation claim",
       "layer": 5,
       "secondaryLayers": [],
       "claimType": "institutional_obstruction",
@@ -8760,7 +8760,7 @@
       "stem": "layer5-yang-mi-suk-silence-as-active-complicity",
       "title": "양미숙의 침묵: 출퇴근 관리 담당자가 한지훈의 무죄 증명 가능한 증언을 조직적 공모로 거부했다",
       "titleKo": "양미숙의 침묵: 출퇴근 관리 담당자가 한지훈의 무죄 증명 가능한 증언을 조직적 공모로 거부했다",
-      "titleEn": "Administrative officer 양미숙 was **in charge of attendance management** for 한지훈's team. 양미숙 knew that 한지훈 arrived before 7",
+      "titleEn": "Yang Mi-suk's silence: attendance manager refused testimony that could prove Han Ji-hoon's innocence through organizational conspiracy",
       "layer": 5,
       "secondaryLayers": [],
       "claimType": "witness_manipulation",
@@ -8810,7 +8810,7 @@
       "stem": "layer6-997-reframed-as-deficient-development",
       "title": "99.73점 성공작의 '부실개발' 재프레이밍 — 사기수사의 핵심 서사 조작",
       "titleKo": "99.73점 성공작의 '부실개발' 재프레이밍 — 사기수사의 핵심 서사 조작",
-      "titleEn": "99.73점 성공작의 '부실개발' 재프레이밍 — 사기수사의 핵심 서사 조작",
+      "titleEn": "99.73-point success reframed as 'deficient development' — core narrative manipulation of fraudulent investigation",
       "layer": 6,
       "secondaryLayers": [],
       "claimType": "human_rights_violation",
@@ -8902,7 +8902,7 @@
       "stem": "layer6-didc-center1-true-hacking-host",
       "title": "DIDC 1센터(용인)가 2016 해킹의 실제 거점 — 2센터(계룡대) 아닌 1센터",
       "titleKo": "DIDC 1센터(용인)가 2016 해킹의 실제 거점 — 2센터(계룡대) 아닌 1센터",
-      "titleEn": "DIDC 1센터(용인)가 2016 해킹의 실제 거점 — 2센터(계룡대) 아닌 1센터",
+      "titleEn": "DIDC Center 1 (Yongin) is the true site of the 2016 hack — Center 1, not Center 2 (Gyeryongdae)",
       "layer": 6,
       "secondaryLayers": [
         1
@@ -8944,7 +8944,7 @@
       "stem": "layer6-gis-server-budget-intentional-omission",
       "title": "GIS 서버 예산의 의도적 미반영 — 전력화 지연의 은폐된 원인",
       "titleKo": "GIS 서버 예산의 의도적 미반영 — 전력화 지연의 은폐된 원인",
-      "titleEn": "GIS 서버 예산의 의도적 미반영 — 전력화 지연의 은폐된 원인",
+      "titleEn": "GIS server budget deliberately omitted — concealed cause of fielding delay",
       "layer": 6,
       "secondaryLayers": [],
       "claimType": "temporal_manipulation",
@@ -9218,7 +9218,7 @@
       "stem": "lee-ji-young-double-play-park-seo-jun-incitement-han-ji-hoon-blocking",
       "title": "이지영의 이중 플레이: 박서준에게 신고 유도, 한지훈에게 정보 차단",
       "titleKo": "이지영의 이중 플레이: 박서준에게 신고 유도, 한지훈에게 정보 차단",
-      "titleEn": "이지영 (공문결재자-1) employed a differential speech strategy toward 박서준 and 한지훈 — a double play (§3.5.3.1.2).",
+      "titleEn": "Lee Ji-young's double play: steering Park Seo-jun toward complaint while blocking information from Han Ji-hoon",
       "layer": 5,
       "secondaryLayers": [],
       "claimType": "methodology",
@@ -9267,7 +9267,7 @@
       "stem": "lee-jiyoung-covert-sabotage-confirmed-by-kim-minsu",
       "title": "이지영의 이면 행위를 김민수가 직접 폭로 — '당신 말에 반대로 하고 있어'",
       "titleKo": "이지영의 이면 행위를 김민수가 직접 폭로 — '당신 말에 반대로 하고 있어'",
-      "titleEn": "이지영의 이면 행위를 김민수가 직접 폭로 — '당신 말에 반대로 하고 있어'",
+      "titleEn": "Kim Min-su directly exposes Lee Ji-young's covert sabotage — 'She's doing the opposite of what you say'",
       "layer": 5,
       "secondaryLayers": [
         3
@@ -9307,7 +9307,7 @@
       "stem": "lee-jiyoung-jikgwon-josa-flip-flop-hours",
       "title": "이지영의 직권조사 의뢰→철회 수시간 내 번복 — '없었던 걸로 하시죠'",
       "titleKo": "이지영의 직권조사 의뢰→철회 수시간 내 번복 — '없었던 걸로 하시죠'",
-      "titleEn": "이지영의 직권조사 의뢰→철회 수시간 내 번복 — '없었던 걸로 하시죠'",
+      "titleEn": "Lee Ji-young's ex-officio investigation request → withdrawal within hours — 'Let's treat this as if it didn't happen'",
       "layer": 5,
       "secondaryLayers": [
         7
@@ -9347,7 +9347,7 @@
       "stem": "lee-jiyoung-kim-sujin-single-point-of-control",
       "title": "이지영 (공문결재자-1)과 김수진 (행정담당자-1)은 모든 조작의 시작과 끝에 등장하는 단일 통제점이다",
       "titleKo": "이지영 (공문결재자-1)과 김수진 (행정담당자-1)은 모든 조작의 시작과 끝에 등장하는 단일 통제점이다",
-      "titleEn": "**이지영 (Document-Approver-1)** and **김수진 (Administrative-Officer-1)** appear as the same actor pattern across four indepe",
+      "titleEn": "Lee Ji-young (Document-Approver-1) and Kim Su-jin (Admin-Officer-1) are the single control node appearing at start and end of all manipulation",
       "layer": 2,
       "secondaryLayers": [],
       "claimType": "conspiracy_structure",
@@ -9389,7 +9389,7 @@
       "stem": "lee-junho-false-testimony-self-contradiction",
       "title": "이준호의 허위 진술 — 자신의 공문이 반박",
       "titleKo": "이준호의 허위 진술 — 자신의 공문이 반박",
-      "titleEn": "이준호의 허위 진술 — 자신의 공문이 반박",
+      "titleEn": "Lee Jun-ho's false testimony — refuted by his own official document",
       "layer": 6,
       "secondaryLayers": [],
       "claimType": "witness_manipulation",
@@ -9432,7 +9432,7 @@
       "stem": "lee-taeho-selective-amnesia-strategy-meta-awareness",
       "title": "이태호: \"기억이 난다 치더라도 증언을 안 할 거니까 안 난다고 얘기하는거지\" — 선택적 기억상실 전략의 메타 인식",
       "titleKo": "이태호: \"기억이 난다 치더라도 증언을 안 할 거니까 안 난다고 얘기하는거지\" — 선택적 기억상실 전략의 메타 인식",
-      "titleEn": "이태호: \"기억이 난다 치더라도 증언을 안 할 거니까 안 난다고 얘기하는거지\" — 선택적 기억상실 전략의 메타 인식",
+      "titleEn": "Lee Tae-ho: 'Even if I remembered, since I won't testify, I say I don't remember' — meta-awareness of selective amnesia strategy",
       "layer": 6,
       "secondaryLayers": [
         4
@@ -9473,7 +9473,7 @@
       "stem": "lee-taeho-team-leader-never-enters-evaluation-precedent",
       "title": "이태호 (전임 팀장/평가위원장): \"팀장이 들어간 적 없어요\" — 시험평가에 팀장 불참은 관행이지 조작이 아님",
       "titleKo": "이태호 (전임 팀장/평가위원장): \"팀장이 들어간 적 없어요\" — 시험평가에 팀장 불참은 관행이지 조작이 아님",
-      "titleEn": "이태호 (전임 팀장/평가위원장): \"팀장이 들어간 적 없어요\" — 시험평가에 팀장 불참은 관행이지 조작이 아님",
+      "titleEn": "Lee Tae-ho (former team leader/eval chair): 'Team leader has never participated' — team leader absence from T&E is standard practice, not manipulation",
       "layer": 4,
       "secondaryLayers": [
         6
@@ -9514,7 +9514,7 @@
       "stem": "lee-taeho-work-dumping-6-7-concurrent-projects-admission",
       "title": "이태호: \"떠넘겼다고 봐야지\" — 6~7개 사업 동시 관리 + 이지영의 업무 떠넘기기 자인",
       "titleKo": "이태호: \"떠넘겼다고 봐야지\" — 6~7개 사업 동시 관리 + 이지영의 업무 떠넘기기 자인",
-      "titleEn": "이태호: \"떠넘겼다고 봐야지\" — 6~7개 사업 동시 관리 + 이지영의 업무 떠넘기기 자인",
+      "titleEn": "Lee Tae-ho: 'You'd have to say it was dumped on him' — managing 6–7 concurrent projects + Lee Ji-young's work-dumping admission",
       "layer": 3,
       "secondaryLayers": [
         2
@@ -9559,7 +9559,7 @@
       "stem": "lim-hyungkyu-admits-eval-environment-problems-still-charged",
       "title": "검사 임형규: 시험평가 환경 문제 자인 + 외부 전문가 검증 거부 + 증거를 \"주장\"으로 격하",
       "titleKo": "검사 임형규: 시험평가 환경 문제 자인 + 외부 전문가 검증 거부 + 증거를 \"주장\"으로 격하",
-      "titleEn": "Military prosecutor 임형규 made 3 key admissions in a recorded phone call with 한지훈 (Recording 146, 2022.10.11):",
+      "titleEn": "Prosecutor Lim Hyeong-gyu: admits T&E environment issue + refuses external expert verification + downgrades evidence to 'mere claims'",
       "layer": 6,
       "secondaryLayers": [
         4
@@ -9602,7 +9602,7 @@
       "stem": "military-aide-hong-non-response-to-petition",
       "title": "군사보좌관 홍성민의 진정서 무응답 — KakaoTalk 전달 후 침묵",
       "titleKo": "군사보좌관 홍성민의 진정서 무응답 — KakaoTalk 전달 후 침묵",
-      "titleEn": "군사보좌관 홍성민의 진정서 무응답 — KakaoTalk 전달 후 침묵",
+      "titleEn": "Military aide Hong Seong-min's non-response to petition — silence after KakaoTalk delivery",
       "layer": 7,
       "secondaryLayers": [],
       "claimType": "institutional_obstruction",
@@ -9693,7 +9693,7 @@
       "stem": "mnd-fabricated-indo-stage-terminology-blame-shift",
       "title": "국방부의 조작 용어 '인도 단계' 도입 — 시험평가 책임을 사업관리기관에게 전가하는 체계 구축",
       "titleKo": "국방부의 조작 용어 '인도 단계' 도입 — 시험평가 책임을 사업관리기관에게 전가하는 체계 구축",
-      "titleEn": "국방부의 조작 용어 '인도 단계' 도입 — 시험평가 책임을 사업관리기관에게 전가하는 체계 구축",
+      "titleEn": "MND's fabricated term '인도 단계' introduced — system built to transfer T&E responsibility to project management agency",
       "layer": 4,
       "secondaryLayers": [
         6
@@ -9736,7 +9736,7 @@
       "stem": "mnd-intentional-separation-server-sw-projects",
       "title": "국방부의 新KIATIS 서버구축·SW개발 사업 의도적 분리 — 舊KIATIS 은폐 설계",
       "titleKo": "국방부의 新KIATIS 서버구축·SW개발 사업 의도적 분리 — 舊KIATIS 은폐 설계",
-      "titleEn": "국방부의 新KIATIS 서버구축·SW개발 사업 의도적 분리 — 舊KIATIS 은폐 설계",
+      "titleEn": "MND's intentional split of New KIATIS server construction and SW development projects — 舊KIATIS concealment by design",
       "layer": 4,
       "secondaryLayers": [
         1
@@ -9781,7 +9781,7 @@
       "stem": "mnd-test-eval-simplification-timed-to-evaluation-day",
       "title": "국방부 시험평가 절차 간소화 공문의 시간역전 — 시험평가 당일 생산",
       "titleKo": "국방부 시험평가 절차 간소화 공문의 시간역전 — 시험평가 당일 생산",
-      "titleEn": "국방부 시험평가 절차 간소화 공문의 시간역전 — 시험평가 당일 생산",
+      "titleEn": "MND T&E procedure simplification document's time-reversal — produced on same day as evaluation",
       "layer": 4,
       "secondaryLayers": [
         1
@@ -9914,7 +9914,7 @@
       "stem": "new-kiatis-delay-three-strategic-objectives",
       "title": "新KIATIS 전력화 지연의 3대 전략적 목적 — 해킹 은폐·예산 순환·팀장 제거",
       "titleKo": "新KIATIS 전력화 지연의 3대 전략적 목적 — 해킹 은폐·예산 순환·팀장 제거",
-      "titleEn": "新KIATIS 전력화 지연의 3대 전략적 목적 — 해킹 은폐·예산 순환·팀장 제거",
+      "titleEn": "New KIATIS fielding delay's 3 strategic objectives — hack concealment, budget cycling, and team leader elimination",
       "layer": 6,
       "secondaryLayers": [
         4,
@@ -9953,7 +9953,7 @@
       "stem": "new-kiatis-is-mnd-controlled-not-delegated-project",
       "title": "新KIATIS는 국방부 통제 사업 — 위임 사업 전환은 불법",
       "titleKo": "新KIATIS는 국방부 통제 사업 — 위임 사업 전환은 불법",
-      "titleEn": "新KIATIS는 국방부 통제 사업 — 위임 사업 전환은 불법",
+      "titleEn": "New KIATIS is an MND-controlled project — conversion to delegated project is unlawful",
       "layer": 2,
       "secondaryLayers": [],
       "claimType": "procedural_violation",
@@ -10047,7 +10047,7 @@
       "stem": "non-prosecution-mitigating-factors-describe-normal-work",
       "title": "불기소결정서 참작사유가 한지훈의 '정상적 업무수행'을 기술 — 범죄 의도 부재의 자인",
       "titleKo": "불기소결정서 참작사유가 한지훈의 '정상적 업무수행'을 기술 — 범죄 의도 부재의 자인",
-      "titleEn": "불기소결정서 참작사유가 한지훈의 '정상적 업무수행'을 기술 — 범죄 의도 부재의 자인",
+      "titleEn": "Non-prosecution decision's mitigating factors describe Han Ji-hoon's 'normal work performance' — self-admission of absent criminal intent",
       "layer": 6,
       "secondaryLayers": [
         7
@@ -10127,7 +10127,7 @@
       "stem": "old-kiatis-direct-db-access-without-vpn",
       "title": "舊KIATIS는 인터넷에서 VPN 없이 DB 직접 접속 — 15년간 보안 장비 부재",
       "titleKo": "舊KIATIS는 인터넷에서 VPN 없이 DB 직접 접속 — 15년간 보안 장비 부재",
-      "titleEn": "舊KIATIS는 인터넷에서 VPN 없이 DB 직접 접속 — 15년간 보안 장비 부재",
+      "titleEn": "舊KIATIS accessed DB directly from internet without VPN — 15 years of absent security equipment",
       "layer": 1,
       "secondaryLayers": [
         6,
@@ -10176,7 +10176,7 @@
       "stem": "old-kiatis-hosted-inside-other-server-15-years",
       "title": "舊KIATIS는 15년간 독립 서버가 아닌 타 서버 내에서 운영 — 홈페이지 게시판 기원",
       "titleKo": "舊KIATIS는 15년간 독립 서버가 아닌 타 서버 내에서 운영 — 홈페이지 게시판 기원",
-      "titleEn": "舊KIATIS는 15년간 독립 서버가 아닌 타 서버 내에서 운영 — 홈페이지 게시판 기원",
+      "titleEn": "舊KIATIS operated inside another server for 15 years, not independently — originated as homepage bulletin board",
       "layer": 1,
       "secondaryLayers": [],
       "claimType": "evidence_concealment",
@@ -10224,7 +10224,7 @@
       "stem": "old-kiatis-intranet-data-link-confirmed",
       "title": "舊KIATIS는 인트라넷(국방망)과 연동하여 데이터를 송·수신 — 사업계획서·제안요청서 교차 확인",
       "titleKo": "舊KIATIS는 인트라넷(국방망)과 연동하여 데이터를 송·수신 — 사업계획서·제안요청서 교차 확인",
-      "titleEn": "舊KIATIS는 인트라넷(국방망)과 연동하여 데이터를 송·수신 — 사업계획서·제안요청서 교차 확인",
+      "titleEn": "舊KIATIS linked to intranet (Defense Network) for data transmission — cross-confirmed by project plan and RFP",
       "layer": 1,
       "secondaryLayers": [
         2
@@ -10269,7 +10269,7 @@
       "stem": "old-kiatis-web-facade-masking-cs-direct-db",
       "title": "舊KIATIS의 이중구조 — 웹 외관 아래 C/S 방식 DB 직접접속",
       "titleKo": "舊KIATIS의 이중구조 — 웹 외관 아래 C/S 방식 DB 직접접속",
-      "titleEn": "舊KIATIS의 이중구조 — 웹 외관 아래 C/S 방식 DB 직접접속",
+      "titleEn": "舊KIATIS dual architecture — C/S direct DB access beneath web facade",
       "layer": 1,
       "secondaryLayers": [],
       "claimType": "technical_proof",
@@ -10310,7 +10310,7 @@
       "stem": "on-nara-2024-upgrade-evidence-destruction-risk",
       "title": "2024년 온-나라 시스템 개선사업(약 40억원)은 Layer 1–6 증거의 기반이 되는 국방 행정문서 이력을 파괴할 위험을 내포하며, 이는 Layer 7 차원의 은폐 연속으로 분류될 수 있음",
       "titleKo": "2024년 온-나라 시스템 개선사업(약 40억원)은 Layer 1–6 증거의 기반이 되는 국방 행정문서 이력을 파괴할 위험을 내포하며, 이는 Layer 7 차원의 은폐 연속으로 분류될 수 있음",
-      "titleEn": "한지훈 submitted his Layer 7 petitions via the **온-나라 행정업무 시스템** (the Korean government's integrated administrative managem",
+      "titleEn": "2024 On-nara system improvement project (~4B KRW) risks destroying defense administrative document history underlying Layer 1–6 evidence — Layer 7 concealment continuum",
       "layer": 7,
       "secondaryLayers": [
         1
@@ -10397,7 +10397,7 @@
       "stem": "pm-confirms-chakramax-not-used-during-eval",
       "title": "유지보수 PM이 시험평가 시 샤크라맥스 미사용 확인 — 국전원·DIDC 간 합의 미달",
       "titleKo": "유지보수 PM이 시험평가 시 샤크라맥스 미사용 확인 — 국전원·DIDC 간 합의 미달",
-      "titleEn": "유지보수 PM이 시험평가 시 샤크라맥스 미사용 확인 — 국전원·DIDC 간 합의 미달",
+      "titleEn": "Maintenance PM confirms ChakraMax not used during T&E — unresolved agreement between 국전원 and DIDC",
       "layer": 4,
       "secondaryLayers": [
         1,
@@ -10440,7 +10440,7 @@
       "stem": "presidential-special-investigation-required",
       "title": "기존 수사기관 한계로 대통령 특단의 조치 필요 — 진실규명위원회 또는 특별검사",
       "titleKo": "기존 수사기관 한계로 대통령 특단의 조치 필요 — 진실규명위원회 또는 특별검사",
-      "titleEn": "기존 수사기관 한계로 대통령 특단의 조치 필요 — 진실규명위원회 또는 특별검사",
+      "titleEn": "Existing investigative agencies' limitations require presidential special measures — truth commission or special prosecutor",
       "layer": 7,
       "secondaryLayers": [
         6
@@ -10476,7 +10476,7 @@
       "stem": "prosecution-article-57-directive-laundering",
       "title": "제57조 ①항 2호의 훈령 세탁 — '사업주관기관 주관 하에' 삭제를 통한 책임 전가",
       "titleKo": "제57조 ①항 2호의 훈령 세탁 — '사업주관기관 주관 하에' 삭제를 통한 책임 전가",
-      "titleEn": "제57조 ①항 2호의 훈령 세탁 — '사업주관기관 주관 하에' 삭제를 통한 책임 전가",
+      "titleEn": "제57조 ①항 2호 directive laundering — deletion of '사업주관기관 주관 하에' used to transfer responsibility",
       "layer": 6,
       "secondaryLayers": [
         4
@@ -10512,7 +10512,7 @@
       "stem": "prosecution-baeim-charge-self-contradictory",
       "title": "업무상 배임 혐의의 자기모순 — 99.73점 인정하면서 손해 주장",
       "titleKo": "업무상 배임 혐의의 자기모순 — 99.73점 인정하면서 손해 주장",
-      "titleEn": "업무상 배임 혐의의 자기모순 — 99.73점 인정하면서 손해 주장",
+      "titleEn": "Breach of trust charge's self-contradiction — claiming damages while acknowledging 99.73 success score",
       "layer": 6,
       "secondaryLayers": [],
       "claimType": "prosecution_misconduct",
@@ -10556,7 +10556,7 @@
       "stem": "prosecution-chief-evades-innocence-plea",
       "title": "검찰단장의 무혐의 촉구 회피 — 32년 군인의 호소에 대한 조직적 방어",
       "titleKo": "검찰단장의 무혐의 촉구 회피 — 32년 군인의 호소에 대한 조직적 방어",
-      "titleEn": "검찰단장의 무혐의 촉구 회피 — 32년 군인의 호소에 대한 조직적 방어",
+      "titleEn": "Prosecution commander's evasion of innocence demand — organizational defense against 32-year military veteran's appeal",
       "layer": 7,
       "secondaryLayers": [],
       "claimType": "institutional_obstruction",
@@ -10690,7 +10690,7 @@
       "stem": "prosecution-firewall-port-opening-vs-it-standard-practice",
       "title": "IT 상식과의 괴리 — 군검찰이 전 세계 IT 표준 실무인 방화벽 포트 개방을 범죄로 규정",
       "titleKo": "IT 상식과의 괴리 — 군검찰이 전 세계 IT 표준 실무인 방화벽 포트 개방을 범죄로 규정",
-      "titleEn": "IT 상식과의 괴리 — 군검찰이 전 세계 IT 표준 실무인 방화벽 포트 개방을 범죄로 규정",
+      "titleEn": "Departure from IT common sense — military prosecution criminalizes globally standard IT practice of firewall port opening",
       "layer": 6,
       "secondaryLayers": [
         5
@@ -10772,7 +10772,7 @@
       "stem": "prosecution-human-rights-officer-failed-duty",
       "title": "군검찰단 인권담당감독관의 직무 해태 — 진정서 접수 후 실질적 보호 부재",
       "titleKo": "군검찰단 인권담당감독관의 직무 해태 — 진정서 접수 후 실질적 보호 부재",
-      "titleEn": "군검찰단 인권담당감독관의 직무 해태 — 진정서 접수 후 실질적 보호 부재",
+      "titleEn": "Military prosecution's human rights supervisor's dereliction of duty — no substantive protection after petition received",
       "layer": 7,
       "secondaryLayers": [],
       "claimType": "institutional_obstruction",
@@ -10857,7 +10857,7 @@
       "stem": "prosecution-investigator-ignorance-environment",
       "title": "수사관의 환경 정의 무지 — 한지훈이 수사관에게 IT 기초를 교육한 녹음",
       "titleKo": "수사관의 환경 정의 무지 — 한지훈이 수사관에게 IT 기초를 교육한 녹음",
-      "titleEn": "수사관의 환경 정의 무지 — 한지훈이 수사관에게 IT 기초를 교육한 녹음",
+      "titleEn": "Investigator's ignorance of environment definitions — recording of Han Ji-hoon teaching investigator IT basics",
       "layer": 6,
       "secondaryLayers": [],
       "claimType": "prosecution_misconduct",
@@ -10897,7 +10897,7 @@
       "stem": "prosecution-knew-innocence-continued-case",
       "title": "군검찰단의 무혐의 인지 후 수사 계속 — 수사관 대화에서 확인",
       "titleKo": "군검찰단의 무혐의 인지 후 수사 계속 — 수사관 대화에서 확인",
-      "titleEn": "군검찰단의 무혐의 인지 후 수사 계속 — 수사관 대화에서 확인",
+      "titleEn": "Military prosecution continued investigation after recognizing innocence — confirmed in investigator conversation",
       "layer": 6,
       "secondaryLayers": [],
       "claimType": "prosecution_misconduct",
@@ -10938,7 +10938,7 @@
       "stem": "prosecution-misapplies-2129-article-58-4-to-kiatis",
       "title": "불기소이유서가 제2129호 제58조 ¶4 (5억-미만 예외 조항)를 KIATIS에 잘못 적용 — 법리적 오류로 기소유예 처분 정당화 시도",
       "titleKo": "불기소이유서가 제2129호 제58조 ¶4 (5억-미만 예외 조항)를 KIATIS에 잘못 적용 — 법리적 오류로 기소유예 처분 정당화 시도",
-      "titleEn": "불기소이유서가 제2129호 제58조 ¶4 (5억-미만 예외 조항)를 KIATIS에 잘못 적용 — 법리적 오류로 기소유예 처분 정당화 시도",
+      "titleEn": "Non-prosecution decision wrongly applies 제2129호 제58조 ¶4 (under-500M exception) to KIATIS — legal error used to justify Prosecutorial Deferral",
       "layer": 6,
       "secondaryLayers": [],
       "claimType": "prosecution_misconduct",
@@ -11032,7 +11032,7 @@
       "stem": "prosecution-non-prosecution-self-contradiction",
       "title": "불기소 이유서의 내적 모순 — 기소유예와 99.73점 성공 동시 인정",
       "titleKo": "불기소 이유서의 내적 모순 — 기소유예와 99.73점 성공 동시 인정",
-      "titleEn": "불기소 이유서의 내적 모순 — 기소유예와 99.73점 성공 동시 인정",
+      "titleEn": "Non-prosecution decision's internal contradiction — simultaneously acknowledging Prosecutorial Deferral and 99.73 success score",
       "layer": 6,
       "secondaryLayers": [],
       "claimType": "prosecution_misconduct",
@@ -11081,7 +11081,7 @@
       "stem": "prosecution-omits-saup-tongje-gigwan-from-rfp-structure",
       "title": "군검사의 '종합적 총망라' 원칙 위반 — 제안요청서의 사업통제기관 역할을 의도적으로 누락하여 불법 사업구조 은폐",
       "titleKo": "군검사의 '종합적 총망라' 원칙 위반 — 제안요청서의 사업통제기관 역할을 의도적으로 누락하여 불법 사업구조 은폐",
-      "titleEn": "군검사의 '종합적 총망라' 원칙 위반 — 제안요청서의 사업통제기관 역할을 의도적으로 누락하여 불법 사업구조 은폐",
+      "titleEn": "Military prosecutor's violation of 'comprehensive totality' principle — deliberately omitting RFP's project control agency role to conceal unlawful project structure",
       "layer": 6,
       "secondaryLayers": [
         2
@@ -11173,7 +11173,7 @@
       "stem": "prosecution-selective-criminalization-firewall-approval-chain",
       "title": "군검찰의 선택적 범죄자 만들기 — 방화벽 정책적용 공문의 결재자·기안자 면책, 검토자만 피의자 지정",
       "titleKo": "군검찰의 선택적 범죄자 만들기 — 방화벽 정책적용 공문의 결재자·기안자 면책, 검토자만 피의자 지정",
-      "titleEn": "군검찰의 선택적 범죄자 만들기 — 방화벽 정책적용 공문의 결재자·기안자 면책, 검토자만 피의자 지정",
+      "titleEn": "Military prosecution's selective criminalization — approver and drafter of firewall policy document exempted, only reviewer designated as suspect",
       "layer": 6,
       "secondaryLayers": [
         5
@@ -11219,7 +11219,7 @@
       "stem": "prosecution-six-charges-collapse-vpn-nonexistence",
       "title": "검찰의 6개 혐의가 단일 문서로 전면 붕괴 — VPN이 존재하지 않았으므로 조작 불가능",
       "titleKo": "검찰의 6개 혐의가 단일 문서로 전면 붕괴 — VPN이 존재하지 않았으므로 조작 불가능",
-      "titleEn": "검찰의 6개 혐의가 단일 문서로 전면 붕괴 — VPN이 존재하지 않았으므로 조작 불가능",
+      "titleEn": "All 6 prosecution charges collapse against single document — manipulation impossible since VPN never existed",
       "layer": 1,
       "secondaryLayers": [
         6
@@ -11341,7 +11341,7 @@
       "stem": "prosecutor-shifted-charge-vpn-to-firewall",
       "title": "검사의 기소 근거 전환 — VPN에서 방화벽으로 핵심 논거 이동",
       "titleKo": "검사의 기소 근거 전환 — VPN에서 방화벽으로 핵심 논거 이동",
-      "titleEn": "검사의 기소 근거 전환 — VPN에서 방화벽으로 핵심 논거 이동",
+      "titleEn": "Prosecutor's charge basis shift — core argument moved from VPN to firewall",
       "layer": 6,
       "secondaryLayers": [],
       "claimType": "prosecution_misconduct",
@@ -11382,7 +11382,7 @@
       "stem": "selective-criminalization-approval-chain",
       "title": "C-L6-16: 방화벽 결재 3인 중 중간 검토자만 피의자 — 최종 결재자·기안자 배제",
       "titleKo": "C-L6-16: 방화벽 결재 3인 중 중간 검토자만 피의자 — 최종 결재자·기안자 배제",
-      "titleEn": "C-L6-16: 방화벽 결재 3인 중 중간 검토자만 피의자 — 최종 결재자·기안자 배제",
+      "titleEn": "C-L6-16: Of 3 firewall approvers, only middle reviewer designated suspect — final approver and drafter excluded",
       "layer": 6,
       "secondaryLayers": [
         5
@@ -11511,7 +11511,7 @@
       "stem": "six-month-solitary-confinement-five-independent-witnesses",
       "title": "6개월 독방 격리 — 5명의 국전원 내부자가 독립적으로 증언한 \"패륜적 인권침해\"",
       "titleKo": "6개월 독방 격리 — 5명의 국전원 내부자가 독립적으로 증언한 \"패륜적 인권침해\"",
-      "titleEn": "6개월 독방 격리 — 5명의 국전원 내부자가 독립적으로 증언한 \"패륜적 인권침해\"",
+      "titleEn": "6-month solitary isolation — 5 국전원 insiders independently testified to 'unconscionable human rights violation'",
       "layer": 5,
       "secondaryLayers": [
         7
@@ -11558,7 +11558,7 @@
       "stem": "split-article-11-vocabulary-erasure",
       "title": "훈령 제2436호의 3대 용어 교체로 불법 위임을 지칭 불가능하게 만든 어휘 조작",
       "titleKo": "훈령 제2436호의 3대 용어 교체로 불법 위임을 지칭 불가능하게 만든 어휘 조작",
-      "titleEn": "Directive No. 2436 replaced three major terms: '사업통제기관 (project control authority)' → '정보화기획관실 (Information Planning Div",
+      "titleEn": "Directive 제2436호's 3 key term substitutions make unlawful delegation linguistically unnameable — lexical manipulation",
       "layer": 4,
       "secondaryLayers": [],
       "claimType": "regulatory_manipulation",
@@ -11676,7 +11676,7 @@
       "stem": "split-delay-team-leader-elimination-framing",
       "title": "新KIATIS 지연을 통한 한지훈 제거 — 2022.2.8 진실 발견 후 '개발 부실' 프레이밍",
       "titleKo": "新KIATIS 지연을 통한 한지훈 제거 — 2022.2.8 진실 발견 후 '개발 부실' 프레이밍",
-      "titleEn": "新KIATIS 지연을 통한 한지훈 제거 — 2022.2.8 진실 발견 후 '개발 부실' 프레이밍",
+      "titleEn": "Han Ji-hoon's elimination through New KIATIS delay — 'poor development' framing after 2022.2.8 truth discovery",
       "layer": 6,
       "secondaryLayers": [
         5
@@ -11714,7 +11714,7 @@
       "stem": "split-kim-min-su-false-ignorance-vs-career",
       "title": "김민수의 '어떻게 아니' 허위 진술 — 경력 기록과 직접 모순",
       "titleKo": "김민수의 '어떻게 아니' 허위 진술 — 경력 기록과 직접 모순",
-      "titleEn": "김민수의 '어떻게 아니' 허위 진술 — 경력 기록과 직접 모순",
+      "titleEn": "Kim Min-su's false ignorance ('how would I know') — directly contradicts career records",
       "layer": 4,
       "secondaryLayers": [
         5
@@ -11762,7 +11762,7 @@
       "stem": "split-kim-min-su-organizational-support-cutoff",
       "title": "김민수 '원에서 안 도와준다 네가 책임져라' — 조직적 지원 차단·개인 책임 전가",
       "titleKo": "김민수 '원에서 안 도와준다 네가 책임져라' — 조직적 지원 차단·개인 책임 전가",
-      "titleEn": "김민수 '원에서 안 도와준다 네가 책임져라' — 조직적 지원 차단·개인 책임 전가",
+      "titleEn": "Kim Min-su 'The agency won't help, you take responsibility' — organizational support cut off, individual responsibility transferred",
       "layer": 5,
       "secondaryLayers": [
         4
@@ -11801,7 +11801,7 @@
       "stem": "split-lee-jiyoung-5min-triple-reversal",
       "title": "이지영의 5분 3회 번복 — 조직→직권→개인 신고 변경 = 실시간 김민수 조율",
       "titleKo": "이지영의 5분 3회 번복 — 조직→직권→개인 신고 변경 = 실시간 김민수 조율",
-      "titleEn": "이지영의 5분 3회 번복 — 조직→직권→개인 신고 변경 = 실시간 김민수 조율",
+      "titleEn": "Lee Ji-young's 3 reversals in 5 minutes — organization → ex-officio → personal complaint = real-time Kim Min-su coordination",
       "layer": 5,
       "secondaryLayers": [],
       "claimType": "conspiracy_structure",
@@ -11840,7 +11840,7 @@
       "stem": "split-post-collapse-escalation-to-prosecution",
       "title": "공모 붕괴 후 축소 대신 확대 — 경고장 유지 + 군검찰 표적수사 전환",
       "titleKo": "공모 붕괴 후 축소 대신 확대 — 경고장 유지 + 군검찰 표적수사 전환",
-      "titleEn": "공모 붕괴 후 축소 대신 확대 — 경고장 유지 + 군검찰 표적수사 전환",
+      "titleEn": "Escalation instead of retreat after conspiracy collapse — warning letter maintained + transition to military prosecution targeted investigation",
       "layer": 5,
       "secondaryLayers": [
         6
@@ -11916,7 +11916,7 @@
       "stem": "split-temporal-reversal-2019-09-02-forgery",
       "title": "2019-09-02 생산 문서의 09-03 보고 날짜 — 디지털 시간 역전 문서 조작",
       "titleKo": "2019-09-02 생산 문서의 09-03 보고 날짜 — 디지털 시간 역전 문서 조작",
-      "titleEn": "2019-09-02 생산 문서의 09-03 보고 날짜 — 디지털 시간 역전 문서 조작",
+      "titleEn": "Document produced 2019-09-02 with 09-03 report date — digital time-reversal document fabrication",
       "layer": 4,
       "secondaryLayers": [],
       "claimType": "document_fabrication",
@@ -12047,7 +12047,7 @@
       "stem": "total-destruction-unperson-triple-vector",
       "title": "삼중 벡터 완전 파괴 — 사회적+법적+경제적 존재 말살 ('언퍼슨' 만들기)",
       "titleKo": "삼중 벡터 완전 파괴 — 사회적+법적+경제적 존재 말살 ('언퍼슨' 만들기)",
-      "titleEn": "삼중 벡터 완전 파괴 — 사회적+법적+경제적 존재 말살 ('언퍼슨' 만들기)",
+      "titleEn": "Triple-vector total destruction — social + legal + economic erasure of existence ('unpersoning')",
       "layer": 5,
       "secondaryLayers": [
         6,
@@ -12084,7 +12084,7 @@
       "stem": "victim-blaming-structural-to-individual",
       "title": "15년간 방치된 구조적 취약점의 책임을 개인에게 전가 — 피해자 비난 전술",
       "titleKo": "15년간 방치된 구조적 취약점의 책임을 개인에게 전가 — 피해자 비난 전술",
-      "titleEn": "15년간 방치된 구조적 취약점의 책임을 개인에게 전가 — 피해자 비난 전술",
+      "titleEn": "Structural vulnerability neglected for 15 years shifted to individual — victim-blaming tactic",
       "layer": 6,
       "secondaryLayers": [
         1,
@@ -12128,7 +12128,7 @@
       "stem": "warning-letter-reflects-only-lee-jiyoung",
       "title": "법무관리관실 경고장에 박서준 사안 부재 — 이지영만 반영",
       "titleKo": "법무관리관실 경고장에 박서준 사안 부재 — 이지영만 반영",
-      "titleEn": "법무관리관실 경고장에 박서준 사안 부재 — 이지영만 반영",
+      "titleEn": "Legal Affairs warning letter omits Park Seo-jun matter — only Lee Ji-young's account reflected",
       "layer": 5,
       "secondaryLayers": [],
       "claimType": "document_fabrication",
@@ -12251,7 +12251,7 @@
       "stem": "warrant-vs-non-prosecution-document-truth-reversal",
       "title": "영장 '허위의 사실' vs 불기소결정서 '평가를 그대로 기재' — 동일 문서에 대한 진실성 역전",
       "titleKo": "영장 '허위의 사실' vs 불기소결정서 '평가를 그대로 기재' — 동일 문서에 대한 진실성 역전",
-      "titleEn": "영장 '허위의 사실' vs 불기소결정서 '평가를 그대로 기재' — 동일 문서에 대한 진실성 역전",
+      "titleEn": "Warrant 'false facts' vs non-prosecution decision 'evaluation recorded as-is' — truthfulness reversal on same document",
       "layer": 6,
       "secondaryLayers": [],
       "claimType": "cross_layer_analysis",
@@ -12291,7 +12291,7 @@
       "stem": "whistleblower-protection-purely-formal",
       "title": "공익신고자 보호법은 형식적 수준 — 32년 군간부도 조직적 공격에 무력",
       "titleKo": "공익신고자 보호법은 형식적 수준 — 32년 군간부도 조직적 공격에 무력",
-      "titleEn": "공익신고자 보호법은 형식적 수준 — 32년 군간부도 조직적 공격에 무력",
+      "titleEn": "Whistleblower Protection Act is merely formal — even 32-year military officer powerless against organized attack",
       "layer": 7,
       "secondaryLayers": [
         5,
@@ -12330,7 +12330,7 @@
       "stem": "xsyn-80items-additional-not-defects-triangulated",
       "title": "3개 독립 소스가 80건을 '추가요구사항'으로 삼각 확인 — 검찰 '하자' 프레이밍 반박",
       "titleKo": "3개 독립 소스가 80건을 '추가요구사항'으로 삼각 확인 — 검찰 '하자' 프레이밍 반박",
-      "titleEn": "3개 독립 소스가 80건을 '추가요구사항'으로 삼각 확인 — 검찰 '하자' 프레이밍 반박",
+      "titleEn": "3 independent sources triangulate 80 items as 'additional requirements' — prosecution's 'defect' framing refuted",
       "layer": 4,
       "secondaryLayers": [
         6
@@ -12371,7 +12371,7 @@
       "stem": "xsyn-directive-2436-retroactive-legal-basis",
       "title": "제2436호 개정일(2020.6.4)이 행위시점(2019.9) 이후 — 검찰이 사후 법적 근거를 인용",
       "titleKo": "제2436호 개정일(2020.6.4)이 행위시점(2019.9) 이후 — 검찰이 사후 법적 근거를 인용",
-      "titleEn": "제2436호 개정일(2020.6.4)이 행위시점(2019.9) 이후 — 검찰이 사후 법적 근거를 인용",
+      "titleEn": "제2436호 revision date (2020.6.4) postdates alleged conduct (2019.9) — prosecution cites post-hoc legal basis",
       "layer": 4,
       "secondaryLayers": [
         6,
@@ -12414,7 +12414,7 @@
       "stem": "xsyn-prosecutor-post-warrant-arrival-predetermination",
       "title": "기소결정 검사가 영장 발부 후 부임 — 결정권자가 수사 참여 안 한 구조적 예정",
       "titleKo": "기소결정 검사가 영장 발부 후 부임 — 결정권자가 수사 참여 안 한 구조적 예정",
-      "titleEn": "기소결정 검사가 영장 발부 후 부임 — 결정권자가 수사 참여 안 한 구조적 예정",
+      "titleEn": "Deciding prosecutor arrived after warrant issuance — decision-maker had no investigative involvement: structural predetermination",
       "layer": 6,
       "secondaryLayers": [
         7
@@ -12457,7 +12457,7 @@
       "stem": "xsyn-recording-confirms-vpn-public-discussion",
       "title": "녹취록이 VPN 공개 논의 확인 — 검찰 '은폐' 내러티브의 독립 반박",
       "titleKo": "녹취록이 VPN 공개 논의 확인 — 검찰 '은폐' 내러티브의 독립 반박",
-      "titleEn": "녹취록이 VPN 공개 논의 확인 — 검찰 '은폐' 내러티브의 독립 반박",
+      "titleEn": "Recordings confirm VPN was openly discussed — independent refutation of prosecution's 'concealment' narrative",
       "layer": 6,
       "secondaryLayers": [
         4
@@ -12501,7 +12501,7 @@
       "stem": "xsyn-sop-incident-silence-equals-coverup-proof",
       "title": "DIDC 예규 8단계 침해대응 의무 vs. 2016 해킹 보고서 완전 부재 — 침묵=은폐 증명",
       "titleKo": "DIDC 예규 8단계 침해대응 의무 vs. 2016 해킹 보고서 완전 부재 — 침묵=은폐 증명",
-      "titleEn": "DIDC 예규 8단계 침해대응 의무 vs. 2016 해킹 보고서 완전 부재 — 침묵=은폐 증명",
+      "titleEn": "DIDC SOP 8-stage breach response obligation vs. complete absence of 2016 hack report — silence = concealment proven",
       "layer": 1,
       "secondaryLayers": [
         6
@@ -12582,7 +12582,7 @@
       "stem": "yang-junseung-fabricated-9point-complaint-witness",
       "title": "양준승 (유지보수업체 과장): 9가지 허위 갑질 사항 서명 강요 + 3인 담합 목격 증언",
       "titleKo": "양준승 (유지보수업체 과장): 9가지 허위 갑질 사항 서명 강요 + 3인 담합 목격 증언",
-      "titleEn": "Maintenance contractor manager 양준승, who was stationed in 국전원's 행정정보화과, is an **external civilian witness who directly ob",
+      "titleEn": "Yang Jun-seung (maintenance firm manager): forced to sign 9 false harassment items + witnessed 3-person collusion",
       "layer": 5,
       "secondaryLayers": [
         7
@@ -12627,7 +12627,7 @@
       "stem": "yang-junseung-organizational-retaliation-vpn-accusers-technical-ignorance",
       "title": "양준승: \"완전 개심하네\" — 검찰 혐의 서사에 대한 외부 목격자 반응 + VPN 비전문 기소의 부당함",
       "titleKo": "양준승: \"완전 개심하네\" — 검찰 혐의 서사에 대한 외부 목격자 반응 + VPN 비전문 기소의 부당함",
-      "titleEn": "양준승: \"완전 개심하네\" — 검찰 혐의 서사에 대한 외부 목격자 반응 + VPN 비전문 기소의 부당함",
+      "titleEn": "Yang Jun-seung: 'Complete change of heart' — outside witness reaction to prosecution charge narrative + unfairness of non-expert VPN prosecution",
       "layer": 6,
       "secondaryLayers": [
         5
