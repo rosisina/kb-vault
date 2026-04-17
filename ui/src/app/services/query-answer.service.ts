@@ -237,7 +237,7 @@ export class QueryAnswerService {
   }
 
   private groupByTheme(atoms: ScoredAtom[]): ThematicGroup[] {
-    const CT_LABELS: Record<string, string> = {
+    const CT_LABELS_KR: Record<string, string> = {
       evidence_concealment: '증거은폐',
       document_fabrication: '문서위변조',
       regulatory_manipulation: '훈령조작',
@@ -255,6 +255,24 @@ export class QueryAnswerService {
       temporal_manipulation: '시간적조작',
       methodology: '방법론',
     };
+    const CT_LABELS_EN: Record<string, string> = {
+      evidence_concealment: 'Evidence Concealment',
+      document_fabrication: 'Document Fabrication',
+      regulatory_manipulation: 'Regulatory Manipulation',
+      terminology_manipulation: 'Terminology Manipulation',
+      prosecution_misconduct: 'Prosecution Misconduct',
+      witness_manipulation: 'Witness Manipulation',
+      conspiracy_structure: 'Conspiracy Structure',
+      institutional_obstruction: 'Institutional Obstruction',
+      procedural_violation: 'Procedural Violation',
+      human_rights_violation: 'Human Rights Violation',
+      testimony_evidence: 'Testimony Evidence',
+      cross_layer_analysis: 'Cross-layer Analysis',
+      technical_proof: 'Technical Proof',
+      attorney_misconduct: 'Attorney Misconduct',
+      temporal_manipulation: 'Temporal Manipulation',
+      methodology: 'Methodology',
+    };
 
     const grouped = new Map<string, ScoredAtom[]>();
     for (const atom of atoms) {
@@ -265,7 +283,9 @@ export class QueryAnswerService {
 
     return [...grouped.entries()]
       .map(([ct, items]) => ({
-        label: CT_LABELS[ct] || ct,
+        labelKr: CT_LABELS_KR[ct] || ct,
+        labelEn: CT_LABELS_EN[ct] || ct,
+        label: CT_LABELS_KR[ct] || ct,
         atoms: items.sort((a, b) => b.score - a.score),
       }))
       .sort((a, b) => b.atoms.length - a.atoms.length);
@@ -321,6 +341,7 @@ export class QueryAnswerService {
           .map(cn => ({
             id: cn.node.id,
             title: cn.node.title,
+            titleEn: cn.node.titleEn,
             layer: cn.node.layer,
           })),
       });
@@ -336,6 +357,7 @@ export class QueryAnswerService {
       .map(a => ({
         atomId: a.node.id,
         atomTitle: a.node.title.slice(0, 60),
+        atomTitleEn: (a.node.titleEn || '').slice(0, 60),
         hypothesis: a.detail!.counterHypothesis,
         verdict: a.node.verdict,
       }));

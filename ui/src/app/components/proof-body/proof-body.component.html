@@ -2,9 +2,9 @@
 <div class="proof-body">
 
   <!-- Breadcrumb -->
-  @if (breadcrumb().length > 0) {
+  @if (getBreadcrumb().length > 0) {
     <nav class="breadcrumb">
-      @for (part of breadcrumb(); track $index; let last = $last) {
+      @for (part of getBreadcrumb(); track $index; let last = $last) {
         <span [class.active]="last">{{ part }}</span>
         @if (!last) { <span class="sep">›</span> }
       }
@@ -515,7 +515,7 @@
       <section class="claim-group" [id]="'group-' + group.claimType">
         <div class="group-header">
           <span class="material-icons group-icon">{{ group.icon }}</span>
-          <h3 class="group-title">{{ group.label }}</h3>
+          <h3 class="group-title">{{ lang.lang() === 'en' ? (group.labelEn || group.label) : (group.labelKr || group.label) }}</h3>
           <span class="group-count">{{ group.pairs.length }}{{ lang.lang() === 'kr' ? '건' : '' }}</span>
           <span class="group-pct">{{ pct(group.corroboratedCount, group.totalCount) }}%</span>
         </div>
@@ -610,7 +610,7 @@
           <div class="answer-theme">
             <div class="theme-header">
               <span class="theme-number">{{ gi + 1 }}.</span>
-              <span class="theme-label">{{ group.label }}</span>
+              <span class="theme-label">{{ lang.lang() === 'en' ? (group.labelEn || group.label) : (group.labelKr || group.label) }}</span>
             </div>
 
             @for (item of group.atoms; track $index) {
@@ -671,7 +671,7 @@
                   <div class="chain-step">
                     <span class="layer-dot" [style.background]="'var(--aurora-layer-' + step.layer + ')'"></span>
                     <span class="step-layer">L{{ step.layer }}</span>
-                    <a class="step-title" [atomTooltip]="step.id" (click)="onAtomClick(step.id)">{{ step.title }}</a>
+                    <a class="step-title" [atomTooltip]="step.id" (click)="onAtomClick(step.id)">{{ lang.lang() === 'en' ? (step.titleEn || step.title) : step.title }}</a>
                   </div>
                   @if (!last) {
                     <div class="chain-step-arrow">──{{ lang.lang() === 'kr' ? '원인' : 'CAUSES' }}──→</div>
@@ -692,7 +692,7 @@
               <div class="answer-counter">
                 <p class="counter-hypo">"{{ ch.hypothesis }}"</p>
                 <div class="counter-source">
-                  → <a class="nav-link" [atomTooltip]="ch.atomId" (click)="onAtomClick(ch.atomId)">[[{{ ch.atomTitle }}]]</a>
+                  → <a class="nav-link" [atomTooltip]="ch.atomId" (click)="onAtomClick(ch.atomId)">[[{{ lang.lang() === 'en' ? (ch.atomTitleEn || ch.atomTitle) : ch.atomTitle }}]]</a>
                   <span class="verdict-badge verdict-{{ ch.verdict.toLowerCase() }}">{{ lang.t('verdict.' + ch.verdict) }}</span>
                 </div>
               </div>

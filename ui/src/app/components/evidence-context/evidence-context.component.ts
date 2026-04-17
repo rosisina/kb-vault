@@ -18,6 +18,8 @@ interface ContradictionPair {
 interface GroupSummary {
   claimType: string;
   label: string;
+  labelKr?: string;
+  labelEn?: string;
   icon: string;
   count: number;
   corroboratedPct: number;
@@ -177,6 +179,8 @@ export class EvidenceContextComponent implements OnChanges {
       result.push({
         claimType: ct,
         label: info ? (lang === 'kr' ? info.kr : info.en) : ct,
+        labelKr: info?.kr || ct,
+        labelEn: info?.en || ct,
         icon: info?.icon || 'folder',
         count: ctPairs.length,
         corroboratedPct: ctPairs.length > 0 ? Math.round((corr / ctPairs.length) * 100) : 0,

@@ -20,6 +20,7 @@ export interface ScoredAtom {
 export interface CounterHypothesisEntry {
   atomId: string;
   atomTitle: string;
+  atomTitleEn?: string;
   hypothesis: string;
   verdict: string;
 }
@@ -32,11 +33,13 @@ export interface RelatedAtomEntry {
 
 export interface ChainSummary {
   rootAtomId: string;
-  steps: Array<{ id: string; title: string; layer: number }>;
+  steps: Array<{ id: string; title: string; titleEn?: string; layer: number }>;
 }
 
 export interface ThematicGroup {
   label: string;
+  labelKr?: string;
+  labelEn?: string;
   atoms: ScoredAtom[];
 }
 

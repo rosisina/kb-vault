@@ -24,6 +24,8 @@ interface ContradictionPair {
 export interface ClaimGroup {
   claimType: string;
   label: string;
+  labelKr?: string;
+  labelEn?: string;
   icon: string;
   pairs: ContradictionPair[];
   corroboratedCount: number;
@@ -70,7 +72,22 @@ export class ProofBodyComponent implements OnChanges {
   groups = signal<ClaimGroup[]>([]);
   selectedAtom = signal<GraphNode | null>(null);
   selectedDetail = signal<AtomDetail | null>(null);
-  breadcrumb = signal<string[]>([]);
+  getBreadcrumb(): string[] {
+    const isEn = this.lang.lang() === 'en';
+    const parts: string[] = [];
+    if (this.searchQuery) {
+      parts.push(`🔍 "${this.searchQuery}"`);
+      parts.push(isEn ? `${this.searchResults.length} results` : `${this.searchResults.length}건`);
+    }
+    if (this.activeLayer) {
+      parts.push(`Layer ${this.activeLayer}`);
+      parts.push(isEn ? (this.layerNamesEn[this.activeLayer] || '') : (this.layerNames[this.activeLayer] || ''));
+    }
+    if (this.selectedAtom()) {
+      parts.push(this.claimTypeService.getLabel(this.selectedAtom()!.claimType, isEn ? 'en' : 'kr'));
+    }
+    return parts;
+  }
 
   // Chain
   chain = signal<ProofChain | null>(null);
@@ -185,7 +202,6 @@ export class ProofBodyComponent implements OnChanges {
     this.buildGroups();
     this.updateSelectedAtom();
     this.updateChain();
-    this.updateBreadcrumb();
 
     if (this.selectedAtomId) {
       // 새 atom 선택 시 chain 뷰로 전환 (answer/guided 외부에서 진입한 경우)
@@ -470,7 +486,10 @@ export class ProofBodyComponent implements OnChanges {
 
   // Lang-aware field helpers (B-option bilingual)
   claimText(detail: AtomDetail): string {
-    if (this.lang.lang() === 'en') return detail.claim_en || detail.claim_ko || detail.claim;
+    if (this.lang.lang() === 'en') {
+      const base = detail.claim_en || detail.claim_ko || detail.claim;
+      return this.lang.translateNamesInText(base);
+    }
     return detail.claim_ko || detail.claim;
   }
 
@@ -480,17 +499,23 @@ export class ProofBodyComponent implements OnChanges {
   }
 
   counterText(detail: AtomDetail): string {
-    if (this.lang.lang() === 'en') return detail.counterHypothesis_en || detail.counterHypothesis;
+    if (this.lang.lang() === 'en') {
+      return this.lang.translateNamesInText(detail.counterHypothesis_en || detail.counterHypothesis);
+    }
     return detail.counterHypothesis;
   }
 
   falsificationText(detail: AtomDetail): string {
-    if (this.lang.lang() === 'en') return detail.falsificationCondition_en || detail.falsificationCondition;
+    if (this.lang.lang() === 'en') {
+      return this.lang.translateNamesInText(detail.falsificationCondition_en || detail.falsificationCondition);
+    }
     return detail.falsificationCondition;
   }
 
   verdictText(detail: AtomDetail): string {
-    if (this.lang.lang() === 'en') return detail.verdictProse_en || detail.verdictProse || '';
+    if (this.lang.lang() === 'en') {
+      return this.lang.translateNamesInText(detail.verdictProse_en || detail.verdictProse || '');
+    }
     return detail.verdictProse || '';
   }
 
@@ -611,6 +636,8 @@ export class ProofBodyComponent implements OnChanges {
       result.push({
         claimType: ct,
         label: info ? (lang === 'kr' ? info.kr : info.en) : ct,
+        labelKr: info?.kr || ct,
+        labelEn: info?.en || ct,
         icon: info?.icon || 'folder',
         pairs: ctPairs,
         corroboratedCount: corr,
@@ -638,20 +665,4 @@ export class ProofBodyComponent implements OnChanges {
     }
   }
 
-  private updateBreadcrumb(): void {
-    const parts: string[] = [];
-    const isEn = this.lang.lang() === 'en';
-    if (this.searchQuery) {
-      parts.push(`🔍 "${this.searchQuery}"`);
-      parts.push(isEn ? `${this.searchResults.length} results` : `${this.searchResults.length}건`);
-    }
-    if (this.activeLayer) {
-      parts.push(`Layer ${this.activeLayer}`);
-      parts.push(isEn ? (this.layerNamesEn[this.activeLayer] || '') : (this.layerNames[this.activeLayer] || ''));
-    }
-    if (this.selectedAtom()) {
-      parts.push(this.claimTypeService.getLabel(this.selectedAtom()!.claimType, this.lang.lang()));
-    }
-    this.breadcrumb.set(parts);
-  }
 }

@@ -151,7 +151,7 @@
           <span class="unlinked-title">{{ item.node | langTitle }}</span>
           <div class="unlinked-shared">
             @for (key of item.sharedKeys.slice(0, 3); track key; let last = $last) {
-              <span class="shared-tag">{{ key }}</span>
+              <span class="shared-tag">{{ item.reason === 'person' ? lang.personName(key) : key }}</span>
             }
             @if (item.sharedKeys.length > 3) {
               <span class="shared-more">+{{ item.sharedKeys.length - 3 }}</span>
@@ -175,7 +175,7 @@
               <span class="material-icons group-arrow">
                 {{ group.expanded ? 'expand_more' : 'chevron_right' }}
               </span>
-              <span class="group-name">{{ group.label }}</span>
+              <span class="group-name">{{ lang.lang() === 'en' ? (group.labelEn || group.label) : (group.labelKr || group.label) }}</span>
               <span class="group-count">{{ group.count }}</span>
             </div>
             <div class="mini-progress">
