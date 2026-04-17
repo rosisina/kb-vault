@@ -410,6 +410,32 @@ export class ProofBodyComponent implements OnChanges {
     return [...new Set(ans.directResults.map(r => r.node.layer))].sort();
   }
 
+  // Lang-aware field helpers (B-option bilingual)
+  claimText(detail: AtomDetail): string {
+    if (this.lang.lang() === 'en') return detail.claim_en || detail.claim_ko || detail.claim;
+    return detail.claim_ko || detail.claim;
+  }
+
+  takeawayList(detail: AtomDetail): AtomDetail['keyTakeaways'] {
+    if (this.lang.lang() === 'en') return detail.keyTakeaways_en || detail.keyTakeaways;
+    return detail.keyTakeaways;
+  }
+
+  counterText(detail: AtomDetail): string {
+    if (this.lang.lang() === 'en') return detail.counterHypothesis_en || detail.counterHypothesis;
+    return detail.counterHypothesis;
+  }
+
+  falsificationText(detail: AtomDetail): string {
+    if (this.lang.lang() === 'en') return detail.falsificationCondition_en || detail.falsificationCondition;
+    return detail.falsificationCondition;
+  }
+
+  verdictText(detail: AtomDetail): string {
+    if (this.lang.lang() === 'en') return detail.verdictProse_en || detail.verdictProse || '';
+    return detail.verdictProse || '';
+  }
+
   truthDots(score: number): string {
     const filled = Math.round(score / 2);
     return '●'.repeat(filled) + '○'.repeat(5 - filled);

@@ -146,9 +146,10 @@ export class QueryAnswerService {
         reasons.push({ field: 'claim', snippet: detail.claim.slice(start, start + 100) });
       }
 
-      // Takeaway/evidence match (10 points)
+      // Takeaway/evidence match (10 points) — include _en fields for cross-language search
       const auxCorpus = [
         ...detail.keyTakeaways.map(t => t.text),
+        ...(detail.keyTakeaways_en ?? []).map(t => t.text),
         ...detail.supportingEvidence.map(e => e.raw),
       ].join(' ').toLowerCase();
       const auxNoSpace = auxCorpus.replace(/\s/g, '');
@@ -160,10 +161,12 @@ export class QueryAnswerService {
         reasons.push({ field: 'takeaway', snippet: '' });
       }
 
-      // Counter-hypothesis match (5 points bonus)
-      if (detail.counterHypothesis && terms.some(t =>
-        detail.counterHypothesis.toLowerCase().includes(t)
-      )) {
+      // Counter-hypothesis match (5 points bonus) — include _en for cross-language search
+      const counterCorpus = [
+        detail.counterHypothesis,
+        detail.counterHypothesis_en ?? '',
+      ].join(' ').toLowerCase();
+      if (counterCorpus.trim() && terms.some(t => counterCorpus.includes(t))) {
         textScore += 5;
         reasons.push({ field: 'counter', snippet: detail.counterHypothesis.slice(0, 80) });
       }

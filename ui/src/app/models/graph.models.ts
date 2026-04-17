@@ -105,11 +105,17 @@ export interface AtomDetail {
   source: string;
   layer: number;
   claim: string;
+  claim_ko?: string;
+  claim_en?: string;
   keyTakeaways: AtomTakeaway[];
+  keyTakeaways_en?: AtomTakeaway[];
   supportingEvidence: AtomEvidence[];
   counterHypothesis: string;
+  counterHypothesis_en?: string;
   falsificationCondition: string;
+  falsificationCondition_en?: string;
   verdictProse: string;
+  verdictProse_en?: string;
   spotCheck: string;
   related: AtomRelated[];
   allRecordNos: string[];

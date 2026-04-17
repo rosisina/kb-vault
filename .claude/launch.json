@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "aurora-ui",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-c", "cd /Users/a0/Projects/knowledge-base/.claude/worktrees/hardcore-cerf-d5b6c0/ui && npm start -- --port 4200"],
+      "port": 4200
+    }
+  ]
+}

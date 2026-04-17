@@ -3,12 +3,15 @@
 atoms-to-detail-json.py — build detail.json for Aurora v2 CP-2 UI.
 
 Extracts full body content from each wiki/claims/*.md atom:
-  - claim text, key takeaways, supporting evidence, counter-hypothesis,
-    falsification condition, verdict prose, spot-check, related links.
+  - claim text (ko/en split), key takeaways, supporting evidence,
+    counter-hypothesis, falsification condition, verdict prose,
+    spot-check, related links.
 
-Output is keyed by resultId for O(1) lookup when the UI opens an atom detail view.
-graph.json (from atoms-to-graph-json.py) remains the navigation/summary layer;
-detail.json is the content layer, lazy-loaded by the UI.
+B-option bilingual fields added:
+  - claim_ko / claim_en  — from ### 한국어 / ### English subsections
+  - keyTakeaways_en      — English part of bilingual bullets (split on " / ") + term_sub
+  - falsificationCondition_en / verdictProse_en / counterHypothesis_en
+    → term_sub applied; empty string for purely Korean prose (Phase 2 fills these)
 
 Output:
     output/detail.json        — full atom body content for UI
@@ -26,6 +29,72 @@ import sys
 from pathlib import Path
 
 import yaml
+
+# ── Glossary term substitution (KO → EN) ─────────────────────────────
+
+_GLOSSARY = [
+    ("[진리성]", "[Truthfulness]"),
+    ("[타당성]", "[Validity]"),
+    ("[진실성]", "[Sincerity]"),
+    ("진리성", "Truthfulness"),
+    ("타당성", "Validity"),
+    ("진실성", "Sincerity"),
+    ("전력화", "operational deployment"),
+    ("기소유예", "Prosecutorial Deferral"),
+    ("사업통제기관", "project control authority"),
+    ("국방정보화업무훈령", "Defense IT Operations Directive"),
+    ("국전원", "Defense Information Agency"),
+    ("군 검찰단", "Military Prosecutor's Office"),
+    ("조사본부", "Defense Counterintelligence Agency"),
+    ("국방부", "Ministry of National Defense"),
+    ("무혐의", "No Probable Cause"),
+    ("불기소", "Non-indictment"),
+    ("新KIATIS", "New KIATIS"),
+    ("신KIATIS", "New KIATIS"),
+    ("舊KIATIS", "Legacy KIATIS"),
+    ("구KIATIS", "Legacy KIATIS"),
+    ("국방망", "defense intranet"),
+    ("공문결재자-1", "Document-Approver-1"),
+    ("2016해킹당시원장-1", "Director-During-2016-Hack-1"),
+    ("공모자-1", "Conspirator-1"),
+    ("사업실무자-1", "Project-Officer-1"),
+    ("평가위원장-1", "Evaluation-Chair-1"),
+]
+
+_KO_CHAR = re.compile(r"[가-힣]")
+# Score pattern: 진리성 N / 타당성 N / 진실성 N  (in verdict prose)
+_SCORE_PAT = re.compile(r"진리성\s*(\d+)\s*/\s*타당성\s*(\d+)\s*/\s*진실성\s*(\d+)")
+# Parenthesised score: 진리성 N (note), 타당성 N (note), 진실성 N (note)
+_SCORE_PAT2 = re.compile(
+    r"진리성\s*(\d+)\s*\(([^)]*)\)[,，]?\s*타당성\s*(\d+)\s*\(([^)]*)\)[,，]?\s*진실성\s*(\d+)\s*\(([^)]*)\)"
+)
+
+
+def _term_sub(text: str) -> str:
+    # Score pattern substitutions first (before individual term subs)
+    text = _SCORE_PAT.sub(
+        lambda m: f"Truthfulness {m.group(1)} / Validity {m.group(2)} / Sincerity {m.group(3)}", text
+    )
+    text = _SCORE_PAT2.sub(
+        lambda m: (
+            f"Truthfulness {m.group(1)} ({m.group(2)}), "
+            f"Validity {m.group(3)} ({m.group(4)}), "
+            f"Sincerity {m.group(5)} ({m.group(6)})"
+        ),
+        text,
+    )
+    for ko, en in _GLOSSARY:
+        text = text.replace(ko, en)
+    return text
+
+
+def _is_mostly_korean(text: str, threshold: float = 0.40) -> bool:
+    """Return True if Korean chars make up more than `threshold` fraction of alpha chars."""
+    alpha = sum(1 for c in text if c.isalpha())
+    if alpha == 0:
+        return False
+    return len(_KO_CHAR.findall(text)) / alpha > threshold
+
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CLAIMS_DIR = REPO_ROOT / "wiki" / "claims"
@@ -83,6 +152,16 @@ def _extract_evidence_ids(text: str) -> list[dict]:
     return items
 
 
+def _extract_claim_lang(claim_text: str, lang: str) -> str:
+    """Extract ### 한국어 or ### English subsection from claim body."""
+    if lang == "ko":
+        pat = re.compile(r"^### 한국어\s*\n(.*?)(?=^###|\Z)", re.MULTILINE | re.DOTALL)
+    else:
+        pat = re.compile(r"^### English\s*\n(.*?)(?=^###|\Z)", re.MULTILINE | re.DOTALL)
+    m = pat.search(claim_text)
+    return m.group(1).strip() if m else ""
+
+
 def _extract_takeaways(text: str) -> list[dict]:
     """Parse key takeaways with truth-axis tags."""
     items = []
@@ -97,6 +176,47 @@ def _extract_takeaways(text: str) -> list[dict]:
                 axes.append(tag)
         items.append({"text": bullet, "axes": axes})
     return items
+
+
+def _extract_takeaways_en(text: str) -> list[dict]:
+    """Parse English key takeaways.
+
+    For bilingual bullets (Korean / English), extract the English part after ' / '.
+    For already-English bullets, apply term substitution.
+    Skip bullets that remain Korean-dominant after extraction.
+    """
+    items = []
+    for line in text.split("\n"):
+        line = line.strip()
+        if not line.startswith("- "):
+            continue
+        bullet = line[2:].strip()
+        # Bilingual bullet: "Korean text / English text"
+        if " / " in bullet:
+            en_part = bullet.split(" / ", 1)[1].strip()
+        else:
+            en_part = bullet
+        en_part = _term_sub(en_part)
+        # Skip Korean-dominant bullets (e.g. separate Korean bullets in a mixed list)
+        if _is_mostly_korean(en_part):
+            continue
+        axes = []
+        for tag in ("Truthfulness", "Validity", "Sincerity"):
+            if f"[{tag}]" in en_part:
+                axes.append(tag)
+        items.append({"text": en_part, "axes": axes})
+    return items
+
+
+def _prose_en(text: str) -> str:
+    """Return English version of a prose field.
+
+    If the text is mostly Korean, return empty string (Phase 2 fills these).
+    Otherwise apply term substitution.
+    """
+    if _is_mostly_korean(text):
+        return ""
+    return _term_sub(text)
 
 
 def _extract_related(text: str) -> list[dict]:
@@ -184,10 +304,20 @@ def main() -> int:
         spot_check = _extract_section(body, "Spot-check")
         related_raw = _extract_section(body, "Related")
 
+        # Bilingual claim subsections
+        claim_ko = _extract_claim_lang(claim, "ko")
+        claim_en = _extract_claim_lang(claim, "en")
+
         # Parse structured data
         takeaways = _extract_takeaways(takeaways_raw)
+        takeaways_en = _extract_takeaways_en(takeaways_raw)
         evidence = _extract_evidence_ids(evidence_raw)
         related = _extract_related(related_raw)
+
+        # English prose fields (term_sub for English-first; empty for Korean-prose)
+        falsification_en = _prose_en(falsification)
+        verdict_en = _prose_en(verdict_prose)
+        counter_en = _prose_en(counter)
 
         # Collect all Record Nos from body
         all_records = sorted(set(
@@ -200,12 +330,23 @@ def main() -> int:
             "title": title,
             "source": source,
             "layer": layer,
+            # claim: full section (backward compat) + bilingual subsections
             "claim": claim,
+            "claim_ko": claim_ko,
+            "claim_en": claim_en,
+            # key takeaways: Korean (original) + English
             "keyTakeaways": takeaways,
+            "keyTakeaways_en": takeaways_en,
             "supportingEvidence": evidence,
+            # counter-hypothesis
             "counterHypothesis": counter,
+            "counterHypothesis_en": counter_en,
+            # falsification condition
             "falsificationCondition": falsification,
+            "falsificationCondition_en": falsification_en,
+            # verdict
             "verdictProse": verdict_prose,
+            "verdictProse_en": verdict_en,
             "spotCheck": spot_check,
             "related": related,
             "allRecordNos": all_records,

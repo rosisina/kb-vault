@@ -264,12 +264,12 @@
 
           @if (i === guidedIndex()) {
             @if (guidedCurrentDetail(); as detail) {
-              <p class="guided-claim">{{ detail.claim.length > 300 ? detail.claim.slice(0, 300) + '...' : detail.claim }}</p>
+              <p class="guided-claim">{{ claimText(detail).length > 300 ? claimText(detail).slice(0, 300) + '...' : claimText(detail) }}</p>
 
-              @if (detail.falsificationCondition) {
+              @if (falsificationText(detail)) {
                 <div class="guided-falsification">
                   <span class="falsification-label">{{ lang.lang() === 'kr' ? '이 주장을 깨려면:' : 'To disprove this:' }}</span>
-                  <span class="falsification-text">{{ detail.falsificationCondition }}</span>
+                  <span class="falsification-text">{{ falsificationText(detail) }}</span>
                 </div>
               }
 
@@ -345,15 +345,15 @@
         <!-- Claim 본문 -->
         <div class="detail-section">
           <h4 class="section-label">{{ lang.lang() === 'kr' ? '발견 내용' : 'Finding' }}</h4>
-          <p class="claim-body">{{ detail.claim }}</p>
+          <p class="claim-body">{{ claimText(detail) }}</p>
         </div>
 
         <!-- Key Takeaways -->
-        @if (detail.keyTakeaways.length > 0) {
+        @if (takeawayList(detail).length > 0) {
           <div class="detail-section">
             <h4 class="section-label">{{ lang.lang() === 'kr' ? '핵심 요약' : 'Key Takeaways' }}</h4>
             <ul class="takeaways">
-              @for (t of detail.keyTakeaways; track $index) {
+              @for (t of takeawayList(detail); track $index) {
                 <li>
                   <span class="takeaway-text">{{ t.text }}</span>
                 </li>
@@ -375,18 +375,18 @@
         }
 
         <!-- Counter-hypothesis -->
-        @if (detail.counterHypothesis) {
+        @if (counterText(detail)) {
           <div class="detail-section counter-section">
             <h4 class="section-label">{{ lang.lang() === 'kr' ? '반대 가설' : 'Counter-hypothesis' }}</h4>
-            <p class="counter-text">{{ detail.counterHypothesis }}</p>
+            <p class="counter-text">{{ counterText(detail) }}</p>
           </div>
         }
 
         <!-- Falsification condition -->
-        @if (detail.falsificationCondition) {
+        @if (falsificationText(detail)) {
           <div class="detail-section">
             <h4 class="section-label">{{ lang.lang() === 'kr' ? '반증 조건' : 'Falsification Condition' }}</h4>
-            <p class="falsification-text">{{ detail.falsificationCondition }}</p>
+            <p class="falsification-text">{{ falsificationText(detail) }}</p>
           </div>
         }
 
@@ -446,7 +446,7 @@
 
               <!-- Claim 발췌 (text graph 핵심 — 클릭 없이 내용 파악) -->
               @if (cn.detail) {
-                <p class="chain-claim-excerpt">{{ cn.detail.claim.length > 200 ? cn.detail.claim.slice(0, 200) + '...' : cn.detail.claim }}</p>
+                <p class="chain-claim-excerpt">{{ claimText(cn.detail).length > 200 ? claimText(cn.detail).slice(0, 200) + '...' : claimText(cn.detail) }}</p>
                 <!-- Record Nos 인라인 -->
                 @if (cn.detail.allRecordNos.length > 0) {
                   <div class="chain-records">
@@ -627,12 +627,12 @@
 
                 <!-- 전체 claim 본문 -->
                 @if (item.detail) {
-                  <div class="atom-claim-full">{{ item.detail.claim }}</div>
+                  <div class="atom-claim-full">{{ claimText(item.detail) }}</div>
 
                   <!-- Key Takeaways (인라인) -->
-                  @if (item.detail.keyTakeaways.length > 0) {
+                  @if (takeawayList(item.detail).length > 0) {
                     <ul class="atom-takeaways-inline">
-                      @for (t of item.detail.keyTakeaways; track $index) {
+                      @for (t of takeawayList(item.detail); track $index) {
                         <li>{{ t.text }}</li>
                       }
                     </ul>
@@ -774,11 +774,11 @@
       <h4 class="preview-title">{{ pNode.title }}</h4>
 
       @if (previewDetail(); as pDetail) {
-        <p class="preview-claim">{{ pDetail.claim.length > 250 ? pDetail.claim.slice(0, 250) + '...' : pDetail.claim }}</p>
+        <p class="preview-claim">{{ claimText(pDetail).length > 250 ? claimText(pDetail).slice(0, 250) + '...' : claimText(pDetail) }}</p>
 
-        @if (pDetail.keyTakeaways.length > 0) {
+        @if (takeawayList(pDetail).length > 0) {
           <ul class="preview-takeaways">
-            @for (t of pDetail.keyTakeaways.slice(0, 2); track $index) {
+            @for (t of takeawayList(pDetail).slice(0, 2); track $index) {
               <li>{{ t.text.length > 100 ? t.text.slice(0, 100) + '...' : t.text }}</li>
             }
           </ul>
