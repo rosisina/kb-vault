@@ -73,8 +73,11 @@ SET fr.layer = 4,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- L4의 조작된 시험평가 결과를 L6 검찰이 범죄 증거로 재활용 [진리성]
 - L4 fabricated test evaluation results were repurposed by L6 prosecution as criminal evidence [진리성]
+- 자기포획 논리: L4 조작 증명이 L6 기소 사기를 자동으로 증명 [타당성]
 - Self-trapping logic: proving L4 manipulation automatically proves L6 prosecution fraud [타당성]
+- 교차층위 파이프라인(L4 조작 → L6 범죄자화)은 완결된 증거-기소 공급망 [진리성]
 - The cross-layer pipeline (L4 fabrication → L6 criminalization) is a complete evidence-to-prosecution supply chain [진리성]
 
 ## 지지 증거 (Supporting Evidence)

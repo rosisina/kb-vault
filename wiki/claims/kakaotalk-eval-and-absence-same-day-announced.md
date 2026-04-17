@@ -71,6 +71,7 @@ SET fr.layer = 4,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 카카오톡에서 시험평가 시작과 팀장 부재가 동일 채널·동일 날 공지 — 중첩에 대한 조직 전체의 인지 [진리성]
 - KakaoTalk shows evaluation start and team leader absence announced in the same channel on the same day — organizational awareness of the overlap [진리성]
 
 ## 지지 증거 (Supporting Evidence)

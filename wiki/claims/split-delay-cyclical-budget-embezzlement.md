@@ -72,6 +72,7 @@ SET fr.layer = 6,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 예산 주기 6.25억→4억→3.9억이 자기 영속적 자원 착취 메커니즘을 증명 [진리성]
 - Budget cycle 6.25B→4B→3.9B proves self-perpetuating resource extraction mechanism [진리성]
 
 ## 지지 증거 (Supporting Evidence)

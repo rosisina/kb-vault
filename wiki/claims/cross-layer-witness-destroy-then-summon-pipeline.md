@@ -71,7 +71,9 @@ Layer 5에서 6개월간 체계적 증인 파괴 전술(독방 격리, PC 차단
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- L5가 고립 전술로 증인의 독립성을 파괴한 후, L6가 동일 증인을 소환 [진리성]
 - L5 destroyed witness independence through isolation tactics; L6 then summoned same witnesses [진리성]
+- 순차 파이프라인: 먼저 독립성 파괴, 그 다음 순응적 증언 수확 [진실성]
 - Sequential pipeline: destroy independence first, harvest compliant testimony second [진실성]
 
 ## 지지 증거 (Supporting Evidence)

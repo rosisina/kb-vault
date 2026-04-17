@@ -75,8 +75,11 @@ SET fr.layer = 7,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 보이지 않는 조직 프로세스에 접근 가능한 고유한 당사자 연구 [진리성]
 - Insider research with unique access to invisible organizational processes [진리성]
+- 4년간의 1차 자료: 기록 제1~13,528쪽 [진리성]
 - 4 years of primary data: Records 1-13,528 [진리성]
+- 접근 역설: 설계된 비가시적 내부 프로세스는 표적만이 기록할 수 있음 [진실성]
 - Access paradox: only the target can document designed-to-be-invisible internal processes [진실성]
 
 ## 지지 증거 (Supporting Evidence)

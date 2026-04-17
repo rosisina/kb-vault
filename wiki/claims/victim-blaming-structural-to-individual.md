@@ -77,7 +77,9 @@ SET fr.layer = 6,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 검찰은 존재하지 않던 시스템의 미사용을 혐의로 제기 (기록 제4,855/3,236~3,270쪽) [진리성]
 - Prosecution charged non-use of systems that did not exist (Records 4,855/3,236-3,270) [진리성]
+- 15년간의 구조적 실패를 개인에게 전가 = 피해자 비난 [진실성]
 - Transferring 15-year systemic failure to individual = Victim Blaming [진실성]
 
 ## 지지 증거 (Supporting Evidence)

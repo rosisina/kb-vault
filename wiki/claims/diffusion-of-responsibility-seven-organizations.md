@@ -85,7 +85,9 @@ SET fr.layer = 4,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 7개 이상의 조직이 각자의 권한 영역 안에서 은폐의 한 조각을 담당 [진리성]
 - 7+ organizations each used domain authority for one piece of the cover-up [진리성]
+- 개별적으로는 합법적인 행위들의 결합 = 중대 조직범죄 [타당성]
 - Individually legal acts combined = serious organized crime [타당성]
 
 ## 지지 증거 (Supporting Evidence)

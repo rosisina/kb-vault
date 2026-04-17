@@ -74,7 +74,9 @@ SET fr.layer = 6,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 불기소 결정의 참작사유는 표준적 사업관리 행위를 기술 — 업체 소통, 프로그램 완성, 일정 준수 [진리성]
 - Non-prosecution's mitigating factors describe standard project management behavior — developer communication, program completion, schedule adherence [진리성]
+- 이 참작사유는 책임 경감이 아닌 무죄의 증거 — 유능한 사업관리자라면 당연히 하는 행위를 기술 [타당성]
 - These mitigating factors are evidence of INNOCENCE, not reduced culpability — they describe what any competent project manager would do [타당성]
 
 ## 지지 증거 (Supporting Evidence)

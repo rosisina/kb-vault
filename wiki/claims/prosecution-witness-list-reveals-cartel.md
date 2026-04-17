@@ -75,7 +75,9 @@ SET fr.layer = 6,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 검찰 자신의 참고인 명단이 자기 고발적 — 소환된 인원들이 카르텔 주동자 또는 동조세력 (Record No. 11,162) [진리성]
 - The prosecution's own witness list is self-incriminating — those summoned are cartel principals or sympathizers (Record 11,162) [진리성]
+- 검사의 '관련 있는 사람은 다 불렀다' 자인이 조율된 네트워크의 범위를 의도치 않게 확인 [진리성]
 - Prosecutor's admission 'we called everyone related' inadvertently confirms the coordinated network scope [진리성]
 
 ## 지지 증거 (Supporting Evidence)

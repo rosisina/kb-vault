@@ -73,7 +73,9 @@ SET fr.layer = 6,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 공식 신문조서는 검찰의 심각한 가족 피해 인지에 대한 날짜 기록 생성 — 아들 조현병, 가정 파괴 [진실성]
 - Official interrogation transcript creates dated record of prosecution's awareness of severe family harm — son's schizophrenia, family destruction [진실성]
+- '죽고 싶은 마음 뿐입니다'가 공식 문서에 기록 — 검찰은 이 진술 후 5주 더 수사 지속 [진실성]
 - 'I just want to die' recorded in official document — prosecution continued investigation for 5 more weeks after this disclosure [진실성]
 
 ## 지지 증거 (Supporting Evidence)

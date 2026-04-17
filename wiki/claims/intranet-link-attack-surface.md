@@ -75,7 +75,9 @@ SET fr.layer = 1,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 舊KIATIS는 인터넷-국방망 이중 연동 구조로 2016년 해킹 당시 공격 경로(bridge) 역할 [진리성]
 - 舊KIATIS had dual internet-intranet linkage making it a bridge attack surface during 2016 hacking [진리성]
+- 은폐 동기 강화: 단순 홈페이지가 아닌 국방망 진입 경로 [진리성]
 - Cover-up motive intensifies: not a simple website but a gateway to the defense network [진리성]
 
 ## 지지 증거 (Supporting Evidence)

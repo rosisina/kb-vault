@@ -72,7 +72,9 @@ SET fr.layer = 4,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 2019-09-02 생산일에 2019-09-03 보고일 = 시간적 불가능 [진리성]
 - 09-02 production date with 09-03 report date = temporal impossibility [진리성]
+- 기재된 날짜가 아닌 2022년 수사 기간 중 소급 조작 가능성 시사 [진리성]
 - Suggests document fabricated during 2022 prosecution period, not on stated date [진리성]
 
 ## 지지 증거 (Supporting Evidence)

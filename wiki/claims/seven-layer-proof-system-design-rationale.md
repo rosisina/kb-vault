@@ -75,7 +75,9 @@ SET fr.layer = 1,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 7층위 증명체계는 약 13,500쪽의 자료로부터 귀납적으로 구축됨 [진리성]
 - The 7-layer proof system was built inductively from ~13,500 pages [진리성]
+- 각 층위는 독립적으로 증거를 갖추면서도 상호 연결됨 [진리성]
 - Each layer is independently evidenced yet cross-linked [진리성]
 
 ## 지지 증거 (Supporting Evidence)

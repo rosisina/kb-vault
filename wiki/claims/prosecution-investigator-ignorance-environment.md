@@ -74,7 +74,9 @@ SET fr.layer = 6,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 수사관은 2022-09-07 녹음 통화에서 '다른 환경'의 의미를 정의하지 못함 — 피의자가 3요소 IT 환경 모델을 직접 교육해야 했음 [진리성]
 - The prosecution investigator could not define what 'different environment' meant in the 2022-09-07 recorded call — the suspect had to teach the three-component IT model [진리성]
+- 이는 검찰이 기본적인 기술 사실을 이해하지 못한 상태에서 수사를 개시했음을 증명 [타당성]
 - This proves the prosecution launched the investigation without understanding basic technical facts [타당성]
 
 ## 지지 증거 (Supporting Evidence)

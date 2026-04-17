@@ -80,6 +80,7 @@ SET fr.layer = 4,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- '내가 그걸 어떻게 아니'는 2016년 해킹 당시 국방부 재직을 보여주는 경력기록과 직접 모순 [진리성]
 - 'How would I know' directly contradicted by career records placing him at MND during 2016 hacking [진리성]
 
 ## 지지 증거 (Supporting Evidence)

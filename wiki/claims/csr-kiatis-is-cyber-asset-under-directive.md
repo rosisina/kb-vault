@@ -71,7 +71,9 @@ SET fr.layer = 1,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- KIATIS는 사이버자산 정의를 충족 — 제3장의 모든 보호 의무가 적용 [타당성]
 - KIATIS fits the cyber asset definition — all Chapter 3 protection obligations attach [타당성]
+- 사이버자산으로 분류되면 취약점 평가·보호대책·수명주기 보안이 전부 적용 [타당성]
 - Once classified as cyber asset, vulnerability assessment, protection plans, and lifecycle security all apply [타당성]
 
 ## 지지 증거 (Supporting Evidence)

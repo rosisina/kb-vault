@@ -73,8 +73,11 @@ SET fr.layer = 5,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 3중 벡터 완전 파괴: 사회적 평판(L5), 범죄자 낙인(L6), 경제적 생존 기반(L7) [진리성]
 - Triple-vector total destruction: social reputation (L5), criminal stigma (L6), economic livelihood (L7) [진리성]
+- 현대판 '언퍼슨' 메커니즘 — 조율된 다층위 공격으로 사회적 존재 소거 [진실성]
 - Modern 'unperson' mechanism — erasing social existence through coordinated multi-layer attack [진실성]
+- 아렌트를 역전: 집단 정체성 부정이 아닌 진실 발언자 정체성 부정 [진실성]
 - Inverts Arendt: not denial of group identity but denial of truth-teller identity [진실성]
 
 ## 지지 증거 (Supporting Evidence)

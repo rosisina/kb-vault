@@ -75,7 +75,9 @@ SET fr.layer = 6,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 2019년 14개 사업 중 VPN 성능 측정 수행 건수: 0 — 검찰의 KIATIS 요구는 제도적 전례 없음 [진리성]
 - Zero of 14 DCIA projects in 2019 measured VPN performance — prosecution's expectation for KIATIS was institutionally unprecedented [진리성]
+- 선별 적용: 동일 기준이 다른 어느 사업에도 적용되지 않음 = 표적 수사, 법규 집행이 아님 [타당성]
 - Selective application: same standard not applied to any other project = targeting, not compliance enforcement [타당성]
 
 ## 지지 증거 (Supporting Evidence)

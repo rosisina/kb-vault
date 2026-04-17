@@ -76,7 +76,9 @@ SET fr.layer = 1,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 제1층위는 구조적 근간 — 7개 층위 전체가 舊KIATIS의 15년 인터넷 노출 증거 인멸이라는 단일 동기로 소급됨 [진리성]
 - Layer 1 is the structural foundation — all 7 layers trace to the single imperative of destroying evidence of 舊KIATIS's 15-year internet exposure [진리성]
+- 전 층위에 걸친 조직적 공모는 이 단일 은폐 동기에 의해 추동됨 [진실성]
 - The organized conspiracy across all layers is driven by this single concealment motive [진실성]
 
 ## 지지 증거 (Supporting Evidence)

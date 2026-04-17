@@ -77,7 +77,9 @@ SET fr.layer = 6,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 9년간 3단계: 은폐 토대 구축 → 조작 실행 → 범죄 완성 [진리성]
 - Three phases over 9 years: concealment foundation → manipulation activation → crime completion [진리성]
+- 3개의 독립된 기관 행위가 아닌 단일 유기적 범죄 시스템 [진리성]
 - Single organic crime system, not three independent institutional actions [진리성]
 
 ## 지지 증거 (Supporting Evidence)

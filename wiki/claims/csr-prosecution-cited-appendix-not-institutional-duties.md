@@ -73,7 +73,9 @@ SET fr.layer = 6,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 검찰은 기술적 별표(개인 의무)를 인용하면서 제3장(기관 의무)을 무시 — 책임을 개인화하기 위한 선별적 인용 [타당성]
 - Prosecution cited technical appendix (individual duty) while ignoring Chapter 3 (institutional duty) — selective citation to individualize blame [타당성]
+- 제3장은 개별 장교가 아닌 기관으로서의 DIDC에 의무를 부과 [타당성]
 - Chapter 3 places duties on DIDC as institution, not on any individual officer [타당성]
 
 ## 지지 증거 (Supporting Evidence)

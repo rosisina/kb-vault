@@ -73,7 +73,9 @@ SET fr.layer = 4,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 독립적으로 문서화된 세 가지 사실이 삼중 자기모순을 형성: 99.7점 + 80건 추가 의결 + 데이터 부재가 동시에 진실일 수 없음 [진리성]
 - Three independently documented facts form a triple self-contradiction: 99.7 + 80 new requirements + absent data cannot all be genuine [진리성]
+- 어느 방향으로 해석해도 법규 위반으로 귀결 [타당성]
 - Any resolution leads to a regulatory violation [타당성]
 
 ## 지지 증거 (Supporting Evidence)

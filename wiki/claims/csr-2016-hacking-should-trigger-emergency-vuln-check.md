@@ -72,7 +72,9 @@ SET fr.layer = 1,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 2016년 북한 해킹은 제44조의 긴급 발동 요건 두 가지를 동시에 충족 [타당성]
 - 2016 NK hacking satisfies two Art. 44 emergency triggers simultaneously [타당성]
+- 긴급 취약점 점검은 KIATIS를 포함한 DIDC 소관 전 체계를 대상으로 했어야 함 [타당성]
 - Emergency vulnerability check should have covered ALL DIDC-hosted systems including KIATIS [타당성]
 
 ## 지지 증거 (Supporting Evidence)

@@ -75,8 +75,11 @@ SET fr.layer = 4,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 가해자들은 계획된 지적 정교함을 보여줌 — 학술적 정당성(KIDA)과 법적 근거(훈령 개정)를 동시에 조작 [진리성]
 - The perpetrators demonstrate premeditated intellectual sophistication — fabricating academic legitimacy (KIDA) AND legal foundations (directive revision) simultaneously [진리성]
+- 사전 구축된 증거 인멸·책임 전가 메커니즘은 수동적 복종이 아닌 미래를 계산한 범죄 기획을 시사 [진리성]
 - Pre-built evidence-destruction and blame-shifting mechanisms indicate forward-looking criminal planning, not passive obedience [진리성]
+- 본 사안은 새로운 범주를 요구함: '악의 지능화' — 계산적·적응적·선제적 조직범죄 [진실성]
 - The case demands a new category: 'Intellectualization of Evil' — calculated, adaptive, anticipatory organized crime [진실성]
 
 ## 지지 증거 (Supporting Evidence)

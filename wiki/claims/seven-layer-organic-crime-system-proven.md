@@ -77,7 +77,9 @@ SET fr.layer = 7,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 12,495쪽의 증거가 7층위 증명체계를 통해 6년간의 체계적 범죄 구조를 입증 [진리성]
 - 12,495 pages of evidence prove a 6-year systematic crime structure via 7-layer proof system [진리성]
+- 그림 6-1·6-2(기록 제6,445~6,446쪽)가 교차층위 공모의 구조적 증거를 제공 [진리성]
 - Figures 6-1 and 6-2 (Records 6,445-6,446) provide structural proof of cross-layer collusion [진리성]
 
 ## 지지 증거 (Supporting Evidence)

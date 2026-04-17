@@ -76,7 +76,9 @@ SET fr.layer = 5,
 
 ## 핵심 요약 (Key Takeaways)
 
+- 3년 11개월 연속 표적화(2018-12-03~2022-10-31)는 국가기관에 의한 문서화된 조직적 스토킹에 해당 [진리성]
 - 3 years 11 months of continuous targeting (2018-12-03 to 2022-10-31) constitutes documented organizational stalking by state agencies [진리성]
+- 가해자들은 피해자에 대한 심층 정보를 보유하여 맞춤형 공격 가능 — 무차별적 관료적 피해와 구별되는 지점 [진실성]
 - Perpetrators had intimate knowledge of the victim enabling customized attack — distinguishing from mass bureaucratic harm [진실성]
 
 ## 지지 증거 (Supporting Evidence)

@@ -72,8 +72,11 @@ SET fr.layer = 7,
 
 ## 핵심 요약 (Key Takeaways)
 
+- 12,495쪽 확보했으나 구두 지시·삭제 문서·사적 대화는 접근 불가 상태 [진리성]
 - 12,495 pages secured but oral instructions, deleted documents, private communications remain inaccessible [진리성]
+- 디지털 증거는 완전 삭제 가능 — 즉각적 보전 조치 필수 [진리성]
 - Digital evidence is permanently deletable — immediate preservation critical [진리성]
+- 2018년 이후 관련자들이 흩어진 상황 — 증인 기억 소실 진행 중 [진리성]
 - Related personnel scattered since 2018 — witness memory degradation ongoing [진리성]
 
 ## 지지 증거 (Supporting Evidence)

@@ -71,7 +71,9 @@ SET fr.layer = 4,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 규격 재심의가 구 서버에서 신 서버로의 모든 데이터·SW 이관을 차단 (Record No. 3,324) [진리성]
 - Specification re-review blocked ALL data/SW transfer from old to new servers (Record 3,324) [진리성]
+- 이관 차단은 舊KIATIS 인터넷 운용 증거를 신규 사업으로부터 격리 [진리성]
 - Blocking isolates evidence of 舊KIATIS internet operation from the new project [진리성]
 
 ## 지지 증거 (Supporting Evidence)

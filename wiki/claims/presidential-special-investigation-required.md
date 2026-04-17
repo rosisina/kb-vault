@@ -70,8 +70,11 @@ SET fr.layer = 7,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 일반 수사기관은 구조적 이해충돌 — 가해자들이 해당 기관들과 연결됨 [타당성]
 - Normal investigative agencies face structural conflict of interest — perpetrators connected to those agencies [타당성]
+- 대통령 차원의 개입 필요: 진실규명위원회 또는 특별검사 [타당성]
 - Presidential-level intervention required: truth commission or special prosecutor [타당성]
+- 국제적 관심 제안: 유엔 인권이사회, 국제투명성기구 [진실성]
 - International engagement proposed: UN Human Rights Council, Transparency International [진실성]
 
 ## 지지 증거 (Supporting Evidence)

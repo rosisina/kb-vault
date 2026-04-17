@@ -74,8 +74,11 @@ SET fr.layer = 7,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 공익신고자 보호법은 형식적 수준에 그침 — 수차례 진정 제출에도 실질 보호 전무 [타당성]
 - Whistleblower Protection Act is purely formal — zero actual protection despite multiple petition filings [타당성]
+- 진정 제출 즉시 자동 보호 조치 발동 시스템이 필요 [타당성]
 - Automatic protection activation upon petition filing is required [타당성]
+- 종합 지원 시스템 필요: 신분 보장·경제 지원·법적 보호·심리 상담 [진실성]
 - Comprehensive support system needed: status protection, economic support, legal defense, counseling [진실성]
 
 ## 지지 증거 (Supporting Evidence)

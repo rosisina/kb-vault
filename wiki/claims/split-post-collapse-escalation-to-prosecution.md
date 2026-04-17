@@ -73,6 +73,7 @@ SET fr.layer = 5,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 공모가 부분적으로 붕괴되었을 때 조직은 후퇴 대신 확대 — 군검찰 표적수사로 종결되는 5단계 대응 [진리성]
 - When conspiracy partially collapsed, organization escalated instead of retreating — 5-step response ending in military prosecution [진리성]
 
 ## 지지 증거 (Supporting Evidence)

@@ -84,9 +84,13 @@ SET fr.layer = 7,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 군검찰단 인권담당감독관이 진정서를 접수(Record No. 5,603/5,628)하고 검찰단장에게 보고했다고 주장 — 그러나 어떤 보호 조치도 뒤따르지 않음 [진리성]
 - The military prosecution's Human Rights Officer received the petition (Record No. 5,603/5,628) and claimed to have reported it to the prosecution chief — but no protective action followed [진리성]
+- 검찰단장의 '보고받지 못했다' 주장이 인권담당의 보고 주장과 모순 — 기관 내 소통 단절 또는 의도적 회피 [진리성]
 - The prosecution chief's claim of "not having received a report" contradicts the Human Rights Officer's claim of having reported — institutional communication breakdown or deliberate evasion [진리성]
+- 인권담당감독관 직위가 근본 목적인 피의자 인권 보호에 실패 [진실성]
 - The Human Rights Officer position failed its fundamental purpose: protecting the rights of a person under investigation [진실성]
+- 이는 8개 기관 거부 사슬의 6번째 고리 [진리성]
 - This is the 6th link in the 8-institution rejection chain [진리성]
 
 ## 지지 증거 (Supporting Evidence)

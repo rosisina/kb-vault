@@ -81,8 +81,11 @@ SET fr.layer = 6,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 군검찰단의 사기수사는 형사범죄(사기·직권남용·증거인멸·허위공문서작성)와 사이버범죄(디지털 증거 조작) 성립요소를 동시에 충족 [타당성]
 - The military prosecution's fraud investigation meets the elements of both criminal offenses (fraud, abuse of authority, evidence destruction, false document creation) and cybercrime (digital evidence manipulation) [타당성]
+- 이는 '복합 국가범죄'에 해당 — 국가 행위자가 전통적·사이버 수단을 결합하여 범한 범죄 [타당성]
 - This constitutes a "hybrid state crime" — crimes committed by state actors using both traditional and cyber means [타당성]
+- 27개의 Record No.가 형사·사이버 양 영역에 걸쳐 분류를 뒷받침 [진리성]
 - 27 Record Numbers support the classification across criminal and cyber elements [진리성]
 
 ## 지지 증거 (Supporting Evidence)

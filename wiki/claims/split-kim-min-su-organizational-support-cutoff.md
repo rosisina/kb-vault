@@ -75,6 +75,7 @@ SET fr.layer = 5,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 김민수는 조직적 지원을 차단하면서 전적인 개인 책임을 부과 — 기관에 의한 방기 [진실성]
 - Kim Min-su cut off organizational support while assigning full personal responsibility — institutional abandonment [진실성]
 
 ## 지지 증거 (Supporting Evidence)

@@ -76,7 +76,9 @@ SET fr.layer = 6,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 결정 검사는 영장 발부 이후 부임 — 자신이 결정한 사건을 직접 수사하지 않음 [진리성]
 - Deciding prosecutor arrived AFTER the warrant was issued — did not investigate the case he decided [진리성]
+- '단장님한테 다 결재를 받습니다'는 실질적 결정권이 검찰단장에게 있음을 드러냄 [진리성]
 - 'Everything needs the chief's approval' reveals actual decision authority is the prosecution chief [진리성]
 
 ## 지지 증거 (Supporting Evidence)

@@ -71,7 +71,9 @@ SET fr.layer = 1,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 제45조는 포괄적 의무 규정: 미등록 체계는 네트워크 차단 대상, 등록된 고위험 취약 체계도 동일하게 차단 대상 [타당성]
 - Art. 45 creates a catch-all: unregistered systems must be network-restricted; registered high-vulnerability systems must also be restricted [타당성]
+- 어느 경우든(미등록 또는 등록-취약) KIATIS의 15년 무방비 운용은 차단되었어야 함 [진리성]
 - Either path (unregistered OR registered-but-vulnerable) should have prevented 15 years of unprotected KIATIS operation [진리성]
 
 ## 지지 증거 (Supporting Evidence)

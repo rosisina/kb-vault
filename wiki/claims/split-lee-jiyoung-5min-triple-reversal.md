@@ -74,7 +74,9 @@ SET fr.layer = 5,
 <!-- pending: phase i18n-EN -->
 
 ## 핵심 요약 (Key Takeaways)
+- 5분 내 3회 번복(조직→직권→개인)은 김민수와의 실시간 협의를 증명 [진리성]
 - Triple reversal in 5 minutes (org→official→individual) proves real-time coordination with Kim Min-su [진리성]
+- '없었던 걸로'는 조직 개시의 증거를 명시적으로 지우려는 시도 [진리성]
 - 'Pretend I never said that' explicitly attempts to erase evidence of organizational initiation [진리성]
 
 ## 지지 증거 (Supporting Evidence)
