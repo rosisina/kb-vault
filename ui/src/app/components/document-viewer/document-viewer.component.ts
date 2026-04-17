@@ -213,6 +213,17 @@ export class DocumentViewerComponent implements OnInit, OnDestroy {
     text = text.replace(/^#### (.+)$/gm, '§H4§$1§H4END§');
     text = text.replace(/^### (.+)$/gm, '§H3§$1§H3END§');
 
+    // Convert images before paragraph processing
+    // Standard markdown: ![alt](./images/figure-N-M.png)
+    text = text.replace(/!\[([^\]]*)\]\(\.\/images\/([\w.,-]+\.png)\)/g,
+      '<img class="paper-img" src="assets/paper-images/$2" alt="$1" loading="lazy">');
+    // Obsidian wiki-links: ![[images/Figure_N_*.png]]
+    text = text.replace(/!\[\[images\/([\w._-]+\.png)\]\]/g,
+      '<img class="paper-img" src="assets/paper-images/$1" alt="Figure" loading="lazy">');
+    // Caption lines starting with ** that follow images (e.g. **<Figure 3-1-1>...**)
+    text = text.replace(/^\*\*(<(Figure|Table)[^>]*>[^*]*)\*\*$/gm,
+      '<figcaption class="paper-fig-caption">$1</figcaption>');
+
     // Inline formatting
     text = text
       .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
