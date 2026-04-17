@@ -1,0 +1,87 @@
+<div class="about-overlay" (click)="close.emit()">
+  <div class="about-modal" (click)="$event.stopPropagation()">
+    <div class="about-header">
+      <span class="about-title">
+        {{ lang.lang() === 'kr' ? 'Aurora Intelligence — 정보 및 면책 고지' : 'Aurora Intelligence — About & Disclaimer' }}
+      </span>
+      <button class="about-close" (click)="close.emit()">
+        <span class="material-icons">close</span>
+      </button>
+    </div>
+    <div class="about-body">
+
+      <section class="about-section">
+        <h3>{{ lang.lang() === 'kr' ? '시스템 개요' : 'System Overview' }}</h3>
+        <p>
+          {{ lang.lang() === 'kr'
+            ? 'Aurora Intelligence는 2016 국방통합데이터센터(DIDC) 북한 해킹 사건과 그에 대한 국방부·조사본부·군 검찰단의 조직적 은폐를 입증하기 위해 구축된 7층 증명 시스템입니다.'
+            : 'Aurora Intelligence is a 7-layer proof system built to document the 2016 Defense Integrated Data Center (DIDC) North Korean hacking incident and the alleged organized cover-up by the Ministry of National Defense, Defense Counterintelligence Agency, and Military Prosecutor\'s Office.'
+          }}
+        </p>
+        <p>
+          {{ lang.lang() === 'kr'
+            ? '296개의 원자 단위 증명 클레임이 Luhmann 체텔카스텐 방식으로 서로 연결되어 있으며, 각 클레임은 1차 증거 원문(Record No. 1–13,495)으로 소급 추적 가능합니다.'
+            : '296 atomic proof claims are interconnected in a Luhmann Zettelkasten structure. Each claim traces back to primary-source evidence records (Record No. 1–13,495).'
+          }}
+        </p>
+      </section>
+
+      <section class="about-section">
+        <h3>{{ lang.lang() === 'kr' ? '면책 고지' : 'Disclaimer' }}</h3>
+        <ul>
+          <li>
+            {{ lang.lang() === 'kr'
+              ? '본 시스템에 수록된 모든 인명은 가명 처리되었습니다. 실명은 어디에도 표시되지 않습니다.'
+              : 'All persons referenced in this system are identified by pseudonyms. No real names appear anywhere in the system.'
+            }}
+          </li>
+          <li>
+            {{ lang.lang() === 'kr'
+              ? '영문 번역본은 증거 보조 자료입니다. 법적 효력이 있는 원전은 한국어 원문입니다.'
+              : 'English translations are supplementary reference material. The legally authoritative source is the original Korean text.'
+            }}
+          </li>
+          <li>
+            {{ lang.lang() === 'kr'
+              ? '본 시스템은 증거 제시와 공적 기록 보존을 목적으로 합니다. 특정 개인에 대한 명예훼손 의도가 없습니다.'
+              : 'This system is provided for evidentiary presentation and public record purposes. No defamation of any individual is intended.'
+            }}
+          </li>
+          <li>
+            {{ lang.lang() === 'kr'
+              ? '수록된 증거 기록(Record No. 1–13,495)은 민원·수사 과정에서 합법적으로 취득된 공문서 사본입니다.'
+              : 'The evidence records (Record No. 1–13,495) are copies of official documents lawfully obtained through petition and investigation procedures.'
+            }}
+          </li>
+        </ul>
+      </section>
+
+      <section class="about-section">
+        <h3>{{ lang.lang() === 'kr' ? '3축 진실성 평가 기준' : '3-Axis Truth Assessment' }}</h3>
+        <ul>
+          <li><strong>{{ lang.lang() === 'kr' ? '진리성 (Truthfulness)' : 'Truthfulness' }}</strong> — {{ lang.lang() === 'kr' ? '1차 출처 대비 사실 검증 가능성' : 'Factual verifiability against primary sources' }}</li>
+          <li><strong>{{ lang.lang() === 'kr' ? '타당성 (Validity)' : 'Validity' }}</strong> — {{ lang.lang() === 'kr' ? '법령·규정 기준 적합성' : 'Compliance with applicable laws and regulations' }}</li>
+          <li><strong>{{ lang.lang() === 'kr' ? '진실성 (Sincerity)' : 'Sincerity' }}</strong> — {{ lang.lang() === 'kr' ? '피해자 관점의 의도·피해 진술' : 'Victim-perspective claims about intent and harm' }}</li>
+        </ul>
+      </section>
+
+      <section class="about-section">
+        <h3>{{ lang.lang() === 'kr' ? '7층 증명 체계' : '7-Layer Proof System' }}</h3>
+        <ol>
+          <li>{{ lang.lang() === 'kr' ? 'Active-X 제거 사업 간 舊KIATIS 이력 제거 (DIDC 해킹 근원서버 은폐)' : 'Old KIATIS history erasure during Active-X removal (concealment of DIDC hack source server)' }}</li>
+          <li>{{ lang.lang() === 'kr' ? '新KIATIS 사업 추진체계 및 장교 개인 자력 조작' : 'New KIATIS project structure manipulation and individual officer records tampering' }}</li>
+          <li>{{ lang.lang() === 'kr' ? '국전원 전속 후 SW개발사업관리 착수·종결 (국방정보화카르텔 공모 구조)' : 'SW project management after transfer to Defense Information Agency (cartel structure)' }}</li>
+          <li>{{ lang.lang() === 'kr' ? '新KIATIS 개발·운영·시험평가 전·중·후 조작' : 'New KIATIS development, operation, and test-evaluation manipulation' }}</li>
+          <li>{{ lang.lang() === 'kr' ? '허위 갑질 신고와 조사본부의 조작 감사' : 'False harassment reports and rigged DCIA audit' }}</li>
+          <li>{{ lang.lang() === 'kr' ? '군 검찰단의 사기 수사와 범죄자 낙인' : 'Military Prosecutor\'s Office fraudulent investigation and criminal stigma' }}</li>
+          <li>{{ lang.lang() === 'kr' ? '진정서 제출·수사 촉구 후 기소유예 (국방부의 지속적 범죄 정당화)' : 'Prosecutorial Deferral after petition submission (MND\'s ongoing crime justification)' }}</li>
+        </ol>
+      </section>
+
+      <section class="about-section about-version">
+        <p>Aurora Intelligence v2 · Built 2026 · {{ lang.lang() === 'kr' ? '클레임' : 'Claims' }}: 296 · {{ lang.lang() === 'kr' ? '증거 기록' : 'Evidence Records' }}: 13,495</p>
+      </section>
+
+    </div>
+  </div>
+</div>

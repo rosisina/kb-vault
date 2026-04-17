@@ -33,6 +33,7 @@ export class LandingViewComponent implements OnInit {
   @Output() guidedProof = new EventEmitter<void>();
   @Output() metricClick = new EventEmitter<string>();
   @Output() toolClick = new EventEmitter<string>();
+  @Output() aboutOpen = new EventEmitter<void>();
 
   layers = signal<LayerStat[]>([]);
   searchQuery = '';

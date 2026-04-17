@@ -85,106 +85,155 @@ export class QueryAnswerService {
       .filter(t => t.length > 0 && !stopwords.has(t));
   }
 
-  private scoreAllAtoms(terms: string[], layerFilter?: number): ScoredAtom[] {
-    const nodes = this.graphData.getNodes(layerFilter);
-    const results: ScoredAtom[] = [];
+  // BM25 parameters
+  private readonly BM25_K1 = 1.5;
+  private readonly BM25_B  = 0.75;
 
-    for (const node of nodes) {
-      const detail = this.graphData.getDetail(node.id);
-      const { score, reasons } = this.scoreAtom(node, detail, terms);
-      if (score > 0) {
-        const tier: RelevanceTier = score >= 25 ? 'direct' : 'related';
-        results.push({
-          node, detail, score, tier, matchReasons: reasons,
-          recordNos: detail?.allRecordNos ?? [],
-        });
-      }
-    }
+  // Field weights: title > claim > takeaway > counter/verdict
+  private readonly FIELD_WEIGHT: Record<string, number> = {
+    title: 4.0, titleEn: 3.5,
+    claim: 2.5, claimEn: 2.0,
+    takeaway: 1.5,
+    counter: 1.0, counterEn: 1.0,
+    verdict: 0.8, verdictEn: 0.8,
+    falsification: 0.8,
+  };
 
-    results.sort((a, b) => b.score - a.score);
-    return results;
-  }
-
-  private scoreAtom(
-    node: GraphNode, detail: AtomDetail | undefined, terms: string[]
-  ): { score: number; reasons: MatchReason[] } {
-    let textScore = 0;
-    const reasons: MatchReason[] = [];
-
-    const titleLower = node.title.toLowerCase();
-    const titleNoSpace = titleLower.replace(/\s/g, '');
-
-    // Title match: ALL terms (40) or PARTIAL terms (proportional)
-    const titleTermHits = terms.filter(t =>
-      titleLower.includes(t) || titleNoSpace.includes(t.replace(/\s/g, ''))
-    );
-    if (titleTermHits.length === terms.length) {
-      textScore += 40;
-      reasons.push({ field: 'title', snippet: node.title.slice(0, 80) });
-    } else if (titleTermHits.length > 0) {
-      textScore += Math.round(20 * titleTermHits.length / terms.length);
-      reasons.push({ field: 'title', snippet: node.title.slice(0, 80) });
-    }
-
+  /** Build per-field text for an atom (both KO and EN). */
+  private buildFields(node: GraphNode, detail: AtomDetail | undefined): Record<string, string> {
+    const f: Record<string, string> = {
+      title: node.title.toLowerCase(),
+      titleEn: (node.titleEn ?? '').toLowerCase(),
+    };
     if (detail) {
-      const claimLower = detail.claim.toLowerCase();
-      const claimNoSpace = claimLower.replace(/\s/g, '');
-
-      // Claim body match: ALL terms (20) or PARTIAL (proportional)
-      const claimTermHits = terms.filter(t =>
-        claimLower.includes(t) || claimNoSpace.includes(t.replace(/\s/g, ''))
-      );
-      if (claimTermHits.length === terms.length) {
-        textScore += 20;
-        const idx = claimLower.indexOf(terms[0]);
-        const start = Math.max(0, idx - 20);
-        reasons.push({ field: 'claim', snippet: detail.claim.slice(start, start + 100) });
-      } else if (claimTermHits.length > titleTermHits.length) {
-        textScore += Math.round(10 * claimTermHits.length / terms.length);
-        const idx = claimLower.indexOf(claimTermHits[0]);
-        const start = Math.max(0, idx - 20);
-        reasons.push({ field: 'claim', snippet: detail.claim.slice(start, start + 100) });
-      }
-
-      // Takeaway/evidence match (10 points) — include _en fields for cross-language search
-      const auxCorpus = [
+      f['claim']         = detail.claim.toLowerCase();
+      f['claimEn']       = (detail.claim_en ?? '').toLowerCase();
+      f['takeaway']      = [
         ...detail.keyTakeaways.map(t => t.text),
         ...(detail.keyTakeaways_en ?? []).map(t => t.text),
         ...detail.supportingEvidence.map(e => e.raw),
       ].join(' ').toLowerCase();
-      const auxNoSpace = auxCorpus.replace(/\s/g, '');
-      const auxTermHits = terms.filter(t =>
-        auxCorpus.includes(t) || auxNoSpace.includes(t.replace(/\s/g, ''))
-      );
-      if (auxTermHits.length > Math.max(titleTermHits.length, claimTermHits.length)) {
-        textScore += Math.round(10 * auxTermHits.length / terms.length);
-        reasons.push({ field: 'takeaway', snippet: '' });
-      }
-
-      // Counter-hypothesis match (5 points bonus) — include _en for cross-language search
-      const counterCorpus = [
-        detail.counterHypothesis,
-        detail.counterHypothesis_en ?? '',
+      f['counter']       = detail.counterHypothesis.toLowerCase();
+      f['counterEn']     = (detail.counterHypothesis_en ?? '').toLowerCase();
+      f['verdict']       = detail.verdictProse.toLowerCase();
+      f['verdictEn']     = (detail.verdictProse_en ?? '').toLowerCase();
+      f['falsification'] = [
+        detail.falsificationCondition ?? '',
+        detail.falsificationCondition_en ?? '',
       ].join(' ').toLowerCase();
-      if (counterCorpus.trim() && terms.some(t => counterCorpus.includes(t))) {
-        textScore += 5;
-        reasons.push({ field: 'counter', snippet: detail.counterHypothesis.slice(0, 80) });
+    }
+    return f;
+  }
+
+  /** Count occurrences of `term` in `text`, merging no-space variant for CJK. */
+  private countOccurrences(term: string, text: string): number {
+    if (!text) return 0;
+    let count = 0;
+    let pos = 0;
+    while ((pos = text.indexOf(term, pos)) !== -1) { count++; pos += term.length; }
+    // Also count in no-space version (for CJK compound terms)
+    const textNS = text.replace(/\s/g, '');
+    const termNS = term.replace(/\s/g, '');
+    if (termNS !== term) {
+      let posNS = 0;
+      while ((posNS = textNS.indexOf(termNS, posNS)) !== -1) {
+        count++;
+        posNS += termNS.length;
       }
     }
+    return count;
+  }
 
-    // No text match at all → skip this atom
-    if (textScore === 0) {
-      return { score: 0, reasons: [] };
+  private scoreAllAtoms(terms: string[], layerFilter?: number): ScoredAtom[] {
+    const nodes = this.graphData.getNodes(layerFilter);
+    if (nodes.length === 0) return [];
+
+    // Build field corpora for all atoms
+    type AtomFields = { node: GraphNode; fields: Record<string, string> };
+    const corpus: AtomFields[] = nodes.map(node => ({
+      node,
+      fields: this.buildFields(node, this.graphData.getDetail(node.id)),
+    }));
+
+    // IDF: document frequency per term across all atoms (union of all fields)
+    const N = corpus.length;
+    const idf = new Map<string, number>();
+    for (const term of terms) {
+      const df = corpus.filter(({ fields }) =>
+        Object.values(fields).some(text => text.includes(term) ||
+          text.replace(/\s/g,'').includes(term.replace(/\s/g,'')))
+      ).length;
+      // BM25 IDF formula (add 0.5 smoothing)
+      idf.set(term, Math.log((N - df + 0.5) / (df + 0.5) + 1));
     }
 
-    // Add bonuses only when there's a text match
-    let score = textScore;
-    score += VERDICT_SCORE[node.verdict] ?? 0;
-    score += Math.min(node.corroborationCount, 10);
-    const edges = this.graphData.getEdgesForNode(node.id);
-    score += Math.min(edges.length, 10) / 2;
+    // Average document length per field (for length normalization)
+    const avgLen: Record<string, number> = {};
+    for (const key of Object.keys(this.FIELD_WEIGHT)) {
+      const total = corpus.reduce((s, { fields }) => s + (fields[key]?.length ?? 0), 0);
+      avgLen[key] = total / N || 1;
+    }
 
-    return { score, reasons };
+    const results: ScoredAtom[] = [];
+
+    for (const { node, fields } of corpus) {
+      let bm25Total = 0;
+      const reasons: MatchReason[] = [];
+      let hadAnyMatch = false;
+
+      for (const [fieldKey, fieldWeight] of Object.entries(this.FIELD_WEIGHT)) {
+        const text = fields[fieldKey] ?? '';
+        if (!text) continue;
+        const dl = text.length;
+        const avdl = avgLen[fieldKey] ?? 1;
+        let fieldScore = 0;
+
+        for (const term of terms) {
+          const tf = this.countOccurrences(term, text);
+          if (tf === 0) continue;
+          hadAnyMatch = true;
+          // BM25 TF component
+          const tfNorm = (tf * (this.BM25_K1 + 1)) /
+                         (tf + this.BM25_K1 * (1 - this.BM25_B + this.BM25_B * dl / avdl));
+          fieldScore += (idf.get(term) ?? 1) * tfNorm;
+        }
+
+        if (fieldScore > 0) {
+          bm25Total += fieldScore * fieldWeight;
+          // Collect reason snippet for primary fields only
+          if (['title', 'claim'].includes(fieldKey) && reasons.length < 3) {
+            const firstTerm = terms.find(t => text.includes(t));
+            if (firstTerm) {
+              const idx = text.indexOf(firstTerm);
+              const raw = fieldKey === 'title' ? node.title : fields['claim'];
+              reasons.push({ field: fieldKey as any, snippet: raw.slice(Math.max(0, idx - 20), idx + 100) });
+            }
+          } else if (fieldKey === 'takeaway' && reasons.length < 3) {
+            reasons.push({ field: 'takeaway', snippet: '' });
+          } else if (fieldKey === 'counter' && reasons.length < 3) {
+            reasons.push({ field: 'counter', snippet: (fields['counter'] ?? '').slice(0, 80) });
+          }
+        }
+      }
+
+      if (!hadAnyMatch || bm25Total === 0) continue;
+
+      // Add quality bonuses (verdict strength, graph connectivity)
+      const bonus = (VERDICT_SCORE[node.verdict] ?? 0) * 0.4
+                  + Math.min(node.corroborationCount, 10) * 0.3
+                  + Math.min(this.graphData.getEdgesForNode(node.id).length, 10) * 0.15;
+      const finalScore = bm25Total + bonus;
+
+      const tier: RelevanceTier = finalScore >= 8 ? 'direct' : 'related';
+      const detail = this.graphData.getDetail(node.id);
+      results.push({
+        node, detail, score: finalScore, tier, matchReasons: reasons,
+        recordNos: detail?.allRecordNos ?? [],
+      });
+    }
+
+    results.sort((a, b) => b.score - a.score);
+    return results;
   }
 
   private groupByTheme(atoms: ScoredAtom[]): ThematicGroup[] {

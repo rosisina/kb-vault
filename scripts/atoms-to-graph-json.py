@@ -32,6 +32,8 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 CLAIMS_DIR = REPO_ROOT / "wiki" / "claims"
 OUTPUT_GRAPH = REPO_ROOT / "output" / "graph.json"
 OUTPUT_STATS = REPO_ROOT / "output" / "graph-stats.json"
+TRANSLATIONS_FILE = REPO_ROOT / "scripts" / "translations-en.json"
+TRANSLATIONS_PATCH2 = REPO_ROOT / "scripts" / "translations-en-patch2.json"
 
 # ── Regex (all non-backtracking) ──────────────────────────────────────
 
@@ -90,10 +92,47 @@ def _mi(pat, text):
     return int(m.group(1)) if m else 0
 
 
+_PAT_EN_SECTION = re.compile(
+    r"###\s+English\s*\n(.*?)(?=\n###|\n##|\Z)", re.DOTALL
+)
+
+
+def _extract_en_title(body: str) -> str:
+    """Extract first sentence of ### English claim section as fallback titleEn."""
+    m = _PAT_EN_SECTION.search(body)
+    if not m:
+        return ""
+    text = m.group(1).strip()
+    # Take first non-empty line, truncated to 120 chars
+    for line in text.splitlines():
+        line = line.strip()
+        if line and not line.startswith("#"):
+            return line[:120]
+    return ""
+
+
+def _load_title_translations() -> dict:
+    """Load titleEn overrides from translations files."""
+    result: dict = {}
+    for path in (TRANSLATIONS_FILE, TRANSLATIONS_PATCH2):
+        if not path.exists():
+            continue
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+            for aid, fields in data.get("atoms", {}).items():
+                if fields.get("titleEn"):
+                    result[aid] = fields["titleEn"]
+        except Exception:
+            pass
+    return result
+
+
 def main() -> int:
     if not CLAIMS_DIR.exists():
         print(f"[error] claims dir not found: {CLAIMS_DIR}", file=sys.stderr)
         return 1
+
+    title_translations = _load_title_translations()
 
     nodes = []
     edges = []
@@ -188,6 +227,12 @@ def main() -> int:
 
         if not result_id:
             continue
+
+        # Fallback titleEn: translation file override, then ### English first line
+        if not title_en and result_id in title_translations:
+            title_en = title_translations[result_id]
+        if not title_en:
+            title_en = _extract_en_title(body)
 
         has_spot = "## Spot-check" in body
         if verdict == "NEEDS_MORE_EVIDENCE":
@@ -375,7 +420,11 @@ def main() -> int:
     }
 
     OUTPUT_GRAPH.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT_GRAPH.write_text(json.dumps(graph, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    graph_text = json.dumps(graph, indent=2, ensure_ascii=False) + "\n"
+    OUTPUT_GRAPH.write_text(graph_text, encoding="utf-8")
+    ui_graph = REPO_ROOT / "ui" / "src" / "assets" / "graph.json"
+    if ui_graph.parent.exists():
+        ui_graph.write_text(graph_text, encoding="utf-8")
 
     stats = {
         "totalAtoms": len(nodes),

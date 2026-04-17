@@ -100,6 +100,28 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 CLAIMS_DIR = REPO_ROOT / "wiki" / "claims"
 OUTPUT_DETAIL = REPO_ROOT / "output" / "detail.json"
 UI_ASSETS_DETAIL = REPO_ROOT / "ui" / "src" / "assets" / "detail.json"
+TRANSLATIONS_FILE = REPO_ROOT / "scripts" / "translations-en.json"
+TRANSLATIONS_PATCH2 = REPO_ROOT / "scripts" / "translations-en-patch2.json"
+
+# ── Load translation overrides ────────────────────────────────────────
+
+def _load_translations() -> dict:
+    """Load English translation overrides from translations-en.json and patch2, field-level merge."""
+    result: dict = {}
+    for path in (TRANSLATIONS_FILE, TRANSLATIONS_PATCH2):
+        if not path.exists():
+            continue
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+            for aid, fields in data.get("atoms", {}).items():
+                if aid not in result:
+                    result[aid] = {}
+                for k, v in fields.items():
+                    if v:  # only overwrite if non-empty
+                        result[aid][k] = v
+        except Exception:
+            pass
+    return result
 
 # ── Regex ────────────────────────────────────────────────────────────
 
@@ -244,6 +266,7 @@ def main() -> int:
         print(f"[error] claims dir not found: {CLAIMS_DIR}", file=sys.stderr)
         return 1
 
+    translations = _load_translations()
     details: dict[str, dict] = {}
 
     for path in sorted(CLAIMS_DIR.glob("*.md")):
@@ -318,6 +341,15 @@ def main() -> int:
         falsification_en = _prose_en(falsification)
         verdict_en = _prose_en(verdict_prose)
         counter_en = _prose_en(counter)
+
+        # Apply translation overrides (D-1 i18n batch translations)
+        tr = translations.get(result_id, {})
+        if not falsification_en and tr.get("falsificationCondition_en"):
+            falsification_en = tr["falsificationCondition_en"]
+        if not verdict_en and tr.get("verdictProse_en"):
+            verdict_en = tr["verdictProse_en"]
+        if not counter_en and tr.get("counterHypothesis_en"):
+            counter_en = tr["counterHypothesis_en"]
 
         # Collect all Record Nos from body
         all_records = sorted(set(

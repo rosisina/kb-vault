@@ -216,4 +216,11 @@
     </div>
   </div>
 
+  <!-- Footer -->
+  <footer class="landing-footer">
+    <button class="footer-link" (click)="aboutOpen.emit()">
+      {{ lang.lang() === 'kr' ? '정보 및 면책 고지' : 'About & Disclaimer' }}
+    </button>
+  </footer>
+
 </div>

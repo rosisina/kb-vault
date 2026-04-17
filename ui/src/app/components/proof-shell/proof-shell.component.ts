@@ -5,6 +5,7 @@ import { LayerNavigatorComponent } from '../layer-navigator/layer-navigator.comp
 import { ProofBodyComponent } from '../proof-body/proof-body.component';
 import { EvidenceContextComponent } from '../evidence-context/evidence-context.component';
 import { GraphComponent } from '../graph/graph.component';
+import { AboutComponent } from '../about/about.component';
 import { GraphDataService } from '../../services/graph-data.service';
 import { LanguageService } from '../../services/language.service';
 import { ProofChain, GraphNode } from '../../models/graph.models';
@@ -26,6 +27,7 @@ interface ChatHistory {
     ProofBodyComponent,
     EvidenceContextComponent,
     GraphComponent,
+    AboutComponent,
   ],
   templateUrl: './proof-shell.component.html',
   styleUrl: './proof-shell.component.scss',
@@ -35,6 +37,7 @@ export class ProofShellComponent {
   activeLayer = signal<number | null>(null);
   selectedAtomId = signal<string | null>(null);
   showGraphModal = signal(false);
+  showAbout = signal(false);
   graphChain = signal<ProofChain | null>(null);
   scrollToGroup = signal<string | null>(null);
   chatHistory = signal<ChatHistory[]>([]);

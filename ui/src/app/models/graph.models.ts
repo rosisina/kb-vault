@@ -4,6 +4,8 @@ export interface GraphNode {
   id: string;
   stem: string;
   title: string;
+  titleKo?: string;
+  titleEn?: string;
   layer: number;
   claimType: string;
   verdict: 'CORROBORATED' | 'WEAKENED' | 'UNFALSIFIABLE' | 'NEEDS_MORE_EVIDENCE';

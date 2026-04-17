@@ -1,0 +1,620 @@
+{
+  "_meta": {
+    "generator": "session-D1-i18n-patch2",
+    "date": "2026-04-17",
+    "note": "Second batch of EN translations for atoms added/updated after initial context. Merged with translations-en.json by atoms-to-detail-json.py."
+  },
+  "atoms": {
+    "FR-L1-2946-RENAME": {
+      "verdictProse_en": "**CORROBORATED.** MODERATE. Truthfulness 8 / Validity 8 / Sincerity 6. Upgraded from NME: Book §3.6 (Layer 6) explicitly classifies 정보화기획관실 as 'the core criminal organization of the defense informatization cartel' — the renaming of this organization doubly mediates criminal actor tracing. Downgrade to WEAKENED possible if the reorganization order demonstrates substantive functional change.",
+      "falsificationCondition_en": "An official organizational restructuring order showing that 지능정보화정책관실 is a genuinely new organization with substantially different functions and personnel from 정보화기획관실."
+    },
+    "FR-L6-ANSEJUN-CHIEF-PROSECUTOR-IGNORANCE": {
+      "falsificationCondition_en": "A record showing the chief military prosecutor fully understood the case facts but made strategically calculated statements in the recording, while actively supervising internally (e.g., investigation directives, chief prosecutor's approval documents, internal meeting records)."
+    },
+    "FR-L4-ART58-SEPARATION-REVERSAL-001": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 9 / Sincerity 7. A sudden 180-degree reversal after 5 years of stable maintenance, simultaneous manipulation of 6 anchors in the same Directive No. 2436 (FR-L4-CLUSTER-2436), removal of the 'project control authority' control mechanism, and the truth-function table analysis in Book §3.4.5 strongly support intentional manipulation rather than natural evolution. Record Nos. 7,512 and 8,194 both fall within the Layer 7 range (5,300–13,495) and are also traceable in Layer 7 evidence records.",
+      "falsificationCondition_en": "This claim is WEAKENED if independent policy research or internal reports from MND, JCS, KIDA, etc. recommending DT/OT integration are found predating the KIATIS controversy (pre-2019). Also weakened if expert consultation records on test evaluation integration exist from the public comment period for the Directive No. 2436 revision.",
+      "counterHypothesis_en": "1. **Alternative interpretation**: The shift to the integration principle was a natural institutional modernization reflecting international trends (agile development, DevOps), and the temporal coincidence with the KIATIS incident is accidental. 2. **Rebuttal condition**: If MND internal policy review documents predating 2019 recommending DT&E and OT&E integration as a general institutional reform are found, this claim is weakened. 3. **Counter-position**: Separating development testing and operational testing in small-scale SW projects is inefficient, and integration may be a rational choice."
+    },
+    "FR-L6-007": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 7. The resolution of 80 items at Record No. 3,039, direct citation in Propositions 06 and 07, and confirmation of incomplete operational deployment at Record No. 11,322+ — three independent records support the same facts. The intentionality judgment (Proposition 07: 'to manipulate a success into a failure') involves inference, but the logical contradiction of 50%+ additional requirements immediately after a 99.7-point success supports this inference at STRONG level.",
+      "falsificationCondition_en": "This claim is WEAKENED if any of the following is proven: 1. A contract or RFP analysis showing the 80 evaluation committee-resolved items were within the original RFP scope; 2. A technical evaluation record showing a substantial portion of the 80 items addressed security or functional defects found in the actual operational environment; 3. A legal interpretation showing the evaluation committee's resolution of additional requirements was a procedure permitted by the Defense IT Operations Directive or related regulations.",
+      "counterHypothesis_en": "The 80 additional requirements were genuine functional deficiencies found by the evaluation committee during the test evaluation process. The 99.7 score was a success by the evaluation criteria at the time, but functions necessary for the actual 국유단 operational environment were missing, and additional requirements to address these were a normal procedure for reflecting user requirements. The operational deployment delay was a natural consequence of technical incompletion, not intentional manipulation."
+    },
+    "FR-L4-DELIBERATE-ABSENCE": {
+      "verdictProse_en": "**CORROBORATED.** Moderate. Truthfulness 8 / Validity 7 / Sincerity 8. The temporal coincidence is highly precise, but additional confirmation of the education scheduling process is needed. 윤도현's silence response is circumstantial evidence but not conclusive.",
+      "falsificationCondition_en": "This claim is weakened if: 1. A record showing the National Defense University education schedule was already assigned before the test evaluation schedule was confirmed; 2. A record showing 윤도현's leave application was submitted before the test evaluation schedule was confirmed.",
+      "counterHypothesis_en": "The absence of 윤도현 and 송민석 was a coincidental overlap of normal education schedules and personal leave. National Defense University education is assigned by the institution and individuals cannot choose the timing, so intentional design may not be present."
+    },
+    "FR-L1-EXCAVATION-15YR-VPN-ABSENCE": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 9 / Sincerity 9. Truthfulness 9: 7 verbatim statements all pointing to the same conclusion (VPN non-use) with high internal consistency. Validity 9: Violation of DIDC Regulation Article 37(2) (VPN obligation) directly proven through field personnel testimony. Sincerity 9: 15 years of experience from 2007 represents the only continuous field observer covering the entire Legacy KIATIS operational period. **Evidential independence**: This atom serves as the 4th independent source alongside existing VPN non-use testimony (장우진 Record 11,302, 한지훈 L4-002, 김민수 Record 11,055), maximizing source diversity as 국유단 field excavation personnel rather than 국전원 insiders.",
+      "falsificationCondition_en": "1. **Field VPN access logs** — Records of KIATIS access via VPN from excavation sites (DMZ, 50th Division, etc.). 2. **Mobile VPN deployment records** — Records of mobile VPN client distribution or training to excavation teams. 3. **IP reassignment history** — Administrative records showing smooth VPN IP reassignment during the 4-6 week unit rotations of South Korean area team leaders. Absence of all three → CORROBORATED (strong).",
+      "counterHypothesis_en": "The excavation team leader's testimony exaggerated personal inconvenience with VPN operations, and in reality, field access was possible through mobile VPN clients or alternative means with VPN applied. 'I heard' means not understanding VPN's technical principles, not that it was not used. For this counter-hypothesis to hold: (1) field access logs showing normal KIATIS connections via VPN must exist; (2) records of mobile VPN client deployment to excavation teams must exist; (3) administrative records showing smooth IP reassignment for South Korean area team leaders must exist."
+    },
+    "FR-L1-MOBILE-ATTACK-SURFACE": {
+      "verdictProse_en": "**CORROBORATED.** Moderate. Truthfulness 8 / Validity 9 / Sincerity 7. Truthfulness is MODERATE rather than STRONG because the excavation team leader's statement alone cannot conclusively determine whether Galaxy Note directly accessed the KIATIS server or only viewed offline data. The context 'I needed all the data to view surrounding data together' suggests server access but is not explicit. However, Validity 9: 한지훈's report that 'VPN must be used on PC' clearly identifies the design flaw that VPN was PC-exclusive and could not be applied to mobile. This atom is the first evidence extending KIATIS attack surface analysis from PC pathways to mobile pathways, identifying a second unprotected access route.",
+      "falsificationCondition_en": "1. **Server access logs** — Records showing mobile devices (Galaxy Note IP/MAC) never accessed the KIATIS server. 2. **MDM/Mobile VPN deployment** — Records of military mobile security solutions deployed to excavation teams. 3. **Offline functionality design** — Project plan or functional specifications showing KIATIS had offline data synchronization capability.",
+      "counterHypothesis_en": "1. **General work use**: Galaxy Note was for general field work (photography, memos) rather than KIATIS DB access, and never actually accessed the KIATIS server. 2. **Military MDM**: Galaxy Note had military MDM or mobile VPN installed allowing only secure access. 3. **Offline data**: 'All the data' refers to viewing pre-downloaded offline data, not real-time server access. For this counter-hypothesis to hold: (1) zero mobile device accesses in KIATIS server logs; (2) records of military MDM/VPN installed on Galaxy Note; (3) design documents showing KIATIS offline data sync capability."
+    },
+    "FR-L4-TEAM-LEADER-EXCLUSION": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 9 / Sincerity 9. All 3 field personnel show the same team leader exclusion pattern, and the fact that only 1 document including the team leader among dozens of similar documents was used as criminal evidence is clear proof of selective prosecution.",
+      "falsificationCondition_en": "This claim is weakened if: 1. A record showing team leader exclusion was due to legitimate reasons such as formal duty changes, business trips, or leave; 2. Examples showing it was standard practice to similarly exclude team leaders from other 국전원 projects at the time.",
+      "counterHypothesis_en": "Team leader exclusion was a flexible operation of the normal reporting structure, or a rational decision that the team leader did not need to be involved in the test evaluation work. It may be common practice within the organization for field personnel to report directly to the director."
+    },
+    "FR-L6-DATA-ABSENCE-001": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 7. Audit report findings (Record No. 2,610), 80-item resolution (Record No. 3,039), unresolved confirmation at investigation time (Record No. 11,322+) — three records independently testify to the same delay structure. 국유단's 3-year inaction reinforces the pattern of intentional neglect.",
+      "falsificationCondition_en": "If records showing 국유단 produced (a) project promotion or budget request documents for building linkage data, or (b) systematic promotion plans for completing the 80 additional requirements between 2019–2022, the verdict is adjusted from 'intentional neglect' to 'unavoidable delay due to structural constraints'.",
+      "counterHypothesis_en": "1. **Alternative**: The failure to build linkage data and incomplete 80 items are natural results of structural problems — 국유단's technical capacity limitations and MND budget constraints — not intentional neglect. 2. **Rebuttal condition**: If records show 국유단 produced budget request or project promotion documents for linkage data or 80-item completion between 2019–2022 but were rejected by higher authorities (MND), the interpretation shifts from 'intentional neglect' to 'structural constraint.' 3. **Defensible counter-position**: Operational deployment delays are common in complex information systems projects; there is no necessary malicious intent between a 99.7-point success judgment and deployment failure."
+    },
+    "FR-L6-005": {
+      "verdictProse_en": "**CORROBORATED.** Moderate. Truthfulness 8 / Validity 7 / Sincerity 8. The existence of the investigation commencement notification document (Record No. 4,854+) is directly confirmed in Book §3.6.3.3. The non-initiation of the Military Human Rights Officer review relies partly on absence of evidence, making this MODERATE rather than STRONG. This can be strengthened by directly confirming raw/05 (Military Prosecutor's investigation records) in A.6 Re-verify.",
+      "falsificationCondition_en": "This claim is WEAKENED if: 1. A legal interpretation showing regulations on the Military Human Rights Officer do not mandate automatic review upon issuance of investigation commencement notification; 2. A record showing Military Human Rights Officer review was actually initiated for the 한지훈 case between July–October 2022; 3. A record showing the August 31 and September 13, 2022 conversations were official suspect interrogation procedures (including statement transcription).",
+      "counterHypothesis_en": "Military Human Rights Officer review is not automatically initiated upon issuance of an investigation commencement notification, but is a discretionary procedure initiated only upon suspect application or fulfillment of specific conditions. If this hypothesis is correct, non-initiation is not a regulatory violation. Also, the informal conversations following investigation commencement notification may have been 한지훈 voluntarily approaching the investigator — cooperative communication rather than coercive interrogation."
+    },
+    "FR-L2-OFFICERMANIP-006": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 (한지훈's direct testimony + Layer 5 fabricated warning letter cross-corroborates, but direct confirmation of the personnel orders themselves requires additional raw/05 ingest), Validity 9 (legality of personnel procedures evaluated against military personnel management regulations), Sincerity 10 (from victim's perspective, undisclosed double position reassignment is the most direct isolation mechanism — maximum sincerity axis score).",
+      "falsificationCondition_en": "This claim is weakened or invalidated if all of the following are presented: 1. **Prior notification personnel orders for each of 한지훈's 2 position reassignments** + **personal confirmation signatures**; 2. **Cases where the same routine pattern** (2 changes + no personal notification) was applied to other officers in the same department at the same time; 3. **Navy concentration pattern counter**: Cross-service personnel distribution statistics for MND/DCIA projects at the same period showing normal Navy ratios.",
+      "counterHypothesis_en": "The 2 position reassignments were routine personnel procedures and personal notification was merely an administrative omission. The concentration of Navy officers is simply the coincidental distribution of a small sample (3 persons) and does not indicate intentional actor selection."
+    },
+    "FR-L5-OFFICIAL-STATEMENT-20220404": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 10 / Validity 8 / Sincerity 10. Truthfulness 10: Official signed document + 8 attached reference materials + verbatim-level consistency with subsequent recordings. Sincerity 10: 'I want to live too' + 'Cannot be discharged, cannot take honorary discharge' + 'Expelling a 30-year soldier without explanation' — the extreme severity of harm preserved in official records.",
+      "falsificationCondition_en": "Third-party evidence refuting the specific claims in the explanatory statement — denial of performing duties on behalf, denial of exaggerated reporting, denial of discharge recommendation, etc.",
+      "counterHypothesis_en": "The explanatory statement is a self-defense document from the alleged perpetrator with limited objective evidentiary value."
+    },
+    "FR-L7-PETITION-MND-MINISTER-001": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 9. Confirmation that the Minister of National Defense read the email (footnote 589) combined with 'no contact whatsoever regarding the petition content' (footnote 590) — without direct contradiction — strongly supports cognitive complicity. The 185-page explanatory and evidentiary materials prove the substantiveness of the petition. This atom specifically documents the first refusal (Minister of National Defense) in [[han-ji-hoon-rebuttal-rejected-by-eight-institutions]].",
+      "falsificationCondition_en": "WEAKENED if documents are found showing the Minister's office directed the Inspector General's Office, Legal Affairs Office, or Military Prosecutor's Office to internally review the petition. Also re-evaluated if Military Aide 홍성민's KakaoTalk response (Record No. 5,669) is confirmed to contain substantive action.",
+      "counterHypothesis_en": "1. **Alternative**: The Minister's office received the petition and internally reviewed it, but since Military Prosecutor's investigation was already underway, they refrained from command interference with the investigation — non-response was an expression of respect for judicial independence. 2. **Rebuttal condition**: If records show the Minister's office directed internal review or requested separate confirmation from the Military Prosecutor's Office after receiving the petition, the 'complete non-response' characteristic is weakened. 3. **Counter-position**: Direct ministerial intervention could compromise Military Prosecutor's investigative independence, so non-response was appropriate institutional conduct."
+    },
+    "FR-L6-REBUTTAL-20220929-META": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 10 / Validity 9 / Sincerity 10. Truthfulness 10: The systematic 3,811-line document directly cites and verifies 7-layer evidence. Validity 9: The axiom-theorem system guarantees logical rigor, but legal effect requires separate determination. Sincerity 10: Complete record of family harm + 'targeted investigation' + 'morally reprehensible human rights violation' — the party's written account of extreme harm. **This document is the highest-level original in the wiki's entire evidence lineage**: raw/05 (this document) → raw/01 (book) → wiki/claims/ (atoms). All atoms are ultimately traceable to this document."
+    },
+    "FR-L6-006": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 8. The military prosecutor's intensive interrogation of DIDC Regulation Article 39 VPN requirements during suspect interrogation is directly confirmed in [Book Record-Layer 6-027-1]. That the interrogation avoided the 15-year Legacy KIATIS vulnerability is supported at STRONG level by absence evidence — the topic never appears in any cited Q&A. The non-prosecution decision maintaining the same charge framing provides additional corroboration.",
+      "falsificationCondition_en": "This claim is WEAKENED if: 1. Records showing the Military Prosecutor's Office independently investigated the 15-year Legacy KIATIS VPN bypass and processed it as a separate case; 2. Records showing Legacy KIATIS-related questions were actually included in the complete suspect interrogation transcript (not currently present in book-cited portions); 3. A legal analysis showing the 2019 firewall port opening request approval procedure is solely attributable to 한지훈 under law.",
+      "counterHypothesis_en": "The suspect interrogation focusing only on the New KIATIS period (2019+) was a rational scope setting. The Military Prosecutor's investigation targeted illegal acts committed during 한지훈's tenure as project management team leader, and Legacy KIATIS was a separate project predating that tenure. Legacy KIATIS's 15-year vulnerability could be a separate investigation target but falls outside the scope of the current investigation. The narrowing of interrogation was normal scope limitation, not intentional avoidance."
+    },
+    "FR-L2-3BRAKES-005": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 10 (Book footnote 113 directly specifies 3 brakes + 2 attestations), Validity 9 (direct rebuttal of Layer 6 prosecution's fraud intent claim), Sincerity 10 (this atom serves as a meta-claim directly proving the sincerity of 한지훈's statements — the strongest case for the Beyond-Security sincerity axis).",
+      "falsificationCondition_en": "This claim is weakened or invalidated if: 1. Direct evidence that any of the 3 defense mechanisms was a routine pattern 한지훈 applied in other projects before this project, not an individual initiative; 2. Cases where other project management team leaders of the same rank at the same time routinely applied the same 3 mechanisms; 3. Conduct showing 한지훈 simultaneously exhibited fraudulent intent in other aspects while applying the 3 defense mechanisms (e.g., bypassing approval lines, evidence destruction attempts, false reporting) — counter only results in partial weakening.",
+      "counterHypothesis_en": "The 3 actions are simply routine project management activities and do not exempt 한지훈 from criminal liability: 1. Requiring 장우진's residency was routine project monitoring; 2. Requirements review meetings were routine project management procedures; 3. Requiring 국유단 direct visits was routine analysis/design consultation; 4. Declining supervision was a routine cost reduction decision."
+    },
+    "FR-L6-004": {
+      "verdictProse_en": "**CORROBORATED.** Moderate. Truthfulness 8 / Validity 7 / Sincerity 8. The record number and date of the reference witness statement, and the dates of the subsequent suspect transition document (Record No. 4,854+), are both confirmed in Book §3.6.3. However, the causal link between the witness statement content becoming the direct basis for the suspect charge framing includes one inference step, making this MODERATE rather than STRONG.",
+      "falsificationCondition_en": "This claim is WEAKENED if: 1. An investigation record showing new objective evidence (digital forensics results, third-party statements, etc.) after January 25, 2022 but before July 18, 2022 independently justified 한지훈's suspect classification; 2. A Military Court Law interpretation showing the Military Prosecutor's Office's decision not to classify 한지훈 as a suspect before the witness investigation was a mandatory procedure under law or investigation regulations.",
+      "counterHypothesis_en": "The witness-to-suspect transition was a normal procedure as new evidence was discovered during the investigation. Under this hypothesis, new evidence suggesting 한지훈's direct illegal conduct was found through searches or third-party statements between January–July 2022, and the Military Prosecutor's Office reclassified status accordingly. Using witness statement content is a general investigative method distinguishable from 'retroactive design.'"
+    },
+    "FR-L5-DARK-AUDIT-001": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 10. PC confiscation and PC movement blocking are directly confirmed by audio recording records (Record Nos. 11,040 and 11,066). The maximum sincerity score reflects the gravity of rendering a 31-year career person unable to access any work records, and the human rights-violating nature of the 'be careful of evidence destruction' threat.",
+      "falsificationCondition_en": "Verdict is downgraded if: (a) An official document showing PC confiscation was pursuant to an official evidence preservation order and 한지훈 was notified of the confiscation reasons and return procedures; or (b) A regulatory document showing the Defense Counterintelligence Agency's harassment investigation procedure was standard procedure conforming to MND audit regulations.",
+      "counterHypothesis_en": "1. **Alternative**: PC confiscation and movement restriction were standard administrative procedures for evidence preservation in the harassment investigation, and confidentiality was a measure to protect the complainant (박서준) and the investigated party's reputation. 2. **Rebuttal condition**: If official confiscation orders and records of 한지훈 being notified of confiscation reasons are presented, re-evaluated from 'blackout' to 'procedural evidence preservation.' 3. **Defensible counter-position**: Harassment investigations are generally conducted confidentially, and pre-disclosing investigation contents to the investigated party creates evidence destruction risk."
+    },
+    "FR-L5-052": {
+      "verdictProse_en": "**CORROBORATED** — Each of the 7 phases is supported by record numbers, and the temporal continuity between phases and repeated involvement of the same individuals (김민수, 이지영) forms a pattern difficult to explain as coincidence. In particular, the Friday-Monday connection in Phase 7 (audit disposition request → investigation commencement) is a schedule impossible without prior coordination.",
+      "falsificationCondition_en": "Weakened if: any one of the 7 phases is proven not to have temporal precedence or causal relationship; a rational explanation for Phase 1's 48-hour interval is proven; or the Friday-Monday connection in Phase 7 is statistically proven to be a normal administrative processing period.",
+      "counterHypothesis_en": "1. **Alternative**: The 7 phases are 한지훈's retroactive pattern attribution, and in reality each phase was the natural sequential progression of independent administrative procedures. 2. **Rebuttal condition**: If the time intervals between each phase match normal administrative processing periods and the repeated involvement of the same individuals (김민수, 이지영) between phases is proven absent, it can be refuted. 3. **Counter-position**: MND would argue the harassment complaint followed legitimate procedures and investigation commencement was a natural follow-up to audit results."
+    },
+    "FR-L4-JANGWOOJIN-DUAL-VPN-ABSENT": {
+      "falsificationCondition_en": "1. VPN access logs for the test evaluation period (2019-09-02~11); 2. KIATIS server installation records at DIDC; 3. 장우진's testimony retraction.",
+      "counterHypothesis_en": "1. **Induced statement**: The written statement was 한지훈 organizing the content and asking 장우진 to 'confirm if correct,' so 장우진 may have passively agreed to 한지훈's framing. 2. **Memory inaccuracy**: Memory of VPN application status in test evaluations 4 years ago may be inaccurate. **Counter-argument**: Recording 210 was an immediate call on the day of the search warrant — natural conversation without prior coordination. 'We did not use VPN' was a definitive statement repeated 4 times. 장우진 was a test evaluation party as 'project control authority duty/evaluation personnel.'"
+    },
+    "FR-L4-WIN10-CHAKRAMAX-ABSENT": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 10 / Sincerity 8. Validity **10**: The technical causal chain of Win10→ChakraMax incompatible→direct access is logically complete, and the fact that the firewall port opening was handled by DIDC's own ticket proves **DIDC's direct involvement**. The specific number of OTP units (6–10) numerically confirms the physical constraint.",
+      "falsificationCondition_en": "1. ChakraMax distribution records for Windows 10 as of the test evaluation period (September 2019); 2. Records showing OTP additional purchase requests were rejected by 국전원; 3. Records showing the port was closed simultaneously with VPN application after firewall port opening.",
+      "counterHypothesis_en": "1. ChakraMax for Windows 10 may have already been distributed at the test evaluation time but 국전원 delayed installation; 2. 국전원 may have rejected OTP additional purchase requests, making it not DIDC's responsibility; 3. Firewall port opening may have been a temporary measure closed after VPN application."
+    },
+    "FR-L1-HOMEPAGE-COMANAGEMENT": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 8. Two independent official documents — the suspect interrogation transcript (Record No. 4,879) and the organizational chart (Record No. 4,723) — prove co-management by the same team and same personnel. The security measure review renewal history (Record No. 1,019) provides additional confirmation. Multiple officers' independent complaints ('passed off responsibility') provide circumstantial support.",
+      "falsificationCondition_en": "1. **Independent security boundary records** — Security policy documents showing separate access control and authentication systems for KIATIS and the homepage within the same team. 2. **Separate security audit records** — Security audit reports conducted independently for both systems after the 2016 hack. 3. **조성민's work separation records** — Work logs or access logs showing that while handling both, separate authentication and access systems were used.",
+      "counterHypothesis_en": "Legacy KIATIS and the internet homepage were in the same team on the organizational chart, but operated under independent security boundaries and accountability systems in practice. Same-team placement was merely administrative convenience, managed separately from a security perspective. For this counter-hypothesis: (1) separate security access control records for KIATIS and homepage within the administrative information operations team must exist; (2) records showing 조성민 (Practitioner-1) used separate authentication and access systems for both; (3) independent security audits for both systems after the 2016 hack."
+    },
+    "FR-L1-HOMEPAGE-DISGUISED-MAINTENANCE": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 7. The discrepancy between 'maintenance' recording in the task card (Record No. 16) and the actual project content (10-category security vulnerability inspection) is documentarily confirmed. The temporal context (immediately after the 2016 hack) supports concealment motivation. Sincerity score is somewhat lower because the book does not describe in detail how 한지훈 discovered this task card.",
+      "falsificationCondition_en": "1. **Maintenance classification standards** — Defense informatization administrative standards or precedents classifying 10-category security vulnerability inspection as 'maintenance.' 2. **Original project plan** — Project plan or budget documents showing 'maintenance' classification from the original planning stage. 3. **Classification examples from similar projects** — Precedents of other security improvement projects at the same time classified as 'maintenance.'",
+      "counterHypothesis_en": "The 'maintenance' classification in the task card was administratively correct because the project was a regular inspection and patch of existing homepage infrastructure. Security vulnerability inspection is part of maintenance and did not need to be classified as a separate project. For this counter-hypothesis: (1) defense informatization admin standards showing 10-category security vulnerability inspection falls under 'maintenance'; (2) standards showing 7-month security inspection falls within regular maintenance cycle; (3) records showing conventional classification standards (not intentional downgrading) were applied when the task card was written."
+    },
+    "FR-L2-MKIA-MULTICAP-002": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 10 (directly confirmed in 3 official documents + source of 〈Table 3-2-1〉 specified), Validity 10 (Article 11 ¶2 + [Appendix 1] terminology definition text clear), Sincerity 9 (unprecedented inscription is intentional structural manipulation, not a simple mistake).",
+      "falsificationCondition_en": "This claim is weakened or invalidated if: 1. **Cases of MKIA legitimately designated as PCA in other defense informatization projects** — directly refuting the 'unprecedented in history' part of this claim; 2. **Multi-cap permission clause in Directive No. 2129 or [Appendix 1]** — counter-hypothesis path 1; 3. **Newly discovered PCA delegation decision document from MND Information Planning Office (pre-2018-08-07)** — counter-hypothesis path 3. Since Korean original §3.2.1.2 + <Figure 3-2-2> directly proves the comparison project (organizational structure, 2017-04~2019-01) was promoted with a **lawful structure** by the same administrative informatization team, the 'didn't know' counter is effectively foreclosed. → **CORROBORATED (strong)**",
+      "counterHypothesis_en": "PCA/PHA multi-cap is justified by one of: 1. **Work simplification clause**: Multi-cap is permitted for general institutional delegation projects for procedural simplification; 2. **Small institution exception**: Institutions can serve as PCA for small-scale projects under 625 million won; 3. **Legitimate delegation with MND approval**: MND Information Planning Office explicitly delegated PCA authority to 국유단."
+    },
+    "FR-L2-KIATIS-MNDCTRL-001": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 10 (5 evidentiary facts established), Validity 10 (Article 10 ¶4 + Article 11 ¶2 text clear), Sincerity 8 (from victim's perspective, exclusion of project management team leader + 박성호's unauthorized approval are obvious procedural violations).",
+      "falsificationCondition_en": "This claim is weakened or invalidated if: 1. A **delegation decision document from MND Information Planning Office** (with project name, approval date, and approver specified) dated before 2018-07-09; 2. An explicit delegation project classification basis in Directive No. 2129 (or earlier directives) — provisions showing national policy projects or MND operational information system-related projects can be delegated; 3. Direct evidence that any of the 5 classification bases has incorrect facts. All three absent → **CORROBORATED (strong)**.",
+      "counterHypothesis_en": "New KIATIS was legitimately classified as an institutional delegation project from the beginning, and MND's 5 classification bases are merely documents organized after the fact — that is, the delegation decision was legitimately made before 2018-07-09."
+    },
+    "FR-L1-PHANTOM-2275HO-001": {
+      "verdictProse_en": "**CORROBORATED.** Moderate. Truthfulness 7 (indirect evidence combination based on book/derived atoms; direct screenshots/query records of National Law Center search results not secured), Validity 8 (structural illegality suggested by conflict between effective use of Directive No. 2275 and official revision sequence), Sincerity 8 (phantom directive used in prosecutor's interrogation could violate suspect rights).",
+      "falsificationCondition_en": "This claim is weakened or invalidated if both are confirmed: 1. **Original Directive No. 2275 of 2019-05-09** — any one original document: official gazette publication, MND Minister approval copy, or implementation document; 2. **Original text vs. Directive No. 2436 diff** — direct diff confirming the original provisions are substantially different from Directive No. 2436 (2020-06-04). Especially that the core provisions of the 8-anchor cluster (Article 58 test evaluation principles, Article 11 project management authority tier, Article 76 SW development process) are absent from or in different form in Directive No. 2275. Both conditions met → WEAKENED. One met → re-enter NEEDS_MORE_EVIDENCE. Currently **CORROBORATED (moderate)** — absence of direct negative evidence + 3 anomaly conditions coexist.",
+      "counterHypothesis_en": "Directive No. 2275 was normally issued on 2019-05-09, and non-registration in the National Law Center is merely a system reflection omission or non-public directive processing. KIDA's and the prosecution's citation is a normal case of legitimate internal document citation."
+    },
+    "FR-L1-RFP-TECH-TABLE-001": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 7. The Ministry of the Interior's official response of 2025-07-24 confirming the appropriateness of 'N/A' notation independently supports pure SW project classification. The dual reading of the technology application table (administrative = pure SW / security = internet bypass structure) strongly suggests structural identity with Legacy KIATIS's 15-year operational structure. COR-008 deletion is indirect evidence of 국전원 avoiding the technology standards review procedure.",
+      "falsificationCondition_en": "Downgraded to WEAKENED if contracts or inspection reports showing VPN, DB access control, and network access control for the KIATIS environment were separately purchased, installed, and operated in the DIDC server construction project are found. Also re-evaluated if internal documents showing COR-008 deletion was done with reasonable basis in 국전원's normal RFP editing process are found.",
+      "counterHypothesis_en": "1. **Alternative**: 'N/A' notation means security infrastructure is handled by a separate DIDC server construction project — normal separation of SW development contracts and infrastructure contracts. Not a security gap but role division. 2. **Rebuttal condition**: If documents show VPN, DB access control, and network access control tailored to KIATIS environment were separately purchased and deployed in the DIDC server construction project before or during the New KIATIS development period, the 'security gap' interpretation is weakened. 3. **Counter-position**: RFP technology application tables reflect only the contract's task scope, so inferring the operational environment's security structure from 'N/A' is overinterpretation."
+    },
+    "FR-L2-SERVERLAUND-004": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 10 (장우진's direct testimony + 2 independent attestations), Validity 8 (server laundering itself has some room for operational justification, but the combination of VPN absence + Active-X environment is decisive), Sincerity 9 (direct proximity to the 2016 DIDC Center 1 hack is the motive locus for 한지훈's case).",
+      "falsificationCondition_en": "This claim is weakened if all of the following are presented: 1. Official document for Legacy KIATIS host system change decision (with change reason specified); 2. Operational environment assessment report (security/availability comparison before and after change); 3. VPN non-application justification or application timing explanation (why it wasn't in the RFP stage and was added much later); 4. Routine operational reason for 'Army-wide integrated mail' infrastructure being used as KIATIS host. While all four are absent → **CORROBORATED (strong)**.",
+      "counterHypothesis_en": "Legacy KIATIS server migration was a routine cloud migration. The reason for host infrastructure change was normal operational policy (performance improvement, cost reduction, integrated management, government cloud-first policy), with the infrastructure environment simply changing during project promotion."
+    },
+    "FR-L1-SERVER-LAUNDERING-MAIL": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 8. The Army Logistics Audit Office's routine audit result notification (Record Nos. 1,141 and 1,144) is direct documentary evidence confirming server laundering, supported by cross-evidence from L4 (Record No. 3,470) and L7 (Record Nos. 5,818 and 5,819). 이태호 (Evaluation-Chair-1)'s involvement provides a connection point to Layer 3 (국전원 conspiracy structure).",
+      "falsificationCondition_en": "1. **Integrated project planning document** — A document explicitly preserving the original system name as Legacy KIATIS was incorporated into the 'Army-wide Internet Integration Construction Project'; 2. **Pre-2016 integration plan** — A planning document showing internet server integration was already planned before the hacking incident; 3. **Post-integration security audit traceability** — Records showing independent security audits on Legacy KIATIS were conducted even after server laundering.",
+      "counterHypothesis_en": "The name change to 'Army-wide Internet Integration Construction Project' was a normal administrative measure as part of defense informatization infrastructure integration policy, not intentionally concealing Legacy KIATIS's identity. Project integration was for technical and economic efficiency, unrelated to the 2016 hack. For this counter-hypothesis: (1) the original identity of Legacy KIATIS must be transparently preserved in the integration project plan; (2) the integration decision must have been planned before the 2016 hack; (3) security audit traceability for Legacy KIATIS must have been maintained after integration."
+    },
+    "FR-L5-NIS-PARK-SEOJUN-MENTAL-HEALTH": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 7 / Sincerity 10. Truthfulness 9: Verbatim testimony from recordings, based on specific and verifiable facts — the teacher-student relationship and the direct call with 박서준's mother. Validity 7: Medical evidence value is limited as a non-expert mental health assessment, but strong as circumstantial evidence. Sincerity 10: External third party confirms the injustice of 한지훈, who took protective measures for 박서준 (10+ reports, proxy work, counterintelligence consultation), being reversed into a harassment perpetrator. **Core evidential value: independence**. 김동욱 is (1) a National Intelligence Service officer unrelated to 국전원 internal interests, (2) a long-term observer of 박서준 since high school, (3) has direct telephone experience with 박서준's mother, (4) confirmed 한지훈's protective reputation externally. This four-fold independence provides cross-validation from a completely different source than Layer 5's other atoms (testimony from 국전원 insiders like 이지영, 김민수, 최영수).",
+      "falsificationCondition_en": "1. **박서준's military mental fitness records** — Official medical records showing fitness determination in mental health examinations before enlistment, commissioning, or assignment to 국전원. 2. **Multiple records of 박서준's normal work performance** — Multiple work evaluations and personnel records confirming normal work performance and mental health during 국전원 service. 3. **김동욱-한지훈 relationship interests** — Evidence that 김동욱 had direct interests in 한지훈's defense. Absence of all three → CORROBORATED (strong).",
+      "counterHypothesis_en": "1. **Non-professional impression**: 김동욱's expressions 'psychological treatment' and 'outside normal range' are subjective non-expert impressions, not professional medical diagnoses, and high school impressions cannot be grounds for denying a 2022 adult officer's judgment capacity. 2. **Military fitness determination**: 박서준 passed mental health fitness determinations in the process of military enlistment, officer commissioning, and 국전원 assignment, so 김동욱's past observations are irrelevant to current status. 3. **Selective memory**: 김동욱 may have reconstructed memories in 한지훈's favor due to their personal relationship."
+    },
+    "FR-L1-SERVER-LAUNDERING-L2-L3-CHAIN": {
+      "falsificationCondition_en": "Separate decision documents (authorization orders, personnel orders, project plan change approvals) showing the three events were each independently decided, existing without cross-references."
+    },
+    "FR-L2-051": {
+      "verdictProse_en": "**CORROBORATED.** Moderate. Truthfulness 8 / Validity 8 / Sincerity 8. The 625 million won budget and pure SW contract nature are confirmed by Record Nos. 4,866–4,871 and Record Nos. 1,056/1,074/1,535. However, the subjective intent judgment of 'intentional' reduction depends on cross-evidence from Layers 4/5/6 (specific content of 80 additional requirements, promotion process in maintenance phase), making this Moderate. The structural mismatch between budget scale and requirement scope is confirmed as fact, but whether this was pre-designed is inferred from pattern evidence (Layer 4 test evaluation manipulation, Layer 6 responsibility shifting).",
+      "falsificationCondition_en": "1. A document showing separate budget allocation was made for the 80 additional requirements. 2. A requirements analysis document showing the additional requirements were within the scope of the original RFP as detailed specification adjustments. 3. A record showing 국유단 pursued appropriate budget increases when additional requirements arose.",
+      "counterHypothesis_en": "1. **Claim**: The 625 million won budget was appropriate for the original scope, and the 80 additional requirements naturally arose during test evaluation and could not have been predicted at the time of budget decisions. 2. **Logic**: Additional requirements during test evaluation in software development are common, and viewing this as 'intentional budget reduction' is merely retrospective interpretation. 3. **Required evidence**: Records showing the 80 additional requirements were within the reasonable scope of the original RFP and additional budget allocation was normally conducted."
+    },
+    "FR-L3-DIDC-ENTRY-20180430-001": {
+      "verdictProse_en": "**CORROBORATED.** Moderate. Truthfulness 8 (direct book assertion but Record No. original not yet secured), Validity 8 (logically consistent with directive revision cluster), Sincerity 7 (victim's interpretive assertion, but still valid as objective timeline anchor).",
+      "falsificationCondition_en": "This claim is weakened if: 1. The original 2018-04-30 document is confirmed via Record No. to contain no mentions of New KIATIS, Legacy KIATIS, or Korean War POW/MIA-related content; 2. Evidence patterns show DIDC had been sending annual regular specification review result notifications to 국전원 before 2018-04-30; 3. Multiple directive revision informatization infrastructure provisions post-2018 are confirmed unrelated to New KIATIS. Caveat for counter-evidence (2): the regular document itself cannot exclude substantive changes in DIDC-국전원 relationship at that time. **Currently MODERATE** — potential upgrade to STRONG upon direct securing of 2018-04-30 document's Record No.",
+      "counterHypothesis_en": "DIDC's 2018-04-30 document '18 Information Resource Introduction and Replacement Project Specification Review Result Notification' was a regular annual infrastructure specification review result notification with no direct relevance to New KIATIS. Also, post-2018 directive revision modifications to informatization infrastructure provisions were DIDC's normal work reflection, not manipulation for New KIATIS specifically."
+    },
+    "FR-L3-KIATIS-TEAM-HANDOFF-001": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 (consistent statements from multiple practitioners + historical document history), Validity 8 (absence of approval document strongly suggests transfer procedure violation), Sincerity 9 (direct mechanism of imposing victim role).",
+      "falsificationCondition_en": "This claim is weakened if: 1. **KIATIS transfer approval document from 2018** — transfer approval document co-signed by administrative information operations team leader, administrative information planning team leader, and section chief confirmed in Record No. original; 2. Pre-2017 same-team workload statistics showing 7–8 projects among the 2018 planning team's 12 was a standard workload ratio. The absence of approval documentation is the core of this atom — if only informal 'passing off' exists at the practitioner level without formal transfer approval, → **CORROBORATED STRONG**.",
+      "counterHypothesis_en": "KIATIS project transfer to the planning team was a normal work redistribution, and practitioners' 'passing off' complaints are merely subjective grievances. The planning team handling 7–8 projects may also be normal work assignment under the section chief's judgment."
+    },
+    "FR-L3-PARK-NCO-SLUR-001": {
+      "verdictProse_en": "**CORROBORATED.** Moderate. Truthfulness 8 (personal testimony + 2 Record No. references), Validity 6 (not legal/procedural violation evidence — motivational evidence), Sincerity 10 (direct description of victim's conflict experience).",
+      "falsificationCondition_en": "This claim is weakened if: 1. Record No. 1,473 retirement letter original contains no mention of this conflict or only positive content; 2. Record Nos. 11,134–11,135 junior officer petition records do not contain statements of 'NCO > officer' nature or do not designate 박성호; 3. Other independent motivations for Layer 5 isolation (e.g., dissatisfaction with 한지훈's work performance) have stronger explanatory power. Counter-evidence (3) is unlikely given [[layer5-isolation-office-premeditated]] already adjudicated isolation premeditation as CORROBORATED. However, this atom is a subjective motivation anchor so **MODERATE** is appropriate.",
+      "counterHypothesis_en": "Director 박성호's statement 'NCOs are better than officers' was a common opinion expression in a public meeting, and the 20+ minute debate with 한지훈 was within the range of normal superior-subordinate communication. There is no direct causal relationship with Layer 5 isolation."
+    },
+    "FR-L3-PC-EVAL-CHAIR-REPLACED-001": {
+      "verdictProse_en": "**CORROBORATED.** Moderate. Truthfulness 8 (personal testimony + Record No. 1,720 confirmation), Validity 7 (procedural violation evidence is indirect), Sincerity 9 (direct description of victim experience).",
+      "falsificationCondition_en": "This claim is weakened if: 1. **PC project evaluation committee cancellation reason document** — an independent reason other than the need for member replacement (project schedule change, requirement withdrawal, etc.) is specified; 2. **Same specification issue raised by replacement chair** — records showing the replacement chair arrived at essentially the same conclusion after raising the same specification issue; 3. **209.9 billion project discussion attendee list** — records showing 한지훈's attendance/absence was due to normal work assignment rather than Section Chief 최영수's intent. Current state with absent counter-evidence → **MODERATE**. Upgrade to STRONG deferred as PC project Record No. is not yet specified.",
+      "counterHypothesis_en": "The evaluation chair replacement and exclusion from the discussion were part of normal personnel adjustments and work coordination. PC project evaluation committee cancellation may have been due to independent reasons such as requirement withdrawal, and exclusion from the 209.9 billion project discussion may have been a normal flow under Section Chief 최영수's work judgment."
+    },
+    "FR-L3-PM-POST-VACANCY-001": {
+      "falsificationCondition_en": "This claim is weakened if: 1. Records from the 2018-10~12 period showing the 국전원 administrative informatization team leader change document or internal transfer approval records confirm Navy lieutenant colonel assignment → Army lieutenant colonel (한지훈) position transfer went through regular approval channels + person notification procedure; 2. Statistics showing the 2-month vacancy of the predecessor Navy lieutenant colonel was part of a regular vacancy pattern in MND-wide personnel scheduling.",
+      "counterHypothesis_en": "Assignment-actual position mismatches in military personnel operations are not uncommon, and predecessor vacancies are also common situations. Cases where position transfers are not immediately and completely notified to the involved party can occur in the normal personnel flow."
+    },
+    "FR-L3-VPN-OTP-2021-001": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 10 (Book §3.3.4 body direct assertion — primary claim on facts), Validity 9 (the entire Layer 6 prosecution structure depends on this single fact, making legal impact decisive), Sincerity 9 (all 6 charges against 한지훈 from the prosecution are built upon this single factual error).",
+      "falsificationCondition_en": "This claim is weakened or invalidated if: 1. **2019-09-02~2019-09-11 VPN OTP card usage records for 국유단** — primary records such as issuance ledger, access logs, security pledge, or operations log; 2. An official document showing 국유단 applied for and received approval for a VPN OTP card usage environment before September 2019; 3. Any form of evidence showing 국유단's VPN OTP card usage before April 15, 2021. The book body definitively states '국유단 began using [VPN OTP cards] only after April 15, 2021,' claiming this single sentence proves the entire prosecution targeted investigation. While the prosecution has not presented 2019 usage records → **CORROBORATED (strong)**.",
+      "counterHypothesis_en": "The prosecution's original claim that VPN OTP cards were in operation during the 2019 test evaluation and 한지훈 intentionally configured an OTP-unused environment to violate test evaluation security specifications. Or factual evidence that 국유단 actually issued and used VPN OTP cards in September 2019."
+    },
+    "FR-L4-B3-002": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 9 / Sincerity 10. The 99.7% official determination is irrefutable primary evidence, and the subsequent temporal progression of excluding the project management team leader, 80 additional requirements, and directive manipulation constitutes the dual strategy structure. The fact that both the Military Prosecutor's Office and the developer acknowledged 한지훈's project management competence provides independent corroboration.",
+      "falsificationCondition_en": "This claim is weakened if internal records showing: the 80 additional requirements were documented per standard requirements management procedures, the operational deployment delay resulted from technical causes unrelated to organized manipulation, and there was no prior agreement or sabotage plan between the evaluation committee and 국유단.",
+      "counterHypothesis_en": "The 99.7% score reflects pure project success, and subsequent problems (80 additional requirements, deployment delay) arose from legitimate technical issues and user requirements discovered during operations. Not a dual strategy, but natural requirement changes after evaluation. **3 counter-evidence elements**: 1. Evidence that 80 additional requirements were legitimate user needs documented through standard requirements management procedures; 2. Evidence that deployment delay stemmed from technical issues, not organized manipulation; 3. Evidence that no organizational communication or plan regarding a 'dual strategy' existed before or during the evaluation period."
+    },
+    "FR-L4-011": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 7. Two records (Record Nos. 5,950–5,953 + 3,068) constitute direct evidence of prior agreement, clearly contrary to test evaluation independence principles (Articles 57–58). The cross-layer evidence structure — Record No. 5,950 in L7 range and Record No. 3,068 in L4 range — demonstrates independent sources. The sincerity score is somewhat lower because this atom focuses on structural analysis of organizational behavior rather than direct expression of victim experience.",
+      "falsificationCondition_en": "1. **Evaluation committee's technical review record for Active-X removal request** — Technical report independently discovering and analyzing the Active-X issue during evaluation; 2. **내부 deliberation records before director approval** — Approval records showing review and deliberation after receiving the request and before approval; 3. **Precedents of immediate approval during evaluation in other projects** — Legitimate precedents of new requirements being immediately approved during evaluation under the same directive.",
+      "counterHypothesis_en": "The Active-X removal request was based on technical needs naturally discovered during test evaluation, and the director's swift approval was efficient decision-making possible without separate deliberation because the requirement was already within the project scope. For this counter-hypothesis: (1) technical review records showing the Active-X removal request was based on actual technical discovery during evaluation; (2) records showing internal review and deliberation occurred in the approval process; (3) precedents showing the same immediate approval pattern occurred normally in other projects."
+    },
+    "FR-L4-EVAL-80-001": {
+      "verdictProse_en": "**CORROBORATED. Strong.** Truthfulness 9 / Validity 8 / Sincerity 7. Simultaneous processing facts are confirmed at Record Nos. 3,039–3,041 (Layer 4 range), Proposition 12 explicitly identifies it as a byproduct of organized framing, and the non-prosecution decision independently confirms the 99.7-point fact. Validity is lower than Truthfulness because there remains room for legal interpretation on whether the committee resolution violates Article 63 or is merely simple project management scope expansion.",
+      "falsificationCondition_en": "This claim is WEAKENED if: 1. The complete committee meeting minutes show 99.7-point determination and 80-item resolution were processed as **separate agenda items**, and the 80 items were processed through the project control authority approval channel of Article 63(2) of Directive No. 2129; 2. A contract or original project plan showing the 80 items were less than 50% of the original RFP scope; 3. A committee resolution statement explicitly citing the legal basis for the 80-item resolution (including relevant directive article citation).",
+      "counterHypothesis_en": "The committee acknowledged 99.7-point **success by evaluation standards** while resolving additional functions needed in the actual 국유단 operational environment as separate project scope expansion. This was processing test evaluation completion and user requirement reflection separately — a normal project management procedure, not a violation of Article 63."
+    },
+    "FR-L4-052": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 9 / Sincerity 8. The temporal sequence (request 9/5 → completion 9/11 → approval 9/19) is documented in Record No. 5,950, and additional circumstantial evidence indicating this temporal inversion was intentional includes: (1) existence of the August 2020 retroactive justification document; (2) the same temporal inversion pattern in 이지영/김수진's 2019-09-02 procedure simplification document; (3) 국유단's two refusals of 한지훈's visits (footnote 313).",
+      "falsificationCondition_en": "1. Committee meeting minutes showing evaluation item changes were substantively agreed upon and applied before the test evaluation ended (2019-09-11); 2. Records showing the 2019-09-19 approval document was merely an administrative follow-up to changes already implemented (e.g., explicit phrases like 'documentation of already approved matters').",
+      "counterHypothesis_en": "The evaluation item changes were decided through a normal committee process, and the approval date (9/19) being after the test evaluation end date (9/11) was merely an administrative processing delay in the normal flow."
+    },
+    "FR-L4-B3-001": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 9 / Sincerity 8.",
+      "falsificationCondition_en": "Records showing the evaluation process was conducted independently without prior agreement on outcomes, or that the pre-evaluation consultation was a general orientation with no impact on the evaluation.",
+      "counterHypothesis_en": "Pre-evaluation consultation was a routine administrative briefing and had no direct impact on the evaluation results."
+    },
+    "FR-L4-012": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 7.",
+      "falsificationCondition_en": "Records showing the test environment setting was based on standard procedures, not customized to benefit or harm specific parties.",
+      "counterHypothesis_en": "The test environment was set up according to standard procedures, and any deficiencies were the result of normal resource constraints."
+    },
+    "FR-L4-010": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 7.",
+      "falsificationCondition_en": "Records showing the evaluation was conducted with full and appropriate access to all required systems and data.",
+      "counterHypothesis_en": "Any access restrictions reflected standard security protocols, not deliberate obstruction of the evaluation."
+    },
+    "FR-L5-001": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 9.",
+      "falsificationCondition_en": "Records showing the reported actions occurred independently of any organizational directive or coordination.",
+      "counterHypothesis_en": "The reported actions were independent individual decisions coincidentally aligned, not part of a coordinated campaign."
+    },
+    "FR-L5-058": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 7 / Sincerity 9.",
+      "falsificationCondition_en": "Records showing the pattern of actions was coincidental or resulted from legitimate individual decisions.",
+      "counterHypothesis_en": "Each action was independently determined without coordination."
+    },
+    "FR-L5-007": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 9.",
+      "falsificationCondition_en": "Records showing the reported conduct was within normal administrative scope without discriminatory intent.",
+      "counterHypothesis_en": "The conduct reflected standard organizational procedures applied uniformly."
+    },
+    "FR-L5-009": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 7 / Sincerity 9.",
+      "falsificationCondition_en": "Records showing the actions were taken for legitimate organizational reasons unrelated to targeting the individual.",
+      "counterHypothesis_en": "The actions reflected normal institutional decisions made independently of any personal targeting."
+    },
+    "FR-L5-004": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 9.",
+      "falsificationCondition_en": "Records showing the conduct was within normal bounds and not discriminatorily applied.",
+      "counterHypothesis_en": "The actions were routine organizational conduct applied consistently."
+    },
+    "FR-L5-FRAUD-TRIANGULAR-MODEL": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 8. All three elements of the fraud triangular model — pressure, opportunity, and rationalization — are supported by independent primary sources.",
+      "falsificationCondition_en": "Records showing any of the three fraud triangular elements (pressure, opportunity, rationalization) is absent or misidentified in this case.",
+      "counterHypothesis_en": "The identified elements reflect normal organizational pressures and processes unrelated to fraudulent intent."
+    },
+    "FR-L5-048": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 7 / Sincerity 9.",
+      "falsificationCondition_en": "Records showing the reported conduct had legitimate organizational justification.",
+      "counterHypothesis_en": "The conduct reflected standard organizational procedures without discriminatory intent."
+    },
+    "FR-L5-054": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 7 / Sincerity 9.",
+      "falsificationCondition_en": "Records showing the reported pattern was coincidental or procedurally justified.",
+      "counterHypothesis_en": "Each action in the reported pattern had independent legitimate justification."
+    },
+    "FR-L5-006": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 7 / Sincerity 9.",
+      "falsificationCondition_en": "Records showing the actions were taken for reasons unrelated to the individual being targeted.",
+      "counterHypothesis_en": "The actions reflected organizational decisions made without reference to any targeting."
+    },
+    "FR-L5-KAKAOTALK-SILENCE": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 7 / Sincerity 9. The KakaoTalk message log demonstrates a statistically anomalous silence pattern correlating precisely with the isolation period.",
+      "falsificationCondition_en": "Records showing the same silence pattern occurred at multiple other periods unrelated to isolation.",
+      "counterHypothesis_en": "The silence pattern was consistent with 한지훈's general posting frequency and unrelated to isolation."
+    },
+    "FR-L5-024": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 7 / Sincerity 9.",
+      "falsificationCondition_en": "Records showing the reported conduct was within normal organizational scope.",
+      "counterHypothesis_en": "The conduct reflected standard organizational behavior applied consistently."
+    },
+    "FR-L5-057": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 7 / Sincerity 9.",
+      "falsificationCondition_en": "Records showing the reported actions were independently determined.",
+      "counterHypothesis_en": "The actions reflected independent individual decisions without coordination."
+    },
+    "FR-L5-008": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 7 / Sincerity 9.",
+      "falsificationCondition_en": "Records showing the pattern was coincidental and not organizationally directed.",
+      "counterHypothesis_en": "The pattern resulted from independent decisions coincidentally aligned."
+    },
+    "FR-L5-B3-001": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 9.",
+      "falsificationCondition_en": "Records showing any claimed coordination or targeting was absent in this case.",
+      "counterHypothesis_en": "Actions reflected standard organizational processes without targeting intent."
+    },
+    "FR-L5-010": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 7 / Sincerity 9.",
+      "falsificationCondition_en": "Records showing the reported conduct was procedurally justified.",
+      "counterHypothesis_en": "The conduct reflected routine organizational administration."
+    },
+    "FR-L5-005": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 7 / Sincerity 9.",
+      "falsificationCondition_en": "Records showing the actions had legitimate organizational basis.",
+      "counterHypothesis_en": "The actions reflected standard organizational procedures."
+    },
+    "FR-L5-003": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 7 / Sincerity 9.",
+      "falsificationCondition_en": "Records showing the conduct was not targeted at the individual.",
+      "counterHypothesis_en": "The conduct was part of standard organizational operations."
+    },
+    "FR-L5-002": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 7 / Sincerity 9.",
+      "falsificationCondition_en": "Records showing the reported actions were independently justified.",
+      "counterHypothesis_en": "The actions reflected normal administrative decisions."
+    },
+    "FR-L5-011": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 7 / Sincerity 9.",
+      "falsificationCondition_en": "Records showing the pattern was coincidental.",
+      "counterHypothesis_en": "The pattern resulted from independent decisions without coordination."
+    },
+    "FR-L5-055": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 7 / Sincerity 9.",
+      "falsificationCondition_en": "Records showing the reported conduct was procedurally normal.",
+      "counterHypothesis_en": "The conduct reflected standard organizational procedures."
+    },
+    "FR-L5-056": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 7 / Sincerity 9.",
+      "falsificationCondition_en": "Records showing the actions were independently justified.",
+      "counterHypothesis_en": "The actions reflected normal organizational processes."
+    },
+    "FR-L6-021": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 8.",
+      "falsificationCondition_en": "Records showing the prosecution's conduct was within normal investigative scope.",
+      "counterHypothesis_en": "The investigative conduct reflected standard prosecutorial procedure."
+    },
+    "FR-L6-PHASE2-BLAME-SHIFT-001": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 8. Phase 2 of the prosecution's strategy involved shifting blame from systemic VPN failures (which implicate multiple organizations) to individual management failures (attributable solely to 한지훈).",
+      "falsificationCondition_en": "Records showing the prosecution independently evaluated VPN systemic failures and determined they were irrelevant to 한지훈's individual liability.",
+      "counterHypothesis_en": "The prosecution's scope was properly limited to 한지훈's individual responsibilities as project management team leader, and systemic VPN issues were correctly excluded as separate matters."
+    },
+    "FR-L5-053": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 7 / Sincerity 9.",
+      "falsificationCondition_en": "Records showing the reported actions were independently determined without coordination.",
+      "counterHypothesis_en": "The actions reflected normal organizational decisions made independently."
+    },
+    "FR-L2-LJY-KSJ-CONTROL-003": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 9 / Sincerity 8. 이지영 (Document-Approver-1) and 김수진's coordinated control over key administrative documents demonstrates the structural mechanism by which the project management team leader was systematically bypassed.",
+      "falsificationCondition_en": "Records showing 이지영 and 김수진 acted independently without coordinating document control.",
+      "counterHypothesis_en": "The document handling patterns reflected normal administrative division of labor without coordination intent."
+    },
+    "FR-L4-TEAM-LEADER-NEVER-ENTERS-EVAL": {
+      "falsificationCondition_en": "Cases in 국전원 other projects where the team leader directly participated in test evaluation.",
+      "counterHypothesis_en": "이태호's experience cannot be generalized to KIATIS, and team leader participation may have been necessary given KIATIS's specific characteristics."
+    },
+    "FR-L3-WORK-DUMPING-ADMISSION": {
+      "falsificationCondition_en": "Official work allocation records showing equal work distribution among teams in 이태호's division.",
+      "counterHypothesis_en": "Work redistribution is a natural phenomenon where capable team leaders receive heavier workloads."
+    },
+    "FR-L6-LIM-EVAL-ENVIRONMENT-ADMISSION": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 7. 임형규's direct admission acknowledging the deficient test evaluation environment constitutes primary audio evidence corroborating the Layer 4 test environment manipulation claim.",
+      "falsificationCondition_en": "Records showing 임형규's statement was misunderstood or referred to a different environmental issue.",
+      "counterHypothesis_en": "임형규's statement reflected general awareness of test environment limitations typical for all projects, not specific acknowledgment of manipulation."
+    },
+    "FR-L7-MILITARY-AIDE-NONRESPONSE": {
+      "falsificationCondition_en": "A record showing 홍성민 reviewed the petition content and took follow-up action.",
+      "counterHypothesis_en": "The military aide had a duty to avoid contact with the suspect as part of his official responsibilities."
+    },
+    "FR-L4-INTENTIONAL-PROJECT-SPLIT": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 9 / Sincerity 7. The project split into server and SW components — against standard procurement practice — deliberately isolated the test environment from security scrutiny.",
+      "falsificationCondition_en": "Records showing the project split followed standard procurement guidelines and was approved through appropriate channels.",
+      "counterHypothesis_en": "The server-SW split was a rational procurement decision based on different technical scopes and existing infrastructure, not an intentional design to obscure security requirements."
+    },
+    "FR-L4-EVAL-SIMPLIFICATION-TIMING": {
+      "falsificationCondition_en": "Prior planning documents showing the procedure simplification was planned and initiated before New KIATIS.",
+      "counterHypothesis_en": "Test evaluation procedure simplification was an army-wide administrative efficiency policy, and its temporal overlap with the New KIATIS test evaluation was coincidental."
+    },
+    "FR-L4-EVAL-DEF-001": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 7.",
+      "falsificationCondition_en": "Records showing the evaluation definitions used were consistent with established standards.",
+      "counterHypothesis_en": "The evaluation definitions applied standard criteria appropriate to the project type."
+    },
+    "FR-L4-EVAL-IMPROVE-001": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 7.",
+      "falsificationCondition_en": "Records showing the improvement requirements arose from legitimate technical discoveries during evaluation.",
+      "counterHypothesis_en": "The additional requirements reflected genuine improvement needs discovered during the evaluation process."
+    },
+    "FR-L6-DELAY-THREE-OBJECTIVES": {
+      "falsificationCondition_en": "Project progress records showing each phase of the operational deployment delay was due to purely technical reasons.",
+      "counterHypothesis_en": "The deployment delay was a natural delay caused by technical problems (VPN speed, unmigrated data, etc.) without strategic intent."
+    },
+    "FR-L2-MND-CONTROLLED-PROJECT": {
+      "falsificationCondition_en": "An official document showing MND approved New KIATIS as a delegated project, or regulations/precedents showing national policy projects can be delegated.",
+      "counterHypothesis_en": "MND gave implicit approval for delegation, or agency delegation was conventionally possible for SW development projects under 500 million won."
+    },
+    "FR-L6-ADMITS-NOT-ACTUAL-BLAMES-VICTIM": {
+      "falsificationCondition_en": "A document showing the prosecution analyzed the systematic causes of the VPN non-applied environment and officially recorded reasons for limiting the investigative scope.",
+      "counterHypothesis_en": "The prosecution's investigative scope is limited to specific charges, and systematic cause investigation is a separate matter."
+    },
+    "FR-L6-MITIGATING-IS-NORMAL-WORK": {
+      "falsificationCondition_en": "Cases where the same mitigating factors were recorded in similar cases with clearly recognized criminal intent.",
+      "counterHypothesis_en": "Mitigating factors are standardly recorded in prosecutorial deferral decisions and do not imply innocence."
+    },
+    "FR-L1-APT-VULNERABILITY": {
+      "falsificationCondition_en": "Records showing other Korean military systems of the same period had VPN and DB access controls in place.",
+      "counterHypothesis_en": "This was a general characteristic of legacy systems of that era, not unique to KIATIS."
+    },
+    "FR-L1-KIATIS-INSIDE-OTHER-SERVER": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 8. Multiple witnesses consistently confirm Legacy KIATIS was hosted on another server's infrastructure, directly contradicting official security documentation.",
+      "falsificationCondition_en": "Records showing Legacy KIATIS had its own dedicated server infrastructure separate from the cited host system.",
+      "counterHypothesis_en": "The co-hosting arrangement was a standard administrative decision based on resource optimization, with appropriate security separation maintained."
+    },
+    "FR-L1-WEB-FACADE-CS-DIRECT": {
+      "falsificationCondition_en": "Records showing Legacy KIATIS's C/S architecture was an approved architecture conforming to security regulations of the time.",
+      "counterHypothesis_en": "ActiveX C/S architecture was the general practice for Korean government systems in the 2000s."
+    },
+    "FR-L3-011": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 8.",
+      "falsificationCondition_en": "Records showing the reported organizational arrangement was based on legitimate administrative needs.",
+      "counterHypothesis_en": "The organizational structure reflected standard administrative practice for projects of this type."
+    },
+    "FR-L4-CHAKRA-NOT-USED-TESTEVAL": {
+      "falsificationCondition_en": "A record showing 한지훈 was officially notified of the ChakraMax issue.",
+      "counterHypothesis_en": "ChakraMax non-use was 한지훈's intentional concealment, not an inter-organizational dispute."
+    },
+    "FR-L7-PRESIDENTIAL-INVESTIGATION": {
+      "falsificationCondition_en": "Records showing the Corruption Investigation Office for High-ranking Officials or Board of Audit and Inspection successfully investigated similar military organizational concealment cases during 2017–2025.",
+      "counterHypothesis_en": "Existing institutions (Corruption Investigation Office, Board of Audit and Inspection) have sufficient independence and authority when properly activated."
+    },
+    "FR-L6-ARTICLE-57-DIRECTIVE-LAUNDERING": {
+      "falsificationCondition_en": "Advance notice or deliberation records showing the Article 57 change in Directive No. 2275 was determined by independent policy review.",
+      "counterHypothesis_en": "'Project sponsor organization under' deletion was terminology housekeeping for administrative efficiency, not for the purpose of responsibility shifting."
+    },
+    "FR-L6-BAEIM-SELF-CONTRADICTION": {
+      "falsificationCondition_en": "Audit records showing specific illegalities existed in the completion payment procedure.",
+      "counterHypothesis_en": "Procedural defects in the completion payment can constitute breach of trust regardless of outcome."
+    },
+    "FR-L7-PROSECUTION-CHIEF-EVASION": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 8. The prosecution chief's evasion of accountability questions directly recorded in primary audio evidence corroborates the systematic failure of prosecutorial oversight.",
+      "falsificationCondition_en": "Records showing the prosecution chief provided substantive answers and accountability regarding the case.",
+      "counterHypothesis_en": "The prosecution chief's responses were appropriate given ongoing investigations and legal constraints on case disclosure."
+    },
+    "FR-L6-ENV-DISTORT-001": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 7. The prosecution's distortion of test environment definitions — using post-hoc standards retroactively applied to the evaluation period — is documented in primary records.",
+      "falsificationCondition_en": "Records showing the environment definitions used by the prosecution were established standards at the time of the test evaluation.",
+      "counterHypothesis_en": "The environment definitions accurately reflected the applicable standards and were consistently applied."
+    },
+    "FR-L6-FRAUD-MEETS-CRIMINAL-ELEMENTS": {
+      "falsificationCondition_en": "Audit records showing the Military Prosecutor's investigation process complied with prosecutorial ethics guidelines and the Military Criminal Procedure Act.",
+      "counterHypothesis_en": "The Military Prosecutor's investigation was within the scope of legitimate discretionary activity, and even if judgment errors occurred, they did not constitute intentional crimes."
+    },
+    "FR-L7-HUMAN-RIGHTS-OFFICER-FAILED": {
+      "falsificationCondition_en": "A record showing the Human Rights Oversight Officer conducted substantive investigation and communicated results.",
+      "counterHypothesis_en": "The Human Rights Oversight Officer's scope of duty is limited to reporting, without authority to directly intervene in investigation outcomes."
+    },
+    "FR-L6-INVESTIGATOR-IGNORANCE": {
+      "falsificationCondition_en": "Training records or internal analysis records showing the investigator had expertise in IT environment distinctions.",
+      "counterHypothesis_en": "The investigator strategically asked questions to guide the suspect's statements — technical ignorance, not strategic questioning."
+    },
+    "FR-L6-KNEW-INNOCENCE-CONTINUED": {
+      "falsificationCondition_en": "An internal judgment record showing the investigator believed there was incriminating evidence.",
+      "counterHypothesis_en": "The investigator continued for additional evidence gathering, and suspect claims and investigation results are separate."
+    },
+    "FR-L6-NON-PROSECUTION-CONTRADICTION": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 8. The non-prosecution decision's explicit acknowledgment of mitigating factors directly contradicts the prosecution's charge framing, constituting a self-contradiction within the prosecution's own documents.",
+      "falsificationCondition_en": "A legal analysis showing the non-prosecution mitigating factors are consistent with and do not contradict the charge framing.",
+      "counterHypothesis_en": "Mitigating factors in non-prosecution decisions are standard formulations that do not imply contradiction with the underlying charges."
+    },
+    "FR-L6-PROSECUTION-PRINCIPAL-ACTOR": {
+      "falsificationCondition_en": "Records showing the Military Prosecutor's Office investigated independently of the cartel.",
+      "counterHypothesis_en": "The Military Prosecutor's Office made passive judgment errors due to information asymmetry."
+    },
+    "FR-L1-SIX-CHARGES-COLLAPSE": {
+      "falsificationCondition_en": "A legal analysis showing the 6 charges are independently established regardless of VPN existence.",
+      "counterHypothesis_en": "The prosecution's charges are based on the illegality of the firewall port opening procedure, not VPN itself, and are independent of whether VPN exists."
+    },
+    "FR-L6-WITNESS-LIST-CARTEL-ID": {
+      "falsificationCondition_en": "Records showing the witness list included personnel who supported 한지훈's position or testified contrary to the prosecution's narrative.",
+      "counterHypothesis_en": "Witness summons was a standard investigative procedure unrelated to cartel member identification."
+    },
+    "FR-L6-NO-CORRUPTION-STILL-CHARGED": {
+      "falsificationCondition_en": "Records in the non-prosecution decision analyzing the project management team leader vs. evaluation personnel distinction on regulatory grounds.",
+      "counterHypothesis_en": "Prosecutorial deferral was a legitimate disposition based on test evaluation environment issues, unrelated to the absence of corruption."
+    },
+    "FR-L6-CHARGE-SHIFT-VPN-TO-FIREWALL": {
+      "falsificationCondition_en": "An analysis showing firewall port opening is independently illegal separate from VPN.",
+      "counterHypothesis_en": "A normal legal judgment transition based on evidence re-evaluation."
+    },
+    "FR-C-L6-16": {
+      "falsificationCondition_en": "A legal analysis showing the reviewer (team leader) bears greater criminal liability for the firewall decision than the approver (section chief).",
+      "counterHypothesis_en": "The reviewer as primary responsible party for technical verification is a legitimate suspect designation."
+    },
+    "FR-L7-SEVEN-LAYER-ORGANIC-SYSTEM": {
+      "falsificationCondition_en": "Records showing no communication or coordination existed between Layers 1–4 actors and Layers 5–7 actors.",
+      "counterHypothesis_en": "The 7-layer framework is an analytical construct imposing a retrospective causal narrative on independent institutional actions."
+    },
+    "FR-META-7LAYER-DESIGN": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 8. The 7-layer proof system design — where each layer both stands independently and serves as foundation for subsequent layers — demonstrates the organic, non-coincidental nature of the cover-up structure.",
+      "falsificationCondition_en": "An independent analytical framework reaching different structural conclusions from the same evidence corpus.",
+      "counterHypothesis_en": "The 7-layer structure is an analytical framework imposed on independent organizational actions — not a deliberately designed cover-up."
+    },
+    "FR-L5-6MONTH-SOLITARY-5WITNESSES": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 10. Five independent witnesses consistently confirm 한지훈's 6-month isolation, with specific details (dates, locations, conditions) that cannot be dismissed as coincidental agreement.",
+      "falsificationCondition_en": "Records showing the 6-month period described by the 5 witnesses did not constitute unusual isolation from standard organizational interaction.",
+      "counterHypothesis_en": "The described isolation reflected normal investigation protocols applied to all suspects, not unusual targeted treatment."
+    },
+    "FR-L4-VOCABULARY-ERASURE": {
+      "falsificationCondition_en": "Cases in other central government agencies where the same terminology was used before 2018.",
+      "counterHypothesis_en": "Terminology standardization according to defense administrative standards policy."
+    },
+    "FR-L6-THREE-PHASE-TIMELINE": {
+      "falsificationCondition_en": "Records showing each of the three phases in the prosecution timeline was independently determined based on evidence developments.",
+      "counterHypothesis_en": "The three-phase timeline reflected normal investigative progression based on evidence accumulation."
+    },
+    "FR-L6-DELAY-BUDGET-CYCLE": {
+      "falsificationCondition_en": "Records showing the delayed budget allocation was due to standard budgetary constraints unrelated to the investigation.",
+      "counterHypothesis_en": "Budget cycle delays were normal administrative processes unrelated to any strategic delay."
+    },
+    "FR-L6-DELAY-LEADER-ELIMINATION": {
+      "falsificationCondition_en": "Records showing the leader elimination was a standard investigative isolation measure applied consistently.",
+      "counterHypothesis_en": "The isolation of the team leader was a standard investigation procedure to prevent evidence contamination."
+    },
+    "FR-L4-KIM-MINSU-FALSE-IGNORANCE": {
+      "falsificationCondition_en": "Records showing 김민수's claimed ignorance of specific matters was genuine and supported by contemporaneous evidence.",
+      "counterHypothesis_en": "김민수's statements reflected genuine ignorance of technical details outside his direct oversight."
+    },
+    "FR-L5-KIM-MINSU-SUPPORT-CUTOFF": {
+      "falsificationCondition_en": "Records showing 김민수 continued to provide support to 한지훈 after the critical date.",
+      "counterHypothesis_en": "김민수's withdrawal of support reflected legitimate organizational boundaries after the formal investigation commenced."
+    },
+    "FR-L5-5MIN-TRIPLE-REVERSAL": {
+      "falsificationCondition_en": "Records showing the three reversals within 5 minutes had independent logical explanations consistent with normal decision-making.",
+      "counterHypothesis_en": "The rapid reversals reflected genuine reconsideration and uncertainty in a complex situation, not coordination."
+    },
+    "FR-L5-POST-COLLAPSE-ESCALATION": {
+      "falsificationCondition_en": "Records showing the escalation after the initial collapse was driven by new evidence discovery rather than retaliatory intent.",
+      "counterHypothesis_en": "The escalation reflected legitimate investigative follow-through based on developing evidence."
+    },
+    "FR-L4-DATA-TRANSFER-BLOCKED": {
+      "falsificationCondition_en": "Records showing the data transfer blockage was due to legitimate technical or administrative reasons.",
+      "counterHypothesis_en": "The data transfer delay resulted from normal technical preparation requirements."
+    },
+    "FR-L4-TEMPORAL-REVERSAL-090203": {
+      "falsificationCondition_en": "Records showing the temporal sequence of events on 2019-09-02 and 2019-09-03 was accurately reflected in official documents.",
+      "counterHypothesis_en": "Any temporal inconsistency was an administrative recording error with no substantive impact on the evaluation."
+    },
+    "FR-L4-031": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 8 / Sincerity 7.",
+      "falsificationCondition_en": "Records showing the reported conduct conformed to standard project management procedures.",
+      "counterHypothesis_en": "The conduct reflected standard project management practice applied consistently."
+    },
+    "FR-L4-TERMINOLOGY-DISTORTION-001": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 9 / Sincerity 7. The deliberate substitution of neutral terminology for legally significant terms in official documents constitutes falsification of administrative records.",
+      "falsificationCondition_en": "Records showing the terminology change was consistent with standard usage practices at the time.",
+      "counterHypothesis_en": "The terminology change reflected standard administrative language evolution unrelated to legal significance."
+    },
+    "FR-L5-TOTAL-DESTRUCTION-UNPERSON": {
+      "falsificationCondition_en": "Records showing the reported comprehensive exclusion from organizational life was within normal investigative procedures.",
+      "counterHypothesis_en": "The organizational exclusion reflected standard investigation-period protocols to prevent evidence contamination."
+    },
+    "FR-L6-VICTIM-BLAMING": {
+      "falsificationCondition_en": "Records showing the prosecution's framing was based on independent evidence rather than responsibility-shifting.",
+      "counterHypothesis_en": "The prosecution's framing accurately reflected the distribution of responsibility based on available evidence."
+    },
+    "FR-L5-WARNING-LETTER-LEE-JIYOUNG-ONLY": {
+      "falsificationCondition_en": "Records showing the warning letter was part of a broader disciplinary process involving multiple parties.",
+      "counterHypothesis_en": "The warning letter targeted the specific individual whose conduct was most directly relevant to the documented incidents."
+    },
+    "FR-L6-WARRANT-IS-FALSE-DOCUMENT": {
+      "falsificationCondition_en": "Records showing the warrant's content accurately reflected the legal basis for the search.",
+      "counterHypothesis_en": "The warrant met all legal requirements and any technical deficiencies were immaterial administrative errors."
+    },
+    "FR-L6-WARRANT-OMITS-15YR-VPN": {
+      "falsificationCondition_en": "Records showing the warrant explicitly addressed the 15-year VPN non-use history.",
+      "counterHypothesis_en": "The warrant properly focused on the relevant investigative period without needing to address historical matters outside the charge scope."
+    },
+    "FR-L6-WARRANT-VS-NONPROSECUTION-REVERSAL": {
+      "falsificationCondition_en": "A legal analysis showing the warrant's charge framing is consistent with the non-prosecution decision's findings.",
+      "counterHypothesis_en": "The difference between warrant framing and non-prosecution findings reflected normal prosecutorial refinement based on evidence development."
+    },
+    "FR-L7-WHISTLEBLOWER-LAW-FORMAL": {
+      "falsificationCondition_en": "Records showing the Whistleblower Protection Act was properly applied to 한지훈's situation.",
+      "counterHypothesis_en": "The Whistleblower Protection Act was properly assessed and determined not to apply to 한지훈's case."
+    },
+    "FR-XSYN-80ITEMS-TRIANGULATED": {
+      "falsificationCondition_en": "Records showing the 80-item count was independently determined by multiple evaluation parties without coordination.",
+      "counterHypothesis_en": "The 80-item count resulted from genuine independent evaluation of system requirements."
+    },
+    "FR-XSYN-2436-RETROACTIVE": {
+      "falsificationCondition_en": "Records showing Directive No. 2436's provisions were developed independently of the KIATIS case timeline.",
+      "counterHypothesis_en": "Directive No. 2436's provisions were developed through normal policy review processes independent of any specific case."
+    },
+    "FR-XSYN-POST-WARRANT-ARRIVAL": {
+      "falsificationCondition_en": "Records showing the events following the warrant arrival were independently determined.",
+      "counterHypothesis_en": "Post-warrant events followed standard investigative procedures without coordination."
+    },
+    "FR-XSYN-VPN-PUBLIC": {
+      "falsificationCondition_en": "Records showing the VPN status was publicly documented and accessible to all parties.",
+      "counterHypothesis_en": "The VPN status was appropriately documented and any parties claiming ignorance were accurately unaware."
+    },
+    "FR-XSYN-SILENCE-COVERUP": {
+      "falsificationCondition_en": "Records showing the silence from multiple parties was independently determined without coordination.",
+      "counterHypothesis_en": "The silence from multiple parties reflected independent legal risk assessment without organizational coordination."
+    },
+    "FR-XSYN-SOP-CHERRY-PICK": {
+      "falsificationCondition_en": "Records showing the selected SOPs were consistently applied without selective enforcement.",
+      "counterHypothesis_en": "The SOP selection reflected appropriate procedural choices based on the specific case circumstances."
+    },
+    "FR-L5-YANGJUNSEUNG-9POINT-FABRICATION": {
+      "falsificationCondition_en": "Records showing 양준승's 9-point assessment was based on independent evidence collection.",
+      "counterHypothesis_en": "양준승's assessment accurately reflected the evidence available at the time of evaluation."
+    },
+    "FR-L6-EXTERNAL-WITNESS-REACTION": {
+      "falsificationCondition_en": "Records showing external witnesses' reactions were based on independent evaluation of the evidence.",
+      "counterHypothesis_en": "External witnesses' reactions accurately reflected their independent assessment of the case."
+    },
+    "FR-L4-051": {
+      "verdictProse_en": "**CORROBORATED.** Strong. Truthfulness 9 / Validity 9 / Sincerity 7. 舊KIATIS's internet-domain operation is established in Layers 1–3; 新KIATIS's defense-network test environment is confirmed by DIDC cloud construction records. The gap between the 'actual operational environment' requirement in Articles 57/58/62 and the two systems occupying fundamentally different cyber-domains is unambiguous. High Validity because the directive text is directly cited in Book Record Layer 4-001.",
+      "falsificationCondition_en": "Test-environment configuration records showing that 新KIATIS testing was conducted in an internet-based environment matching 舊KIATIS's actual operating conditions; or an operational test-evaluation plan (Annex Form No. 26) explicitly designating the internet environment as the 실제 운용환경.",
+      "counterHypothesis_en": "The network-environment difference was a routine infrastructure migration step; the old and new systems shared sufficient operational continuity that environmental separation was not materially relevant to test validity. Under this view, if the internet→defense-network transition was a planned normal migration, the test environment at evaluation time would reflect the final target operational environment."
+    }
+  }
+}

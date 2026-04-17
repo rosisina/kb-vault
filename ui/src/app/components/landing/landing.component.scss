@@ -522,3 +522,57 @@ $card-w: 210px;   // 호버 카드 폭 (chain 겹침 방지)
   .node-num { font-size: 0.9rem; }
   .node-sublabel { display: none; }
 }
+
+.landing-footer {
+  text-align: center;
+  padding: 1rem 0 1.5rem;
+}
+
+.footer-link {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.75rem;
+  color: var(--text-muted, #666);
+  text-decoration: underline;
+  &:hover { color: var(--text-secondary, #aaa); }
+}
+
+// ── Mobile (≤ 480px) ──
+@media (max-width: 480px) {
+  .landing-page {
+    padding: 0 8px;
+    overflow-x: hidden;
+  }
+
+  .page-header {
+    padding: 12px 0 4px;
+    h1 { font-size: 1.2rem; }
+    p  { display: none; }
+  }
+
+  // Scale the entire main area proportionally (480px base → fits 375px)
+  .main-area {
+    transform: scale(0.7);
+    transform-origin: left top;
+    margin-left: calc((100% - 480px * 0.7) / 2);
+    // layout box is 480px tall; collapse it to visible size (336) + label buffer (50)
+    margin-bottom: -60px;  // next sibling at y=420, nodes end at ~400
+  }
+
+  // Chain menu: hide on mobile (layer circles serve as navigation)
+  .chain-menu { display: none !important; }
+  .chain-line { display: none !important; }
+
+  // Search
+  .search-hero { padding: 12px 0; }
+  .search-box { max-width: 100%; }
+  .search-input { font-size: 0.9rem; }
+
+  // Example queries
+  .example-queries { justify-content: center; flex-wrap: wrap; }
+  .example-btn { font-size: 0.72rem; padding: 4px 8px; }
+
+  // Case overview: hide on mobile
+  .case-overview { display: none; }
+}

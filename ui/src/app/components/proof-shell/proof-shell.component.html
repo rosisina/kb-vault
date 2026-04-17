@@ -9,6 +9,7 @@
       (guidedProof)="onGuidedProof()"
       (metricClick)="onMetricClick($event)"
       (toolClick)="onToolClick($event)"
+      (aboutOpen)="showAbout.set(true)"
     />
   }
 
@@ -129,6 +130,11 @@
         </div>
       </div>
     </div>
+  }
+
+  <!-- About / Disclaimer 모달 -->
+  @if (showAbout()) {
+    <app-about (close)="showAbout.set(false)" />
   }
 
 </div>

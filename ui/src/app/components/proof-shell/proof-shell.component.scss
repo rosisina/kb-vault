@@ -234,3 +234,64 @@
   flex: 1;
   overflow: hidden;
 }
+
+// ═══════════════════════════════════════════════════════════
+// Mobile responsive breakpoints (≤ 640px)
+// ═══════════════════════════════════════════════════════════
+@media (max-width: 640px) {
+  .proof-layout {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    height: auto;
+    overflow: visible;
+  }
+
+  // Left panel: collapsed to a compact top strip
+  .panel-left {
+    display: none;
+  }
+
+  // Center panel: full width, remove fixed height overflow
+  .panel-center,
+  .proof-layout > main,
+  .proof-layout > div:nth-child(2) {
+    width: 100%;
+    overflow-y: visible;
+    height: auto;
+  }
+
+  // Right panel (evidence context): hide by default on mobile
+  .panel-right,
+  .proof-layout > aside:last-child {
+    display: none;
+  }
+
+  // Shell height reset
+  .shell {
+    min-height: unset;
+  }
+
+  // Nav trail: smaller on mobile
+  .nav-trail {
+    padding: 4px 8px;
+  }
+
+  // Graph modal: full screen on mobile
+  .graph-modal {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+  }
+}
+
+// Tablet breakpoint (641px–900px): hide left panel, keep right panel
+@media (min-width: 641px) and (max-width: 900px) {
+  .proof-layout {
+    grid-template-columns: 200px 1fr;
+  }
+
+  .panel-right,
+  .proof-layout > aside:last-child {
+    display: none;
+  }
+}
