@@ -141,7 +141,7 @@
   @if (showPaper()) {
     <app-document-viewer
       (close)="showPaper.set(false)"
-      (atomSearch)="onSearch($event); showPaper.set(false)"
+      (atomSelect)="showPaper.set(false); onAtomSelect($event); onToolClick('chain')"
     />
   }
 
