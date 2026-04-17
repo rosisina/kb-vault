@@ -135,17 +135,23 @@ export class EvidenceContextComponent implements OnChanges {
 
   private buildDashboard(): void {
     let pairs = this.graphData.getContradictions();
-    if (this.activeLayer) {
-      pairs = pairs.filter(p =>
-        p.source.layer === this.activeLayer || p.target.layer === this.activeLayer
-      );
-    }
-    // 검색 결과가 있으면 해당 atom과 관련된 것만 표시
+
+    // Contextual scoping priority: search results > selected atom layer > activeLayer filter > global
     if (this.searchResults.length > 0) {
       const searchIds = new Set(this.searchResults.map(n => n.id));
       pairs = pairs.filter(p =>
         searchIds.has(p.source.id) || searchIds.has(p.target.id)
       );
+    } else {
+      // Use selected atom's layer for context, falling back to activeLayer filter
+      const contextLayer = this.selectedAtomId
+        ? (this.graphData.getNodeById(this.selectedAtomId)?.layer ?? this.activeLayer)
+        : this.activeLayer;
+      if (contextLayer) {
+        pairs = pairs.filter(p =>
+          p.source.layer === contextLayer || p.target.layer === contextLayer
+        );
+      }
     }
 
     const groupMap = new Map<string, ContradictionPair[]>();
@@ -187,21 +193,35 @@ export class EvidenceContextComponent implements OnChanges {
   }
 
   private extractPersons(pairs: ContradictionPair[]): void {
-    const counts = new Map<string, number>();
-    for (const pair of pairs) {
-      for (const name of this.knownNames) {
-        if (pair.source.title.includes(name) || pair.target.title.includes(name)) {
-          counts.set(name, (counts.get(name) || 0) + 1);
-        }
+    const personIndex = this.graphData.getPersonIndex();
+
+    if (this.selectedAtomId && personIndex.length > 0) {
+      // Contextual: show persons appearing in atoms of the selected atom's layer
+      const atomLayer = this.graphData.getNodeById(this.selectedAtomId)?.layer;
+      if (atomLayer) {
+        const layerPersons = personIndex
+          .filter(p => p.layers.includes(atomLayer))
+          .slice(0, 10)
+          .map(p => ({ name: p.name, count: p.count, layers: p.layers }));
+        this.topPersons.set(layerPersons);
+        return;
       }
     }
-    // CP-3.4: Use structured person index from graph.json
-    const personIndex = this.graphData.getPersonIndex();
+
+    // Fallback: derive counts from visible pairs (search results or global)
     if (personIndex.length > 0) {
       this.topPersons.set(
         personIndex.slice(0, 10).map(p => ({ name: p.name, count: p.count, layers: p.layers }))
       );
     } else {
+      const counts = new Map<string, number>();
+      for (const pair of pairs) {
+        for (const name of this.knownNames) {
+          if (pair.source.title.includes(name) || pair.target.title.includes(name)) {
+            counts.set(name, (counts.get(name) || 0) + 1);
+          }
+        }
+      }
       this.topPersons.set(
         [...counts.entries()]
           .sort((a, b) => b[1] - a[1])
