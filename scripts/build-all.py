@@ -64,12 +64,15 @@ def main():
     t_start = time.time()
     results = []
 
-    # Step 1-4: Core build scripts
+    # Step 1-5: Core build scripts + detail.json + pseudonym gate
     steps = [
-        ("tag-relationships", [PYTHON, "scripts/tag-relationships.py"], True),
-        ("atoms-to-graph-json", [PYTHON, "scripts/atoms-to-graph-json.py"], True),
-        ("build-record-index", [PYTHON, "scripts/build-record-index.py"], True),
-        ("rebuild-hubs", [PYTHON, "scripts/rebuild-hubs.py"], True),
+        ("tag-relationships",    [PYTHON, "scripts/tag-relationships.py"],    True),
+        ("atoms-to-graph-json",  [PYTHON, "scripts/atoms-to-graph-json.py"],  True),
+        ("atoms-to-detail-json", [PYTHON, "scripts/atoms-to-detail-json.py"], True),
+        ("build-record-index",   [PYTHON, "scripts/build-record-index.py"],   True),
+        ("rebuild-hubs",         [PYTHON, "scripts/rebuild-hubs.py"],         True),
+        # Layer 2 pseudonymization gate — FAIL BUILD if real names found in JSON artifacts
+        ("scan-real-names",      [PYTHON, "scripts/scan-for-real-names.py"],  True),
     ]
 
     for name, cmd, req in steps:
