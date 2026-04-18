@@ -86,7 +86,7 @@ const TEXT_SUBS: Array<[string, string]> = [
 
 @Injectable({ providedIn: 'root' })
 export class LanguageService {
-  lang = signal<'en' | 'kr'>('kr'); // default: Korean
+  lang = signal<'en' | 'kr'>('en'); // default: English
   private translations: Record<string, Record<string, string>> = {};
 
   async init(): Promise<void> {
