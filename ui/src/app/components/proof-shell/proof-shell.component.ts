@@ -68,6 +68,8 @@ export class ProofShellComponent {
     this.graphData.loadDetail();
     // Load record-mapping for source info display
     this.graphData.loadRecordMapping();
+    // 초기 landing 상태를 히스토리에 기록 (뒤로가기 베이스라인)
+    history.replaceState({ aurora: 'landing' }, '');
   }
 
   // 상단 검색바에서 이벤트 수신
@@ -106,6 +108,8 @@ export class ProofShellComponent {
       if (trail.length === 0 || trail[trail.length - 1].id !== atomId) {
         const entry = { id: node.id, title: node.title, titleEn: node.titleEn, layer: node.layer };
         this.navTrail.set([...trail.slice(-19), entry]); // cap at 20
+        // 브라우저 히스토리에 atom 항목 추가 → 뒤로가기 지원
+        history.pushState({ aurora: 'proof', atomId }, '');
       }
     }
   }
@@ -179,9 +183,39 @@ export class ProofShellComponent {
     this.navTrail.set([]);
   }
 
+  // ── 브라우저 뒤로가기 (Android '<' 버튼) 지원 ──
+  @HostListener('window:popstate', ['$event'])
+  onPopState(_event: PopStateEvent): void {
+    // 모달이 열려 있으면 모달만 닫기
+    if (this.showAbout()) { this.showAbout.set(false); return; }
+    if (this.showPaper()) { this.showPaper.set(false); return; }
+    if (this.showGraphModal()) { this.showGraphModal.set(false); return; }
+
+    if (this.isProof()) {
+      const trail = this.navTrail();
+      if (trail.length > 1) {
+        // trail 한 단계 뒤로
+        this.navTrail.set(trail.slice(0, -1));
+        this.selectedAtomId.set(trail[trail.length - 2].id);
+        history.pushState({ aurora: 'proof' }, '');
+      } else {
+        // 랜딩으로 복귀 (history 항목 추가 없이 replace)
+        this.navTrail.set([]);
+        this.onBackToLanding();
+        history.replaceState({ aurora: 'landing' }, '');
+      }
+    }
+  }
+
   private setState(s: ShellState): void {
     this.state.set(s);
     window.dispatchEvent(new CustomEvent('aurora-state-change', { detail: { state: s } }));
+    // proof 상태 진입 시 브라우저 히스토리에 항목 추가
+    if (s === 'proof') {
+      history.pushState({ aurora: 'proof' }, '');
+    } else {
+      history.replaceState({ aurora: 'landing' }, '');
+    }
   }
 
   onGroupSelect(claimType: string): void {
