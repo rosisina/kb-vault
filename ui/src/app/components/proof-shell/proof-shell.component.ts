@@ -43,6 +43,7 @@ export class ProofShellComponent {
   showGraphModal = signal(false);
   showAbout = signal(false);
   showPaper = signal(false);
+  mobileContextOpen = signal(false);
   graphChain = signal<ProofChain | null>(null);
   scrollToGroup = signal<string | null>(null);
   chatHistory = signal<ChatHistory[]>([]);

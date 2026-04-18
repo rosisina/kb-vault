@@ -128,6 +128,38 @@
     </div>
   }
 
+  <!-- 모바일 하단 시트: 관련 증거 (proof 상태일 때만) -->
+  @if (isProof()) {
+    <button class="mobile-context-btn" (click)="mobileContextOpen.set(true)">
+      <span class="material-icons">info_outline</span>
+      <span>{{ lang.lang() === 'kr' ? '관련 증거' : 'Related Evidence' }}</span>
+    </button>
+
+    @if (mobileContextOpen()) {
+      <div class="mobile-context-overlay" (click)="mobileContextOpen.set(false)"></div>
+      <div class="mobile-context-sheet">
+        <div class="mobile-sheet-handle" (click)="mobileContextOpen.set(false)">
+          <span class="handle-bar"></span>
+          <span class="handle-close">{{ lang.lang() === 'kr' ? '닫기' : 'Close' }}</span>
+        </div>
+        <div class="mobile-sheet-body">
+          <app-evidence-context
+            [activeLayer]="activeLayer()"
+            [selectedAtomId]="selectedAtomId()"
+            [answerContext]="answerForContext()"
+            [searchResults]="searchResults()"
+            (openGraph)="onOpenGraph()"
+            (atomSelect)="onAtomSelect($event); mobileContextOpen.set(false)"
+            (groupSelect)="onGroupSelect($event); mobileContextOpen.set(false)"
+            (personSelect)="onPersonSelect($event); mobileContextOpen.set(false)"
+            (recordSelect)="onRecordSelect($event); mobileContextOpen.set(false)"
+            (previewSelect)="onPreviewSelect($event); mobileContextOpen.set(false)"
+          />
+        </div>
+      </div>
+    }
+  }
+
   <!-- Graph 모달 오버레이 -->
   @if (showGraphModal()) {
     <div class="graph-overlay" (click)="onCloseGraph()">
