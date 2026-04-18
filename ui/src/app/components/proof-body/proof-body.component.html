@@ -307,6 +307,11 @@
   @if (viewMode() === 'chain') {
 
     <!-- 발견사항 상세 본문 (선택 시) -->
+    @if (returnToAnswer()) {
+      <button class="back-to-answer-btn" (click)="backToAnswer()">
+        ← {{ lang.lang() === 'kr' ? '답변으로 돌아가기' : 'Back to answer' }}
+      </button>
+    }
     @if (selectedDetail(); as detail) {
       <div class="atom-full-detail">
         <div class="atom-detail-header">
@@ -586,6 +591,45 @@
           <p class="answer-summary">
             {{ ans.directResults.length }}{{ lang.lang() === 'kr' ? '건의 관련 발견사항에서 도출.' : ' related findings.' }}
           </p>
+
+        <!-- ── Preset Answer 블록 ─────────────────────────────── -->
+        @if (ans.presetMatch; as pm) {
+          <div class="preset-answer-block">
+            <div class="preset-answer-badge">
+              {{ lang.lang() === 'kr' ? '증거 기반 답변' : 'Evidence-Based Answer' }}
+              <span class="preset-score">{{ (pm.score * 100).toFixed(0) }}% 매칭</span>
+            </div>
+            <p class="preset-q">
+              {{ lang.lang() === 'kr' ? pm.answer.q_ko : pm.answer.q_en }}
+            </p>
+            <p class="preset-a">
+              {{ lang.lang() === 'kr' ? pm.answer.answer_ko : pm.answer.answer_en }}
+            </p>
+            <div class="preset-meta">
+              <div class="preset-disclaimer">
+                {{ lang.lang() === 'kr'
+                  ? 'AI 합성 답변 — 법적 증거 효력 없음. 원전(Record No.) 직접 확인 권장.'
+                  : 'AI-synthesized answer — no legal evidentiary effect. Verify original Record No. directly.' }}
+              </div>
+              @if (pm.answer.relatedAtoms.length > 0) {
+                <div class="preset-atoms">
+                  <span class="preset-atoms-label">{{ lang.lang() === 'kr' ? '관련 발견사항:' : 'Related findings:' }}</span>
+                  @for (atomId of pm.answer.relatedAtoms.slice(0, 5); track atomId) {
+                    <button class="preset-atom-chip" [atomTooltip]="atomId" (click)="onAtomClick(atomId)">{{ atomId }}</button>
+                  }
+                </div>
+              }
+              @if (pm.answer.keyPersons.length > 0) {
+                <div class="preset-persons">
+                  <span class="preset-atoms-label">{{ lang.lang() === 'kr' ? '관련 인물:' : 'Key persons:' }}</span>
+                  @for (person of pm.answer.keyPersons.slice(0, 4); track person) {
+                    <button class="preset-person-chip" (click)="onPersonChipClick(person)">{{ person }}</button>
+                  }
+                </div>
+              }
+            </div>
+          </div>
+        }
           <div class="answer-layer-chips">
             @for (layer of getAnswerLayers(ans); track layer) {
               <button class="answer-layer-chip"

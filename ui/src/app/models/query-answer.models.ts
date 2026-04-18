@@ -46,6 +46,7 @@ export interface ThematicGroup {
 export interface QueryAnswer {
   query: string;
   totalMatches: number;
+  presetMatch?: { answer: import('../services/preset-answer.service').PresetAnswer; score: number };
   directResults: ScoredAtom[];
   thematicGroups: ThematicGroup[];
   corroboratingResults: RelatedAtomEntry[];

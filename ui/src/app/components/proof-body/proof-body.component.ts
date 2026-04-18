@@ -56,6 +56,7 @@ export class ProofBodyComponent implements OnChanges {
   @Output() facetChange = new EventEmitter<any>();
   @Output() previewNavigate = new EventEmitter<string>();
   @Output() previewClose = new EventEmitter<void>();
+  @Output() personSelect = new EventEmitter<string>();
 
   // 미니 프리뷰
   previewNode = signal<GraphNode | null>(null);
@@ -66,6 +67,8 @@ export class ProofBodyComponent implements OnChanges {
   showFilters = signal(false);
 
   viewMode = signal<ViewMode>('chain');
+  returnToAnswer = signal(false); // true when navigated to atom from answer/preset view
+  private _prevSearchQuery: string | null = null;
 
   // CP-3.2: Guided Proof
   guidedFractures = signal<GraphNode[]>([]);
@@ -196,6 +199,12 @@ export class ProofBodyComponent implements OnChanges {
       this.guidedFractures.set(this.graphData.getStrongestFractures(7));
       this.guidedIndex.set(0);
       this.viewMode.set('guided');
+    }
+
+    // Reset return-to-answer only when query actually changes
+    if (this.searchQuery !== this._prevSearchQuery) {
+      this.returnToAnswer.set(false);
+      this._prevSearchQuery = this.searchQuery;
     }
 
     // Compose answer when query arrives (wait for detail.json)
@@ -440,10 +449,21 @@ export class ProofBodyComponent implements OnChanges {
 
   onAtomClick(id: string): void {
     this.atomSelect.emit(id);
-    // Switch to chain view to show atom detail — but stay in guided view if guided
-    if (this.viewMode() !== 'chain' && this.viewMode() !== 'guided') {
+    if (this.viewMode() === 'answer') {
+      this.returnToAnswer.set(true);
+      this.viewMode.set('chain');
+    } else if (this.viewMode() !== 'chain' && this.viewMode() !== 'guided') {
       this.viewMode.set('chain');
     }
+  }
+
+  backToAnswer(): void {
+    this.returnToAnswer.set(false);
+    this.viewMode.set('answer');
+  }
+
+  onPersonChipClick(name: string): void {
+    this.personSelect.emit(name);
   }
 
   onChainNodeClick(id: string): void {

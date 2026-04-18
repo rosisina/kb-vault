@@ -1705,3 +1705,117 @@
   font-weight: 500;
   &:hover { text-decoration: underline; }
 }
+
+// ═══════════════════════════════════════════════════════════
+// Preset Answer Block
+// ═══════════════════════════════════════════════════════════
+
+.back-to-answer-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 12px;
+  padding: 5px 12px;
+  background: var(--aurora-surface-2, #1e2a3a);
+  border: 1px solid var(--aurora-accent, #4a9eff);
+  border-radius: 6px;
+  color: var(--aurora-accent, #4a9eff);
+  font-size: 0.8rem;
+  cursor: pointer;
+  &:hover { background: var(--aurora-accent, #4a9eff); color: #fff; }
+}
+
+.preset-answer-block {
+  margin: 12px 0 16px;
+  padding: 14px 16px;
+  background: color-mix(in srgb, var(--aurora-primary) 6%, var(--aurora-bg));
+  border: 1px solid color-mix(in srgb, var(--aurora-primary) 30%, transparent);
+  border-left: 3px solid var(--aurora-primary);
+  border-radius: 6px;
+}
+
+.preset-answer-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--aurora-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 8px;
+}
+
+.preset-score {
+  font-weight: 400;
+  color: var(--aurora-muted);
+  text-transform: none;
+}
+
+.preset-q {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--aurora-text);
+  margin: 0 0 8px;
+  line-height: 1.5;
+}
+
+.preset-a {
+  font-size: 0.82rem;
+  color: var(--aurora-text-secondary, var(--aurora-text));
+  line-height: 1.7;
+  margin: 0 0 10px;
+  white-space: pre-line;
+}
+
+.preset-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.preset-disclaimer {
+  font-size: 0.70rem;
+  color: var(--aurora-muted);
+  font-style: italic;
+  padding: 4px 8px;
+  background: color-mix(in srgb, var(--aurora-muted) 8%, transparent);
+  border-radius: 3px;
+}
+
+.preset-atoms, .preset-persons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+}
+
+.preset-atoms-label {
+  font-size: 0.70rem;
+  color: var(--aurora-muted);
+  margin-right: 2px;
+}
+
+.preset-atom-chip {
+  font-size: 0.68rem;
+  font-family: 'JetBrains Mono', monospace;
+  background: color-mix(in srgb, var(--aurora-primary) 12%, transparent);
+  color: var(--aurora-primary);
+  border: 1px solid color-mix(in srgb, var(--aurora-primary) 25%, transparent);
+  border-radius: 3px;
+  padding: 1px 6px;
+  cursor: pointer;
+  transition: background 0.15s;
+  &:hover { background: color-mix(in srgb, var(--aurora-primary) 22%, transparent); }
+}
+
+.preset-person-chip {
+  font-size: 0.70rem;
+  background: color-mix(in srgb, var(--aurora-accent, #9a2060) 10%, transparent);
+  color: var(--aurora-accent, #9a2060);
+  border-radius: 3px;
+  padding: 1px 7px;
+  border: 1px solid color-mix(in srgb, var(--aurora-accent, #9a2060) 20%, transparent);
+  cursor: pointer;
+  &:hover { background: color-mix(in srgb, var(--aurora-accent, #9a2060) 22%, transparent); }
+}
