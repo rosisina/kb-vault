@@ -1,10 +1,11 @@
 // Aurora v2 CP-2 — Proof Body (중앙 패널)
 // 기본: 증명 체인 뷰 / 보조: 모순 나열 / 답변 뷰
-import { Component, Input, Output, EventEmitter, OnChanges, signal, ElementRef } from '@angular/core';
+import { Component, Input, Output, EventEmitter, OnChanges, signal, ElementRef, effect, untracked } from '@angular/core';
 import { GraphDataService } from '../../services/graph-data.service';
 import { LanguageService } from '../../services/language.service';
 import { ClaimTypeService } from '../../services/claim-type.service';
 import { QueryAnswerService } from '../../services/query-answer.service';
+import { PresetAnswerService } from '../../services/preset-answer.service';
 import {
   GraphNode, GraphEdge, AtomDetail, ProofChain, ChainNode, AtomRelated,
 } from '../../models/graph.models';
@@ -147,8 +148,21 @@ export class ProofBodyComponent implements OnChanges {
     public lang: LanguageService,
     private claimTypeService: ClaimTypeService,
     private queryAnswerService: QueryAnswerService,
+    private presetAnswerService: PresetAnswerService,
     private el: ElementRef,
-  ) {}
+  ) {
+    // Once preset-answers.json loads, attach preset match to current answer (untracked to avoid loop)
+    effect(() => {
+      if (this.presetAnswerService.loaded()) {
+        const ans = untracked(() => this.answer());
+        const query = this.searchQuery;
+        if (ans && query && !ans.presetMatch) {
+          const preset = this.presetAnswerService.findMatch(query, this.lang.lang());
+          if (preset) this.answer.set({ ...ans, presetMatch: preset });
+        }
+      }
+    });
+  }
 
   ngOnChanges(): void {
     // Load available facets for filter UI
@@ -448,6 +462,11 @@ export class ProofBodyComponent implements OnChanges {
     const ans = this.queryAnswerService.composeAnswer(
       this.searchQuery, this.activeLayer ?? undefined
     );
+    // Attach preset match if available
+    const preset = this.presetAnswerService.findMatch(
+      this.searchQuery, this.lang.lang()
+    );
+    if (preset) ans.presetMatch = preset;
     console.log('[Aurora Answer]', {
       query: ans.query,
       direct: ans.directResults.length,
