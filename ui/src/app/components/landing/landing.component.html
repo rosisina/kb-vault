@@ -12,6 +12,46 @@
   </div>
 
   <!-- ══════════════════════════════════════════ -->
+  <!-- ══════════════════════════════════════════ -->
+  <!-- Mobile: Layer Grid + Tool Row (≤600px)    -->
+  <!-- ══════════════════════════════════════════ -->
+  <div class="mobile-main">
+    <!-- 7 Layer 그리드 -->
+    <div class="mobile-layer-grid">
+      @for (pos of nodePositions(); track pos.num) {
+        <button class="mobile-layer-btn"
+                [style.--lc]="layerColors[pos.num]"
+                (click)="onLayerClick(pos.num)">
+          <span class="mlb-num">{{ pos.num }}</span>
+          <span class="mlb-title">{{ lang.lang() === 'kr' ? layerTitles[pos.num].kr : layerTitles[pos.num].en }}</span>
+        </button>
+      }
+    </div>
+    <!-- 도구 칩 행 -->
+    <div class="mobile-tool-row">
+      <button class="mobile-tool-chip" (click)="onToolClick('guided')">
+        <span class="material-icons">verified</span>
+        <span>{{ lang.lang() === 'kr' ? 'Guided' : 'Guided' }}</span>
+      </button>
+      <button class="mobile-tool-chip" (click)="onToolClick('chain')">
+        <span class="material-icons">account_tree</span>
+        <span>{{ lang.lang() === 'kr' ? '체인' : 'Chain' }}</span>
+      </button>
+      <button class="mobile-tool-chip" (click)="onToolClick('fractures')">
+        <span class="material-icons">compare_arrows</span>
+        <span>{{ lang.lang() === 'kr' ? '균열' : 'Fractures' }}</span>
+      </button>
+      <button class="mobile-tool-chip" (click)="onToolClick('filter')">
+        <span class="material-icons">tune</span>
+        <span>{{ lang.lang() === 'kr' ? '필터' : 'Filter' }}</span>
+      </button>
+      <button class="mobile-tool-chip" (click)="toolClick.emit('paper')">
+        <span class="material-icons">article</span>
+        <span>{{ lang.lang() === 'kr' ? '논문' : 'Paper' }}</span>
+      </button>
+    </div>
+  </div>
+
   <!-- Main: Heptagon (좌/중) + Chain Menu (우)  -->
   <!-- ══════════════════════════════════════════ -->
   <div class="main-area">
