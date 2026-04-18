@@ -89,8 +89,8 @@ def parse_questions(md_path: Path) -> list[dict]:
             continue
         if num < 1 or num > 150:
             continue
-        # 헤더 행 스킵 ("번호", "질문" 등)
-        if '번호' in q_text or '질문' in q_text.lower():
+        # 헤더 행 스킵 — 정확히 헤더 텍스트인 경우만
+        if q_text.strip() in ('번호', '질문 (Question)', 'Question', '질문'):
             continue
         if len(q_text) < 5:
             continue
@@ -218,12 +218,12 @@ def generate_answer(client: anthropic.Anthropic, question: dict,
   "keyPersons": ["김민수", "이지영"]
 }}"""
 
-    # 혼합 모델: narrative형은 Sonnet, factual형은 Haiku
-    model = MODEL_SONNET if question['type'] == 'narrative' else MODEL_HAIKU
+    # Haiku로 통일 — Sonnet은 분당 30k 토큰 제한으로 25k 컨텍스트 재사용 불가
+    model = MODEL_HAIKU
 
     response = client.messages.create(
         model=model,
-        max_tokens=1200,
+        max_tokens=1800,
         system=SYSTEM_PROMPT,
         messages=[
             {
@@ -244,12 +244,24 @@ def generate_answer(client: anthropic.Anthropic, question: dict,
     )
 
     raw = response.content[0].text.strip()
-    # JSON 추출
+    # 제어문자 제거 (탭·줄바꿈 제외)
+    raw = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', '', raw)
+    # ```json ... ``` 마크다운 펜스 제거
+    raw = re.sub(r'^```(?:json)?\s*', '', raw, flags=re.MULTILINE)
+    raw = re.sub(r'```\s*$', '', raw, flags=re.MULTILINE)
+    raw = raw.strip()
+    # JSON 블록 추출
     json_match = re.search(r'\{[\s\S]+\}', raw)
     if not json_match:
         raise ValueError(f"JSON 파싱 실패: {raw[:200]}")
-
-    data = json.loads(json_match.group())
+    json_str = json_match.group()
+    # 불완전한 JSON 복구 시도 (max_tokens 잘림 대비)
+    try:
+        data = json.loads(json_str)
+    except json.JSONDecodeError:
+        # 마지막 완전한 필드까지만 파싱
+        json_str = re.sub(r',\s*"[^"]+"\s*:\s*[^,}\]]*$', '', json_str) + '}'
+        data = json.loads(json_str)
 
     return {
         "id": question['id'],
@@ -326,7 +338,7 @@ def main():
     errors = []
 
     for i, q in enumerate(questions, 1):
-        model_tag = "S" if q['type'] == 'narrative' else "H"
+        model_tag = "H"
         print(f"[{i:3d}/{len(questions)}][{model_tag}] {q['id']} {q['q_ko'][:40]}...", end=' ', flush=True)
         try:
             answer = generate_answer(client, q, atom_context)
