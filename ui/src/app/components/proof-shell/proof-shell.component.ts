@@ -146,8 +146,9 @@ export class ProofShellComponent {
     this.selectedAtomId.set(null);
     this.setState('proof');
     // Push to back-navigation stack (cap at 10)
-    this.searchStack.push({ query, results });
-    if (this.searchStack.length > 10) this.searchStack.shift();
+    const stack = this.searchStack();
+    const next = [...stack, { query, results }];
+    this.searchStack.set(next.length > 10 ? next.slice(-10) : next);
   }
 
   onFacetChange(facets: any): void {
@@ -284,15 +285,16 @@ export class ProofShellComponent {
     }
   }
 
-  // Search history stack for back navigation
-  private searchStack: Array<{ query: string; results: GraphNode[] }> = [];
-
-  get canGoBackSearch(): boolean { return this.searchStack.length > 1; }
+  // Search history stack for back navigation (signal-based for change detection)
+  private searchStack = signal<Array<{ query: string; results: GraphNode[] }>>([]);
+  canGoBackSearch = computed(() => this.searchStack().length > 1);
 
   goBackSearch(): void {
-    if (this.searchStack.length > 1) {
-      this.searchStack.pop();
-      const prev = this.searchStack[this.searchStack.length - 1];
+    const stack = this.searchStack();
+    if (stack.length > 1) {
+      const next = stack.slice(0, -1);
+      this.searchStack.set(next);
+      const prev = next[next.length - 1];
       this.searchQuery.set(prev.query);
       this.searchResults.set(prev.results);
     }

@@ -17,7 +17,7 @@
   @if (isProof()) {
 
     <!-- 검색 뒤로가기 (인물 클릭 등으로 검색이 바뀐 경우) -->
-    @if (canGoBackSearch) {
+    @if (canGoBackSearch()) {
       <div class="search-back-bar">
         <button class="search-back-btn" (click)="goBackSearch()">
           <span class="material-icons">arrow_back</span>
