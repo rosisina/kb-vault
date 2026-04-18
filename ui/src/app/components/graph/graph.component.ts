@@ -141,12 +141,19 @@ type GraphMode = 'atom' | 'full';
       color: var(--aurora-text-secondary); font-family: 'JetBrains Mono', monospace; flex-shrink: 0;
     }
     .focus-label { color: var(--aurora-primary); font-weight: 600; }
-    .cy-container { flex: 1; min-height: 300px; background: #fafbfe; border: 1px solid #e8eaf6; border-radius: 8px; }
+    .cy-container { flex: 1; min-height: 300px; background: #fafbfe; border: 1px solid #e8eaf6; border-radius: 8px; touch-action: none; }
     .graph-legend {
       display: flex; gap: 14px; font-size: 0.68rem; color: var(--aurora-text-secondary); flex-shrink: 0;
     }
     .legend-item { display: flex; align-items: center; gap: 4px; }
     .legend-line { display: inline-block; width: 18px; height: 2px; border-radius: 1px; }
+    @media (max-width: 640px) {
+      .filter-bar { display: none; }
+      .graph-legend { display: none; }
+      .graph-info { font-size: 0.78rem; }
+      .mode-btn { padding: 8px 14px; font-size: 0.82rem; min-height: 40px; }
+      .cy-container { border-radius: 4px; }
+    }
   `],
 })
 export class GraphComponent implements OnInit, AfterViewInit, OnChanges, OnDestroy {
@@ -390,6 +397,11 @@ export class GraphComponent implements OnInit, AfterViewInit, OnChanges, OnDestr
     ];
 
     const layout = nodes.length <= 20 ? 'breadthfirst' : 'cose';
+    const isMobile = window.innerWidth <= 640;
+    const nodeSize = isMobile ? 36 : 24;
+    const focusSize = isMobile ? 52 : 36;
+    const fontSize = isMobile ? '12px' : '9px';
+    const focusFontSize = isMobile ? '14px' : '11px';
 
     this.cy = cytoscape({
       container: this.cyRef.nativeElement,
@@ -401,11 +413,11 @@ export class GraphComponent implements OnInit, AfterViewInit, OnChanges, OnDestr
             'label': 'data(label)',
             'background-color': 'data(color)',
             'color': '#333',
-            'font-size': '9px',
+            'font-size': fontSize,
             'text-wrap': 'wrap' as any,
             'text-max-width': '100px',
-            'width': 24,
-            'height': 24,
+            'width': nodeSize,
+            'height': nodeSize,
             'text-valign': 'bottom',
             'text-halign': 'center',
             'text-margin-y': 3,
@@ -414,9 +426,9 @@ export class GraphComponent implements OnInit, AfterViewInit, OnChanges, OnDestr
         {
           selector: 'node[?isFocus]',
           style: {
-            'width': 36, 'height': 36,
+            'width': focusSize, 'height': focusSize,
             'border-width': 3, 'border-color': '#534bae',
-            'font-weight': 'bold', 'font-size': '11px',
+            'font-weight': 'bold', 'font-size': focusFontSize,
           } as any,
         },
         {
@@ -436,10 +448,14 @@ export class GraphComponent implements OnInit, AfterViewInit, OnChanges, OnDestr
       ],
       layout: {
         name: layout,
-        ...(layout === 'breadthfirst' ? { directed: true, spacingFactor: 1.3 } : {}),
-        ...(layout === 'cose' ? { idealEdgeLength: () => 80, nodeOverlap: 15, animate: false } : {}),
+        ...(layout === 'breadthfirst' ? { directed: true, spacingFactor: isMobile ? 1.8 : 1.3 } : {}),
+        ...(layout === 'cose' ? { idealEdgeLength: () => isMobile ? 120 : 80, nodeOverlap: 15, animate: false } : {}),
       } as any,
-      minZoom: 0.2, maxZoom: 4, wheelSensitivity: 0.3,
+      minZoom: 0.1, maxZoom: 6,
+      wheelSensitivity: 0.3,
+      // 핀치줌 활성화 (기본값 true이지만 명시)
+      userZoomingEnabled: true,
+      userPanningEnabled: true,
     });
 
     this.cy.on('layoutstop', () => this.cy?.fit(undefined, 30));
