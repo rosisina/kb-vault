@@ -203,7 +203,27 @@
         <!-- 클릭 시 펼침 -->
         @if (activeCase(); as tab) {
           <div class="case-expanded">
-            <p>{{ lang.lang() === 'kr' ? caseContent[tab].kr : caseContent[tab].en }}</p>
+            @if (tab === 'evidence') {
+              <!-- 증거 탭: Layer 필터 + Atom 카드 -->
+              <div class="evidence-layer-chips">
+                @for (l of [1,2,3,4,5,6,7]; track l) {
+                  <button class="ev-layer-chip"
+                          [class.active]="activeEvidenceLayer() === l"
+                          [style.--lc]="layerColors[l]"
+                          (click)="onEvidenceLayerClick(l, $event)">L{{ l }}</button>
+                }
+              </div>
+              <div class="evidence-atom-list">
+                @for (atom of getEvidenceAtoms(activeEvidenceLayer()); track atom.id) {
+                  <button class="ev-atom-card" (click)="onEvidenceAtomClick(atom.id, $event)">
+                    <span class="ev-atom-id">{{ atom.id }}</span>
+                    <span class="ev-atom-title">{{ lang.lang() === 'kr' ? atom.title : (atom.titleEn || atom.title) }}</span>
+                  </button>
+                }
+              </div>
+            } @else {
+              <p>{{ lang.lang() === 'kr' ? caseContent[tab].kr : caseContent[tab].en }}</p>
+            }
           </div>
         }
       </div>

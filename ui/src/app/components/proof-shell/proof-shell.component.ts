@@ -300,6 +300,13 @@ export class ProofShellComponent {
     }
   }
 
+  // Landing 증거 탭 atom 카드 클릭 → proof 상태로 전환 후 해당 atom 선택
+  onLandingAtomSelect(atomId: string): void {
+    this.setState('proof');
+    this.activeLayer.set(null);
+    setTimeout(() => this.onAtomSelect(atomId), 0);
+  }
+
   // CP-3.4: Person select — search for all atoms by this person
   onPersonSelect(name: string): void {
     this.onSearch(name);

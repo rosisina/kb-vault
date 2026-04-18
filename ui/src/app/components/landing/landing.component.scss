@@ -437,8 +437,45 @@ $card-w: 210px;   // 호버 카드 폭 (chain 겹침 방지)
   padding: 9px 12px;
   background: #f9fafb; border-radius: 10px;
   border: 1px solid #f3f4f6;
-  width: 100%; max-width: 240px;
+  width: 100%; max-width: 260px;
   p { font-size: 0.74rem; color: #374151; line-height: 1.55; margin: 0; }
+}
+
+.evidence-layer-chips {
+  display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 8px;
+}
+
+.ev-layer-chip {
+  background: none; border: 1px solid var(--lc, #ccc);
+  color: var(--lc, #666); border-radius: 12px;
+  font-size: 0.68rem; font-weight: 600;
+  padding: 2px 7px; cursor: pointer; transition: background 0.15s;
+  &.active { background: var(--lc, #666); color: #fff; }
+  &:hover:not(.active) { background: color-mix(in srgb, var(--lc, #ccc) 15%, transparent); }
+}
+
+.evidence-atom-list {
+  display: flex; flex-direction: column; gap: 4px;
+}
+
+.ev-atom-card {
+  display: flex; flex-direction: column; align-items: flex-start;
+  background: #fff; border: 1px solid #e5e7eb; border-radius: 7px;
+  padding: 6px 9px; cursor: pointer; text-align: left;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  &:hover {
+    border-color: #6366f1;
+    box-shadow: 0 1px 6px rgba(99,102,241,0.12);
+  }
+}
+
+.ev-atom-id {
+  font-size: 0.62rem; color: #9ca3af; font-family: monospace;
+  margin-bottom: 2px;
+}
+
+.ev-atom-title {
+  font-size: 0.71rem; color: #1f2937; line-height: 1.4;
 }
 
 // ══════════════════════════════════════

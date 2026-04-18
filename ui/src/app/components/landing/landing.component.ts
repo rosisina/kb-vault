@@ -4,6 +4,7 @@ import { Component, OnInit, Output, EventEmitter, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { GraphDataService } from '../../services/graph-data.service';
 import { LanguageService } from '../../services/language.service';
+import { GraphNode } from '../../models/graph.models';
 
 interface LayerStat {
   num: number; count: number; corroborated: number;
@@ -34,6 +35,7 @@ export class LandingViewComponent implements OnInit {
   @Output() metricClick = new EventEmitter<string>();
   @Output() toolClick = new EventEmitter<string>();
   @Output() aboutOpen = new EventEmitter<void>();
+  @Output() atomSelect = new EventEmitter<string>();
 
   layers = signal<LayerStat[]>([]);
   searchQuery = '';
@@ -41,6 +43,7 @@ export class LandingViewComponent implements OnInit {
   hoveredTool = signal<string | null>(null);
   hoveredCase = signal<string | null>(null);
   activeCase = signal<string | null>(null);
+  activeEvidenceLayer = signal<number>(1);
 
   // 원형 배치 좌표
   nodePositions = signal<NodePosition[]>([]);
@@ -320,5 +323,19 @@ export class LandingViewComponent implements OnInit {
 
   toggleCase(tab: string): void {
     this.activeCase.set(this.activeCase() === tab ? null : tab);
+  }
+
+  getEvidenceAtoms(layer: number): GraphNode[] {
+    return this.graphData.getNodes(layer).slice(0, 8);
+  }
+
+  onEvidenceLayerClick(layer: number, event: Event): void {
+    event.stopPropagation();
+    this.activeEvidenceLayer.set(layer);
+  }
+
+  onEvidenceAtomClick(atomId: string, event: Event): void {
+    event.stopPropagation();
+    this.atomSelect.emit(atomId);
   }
 }
