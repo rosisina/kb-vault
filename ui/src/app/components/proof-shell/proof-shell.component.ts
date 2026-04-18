@@ -125,9 +125,10 @@ export class ProofShellComponent {
     if (trail.length > 1) {
       this.navTrail.set(trail.slice(0, -1));
       this.selectedAtomId.set(trail[trail.length - 2].id);
-    } else if (trail.length === 1) {
+    } else {
+      // trail이 비면 랜딩으로 복귀
       this.navTrail.set([]);
-      this.selectedAtomId.set(null);
+      this.onBackToLanding();
     }
   }
 

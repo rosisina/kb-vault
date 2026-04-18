@@ -27,10 +27,20 @@
       </div>
     }
 
+    <!-- 항상 표시: 첫 화면 복귀 (navTrail 없을 때 = tool 클릭 진입) -->
+    @if (navTrail().length === 0) {
+      <div class="landing-back-bar">
+        <button class="landing-back-btn" (click)="onBackToLanding()">
+          <span class="material-icons">arrow_back</span>
+          {{ lang.lang() === 'kr' ? '첫 화면으로' : 'Back to Home' }}
+        </button>
+      </div>
+    }
+
     <!-- CP-3: Navigation Trail (Obsidian stacked panes 개념) -->
     @if (navTrail().length > 0) {
       <nav class="nav-trail">
-        <button class="trail-back" (click)="onTrailBack()" [attr.title]="lang.lang() === 'kr' ? '뒤로' : 'Back'">
+        <button class="trail-back" (click)="onTrailBack()" [attr.title]="lang.lang() === 'kr' ? '뒤로 / 첫 화면' : 'Back / Home'">
           <span class="material-icons">arrow_back</span>
         </button>
         <div class="trail-items">

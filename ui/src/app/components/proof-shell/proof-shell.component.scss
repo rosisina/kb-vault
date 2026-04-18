@@ -31,6 +31,29 @@
   &:hover { background: #fff3e0; }
 }
 
+.landing-back-bar {
+  padding: 4px 16px;
+  background: #f5f6fa;
+  border-bottom: 1px solid #e8eaf6;
+}
+
+.landing-back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--aurora-text-secondary);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 6px;
+  transition: background 0.15s, color 0.15s;
+  .material-icons { font-size: 16px; }
+  &:hover { background: #e0e3eb; color: var(--aurora-text); }
+}
+
 .nav-trail {
   display: flex;
   align-items: center;
