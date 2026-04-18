@@ -49,9 +49,7 @@ export class PresetAnswerService {
 
     for (const answer of this.answers) {
       const qText = lang === 'en' ? answer.q_en : answer.q_ko;
-      const aText = lang === 'en' ? answer.answer_en : answer.answer_ko;
-      const score = this.jaccardSim(terms, this.tokenize(qText))
-                  + this.jaccardSim(terms, this.tokenize(aText)) * 0.3;
+      const score = this.jaccardSim(terms, this.tokenize(qText));
       if (score > (best?.score ?? 0)) {
         best = { answer, score };
       }
