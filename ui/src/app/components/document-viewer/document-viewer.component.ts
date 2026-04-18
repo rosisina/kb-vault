@@ -3,7 +3,7 @@
 //             layer chip navigation, back/ESC navigation
 import {
   Component, Output, EventEmitter, signal, computed,
-  OnInit, OnDestroy, HostListener, inject,
+  OnInit, OnDestroy, HostListener, AfterViewInit, ViewChild, ElementRef,
 } from '@angular/core';
 import { SlicePipe } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
@@ -45,9 +45,19 @@ function detectLayer(title: string): number | null {
   templateUrl: './document-viewer.component.html',
   styleUrl: './document-viewer.component.scss',
 })
-export class DocumentViewerComponent implements OnInit, OnDestroy {
+export class DocumentViewerComponent implements OnInit, AfterViewInit, OnDestroy {
   @Output() close = new EventEmitter<void>();
   @Output() atomSelect = new EventEmitter<string>();
+  @ViewChild('pvContent') pvContentRef!: ElementRef<HTMLElement>;
+
+  // Pinch-zoom state
+  private pinchScale = 1;
+  private pinchLastDist = 0;
+  private pinchOriginX = 0;
+  private pinchOriginY = 0;
+  private _onTouchStart!: (e: TouchEvent) => void;
+  private _onTouchMove!: (e: TouchEvent) => void;
+  private _onTouchEnd!: (e: TouchEvent) => void;
 
   paper = signal<PaperData | null>(null);
   activeSection = signal<string | null>(null);
@@ -100,7 +110,57 @@ export class DocumentViewerComponent implements OnInit, OnDestroy {
     });
   }
 
-  ngOnDestroy(): void {}
+  ngAfterViewInit(): void {
+    if (window.innerWidth > 640) return; // 모바일에서만 핀치줌 초기화
+    const el = this.pvContentRef?.nativeElement;
+    if (!el) return;
+
+    this._onTouchStart = (e: TouchEvent) => {
+      if (e.touches.length === 2) {
+        const dx = e.touches[0].clientX - e.touches[1].clientX;
+        const dy = e.touches[0].clientY - e.touches[1].clientY;
+        this.pinchLastDist = Math.hypot(dx, dy);
+        this.pinchOriginX = (e.touches[0].clientX + e.touches[1].clientX) / 2;
+        this.pinchOriginY = (e.touches[0].clientY + e.touches[1].clientY) / 2;
+      }
+    };
+
+    this._onTouchMove = (e: TouchEvent) => {
+      if (e.touches.length !== 2) return;
+      e.preventDefault();
+      const dx = e.touches[0].clientX - e.touches[1].clientX;
+      const dy = e.touches[0].clientY - e.touches[1].clientY;
+      const dist = Math.hypot(dx, dy);
+      const delta = dist / this.pinchLastDist;
+      this.pinchLastDist = dist;
+      this.pinchScale = Math.min(4, Math.max(0.5, this.pinchScale * delta));
+      el.style.transform = `scale(${this.pinchScale})`;
+      el.style.transformOrigin = `${this.pinchOriginX}px ${this.pinchOriginY}px`;
+    };
+
+    this._onTouchEnd = (e: TouchEvent) => {
+      if (e.touches.length < 2) {
+        // Snap back if too small
+        if (this.pinchScale < 0.9) {
+          this.pinchScale = 1;
+          el.style.transform = 'scale(1)';
+        }
+      }
+    };
+
+    el.addEventListener('touchstart', this._onTouchStart, { passive: true });
+    el.addEventListener('touchmove', this._onTouchMove, { passive: false });
+    el.addEventListener('touchend', this._onTouchEnd, { passive: true });
+  }
+
+  ngOnDestroy(): void {
+    const el = this.pvContentRef?.nativeElement;
+    if (el) {
+      el.removeEventListener('touchstart', this._onTouchStart);
+      el.removeEventListener('touchmove', this._onTouchMove);
+      el.removeEventListener('touchend', this._onTouchEnd);
+    }
+  }
 
   @HostListener('document:keydown', ['$event'])
   onKey(e: KeyboardEvent): void {
