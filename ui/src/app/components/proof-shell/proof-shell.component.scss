@@ -323,6 +323,7 @@
     width: 100%;
     overflow-y: auto;
     overflow-x: hidden;
+    touch-action: pan-y pinch-zoom;
     height: 100%;
     padding: 16px 12px;
     -webkit-overflow-scrolling: touch;

@@ -129,6 +129,7 @@ $shadow:     0 8px 32px rgba(0,0,0,.18);
   flex: 1; overflow-y: auto; padding: 36px 56px;
   scroll-behavior: smooth; scrollbar-width: thin;
   max-width: 860px;
+  touch-action: pan-y pinch-zoom; // 모바일 핀치줌 허용
 }
 
 .pv-cover {
@@ -382,6 +383,7 @@ $shadow:     0 8px 32px rgba(0,0,0,.18);
     flex-direction: column;
     overflow-y: auto;
     overflow-x: hidden;
+    touch-action: pan-y pinch-zoom;
   }
 
   // 좌측 TOC: 숨김
@@ -394,6 +396,7 @@ $shadow:     0 8px 32px rgba(0,0,0,.18);
     padding: 14px 14px 32px;
     border-right: none;
     overflow-y: visible;
+    touch-action: pan-y pinch-zoom;
   }
 
   // 우측 annotation: 숨김
