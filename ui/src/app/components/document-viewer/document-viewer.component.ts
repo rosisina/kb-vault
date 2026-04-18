@@ -3,7 +3,7 @@
 //             layer chip navigation, back/ESC navigation
 import {
   Component, Output, EventEmitter, signal, computed,
-  OnInit, OnDestroy, HostListener,
+  OnInit, OnDestroy, HostListener, NgZone,
 } from '@angular/core';
 import { SlicePipe } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
@@ -83,41 +83,76 @@ export class DocumentViewerComponent implements OnInit, OnDestroy {
       .slice(0, 10);
   });
 
+  // Pinch-zoom state
+  private pinchScale = 1;
+  private lastPinchDist = 0;
+  private pinchUnlisteners: (() => void)[] = [];
+
   constructor(
     public lang: LanguageService,
     public graphData: GraphDataService,
     private http: HttpClient,
     private sanitizer: DomSanitizer,
+    private zone: NgZone,
   ) {}
 
   ngOnInit(): void {
-    this.enablePinchZoom();
     this.http.get<PaperData>('assets/paper.json').subscribe(data => {
       data.sections = data.sections.map(s => ({ ...s, layer: s.layer ?? detectLayer(s.title) ?? undefined }));
       for (const s of data.sections) {
         if (s.layer && !this.layerSectionMap[s.layer]) this.layerSectionMap[s.layer] = s.id;
       }
       this.paper.set(data);
+      // Attach pinch listeners after Angular renders the content
+      setTimeout(() => this.attachPinchZoom(), 150);
     });
   }
 
-  private enablePinchZoom(): void {
-    const vp = document.querySelector('meta[name="viewport"]');
-    if (vp) {
-      vp.setAttribute('content',
-        'width=device-width, initial-scale=1, user-scalable=yes, minimum-scale=0.5, maximum-scale=5');
-    }
+  private attachPinchZoom(): void {
+    const el = document.querySelector<HTMLElement>('.pv-content');
+    if (!el) return;
+
+    this.zone.runOutsideAngular(() => {
+      const onStart = (e: TouchEvent) => {
+        if (e.touches.length === 2) {
+          this.lastPinchDist = this.pinchDist(e);
+        }
+      };
+
+      const onMove = (e: TouchEvent) => {
+        if (e.touches.length !== 2) return;
+        e.preventDefault();
+        const d = this.pinchDist(e);
+        if (this.lastPinchDist > 0) {
+          this.pinchScale = Math.min(4, Math.max(0.5, this.pinchScale * (d / this.lastPinchDist)));
+          el.style.fontSize = `${this.pinchScale * 100}%`;
+        }
+        this.lastPinchDist = d;
+      };
+
+      const onEnd = () => { this.lastPinchDist = 0; };
+
+      el.addEventListener('touchstart', onStart, { passive: true });
+      el.addEventListener('touchmove', onMove, { passive: false });
+      el.addEventListener('touchend', onEnd, { passive: true });
+
+      this.pinchUnlisteners = [
+        () => el.removeEventListener('touchstart', onStart),
+        () => el.removeEventListener('touchmove', onMove),
+        () => el.removeEventListener('touchend', onEnd),
+      ];
+    });
   }
 
-  private restoreViewport(): void {
-    const vp = document.querySelector('meta[name="viewport"]');
-    if (vp) {
-      vp.setAttribute('content', 'width=device-width, initial-scale=1');
-    }
+  private pinchDist(e: TouchEvent): number {
+    return Math.hypot(
+      e.touches[1].clientX - e.touches[0].clientX,
+      e.touches[1].clientY - e.touches[0].clientY,
+    );
   }
 
   ngOnDestroy(): void {
-    this.restoreViewport();
+    this.pinchUnlisteners.forEach(fn => fn());
   }
 
   @HostListener('document:keydown', ['$event'])
