@@ -701,6 +701,60 @@ $card-w: 210px;   // 호버 카드 폭 (chain 겹침 방지)
     &:active { transform: scale(0.96); }
   }
 
+  // 사건 개요 (모바일)
+  .mobile-case-overview {
+    background: var(--aurora-surface, #fff);
+    border: 1px solid var(--aurora-border, #e8eaf6);
+    border-radius: 12px;
+    padding: 14px;
+  }
+
+  .mobile-case-header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--aurora-text);
+    margin-bottom: 10px;
+    .material-icons { font-size: 18px; color: #534bae; }
+  }
+
+  .mobile-case-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 10px;
+  }
+
+  .mobile-case-tab {
+    padding: 5px 12px;
+    border: 1px solid #dde1e6;
+    border-radius: 16px;
+    background: #f5f6fa;
+    font-size: 0.78rem;
+    color: var(--aurora-text-secondary);
+    cursor: pointer;
+    transition: all 0.15s;
+    &.active {
+      background: #534bae;
+      color: #fff;
+      border-color: #534bae;
+    }
+  }
+
+  .mobile-case-body {
+    padding-top: 4px;
+  }
+
+  .mobile-case-text {
+    font-size: 0.82rem;
+    color: var(--aurora-text-secondary);
+    line-height: 1.6;
+    margin: 0;
+    white-space: pre-line;
+  }
+
   // 검색
   .search-hero { padding: 0 0 4px; }
   .search-box { max-width: 100%; }
