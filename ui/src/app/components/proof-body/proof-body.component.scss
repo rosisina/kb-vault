@@ -1819,3 +1819,51 @@
   cursor: pointer;
   &:hover { background: color-mix(in srgb, var(--aurora-accent, #9a2060) 22%, transparent); }
 }
+
+// ═══════════════════════════════════════════════════════════
+// Mobile responsive (≤ 640px)
+// ═══════════════════════════════════════════════════════════
+@media (max-width: 640px) {
+  .proof-body {
+    max-width: 100%;
+    gap: 12px;
+    padding: 0 2px;
+  }
+
+  // Tab bar: horizontal scroll, no wrap
+  .view-mode-toggle {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    &::-webkit-scrollbar { display: none; }
+  }
+
+  .mode-btn {
+    flex: 0 0 auto;
+    font-size: 0.76rem;
+    padding: 7px 10px;
+    white-space: nowrap;
+    .material-icons { font-size: 14px; }
+  }
+
+  // Layer summary: tighten padding
+  .layer-summary {
+    padding: 14px 14px;
+    border-radius: 8px;
+  }
+
+  .layer-title { font-size: 1rem; }
+  .layer-proves { font-size: 0.82rem; }
+
+  // Atom cards: prevent overflow
+  .atom-card,
+  .chain-node,
+  .detail-card,
+  .fracture-pair {
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+}
+

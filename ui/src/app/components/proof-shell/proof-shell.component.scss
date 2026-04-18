@@ -284,41 +284,53 @@
 // Mobile responsive breakpoints (≤ 640px)
 // ═══════════════════════════════════════════════════════════
 @media (max-width: 640px) {
-  .proof-layout {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr;
-    height: auto;
-    overflow: visible;
+  // Shell: full-height flex column for proper scrolling
+  .shell {
+    min-height: unset;
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    overflow: hidden;
   }
 
-  // Left panel: collapsed to a compact top strip
+  // Back bars: shrink-0
+  .landing-back-bar,
+  .search-back-bar,
+  .nav-trail {
+    flex-shrink: 0;
+  }
+
+  // Nav trail: smaller padding
+  .nav-trail {
+    padding: 4px 8px;
+  }
+
+  // proof-layout: fill remaining height, single column
+  .proof-layout {
+    flex: 1;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 0; // flex + height:0 makes it fill parent without overflow
+    overflow: hidden;
+  }
+
   .panel-left {
     display: none;
   }
 
-  // Center panel: full width, remove fixed height overflow
-  .panel-center,
-  .proof-layout > main,
-  .proof-layout > div:nth-child(2) {
+  // Center panel: full width, scrollable
+  .panel-center {
     width: 100%;
-    overflow-y: visible;
-    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+    padding: 16px 12px;
+    -webkit-overflow-scrolling: touch;
   }
 
-  // Right panel (evidence context): hide by default on mobile
-  .panel-right,
-  .proof-layout > aside:last-child {
+  // Right panel: hide on mobile
+  .panel-right {
     display: none;
-  }
-
-  // Shell height reset
-  .shell {
-    min-height: unset;
-  }
-
-  // Nav trail: smaller on mobile
-  .nav-trail {
-    padding: 4px 8px;
   }
 
   // Graph modal: full screen on mobile
