@@ -126,6 +126,7 @@
   <!-- Faceted Search 필터 패널 -->
   <!-- ═══════════════════════════════════════════════════════ -->
   @if (showFilters() && availableFacets(); as facets) {
+    <div class="facet-backdrop" (click)="toggleFilters()"></div>
     <div class="facet-panel">
       <!-- Active facets (칩 형태) -->
       @if (activeFacetCount() > 0) {

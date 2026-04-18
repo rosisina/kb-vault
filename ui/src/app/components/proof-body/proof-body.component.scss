@@ -1107,6 +1107,14 @@
   margin-left: 4px;
 }
 
+.facet-backdrop {
+  display: none; // shown only on mobile via media query
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.35);
+  z-index: 149;
+}
+
 .facet-panel {
   background: var(--aurora-surface, #fff);
   border: 1px solid var(--aurora-border, #e0e0e0);
@@ -1844,6 +1852,7 @@
     font-size: 0.76rem;
     padding: 7px 10px;
     white-space: nowrap;
+    min-height: 44px; // touch target
     .material-icons { font-size: 14px; }
   }
 
@@ -1856,7 +1865,7 @@
   .layer-title { font-size: 1rem; }
   .layer-proves { font-size: 0.82rem; }
 
-  // Atom cards: prevent overflow
+  // Atom cards: prevent overflow + minimum touch target
   .atom-card,
   .chain-node,
   .detail-card,
@@ -1864,6 +1873,101 @@
     max-width: 100%;
     overflow-wrap: break-word;
     word-break: break-word;
+  }
+
+  // Chain root items: larger touch target
+  .chain-root-item {
+    min-height: 48px;
+    padding: 10px 14px;
+  }
+
+  // Fracture items: larger touch target
+  .fracture-item {
+    min-height: 48px;
+    padding: 10px 12px;
+    align-items: center;
+  }
+
+  // Guided steps: larger touch target
+  .guided-step-header {
+    min-height: 48px;
+    padding: 10px 12px;
+  }
+
+  // Facet panel: full-width bottom sheet overlay on mobile
+  .facet-panel {
+    position: fixed;
+    inset: 0;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80dvh;
+    z-index: 150;
+    background: var(--aurora-surface, #fff);
+    border-radius: 16px 16px 0 0;
+    box-shadow: 0 -4px 24px rgba(0,0,0,0.18);
+    overflow-y: auto;
+    padding: 20px 16px 32px;
+    animation: facetSheetUp 0.22s ease;
+
+    &::before {
+      content: '';
+      display: block;
+      width: 36px;
+      height: 4px;
+      background: #dde1e6;
+      border-radius: 2px;
+      margin: 0 auto 16px;
+    }
+  }
+
+  @keyframes facetSheetUp {
+    from { transform: translateY(100%); }
+    to   { transform: translateY(0); }
+  }
+
+  // Facet backdrop
+  .facet-backdrop {
+    display: block !important;
+  }
+
+  // Facet buttons: larger touch target
+  .facet-btn {
+    min-height: 40px;
+    padding: 8px 12px;
+  }
+
+  // Active facets row: wrap properly
+  .active-facets {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  // Record overlay → contained in atom card (no fixed positioning issues)
+  .record-overlay {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: auto;
+    max-width: 100%;
+    border-radius: 12px 12px 0 0;
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
+    animation: facetSheetUp 0.2s ease;
+  }
+
+  // Person overlay → bottom sheet on mobile
+  .person-overlay {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: auto;
+    max-width: 100%;
+    border-radius: 12px 12px 0 0;
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
+    animation: facetSheetUp 0.2s ease;
   }
 }
 
