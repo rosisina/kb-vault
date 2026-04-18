@@ -3,7 +3,7 @@
 //             layer chip navigation, back/ESC navigation
 import {
   Component, Output, EventEmitter, signal, computed,
-  OnInit, OnDestroy, HostListener, AfterViewInit, AfterViewChecked, ViewChild, ElementRef,
+  OnInit, OnDestroy, HostListener,
 } from '@angular/core';
 import { SlicePipe } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
@@ -45,20 +45,9 @@ function detectLayer(title: string): number | null {
   templateUrl: './document-viewer.component.html',
   styleUrl: './document-viewer.component.scss',
 })
-export class DocumentViewerComponent implements OnInit, AfterViewInit, AfterViewChecked, OnDestroy {
+export class DocumentViewerComponent implements OnInit, OnDestroy {
   @Output() close = new EventEmitter<void>();
   @Output() atomSelect = new EventEmitter<string>();
-  @ViewChild('pvContent') pvContentRef!: ElementRef<HTMLElement>;
-
-  // Pinch-zoom state
-  private pinchScale = 1;
-  private pinchLastDist = 0;
-  private pinchOriginX = 0;
-  private pinchOriginY = 0;
-  private pinchInitialized = false;
-  private _onTouchStart!: (e: TouchEvent) => void;
-  private _onTouchMove!: (e: TouchEvent) => void;
-  private _onTouchEnd!: (e: TouchEvent) => void;
 
   paper = signal<PaperData | null>(null);
   activeSection = signal<string | null>(null);
@@ -102,6 +91,7 @@ export class DocumentViewerComponent implements OnInit, AfterViewInit, AfterView
   ) {}
 
   ngOnInit(): void {
+    this.enablePinchZoom();
     this.http.get<PaperData>('assets/paper.json').subscribe(data => {
       data.sections = data.sections.map(s => ({ ...s, layer: s.layer ?? detectLayer(s.title) ?? undefined }));
       for (const s of data.sections) {
@@ -111,64 +101,23 @@ export class DocumentViewerComponent implements OnInit, AfterViewInit, AfterView
     });
   }
 
-  ngAfterViewChecked(): void {
-    // @if(paper()) 안에 있어서 ngAfterViewInit에서는 null — paper 로드 후 최초 1회 초기화
-    if (this.pinchInitialized) return;
-    if (window.innerWidth > 640) return;
-    const el = this.pvContentRef?.nativeElement;
-    if (!el) return;
-    this.pinchInitialized = true;
-    this.initPinchZoom(el);
+  private enablePinchZoom(): void {
+    const vp = document.querySelector('meta[name="viewport"]');
+    if (vp) {
+      vp.setAttribute('content',
+        'width=device-width, initial-scale=1, user-scalable=yes, minimum-scale=0.5, maximum-scale=5');
+    }
   }
 
-  ngAfterViewInit(): void {}
-
-  private initPinchZoom(el: HTMLElement): void {
-    // zoom 방식: 레이아웃 크기 자체가 늘어나므로 부모 scroll로 상하좌우 이동 가능
-    const container = el.closest('.pv-body') as HTMLElement | null;
-    let currentZoom = 1;
-
-    this._onTouchStart = (e: TouchEvent) => {
-      if (e.touches.length === 2) {
-        const dx = e.touches[0].clientX - e.touches[1].clientX;
-        const dy = e.touches[0].clientY - e.touches[1].clientY;
-        this.pinchLastDist = Math.hypot(dx, dy);
-      }
-    };
-
-    this._onTouchMove = (e: TouchEvent) => {
-      if (e.touches.length !== 2 || this.pinchLastDist === 0) return;
-      e.preventDefault();
-      const dx = e.touches[0].clientX - e.touches[1].clientX;
-      const dy = e.touches[0].clientY - e.touches[1].clientY;
-      const dist = Math.hypot(dx, dy);
-      const delta = dist / this.pinchLastDist;
-      this.pinchLastDist = dist;
-      currentZoom = Math.min(4, Math.max(0.5, currentZoom * delta));
-      (el.style as any).zoom = currentZoom.toString();
-      // 확대 시 가로 스크롤 활성화
-      if (container) {
-        container.style.overflowX = currentZoom > 1.05 ? 'auto' : 'hidden';
-      }
-    };
-
-    this._onTouchEnd = (_e: TouchEvent) => {
-      // 핀치 종료 시 거리 초기화 (다음 핀치의 기준점 재설정)
-      this.pinchLastDist = 0;
-    };
-
-    el.addEventListener('touchstart', this._onTouchStart, { passive: true });
-    el.addEventListener('touchmove', this._onTouchMove, { passive: false });
-    el.addEventListener('touchend', this._onTouchEnd, { passive: true });
+  private restoreViewport(): void {
+    const vp = document.querySelector('meta[name="viewport"]');
+    if (vp) {
+      vp.setAttribute('content', 'width=device-width, initial-scale=1');
+    }
   }
 
   ngOnDestroy(): void {
-    const el = this.pvContentRef?.nativeElement;
-    if (el) {
-      el.removeEventListener('touchstart', this._onTouchStart);
-      el.removeEventListener('touchmove', this._onTouchMove);
-      el.removeEventListener('touchend', this._onTouchEnd);
-    }
+    this.restoreViewport();
   }
 
   @HostListener('document:keydown', ['$event'])
