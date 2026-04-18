@@ -528,6 +528,15 @@ $card-w: 210px;   // 호버 카드 폭 (chain 겹침 방지)
   padding: 1rem 0 1.5rem;
 }
 
+.footer-disclaimer {
+  font-size: 0.72rem;
+  color: #999;
+  margin: 0 auto 0.5rem;
+  max-width: 560px;
+  line-height: 1.5;
+  padding: 0 1rem;
+}
+
 .footer-link {
   background: none;
   border: none;

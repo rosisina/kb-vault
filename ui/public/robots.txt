@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rosisina.github.io/kb-vault/sitemap.xml
