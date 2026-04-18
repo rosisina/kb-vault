@@ -84,15 +84,22 @@ export class AtomMapComponent implements OnInit, OnDestroy {
     return entries.slice(0, 8); // 7±1
   });
 
+  // 추천 시작 Atom: CAUSES 루트 중 corroborationCount 상위 3개
+  startAtoms = computed((): GraphNode[] =>
+    this.graphData.getChainRoots()
+      .sort((a, b) => (b.corroborationCount - a.corroborationCount) || (a.layer - b.layer))
+      .slice(0, 3)
+  );
+
   constructor(
     public lang: LanguageService,
     public graphData: GraphDataService,
   ) {}
 
   ngOnInit(): void {
-    // Auto-select first atom in Layer 1
-    const first = this.layerAtoms()[0];
-    if (first) this.selectedAtomId.set(first.id);
+    // 추천 시작 Atom 첫 번째를 기본 선택
+    const start = this.startAtoms()[0] ?? this.layerAtoms()[0];
+    if (start) this.selectedAtomId.set(start.id);
   }
 
   ngOnDestroy(): void {}

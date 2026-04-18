@@ -67,6 +67,29 @@
         <span class="panel-layer-name">{{ layerLabel(activeLayer()) }}</span>
         <span class="panel-layer-count">({{ layerAtoms().length }})</span>
       </div>
+      <!-- 추천 시작 Atom -->
+      @if (startAtoms().length) {
+        <div class="start-atoms-section">
+          <div class="start-atoms-label">
+            <span class="material-icons">star</span>
+            {{ lang.lang() === 'kr' ? '추천 시작' : 'Start here' }}
+          </div>
+          @for (atom of startAtoms(); track atom.id) {
+            <button class="start-atom-item"
+                    [class.item-selected]="selectedAtomId() === atom.id"
+                    (click)="selectAtom(atom.id)">
+              <span class="start-layer-dot" [style.background]="layerColors[atom.layer]"
+                    [title]="'L' + atom.layer"></span>
+              <span class="start-atom-title">{{ nodeTitle(atom) }}</span>
+              <span class="start-layer-badge" [style.background]="layerColors[atom.layer]">L{{ atom.layer }}</span>
+            </button>
+          }
+        </div>
+        <div class="start-divider">
+          {{ lang.lang() === 'kr' ? '전체 목록' : 'All findings' }}
+        </div>
+      }
+
       <div class="atom-list-scroll">
         @for (atom of layerAtoms(); track atom.id) {
           <button class="atom-list-item"
