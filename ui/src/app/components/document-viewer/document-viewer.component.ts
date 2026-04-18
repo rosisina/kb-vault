@@ -124,35 +124,36 @@ export class DocumentViewerComponent implements OnInit, AfterViewInit, AfterView
   ngAfterViewInit(): void {}
 
   private initPinchZoom(el: HTMLElement): void {
+    // font-size 방식: transform 대신 font-size 조절 → overflow 문제 없이 확대/축소
+    const BASE_SIZE = 15; // px (모바일 기본)
+    let currentSize = BASE_SIZE;
+
     this._onTouchStart = (e: TouchEvent) => {
       if (e.touches.length === 2) {
         const dx = e.touches[0].clientX - e.touches[1].clientX;
         const dy = e.touches[0].clientY - e.touches[1].clientY;
         this.pinchLastDist = Math.hypot(dx, dy);
-        this.pinchOriginX = (e.touches[0].clientX + e.touches[1].clientX) / 2;
-        this.pinchOriginY = (e.touches[0].clientY + e.touches[1].clientY) / 2;
       }
     };
 
     this._onTouchMove = (e: TouchEvent) => {
-      if (e.touches.length !== 2) return;
+      if (e.touches.length !== 2 || this.pinchLastDist === 0) return;
       e.preventDefault();
       const dx = e.touches[0].clientX - e.touches[1].clientX;
       const dy = e.touches[0].clientY - e.touches[1].clientY;
       const dist = Math.hypot(dx, dy);
       const delta = dist / this.pinchLastDist;
       this.pinchLastDist = dist;
-      this.pinchScale = Math.min(4, Math.max(0.5, this.pinchScale * delta));
-      el.style.transform = `scale(${this.pinchScale})`;
-      el.style.transformOrigin = `${this.pinchOriginX}px ${this.pinchOriginY}px`;
+      currentSize = Math.min(28, Math.max(10, currentSize * delta));
+      el.style.fontSize = `${currentSize}px`;
     };
 
     this._onTouchEnd = (e: TouchEvent) => {
       if (e.touches.length < 2) {
-        // Snap back if too small
-        if (this.pinchScale < 0.9) {
-          this.pinchScale = 1;
-          el.style.transform = 'scale(1)';
+        // 너무 작으면 기본 크기로 복원
+        if (currentSize < 12) {
+          currentSize = BASE_SIZE;
+          el.style.fontSize = `${BASE_SIZE}px`;
         }
       }
     };
