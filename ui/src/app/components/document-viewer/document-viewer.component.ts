@@ -124,9 +124,9 @@ export class DocumentViewerComponent implements OnInit, AfterViewInit, AfterView
   ngAfterViewInit(): void {}
 
   private initPinchZoom(el: HTMLElement): void {
-    // font-size 방식: transform 대신 font-size 조절 → overflow 문제 없이 확대/축소
-    const BASE_SIZE = 15; // px (모바일 기본)
-    let currentSize = BASE_SIZE;
+    // zoom 방식: 레이아웃 크기 자체가 늘어나므로 부모 scroll로 상하좌우 이동 가능
+    const container = el.closest('.pv-body') as HTMLElement | null;
+    let currentZoom = 1;
 
     this._onTouchStart = (e: TouchEvent) => {
       if (e.touches.length === 2) {
@@ -144,18 +144,17 @@ export class DocumentViewerComponent implements OnInit, AfterViewInit, AfterView
       const dist = Math.hypot(dx, dy);
       const delta = dist / this.pinchLastDist;
       this.pinchLastDist = dist;
-      currentSize = Math.min(28, Math.max(10, currentSize * delta));
-      el.style.fontSize = `${currentSize}px`;
+      currentZoom = Math.min(4, Math.max(0.5, currentZoom * delta));
+      (el.style as any).zoom = currentZoom.toString();
+      // 확대 시 가로 스크롤 활성화
+      if (container) {
+        container.style.overflowX = currentZoom > 1.05 ? 'auto' : 'hidden';
+      }
     };
 
-    this._onTouchEnd = (e: TouchEvent) => {
-      if (e.touches.length < 2) {
-        // 너무 작으면 기본 크기로 복원
-        if (currentSize < 12) {
-          currentSize = BASE_SIZE;
-          el.style.fontSize = `${BASE_SIZE}px`;
-        }
-      }
+    this._onTouchEnd = (_e: TouchEvent) => {
+      // 핀치 종료 시 거리 초기화 (다음 핀치의 기준점 재설정)
+      this.pinchLastDist = 0;
     };
 
     el.addEventListener('touchstart', this._onTouchStart, { passive: true });
