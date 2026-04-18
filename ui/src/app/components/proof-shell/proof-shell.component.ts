@@ -145,6 +145,9 @@ export class ProofShellComponent {
     this.searchResults.set(results);
     this.selectedAtomId.set(null);
     this.setState('proof');
+    // Push to back-navigation stack (cap at 10)
+    this.searchStack.push({ query, results });
+    if (this.searchStack.length > 10) this.searchStack.shift();
   }
 
   onFacetChange(facets: any): void {
@@ -278,6 +281,20 @@ export class ProofShellComponent {
       case 'paper':
         this.showPaper.set(true);
         break;
+    }
+  }
+
+  // Search history stack for back navigation
+  private searchStack: Array<{ query: string; results: GraphNode[] }> = [];
+
+  get canGoBackSearch(): boolean { return this.searchStack.length > 1; }
+
+  goBackSearch(): void {
+    if (this.searchStack.length > 1) {
+      this.searchStack.pop();
+      const prev = this.searchStack[this.searchStack.length - 1];
+      this.searchQuery.set(prev.query);
+      this.searchResults.set(prev.results);
     }
   }
 

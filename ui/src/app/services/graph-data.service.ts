@@ -370,6 +370,12 @@ export class GraphDataService {
     const detail = this._detail();
     const layer = facets?.layer ?? layerFilter;
 
+    // Minimum fraction of query terms that must match (majority match)
+    const minMatch = terms.length <= 2 ? terms.length : Math.ceil(terms.length * 0.5);
+
+    const countMatches = (corpus: string): number =>
+      terms.filter(t => corpus.includes(t)).length;
+
     return g.nodes
       .filter(n => {
         const nx = n as any;
@@ -387,20 +393,18 @@ export class GraphDataService {
         // If no text terms, facet-only match is enough
         if (terms.length === 0) return true;
 
-        // ── Text search (title + structured fields + body) ──
+        // ── Text search: majority-match across title + props + body ──
         const titleLower = n.title.toLowerCase();
-        if (terms.every(t => titleLower.includes(t))) return true;
+        if (countMatches(titleLower) >= minMatch) return true;
 
-        // Search in structured property fields (persons, organizations)
         const propCorpus = [
           ...(nx.persons ?? []),
           ...(nx.organizations ?? []),
           nx.fractureType ?? '',
           nx.sourceType ?? '',
         ].join(' ').toLowerCase();
-        if (terms.every(t => propCorpus.includes(t))) return true;
+        if (countMatches(propCorpus) >= minMatch) return true;
 
-        // Search in detail body
         if (detail?.atoms[n.id]) {
           const d = detail.atoms[n.id];
           const corpus = [
@@ -408,22 +412,23 @@ export class GraphDataService {
             ...d.keyTakeaways.map(t => t.text),
             ...d.supportingEvidence.map(e => e.raw),
           ].join(' ').toLowerCase();
-          return terms.every(t => corpus.includes(t));
+          return countMatches(corpus) >= minMatch;
         }
 
         return false;
       })
       .sort((a, b) => {
-        // Priority: title match > property match > body match
-        const scoreMatch = (n: GraphNode): number => {
+        // Sort by relevance: more term matches = higher priority
+        const scoreNode = (n: GraphNode): number => {
           if (terms.length === 0) return 0;
-          if (terms.every(t => n.title.toLowerCase().includes(t))) return 0;
           const nx = n as any;
-          const props = [...(nx.persons ?? []), ...(nx.organizations ?? [])].join(' ').toLowerCase();
-          if (terms.every(t => props.includes(t))) return 1;
-          return 2;
+          const titleHits = countMatches(n.title.toLowerCase());
+          const propCorpus = [...(nx.persons ?? []), ...(nx.organizations ?? [])].join(' ').toLowerCase();
+          const propHits = countMatches(propCorpus);
+          // Negative score = higher relevance; title matches weighted 2x
+          return -(titleHits * 2 + propHits);
         };
-        const sa = scoreMatch(a), sb = scoreMatch(b);
+        const sa = scoreNode(a), sb = scoreNode(b);
         if (sa !== sb) return sa - sb;
         return a.layer - b.layer;
       });

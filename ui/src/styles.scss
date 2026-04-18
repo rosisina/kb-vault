@@ -149,3 +149,77 @@ code, pre, .cypher-display {
     padding: 12px;
   }
 }
+
+// ── Atom Hover Tooltip (global — appended to document.body) ──
+.atom-hover-preview {
+  position: fixed;
+  z-index: 9999;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  padding: 12px 14px;
+  max-width: 340px;
+  min-width: 200px;
+  pointer-events: none;
+  font-family: 'Noto Sans KR', 'Inter', sans-serif;
+
+  .ahp-header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 6px;
+    flex-wrap: wrap;
+  }
+
+  .ahp-layer {
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    background: var(--aurora-primary-pale, #e8eaf6);
+    color: var(--aurora-primary, #1a237e);
+  }
+
+  .ahp-claimtype {
+    font-size: 10px;
+    color: #666;
+  }
+
+  .ahp-verdict {
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 6px;
+    border-radius: 4px;
+    background: #e8f5e9;
+    color: #2e7d32;
+    &.verdict-weakened { background: #fff8e1; color: #f57f17; }
+    &.verdict-nme { background: #f3e5f5; color: #7b1fa2; }
+    &.verdict-unfalsifiable { background: #e3f2fd; color: #1565c0; }
+  }
+
+  .ahp-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: #1a1a2e;
+    line-height: 1.4;
+    margin-bottom: 4px;
+  }
+
+  .ahp-claim {
+    font-size: 11px;
+    color: #444;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .ahp-records {
+    margin-top: 6px;
+    font-size: 10px;
+    color: #888;
+    font-family: 'JetBrains Mono', monospace;
+  }
+}

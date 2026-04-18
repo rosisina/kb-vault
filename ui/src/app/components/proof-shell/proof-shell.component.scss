@@ -9,6 +9,28 @@
 // ═══════════════════════════════════════════════════════════
 // CP-3: Navigation Trail (Obsidian stacked panes 개념)
 // ═══════════════════════════════════════════════════════════
+.search-back-bar {
+  padding: 4px 16px;
+  background: #fff8e1;
+  border-bottom: 1px solid #ffe082;
+}
+
+.search-back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #f57f17;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 2px 4px;
+  border-radius: 4px;
+  .material-icons { font-size: 14px; }
+  &:hover { background: #fff3e0; }
+}
+
 .nav-trail {
   display: flex;
   align-items: center;

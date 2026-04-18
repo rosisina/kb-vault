@@ -16,6 +16,16 @@
   <!-- State B: 3-패널 증명 화면 -->
   @if (isProof()) {
 
+    <!-- 검색 뒤로가기 (인물 클릭 등으로 검색이 바뀐 경우) -->
+    @if (canGoBackSearch) {
+      <div class="search-back-bar">
+        <button class="search-back-btn" (click)="goBackSearch()">
+          <span class="material-icons">arrow_back</span>
+          {{ lang.lang() === 'kr' ? '이전 검색으로' : 'Back to previous search' }}
+        </button>
+      </div>
+    }
+
     <!-- CP-3: Navigation Trail (Obsidian stacked panes 개념) -->
     @if (navTrail().length > 0) {
       <nav class="nav-trail">
