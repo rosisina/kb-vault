@@ -3,7 +3,7 @@
 //             layer chip navigation, back/ESC navigation
 import {
   Component, Output, EventEmitter, signal, computed,
-  OnInit, OnDestroy, HostListener, AfterViewInit, ViewChild, ElementRef,
+  OnInit, OnDestroy, HostListener, AfterViewInit, AfterViewChecked, ViewChild, ElementRef,
 } from '@angular/core';
 import { SlicePipe } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
@@ -45,7 +45,7 @@ function detectLayer(title: string): number | null {
   templateUrl: './document-viewer.component.html',
   styleUrl: './document-viewer.component.scss',
 })
-export class DocumentViewerComponent implements OnInit, AfterViewInit, OnDestroy {
+export class DocumentViewerComponent implements OnInit, AfterViewInit, AfterViewChecked, OnDestroy {
   @Output() close = new EventEmitter<void>();
   @Output() atomSelect = new EventEmitter<string>();
   @ViewChild('pvContent') pvContentRef!: ElementRef<HTMLElement>;
@@ -55,6 +55,7 @@ export class DocumentViewerComponent implements OnInit, AfterViewInit, OnDestroy
   private pinchLastDist = 0;
   private pinchOriginX = 0;
   private pinchOriginY = 0;
+  private pinchInitialized = false;
   private _onTouchStart!: (e: TouchEvent) => void;
   private _onTouchMove!: (e: TouchEvent) => void;
   private _onTouchEnd!: (e: TouchEvent) => void;
@@ -110,11 +111,19 @@ export class DocumentViewerComponent implements OnInit, AfterViewInit, OnDestroy
     });
   }
 
-  ngAfterViewInit(): void {
-    if (window.innerWidth > 640) return; // 모바일에서만 핀치줌 초기화
+  ngAfterViewChecked(): void {
+    // @if(paper()) 안에 있어서 ngAfterViewInit에서는 null — paper 로드 후 최초 1회 초기화
+    if (this.pinchInitialized) return;
+    if (window.innerWidth > 640) return;
     const el = this.pvContentRef?.nativeElement;
     if (!el) return;
+    this.pinchInitialized = true;
+    this.initPinchZoom(el);
+  }
 
+  ngAfterViewInit(): void {}
+
+  private initPinchZoom(el: HTMLElement): void {
     this._onTouchStart = (e: TouchEvent) => {
       if (e.touches.length === 2) {
         const dx = e.touches[0].clientX - e.touches[1].clientX;
