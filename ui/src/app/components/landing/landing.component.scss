@@ -767,3 +767,21 @@ $card-w: 210px;   // 호버 카드 폭 (chain 겹침 방지)
   .example-queries { justify-content: flex-start; flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; }
   .example-btn { font-size: 0.72rem; padding: 4px 10px; flex-shrink: 0; }
 }
+
+// ── Atom Map 신규 버튼 강조 ──
+.chain-label-new {
+  font-weight: 700;
+  color: #534bae;
+}
+
+.card-body-cathof {
+  white-space: pre-line;
+  strong { color: #534bae; }
+}
+
+.mobile-tool-chip-new {
+  background: rgba(83, 75, 174, 0.08);
+  border-color: rgba(83, 75, 174, 0.4);
+  color: #534bae;
+  font-weight: 600;
+}

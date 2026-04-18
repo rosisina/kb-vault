@@ -8,6 +8,7 @@ import { EvidenceContextComponent } from '../evidence-context/evidence-context.c
 import { GraphComponent } from '../graph/graph.component';
 import { AboutComponent } from '../about/about.component';
 import { DocumentViewerComponent } from '../document-viewer/document-viewer.component';
+import { AtomMapComponent } from '../atom-map/atom-map.component';
 import { GraphDataService } from '../../services/graph-data.service';
 import { LanguageService } from '../../services/language.service';
 import { ProofChain, GraphNode } from '../../models/graph.models';
@@ -31,6 +32,7 @@ interface ChatHistory {
     GraphComponent,
     AboutComponent,
     DocumentViewerComponent,
+    AtomMapComponent,
     SlicePipe,
   ],
   templateUrl: './proof-shell.component.html',
@@ -43,6 +45,7 @@ export class ProofShellComponent {
   showGraphModal = signal(false);
   showAbout = signal(false);
   showPaper = signal(false);
+  showAtomMap = signal(false);
   mobileContextOpen = signal(false);
   graphChain = signal<ProofChain | null>(null);
   scrollToGroup = signal<string | null>(null);
@@ -314,6 +317,9 @@ export class ProofShellComponent {
       case 'filter':
         this.initialViewMode.set('filter');
         this.setState('proof');
+        break;
+      case 'atom-map':
+        this.showAtomMap.set(true);
         break;
       case 'paper':
         this.showPaper.set(true);

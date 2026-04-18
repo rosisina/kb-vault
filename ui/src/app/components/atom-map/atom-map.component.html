@@ -1,0 +1,209 @@
+<!-- Aurora v2 — CATHOF: 증명 체인 (Atom Map) 3-패널 모달 -->
+<div class="am-overlay" (click)="close.emit()">
+<div class="am-modal" (click)="$event.stopPropagation()">
+
+  <!-- ══ 헤더 ══ -->
+  <div class="am-header">
+    <div class="am-header-left">
+      <button class="am-back-btn" (click)="close.emit()">
+        <span class="material-icons">arrow_back</span>
+        <span class="am-back-label">{{ lang.lang() === 'kr' ? '돌아가기' : 'Back' }}</span>
+      </button>
+      <div class="am-title-block">
+        <span class="am-title">{{ lang.lang() === 'kr' ? '증명 체인 (Atom Map)' : 'Atom Map — Proof Chain' }}</span>
+        <span class="am-subtitle">{{ lang.lang() === 'kr' ? '층위별 발견사항 · 상호관계 탐색' : 'Explore findings by layer · trace connections' }}</span>
+      </div>
+    </div>
+    <!-- Layer 칩 -->
+    <div class="am-layer-chips">
+      @for (l of allLayers; track l) {
+        <button class="am-layer-chip"
+                [class.chip-active]="activeLayer() === l"
+                [style.--lc]="layerColors[l]"
+                (click)="selectLayer(l)"
+                [title]="'L' + l + ' — ' + layerLabel(l)">
+          L{{ l }}
+        </button>
+      }
+    </div>
+    <div class="am-header-right">
+      <span class="am-count">
+        {{ layerAtoms().length }} {{ lang.lang() === 'kr' ? '발견사항' : 'findings' }}
+      </span>
+      <button class="am-close-btn" (click)="close.emit()" title="ESC">
+        <span class="material-icons">close</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- ══ 모바일 탭 바 ══ -->
+  <div class="am-mobile-tabs">
+    <button class="am-mtab" [class.mtab-active]="mobileTab() === 'list'" (click)="mobileTab.set('list')">
+      <span class="material-icons">list</span>
+      {{ lang.lang() === 'kr' ? '목록' : 'List' }}
+    </button>
+    <button class="am-mtab" [class.mtab-active]="mobileTab() === 'detail'" (click)="mobileTab.set('detail')"
+            [disabled]="!selectedAtomId()">
+      <span class="material-icons">article</span>
+      {{ lang.lang() === 'kr' ? '내용' : 'Detail' }}
+    </button>
+    <button class="am-mtab" [class.mtab-active]="mobileTab() === 'related'" (click)="mobileTab.set('related')"
+            [disabled]="!selectedAtomId()">
+      <span class="material-icons">account_tree</span>
+      {{ lang.lang() === 'kr' ? '연관' : 'Related' }}
+      @if (relatedAtoms().length) {
+        <span class="mtab-count">{{ relatedAtoms().length }}</span>
+      }
+    </button>
+  </div>
+
+  <!-- ══ 본문 3패널 ══ -->
+  <div class="am-body">
+
+    <!-- ── Panel 1: 층위별 Atom 목록 ── -->
+    <nav class="am-panel-list" [class.mobile-hidden]="mobileTab() !== 'list'">
+      <div class="panel-list-head">
+        <span class="panel-layer-badge" [style.background]="layerColors[activeLayer()]">L{{ activeLayer() }}</span>
+        <span class="panel-layer-name">{{ layerLabel(activeLayer()) }}</span>
+      </div>
+      <div class="atom-list-scroll">
+        @for (atom of layerAtoms(); track atom.id) {
+          <button class="atom-list-item"
+                  [class.item-selected]="selectedAtomId() === atom.id"
+                  [class.item-corr]="atom.verdict === 'CORROBORATED'"
+                  [class.item-weak]="atom.verdict === 'WEAKENED'"
+                  [class.item-nme]="atom.verdict === 'NEEDS_MORE_EVIDENCE'"
+                  (click)="selectAtom(atom.id)">
+            <span class="item-verdict-dot" [class]="verdictClass(atom.verdict)"></span>
+            <span class="item-title">{{ nodeTitle(atom) }}</span>
+          </button>
+        }
+      </div>
+    </nav>
+
+    <!-- ── Panel 2: Atom 상세 내용 ── -->
+    <article class="am-panel-detail" [class.mobile-hidden]="mobileTab() !== 'detail'">
+      @if (selectedNode(); as node) {
+        <div class="detail-header">
+          <span class="detail-layer-badge" [style.background]="layerColors[node.layer]">L{{ node.layer }}</span>
+          <span class="detail-verdict" [class]="verdictClass(node.verdict)">{{ verdictLabel(node.verdict) }}</span>
+          <span class="detail-strength">{{ node.strength }}</span>
+        </div>
+
+        <h2 class="detail-title">{{ nodeTitle(node) }}</h2>
+
+        @if (selectedDetail(); as detail) {
+          <!-- 주장 (Claim) -->
+          <div class="detail-section">
+            <div class="detail-section-label">
+              {{ lang.lang() === 'kr' ? '주장 (Claim)' : 'Claim' }}
+            </div>
+            <p class="detail-claim">{{ claimText(detail) }}</p>
+          </div>
+
+          <!-- 핵심 요약 (Key Takeaways) -->
+          @if (takeaways(detail)?.length) {
+            <div class="detail-section">
+              <div class="detail-section-label">
+                {{ lang.lang() === 'kr' ? '핵심 요약' : 'Key Takeaways' }}
+              </div>
+              <ul class="detail-takeaways">
+                @for (t of takeaways(detail); track $index) {
+                  <li class="takeaway-item">
+                    <span class="takeaway-text">{{ t.text }}</span>
+                    @if (t.axes?.length) {
+                      <span class="takeaway-axes">
+                        @for (ax of t.axes; track ax) {
+                          <span class="axis-tag">{{ ax }}</span>
+                        }
+                      </span>
+                    }
+                  </li>
+                }
+              </ul>
+            </div>
+          }
+
+          <!-- 증거 기록 번호 -->
+          @if (detail.allRecordNos?.length) {
+            <div class="detail-section">
+              <div class="detail-section-label">Record No.</div>
+              <div class="detail-records">
+                @for (r of detail.allRecordNos.slice(0, 6); track r) {
+                  <span class="record-chip">{{ r }}</span>
+                }
+                @if (detail.allRecordNos.length > 6) {
+                  <span class="record-more">+{{ detail.allRecordNos.length - 6 }}</span>
+                }
+              </div>
+            </div>
+          }
+        }
+
+        <!-- Aurora 이동 버튼 -->
+        <button class="detail-goto-btn" (click)="goToAurora(node.id)">
+          <span class="material-icons">open_in_new</span>
+          {{ lang.lang() === 'kr' ? 'Aurora 증명 체계에서 보기' : 'View in Aurora Proof System' }}
+        </button>
+
+      } @else {
+        <div class="detail-empty">
+          <span class="material-icons">touch_app</span>
+          <p>{{ lang.lang() === 'kr' ? '좌측 목록에서 발견사항을 선택하세요' : 'Select a finding from the list' }}</p>
+        </div>
+      }
+    </article>
+
+    <!-- ── Panel 3: 연관 Atom들 (체이닝) ── -->
+    <aside class="am-panel-related" [class.mobile-hidden]="mobileTab() !== 'related'">
+      @if (selectedAtomId()) {
+        <div class="related-header">
+          <span class="material-icons related-icon">account_tree</span>
+          {{ lang.lang() === 'kr' ? '연관 발견사항' : 'Related Findings' }}
+          <span class="related-count">({{ relatedAtoms().length }})</span>
+        </div>
+
+        @if (relatedAtoms().length === 0) {
+          <div class="related-empty">
+            {{ lang.lang() === 'kr' ? '연결된 발견사항 없음' : 'No connections found' }}
+          </div>
+        }
+
+        @for (entry of relatedAtoms(); track entry.node.id) {
+          <button class="related-item"
+                  [class.r-causes]="entry.edgeType === 'CAUSES'"
+                  [class.r-corr]="entry.edgeType === 'CORROBORATES'"
+                  [class.r-opp]="entry.edgeType === 'OPPOSES'"
+                  (click)="selectAtom(entry.node.id)">
+            <div class="related-item-top">
+              <span class="related-edge-label" [class]="edgeClass(entry.edgeType)">
+                {{ edgeLabel(entry.edgeType) }}
+              </span>
+              <span class="related-layer-dot" [style.background]="layerColors[entry.node.layer]"
+                    [title]="'L' + entry.node.layer"></span>
+            </div>
+            <div class="related-item-title">{{ nodeTitle(entry.node) }}</div>
+            <div class="related-item-verdict" [class]="verdictClass(entry.node.verdict)">
+              {{ verdictLabel(entry.node.verdict) }}
+            </div>
+          </button>
+        }
+
+        <div class="cathof-hint">
+          <span class="material-icons">info_outline</span>
+          {{ lang.lang() === 'kr'
+            ? '연관 발견사항 클릭 시 체인을 따라 이동합니다'
+            : 'Click any finding to follow the chain' }}
+        </div>
+      } @else {
+        <div class="related-empty-start">
+          <span class="material-icons">link</span>
+          <p>{{ lang.lang() === 'kr' ? '발견사항을 선택하면 연관 체인이 표시됩니다' : 'Select a finding to see its connections' }}</p>
+        </div>
+      }
+    </aside>
+
+  </div><!-- /am-body -->
+
+</div>
+</div>

@@ -45,6 +45,10 @@
         <span class="material-icons">tune</span>
         <span>{{ lang.lang() === 'kr' ? '필터' : 'Filter' }}</span>
       </button>
+      <button class="mobile-tool-chip mobile-tool-chip-new" (click)="toolClick.emit('atom-map')">
+        <span class="material-icons">hub</span>
+        <span>Atom Map</span>
+      </button>
       <button class="mobile-tool-chip" (click)="toolClick.emit('paper')">
         <span class="material-icons">article</span>
         <span>{{ lang.lang() === 'kr' ? '논문' : 'Paper' }}</span>
@@ -231,6 +235,28 @@
         @if (hoveredTool() === 'filter') {
           <div class="chain-hover-card">
             <p class="card-body">{{ lang.lang() === 'kr' ? tools[3].hoverKr : tools[3].hoverEn }}</p>
+          </div>
+        }
+      </div>
+
+      <!-- 5-0. Atom Map (CATHOF) -->
+      <div class="chain-item"
+           (mouseenter)="hoveredTool.set('atom-map')"
+           (mouseleave)="hoveredTool.set(null)"
+           (click)="toolClick.emit('atom-map')">
+        <div class="chain-link">◇</div>
+        <div class="chain-content">
+          <span class="material-icons chain-icon">hub</span>
+          <span class="chain-label chain-label-new">{{ lang.lang() === 'kr' ? 'Atom Map' : 'Atom Map' }}</span>
+        </div>
+        @if (hoveredTool() === 'atom-map') {
+          <div class="chain-hover-card">
+            <p class="card-body card-body-cathof">
+              <strong>CATHOF</strong>
+              {{ lang.lang() === 'kr'
+                ? ' — 층위별 발견사항 탐색\n클릭으로 체인을 따라 증명 연결 추적\n자기증명시스템의 핵심 구조를 직접 체험'
+                : ' — Chaining Atomized Thought Process\nBrowse findings by layer, follow the proof chain\nExperience the self-proving system directly' }}
+            </p>
           </div>
         }
       </div>

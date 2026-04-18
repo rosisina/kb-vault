@@ -191,6 +191,14 @@
     <app-about (close)="showAbout.set(false)" />
   }
 
+  <!-- Atom Map (CATHOF) 모달 -->
+  @if (showAtomMap()) {
+    <app-atom-map
+      (close)="showAtomMap.set(false)"
+      (atomSelect)="showAtomMap.set(false); onAtomSelect($event); onToolClick('chain')"
+    />
+  }
+
   <!-- Document Viewer 모달 -->
   @if (showPaper()) {
     <app-document-viewer

@@ -151,6 +151,12 @@ export class LandingViewComponent implements OnInit {
       hoverKr: '균열 유형 · 증거 출처 · 인물 · 조직\n판정 강도별 필터링으로 증거 탐색',
       hoverEn: 'Filter by fracture type, source, person\norganization, verdict strength',
     },
+    {
+      id: 'atom-map', icon: 'hub',
+      kr: 'Atom Map', en: 'Atom Map',
+      hoverKr: 'CATHOF — 층위별 발견사항 탐색\n클릭으로 체인을 따라 증명 연결 추적\n자기증명시스템의 핵심 구조를 직접 체험',
+      hoverEn: 'CATHOF — Chaining Atomized Thought Process\nBrowse findings by layer, follow the proof chain\nExperience the self-proving system directly',
+    },
   ];
 
   // 사건 개요
