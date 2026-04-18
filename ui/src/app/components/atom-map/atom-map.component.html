@@ -65,6 +65,7 @@
       <div class="panel-list-head">
         <span class="panel-layer-badge" [style.background]="layerColors[activeLayer()]">L{{ activeLayer() }}</span>
         <span class="panel-layer-name">{{ layerLabel(activeLayer()) }}</span>
+        <span class="panel-layer-count">({{ layerAtoms().length }})</span>
       </div>
       <div class="atom-list-scroll">
         @for (atom of layerAtoms(); track atom.id) {
