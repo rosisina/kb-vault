@@ -40,10 +40,14 @@ export class App implements OnInit {
     window.dispatchEvent(new CustomEvent('aurora-back-to-landing'));
   }
 
-  // 채팅 이력에서 검색창에 질문 내용 반영 수신
+  // 채팅 이력에서 검색창에 질문 내용 반영 + 즉시 검색 실행
   @HostListener('window:aurora-populate-search', ['$event'])
   onPopulateSearch(event: Event): void {
-    this.searchQuery = (event as CustomEvent).detail.query;
+    const query = (event as CustomEvent).detail.query;
+    this.searchQuery = query;
+    window.dispatchEvent(new CustomEvent('aurora-search', {
+      detail: { query: query.trim() }
+    }));
   }
 
   toggleLang(): void {

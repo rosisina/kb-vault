@@ -160,7 +160,6 @@ export class ProofShellComponent {
   }
 
   onHistoryClick(query: string): void {
-    // 검색창에 질문 내용만 반영 (즉시 검색하지 않음)
     window.dispatchEvent(new CustomEvent('aurora-populate-search', {
       detail: { query }
     }));
