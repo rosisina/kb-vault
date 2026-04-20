@@ -12,6 +12,30 @@
   </div>
 
   <!-- ══════════════════════════════════════════ -->
+  <!-- Landing Layout: Sidebar + Main            -->
+  <!-- ══════════════════════════════════════════ -->
+  <div class="landing-content-layout">
+
+    <!-- Left Sidebar (Desktop + Mobile) -->
+    @if (chatHistory && chatHistory.length > 0) {
+      <aside class="landing-sidebar">
+        <div class="sidenav-section-label">
+          {{ lang.lang() === 'kr' ? '최근 채팅' : 'Recent Chats' }}
+        </div>
+        <div class="history-list">
+          @for (h of chatHistory; track h.timestamp) {
+            <button class="history-item" (click)="historyClick.emit(h.query)">
+              <span class="material-icons history-icon">history</span>
+              <span class="history-text">{{ h.query }}</span>
+            </button>
+          }
+        </div>
+      </aside>
+    }
+
+    <!-- Main Content Area -->
+    <div class="landing-main-content">
+
   <!-- ══════════════════════════════════════════ -->
   <!-- Mobile: Layer Grid + Tool Row (≤600px)    -->
   <!-- ══════════════════════════════════════════ -->
@@ -375,6 +399,9 @@
     </nav>
     </div>  <!-- /constellation -->
   </div>
+
+    </div>  <!-- /landing-main-content -->
+  </div>  <!-- /landing-content-layout -->
 
   <!-- ══════════════════════════════════════════ -->
   <!-- 검색창 + 질문 예시 -->
