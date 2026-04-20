@@ -38,6 +38,7 @@ export class LandingViewComponent implements OnInit {
   @Output() aboutOpen = new EventEmitter<void>();
   @Output() atomSelect = new EventEmitter<string>();
   @Output() historyClick = new EventEmitter<string>();
+  @Output() backClick = new EventEmitter<void>();
 
   layers = signal<LayerStat[]>([]);
   searchQuery = '';
@@ -345,5 +346,9 @@ export class LandingViewComponent implements OnInit {
   onEvidenceAtomClick(atomId: string, event: Event): void {
     event.stopPropagation();
     this.atomSelect.emit(atomId);
+  }
+
+  onBackClick(): void {
+    this.backClick.emit();
   }
 }

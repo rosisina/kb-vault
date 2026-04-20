@@ -136,6 +136,14 @@ $card-w: 210px;   // 호버 카드 폭 (chain 겹침 방지)
   gap: 0;
 }
 
+.history-empty {
+  font-size: 0.8rem;
+  color: #9ca3af;
+  text-align: center;
+  padding: 16px 8px;
+  font-style: italic;
+}
+
 .history-item {
   display: flex;
   align-items: center;

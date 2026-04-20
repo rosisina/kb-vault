@@ -16,21 +16,22 @@
   <!-- ══════════════════════════════════════════ -->
   <div class="landing-content-layout">
 
-    <!-- Left Sidebar (Desktop + Mobile) -->
-    @if (chatHistory && chatHistory.length > 0) {
-      <aside class="landing-sidebar">
-        <!-- Back Button (like proof screen) -->
-        <div class="sidebar-back-btn-container">
-          <button class="sidebar-back-btn">
-            <span class="material-icons">arrow_back</span>
-            <span>{{ lang.lang() === 'kr' ? '이전 화면으로' : 'Back' }}</span>
-          </button>
-        </div>
+    <!-- Left Sidebar (Desktop always visible) -->
+    <aside class="landing-sidebar">
+      <!-- Back Button (like proof screen) -->
+      <div class="sidebar-back-btn-container">
+        <button class="sidebar-back-btn" (click)="onBackClick()">
+          <span class="material-icons">arrow_back</span>
+          <span>{{ lang.lang() === 'kr' ? '이전 화면으로' : 'Back' }}</span>
+        </button>
+      </div>
 
-        <!-- Recent Chats Label -->
-        <div class="sidenav-section-label">
-          {{ lang.lang() === 'kr' ? '최근 채팅' : 'Recent Chats' }}
-        </div>
+      <!-- Recent Chats Label -->
+      <div class="sidenav-section-label">
+        {{ lang.lang() === 'kr' ? '최근 채팅' : 'Recent Chats' }}
+      </div>
+
+      @if (chatHistory && chatHistory.length > 0) {
         <div class="history-list">
           @for (h of chatHistory; track h.timestamp) {
             <button class="history-item" (click)="historyClick.emit(h.query)">
@@ -39,8 +40,12 @@
             </button>
           }
         </div>
-      </aside>
-    }
+      } @else {
+        <div class="history-empty">
+          {{ lang.lang() === 'kr' ? '채팅 기록이 없습니다' : 'No chat history' }}
+        </div>
+      }
+    </aside>
 
     <!-- Main Content Area -->
     <div class="landing-main-content">
