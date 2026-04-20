@@ -194,6 +194,7 @@ export class ProofShellComponent {
     this.selectedAtomId.set(null);
     this.searchResults.set([]);
     this.searchQuery.set(null);
+    this.presetMatch.set(null);
     this.navTrail.set([]);
   }
 
