@@ -1,6 +1,6 @@
 // Aurora v2 — Landing: Proof Constellation (증명의 별자리)
 // 7 layers in heptagonal orbit, SVG connections, tools row, search, case overview
-import { Component, OnInit, Output, EventEmitter, signal } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { GraphDataService } from '../../services/graph-data.service';
 import { LanguageService } from '../../services/language.service';
@@ -29,6 +29,7 @@ interface ConnectionLine {
   styleUrl: './landing.component.scss',
 })
 export class LandingViewComponent implements OnInit {
+  @Input() chatHistory: Array<{ query: string; timestamp: number }> = [];
   @Output() layerSelect = new EventEmitter<number>();
   @Output() search = new EventEmitter<string>();
   @Output() guidedProof = new EventEmitter<void>();
@@ -36,6 +37,7 @@ export class LandingViewComponent implements OnInit {
   @Output() toolClick = new EventEmitter<string>();
   @Output() aboutOpen = new EventEmitter<void>();
   @Output() atomSelect = new EventEmitter<string>();
+  @Output() historyClick = new EventEmitter<string>();
 
   layers = signal<LayerStat[]>([]);
   searchQuery = '';

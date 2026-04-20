@@ -4,6 +4,7 @@
   <!-- State A: Landing -->
   @if (isLanding()) {
     <app-landing-view
+      [chatHistory]="chatHistory()"
       (layerSelect)="onLayerSelect($event)"
       (search)="onSearch($event)"
       (guidedProof)="onGuidedProof()"
@@ -11,6 +12,7 @@
       (toolClick)="onToolClick($event)"
       (aboutOpen)="showAbout.set(true)"
       (atomSelect)="onLandingAtomSelect($event)"
+      (historyClick)="onHistoryClick($event)"
     />
   }
 

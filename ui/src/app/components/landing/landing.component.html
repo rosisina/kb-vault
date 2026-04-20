@@ -55,6 +55,23 @@
       </button>
     </div>
 
+    <!-- 최근 채팅 기록 -->
+    @if (chatHistory && chatHistory.length > 0) {
+      <div class="mobile-chat-history">
+        <div class="chat-history-label">
+          {{ lang.lang() === 'kr' ? '최근 채팅' : 'Recent Chats' }}
+        </div>
+        <div class="chat-history-list">
+          @for (h of chatHistory; track h.timestamp) {
+            <button class="chat-history-item" (click)="historyClick.emit(h.query)">
+              <span class="material-icons history-icon">history</span>
+              <span class="history-text">{{ h.query }}</span>
+            </button>
+          }
+        </div>
+      </div>
+    }
+
     <!-- 사건 개요 (모바일 전용) -->
     <div class="mobile-case-overview">
       <div class="mobile-case-header">
