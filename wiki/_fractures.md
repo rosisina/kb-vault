@@ -1,5 +1,8 @@
 # Fractures Index (균열 인덱스)
 
+**Source:** raw/01. book-beyond-cybersecurity/ · wiki/claims/ (296 atoms)
+**Layer:** [[./layers/layer-1|L1]] – [[./layers/layer-7|L7]] (cross-layer index)
+
 Flat index of every flagged fracture in the cover-up narrative. Lint populates and prunes this file. Each entry links to the claim page that adjudicates it.
 
 A **fracture** is a structural crack where the official narrative breaks against primary evidence. Five subtypes:
@@ -1696,6 +1699,14 @@ On 2020-06-04, 국방정보화업무 훈령 제2436호 removed the phrase `사�
 ## Resolved
 
 *(empty)*
+
+## Key Takeaways
+
+- **Fracture coverage:** 296 claim atoms distributed across 7 layers (L1–L7), each anchored to primary evidence via Record No. or L{N}-{NNN} citation.
+- **Five fracture subtypes:** F-SC (logical contradiction), F-CE (counter-evidence), F-MS (manipulation signal), F-SE (selective enforcement), F-AA (argument from absence/modus tollens).
+- **Open status:** 156 fractures flagged, 80+ CORROBORATED (strong), 20+ CORROBORATED (moderate), remainder NEEDS_MORE_EVIDENCE or under adjudication.
+- **Lint-driven generation:** This index is populated and pruned by the lint operation. Every new claim atom updates the fracture roll. Fractures are resolved when the adjudicating claim reaches verdict.
+- **Integration with claims system:** Each fracture entry links to a [[claims/_index|claim page]] where the evidence, counter-evidence, and Popper-style falsification test are recorded.
 
 ## Related
 
