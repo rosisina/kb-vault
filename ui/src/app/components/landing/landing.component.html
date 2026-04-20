@@ -123,25 +123,6 @@
     </div>
   </div>
 
-  <!-- Desktop: 최근 채팅 (sidebar 상단) -->
-  @if (chatHistory && chatHistory.length > 0) {
-    <div class="desktop-sidebar">
-      <div class="sidebar-section">
-        <div class="sidebar-label">
-          {{ lang.lang() === 'kr' ? '최근 채팅' : 'Recent Chats' }}
-        </div>
-        <div class="chat-history-list">
-          @for (h of chatHistory; track h.timestamp) {
-            <button class="chat-history-item" (click)="historyClick.emit(h.query)">
-              <span class="material-icons history-icon">history</span>
-              <span class="history-text">{{ h.query }}</span>
-            </button>
-          }
-        </div>
-      </div>
-    </div>
-  }
-
   <!-- Main: Heptagon (좌/중) + Chain Menu (우)  -->
   <!-- ══════════════════════════════════════════ -->
   <div class="main-area">
