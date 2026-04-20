@@ -10,10 +10,10 @@ $card-w: 210px;   // 호버 카드 폭 (chain 겹침 방지)
   width: 100%;
   box-sizing: border-box;
   overflow-x: hidden;
-  padding: 10px 0 32px;
+  padding: 10px 20px 32px;
 
-  @media (max-width: 768px) {
-    padding: 10px 20px 32px;
+  @media (min-width: 769px) {
+    padding-left: calc(20px + 300px);  // Account for fixed sidebar
   }
 }
 
@@ -49,34 +49,38 @@ $card-w: 210px;   // 호버 카드 폭 (chain 겹침 방지)
 
 .landing-sidebar {
   display: none;   // Hidden on mobile
-  width: 300px;  // Increased to match proof screen layout
-  flex-shrink: 0;
-  padding: 16px 16px 0;
-  border-right: 1px solid #e5e7eb;
 
   @media (min-width: 769px) {
     display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 100vh;
+    padding: 16px 16px 0;
+    border-right: 1px solid #e5e7eb;
+    overflow-y: auto;
+    z-index: 100;
   }
 }
 
 .landing-content-layout {
-  width: auto;  // Shrink to content width
+  width: 100%;
   display: flex;
   gap: 0;
   align-items: flex-start;
-  margin: 0 auto 24px;  // Center horizontally
+  margin-bottom: 24px;
   justify-content: center;
 
   @media (max-width: 768px) {
-    width: 100%;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 24px;
   }
 }
 
 .landing-main-content {
-  flex: 0 1 520px;  // Match search-box max-width
+  width: 100%;
+  max-width: 520px;  // Match search-box max-width
   display: flex;
   flex-direction: column;
   align-items: center;
