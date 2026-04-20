@@ -60,9 +60,9 @@ export class LandingViewComponent implements OnInit {
   strongCount = signal(0);
   totalRecordNos = signal(0);
 
-  private readonly RADIUS = 185;
-  private readonly CX = 240;
-  private readonly CY = 240;
+  private readonly RADIUS = 216;
+  private readonly CX = 280;
+  private readonly CY = 280;
 
   // 질문 예시
   exampleQueries: { kr: string; en: string }[] = [

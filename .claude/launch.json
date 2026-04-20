@@ -4,7 +4,7 @@
     {
       "name": "aurora-ui",
       "runtimeExecutable": "bash",
-      "runtimeArgs": ["-c", "cd /Users/a0/Projects/knowledge-base/ui && npm start"],
+      "runtimeArgs": ["-c", "cd /Users/a0/Projects/knowledge-base/ui && ng serve --open=false"],
       "port": 4200
     }
   ]
