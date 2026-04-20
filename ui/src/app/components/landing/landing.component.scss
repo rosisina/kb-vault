@@ -88,6 +88,7 @@ $card-w: 210px;   // 호버 카드 폭 (chain 겹침 방지)
 
 // Back button in sidebar (like proof screen)
 .sidebar-back-btn-container {
+  display: block;
   margin-bottom: 20px;  // Space before "최근 채팅"
   padding-bottom: 12px;
   border-bottom: 1px solid #e5e7eb;
