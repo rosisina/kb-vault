@@ -88,30 +88,34 @@ $card-w: 210px;   // 호버 카드 폭 (chain 겹침 방지)
 
 // Back button in sidebar (like proof screen)
 .sidebar-back-btn-container {
-  margin-bottom: 12px;
+  margin-bottom: 20px;  // Space before "최근 채팅"
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e5e7eb;
 }
 
 .sidebar-back-btn {
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 8px 8px;
+  padding: 10px 8px;
   background: none;
   border: none;
   cursor: pointer;
-  color: #6b7280;
+  color: #374151;
   font-size: 0.8rem;
+  font-weight: 500;
   width: 100%;
   border-radius: 4px;
   transition: all 0.2s ease;
 
   &:hover {
     background-color: #f3f4f6;
-    color: #374151;
+    color: #1f2937;
   }
 
   .material-icons {
     font-size: 18px;
+    flex-shrink: 0;
   }
 }
 
@@ -122,6 +126,7 @@ $card-w: 210px;   // 호버 카드 폭 (chain 겹침 방지)
   color: #9ca3af;
   letter-spacing: 0.5px;
   margin-bottom: 8px;
+  margin-top: 0;  // Ensure no extra spacing
 }
 
 .history-list {
@@ -314,7 +319,7 @@ $card-w: 210px;   // 호버 카드 폭 (chain 겹침 방지)
 }
 
 .node-circle {
-  width: 50px; height: 50px;
+  width: 58px; height: 58px;  // Scaled with heptagon (50 * 1.167)
   border-radius: 50%;
   background: white;
   border: 2.5px solid color-mix(in srgb, var(--lc) 30%, #e5e7eb);
@@ -324,19 +329,19 @@ $card-w: 210px;   // 호버 카드 폭 (chain 겹침 방지)
 }
 
 .node-num {
-  font-size: 1.1rem; font-weight: 800;
+  font-size: 1.28rem; font-weight: 800;  // Scaled (1.1 * 1.167)
   font-family: 'JetBrains Mono', monospace;
   color: var(--lc);
 }
 
 .node-label {
-  font-size: 0.71rem; font-weight: 600;
+  font-size: 0.83rem; font-weight: 600;  // Scaled (0.71 * 1.167)
   color: #4b5563; transition: color 0.2s;
 }
 
 .node-sublabel {
-  font-size: 0.63rem; color: #9ca3af;
-  text-align: center; max-width: 86px;
+  font-size: 0.73rem; color: #9ca3af;  // Scaled (0.63 * 1.167)
+  text-align: center; max-width: 100px;  // Scaled (86 * 1.167)
   line-height: 1.2; transition: color 0.2s;
 }
 
