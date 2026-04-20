@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "aurora-ui",
-      "runtimeExecutable": "bash",
-      "runtimeArgs": ["-c", "cd /Users/a0/Projects/knowledge-base/.claude/worktrees/hardcore-cerf-d5b6c0/ui && npm start -- --port 4200"],
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["start"],
       "port": 4200
     }
   ]
