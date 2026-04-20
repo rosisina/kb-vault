@@ -11,6 +11,7 @@ import { DocumentViewerComponent } from '../document-viewer/document-viewer.comp
 import { AtomMapComponent } from '../atom-map/atom-map.component';
 import { GraphDataService } from '../../services/graph-data.service';
 import { LanguageService } from '../../services/language.service';
+import { PresetAnswerService } from '../../services/preset-answer.service';
 import { ProofChain, GraphNode } from '../../models/graph.models';
 import { QueryAnswer } from '../../models/query-answer.models';
 
@@ -66,6 +67,7 @@ export class ProofShellComponent {
   constructor(
     public graphData: GraphDataService,
     public lang: LanguageService,
+    private presetService: PresetAnswerService,
   ) {
     this.loadChatHistory();
     // CP-2: load detail.json for atom body content
@@ -140,12 +142,20 @@ export class ProofShellComponent {
     }
   }
 
+  presetMatch = signal<{ answer: any; score: number } | null>(null);
   activeFacets = signal<any>(null);
 
   onSearch(query: string, facets?: any): void {
     this.addChatHistory(query);
     this.searchQuery.set(query);
     if (facets) this.activeFacets.set(facets);
+
+    // Attempt preset answer match first
+    const lang = this.lang.lang() === 'kr' ? 'kr' : 'en';
+    const match = this.presetService.findMatch(query, lang);
+    this.presetMatch.set(match);
+
+    // Search graph atoms in parallel
     const results = this.graphData.searchAtoms(
       query,
       this.activeLayer() ?? undefined,

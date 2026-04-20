@@ -56,6 +56,7 @@ export class EvidenceContextComponent implements OnChanges {
   @Input() selectedAtomId: string | null = null;
   @Input() activeLayer: number | null = null;
   @Input() answerContext: QueryAnswer | null = null;
+  @Input() presetMatch: { answer: any; score: number } | null = null;
   @Input() searchResults: GraphNode[] = [];
   @Output() openGraph = new EventEmitter<void>();
   @Output() atomSelect = new EventEmitter<string>();

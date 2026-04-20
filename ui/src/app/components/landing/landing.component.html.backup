@@ -1,0 +1,208 @@
+<!-- Aurora v2 Landing — Proof Constellation + Chain Menu -->
+<div class="landing-page">
+
+  <!-- ── 타이틀 ── -->
+  <div class="page-header">
+    <h1 class="page-title">Aurora Intelligence</h1>
+    <p class="page-subtitle">
+      {{ lang.lang() === 'kr'
+        ? '2016년 국방통합데이터센터 북한 해킹 — 조직적 은폐 범죄 증명 체계'
+        : '2016 DIDC North Korean Hacking — Organized Cover-up Proof System' }}
+    </p>
+  </div>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- Main: Heptagon (좌/중) + Chain Menu (우)  -->
+  <!-- ══════════════════════════════════════════ -->
+  <div class="main-area">
+
+    <!-- ── Proof Constellation ── -->
+    <div class="constellation">
+      <div class="logo-glow"></div>
+      <img class="constellation-logo" src="aurora-icon.png" alt="Aurora">
+
+      <!-- SVG 연결선 -->
+      <svg class="connections-svg" [attr.viewBox]="svgViewBox()">
+        @for (conn of connections(); track conn.from + '-' + conn.to) {
+          <line [attr.x1]="conn.x1" [attr.y1]="conn.y1"
+                [attr.x2]="conn.x2" [attr.y2]="conn.y2"
+                [class.highlighted]="isConnectionHighlighted(conn)"
+                [style.stroke]="connectionColor(conn)"
+                class="conn-line" />
+        }
+      </svg>
+
+      <!-- 7 Layer 노드 -->
+      @for (pos of nodePositions(); track pos.num) {
+        <div class="layer-node"
+             [style.left.px]="pos.x"
+             [style.top.px]="pos.y"
+             [style.--lc]="layerColors[pos.num]"
+             [class.node-hovered]="hoveredLayer() === pos.num"
+             [class.node-connected]="hoveredLayer() !== null && hoveredLayer() !== pos.num && layerConnections[hoveredLayer()!]?.includes(pos.num)"
+             (mouseenter)="hoveredLayer.set(pos.num)"
+             (mouseleave)="hoveredLayer.set(null)"
+             (click)="onLayerClick(pos.num)">
+          <div class="node-circle">
+            <span class="node-num">{{ pos.num }}</span>
+          </div>
+          <span class="node-label">{{ pos.num }}{{ lang.lang() === 'kr' ? '층위' : ' Layer' }}</span>
+          <span class="node-sublabel">{{ lang.lang() === 'kr' ? layerTitles[pos.num].kr : layerTitles[pos.num].en }}</span>
+
+          <!-- 호버 카드 -->
+          <div class="node-hover-card" [attr.data-dir]="pos.hoverDir">
+            <div class="card-header">
+              <span class="card-badge" [style.background]="layerColors[pos.num]">L{{ pos.num }}</span>
+              <span class="card-title">{{ pos.num }}{{ lang.lang() === 'kr' ? '층위 — ' : ' Layer — ' }}{{ lang.lang() === 'kr' ? layerTitles[pos.num].kr : layerTitles[pos.num].en }}</span>
+            </div>
+            <p class="card-body">{{ lang.lang() === 'kr' ? layerHovers[pos.num].kr : layerHovers[pos.num].en }}</p>
+            @if (getLayerStat(pos.num); as ls) {
+              <div class="card-stat">
+                <span class="card-stat-bar">
+                  <span class="card-stat-fill" [style.width.%]="ls.corrPct" [style.background]="ls.color"></span>
+                </span>
+                <span class="card-stat-text">{{ ls.corroborated }}/{{ ls.count }} ({{ ls.corrPct }}%)</span>
+              </div>
+            }
+          </div>
+        </div>
+      }
+
+    <!-- ── Chain Menu (우측 사슬, constellation 기준 absolute) ── -->
+    <nav class="chain-menu" [style.left.px]="chainLeftPx()">
+      <div class="chain-title">{{ lang.lang() === 'kr' ? '증명 탐색' : 'Proof Explorer' }}</div>
+      <div class="chain-line"></div>
+
+      <!-- 1. Guided Proof -->
+      <div class="chain-item"
+           (mouseenter)="hoveredTool.set('guided')"
+           (mouseleave)="hoveredTool.set(null)"
+           (click)="onToolClick('guided')">
+        <div class="chain-link">◇</div>
+        <div class="chain-content">
+          <span class="material-icons chain-icon">verified</span>
+          <span class="chain-label">Guided Proof</span>
+        </div>
+        @if (hoveredTool() === 'guided') {
+          <div class="chain-hover-card">
+            <p class="card-body">{{ lang.lang() === 'kr' ? tools[0].hoverKr : tools[0].hoverEn }}</p>
+          </div>
+        }
+      </div>
+
+      <!-- 2. 증명 체인 -->
+      <div class="chain-item"
+           (mouseenter)="hoveredTool.set('chain')"
+           (mouseleave)="hoveredTool.set(null)"
+           (click)="onToolClick('chain')">
+        <div class="chain-link">◇</div>
+        <div class="chain-content">
+          <span class="material-icons chain-icon">account_tree</span>
+          <span class="chain-label">{{ lang.lang() === 'kr' ? '증명 체인' : 'Proof Chain' }}</span>
+        </div>
+        @if (hoveredTool() === 'chain') {
+          <div class="chain-hover-card">
+            <p class="card-body">{{ lang.lang() === 'kr' ? tools[1].hoverKr : tools[1].hoverEn }}</p>
+          </div>
+        }
+      </div>
+
+      <!-- 3. 균열 -->
+      <div class="chain-item"
+           (mouseenter)="hoveredTool.set('fractures')"
+           (mouseleave)="hoveredTool.set(null)"
+           (click)="onToolClick('fractures')">
+        <div class="chain-link">◇</div>
+        <div class="chain-content">
+          <span class="material-icons chain-icon">compare_arrows</span>
+          <span class="chain-label">{{ lang.lang() === 'kr' ? '균열' : 'Fractures' }}</span>
+        </div>
+        @if (hoveredTool() === 'fractures') {
+          <div class="chain-hover-card">
+            <p class="card-body">{{ lang.lang() === 'kr' ? tools[2].hoverKr : tools[2].hoverEn }}</p>
+          </div>
+        }
+      </div>
+
+      <!-- 4. 필터 -->
+      <div class="chain-item"
+           (mouseenter)="hoveredTool.set('filter')"
+           (mouseleave)="hoveredTool.set(null)"
+           (click)="onToolClick('filter')">
+        <div class="chain-link">◇</div>
+        <div class="chain-content">
+          <span class="material-icons chain-icon">tune</span>
+          <span class="chain-label">{{ lang.lang() === 'kr' ? '필터' : 'Filter' }}</span>
+        </div>
+        @if (hoveredTool() === 'filter') {
+          <div class="chain-hover-card">
+            <p class="card-body">{{ lang.lang() === 'kr' ? tools[3].hoverKr : tools[3].hoverEn }}</p>
+          </div>
+        }
+      </div>
+
+      <!-- 5. 사건 개요 (하위 탭 포함) -->
+      <div class="chain-item chain-case"
+           (mouseenter)="hoveredTool.set('case')"
+           (mouseleave)="hoveredTool.set(null)">
+        <div class="chain-link chain-link-last">◇</div>
+        <div class="chain-content">
+          <span class="material-icons chain-icon">menu_book</span>
+          <span class="chain-label">{{ lang.lang() === 'kr' ? '사건 개요' : 'Case Overview' }}</span>
+        </div>
+        <!-- 하위 탭 (항상 표시) -->
+        <div class="case-sub-tabs">
+          @for (tab of ['incident','coverup','evidence','structure','implications']; track tab) {
+            <button class="case-sub-tab"
+                    [class.active]="activeCase() === tab"
+                    (mouseenter)="hoveredCase.set(tab)"
+                    (mouseleave)="hoveredCase.set(null)"
+                    (click)="toggleCase(tab); $event.stopPropagation()">
+              {{ lang.lang() === 'kr'
+                ? (tab === 'incident' ? '사건' : tab === 'coverup' ? '은폐' : tab === 'evidence' ? '증거' : tab === 'structure' ? '구조' : '함의')
+                : (tab === 'incident' ? 'Incident' : tab === 'coverup' ? 'Cover-up' : tab === 'evidence' ? 'Evidence' : tab === 'structure' ? 'Structure' : 'Implications') }}
+            </button>
+          }
+        </div>
+        <!-- 사건 개요 호버 (남쪽) -->
+        @if (hoveredCase(); as hc) {
+          <div class="case-hover-preview">
+            <p>{{ lang.lang() === 'kr' ? caseContent[hc].kr : caseContent[hc].en }}</p>
+          </div>
+        }
+        <!-- 클릭 시 펼침 -->
+        @if (activeCase(); as tab) {
+          <div class="case-expanded">
+            <p>{{ lang.lang() === 'kr' ? caseContent[tab].kr : caseContent[tab].en }}</p>
+          </div>
+        }
+      </div>
+    </nav>
+    </div>  <!-- /constellation -->
+  </div>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- 검색창 + 질문 예시 -->
+  <!-- ══════════════════════════════════════════ -->
+  <div class="search-hero">
+    <div class="search-box">
+      <div class="search-input-row">
+        <input class="search-input"
+               [(ngModel)]="searchQuery"
+               (keyup.enter)="onSearch()"
+               [placeholder]="lang.lang() === 'kr' ? '오로라에게 질문해 보세요' : 'Ask Aurora'">
+        <button class="search-submit" (click)="onSearch()">
+          <span class="material-icons">send</span>
+        </button>
+      </div>
+    </div>
+    <div class="example-queries">
+      @for (q of exampleQueries; track $index) {
+        <button class="example-btn" (click)="onExampleClick(q)">
+          {{ lang.lang() === 'kr' ? q.kr : q.en }}
+        </button>
+      }
+    </div>
+  </div>
+
+</div>

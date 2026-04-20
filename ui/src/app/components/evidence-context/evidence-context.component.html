@@ -24,6 +24,34 @@
   }
 
   <!-- ═══════════════════════════════════ -->
+  <!-- Preset Answer (검색 시, 일치하는 경우) -->
+  <!-- ═══════════════════════════════════ -->
+  @if (presetMatch && !selectedAtom()) {
+    <div class="section preset-answer">
+      <div class="section-label">
+        {{ lang.lang() === 'kr' ? '증거 기반 답변' : 'Evidence-Based Answer' }}
+      </div>
+      <div class="preset-score">
+        {{ lang.lang() === 'kr' ? '일치도:' : 'Match:' }} {{ (presetMatch.score * 100).toFixed(0) }}%
+      </div>
+      <div class="preset-answer-text">
+        {{ lang.lang() === 'kr' ? presetMatch.answer.answer_ko : presetMatch.answer.answer_en }}
+      </div>
+      @if (presetMatch.answer.relatedAtoms && presetMatch.answer.relatedAtoms.length > 0) {
+        <div class="preset-related-label">
+          {{ lang.lang() === 'kr' ? '관련 발견사항' : 'Related Findings' }}
+        </div>
+        @for (atomId of presetMatch.answer.relatedAtoms.slice(0, 5); track atomId) {
+          <div class="preset-related-item" (click)="atomSelect.emit(atomId)">
+            <span class="material-icons">link</span>
+            <span class="atom-link">{{ atomId }}</span>
+          </div>
+        }
+      }
+    </div>
+  }
+
+  <!-- ═══════════════════════════════════ -->
   <!-- CP-2: 답변 context (검색 시) -->
   <!-- ═══════════════════════════════════ -->
   @if (answerContext && !selectedAtom()) {
