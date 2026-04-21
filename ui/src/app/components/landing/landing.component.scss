@@ -670,21 +670,31 @@ $card-w: 210px;   // 호버 카드 폭 (chain 겹침 방지)
 }
 
 .example-queries {
-  display: flex; flex-wrap: wrap; gap: 6px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 24px;
   justify-content: center;
   margin-top: 10px;
   padding: 0 8px;
+  overflow-x: auto;
 }
 
 .example-btn {
-  padding: 5px 12px;
-  border: 1px solid #e5e7eb; border-radius: 14px;
-  background: #fafafa; color: #6b7280;
-  font-size: 0.72rem; cursor: pointer;
+  padding: 0;
+  border: none;
+  background: none;
+  color: #6b7280;
+  font-size: 0.72rem;
+  cursor: pointer;
   transition: all 0.15s;
-  max-width: 520px;
-  text-align: left; line-height: 1.3;
-  &:hover { background: #f3f4f6; color: #374151; border-color: #d1d5db; }
+  text-align: left;
+  white-space: nowrap;
+  flex-shrink: 0;
+
+  &:hover {
+    background: none;
+    color: #374151;
+  }
 }
 
 // ── 반응형 ──
