@@ -68,8 +68,9 @@ export class LandingViewComponent implements OnInit {
   // 질문 예시 (preset-answers.json의 실제 질문)
   exampleQueries: { kr: string; en: string }[] = [
     { kr: '2016년 DIDC 해킹 사건의 \'진짜\' 침투 경로가 舊KIATIS였다는 사실이 왜 7층위 증명체계의 출발점이 되는가?', en: 'Why is the fact that the 2016 DIDC hacking incident\'s \'true\' penetration vector was the legacy KIATIS the starting point of the 7-layer proof system?' },
-    { kr: 'aurora v2 프로젝트가 정의하는 \'조직적이면서 조작된 악(Organized & Manipulated Evil)\'은 한나 아렌트의 \'악의 평범성\'과 어떻게 차별화되는가?', en: 'How does Aurora v2 project\'s concept of \'Organized & Manipulated Evil\' differ from Hannah Arendt\'s \'Banality of Evil\'?' },
-    { kr: '13,528쪽의 증거 기록 중 \'디지털 흔적\'이 국방 정보화 카르텔에게 왜 \'양날의 검\'이 되었는가?', en: 'Among the 13,528 pages of evidence records, why did \'digital traces\' become a \'double-edged sword\' for the Defense Information Cartel?' },
+    { kr: '사업 승인 문서에서 국유단이 \'사업 통제 기관\'으로 설정된 구조적 모순은 무엇인가?', en: 'What is the structural contradiction in the project approval documents where the National Institute of Korean History (MKIA) was designated as the \'project control agency\'?' },
+    { kr: '99.7점이라는 고득점의 군 적합 판정이 어떻게 \'부실 개발\'의 근거가 될 수 있는가?', en: 'How can a high score of 99.7% military suitability rating become evidence of defective development?' },
+    { kr: '감리 결과 보고서의 \'우수\' 판정을 군 검찰단이 의도적으로 누락시킨 법적 책임은 누구에게 있는가?', en: 'Who bears legal responsibility for the military prosecution\'s intentional omission of the \'excellent\' evaluation from the supervision result report?' },
   ];
 
   layerColors = [
