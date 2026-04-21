@@ -59,7 +59,8 @@ export class PresetAnswerService {
     return best;
   }
 
-  /** Return top N matches regardless of threshold (for "suggested questions" UI). */
+  /** Return top N matches regardless of threshold (for "suggested questions" UI).
+   *  Searches both question title and answer content for better keyword matching. */
   topMatches(query: string, lang: 'kr' | 'en', n = 5): PresetMatchResult[] {
     if (!this.loaded() || this.answers.length === 0) return [];
     const terms = this.tokenize(query);
@@ -67,8 +68,12 @@ export class PresetAnswerService {
 
     return this.answers
       .map(answer => {
+        // Search in both question title and answer content
         const qText = lang === 'en' ? answer.q_en : answer.q_ko;
-        const score = this.jaccardSim(terms, this.tokenize(qText));
+        const aText = lang === 'en' ? answer.answer_en : answer.answer_ko;
+        const combinedText = qText + ' ' + aText;
+
+        const score = this.jaccardSim(terms, this.tokenize(combinedText));
         return { answer, score };
       })
       .filter(r => r.score > 0)
