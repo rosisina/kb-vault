@@ -4,6 +4,7 @@ import { Component, OnInit, Input, Output, EventEmitter, signal } from '@angular
 import { FormsModule } from '@angular/forms';
 import { GraphDataService } from '../../services/graph-data.service';
 import { LanguageService } from '../../services/language.service';
+import { PresetAnswerService } from '../../services/preset-answer.service';
 import { GraphNode } from '../../models/graph.models';
 
 interface LayerStat {
@@ -43,6 +44,7 @@ export class LandingViewComponent implements OnInit {
   layers = signal<LayerStat[]>([]);
   searchQuery = '';
   hoveredLayer = signal<number | null>(null);
+  suggestedQuestions = signal<any[]>([]);
   hoveredTool = signal<string | null>(null);
   hoveredCase = signal<string | null>(null);
   activeCase = signal<string | null>(null);
@@ -190,6 +192,7 @@ export class LandingViewComponent implements OnInit {
   constructor(
     private graphData: GraphDataService,
     public lang: LanguageService,
+    private presetService: PresetAnswerService,
   ) {}
 
   ngOnInit(): void {
@@ -323,7 +326,26 @@ export class LandingViewComponent implements OnInit {
   onSearch(): void {
     if (this.searchQuery.trim()) {
       this.search.emit(this.searchQuery.trim());
+      this.suggestedQuestions.set([]);
     }
+  }
+
+  onSearchInput(): void {
+    const query = this.searchQuery.trim();
+    if (query.length > 0) {
+      const lang = this.lang.lang() === 'kr' ? 'kr' : 'en';
+      const suggestions = this.presetService.topMatches(query, lang, 5);
+      this.suggestedQuestions.set(suggestions.map(s => s.answer));
+    } else {
+      this.suggestedQuestions.set([]);
+    }
+  }
+
+  onSuggestionClick(question: any): void {
+    const query = this.lang.lang() === 'kr' ? question.q_ko : question.q_en;
+    this.searchQuery = query;
+    this.suggestedQuestions.set([]);
+    this.search.emit(query);
   }
 
   onExampleClick(q: { kr: string; en: string }): void {
