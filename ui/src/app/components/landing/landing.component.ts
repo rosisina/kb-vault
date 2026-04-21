@@ -67,12 +67,10 @@ export class LandingViewComponent implements OnInit {
   private readonly CX = 280;
   private readonly CY = 280;
 
-  // 질문 예시 (preset-answers.json의 실제 질문)
+  // 질문 예시 (preset-answers.json의 실제 질문) - Q001, Q037만 표시
   exampleQueries: { kr: string; en: string }[] = [
     { kr: '2016년 DIDC 해킹 사건의 \'진짜\' 침투 경로가 舊KIATIS였다는 사실이 왜 7층위 증명체계의 출발점이 되는가?', en: 'Why is the fact that the 2016 DIDC hacking incident\'s \'true\' penetration vector was the legacy KIATIS the starting point of the 7-layer proof system?' },
-    { kr: '사업 승인 문서에서 국유단이 \'사업 통제 기관\'으로 설정된 구조적 모순은 무엇인가?', en: 'What is the structural contradiction in the project approval documents where the National Institute of Korean History (MKIA) was designated as the \'project control agency\'?' },
     { kr: '99.7점이라는 고득점의 군 적합 판정이 어떻게 \'부실 개발\'의 근거가 될 수 있는가?', en: 'How can a high score of 99.7% military suitability rating become evidence of defective development?' },
-    { kr: '감리 결과 보고서의 \'우수\' 판정을 군 검찰단이 의도적으로 누락시킨 법적 책임은 누구에게 있는가?', en: 'Who bears legal responsibility for the military prosecution\'s intentional omission of the \'excellent\' evaluation from the supervision result report?' },
   ];
 
   layerColors = [
