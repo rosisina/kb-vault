@@ -417,7 +417,7 @@
     <div class="example-queries">
       @for (q of exampleQueries; track $index) {
         <button class="example-btn" (click)="onExampleClick(q)">
-          {{ lang.lang() === 'kr' ? q.kr : q.en }}
+          {{ lang.lang() === 'kr' ? '(질의 예시) ' + q.kr : '(Example Question) ' + q.en }}
         </button>
       }
     </div>
@@ -425,12 +425,6 @@
 
   <!-- Footer -->
   <footer class="landing-footer">
-    <p class="footer-disclaimer">
-      {{ lang.lang() === 'kr'
-        ? 'AI 합성 답변 포함 — 법적 증거 효력 없음. 모든 인명은 가명 처리. 원전(Record No.) 직접 확인 권장.'
-        : 'Contains AI-synthesized answers — no legal evidentiary weight. All persons are pseudonymized. Verify against primary sources (Record No.).'
-      }}
-    </p>
     <button class="footer-link" (click)="aboutOpen.emit()">
       {{ lang.lang() === 'kr' ? '정보 및 면책 고지 전문' : 'Full Disclaimer & About' }}
     </button>

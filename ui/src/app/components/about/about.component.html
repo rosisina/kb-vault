@@ -31,6 +31,12 @@
         <ul>
           <li>
             {{ lang.lang() === 'kr'
+              ? 'UI의 검색창에 질문한 내용에 대한 답변 내용은 원전 증거를 기반으로 LLM이 생성한 합성 답변입니다. 법적 효력을 갖지 않으며, 특히 법정 제출 전에는 반드시 Record No.로 표시된 원전 자료를 직접 확인하시기 바랍니다.'
+              : 'Answers generated in response to queries entered in the search box are AI-synthesized responses based on primary evidence. They have no legal evidentiary weight. Before any legal use, verify the original source materials directly via Record No. citations.'
+            }}
+          </li>
+          <li>
+            {{ lang.lang() === 'kr'
               ? '본 시스템에 수록된 모든 인명은 가명 처리되었습니다. 실명은 어디에도 표시되지 않습니다.'
               : 'All persons referenced in this system are identified by pseudonyms. No real names appear anywhere in the system.'
             }}
