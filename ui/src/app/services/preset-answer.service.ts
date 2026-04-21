@@ -94,16 +94,17 @@ export class PresetAnswerService {
   }
 
   /** Soft recall: fraction of tokens in `a` that match any token in `b`.
-   *  Match rules (in order): exact → substring (≥3) → Korean 2-char prefix */
+   *  Match rules (in order): exact → substring (≥2) → Korean 2-char prefix */
   private jaccardSim(a: Set<string>, b: Set<string>): number {
     if (a.size === 0 || b.size === 0) return 0;
     const isKorean = (t: string) => /[가-힣]/.test(t);
     const softMatch = (t: string, s: Set<string>): boolean => {
       if (s.has(t)) return true;
       for (const u of s) {
-        if (t.length >= 3 && u.length >= 3 && (t.includes(u) || u.includes(t))) return true;
+        // Substring match: 2글자 이상 (한글 키워드 '북한' ↔ '북한 해킹' 지원)
+        if (t.length >= 2 && u.length >= 2 && (t.includes(u) || u.includes(t))) return true;
         // Korean 2-char prefix: 이력이 ↔ 이력을, 삭제되었나 ↔ 삭제하는
-        if (isKorean(t) && isKorean(u) && t.length >= 3 && u.length >= 3 && t.slice(0, 2) === u.slice(0, 2)) return true;
+        if (isKorean(t) && isKorean(u) && t.length >= 2 && u.length >= 2 && t.slice(0, 2) === u.slice(0, 2)) return true;
       }
       return false;
     };

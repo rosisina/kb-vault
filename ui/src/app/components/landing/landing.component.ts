@@ -333,8 +333,14 @@ export class LandingViewComponent implements OnInit {
   onSearchInput(): void {
     const query = this.searchQuery.trim();
     if (query.length > 0) {
+      // Ensure preset answers are loaded before querying
+      if (!this.presetService.loaded()) {
+        this.suggestedQuestions.set([]);
+        return;
+      }
+
       const lang = this.lang.lang() === 'kr' ? 'kr' : 'en';
-      const suggestions = this.presetService.topMatches(query, lang, 5);
+      const suggestions = this.presetService.topMatches(query, lang, 8);
       this.suggestedQuestions.set(suggestions.map(s => s.answer));
     } else {
       this.suggestedQuestions.set([]);
