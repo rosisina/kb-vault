@@ -191,6 +191,55 @@
   color: #737373;
 }
 
+// ── Preset Answer (검색 결과 일치도) ──
+.preset-answer {
+  border-bottom: 1px solid #e8eaf6;
+  padding-bottom: 12px;
+}
+
+.preset-score {
+  font-size: 0.82rem;
+  color: var(--aurora-text-secondary);
+  margin-bottom: 8px;
+}
+
+.preset-answer-text {
+  font-size: 0.78rem;
+  color: var(--aurora-text);
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.preset-related-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #737373;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  margin-top: 8px;
+  padding-bottom: 4px;
+}
+
+.preset-related-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 6px;
+  cursor: pointer;
+  border-left: 2px solid transparent;
+  transition: all 0.15s;
+  &:hover {
+    border-left-color: var(--aurora-primary-light);
+    background: #fafafa;
+  }
+}
+
+.atom-link {
+  font-size: 0.78rem;
+  color: #737373;
+  .preset-related-item:hover & { color: var(--aurora-text); }
+}
+
 // ── 답변 context (CP-2) ──
 .answer-ctx {
   border-bottom: 1px solid #e8eaf6;
