@@ -65,11 +65,11 @@ export class LandingViewComponent implements OnInit {
   private readonly CX = 280;
   private readonly CY = 280;
 
-  // 질문 예시
+  // 질문 예시 (preset-answers.json의 실제 질문)
   exampleQueries: { kr: string; en: string }[] = [
-    { kr: '舊KIATIS 해킹 경로는 어떻게 은폐되었나?', en: 'How was the old KIATIS hacking route concealed?' },
-    { kr: '한지훈 중령에 대한 허위 신고 시점과 동기는?', en: 'When and why was the false report filed against Lt. Col. Han?' },
-    { kr: '군 검찰의 증거 인멸 방법은?', en: 'How did military prosecutors destroy evidence?' },
+    { kr: '2016년 DIDC 해킹 사건의 \'진짜\' 침투 경로가 舊KIATIS였다는 사실이 왜 7층위 증명체계의 출발점이 되는가?', en: 'Why is the fact that the 2016 DIDC hacking incident\'s \'true\' penetration vector was the legacy KIATIS the starting point of the 7-layer proof system?' },
+    { kr: 'aurora v2 프로젝트가 정의하는 \'조직적이면서 조작된 악(Organized & Manipulated Evil)\'은 한나 아렌트의 \'악의 평범성\'과 어떻게 차별화되는가?', en: 'How does Aurora v2 project\'s concept of \'Organized & Manipulated Evil\' differ from Hannah Arendt\'s \'Banality of Evil\'?' },
+    { kr: '13,528쪽의 증거 기록 중 \'디지털 흔적\'이 국방 정보화 카르텔에게 왜 \'양날의 검\'이 되었는가?', en: 'Among the 13,528 pages of evidence records, why did \'digital traces\' become a \'double-edged sword\' for the Defense Information Cartel?' },
   ];
 
   layerColors = [
