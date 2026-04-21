@@ -671,12 +671,13 @@ $card-w: 210px;   // 호버 카드 폭 (chain 겹침 방지)
 
 .example-queries {
   display: flex;
-  flex-wrap: nowrap;
-  gap: 24px;
+  flex-direction: column;
+  gap: 8px;
   justify-content: center;
+  align-items: center;
   margin-top: 10px;
   padding: 0 8px;
-  overflow-x: auto;
+  width: 100%;
 }
 
 .example-btn {
@@ -687,13 +688,15 @@ $card-w: 210px;   // 호버 카드 폭 (chain 겹침 방지)
   font-size: 0.72rem;
   cursor: pointer;
   transition: all 0.15s;
-  text-align: left;
+  text-align: center;
   white-space: nowrap;
-  flex-shrink: 0;
+  width: 100%;
+  max-width: 560px;
 
   &:hover {
     background: none;
     color: #374151;
+    text-decoration: underline;
   }
 }
 
